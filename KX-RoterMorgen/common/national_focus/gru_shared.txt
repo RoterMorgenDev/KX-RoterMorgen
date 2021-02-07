@@ -261,8 +261,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_iva
 		icon = GFX_GRU_iva-3955
-		x = 26
-		y = 6
+		relative_position_id = GRU_nmdvp_victory
+		x = -7
+		y = 2
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_iva"
@@ -358,15 +359,16 @@ shared_focus = {
 						}
 		}
 
-		prerequisite = { focus = GRU_nmdvp_victory focus = GRU_pieck  }
+		prerequisite = { focus = GRU_proclaim_victory_over_judeo_capitalism focus = GRU_pieck  }
 	}
 
 	#R.v.A.
 shared_focus = {
 		id = GRU_rva
 		icon = GFX_GRU_rva-3956
-		x = 28
-		y = 6
+		relative_position_id = GRU_nmdvp_victory
+		x = -5
+		y = 2
 		cost = 5
 		completion_reward = {
 					log = "[GetDateText]: [Root.GetName]: Focus GRU_rva"
@@ -402,7 +404,7 @@ shared_focus = {
 						}
 				}
 
-		prerequisite = { focus = GRU_nmdvp_victory focus = GRU_pieck  }
+		prerequisite = { focus = GRU_proclaim_victory_over_judeo_capitalism focus = GRU_pieck  }
 	}
 
 	#Found the FDJ
@@ -426,7 +428,7 @@ shared_focus = {
 		id = GRU_nationalize_ufa
 		icon = GFX_GRU_nationalize_ufa-3952
 		relative_position_id = GRU_nmdvp_victory
-		x = 2
+		x = -2
 		y = 2
 		cost = 5
 		completion_reward = {
@@ -461,7 +463,7 @@ shared_focus = {
 shared_focus = {
 		id = GRU_sepd_victory
 		icon = GFX_GRU_sepd_victory-3942
-		x = 18
+		x = 20
 		y = 4
 		cost = 1
 		available = {
@@ -484,7 +486,7 @@ shared_focus = {
 shared_focus = {
 		id = GRU_nmdvp_victory
 		icon = GFX_GRU_nmdvp_victory-3943
-		x = 33
+		x = 36
 		y = 4
 		cost = 1
 		completion_reward = {
@@ -507,8 +509,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_kommandowirtschaft
 		icon = GFX_GRU_kommandowirtschaft-3954
-		x = 27
-		y = 7
+		relative_position_id = GRU_nmdvp_victory
+		x = -6
+		y = 3
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_neue_schwerindustrie"
@@ -525,7 +528,7 @@ shared_focus = {
 		id = GRU_form_the_stasi
 		icon = GFX_GRU_form_the_stasi-3951
 		relative_position_id = GRU_nmdvp_victory
-		x = -2
+		x = 2
 		y = 2
 		cost = 5
 		completion_reward = {
@@ -541,7 +544,7 @@ shared_focus = {
 		id = GRU_gleichschaltung
 		icon = GFX_GRU_gleichschaltung-3953
 		relative_position_id = GRU_nmdvp_victory
-		x = 1
+		x = -1
 		y = 3
 		cost = 5
 		completion_reward = {
@@ -560,7 +563,7 @@ shared_focus = {
 		id = GRU_volksgesundheitsamt
 		icon = GRU_GESUNDHEIT
 		relative_position_id = GRU_nmdvp_victory
-		x = -1
+		x = 1
 		y = 3
 		cost = 5
 		completion_reward = {
@@ -577,7 +580,7 @@ shared_focus = {
 		id = GRU_volkssturm
 		icon = GFX_GRU_volkssturm
 		relative_position_id = GRU_nmdvp_victory
-		x = -1
+		x = 1
 		y = 1
 		cost = 5
 		completion_reward = {
@@ -591,7 +594,7 @@ shared_focus = {
 		id = GRU_proclaim_victory_over_judeo_capitalism
 		icon = GRU_JUDEO_CAPITALISM
 		relative_position_id = GRU_nmdvp_victory
-		x = 1
+		x = -1
 		y = 1
 		cost = 5
 		completion_reward = {
@@ -689,7 +692,7 @@ shared_focus = {
 		id = GRU_thalmann
 		icon = GFX_GRU_thalmann-3970
 		relative_position_id = GRU_sepd_victory
-		x = -4
+		x = -6
 		y = 1
 		cost = 1
 		available = {
@@ -721,7 +724,7 @@ shared_focus = {
 	}
 	shared_focus = {
 		id = GRU_thalmann_power_to_party
-		icon = GRU_
+		icon = GRU_EMPOWER_PARTY
 		relative_position_id = GRU_thalmann
 		x = 0
 		y = 2
@@ -731,70 +734,69 @@ shared_focus = {
 		prerequisite = { focus = GRU_thalmann_total_gender_equality  }
 	}
 	shared_focus = {
-		id = GRU_thalmann_modern_art
-		icon = GRU_
+		id = GRU_thalman_culture_revolution
+		icon = GRU_CULTURE_REV
 		relative_position_id = GRU_thalmann
-		x = -2
-		y = 2
+		x = -1
+		y = 4
 		cost = 1
 
-		prerequisite = { focus = GRU_thalmann_red_patriotism  }
-		prerequisite = { focus = GRU_thalmann_total_gender_equality  }
+		prerequisite = { focus = GRU_thalmann_gestapo  }
+		prerequisite = { focus = GRU_thalmann_rural_housing_programm  }
+		prerequisite = { focus = GRU_thalmann_direct_union_control  }
 	}
 shared_focus = {
 		id = GRU_thalmann_direct_union_control
-		icon = GRU_
+		icon = GRU_NO_DEMOCRACY
 		relative_position_id = GRU_thalmann
-		x = -1
+		x = 0
 		y = 3
 		cost = 1
 
 		prerequisite = { focus = GRU_thalmann_power_to_party  }
-		prerequisite = { focus = GRU_thalmann_modern_art  }
 	}
 shared_focus = {
 		id = GRU_thalmann_rural_housing_programm
-		icon = GRU_
+		icon = GRU_HOUSING_PROG
 		relative_position_id = GRU_thalmann
-		x = 1
+		x = 2
 		y = 3
 		cost = 1
 
 		prerequisite = { focus = GRU_thalmann_power_to_party  }
-		prerequisite = { focus = GRU_thalmann_modern_art  }
 		prerequisite = { focus = GRU_welfare  }
 	}
 	shared_focus = {
 		id = GRU_thalmann_gestapo
-		icon = GRU_
+		icon = GRU_GESTAPO
 		relative_position_id = GRU_thalmann
 		x = -2
-		y = 4
+		y = 3
 		cost = 1
 
-		prerequisite = { focus = GRU_thalmann_rural_housing_programm  }
-		prerequisite = { focus = GRU_thalmann_direct_union_control  }
+		prerequisite = { focus = GRU_thalmann_power_to_party  }
 	}
 	shared_focus = {
 		id = GRU_thalmann_trail_pieck
-		icon = GRU_
+		icon = GRU_SILENCE_PIECK
 		relative_position_id = GRU_thalmann
-		x = 0
+		x = 1
 		y = 4
 		cost = 1
 
+		prerequisite = { focus = GRU_thalmann_gestapo  }
 		prerequisite = { focus = GRU_thalmann_rural_housing_programm  }
 		prerequisite = { focus = GRU_thalmann_direct_union_control  }
 	}
 	shared_focus = {
 		id = GRU_thalmann_germany
-		icon = GRU_
+		icon = GRU_THALMANN_GERMANY
 		relative_position_id = GRU_thalmann
 		x = 0
 		y = 5
 		cost = 1
 
-		prerequisite = { focus = GRU_thalmann_gestapo  }
+		prerequisite = { focus = GRU_thalman_culture_revolution  }
 		prerequisite = { focus = GRU_thalmann_trail_pieck  }
 		prerequisite = { focus = GRU_free_universities  }
 	}
@@ -837,7 +839,7 @@ shared_focus = {
 		id = GRU_pieck
 		icon = GFX_GRU_pieck-3969
 		relative_position_id = GRU_sepd_victory
-		x = 4
+		x = 6
 		y = 1
 		cost = 1
 		available = {
@@ -875,7 +877,7 @@ shared_focus = {
 		id = GRU_pieck_chairman
 		icon = GRU_PIECK_CHAIRMAN
 		relative_position_id = GRU_pieck
-		x = 1
+		x = 0
 		y = 2
 		cost = 5
 		completion_reward = {
@@ -889,7 +891,7 @@ shared_focus = {
 		id = GRU_pieck_working_women
 		icon = GRU_PIECK_WORKING_WOMAN
 		relative_position_id = GRU_pieck
-		x = 1
+		x = 0
 		y = 3
 		cost = 5
 		completion_reward = {
@@ -901,7 +903,7 @@ shared_focus = {
 		id = GRU_pieck_propaganda
 		icon = GRU_PIECK_propaganda
 		relative_position_id = GRU_pieck
-		x = -1
+		x = -2
 		y = 3
 		cost = 5
 		completion_reward = {
@@ -914,7 +916,7 @@ shared_focus = {
 		id = GRU_pieck_brutalist_architecture
 		icon = GRU_PIECK_BRUTALISM
 		relative_position_id = GRU_pieck
-		x = 3
+		x = 2
 		y = 3
 		cost = 5
 		completion_reward = {
@@ -926,7 +928,7 @@ shared_focus = {
 		id = GRU_pieck_five_year_plans
 		icon = GRU_PIECK_five_year_plan
 		relative_position_id = GRU_pieck
-		x = 2
+		x = 1
 		y = 4
 		cost = 5
 		completion_reward = {
@@ -940,7 +942,7 @@ shared_focus = {
 		id = GRU_pieck_kill_syndies
 		icon = GRU_PIECK_SYNDIE_KILL
 		relative_position_id = GRU_pieck
-		x = 0
+		x = -1
 		y = 4
 		cost = 5
 		completion_reward = {
@@ -1057,8 +1059,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_mfsp
 		icon = GFX_GRU_mfsp-3973
-		x = 25
-		y = 11
+		relative_position_id = GRU_nmdvp_victory
+		x = -8
+		y = 7
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_mfsp"
@@ -1071,8 +1074,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_agrarian_collectivisation
 		icon = GRU_AGRARIAN_COLL
-		x = 27
-		y = 9
+		relative_position_id = GRU_nmdvp_victory
+		x = -6
+		y = 5
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_agrarian_collectivisation"
@@ -1090,8 +1094,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_neue_schwerindustrie
 		icon = GFX_GRU_neue_schwerindustrie-3965
-		x = 27
-		y = 10
+		relative_position_id = GRU_nmdvp_victory
+		x = -6
+		y = 6
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_neue_schwerindustrie"
@@ -1106,8 +1111,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_spzproj_uran
 		icon = GFX_GRU_spzproj_uran-3975
-		x = 24
-		y = 12
+		relative_position_id = GRU_nmdvp_victory
+		x = -9
+		y = 8
 		cost = 5
 		completion_reward = {
 					log = "[GetDateText]: [Root.GetName]: Focus GRU_spzproj_uran"
@@ -1126,8 +1132,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_spzprojpfeil
 		icon = GFX_focus_rocketry
-		x = 25
-		y = 13
+		relative_position_id = GRU_nmdvp_victory
+		x = -8
+		y = 9
 		cost = 5
 		completion_reward = {
 					log = "[GetDateText]: [Root.GetName]: Focus GRU_spzprojpfeil"
@@ -1633,7 +1640,7 @@ shared_focus = {
 shared_focus = {
 		id = GRU_formation_of_the_nva
 		icon = GFX_GRU_formation_of_the_nva-4002
-		x = 43
+		x = 46
 		y = 3
 		cost = 5
 		completion_reward = {
@@ -2182,8 +2189,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_hydroelectric_power
 		icon = GFX_GRU_hydroelectric_power-4048
-		x = 26
-		y = 12
+		relative_position_id = GRU_nmdvp_victory
+		x = -7
+		y = 8
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_hydroelectric_power"
