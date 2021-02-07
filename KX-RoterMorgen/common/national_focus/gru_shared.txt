@@ -704,7 +704,7 @@ shared_focus = {
 	}
 shared_focus = {
 		id = GRU_thalmann_red_patriotism
-		icon = GRU_
+		icon = GRU_RED_PATRIOT
 		relative_position_id = GRU_thalmann
 		x = 1
 		y = 1
@@ -714,7 +714,7 @@ shared_focus = {
 	}
 shared_focus = {
 		id = GRU_thalmann_total_gender_equality
-		icon = GRU_
+		icon = GRU_FEMINISM
 		relative_position_id = GRU_thalmann
 		x = -1
 		y = 1
