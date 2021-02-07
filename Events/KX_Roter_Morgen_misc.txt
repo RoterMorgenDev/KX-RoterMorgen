@@ -1,0 +1,1085 @@
+add_namespace = rotermorgenmisc
+
+country_event = { # SYNTHWAVE
+	id = rotermorgenmisc.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.1" }
+	title = rotermorgenmisc.1.t
+	desc = rotermorgenmisc.1.d
+	picture = GFX_report_event_synthwave
+	is_triggered_only = yes
+	
+	option = { # SYNTHWAVE yes
+		name = rotermorgenmisc.1.a
+		add_ideas = GRU_SYNTHWAVE
+	}
+	option = { # SYNTHWAVE no
+		name = rotermorgenmisc.1.b
+		add_manpower = -1
+	}
+}
+country_event = { # portraitswapper
+	id = rotermorgenmisc.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.2" }
+	title = rotermorgenmisc.2.t
+	desc = rotermorgenmisc.2.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+	create_country_leader = {
+							name = "Josef Goebbels"
+							desc = "GRU_GOEBBELS_DESC"
+							picture = "gfx/leaders/GRU/Portrait_Germany_Josef_Goebbels_12.tga"
+							expire = "1965.1.1"
+							ideology = totalist_subtype
+				}
+	add_country_leader_trait = gru_froncophobe
+	}
+}
+
+
+country_event = { # allignment
+	id = rotermorgenmisc.40
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.40" }
+	title = rotermorgenmisc.40.t
+	desc = rotermorgenmisc.40.d
+	is_triggered_only = yes
+	
+	option = { # join germany
+		name = rotermorgenmisc.40.a
+		ai_chance = {
+			factor = 90
+		}
+		GRU = {
+		add_to_faction = ROOT
+		}
+	}
+	option = { # fuck germany
+		name = rotermorgenmisc.40.b
+		ai_chance = {
+			factor = 10
+		}
+		add_opinion_modifier = {
+			target = GRU
+			modifier = ITA_dislikes_govt
+		}
+	}
+}
+
+country_event = { # country now leaves the french
+	id = rotermorgenmisc.50
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.50" }
+	title = rotermorgenmisc.50.t
+	desc = rotermorgenmisc.50.d
+	is_triggered_only = yes
+	
+	option = { # fuck france
+		name = rotermorgenmisc.50.a
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = GRU
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 100
+				has_opinion = {
+					target = GRU
+					value > 60
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction_with = FRA
+			}
+			leave_faction = yes
+		}
+		if = {
+			limit = {
+				is_subject = no
+				has_war_with = GRU
+			}
+			separate_peace_all_wars = yes
+		}
+	}
+	option = { # fuck germany
+		name = rotermorgenmisc.50.b
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 100
+				has_opinion = {
+					target = GRU
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = GRU
+					value > 60
+				}
+			}
+		}
+		add_opinion_modifier = {
+			target = GRU
+			modifier = ITA_dislikes_govt
+		}
+	}
+}
+
+country_event = { # war against france for french puppet
+	id = rotermorgenmisc.60
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.60" }
+	title = rotermorgenmisc.60.t
+	desc = rotermorgenmisc.60.d
+	is_triggered_only = yes
+	
+	option = { # fuck france
+		name = rotermorgenmisc.60.a
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = GRU
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 100
+				has_opinion = {
+					target = GRU
+					value > 60
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_in_faction_with = FRA
+			}
+			leave_faction = yes
+			FRA = { end_puppet = ROOT }
+			ROOT = {
+				declare_war_on = {
+					target = FRA
+					type = annex_everything
+				}
+			}
+		}
+		if = {
+			limit = {
+				is_subject = no
+				has_war_with = GRU
+			}
+			separate_peace_all_wars = yes
+		}
+	}
+	option = { # fuck germany
+		name = rotermorgenmisc.60.b
+		ai_chance = {
+			factor = 60
+			modifier = {
+				factor = 100
+				has_opinion = {
+					target = GRU
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = GRU
+					value > 60
+				}
+			}
+		}
+		add_opinion_modifier = {
+			target = GRU
+			modifier = ITA_dislikes_govt
+		}
+	}
+}
+
+country_event = { # preasure on Deat
+	id = rotermorgenmisc.70
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.70" }
+	title = rotermorgenmisc.70.t
+	desc = rotermorgenmisc.70.d
+	is_triggered_only = yes
+	
+	option = { # 
+		name = rotermorgenmisc.70.a
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 100
+				num_faction_members < 2
+			}
+			modifier = {
+				factor = 0
+				num_faction_members > 4
+			}
+		}
+		GRU = {
+		add_to_faction = ROOT
+		}
+		GRU = {
+			hidden_effect = {
+				country_event = {
+				id = rotermorgenmisc.80
+				days = 2
+				}
+			}
+		}
+	}
+	option = { # 
+		name = rotermorgenmisc.70.b
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				num_faction_members < 2
+			}
+			modifier = {
+				factor = 100
+				num_faction_members > 4
+			}
+		}
+		add_opinion_modifier = {
+			target = GRU
+			modifier = ITA_dislikes_govt
+		}
+		GRU = {
+			hidden_effect = {
+				country_event = {
+				id = rotermorgenmisc.90
+				days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Deat gives in
+	id = rotermorgenmisc.80
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.80" }
+	title = rotermorgenmisc.80.t
+	desc = rotermorgenmisc.80.d
+	is_triggered_only = yes
+	
+	option = { # 
+		name = rotermorgenmisc.80.a
+		transfer_state = 28
+		transfer_state = 779
+		if = {
+			limit = {
+			8 = { is_owned_and_controlled_by = FRA }
+			}
+		transfer_state = 8
+		}
+		if = {
+			limit = {
+			42 = { is_owned_and_controlled_by = FRA }
+			}
+		transfer_state = 42
+		}
+		if = {
+			limit = {
+			781 = { is_owned_and_controlled_by = FRA }
+			}
+		transfer_state = 781
+		}
+		if = {
+			limit = {
+			741 = { is_owned_and_controlled_by = FRA }
+			}
+		transfer_state = 741
+		}
+	}
+}
+
+country_event = { # Deat refuses
+	id = rotermorgenmisc.90
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.90" }
+	title = rotermorgenmisc.90.t
+	desc = rotermorgenmisc.90.d
+	is_triggered_only = yes
+	
+	option = { # 
+		name = rotermorgenmisc.90.a
+		ai_chance = {
+			factor = 80
+		}
+		declare_war_on = {
+			target = FRA
+			type = annex_everything
+		}
+		28 = {
+			add_claim_by = GRU
+			}
+		779 = {
+			add_claim_by = GRU
+			}
+	}
+	
+	option = { # 
+		name = rotermorgenmisc.90.b
+		ai_chance = {
+			factor = 20
+		}
+
+		add_political_power = -200
+	}
+}
+
+country_event = { # allignment
+	id = rotermorgenmisc.100
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.100" }
+	title = rotermorgenmisc.100.t
+	desc = rotermorgenmisc.100.d
+	is_triggered_only = yes
+	
+	option = { # join germany
+		name = rotermorgenmisc.100.a
+		ai_chance = {
+			factor = 80
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = GRU
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 100
+				has_opinion = {
+					target = GRU
+					value > 60
+				}
+			}
+		}
+		GRU = {
+		add_to_faction = ROOT
+		}
+	}
+	option = { # fuck germany
+		name = rotermorgenmisc.100.b
+		ai_chance = {
+			factor = 20
+			modifier = {
+				factor = 100
+				has_opinion = {
+					target = GRU
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = GRU
+					value > 60
+				}
+			}
+		}
+		add_opinion_modifier = {
+			target = GRU
+			modifier = ITA_dislikes_govt
+		}
+		GRU = {
+			hidden_effect = {
+				country_event = {
+				id = rotermorgenmisc.110
+				days = 2
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = rotermorgenmisc.110
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.110" }
+	title = rotermorgenmisc.110.t
+	desc = rotermorgenmisc.110.d
+	is_triggered_only = yes
+	
+	option = { # 
+		name = rotermorgenmisc.110.a
+		ai_chance = {
+			factor = 80
+		}
+		declare_war_on = {
+			target = FROM
+			type = annex_everything
+		}
+	}
+	
+	option = { # 
+		name = rotermorgenmisc.110.b
+		ai_chance = {
+			factor = 20
+		}
+
+		add_political_power = -200
+	}
+}
+
+
+
+
+country_event = { # VKR claims
+	id = rotermorgenmisc.200
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.200" }
+	title = rotermorgenmisc.200.t
+	desc = rotermorgenmisc.200.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+				202 = {
+					add_claim_by = VKR
+				}
+				241 = {
+					add_claim_by = VKR
+				}
+				997 = {
+					add_claim_by = VKR
+				}
+				93 = {
+					add_claim_by = VKR
+				}	
+				792 = {
+					add_claim_by = VKR
+				}
+				95 = {
+					add_claim_by = VKR
+				}
+				194 = {
+					add_claim_by = VKR
+				}
+				201 = {
+					add_claim_by = VKR
+				}
+				199 = {
+					add_claim_by = VKR
+				}
+				198 = {
+					add_claim_by = VKR
+				}
+				791 = {
+					add_claim_by = VKR
+				}
+				78 = {
+					add_claim_by = VKR
+				}
+				192 = {
+					add_claim_by = VKR
+				}
+				202 = {
+					add_claim_by = VKR
+				}
+				203 = {
+					add_claim_by = VKR
+				}
+				197 = {
+					add_claim_by = VKR
+				}
+				196 = {
+					add_claim_by = VKR
+				}
+				137 = {
+					add_claim_by = VKR
+				}
+				193 = {
+					add_claim_by = VKR
+				}
+				259 = {
+					add_claim_by = VKR
+				}
+				226 = {
+					add_claim_by = VKR
+				}
+				200 = {
+					add_claim_by = VKR
+				}
+				224 = {
+					add_claim_by = VKR
+				}
+				225 = {
+					add_claim_by = VKR
+				}		
+				220 = {
+					add_claim_by = VKR
+				}
+				221 = {
+					add_claim_by = VKR
+				}
+				222 = {
+					add_claim_by = VKR
+				}
+				223 = {
+					add_claim_by = VKR
+				}
+				258 = {
+					add_claim_by = VKR
+				}
+				260 = {
+					add_claim_by = VKR
+				}
+				265 = {
+					add_claim_by = VKR
+				}
+				245 = {
+					add_claim_by = VKR
+				}
+				218 = {
+					add_claim_by = VKR
+				}
+				228 = {
+					add_claim_by = VKR
+				}
+				240 = {
+					add_claim_by = VKR
+				}
+				227 = {
+					add_claim_by = VKR
+				}
+				821 = {
+					add_claim_by = VKR
+				}
+	}
+}
+
+country_event = { # VKK claims
+	id = rotermorgenmisc.300
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.300" }
+	title = rotermorgenmisc.300.t
+	desc = rotermorgenmisc.300.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+				990 = {
+					add_claim_by = VKK
+				}
+				229 = {
+					add_claim_by = VKK
+				}
+				998 = {
+					add_claim_by = VKK
+				}	
+				230 = {
+					add_claim_by = VKK
+				}
+				231 = {
+					add_claim_by = VKK
+				}
+				1082 = {
+					add_claim_by = VKK
+				}
+				1080 = {
+					add_claim_by = VKK
+				}
+				232 = {
+					add_claim_by = VKK
+				}
+				787 = {
+					add_claim_by = VKK
+				}
+				233 = {
+					add_claim_by = VKK
+				}
+				234 = {
+					add_claim_by = VKK
+				}
+				235 = {
+					add_claim_by = VKK
+				}
+				787 = {
+					add_claim_by = VKK
+				}
+				237 = {
+					add_claim_by = VKK
+				}
+				238 = {
+					add_claim_by = VKK
+				}
+				236 = {
+					add_claim_by = VKK
+				}
+				217 = {
+					add_claim_by = VKK
+				}
+				1190 = {
+					add_claim_by = VKK
+				}
+				1189 = {
+					add_claim_by = VKK
+				}
+				1186 = {
+					add_claim_by = VKK
+				}
+				1187 = {
+					add_claim_by = VKK
+				}
+				1188 = {
+					add_claim_by = VKK
+				}
+				1191 = {
+					add_claim_by = VKK
+				}
+	}
+}
+
+country_event = { # VKB claims
+	id = rotermorgenmisc.400
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.400" }
+	title = rotermorgenmisc.400.t
+	desc = rotermorgenmisc.400.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+				1091 = {
+					add_claim_by = VKB
+				}
+				190 = {
+					add_claim_by = VKB
+				}
+				189 = {
+					add_claim_by = VKB
+				}	
+				11 = {
+					add_claim_by = VKB
+				}
+				96 = {
+					add_claim_by = VKB
+				}
+				12 = {
+					add_claim_by = VKB
+				}
+				191 = {
+					add_claim_by = VKB
+				}
+				13 = {
+					add_claim_by = VKB
+				}
+				880 = {
+					add_claim_by = VKB
+				}
+				755 = {
+					add_claim_by = VKB
+				}
+				210 = {
+					add_claim_by = VKB
+				}
+				209 = {
+					add_claim_by = VKB
+				}
+				208 = {
+					add_claim_by = VKB
+				}
+				263 = {
+					add_claim_by = VKB
+				}
+				244 = {
+					add_claim_by = VKB
+				}
+				195 = {
+					add_claim_by = VKB
+				}
+				246 = {
+					add_claim_by = VKB
+				}
+				94 = {
+					add_claim_by = VKB
+				}
+				204 = {
+					add_claim_by = VKB
+				}
+				207 = {
+					add_claim_by = VKB
+				}
+				206 = {
+					add_claim_by = VKB
+				}		
+				1087 = {
+					add_claim_by = VKB
+				}
+				243 = {
+					add_claim_by = VKB
+				}
+				242 = {
+					add_claim_by = VKB
+				}
+				205 = {
+					add_claim_by = VKB
+				}
+	}
+}
+
+country_event = { # VKM claims
+	id = rotermorgenmisc.500
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.500" }
+	title = rotermorgenmisc.500.t
+	desc = rotermorgenmisc.500.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+				219 = {
+					add_claim_by = VKM
+				}
+				247 = {
+					add_claim_by = VKM
+				}
+				264 = {
+					add_claim_by = VKM
+				}	
+				248 = {
+					add_claim_by = VKM
+				}
+				351 = {
+					add_claim_by = VKM
+				}
+				253 = {
+					add_claim_by = VKM
+				}
+				254 = {
+					add_claim_by = VKM
+				}
+				252 = {
+					add_claim_by = VKM
+				}
+				257 = {
+					add_claim_by = VKM
+				}
+				255 = {
+					add_claim_by = VKM
+				}
+				239 = {
+					add_claim_by = VKM
+				}
+				401 = {
+					add_claim_by = VKM
+				}
+				250 = {
+					add_claim_by = VKM
+				}
+				251 = {
+					add_claim_by = VKM
+				}
+				256 = {
+					add_claim_by = VKM
+				}
+				249 = {
+					add_claim_by = VKM
+				}
+				400 = {
+					add_claim_by = VKM
+				}
+				399 = {
+					add_claim_by = VKM
+				}
+				214 = {
+					add_claim_by = VKM
+				}
+				397 = {
+					add_claim_by = VKM
+				}
+				262 = {
+					add_claim_by = VKM
+				}
+				581 = {
+					add_claim_by = VKM
+				}
+	}
+}
+
+country_event = { #rehab of generals
+	id = rotermorgenmisc.150
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.150" }
+	title = rotermorgenmisc.150.t
+	desc = rotermorgenmisc.150.d
+	is_triggered_only = yes
+	
+	option = { # 
+		name = rotermorgenmisc.150.a
+		create_field_marshal = {
+			name = "Heinz Guderian"
+			picture = "Portrait_Germany_Heinz_Guderian_kr.tga"
+			traits = { trickster brilliant_strategist panzer_leader armor_officer career_officer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "Walter Model"
+			picture = "Portrait_Germany_Walter_Model_kr.tga"
+			traits = { politically_connected trait_cautious harsh_leader brilliant_strategist trickster }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "Werner von Blomberg"
+			picture = "Portrait_Germany_Werner_von_Blomberg.tga"
+			traits = { trickster armor_officer career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+		}
+
+		create_corps_commander = {
+			name = "Günther von Kluge"
+			picture = "Portrait_Germany_Gunther_Kluge_kr.tga"
+			traits = { career_officer armor_officer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 3
+		}
+
+		create_corps_commander = {
+			name = "Erwin von Witzleben"
+			picture = "Portrait_Germany_Erwin_von_Witzleben_kr.tga"
+			traits = { skilled_staffer career_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+		}
+		create_corps_commander = {
+			name = "Wilhelm Ritter von Leeb"
+			picture = "Portrait_Germany_Wilhelm_Ritter_von_Leeb_kr.tga"
+			traits = { skilled_staffer infantry_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+		
+		}
+		create_corps_commander = {
+	name = "Ewald von Kleist"
+	picture = "Portrait_Germany_Ewald_Kleist_kr.tga"
+	traits = { skilled_staffer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Fedor von Bock"
+	picture = "Portrait_Germany_Fedor_Bock_kr.tga"
+	traits = { brilliant_strategist harsh_leader trait_cautious }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_field_marshal = {
+	name = "Friedrich Paulus"
+	picture = "Portrait_Germany_Friedrich_Paulus_kr.tga"
+	traits = { infantry_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+create_corps_commander = {
+	name = "Georg von Küchler"
+	picture = "Portrait_Germany_Georg_Kuchler_kr.tga"
+	traits = { politically_connected career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Franz Halder"
+	picture = "Portrait_Germany_Franz_Halder_kr.tga"
+	traits = { organizer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Gotthard Heinrici"
+	picture = "Portrait_Germany_Gotthard_Heinrici_kr.tga"
+	traits = { trait_engineer fortress_buster }
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Erich von Manstein"
+	picture = "Portrait_Germany_Erich_von_Manstein_kr.tga"
+	traits = { trickster armor_officer brilliant_strategist trait_engineer }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_field_marshal = {
+	name = "Gerd von Rundstedt"
+	picture = "Portrait_Germany_Gerd_von_Rundstedt_kr.tga"
+	traits = { defensive_doctrine offensive_doctrine }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 4
+}
+	}
+}
+
+country_event = { # Paetal the traitor
+	id = rotermorgenmisc.777
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.777" }
+	title = rotermorgenmisc.777.t
+	desc = rotermorgenmisc.777.d
+	picture = GFX_report_event_traitor
+	is_triggered_only = yes
+	
+	option = { # death
+		name = rotermorgenmisc.777.a
+		add_manpower = -1
+		set_country_flag = mememan_dead
+		GRU = {
+			hidden_effect = {
+				country_event = {
+				id = rotermorgenmisc.778
+				days =0
+				}
+			}
+		}
+	}
+}
+
+country_event = { # roehm the hero
+	id = rotermorgenmisc.778
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.778" }
+	title = rotermorgenmisc.778.t
+	desc = rotermorgenmisc.778.d
+	picture = GFX_report_event_hero
+	is_triggered_only = yes
+	
+	option = { # death
+		name = rotermorgenmisc.778.a
+		remove_ideas = {
+			GRU_MEMEMAN_sec_tot
+		}
+		add_ideas = {
+			GRU_Ernst_Roehm_sec_tot
+		}
+	}
+}
+
+country_event = { # oskar the degenerate
+	id = rotermorgenmisc.666
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.666" }
+	title = rotermorgenmisc.666.t
+	desc = rotermorgenmisc.666.d
+	picture = GFX_report_event_degenerate
+	is_triggered_only = yes
+	
+	option = { # death
+		name = rotermorgenmisc.666.a
+		add_manpower = -1
+	}
+	option = { # death
+		name = rotermorgenmisc.666.b
+		add_manpower = -1
+	}
+	option = { # death
+		name = rotermorgenmisc.666.c
+		add_manpower = -1
+	}
+}
+
+
+country_event = { # allignment to internationale SMEPD
+	id = rotermorgenmisc.800
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.800" }
+	title = rotermorgenmisc.800.t
+	desc = rotermorgenmisc.800.d
+	is_triggered_only = yes
+	
+	option = { # join internationale
+		name = rotermorgenmisc.800.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = GRU
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 100
+				has_opinion = {
+					target = GRU
+					value > 60
+				}
+			}
+		}
+		GRU = {
+		add_to_faction = ROOT
+		}
+	}
+	option = { # we good
+		name = rotermorgenmisc.800.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 100
+				has_opinion = {
+					target = GRU
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = GRU
+					value > 60
+				}
+			}
+		}
+	}
+}
+country_event = { 
+	id = rotermorgenmisc.810
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.810" }
+	title = rotermorgenmisc.810.t
+	desc = rotermorgenmisc.810.d
+	is_triggered_only = yes
+	
+	option = { # 
+		name = rotermorgenmisc.810.a
+		add_stability = -0.10
+	}
+}

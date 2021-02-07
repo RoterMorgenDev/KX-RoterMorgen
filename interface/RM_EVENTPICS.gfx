@@ -1,0 +1,30 @@
+
+spriteTypes = {
+	spriteType = {  
+
+			name = "GFX_report_event_synthwave"  
+
+			texturefile = "gfx/event_pictures/SYNTHWAVE.tga"
+	}
+	
+	spriteType = {  
+
+			name = "GFX_report_event_degenerate"  
+
+			texturefile = "gfx/event_pictures/degenerate.tga"
+	}
+	
+	spriteType = {  
+
+			name = "GFX_report_event_traitor"  
+
+			texturefile = "gfx/event_pictures/traitor.tga"
+	}
+	
+	spriteType = {  
+
+			name = "GFX_report_event_hero"  
+
+			texturefile = "gfx/event_pictures/hero.tga"
+	}
+}
