@@ -25,4 +25,12 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	gru_chairman = {
+		random = no
+		stability_factor = 0.20
+		political_power_gain = 0.25
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

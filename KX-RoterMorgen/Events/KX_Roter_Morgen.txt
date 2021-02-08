@@ -48,8 +48,12 @@ country_event = { # GRU setup
 					elections_allowed = no
 				}
 				add_popularity = {
+					ideology = totalist
+					popularity = 0.20
+				}
+				add_popularity = {
 					ideology = syndicalist
-					popularity = 0.99
+					popularity = 0.10
 				}
 				load_focus_tree = {
 				tree = gru-totalist
@@ -606,6 +610,10 @@ country_event = { # SMEPD SPLIT
 		name = rotermorgen.80.a
 		hidden_effect = {
 				set_country_flag = GRU_SMEPD_S_rule
+				kill_ideology_leader = totalist
+				kill_ideology_leader = syndicalist
+				kill_ideology_leader = totalist
+				kill_ideology_leader = syndicalist
 				set_party_name = {
 						ideology = syndicalist
 						long_name = GRU_SEPD_THALY_long
@@ -644,6 +652,10 @@ country_event = { # SMEPD SPLIT
 		name = rotermorgen.80.b
 		hidden_effect = {
 				set_country_flag = GRU_SMEPD_M_rule
+				kill_ideology_leader = totalist
+				kill_ideology_leader = syndicalist
+				kill_ideology_leader = totalist
+				kill_ideology_leader = syndicalist
 				set_party_name = {
 						ideology = syndicalist
 						long_name = GRU_SEPD_THALY_long

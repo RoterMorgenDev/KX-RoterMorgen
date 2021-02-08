@@ -520,7 +520,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_neue_schwerindustrie"
 			add_ideas = closed_economy
-			add_ideas = war_economy
+			add_ideas = GRU_KOMMANDOWIRTSCHAFT
 		}
 
 		prerequisite = { focus = GRU_rva }
@@ -714,7 +714,10 @@ shared_focus = {
 		x = 1
 		y = 1
 		cost = 1
-
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_thalmann_red_patriotism"
+			add_ideas = GRU_RED_PATRIOT
+		}
 		prerequisite = { focus = GRU_thalmann  }
 	}
 shared_focus = {
@@ -724,7 +727,10 @@ shared_focus = {
 		x = -1
 		y = 1
 		cost = 1
-
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_thalmann_total_gender_equality"
+			add_ideas = GRU_FEMALE_SOLDIER
+		}
 		prerequisite = { focus = GRU_thalmann  }
 	}
 	shared_focus = {
@@ -734,7 +740,10 @@ shared_focus = {
 		x = 0
 		y = 2
 		cost = 1
-
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_thalmann_power_to_party"
+			add_ideas = GRU_PARLIAMENT
+		}
 		prerequisite = { focus = GRU_thalmann_red_patriotism  }
 		prerequisite = { focus = GRU_thalmann_total_gender_equality  }
 	}
@@ -745,7 +754,21 @@ shared_focus = {
 		x = -1
 		y = 4
 		cost = 1
-
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_thalman_culture_revolution"
+			add_political_power = 45
+			add_stability = 0.08
+			add_manpower = -5000
+			add_war_support = 0.05
+			add_popularity = { ideology = national_populist popularity = -0.05 }
+			add_popularity = { ideology = paternal_autocrat popularity = -0.05 }
+			add_popularity = { ideology = authoritarian_democrat popularity = -0.05 }
+			add_popularity = { ideology = social_conservative popularity = -0.05 }
+			add_popularity = { ideology = market_liberal popularity = -0.05 }
+			add_popularity = { ideology = social_liberal popularity = -0.05 }
+			add_popularity = { ideology = totalist popularity = -0.20 }
+			add_popularity = { ideology = syndicalist popularity = 0.20 }
+		}
 		prerequisite = { focus = GRU_thalmann_gestapo  }
 		prerequisite = { focus = GRU_thalmann_rural_housing_programm  }
 		prerequisite = { focus = GRU_thalmann_direct_union_control  }
@@ -757,7 +780,10 @@ shared_focus = {
 		x = 0
 		y = 3
 		cost = 1
-
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_thalmann_direct_union_control"
+			add_ideas = GRU_DIRECT_CONTROL
+		}
 		prerequisite = { focus = GRU_thalmann_power_to_party  }
 	}
 shared_focus = {
@@ -767,7 +793,54 @@ shared_focus = {
 		x = 2
 		y = 3
 		cost = 1
-
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_thalmann_gestapo"
+		random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+		}
 		prerequisite = { focus = GRU_thalmann_power_to_party  }
 		prerequisite = { focus = GRU_welfare  }
 	}
@@ -778,7 +851,10 @@ shared_focus = {
 		x = -2
 		y = 3
 		cost = 1
-
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_thalmann_gestapo"
+			add_ideas = GRU_GESTAPO
+		}
 		prerequisite = { focus = GRU_thalmann_power_to_party  }
 	}
 	shared_focus = {
@@ -788,7 +864,12 @@ shared_focus = {
 		x = 1
 		y = 4
 		cost = 1
-
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_thalmann_trail_pieck"
+			kill_ideology_leader = totalist
+			add_popularity = { ideology = totalist popularity = -0.15 }
+			add_manpower = -5000
+		}
 		prerequisite = { focus = GRU_thalmann_gestapo  }
 		prerequisite = { focus = GRU_thalmann_rural_housing_programm  }
 		prerequisite = { focus = GRU_thalmann_direct_union_control  }
@@ -800,10 +881,27 @@ shared_focus = {
 		x = 0
 		y = 5
 		cost = 1
-
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_kill_syndies"
+			set_cosmetic_tag = GRU_GDU
+			swap_ideas = {
+							remove_idea = GRU_DSR
+							add_idea = GRU_GDU
+						}
+			set_party_name = {
+						ideology = syndicalist
+						long_name = GRU_SED_long
+						name = GRU_SED
+				}
+			set_party_name = {
+						ideology = totalist
+						long_name = GRU_SED_MARXISTEN_long
+						name = GRU_SED_MARXISTEN
+				}
+		}
 		prerequisite = { focus = GRU_thalman_culture_revolution  }
 		prerequisite = { focus = GRU_thalmann_trail_pieck  }
-		prerequisite = { focus = GRU_free_universities  }
+		prerequisite = { focus = GRU_integration  }
 	}
 
 	#Deutsche Syndikalisiische Republik
@@ -863,6 +961,7 @@ shared_focus = {
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_heroism"
+			add_ideas = GRU_HEROISM
 		}
 		prerequisite = { focus = GRU_pieck  }
 	}
@@ -875,6 +974,7 @@ shared_focus = {
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_red_guard"
+			add_ideas = GRU_RED_GUARD
 		}
 		prerequisite = { focus = GRU_pieck  }
 	}
@@ -887,6 +987,7 @@ shared_focus = {
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_red_guard"
+			add_country_leader_trait = gru_chairman
 		}
 		prerequisite = { focus = GRU_pieck_red_guard  }
 		prerequisite = { focus = GRU_pieck_heroism  }
@@ -901,6 +1002,7 @@ shared_focus = {
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_working_women"
+			add_ideas = GRU_WOMAN_WORKER
 		}
 		prerequisite = { focus = GRU_pieck_chairman  }
 	}
@@ -913,6 +1015,7 @@ shared_focus = {
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_propaganda"
+			add_ideas = GRU_RED_NEWS
 		}
 		prerequisite = { focus = GRU_pieck_chairman  }
 		prerequisite = { focus = GRU_syndicalist_education  }
@@ -926,6 +1029,7 @@ shared_focus = {
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_brutalist_architecture"
+			add_ideas = GRU_BRUTALISM
 		}
 		prerequisite = { focus = GRU_pieck_chairman  }
 	}
@@ -938,6 +1042,7 @@ shared_focus = {
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_five_year_plans"
+			add_ideas = GRU_5_YEAR_PLAN
 		}
 		prerequisite = { focus = GRU_pieck_brutalist_architecture  }
 		prerequisite = { focus = GRU_pieck_propaganda  }
@@ -952,6 +1057,9 @@ shared_focus = {
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_kill_syndies"
+			kill_ideology_leader = syndicalist
+			add_popularity = { ideology = syndicalist popularity = -0.25 }
+			add_manpower = -25000
 		}
 		prerequisite = { focus = GRU_pieck_brutalist_architecture  }
 		prerequisite = { focus = GRU_pieck_propaganda  }
@@ -966,6 +1074,21 @@ shared_focus = {
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_kill_syndies"
+			set_cosmetic_tag = GRU_GPR
+			swap_ideas = {
+							remove_idea = GRU_DSR
+							add_idea = GRU_GPR
+						}
+			set_party_name = {
+						ideology = totalist
+						long_name = GRU_MLPD_long
+						name = GRU_MLPD
+				}
+			set_party_name = {
+						ideology = syndicalist
+						long_name = GRU_MLPD_SYN_long
+						name = GRU_MLPD_SYN
+				}
 		}
 		prerequisite = { focus = GRU_pieck_kill_syndies  }
 		prerequisite = { focus = GRU_pieck_five_year_plans  }

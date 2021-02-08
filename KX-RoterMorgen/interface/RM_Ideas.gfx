@@ -322,5 +322,55 @@ spriteTypes = {
 		name = "GFX_idea_gru_genetics"
 		texturefile = "gfx/interface/ideas/GRU/GRU_bad_genes.tga"
 	}
+	spriteType = {
+		name = "GFX_idea_GRU_KOMMANDOWIRTSCHAFT"
+		texturefile = "gfx/interface/ideas/GRU/GRU_KOMMANDOWIRTSCHAFT.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_5_YEAR_PLAN"
+		texturefile = "gfx/interface/ideas/GRU/GRU_5_YEAR_PLAN.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_BRUTALISM"
+		texturefile = "gfx/interface/ideas/GRU/GRU_BRUTALISM.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_WOMAN_WORKER"
+		texturefile = "gfx/interface/ideas/GRU/GRU_WOMAN_WORKER.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_RED_NEWS"
+		texturefile = "gfx/interface/ideas/GRU/GRU_RED_NEWS.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_RED_GUARD"
+		texturefile = "gfx/interface/ideas/GRU/GRU_RED_GUARD.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_HEROISM"
+		texturefile = "gfx/interface/ideas/GRU/GRU_HEROISM.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GRU_FEMALE_SOLDIER"
+		texturefile = "gfx/interface/ideas/GRU/GRU_FEMALE_SOLDIER.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_RED_PATRIOT"
+		texturefile = "gfx/interface/ideas/GRU/GRU_RED_PATRIOT.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_PARLIAMENT"
+		texturefile = "gfx/interface/ideas/GRU/GRU_PARLIAMENT.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_DIRECT_CONTROL"
+		texturefile = "gfx/interface/ideas/GRU/GRU_DIRECT_CONTROL.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_GESTAPO"
+		texturefile = "gfx/interface/ideas/GRU/GRU_GESTAPO.tga"
+	}
+	
 	
 }
