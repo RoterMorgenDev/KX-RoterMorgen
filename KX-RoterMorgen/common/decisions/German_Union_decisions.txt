@@ -3568,6 +3568,7 @@ GRU_volksreichskommissariat_decisions = {
 						add_manpower = 40000
 					}
 				VKR = {	country_event = rotermorgenmisc.200 }
+				VKR = {	country_event = { id = rotermorgenmisc.201 days = 2 } }
 				}
 				set_autonomy = { target = VKR autonomy_state = kr_integrated_puppet }
 				set_country_flag = VKR_established
@@ -3616,7 +3617,9 @@ GRU_volksreichskommissariat_decisions = {
 						add_manpower = 40000
 					}
 				VKK = {	country_event = rotermorgenmisc.300 }
+				VKK = {	country_event = { id = rotermorgenmisc.301 days = 2 } }
 				}
+				
 				set_autonomy = { target = VKK autonomy_state = kr_integrated_puppet }
 				set_country_flag = VKK_established
 			}
@@ -4323,6 +4326,7 @@ GRU_expansion_three_volksreichskommissariat_ruthenia = {
 					}
 					hidden_effect = {
 				VKR = {	country_event = rotermorgenmisc.200 }
+				VKR = {	country_event = { id = rotermorgenmisc.202 days = 2 } }
 				}
 			}
 	}
@@ -4382,6 +4386,7 @@ GRU_expansion_four_volksreichskommissariat_ruthenia = {
 					}
 					hidden_effect = {
 				VKR = {	country_event = rotermorgenmisc.200 }
+				VKR = {	country_event = { id = rotermorgenmisc.203 days = 2 } }
 				}
 			}
 	}
@@ -4559,7 +4564,9 @@ GRU_expansion_four_volksreichskommissariat_ruthenia = {
 					}
 					hidden_effect = {
 				VKK = {	country_event = rotermorgenmisc.300 }
+				VKK = {	country_event = { id = rotermorgenmisc.302 days = 2 } }
 				}
+				
 			}
 	}
 	
@@ -4615,6 +4622,7 @@ GRU_expansion_two_volksreichskommissariat_kaukasia = {
 					}
 					hidden_effect = {
 				VKK = {	country_event = rotermorgenmisc.300 }
+				VKK = {	country_event = { id = rotermorgenmisc.303 days = 2 } }
 				}
 			}
 	}
@@ -4668,6 +4676,7 @@ GRU_expansion_three_volksreichskommissariat_kaukasia = {
 					}
 					hidden_effect = {
 				VKK = {	country_event = rotermorgenmisc.300 }
+				VKK = {	country_event = { id = rotermorgenmisc.304 days = 2 } }
 				}
 			}
 	}

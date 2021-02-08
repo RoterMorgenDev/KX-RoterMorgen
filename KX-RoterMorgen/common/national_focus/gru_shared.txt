@@ -241,8 +241,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_first_congress_of_german_unions
 		icon = GFX_GRU_first_congress_of_german_unions-4026
-		x = 10
-		y = 3
+		relative_position_id = GRU_occupational_government
+		x = 0
+		y = 1
 		cost = 1
 
 		available = {
@@ -446,8 +447,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_faud_victory
 		icon = GFX_GRU_faud_victory-3944
-		x = 6
-		y = 4
+		relative_position_id = GRU_first_congress_of_german_unions
+		x = -13
+		y = 1
 		cost = 1
 		available = {
 
@@ -463,8 +465,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_sepd_victory
 		icon = GFX_GRU_sepd_victory-3942
-		x = 20
-		y = 4
+		relative_position_id = GRU_first_congress_of_german_unions
+		x = 3
+		y = 1
 		cost = 1
 		available = {
 
@@ -486,8 +489,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_nmdvp_victory
 		icon = GFX_GRU_nmdvp_victory-3943
-		x = 36
-		y = 4
+		relative_position_id = GRU_first_congress_of_german_unions
+		x = 19
+		y = 1
 		cost = 1
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_nmdvp_victory"
@@ -676,8 +680,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_spd_victory
 		icon = GFX_GRU_spd_victory-3988
-		x = 1
-		y = 4
+		relative_position_id = GRU_first_congress_of_german_unions
+		x = -22
+		y = 1
 		cost = 1
 		available = {
 				has_country_flag = GRU_CONGRESS_DONE
@@ -1153,8 +1158,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_industrial_unionisation
 		icon = GFX_GRU_industrial_unionisation-3985
-		x = 8
-		y = 6
+		relative_position_id = GRU_thalmann
+		x = -6
+		y = 1
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_industrial_unionisation"
@@ -1168,8 +1174,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_ressource_redistribution
 		icon = GFX_GRU_ressource_redistribution-3984
-		x = 10
-		y = 6
+		relative_position_id = GRU_thalmann
+		x = -4
+		y = 1
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_ressource_redistribution"
@@ -1182,8 +1189,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_new_industries
 		icon = GRU_ELECTRONICS_INDUSTRY
-		x = 9
-		y = 7
+		relative_position_id = GRU_thalmann
+		x = -5
+		y = 2
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_new_industries"
@@ -1203,9 +1211,13 @@ shared_focus = {
 shared_focus = {
 		id = GRU_union_trade_committee
 		icon = GFX_GRU_union_trade_committee-3981
-		x = 10
-		y = 10
+		relative_position_id = GRU_thalmann
+		x = -4
+		y = 5
 		cost = 5
+		available = {
+					GRU = { has_country_leader = { ruling_only = yes name = "Ernst Thälmann" } }
+				}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_union_trade_committee"
 			set_country_flag = GRU_INDUSTRIAL_CAPACITY_ENOUGH
@@ -1214,15 +1226,15 @@ shared_focus = {
 		
 		prerequisite = { focus = GRU_artisan_communes  }
 		prerequisite = { focus = GRU_agrarian_collectives  }
-		prerequisite = { focus = GRU_thalmann  }
 	}
 
 	#Agrarian collectives
 shared_focus = {
 		id = GRU_agrarian_collectives
 		icon = GFX_GRU_agrarian_collectives-3983
-		x = 10
-		y = 8
+		relative_position_id = GRU_thalmann
+		x = -4
+		y = 3
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_free_universities"
@@ -1239,8 +1251,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_artisan_communes
 		icon = GFX_GRU_artisan_communes-3982
-		x = 8
-		y = 8
+		relative_position_id = GRU_thalmann
+		x = -6
+		y = 3
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_artisan_communes"
@@ -1329,8 +1342,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_einigkeit_recht
 		icon = GFX_GRU_einigkeit_recht-4035
-		x = 4
-		y = 5
+		relative_position_id = GRU_faud_victory
+		x = -5
+		y = 1
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_einigkeit_recht"
@@ -1344,8 +1358,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_woman_suffrage
 		icon = GFX_GRU_woman_suffrage-4044
-		x = 4
-		y = 6
+		relative_position_id = GRU_spd_victory
+		x = 1
+		y = 3
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_woman_suffrage"
@@ -1354,32 +1369,32 @@ shared_focus = {
 							can_generate_female_aces = yes
 						}
 		}
-		
-		prerequisite = { focus = GRU_einigkeit_recht  }
+		prerequisite = { focus = GRU_social_true_democracy }
 	}
 
 	#Liberal Education
 shared_focus = {
 		id = GRU_liberal_education
 		icon = GFX_GRU_liberal_education-4036
+		relative_position_id = GRU_spd_victory
 		x = 2
-		y = 6
+		y = 4
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_liberal_education"
 			add_ideas = GRU_SPD_Education1
 		}
 		
-		prerequisite = { focus = GRU_einigkeit_recht }
-		prerequisite = { focus = GRU_spd_victory  }
+		prerequisite = { focus = GRU_woman_suffrage  }
 	}
 
 	#Higher Education Grants
 shared_focus = {
 		id = GRU_higher_education_grants
 		icon = GFX_GRU_higher_education_grants-4039
-		x = 2
-		y = 9
+		relative_position_id = GRU_spd_victory
+		x = 1
+		y = 5
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_higher_education_grants"
@@ -1390,61 +1405,105 @@ shared_focus = {
 		}
 		
 		prerequisite = { focus = GRU_liberal_education  }
-		prerequisite = { focus = GRU_socialmarket_economics  }
+		prerequisite = { focus = GRU_worker_rights  }
 	}
 
 	#Anti-discriminatory laws
 shared_focus = {
+		id = GRU_union_democracy
+		icon = GFX_GRU_
+		relative_position_id = GRU_faud_victory
+		x = 0
+		y = 2
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_union_democracy"
+		}
+		
+		prerequisite = { focus = GRU_faud_victory  }
+		prerequisite = { focus = GRU_einigkeit_recht }
+	}
+shared_focus = {
 		id = GRU_antidiscriminatory_laws
 		icon = GFX_GRU_antidiscriminatory_laws-4042
-		x = 5
-		y = 7
+		relative_position_id = GRU_faud_victory
+		x = 1
+		y = 3
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_antidiscriminatory_laws"
-			swap_ideas = {
-							remove_idea = GRU_SPD_FAUD_WOMAN_RIGHTS
-							add_idea = GRU_SPD_FAUD_TOLERANT_SOCIETY
+			add_ideas = GRU_SPD_FAUD_TOLERANT_SOCIETY
+			set_rule = {
+							can_generate_female_aces = yes
 						}
 		}
 		
-		prerequisite = { focus = GRU_woman_suffrage  }
+		prerequisite = { focus = GRU_union_democracy  }
+	}
+shared_focus = {
+		id = GRU_red_militia
+		icon = GFX_
+		relative_position_id = GRU_faud_victory
+		x = -1
+		y = 3
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_red_militia"
+		}
+		
+		prerequisite = { focus = GRU_union_democracy  }
+	}
+shared_focus = {
+		id = GRU_minority_quota
+		icon = GFX_
+		relative_position_id = GRU_faud_victory
+		x = 2
+		y = 4
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_minority_quota"
+		}
+		
+		prerequisite = { focus = GRU_antidiscriminatory_laws  }
 	}
 
 	#Antiauthoritarian Education
 shared_focus = {
 		id = GRU_antiauthoritarian_education
 		icon = GFX_GRU_antiauthoritarian_education-4046
-		x = 6
-		y = 6
+		relative_position_id = GRU_faud_victory
+		x = 0
+		y = 4
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_antiauthoritarian_education"
 			add_ideas = GRU_FAUD_Education1
 		}
 		
-		prerequisite = { focus = GRU_faud_victory  }
-		prerequisite = { focus = GRU_einigkeit_recht  }
+		prerequisite = { focus = GRU_antidiscriminatory_laws  }
+		prerequisite = { focus = GRU_red_militia  }
 	}
 shared_focus = {
 		id = GRU_housing_communes
 		icon = GRU_ANARCHO_HOUSE
-		x = 6
-		y = 8
+		relative_position_id = GRU_faud_victory
+		x = -2
+		y = 4
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_housing_communes"
 			add_stability = 0.05
 		}
-		prerequisite = { focus = GRU_antiauthoritarian_education  }
+		prerequisite = { focus = GRU_red_militia  }
 	}
 
 	#Communal Universities
 shared_focus = {
 		id = GRU_communal_universities
 		icon = GFX_GRU_communal_universities-4047
-		x = 6
-		y = 9
+		relative_position_id = GRU_faud_victory
+		x = -1
+		y = 5
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_free_universities"
@@ -1455,32 +1514,48 @@ shared_focus = {
 						}
 		}
 		
+		prerequisite = { focus = GRU_antiauthoritarian_education  }
 		prerequisite = { focus = GRU_housing_communes  }
-		prerequisite = { focus = GRU_artisan_communes  }
+	}
+shared_focus = {
+		id = GRU_councilism
+		icon = GFX_
+		relative_position_id = GRU_faud_victory
+		x = 1
+		y = 5
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_councilism"
+		}
+		
+		prerequisite = { focus = GRU_antiauthoritarian_education  }
+		prerequisite = { focus = GRU_minority_quota  }
 	}
 
 	#Humane Pensions
 shared_focus = {
 		id = GRU_humane_pensions
 		icon = GFX_GRU_humane_pensions-4043
-		x = 3
-		y = 7
+		relative_position_id = GRU_spd_victory
+		x = -1
+		y = 5
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_humane_pensions"
 			add_political_power = 50
 					add_stability = 0.05
 		}
-		
-		prerequisite = { focus = GRU_woman_suffrage  }
+		prerequisite = { focus = GRU_support_startups  }
+		prerequisite = { focus = GRU_worker_rights  }
 	}
 
 	#....und Freiheit
 shared_focus = {
 		id = GRU_und_freiheit
 		icon = GFX_GRU_und_freiheit-4045
-		x = 4
-		y = 11
+		relative_position_id = GRU_einigkeit_recht
+		x = 0
+		y = 6
 		cost = 1
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_und_freiheit"
@@ -1491,32 +1566,47 @@ shared_focus = {
 						}
 		}
 		
-		prerequisite = { focus = GRU_antidiscriminatory_laws }
-		prerequisite = { focus = GRU_humane_pensions }
-		prerequisite = { focus = GRU_german_industrial_miracle focus = GRU_union_congress  }
-	}
+		
 
+		prerequisite = { focus = GRU_german_industrial_miracle  focus = GRU_union_congress}
+	}
+shared_focus = {
+		id = GRU_social_true_democracy
+		icon = GFX_
+		relative_position_id = GRU_spd_victory
+		x = 0
+		y = 2
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_social_true_democracy"
+		}
+		
+		prerequisite = { focus = GRU_einigkeit_recht  }
+		prerequisite = { focus = GRU_spd_victory  }
+	}
 	#Social-Market Economics
 shared_focus = {
 		id = GRU_socialmarket_economics
 		icon = GFX_GRU_socialmarket_economics-4034
-		x = 1
-		y = 7
+		relative_position_id = GRU_spd_victory
+		x = -1
+		y = 3
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_socialmarket_economics"
 			add_ideas = GRU_SPD_SOCIAL_MARKET
 		}
 		
-		prerequisite = { focus = GRU_spd_victory  }
+		prerequisite = { focus = GRU_social_true_democracy  }
 	}
 
 	#Worker rights
 shared_focus = {
 		id = GRU_worker_rights
 		icon = GFX_GRU_worker_rights-4040
+		relative_position_id = GRU_spd_victory
 		x = 0
-		y = 9
+		y = 4
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_worker_rights"
@@ -1524,14 +1614,16 @@ shared_focus = {
 		}
 		
 		prerequisite = { focus = GRU_socialmarket_economics  }
+		prerequisite = { focus = GRU_woman_suffrage  }
 	}
 
 	#Support Start-Ups
 shared_focus = {
 		id = GRU_support_startups
 		icon = GFX_GRU_support_startups-4037
-		x = 1
-		y = 8
+		relative_position_id = GRU_spd_victory
+		x = -2
+		y = 4
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_iva"
@@ -1619,8 +1711,9 @@ shared_focus = {
 shared_focus = {
 		id = GRU_german_industrial_miracle
 		icon = GFX_GRU_german_industrial_miracle-4038
-		x = 1
-		y = 10
+		relative_position_id = GRU_spd_victory
+		x = 0
+		y = 6
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_german_industrial_miracle"
@@ -1632,16 +1725,16 @@ shared_focus = {
 		}
 		
 		prerequisite = { focus = GRU_higher_education_grants  }
-		prerequisite = { focus = GRU_worker_rights}
-		prerequisite = { focus = GRU_support_startups  }
+		prerequisite = { focus = GRU_humane_pensions }
 	}
 
 	#Formation of the NVA
 shared_focus = {
 		id = GRU_formation_of_the_nva
 		icon = GFX_GRU_formation_of_the_nva-4002
-		x = 46
-		y = 3
+		relative_position_id = GRU_nmdvp_victory
+		x = 12
+		y = -1
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_formation_of_the_nva"
@@ -1991,7 +2084,7 @@ shared_focus = {
 shared_focus = {
 		id = GRU_occupational_government
 		icon = GFX_GRU_occupational_government-4027
-		x = 10
+		x = 25
 		y = 2
 		cost = 1
 		
@@ -2206,18 +2299,16 @@ shared_focus = {
 shared_focus = {
 		id = GRU_union_congress
 		icon = GFX_GRU_union_congress-4049
-		x = 8
-		y = 10
+		relative_position_id = GRU_faud_victory
+		x = 0
+		y = 6
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_union_congress"
 			set_country_flag = GRU_INDUSTRIAL_CAPACITY_ENOUGH
 			add_ideas = GRU_FAUD_congress
 		}
-		
-		prerequisite = { focus = GRU_faud_victory }
-		prerequisite = { focus = GRU_agrarian_collectives }
-		prerequisite = { focus = GRU_artisan_communes }
+		prerequisite = { focus = GRU_councilism }
 		prerequisite = { focus = GRU_communal_universities  }
 	}
 	#Deutschsozialistische Architektur

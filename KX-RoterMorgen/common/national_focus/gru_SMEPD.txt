@@ -1,14 +1,15 @@
 focus_tree = {
 	id = gru_smepd
-	continuous_focus_position = { x = 620 y = 1500 }
+	continuous_focus_position = { x = 1420 y = 1500 }
 	country = {
 		factor = 0
 	}
 	focus = {
 		id = GRU_SMEPD_DIPLO
 		icon = GRU_SMEPD_WORLD
-		x = 44
-		y = 11
+		relative_position_id = GRU_fortschritt
+		x = 0
+		y = 2
 		available = {
 			has_country_flag = GRU_REBUILD
 			is_subject = no

@@ -1,14 +1,15 @@
 focus_tree = {
 	id = gru_goebbels
-	continuous_focus_position = { x = 620 y = 1500 }
+	continuous_focus_position = { x = 1420 y = 1500 }
 	country = {
 		factor = 0
 	}
 	focus = {
 		id = GRU_NMDVP_PATH
 		icon = GFX_GRU_diplo_nmdvp
-		x = 46
-		y = 11
+		relative_position_id = GRU_nmdvp_victory
+		x = 9
+		y = 7
 		available = {
 			has_country_flag = GRU_REBUILD
 			is_subject = no

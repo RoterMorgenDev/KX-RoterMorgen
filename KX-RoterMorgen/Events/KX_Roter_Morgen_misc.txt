@@ -553,6 +553,48 @@ country_event = { # VKR claims
 	}
 }
 
+country_event = { # VKR OIL KIEV
+	id = rotermorgenmisc.201
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.201" }
+	title = rotermorgenmisc.201.t
+	desc = rotermorgenmisc.201.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+	hidden_effect = {
+	give_resource_rights = { receiver = GRU state = 202 }
+	}
+	}
+}
+
+country_event = { # VKR OIL
+	id = rotermorgenmisc.202
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.202" }
+	title = rotermorgenmisc.202.t
+	desc = rotermorgenmisc.202.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+	hidden_effect = {
+	give_resource_rights = { receiver = GRU state = 226 }
+	}
+	}
+}
+
+country_event = { # VKR OIL
+	id = rotermorgenmisc.203
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.203" }
+	title = rotermorgenmisc.203.t
+	desc = rotermorgenmisc.203.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+	hidden_effect = {
+	give_resource_rights = { receiver = GRU state = 221 }
+	}
+	}
+}
+
 country_event = { # VKK claims
 	id = rotermorgenmisc.300
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.300" }
@@ -630,6 +672,64 @@ country_event = { # VKK claims
 				1191 = {
 					add_claim_by = VKK
 				}
+	}
+}
+
+country_event = { # VKK OIL BAKU
+	id = rotermorgenmisc.301
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.301" }
+	title = rotermorgenmisc.301.t
+	desc = rotermorgenmisc.301.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+	hidden_effect = {
+	give_resource_rights = { receiver = GRU state = 990 }
+	}
+	}
+}
+
+country_event = { # VKK OIL AZE
+	id = rotermorgenmisc.302
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.302" }
+	title = rotermorgenmisc.302.t
+	desc = rotermorgenmisc.302.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+	hidden_effect = {
+	give_resource_rights = { receiver = GRU state = 229 }
+	}
+	}
+}
+
+country_event = { # VKK OIL AZE
+	id = rotermorgenmisc.303
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.303" }
+	title = rotermorgenmisc.303.t
+	desc = rotermorgenmisc.303.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+	hidden_effect = {
+				give_resource_rights = { receiver = GRU state = 232 }
+				give_resource_rights = { receiver = GRU state = 787 }
+				give_resource_rights = { receiver = GRU state = 233 }
+	}
+	}
+}
+country_event = { # VKK OIL AZE
+	id = rotermorgenmisc.304
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.304" }
+	title = rotermorgenmisc.304.t
+	desc = rotermorgenmisc.304.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+	hidden_effect = {
+				give_resource_rights = { receiver = GRU state = 234 }
+				give_resource_rights = { receiver = GRU state = 235 }
+	}
 	}
 }
 
