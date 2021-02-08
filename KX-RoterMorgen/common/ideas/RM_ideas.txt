@@ -931,6 +931,8 @@ ideas = {
 				electronics = 0.1
 				industry = 0.05
 			}
+			research_speed_factor = 0.15
+			research_sharing_per_country_bonus = 0.05
 		}
 		
 		
@@ -1147,6 +1149,26 @@ ideas = {
 				industrial_capacity_factory = 0.05
 				production_factory_max_efficiency_factor = 0.05
 				production_speed_buildings_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.02
+				consumer_goods_factor = -0.04
+				stability_weekly = 0.01
+				political_power_gain = 0.04
+				party_popularity_stability_factor = 0.1
+			}
+		}
+		GRU_SUCCDUM = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_SUCCDUM"}
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			picture = GRU_SUCCDUMS
+			modifier = { 
+				production_factory_efficiency_gain_factor = -0.02
+				production_factory_start_efficiency_factor = 0.08
+				production_speed_buildings_factor = 0.08
+				stability_weekly = 0.003
+				political_power_gain = 0.05
+				monthly_population = 0.05
+				party_popularity_stability_factor = 0.05
 			}
 		}
 		GRU_SPD_SOCIAL_MARKET_MIRACLE = {
@@ -1154,9 +1176,14 @@ ideas = {
 			picture = GRU_SPD_SOCIAL_MARKET_MIRACLE
 			modifier = {
 				industrial_capacity_factory = 0.05
-				production_factory_max_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.10
 				production_speed_buildings_factor = 0.05
 				production_speed_infrastructure_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.02
+				consumer_goods_factor = -0.08
+				stability_weekly = 0.02
+				political_power_gain = 0.04
+				party_popularity_stability_factor = 0.1
 			}
 		}
 		GRU_SPD_WORKER_RIGHTS = {
@@ -1406,6 +1433,86 @@ ideas = {
 				political_power_gain = 0.03
 				special_forces_cap = 0.02
 				stability_weekly = 0.003
+			}
+		}
+		GRU_COUNCIL_ECONOMICS = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_COUNCIL_ECONOMICS"}
+			allowed = { always = no }
+			modifier = {
+				stability_weekly = 0.003
+				war_support_weekly = 0.001
+				political_power_gain = 0.05
+				consumer_goods_factor = -0.05
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.08
+				line_change_production_efficiency_factor = 0.1
+				research_speed_factor = 0.05
+				local_resources_factor = 0.08
+				local_manpower = 0.1
+				production_lack_of_resource_penalty_factor = -0.05
+				production_speed_buildings_factor = 0.15
+			}
+			removal_cost = -1
+			picture = anarcho_marxist_economy
+		}
+		GRU_RED_MILITIAS = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_RED_MILITIAS"}
+			allowed = { always = no }
+			modifier = {
+				political_power_gain = 0.05
+				local_intel_to_enemies = -0.1
+				army_org_Factor = -0.10
+				max_planning = -0.1
+				out_of_supply_factor = -0.2
+				army_core_attack_factor = 0.03
+				org_loss_when_moving = -0.15
+				local_manpower = 0.05
+				max_command_power = 25
+			}
+			removal_cost = -1
+			picture = GRU_red_militias
+		}
+		GRU_MINORITIE_QUOTA = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_MINORITIE_QUOTA"}
+			allowed = { always = no }
+			modifier = {
+				political_power_gain = 0.05
+				local_intel_to_enemies = -0.1
+				army_org_Factor = -0.10
+				max_planning = -0.1
+				local_manpower = 0.05
+				max_command_power = 25
+			}
+			removal_cost = -1
+			picture = GRU_MINORITIE_QUOTA
+		}
+		GRU_UNION_DEMOCRATIC = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_UNION_DEMOCRATIC"}
+			allowed = { always = no }
+			modifier = {
+				war_support_factor = 0.08
+				political_power_gain = -0.05
+				local_manpower = 0.05
+				consumer_goods_factor = -0.03
+				supply_consumption_factor = -0.05
+				party_popularity_stability_factor = 0.1
+				production_lack_of_resource_penalty_factor = -0.1
+				local_resources_factor = 0.08
+				conversion_cost_mil_to_civ_factor = -0.15
+				production_factory_start_efficiency_factor = 0.05
+				monthly_population = 0.02
+			}
+			removal_cost = -1
+			picture = GRU_UNION_DEMOCRATIC
+		}
+		GRU_COMMUNAL_HOUSING = { #Capone Economics
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_COMMUNAL_HOUSING"}
+			picture = GRU_COMMUNAL_HOUSE
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_start_efficiency_factor = 0.1
+				local_resources_factor = 0.10
+				MONTHLY_POPULATION = 0.15
 			}
 		}
 		

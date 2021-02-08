@@ -372,5 +372,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GRU/GRU_GESTAPO.tga"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_GRU_COMMUNAL_HOUSE"
+		texturefile = "gfx/interface/ideas/GRU/GRU_COMMUNAL_HOUSE.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_UNION_DEMOCRATIC"
+		texturefile = "gfx/interface/ideas/GRU/GRU_UNION_DEMOCRATIC.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_MINORITIE_QUOTA"
+		texturefile = "gfx/interface/ideas/GRU/GRU_MINORITIE_QUOTA.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_RED_MILITIAS"
+		texturefile = "gfx/interface/ideas/GRU/GRU_RED_MILITIAS.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_SUCCDUMS"
+		texturefile = "gfx/interface/ideas/GRU/GRU_SUCCDUMS.tga"
+	}
+	
+	
 	
 }

@@ -490,7 +490,7 @@ shared_focus = {
 		id = GRU_nmdvp_victory
 		icon = GFX_GRU_nmdvp_victory-3943
 		relative_position_id = GRU_first_congress_of_german_unions
-		x = 19
+		x = 20
 		y = 1
 		cost = 1
 		completion_reward = {
@@ -1466,7 +1466,7 @@ shared_focus = {
 		id = GRU_einigkeit_recht
 		icon = GFX_GRU_einigkeit_recht-4035
 		relative_position_id = GRU_faud_victory
-		x = -5
+		x = -4
 		y = 1
 		cost = 5
 		completion_reward = {
@@ -1534,13 +1534,14 @@ shared_focus = {
 	#Anti-discriminatory laws
 shared_focus = {
 		id = GRU_union_democracy
-		icon = GFX_GRU_
+		icon = GRU_UNION_DEM
 		relative_position_id = GRU_faud_victory
 		x = 0
 		y = 2
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_union_democracy"
+			add_ideas = GRU_UNION_DEMOCRATIC
 		}
 		
 		prerequisite = { focus = GRU_faud_victory  }
@@ -1565,26 +1566,28 @@ shared_focus = {
 	}
 shared_focus = {
 		id = GRU_red_militia
-		icon = GFX_
+		icon = GRU_RED_MILITIAS
 		relative_position_id = GRU_faud_victory
 		x = -1
 		y = 3
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_red_militia"
+			add_ideas = GRU_RED_MILITIAS
 		}
 		
 		prerequisite = { focus = GRU_union_democracy  }
 	}
 shared_focus = {
 		id = GRU_minority_quota
-		icon = GFX_
+		icon = GRU_MINORITY_QUOTAS
 		relative_position_id = GRU_faud_victory
 		x = 2
 		y = 4
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_minority_quota"
+			add_ideas = GRU_MINORITIE_QUOTA
 		}
 		
 		prerequisite = { focus = GRU_antidiscriminatory_laws  }
@@ -1616,6 +1619,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_housing_communes"
 			add_stability = 0.05
+			add_ideas = GRU_COMMUNAL_HOUSING
 		}
 		prerequisite = { focus = GRU_red_militia  }
 	}
@@ -1642,13 +1646,14 @@ shared_focus = {
 	}
 shared_focus = {
 		id = GRU_councilism
-		icon = GFX_
+		icon = GRU_COUNCILISM
 		relative_position_id = GRU_faud_victory
 		x = 1
 		y = 5
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_councilism"
+			add_ideas = GRU_COUNCIL_ECONOMICS
 		}
 		
 		prerequisite = { focus = GRU_antiauthoritarian_education  }
@@ -1695,13 +1700,14 @@ shared_focus = {
 	}
 shared_focus = {
 		id = GRU_social_true_democracy
-		icon = GFX_
+		icon = GRU_SOCIAL_DEM
 		relative_position_id = GRU_spd_victory
 		x = 0
 		y = 2
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_social_true_democracy"
+			add_ideas = GRU_SUCCDUM
 		}
 		
 		prerequisite = { focus = GRU_einigkeit_recht  }
@@ -2207,7 +2213,7 @@ shared_focus = {
 shared_focus = {
 		id = GRU_occupational_government
 		icon = GFX_GRU_occupational_government-4027
-		x = 25
+		x = 28
 		y = 2
 		cost = 1
 		

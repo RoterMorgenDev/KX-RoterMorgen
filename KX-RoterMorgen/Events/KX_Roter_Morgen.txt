@@ -51,10 +51,6 @@ country_event = { # GRU setup
 					ideology = totalist
 					popularity = 0.20
 				}
-				add_popularity = {
-					ideology = syndicalist
-					popularity = 0.10
-				}
 				load_focus_tree = {
 				tree = gru-totalist
 					
