@@ -7687,6 +7687,7 @@ country_event = { #fate of Germany
 			OR = {
 				AND = {
 					tag = FRA
+					FRA = { has_socialist_government = yes }
 					NOT = {
 						FRA = {
 							OR = {
@@ -7697,8 +7698,14 @@ country_event = { #fate of Germany
 						}
 					}
 				}
-				tag = ENG
-				tag = SRI
+				AND = {
+					tag = ENG
+					ENG = { has_socialist_government = yes }
+				}
+				AND = {
+					tag = SRI
+					SRI = { has_socialist_government = yes }
+				}
 			}
 			GRU = { exists = no }
 			owns_state = 51 #Eastern Rheinland
