@@ -398,11 +398,11 @@ GRU_blackbook_desc:0 "The black book of the party.\n\nThe Volksführer has publi
 GRU_breitspur:0 "Breitspurbahnen"
 GRU_breitspur_desc:0 "The Breitspurbahnen is an ongoing project of building up a railroad network with an extremely wide gauge width.\nThe idea behind this is to interlink all German cities and areas with high industrial development or large amount of resources."
 
-GRU_guard:0 "R.N.G. - Revolutionäre Nationalgarde"
-GRU_guard_desc:0 "The Revolutionary National Guard.\n\nThese men fear no one, in fact everyone else fears them now not only in Germany as their reputation has already reached neighbouring countries.\n\The Revolutionary National Guard, dressed in all black uniforms serves as a small elite force under direct command of the party. They are responsible for the deportation and removal of enemies of the state in Germany and beyond."
+GRU_guard:0 "R.R. - Revolutionäres Regiment"
+GRU_guard_desc:0 "The Revolutionary Regiment.\n\nThese men fear no one, in fact everyone else fears them now not only in Germany as their reputation has already reached neighbouring countries.\n\The Revolutionary Regiment, dressed in all black uniforms with thier crimson runic 'RR' symbols serves as a small elite force under direct command of the party. They are responsible for the deportation and removal of enemies of the state in Germany and beyond."
 
 GRU_lager:0 "Anhaltelager"
-GRU_lager_desc:0 "These camps are run by the R.N.G. and no one knows what happens to those that end up in them, all the average citizen will ever know of them is the thick black smoke hailing from them."
+GRU_lager_desc:0 "These camps are run by the R.R. and no one knows what happens to those that end up in them, all the average citizen will ever know of them is the thick black smoke hailing from them."
 
 
 GRU_new_germany:0 "Das neue Deutschland!"

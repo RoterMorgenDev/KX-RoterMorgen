@@ -48,14 +48,33 @@ ideas = {
 			picture = gru_red_imperialism
 			modifier = {
 				justify_war_goal_time = -0.25
+				stability_factor = 0.05
+				
+				offensive_war_stability_factor = 0.1
+				political_power_cost = -40
+				monthly_population = 0.1
+				trade_opinion_factor = 0.1
+				research_sharing_per_country_bonus = 0.1
+				research_speed_factor = 0.05
+				party_popularity_stability_factor = 0.25
+				consumer_goods_factor = -0.15
 			}
 		}
 		gru_red_imperialism2 = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea gru_red_imperialism"}
 			picture = gru_red_imperialism
 			modifier = {
-				justify_war_goal_time = -0.75
-				stability_factor = 0.20
+				justify_war_goal_time = -0.50
+				stability_factor = 0.10
+				
+				offensive_war_stability_factor = 0.2
+				political_power_cost = -40
+				trade_opinion_factor = 0.1
+				monthly_population = 0.15
+				research_sharing_per_country_bonus = 0.1
+				research_speed_factor = 0.1
+				party_popularity_stability_factor = 0.25
+				consumer_goods_factor = -0.2
 			}
 		}
 		
@@ -130,6 +149,14 @@ ideas = {
 				stability_weekly_factor = 0.01
 				MONTHLY_POPULATION = 0.15
 				political_power_gain = 0.25
+				ai_focus_aggressive_factor = 0.5
+				conscription_factor = 0.03
+				justify_war_goal_time = -0.5
+				special_forces_cap = 0.1
+				offensive_war_stability_factor = 0.05
+				max_planning = 0.1
+				send_volunteer_divisions_required = -0.5
+				send_volunteer_size = 5	
 			}
 		}
 		GRU_deutsche_architecture = {
@@ -1213,6 +1240,15 @@ ideas = {
 				stability_factor = 0.20
 				war_support_factor = 0.20
 				army_morale_factor = 0.20
+				
+				offensive_war_stability_factor = 0.5
+				political_power_cost = -50
+				trade_opinion_factor = 0.1
+				monthly_population = 0.2
+				research_sharing_per_country_bonus = 0.1
+				research_speed_factor = 0.12
+				party_popularity_stability_factor = 0.3
+				consumer_goods_factor = -0.2
 			}
 		}
 		GRU_the_eye_idea = {
