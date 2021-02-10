@@ -3813,6 +3813,7 @@ GRU_volksreichskommissariat_decisions = {
 				set_autonomy = { target = HYP autonomy_state = kr_integrated_puppet }
 				set_country_flag = HYP_established
 				HYP = { set_country_flag = IS_HYP }
+				HYP = { inherit_technology = GRU }
 			}
 	}
 	
@@ -4069,6 +4070,7 @@ GRU_expansion_three_volksland_hypoboreaa = {
 				set_autonomy = { target = VKR autonomy_state = kr_integrated_puppet }
 				set_country_flag = VKR_established
 				VKR = { set_country_flag = IS_VKR }
+				VKR = { inherit_technology = GRU }
 			}
 	}
 	
@@ -4120,6 +4122,7 @@ GRU_expansion_three_volksland_hypoboreaa = {
 				set_autonomy = { target = VKK autonomy_state = kr_integrated_puppet }
 				set_country_flag = VKK_established
 				VKK = { set_country_flag = IS_VKK }
+				VKK = { inherit_technology = GRU }
 			}
 	}
 	
@@ -4169,6 +4172,7 @@ GRU_expansion_three_volksland_hypoboreaa = {
 				set_autonomy = { target = VKB autonomy_state = kr_integrated_puppet }
 				set_country_flag = VKB_established
 				VKB = { set_country_flag = IS_VKB }
+				VKB = { inherit_technology = GRU }
 			}
 	}
 	
@@ -4224,6 +4228,7 @@ GRU_expansion_three_volksland_hypoboreaa = {
 				set_autonomy = { target = VKM autonomy_state = kr_integrated_puppet }
 				set_country_flag = VKM_established
 				VKM = { set_country_flag = IS_VKM }
+				VKM = { inherit_technology = GRU }
 			}
 	}
 	
