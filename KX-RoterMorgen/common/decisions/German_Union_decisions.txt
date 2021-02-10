@@ -1300,16 +1300,18 @@ GRU_breitspurbahn_decisions = {
 	}
 }
 GRU_germania_plan_decisions = {
-
-	GRU_pan_germanism_claim_austria_decision = {
+	
+	GRU_pan_germanism_integrate_austria_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM
 			country_exists = AUS
+			 AUS = { is_subject_of = GRU }
 		}
 		available = {
 			country_exists = AUS
+			AUS = { is_subject_of = GRU }
 		}
 
 		fire_only_once = yes
@@ -1321,27 +1323,26 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_austria_decision"
-			every_state = {
-				limit = {
-					is_core_of = "AUS"
-					is_not_claim_or_core_of_ROOT = yes
-				}
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_austria_decision"
+			annex_country = {
+				target = AUS
+				transfer_troops = yes
 			}
-			set_country_flag = claimed_austria
 		}
 	}
 	#
-	GRU_pan_germanism_claim_swiss_decision = {
+	GRU_pan_germanism_integrate_swiss_decision = {
+
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM
 			country_exists = SWI
+			 SWI = { is_subject_of = GRU }
 		}
 		available = {
 			country_exists = SWI
+			SWI = { is_subject_of = GRU }
 		}
 
 		fire_only_once = yes
@@ -1353,44 +1354,25 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_austria_decision"
-			151 = {
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_swiss_decision"
+			annex_country = {
+				target = SWI
+				transfer_troops = yes
 			}
-			3 = {
-				add_claim_by = ROOT
-			}
-			760 = {
-				add_claim_by = FRA
-			}
-			943 = {
-				add_claim_by = FRA
-			}
-			943 = {
-				add_claim_by = SRI
-			}
-			761 = {
-				add_claim_by = SRI
-			}
-			943 = {
-				add_claim_by = ITA
-			}
-			761 = {
-				add_claim_by = ITA
-			}
-			set_country_flag = claimed_swiss
 		}
 	}
 	#
-	GRU_pan_germanism_claim_bohemia_decision = {
+	GRU_pan_germanism_integrate_bohemia_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_SLAV_LAND_EXPANSION
 			country_exists = CZE
+			 CZE = { is_subject_of = GRU }
 		}
 		available = {
 			country_exists = CZE
+			CZE = { is_subject_of = GRU }
 		}
 
 		fire_only_once = yes
@@ -1402,62 +1384,25 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_bohemia_decision"
-			every_state = {
-				limit = {
-					is_core_of = "CZE"
-					is_not_claim_or_core_of_ROOT = yes
-				}
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_bohemia_decision"
+			annex_country = {
+				target = CZE
+				transfer_troops = yes
 			}
-			set_country_flag = claimed_bohemia
 		}
 	}
 	#
-	GRU_pan_germanism_claim_galicia_decision = {
+	GRU_pan_germanism_integrate_galicia_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_SLAV_LAND_EXPANSION
 			country_exists = GAL
+			 GAL = { is_subject_of = GRU }
 		}
 		available = {
 			country_exists = GAL
-		}
-
-		fire_only_once = yes
-		cost = 20
-		days_remove = 0
-
-		ai_will_do = {
-			factor = 6
-		}
-
-		remove_effect = {  
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_galicia_decision"
-			every_state = {
-				limit = {
-					is_core_of = "GAL"
-					is_not_claim_or_core_of_ROOT = yes
-				}
-				add_claim_by = ROOT
-			}
-			713 = {
-				remove_claim_of = ROOT
-			}
-			set_country_flag = claimed_galicia
-		}
-	}
-	#
-	GRU_pan_germanism_claim_poland_decision = {
-		icon = GFX_pangermanicone
-
-		visible = {
-			has_completed_focus = GRU_NMDVP_SLAV_LAND_EXPANSION
-			country_exists = POL
-		}
-		available = {
-			country_exists = POL
+			GAL = { is_subject_of = GRU }
 		}
 
 		fire_only_once = yes
@@ -1469,24 +1414,57 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_poland_decision"
-			every_state = {
-				limit = {
-					is_core_of = "POL"
-					is_not_claim_or_core_of_ROOT = yes
-				}
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_galicia_decision"
+			annex_country = {
+				target = GAL
+				transfer_troops = yes
 			}
-			set_country_flag = claimed_poland
 		}
 	}
 	#
-	GRU_pan_germanism_claim_suwalki_decision = {
+	GRU_pan_germanism_integrate_poland_decision = {
+		icon = GFX_pangermanicone
+
+		visible = {
+			has_completed_focus = GRU_NMDVP_SLAV_LAND_EXPANSION
+			country_exists = POL
+			 POL = { is_subject_of = GRU }
+		}
+		available = {
+			country_exists = POL
+			POL = { is_subject_of = GRU }
+		}
+
+		fire_only_once = yes
+		cost = 20
+		days_remove = 0
+
+		ai_will_do = {
+			factor = 6
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_poland_decision"
+			annex_country = {
+				target = POL
+				transfer_troops = yes
+			}
+		}
+	}
+	#
+	GRU_pan_germanism_integrate_suwalki_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_SLAV_LAND_EXPANSION
 			country_exists = LIT
+			 LIT = { is_subject_of = GRU }
+			 655 = { is_owned_and_controlled_by = LIT }
+		}
+		available = {
+			country_exists = LIT
+			LIT = { is_subject_of = GRU }
+			655 = { is_owned_and_controlled_by = LIT }
 		}
 
 		fire_only_once = yes
@@ -1498,20 +1476,29 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_suwalki_decision"
-			655 = {
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_suwalki_decision"
+			GRU = {
+			if = {
+			limit = {
+			655 = { is_owned_and_controlled_by = LIT }
 			}
-			set_country_flag = claimed_suwalki
+			transfer_state = 655
+			}
+			}
 		}
 	}
 	#
-	GRU_pan_germanism_claim_dutch_decision = {
+	GRU_pan_germanism_integrate_dutch_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
 			country_exists = HOL
+			HOL = { is_subject_of = GRU }
+		}
+		available = {
+			country_exists = HOL
+			HOL = { is_subject_of = GRU }
 		}
 
 		fire_only_once = yes
@@ -1523,35 +1510,25 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_dutch_decision"
-			866 = {
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_dutch_decision"
+			annex_country = {
+				target = HOL
+				transfer_troops = yes
 			}
-			36 = {
-				add_claim_by = ROOT
-			}
-			7 = {
-				add_claim_by = ROOT
-			}
-			35 = {
-				add_claim_by = ROOT
-			}
-			978 = {
-				add_claim_by = ROOT
-			}
-			979 = {
-				add_claim_by = ROOT
-			}
-			set_country_flag = claimed_dutch
 		}
 	}
 	#
-	GRU_pan_germanism_claim_belgian_decision = {
+	GRU_pan_germanism_integrate_belgian_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
 			country_exists = BEL
+			BEL = { is_subject_of = GRU }
+		}
+		available = {
+			country_exists = BEL
+			BEL = { is_subject_of = GRU }
 		}
 
 		fire_only_once = yes
@@ -1563,27 +1540,25 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_belgian_decision"
-			6 = {
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_belgian_decision"
+			annex_country = {
+				target = BEL
+				transfer_troops = yes
 			}
-			34 = {
-				add_claim_by = ROOT
-			}
-			741 = {
-				add_claim_by = ROOT
-			}
-			set_country_flag = claimed_flanders
-			set_country_flag = claimed_wallonia
 		}
 	}
 	#
-	GRU_pan_germanism_claim_flandern_decision = {
+	GRU_pan_germanism_integrate_flandern_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
 			country_exists = FLN
+			FLN = { is_subject_of = GRU }
+		}
+		available = {
+			country_exists = FLN
+			FLN = { is_subject_of = GRU }
 		}
 
 		fire_only_once = yes
@@ -1595,20 +1570,25 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_flandern_decision"
-			6 = {
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_flandern_decision"
+			annex_country = {
+				target = FLN
+				transfer_troops = yes
 			}
-			set_country_flag = claimed_flanders
 		}
 	}
 	
-	GRU_pan_germanism_claim_wallonia_decision = {
+	GRU_pan_germanism_integrate_wallonia_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
 			country_exists = WLL
+			WLL = { is_subject_of = GRU }
+		}
+		available = {
+			country_exists = WLL
+			WLL = { is_subject_of = GRU }
 		}
 
 		fire_only_once = yes
@@ -1620,23 +1600,25 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_wallonia_decision"
-			34 = {
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_wallonia_decision"
+			annex_country = {
+				target = WLL
+				transfer_troops = yes
 			}
-			741 = {
-				add_claim_by = ROOT
-			}
-			set_country_flag = claimed_wallonia
 		}
 	}
 	
-	GRU_pan_germanism_claim_luxembourg_decision = {
+	GRU_pan_germanism_integrate_luxembourg_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
 			country_exists = LUX
+			LUX = { is_subject_of = GRU }
+		}
+		available = {
+			country_exists = LUX
+			LUX = { is_subject_of = GRU }
 		}
 
 		fire_only_once = yes
@@ -1648,20 +1630,25 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_luxembourg_decision"
-			8 = {
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_luxembourg_decision"
+			annex_country = {
+				target = LUX
+				transfer_troops = yes
 			}
-			set_country_flag = claimed_luxembourg
 		}
 	}
 	
-	GRU_pan_germanism_claim_denmark_decision = {
+	GRU_pan_germanism_integrate_denmark_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
 			country_exists = DEN
+			DEN = { is_subject_of = GRU }
+		}
+		available = {
+			country_exists = DEN
+			DEN = { is_subject_of = GRU }
 		}
 
 		fire_only_once = yes
@@ -1673,22 +1660,25 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_denmark_decision"
-			99 = {
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_denmark_decision"
+			annex_country = {
+				target = DEN
+				transfer_troops = yes
 			}
-			37 = {
-				add_claim_by = ROOT
-			}
-			set_country_flag = claimed_denmark
 		}
 	}
 	
-	GRU_pan_germanism_claim_iceland_decision = {
+	GRU_pan_germanism_integrate_iceland_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
+			country_exists = ICE
+			ICE = { is_subject_of = GRU }
+		}
+		available = {
+			country_exists = ICE
+			ICE = { is_subject_of = GRU }
 		}
 
 		fire_only_once = yes
@@ -1700,22 +1690,35 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_iceland_decision"
-			100 = {
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_iceland_decision"
+			annex_country = {
+				target = ICE
+				transfer_troops = yes
 			}
-			set_country_flag = iceland_denmark
 		}
 	}
 	
-	GRU_pan_germanism_claim_polarisland_decision = {
+	GRU_pan_germanism_integrate_polarisland_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
+			country_exists = NOR
+			 NOR = { is_subject_of = GRU }
+			 OR = {
+			1146 = { is_owned_and_controlled_by = NOR }
+			1147 = { is_owned_and_controlled_by = NOR }
+			}
+		}
+		available = {
+			country_exists = NOR
+			NOR = { is_subject_of = GRU }
+			 OR = {
+			1146 = { is_owned_and_controlled_by = NOR }
+			1147 = { is_owned_and_controlled_by = NOR }
+			}
 		}
 
-		fire_only_once = yes
 		cost = 20
 		days_remove = 0
 
@@ -1724,25 +1727,53 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_polarisland_decision"
-			1146 = {
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_polarisland_decision"
+			GRU = {
+			if = {
+			limit = {
+			1146 = { is_owned_and_controlled_by = NOR }
 			}
-			1147 = {
-				add_claim_by = ROOT
+			transfer_state = 1146
 			}
-			set_country_flag = polar_denmark
+			if = {
+			limit = {
+			1147 = { is_owned_and_controlled_by = NOR }
+			}
+			transfer_state = 1147
+			}
+			}
 		}
 	}
 	
-	GRU_pan_germanism_claim_elsas_decision = {
+	GRU_pan_germanism_integrate_elsas_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
+			country_exists = FRA
+			 FRA = { is_subject_of = GRU }
+			 OR = {
+			
+			779 = { is_owned_and_controlled_by = FRA }
+			28 = { is_owned_and_controlled_by = FRA }
+			8 = { is_owned_and_controlled_by = FRA }
+			741 = { is_owned_and_controlled_by = FRA }
+			
+			}
+		}
+		available = {
+			country_exists = FRA
+			FRA = { is_subject_of = GRU }
+			OR = {
+			
+			779 = { is_owned_and_controlled_by = FRA }
+			28 = { is_owned_and_controlled_by = FRA }
+			8 = { is_owned_and_controlled_by = FRA }
+			741 = { is_owned_and_controlled_by = FRA }
+			
+			}
 		}
 
-		fire_only_once = yes
 		cost = 20
 		days_remove = 0
 
@@ -1751,24 +1782,43 @@ GRU_germania_plan_decisions = {
 		}
 
 		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_elsas_decision"
-			28 = {
-				add_claim_by = ROOT
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_integrate_elsas_decision"
+			GRU = {
+			if = {
+			limit = {
+			779 = { is_owned_and_controlled_by = FRA }
 			}
-			779 = {
-				add_claim_by = ROOT
+		transfer_state = 779
+		}
+		if = {
+			limit = {
+			28 = { is_owned_and_controlled_by = FRA }
 			}
-			set_country_flag = claimed_elsas
+		transfer_state = 28
+		}
+		if = {
+			limit = {
+			8 = { is_owned_and_controlled_by = FRA }
+			}
+		transfer_state = 8
+		}
+		if = {
+			limit = {
+			741 = { is_owned_and_controlled_by = FRA }
+			}
+		transfer_state = 741
+		}
+			}
 		}
 	}
-
+	
+	
 	GRU_pan_germanism_austria_decision = {
 		icon = GFX_pangermanicone
 
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM
 			country_exists = AUS
-			has_country_flag = claimed_austria
 		}
 		available = {
 			country_exists = AUS
@@ -1801,7 +1851,6 @@ GRU_germania_plan_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM
 			country_exists = SWI
-			has_country_flag = claimed_swiss
 		}
 		available = {
 			country_exists = SWI
@@ -1833,7 +1882,6 @@ GRU_germania_plan_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_SLAV_LAND_EXPANSION
 			country_exists = CZE
-			has_country_flag = claimed_bohemia
 		}
 		available = {
 			country_exists = CZE
@@ -1866,7 +1914,6 @@ GRU_germania_plan_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_SLAV_LAND_EXPANSION
 			country_exists = GAL
-			has_country_flag = claimed_galicia
 		}
 		available = {
 			country_exists = GAL
@@ -1902,7 +1949,6 @@ GRU_germania_plan_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_SLAV_LAND_EXPANSION
 			country_exists = POL
-			has_country_flag = claimed_poland
 		}
 		available = {
 			country_exists = POL
@@ -1935,7 +1981,6 @@ GRU_germania_plan_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_SLAV_LAND_EXPANSION
 			country_exists = LIT
-			has_country_flag = claimed_suwalki
 		}
 
 		fire_only_once = yes
@@ -1961,7 +2006,6 @@ GRU_germania_plan_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
 			country_exists = HOL
-			has_country_flag = claimed_dutch
 		}
 
 		fire_only_once = yes
@@ -2002,10 +2046,6 @@ GRU_germania_plan_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
 			country_exists = BEL
-			and = {
-			has_country_flag = claimed_flanders
-			has_country_flag = claimed_wallonia
-			}
 		}
 
 		fire_only_once = yes
@@ -2037,7 +2077,6 @@ GRU_germania_plan_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
 			country_exists = FLN
-			has_country_flag = claimed_flanders
 		}
 
 		fire_only_once = yes
@@ -2063,7 +2102,6 @@ GRU_germania_plan_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
 			country_exists = WLL
-			has_country_flag = claimed_wallonia
 		}
 
 		fire_only_once = yes
@@ -2092,7 +2130,6 @@ GRU_germania_plan_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
 			country_exists = LUX
-			has_country_flag = claimed_luxembourg
 		}
 
 		fire_only_once = yes
@@ -2118,7 +2155,6 @@ GRU_germania_plan_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
 			country_exists = DEN
-			has_country_flag = claimed_denmark
 		}
 
 		fire_only_once = yes
@@ -2199,36 +2235,17 @@ GRU_germania_plan_decisions = {
 
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_core_austria_decision"
-			4 = {
-				add_core_of = ROOT
-			}
-			152 = {
-				add_core_of = ROOT
-			}
-			836 = {
-				add_core_of = ROOT
-			}
-			153 = {
-				add_core_of = ROOT
-			}
-			942 = {
-				add_core_of = ROOT
-			}
-			1137 = {
-				add_core_of = ROOT
-			}
-			775 = {
-				add_core_of = ROOT
-			}
-			835 = {
-				add_core_of = ROOT
-			}
-			783 = {
-				add_core_of = ROOT
-			}
-			784 = {
-				add_core_of = ROOT
-			}
+			4 = { add_core_of = GRU}
+			152 = { add_core_of = GRU}
+			836 = { add_core_of = GRU}
+			153 = { add_core_of = GRU}
+			942 = { add_core_of = GRU}
+			1137 = { add_core_of = GRU}
+			775 = { add_core_of = GRU}
+			835 = { add_core_of = GRU}
+			39 = { add_core_of = GRU}
+			783 = { add_core_of = GRU}
+			784 = { add_core_of = GRU}
 			set_country_flag = austria_cored
 		}
 	}
@@ -2347,13 +2364,19 @@ GRU_germania_plan_decisions = {
 
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_core_bohemia_decision"
-			every_state = {
-				limit = {
-					is_core_of = "CZE"
-					is_not_claim_or_core_of_ROOT = yes
-				}
-				add_core_of = ROOT
-			}
+			1133 = { add_core_of = GRU }
+			69 = { add_core_of = GRU }
+			1139 = { add_core_of = GRU }
+			786 = { add_core_of = GRU }
+			1130 = { add_core_of = GRU }
+			9 = { add_core_of = GRU }
+			1129 = { add_core_of = GRU }
+			1134 = { add_core_of = GRU }
+			1132 = { add_core_of = GRU }
+			71 = { add_core_of = GRU }
+			75 = { add_core_of = GRU }
+			74 = { add_core_of = GRU }
+			1131 = { add_core_of = GRU }
 			set_country_flag = bohemia_cored
 		}
 	}
@@ -2371,10 +2394,8 @@ GRU_germania_plan_decisions = {
 			1126 = { is_owned_and_controlled_by = ROOT }
 			1127 = { is_owned_and_controlled_by = ROOT }
 			91 = { is_owned_and_controlled_by = ROOT }
-			1129 = { is_owned_and_controlled_by = ROOT }
 			89 = { is_owned_and_controlled_by = ROOT }
 			1140 = { is_owned_and_controlled_by = ROOT }
-			80 = { is_owned_and_controlled_by = ROOT }
 		}
 
 		fire_only_once = yes
@@ -2387,15 +2408,29 @@ GRU_germania_plan_decisions = {
 
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_core_galicia_decision"
-			every_state = {
-				limit = {
-					is_core_of = "GAL"
-					is_not_claim_or_core_of_ROOT = yes
-				}
-				add_core_of = ROOT
+			1124 = {
+				add_core_of = GRU
 			}
-			713 = {
-				remove_core_of = ROOT
+			88 = {
+				add_core_of = GRU
+			}
+			1125 = {
+				add_core_of = GRU
+			}
+			1127 = {
+				add_core_of = GRU
+			}
+			1126 = {
+				add_core_of = GRU
+			}
+			91 = {
+				add_core_of = GRU
+			}
+			1140 = {
+				add_core_of = GRU
+			}
+			89 = {
+				add_core_of = GRU
 			}
 			set_country_flag = galicia_cored
 		}
@@ -2428,14 +2463,25 @@ GRU_germania_plan_decisions = {
 
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_core_poland_decision"
-			every_state = {
-				limit = {
-					is_core_of = "POL"
-					is_not_claim_or_core_of_ROOT = yes
-				}
-				add_core_of = ROOT
-			}
+			87 = { add_core_of = GRU }
+			98 = { add_core_of = GRU }
+			1148 = { add_core_of = GRU }
+			97 = { add_core_of = GRU }
+			10 = { add_core_of = GRU }
+			90 = { add_core_of = GRU }
+			92 = { add_core_of = GRU }
+			1088 = { add_core_of = GRU }
 			set_country_flag = poland_cored
+			set_province_name = { id = 9508 name = "Litzmannstadt"}
+			set_province_name = { id = 9546 name = "Kalisch"}
+			set_province_name = { id = 3586 name = "Tschenstochau"}
+			set_province_name = { id = 3497 name = "Kjelzy"}
+			set_province_name = { id = 402 name = "Siedlesch"}
+			set_province_name = { id = 11274 name = "Lumbsee"}
+			set_province_name = { id = 3544 name = "Herrmann Stadt"}
+			set_province_name = { id = 9452 name = "Schelm"}
+			set_province_name = { id = 11301 name = "Bjelostock"}
+			set_province_name = { id = 3230 name = "Schröttersburg"}
 		}
 	}
 	
@@ -2463,6 +2509,7 @@ GRU_germania_plan_decisions = {
 				add_core_of = ROOT
 			}
 			set_country_flag = suwalki_cored
+			set_province_name = { id = 3254 name = "Suwalken"}
 		}
 	}
 		
@@ -2600,6 +2647,9 @@ GRU_germania_plan_decisions = {
 				add_core_of = ROOT
 			}
 			37 = {
+				add_core_of = ROOT
+			}
+			337 = {
 				add_core_of = ROOT
 			}
 			set_country_flag = denmark_cored
@@ -3714,8 +3764,263 @@ GRU_scandi_decisions = {
 }
 
 GRU_volksreichskommissariat_decisions = {
-
 	
+	GRU_volksland_hypoborea = {
+
+			icon = GFX_hypoborea
+			ai_will_do = {
+				factor = 100
+			}
+			fire_only_once = yes
+				
+			available = {
+				has_completed_focus = GRU_NMDVP_LEBENSRAUM
+				has_completed_focus = GRU_NMDVP_SCANDINAVIA
+				tag = GRU 
+						OR = {
+							GRU = {
+								controls_state = 141
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 141
+						}
+					}
+				}
+		
+			visible = {
+				has_completed_focus = GRU_NMDVP_LEBENSRAUM
+				has_completed_focus = GRU_NMDVP_SCANDINAVIA
+			}
+		
+			complete_effect = {
+				hidden_effect = {
+					HYP = {
+						transfer_state = 141
+						
+						add_equipment_to_stockpile = {
+						type = infantry_equipment_1
+						amount = 4000
+						} 
+						add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 100
+						}
+						add_manpower = 40000
+					}
+				HYP = {	country_event = rotermorgenmisc.900 }
+				}
+				set_autonomy = { target = HYP autonomy_state = kr_integrated_puppet }
+				set_country_flag = HYP_established
+				HYP = { set_country_flag = IS_HYP }
+			}
+	}
+	
+	GRU_expansion_one_volksland_hypoboreaa = {
+
+			icon = GFX_hypoborea
+			ai_will_do = {
+				factor = 100
+			}
+			fire_only_once = yes
+				
+			available = {
+				has_completed_focus = GRU_NMDVP_LEBENSRAUM
+				has_completed_focus = GRU_NMDVP_SCANDINAVIA
+				has_country_flag = HYP_established
+				tag = GRU 
+						OR = {
+							GRU = {
+								controls_state = 139
+								controls_state = 138
+								controls_state = 124
+								controls_state = 140
+								controls_state = 908
+								controls_state = 38
+								controls_state = 778
+								controls_state = 666
+								controls_state = 960
+								controls_state = 909
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 139
+								controls_state = 138
+								controls_state = 124
+								controls_state = 140
+								controls_state = 908
+								controls_state = 38
+								controls_state = 778
+								controls_state = 666
+								controls_state = 960
+								controls_state = 909
+						}
+					}
+				}
+		
+			visible = {
+				has_completed_focus = GRU_NMDVP_LEBENSRAUM
+				has_completed_focus = GRU_NMDVP_SCANDINAVIA
+				has_country_flag = HYP_established
+			}
+		
+			complete_effect = {
+					HYP = {
+								transfer_state = 139
+								transfer_state = 138
+								transfer_state = 124
+								transfer_state = 140
+								transfer_state = 908
+								transfer_state = 38
+								transfer_state = 778
+								transfer_state = 666
+								transfer_state = 960
+								transfer_state = 909
+					}
+					hidden_effect = {
+				HYP = {	country_event = rotermorgenmisc.900 }
+				}
+			}
+	}
+	
+GRU_expansion_two_volksland_hypoboreaa = {
+
+			icon = GFX_hypoborea
+			ai_will_do = {
+				factor = 100
+			}
+			fire_only_once = yes
+				
+			available = {
+				has_completed_focus = GRU_NMDVP_LEBENSRAUM
+				has_completed_focus = GRU_NMDVP_SCANDINAVIA
+				has_country_flag = HYP_established
+				tag = GRU 
+						OR = {
+							GRU = {
+								controls_state = 110
+								controls_state = 142
+								controls_state = 143
+								controls_state = 144
+								controls_state = 937
+								controls_state = 936
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 110
+								controls_state = 142
+								controls_state = 143
+								controls_state = 144
+								controls_state = 937
+								controls_state = 936
+						}
+					}
+				}
+		
+			visible = {
+				has_completed_focus = GRU_NMDVP_LEBENSRAUM
+				has_completed_focus = GRU_NMDVP_SCANDINAVIA
+				has_country_flag = HYP_established
+			}
+		
+			complete_effect = {
+					HYP = {
+								transfer_state = 110
+								transfer_state = 142
+								transfer_state = 143
+								transfer_state = 144
+								transfer_state = 937
+								transfer_state = 936
+					}
+					hidden_effect = {
+				HYP = {	country_event = rotermorgenmisc.900 }
+				}
+			}
+	}
+GRU_expansion_three_volksland_hypoboreaa = {
+
+			icon = GFX_hypoborea
+			ai_will_do = {
+				factor = 100
+			}
+			fire_only_once = yes
+				
+			available = {
+				has_completed_focus = GRU_NMDVP_LEBENSRAUM
+				has_completed_focus = GRU_NMDVP_SCANDINAVIA
+				has_country_flag = HYP_established
+				tag = GRU 
+						OR = {
+							GRU = {
+								controls_state = 148
+								controls_state = 145
+								controls_state = 213
+								controls_state = 844
+								controls_state = 147
+								controls_state = 722
+								controls_state = 215
+								controls_state = 149
+								controls_state = 150
+								controls_state = 111
+								controls_state = 864
+								controls_state = 863
+								controls_state = 840
+								controls_state = 865
+								controls_state = 146
+								controls_state = 216
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 148
+								controls_state = 145
+								controls_state = 213
+								controls_state = 844
+								controls_state = 147
+								controls_state = 722
+								controls_state = 215
+								controls_state = 149
+								controls_state = 150
+								controls_state = 111
+								controls_state = 864
+								controls_state = 863
+								controls_state = 840
+								controls_state = 865
+								controls_state = 146
+								controls_state = 216
+						}
+					}
+				}
+		
+			visible = {
+				has_completed_focus = GRU_NMDVP_LEBENSRAUM
+				has_completed_focus = GRU_NMDVP_SCANDINAVIA
+				has_country_flag = HYP_established
+			}
+		
+			complete_effect = {
+					HYP = {
+								transfer_state = 148
+								transfer_state = 145
+								transfer_state = 213
+								transfer_state = 844
+								transfer_state = 147
+								transfer_state = 722
+								transfer_state = 215
+								transfer_state = 149
+								transfer_state = 150
+								transfer_state = 111
+								transfer_state = 864
+								transfer_state = 863
+								transfer_state = 840
+								transfer_state = 865
+								transfer_state = 146
+								transfer_state = 216
+					}
+					hidden_effect = {
+				HYP = {	country_event = rotermorgenmisc.900 }
+				}
+			}
+	}
 
 	GRU_volksreichskommissariat_ruthenia = {
 

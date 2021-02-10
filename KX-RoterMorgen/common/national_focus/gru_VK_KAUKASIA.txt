@@ -51,7 +51,7 @@
 								controls_state = 1081
 							}
 		}
-		cost = 6
+		cost = 18
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus VK_FOCUS_KAUKASIA_COLONIZE_ONE"
 			229 = {
@@ -96,7 +96,7 @@
 								controls_state = 1187
 							}
 		}
-		cost = 6
+		cost = 18
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus VK_FOCUS_KAUKASIA_COLONIZE_TWO"
 			232 = {
@@ -140,7 +140,7 @@
 								controls_state = 237
 							}
 		}
-		cost = 6
+		cost = 18
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus VK_FOCUS_KAUKASIA_COLONIZE_THREE"
 			1188 = {
@@ -177,7 +177,7 @@
 								controls_state = 217
 							}
 		}
-		cost = 6
+		cost = 18
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus VK_FOCUS_KAUKASIA_COLONIZE_FOUR"
 			236 = {

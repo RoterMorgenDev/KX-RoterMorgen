@@ -52,7 +52,7 @@
 
 							}
 		}
-		cost = 6
+		cost = 25
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus VK_FOCUS_MOSKOWIA_COLONIZE_ONE"
 			247 = {
@@ -101,7 +101,7 @@
 
 							}
 		}
-		cost = 6
+		cost = 25
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus VK_FOCUS_MOSKOWIA_COLONIZE_TWO"
 			257 = {
@@ -152,7 +152,7 @@
 
 							}
 		}
-		cost = 6
+		cost = 25
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus VK_FOCUS_MOSKOWIA_COLONIZE_THREE"
 			214 = {

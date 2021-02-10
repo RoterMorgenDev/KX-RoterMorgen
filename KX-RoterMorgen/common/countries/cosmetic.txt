@@ -1030,12 +1030,12 @@ IQR = {
 	color_ui = rgb { 50 12 175 }
 }
 GRU_NMDVP = {
-	color = rgb { 85 85 85 }
-	color_ui = rgb { 85 85 85 }
+	color = rgb { 45 45 45 }
+	color_ui = rgb { 55 55 55 }
 }
 GRU_NMDVP_BIG = {
-	color = rgb { 85 85 85 }
-	color_ui = rgb { 85 85 85 }
+	color = rgb { 45 45 45 }
+	color_ui = rgb { 55 55 55 }
 }
 GRU_GPR = {
 	color = rgb { 122 4 4 }

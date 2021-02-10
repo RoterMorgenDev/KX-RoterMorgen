@@ -896,6 +896,117 @@ country_event = { # VKM claims
 	}
 }
 
+country_event = { # HYP claims
+	id = rotermorgenmisc.900
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.900" }
+	title = rotermorgenmisc.900.t
+	desc = rotermorgenmisc.900.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+				141 = {
+					add_claim_by = HYP
+				}
+				139 = {
+					add_claim_by = HYP
+				}
+				138 = {
+					add_claim_by = HYP
+				}	
+				124 = {
+					add_claim_by = HYP
+				}
+				140 = {
+					add_claim_by = HYP
+				}
+				908 = {
+					add_claim_by = HYP
+				}
+				38 = {
+					add_claim_by = HYP
+				}
+				778 = {
+					add_claim_by = HYP
+				}
+				666 = {
+					add_claim_by = HYP
+				}
+				960 = {
+					add_claim_by = HYP
+				}
+				909 = {
+					add_claim_by = HYP
+				}
+				145 = {
+					add_claim_by = HYP
+				}
+				110 = {
+					add_claim_by = HYP
+				}
+				142 = {
+					add_claim_by = HYP
+				}
+				143 = {
+					add_claim_by = HYP
+				}
+				144 = {
+					add_claim_by = HYP
+				}
+				937 = {
+					add_claim_by = HYP
+				}
+				936 = {
+					add_claim_by = HYP
+				}
+				844 = {
+					add_claim_by = HYP
+				}
+				148 = {
+					add_claim_by = HYP
+				}
+				213 = {
+					add_claim_by = HYP
+				}
+				147 = {
+					add_claim_by = HYP
+				}
+				
+				722 = {
+					add_claim_by = HYP
+				}
+				215 = {
+					add_claim_by = HYP
+				}
+				149 = {
+					add_claim_by = HYP
+				}
+				150 = {
+					add_claim_by = HYP
+				}
+				111 = {
+					add_claim_by = HYP
+				}
+				864 = {
+					add_claim_by = HYP
+				}
+				863 = {
+					add_claim_by = HYP
+				}
+				840 = {
+					add_claim_by = HYP
+				}
+				865 = {
+					add_claim_by = HYP
+				}
+				146 = {
+					add_claim_by = HYP
+				}
+				216 = {
+					add_claim_by = HYP
+				}
+	}
+}
+
 country_event = { #rehab of generals
 	id = rotermorgenmisc.150
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.150" }
