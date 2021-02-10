@@ -28,7 +28,7 @@ country_event = { # portraitswapper
 	create_country_leader = {
 							name = "Josef Goebbels"
 							desc = "GRU_GOEBBELS_DESC"
-							picture = "gfx/leaders/GRU/Portrait_Germany_Josef_Goebbels_12.tga"
+							picture = "gfx/leaders/GRU/Portrait_Germany_Josef_Goebbels_14.tga"
 							expire = "1965.1.1"
 							ideology = totalist_subtype
 				}

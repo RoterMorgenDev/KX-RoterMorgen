@@ -1684,6 +1684,57 @@ GRU_germania_plan_decisions = {
 		}
 	}
 	
+	GRU_pan_germanism_claim_iceland_decision = {
+		icon = GFX_pangermanicone
+
+		visible = {
+			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
+		}
+
+		fire_only_once = yes
+		cost = 20
+		days_remove = 0
+
+		ai_will_do = {
+			factor = 6
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_iceland_decision"
+			100 = {
+				add_claim_by = ROOT
+			}
+			set_country_flag = iceland_denmark
+		}
+	}
+	
+	GRU_pan_germanism_claim_polarisland_decision = {
+		icon = GFX_pangermanicone
+
+		visible = {
+			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
+		}
+
+		fire_only_once = yes
+		cost = 20
+		days_remove = 0
+
+		ai_will_do = {
+			factor = 6
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_claim_polarisland_decision"
+			1146 = {
+				add_claim_by = ROOT
+			}
+			1147 = {
+				add_claim_by = ROOT
+			}
+			set_country_flag = polar_denmark
+		}
+	}
+	
 	GRU_pan_germanism_claim_elsas_decision = {
 		icon = GFX_pangermanicone
 
@@ -2089,6 +2140,34 @@ GRU_germania_plan_decisions = {
 			}
 		}
 	}
+	
+	GRU_pan_germanism_iceland_decision = {
+		icon = GFX_pangermanicone
+
+		visible = {
+			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
+			country_exists = ICE
+			has_country_flag = iceland_denmark
+		}
+
+		fire_only_once = yes
+		cost = 20
+		days_remove = 0
+
+		ai_will_do = {
+			factor = 6
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_iceland_decision"
+			declare_war_on = {	type = annex_everything	target = ICE }
+			100 = {
+				add_claim_by = ROOT
+			}
+		}
+	}
+	
+
 	
 	GRU_pan_germanism_core_austria_decision = {
 		icon = GFX_pangermanictwo
@@ -2524,6 +2603,64 @@ GRU_germania_plan_decisions = {
 				add_core_of = ROOT
 			}
 			set_country_flag = denmark_cored
+		}
+	}
+	
+	GRU_pan_germanism_core_iceland_decision = {
+		icon = GFX_pangermanicone
+
+		visible = {
+			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
+		}
+		available = {
+			100 = { is_owned_and_controlled_by = ROOT }
+		}
+
+		fire_only_once = yes
+		cost = 20
+		days_remove = 0
+
+		ai_will_do = {
+			factor = 6
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_core_iceland_decision"
+			100 = {
+				add_core_of = ROOT
+			}
+			set_country_flag = iceland_cored
+		}
+	}
+	
+	GRU_pan_germanism_core_polarisland_decision = {
+		icon = GFX_pangermanicone
+
+		visible = {
+			has_completed_focus = GRU_NMDVP_PAN_GERMANISM_RELOADED
+		}
+		available = {
+			1146 = { is_owned_and_controlled_by = ROOT }
+			1147 = { is_owned_and_controlled_by = ROOT }
+		}
+
+		fire_only_once = yes
+		cost = 20
+		days_remove = 0
+
+		ai_will_do = {
+			factor = 6
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_core_polarisland_decision"
+			1146 = {
+				add_core_of = ROOT
+			}
+			1147 = {
+				add_core_of = ROOT
+			}
+			set_country_flag = polar_cored
 		}
 	}
 	
@@ -3465,6 +3602,33 @@ GRU_scandi_decisions = {
 		}
 	}
 	
+	GRU_scandi_finland_war_decision = {
+		icon = generic_prepare_civil_war
+
+		visible = {
+			has_completed_focus = GRU_NMDVP_SCANDINAVIA
+			country_exists = FIN
+			NOT = { FIN = { has_government = totalist } }
+		}
+		available = {
+			country_exists = FIN
+			NOT = { FIN = { has_government = totalist } }
+		}
+
+		fire_only_once = yes
+		cost = 20
+		days_remove = 30
+
+		ai_will_do = {
+			factor = 6
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_scandi_finland_war_decision"
+			declare_war_on = {	type = annex_everything	target = FIN }
+		}
+	}
+	
 	GRU_scandi_sweden_friend_decision = {
 		icon = generic_political_actions
 
@@ -3516,6 +3680,33 @@ GRU_scandi_decisions = {
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_scandi_norway_war_decision"
 			NOR = {	country_event = rotermorgenmisc.100 }
+		}
+	}
+	
+	GRU_scandi_finland_friend_decision = {
+		icon = generic_political_actions
+
+		visible = {
+			has_completed_focus = GRU_NMDVP_SCANDINAVIA
+			country_exists = FIN
+			FIN = { has_government = totalist } 
+		}
+		available = {
+			country_exists = FIN
+			FIN = { has_government = totalist }
+		}
+
+		fire_only_once = yes
+		cost = 20
+		days_remove = 30
+
+		ai_will_do = {
+			factor = 6
+		}
+
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_scandi_finland_friend_decision"
+			FIN = {	country_event = rotermorgenmisc.100 }
 		}
 	}
 
@@ -3572,6 +3763,7 @@ GRU_volksreichskommissariat_decisions = {
 				}
 				set_autonomy = { target = VKR autonomy_state = kr_integrated_puppet }
 				set_country_flag = VKR_established
+				VKR = { set_country_flag = IS_VKR }
 			}
 	}
 	
@@ -3622,6 +3814,7 @@ GRU_volksreichskommissariat_decisions = {
 				
 				set_autonomy = { target = VKK autonomy_state = kr_integrated_puppet }
 				set_country_flag = VKK_established
+				VKK = { set_country_flag = IS_VKK }
 			}
 	}
 	
@@ -3670,6 +3863,7 @@ GRU_volksreichskommissariat_decisions = {
 				}
 				set_autonomy = { target = VKB autonomy_state = kr_integrated_puppet }
 				set_country_flag = VKB_established
+				VKB = { set_country_flag = IS_VKB }
 			}
 	}
 	
@@ -3724,6 +3918,7 @@ GRU_volksreichskommissariat_decisions = {
 				}
 				set_autonomy = { target = VKM autonomy_state = kr_integrated_puppet }
 				set_country_flag = VKM_established
+				VKM = { set_country_flag = IS_VKM }
 			}
 	}
 	

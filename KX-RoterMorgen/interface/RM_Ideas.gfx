@@ -393,6 +393,27 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GRU/GRU_SUCCDUMS.tga"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_VK_COLONYONE"
+		texturefile = "gfx/interface/ideas/GRU/VK_COLONYONE.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_VK_COLONYTWO"
+		texturefile = "gfx/interface/ideas/GRU/VK_COLONYTWO.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_VK_COLONYTHREE"
+		texturefile = "gfx/interface/ideas/GRU/VK_COLONYTHREE.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_VK_INDUSTRY_ONE"
+		texturefile = "gfx/interface/ideas/GRU/VK_INDUSTRY_ONE.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_VK_INDUSTRY_TWO"
+		texturefile = "gfx/interface/ideas/GRU/VK_INDUSTRY_TWO.tga"
+	}
+	
 	
 	
 }

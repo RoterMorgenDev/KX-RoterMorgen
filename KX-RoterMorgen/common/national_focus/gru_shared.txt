@@ -681,7 +681,7 @@ shared_focus = {
 		id = GRU_spd_victory
 		icon = GFX_GRU_spd_victory-3988
 		relative_position_id = GRU_first_congress_of_german_unions
-		x = -22
+		x = -21
 		y = 1
 		cost = 1
 		available = {
@@ -1864,6 +1864,14 @@ shared_focus = {
 		relative_position_id = GRU_nmdvp_victory
 		x = 12
 		y = -1
+		offset = {
+			x = -10
+			y = 0
+			y = 6
+			trigger = {
+					has_country_flag = IS_VKB 
+				}
+			}
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_formation_of_the_nva"
