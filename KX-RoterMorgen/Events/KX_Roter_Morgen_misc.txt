@@ -36,6 +36,19 @@ country_event = { # portraitswapper
 	}
 }
 
+country_event = { # Futhark
+	id = rotermorgenmisc.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.4" }
+	title = rotermorgenmisc.4.t
+	desc = rotermorgenmisc.4.d
+	picture = GFX_report_event_futhark
+	is_triggered_only = yes
+	
+	option = { 
+		name = rotermorgenmisc.4.a
+		add_ideas = GRU_FUTHARK
+	}
+}
 
 country_event = { # allignment
 	id = rotermorgenmisc.40

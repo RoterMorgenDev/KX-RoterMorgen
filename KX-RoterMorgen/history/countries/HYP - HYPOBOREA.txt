@@ -70,11 +70,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Josef Terboven"
-	desc = "POLITICS_Terboven_DESC"
-	picture = "gfx/leaders/GRU/Terboven.tga"
+	name = "Sven Olov Lindholm"
+	desc = "POLITICS_Lindholm_DESC"
+	picture = "gfx/leaders/GRU/Portrait_HYP_sevn.tga"
 	expire = "1965.1.1"
 	ideology = totalist_subtype
-	traits = { volkskommissar
+	traits = { northern_fuehrer
 	}
 }

@@ -290,6 +290,7 @@ focus_tree = {
 							remove_idea = VK_COLONY_TWO
 							add_idea = VK_COLONY_THREE
 						}
+			set_country_flag = Germanized_VKR
 		}
 		prerequisite = { focus = VK_FOCUS_RUTHENIA_COLONIZE_THREE }
 		prerequisite = { focus = VK_FOCUS_RUTHENIA_COLONIZE_FOUR  }

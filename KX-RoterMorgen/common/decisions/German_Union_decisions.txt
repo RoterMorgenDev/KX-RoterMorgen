@@ -3604,11 +3604,11 @@ GRU_scandi_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_SCANDINAVIA
 			country_exists = SWE
-			NOT = { SWE = { has_government = totalist } }
+			#NOT = { SWE = { has_government = totalist } }
 		}
 		available = {
 			country_exists = SWE
-			NOT = { SWE = { has_government = totalist } }
+			#NOT = { SWE = { has_government = totalist } }
 		}
 
 		fire_only_once = yes
@@ -3631,11 +3631,11 @@ GRU_scandi_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_SCANDINAVIA
 			country_exists = NOR
-			NOT = { NOR = { has_government = totalist } }
+			#NOT = { NOR = { has_government = totalist } }
 		}
 		available = {
 			country_exists = NOR
-			NOT = { NOR = { has_government = totalist } }
+			#NOT = { NOR = { has_government = totalist } }
 		}
 
 		fire_only_once = yes
@@ -3658,11 +3658,11 @@ GRU_scandi_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_SCANDINAVIA
 			country_exists = FIN
-			NOT = { FIN = { has_government = totalist } }
+			#NOT = { FIN = { has_government = totalist } }
 		}
 		available = {
 			country_exists = FIN
-			NOT = { FIN = { has_government = totalist } }
+			#NOT = { FIN = { has_government = totalist } }
 		}
 
 		fire_only_once = yes
@@ -3686,10 +3686,12 @@ GRU_scandi_decisions = {
 			has_completed_focus = GRU_NMDVP_SCANDINAVIA
 			country_exists = SWE
 			SWE = { has_government = totalist }
+			has_country_flag = GRU_NEVER
 		}
 		available = {
 			country_exists = SWE
 			SWE = { has_government = totalist }
+			has_country_flag = GRU_NEVER
 		}
 
 		fire_only_once = yes
@@ -3713,10 +3715,12 @@ GRU_scandi_decisions = {
 			has_completed_focus = GRU_NMDVP_SCANDINAVIA
 			country_exists = NOR
 			NOR = { has_government = totalist } 
+			has_country_flag = GRU_NEVER
 		}
 		available = {
 			country_exists = NOR
 			NOR = { has_government = totalist }
+			has_country_flag = GRU_NEVER
 		}
 
 		fire_only_once = yes
@@ -3740,10 +3744,12 @@ GRU_scandi_decisions = {
 			has_completed_focus = GRU_NMDVP_SCANDINAVIA
 			country_exists = FIN
 			FIN = { has_government = totalist } 
+			has_country_flag = GRU_NEVER
 		}
 		available = {
 			country_exists = FIN
 			FIN = { has_government = totalist }
+			has_country_flag = GRU_NEVER
 		}
 
 		fire_only_once = yes

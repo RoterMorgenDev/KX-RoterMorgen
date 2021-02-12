@@ -228,6 +228,7 @@
 							remove_idea = VK_COLONY_TWO
 							add_idea = VK_COLONY_THREE
 						}
+			set_country_flag = Germanized_VKB
 		}
 		prerequisite = { focus = VK_FOCUS_BALTEN_COLONIZE_FOUR  }
 		prerequisite = { focus = VK_FOCUS_BALTEN_COLONIZE_FIVE  }

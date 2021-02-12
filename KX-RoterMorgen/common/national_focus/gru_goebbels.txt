@@ -46,9 +46,6 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_NMDVP_imperialism"
-			hidden_effect = {
-				add_country_leader_trait = gru_imperialist
-			}
 			add_ideas = gru_red_imperialism
 		}
 		prerequisite = { focus = GRU_NMDVP_PATH  }

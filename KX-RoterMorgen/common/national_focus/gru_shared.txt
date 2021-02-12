@@ -488,7 +488,7 @@ shared_focus = {
 	#NMDVP Victory
 shared_focus = {
 		id = GRU_nmdvp_victory
-		icon = GFX_GRU_nmdvp_victory-3943
+		icon = NMDVP
 		relative_position_id = GRU_first_congress_of_german_unions
 		x = 20
 		y = 1
@@ -623,7 +623,8 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_form_the_stasi"
 			hidden_effect = {
 				country_event = { id =  rotermorgenmisc.2 }
-				country_event = { id =  rotermorgenmisc.777 days = 240 }
+				country_event = { id =  rotermorgenmisc.777 days = 340 }
+				country_event = { id =  rotermorgenmisc.4 days = 100 }
 			}
 			add_country_leader_trait = gru_volksfuehrer
 		}

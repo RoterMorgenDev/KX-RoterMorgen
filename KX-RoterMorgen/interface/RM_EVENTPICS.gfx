@@ -27,4 +27,11 @@ spriteTypes = {
 
 			texturefile = "gfx/event_pictures/hero.tga"
 	}
+	
+	spriteType = {  
+
+			name = "GFX_report_event_futhark"  
+
+			texturefile = "gfx/event_pictures/Futhark.tga"
+	}
 }

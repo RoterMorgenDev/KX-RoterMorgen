@@ -205,6 +205,7 @@
 							remove_idea = VK_COLONY_TWO
 							add_idea = VK_COLONY_THREE
 						}
+			set_country_flag = Germanized_VKK
 		}
 		prerequisite = { focus =  VK_FOCUS_KAUKASIA_COLONIZE_ONE }
 		prerequisite = { focus =  VK_FOCUS_KAUKASIA_COLONIZE_TWO }

@@ -1626,6 +1626,59 @@ ideas = {
 				recruitable_population_factor = -0.70
 			}
 		}
+		GRU_FUTHARK = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_FUTHARK"}
+			picture = GRU_FUTHARK
+			modifier = {
+				foreign_subversive_activites = -0.1
+				encryption_factor = 0.3
+			}
+		}
+		HYP_HYPOBOREA1 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HYP_HYPOBOREA1"}
+			picture = HYP_HYPOBOREAN_IDEA
+			modifier = {
+				surrender_limit = 0.25
+				stability_weekly_factor = 0.01
+				MONTHLY_POPULATION = 0.10
+				political_power_gain = 0.15
+				conscription_factor = 0.03
+				special_forces_cap = 0.1
+			}
+		}
+		HYP_HYPOBOREA2 = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HYP_HYPOBOREA2"}
+			picture = HYP_HYPOBOREAN_IDEA
+			modifier = {
+				surrender_limit = 0.50
+				stability_weekly_factor = 0.01
+				MONTHLY_POPULATION = 0.15
+				political_power_gain = 0.25
+				ai_focus_aggressive_factor = 0.5
+				conscription_factor = 0.03
+				special_forces_cap = 0.1
+				max_planning = 0.1
+			}
+		}
+		HYP_NORDMANNEN = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HYP_NORDMANNEN"}
+			picture = HYP_NORDMANNEN
+			modifier = {
+				stability_weekly_factor = 0.01
+				political_power_gain = 0.15
+			}
+		}
+		HYP_NATURE = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea HYP_NATURE"}
+			picture = HYP_NATURE_PROTECT
+			modifier = {
+				stability_weekly_factor = 0.01
+				political_power_gain = 0.05
+				local_intel_to_enemies = -0.2
+				army_org_Factor = 0.05
+				local_manpower = 0.05
+			}
+		}
 	}
 	
 	hidden_ideas = {

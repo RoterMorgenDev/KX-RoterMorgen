@@ -413,7 +413,22 @@ spriteTypes = {
 		name = "GFX_idea_VK_INDUSTRY_TWO"
 		texturefile = "gfx/interface/ideas/GRU/VK_INDUSTRY_TWO.tga"
 	}
-	
+	spriteType = {
+		name = "GFX_idea_GRU_FUTHARK"
+		texturefile = "gfx/interface/ideas/GRU/FUTHARK_IDEA.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_HYP_HYPOBOREAN_IDEA"
+		texturefile = "gfx/interface/ideas/GRU/HYPOBOREA.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_HYP_NORDMANNEN"
+		texturefile = "gfx/interface/ideas/GRU/Normannen_IDEA.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_HYP_NATURE_PROTECT"
+		texturefile = "gfx/interface/ideas/GRU/NATURE_IDEA.tga"
+	}
 	
 	
 }
