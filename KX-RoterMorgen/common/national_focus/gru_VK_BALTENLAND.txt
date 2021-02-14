@@ -209,6 +209,7 @@
 				add_core_of = VKB
 			}
 			set_province_name = { id = 6174 name = "Petersburg"}
+			set_province_name = { id = 117 name = "Hólmgarðr"}
 		}
 		prerequisite = { focus = VK_FOCUS_BALTEN_COLONIZE_TWO  }
 		prerequisite = { focus = VK_FOCUS_BALTEN_COLONIZE_THREE  }

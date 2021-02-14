@@ -822,6 +822,9 @@ GRU_siemens_schuckert2:0 "VEB Siemens-Schukert Verbessert"
 gru_volksfuehrer:0 "\nVolksführer\n\n§gJosef Goebbels has assumed the title of Volksführer meaning the leader of the people, for some this might seem trivial but it is a clear show of his own political power.§!"
 gru_volksfuehrer_desc:0 "Josef Goebbels has assumed the title of Volksführer meaning the leader of the people, for some this might seem trivial but it is a clear show of his own political power"
 
+RR_OFFICER:0 "R.R. Officer"
+RR_OFFICER_desc:0 "This man is part of the Bewaffnete-RR, the fully militarized wing of the R.R."
+
 gru_froncophobe:0 "Francophobe"
 gru_froncophobe_desc:0 "Goebbels harbours great hatred for the French."
 

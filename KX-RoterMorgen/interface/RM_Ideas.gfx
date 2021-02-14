@@ -429,6 +429,10 @@ spriteTypes = {
 		name = "GFX_idea_HYP_NATURE_PROTECT"
 		texturefile = "gfx/interface/ideas/GRU/NATURE_IDEA.tga"
 	}
+	spriteType = {
+		name = "GFX_trait_RR_OFFICER"
+		texturefile = "gfx/interface/traits/rr_officer.dds"
+	}
 	
 	
 }

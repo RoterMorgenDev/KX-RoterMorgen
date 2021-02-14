@@ -214,7 +214,13 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_form_the_guard"
 			add_ideas = GRU_guard
 			hidden_effect = {
-				country_event = { id =  rotermorgenspicy.1  }
+				if = {
+					limit = {
+						has_country_flag = NVA_FORMED
+					}
+					country_event = { id =  rotermorgenspicy.1  }
+				}
+				set_country_flag = RR_FORMED
 			}
 		}
 
@@ -1878,6 +1884,13 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_formation_of_the_nva"
 			hidden_effect = {
 				country_event = { id =  rotermorgenmisc.150 }
+				if = {
+					limit = {
+						has_country_flag = RR_FORMED
+					}
+					country_event = { id =  rotermorgenspicy.1  }
+				}
+				set_country_flag = NVA_FORMED
 			}
 		}
 		available = {

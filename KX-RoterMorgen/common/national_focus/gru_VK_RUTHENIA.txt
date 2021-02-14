@@ -23,6 +23,7 @@ focus_tree = {
 			202 = {
 				add_core_of = VKB
 			}
+			set_province_name = { id = 525 name = "Kønugarðr"}
 			swap_ideas = {
 							remove_idea = VK_COLONY_ONE
 							add_idea = VK_COLONY_TWO

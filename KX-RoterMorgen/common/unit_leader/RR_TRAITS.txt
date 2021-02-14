@@ -1,0 +1,20 @@
+leader_traits = {
+	RR_OFFICER = {
+		type = land
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		modifier = {
+			planning_speed = 0.20
+			wounded_chance_factor = 0.25  # +25% chance to get wounded
+		}
+		non_shared_modifier = {
+			promote_cost_factor = -0.25
+		}
+
+		attack_skill_factor = 1
+		defense_skill_factor = -1
+		planning_skill_factor = 1
+	}
+}
