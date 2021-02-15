@@ -36,6 +36,25 @@ country_event = { # portraitswapper
 	}
 }
 
+country_event = { # portraitswapper
+	id = rotermorgenmisc.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.3" }
+	title = rotermorgenmisc.3.t
+	desc = rotermorgenmisc.3.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+	create_country_leader = {
+							name = "Communal Councils"
+							desc = "GRU_Councils_DESC"
+							picture = "gfx/leaders/GRU/councilism.tga"
+							expire = "1965.1.1"
+							ideology = syndicalist_subtype
+				}
+	}
+}
+
+
 country_event = { # Futhark
 	id = rotermorgenmisc.4
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.4" }

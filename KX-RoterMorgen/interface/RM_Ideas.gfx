@@ -434,5 +434,34 @@ spriteTypes = {
 		texturefile = "gfx/interface/traits/rr_officer.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_FAUD_ANARCHO"
+		texturefile = "gfx/interface/ideas/GRU/FAUD_ANARCHO.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FAUD_FAMILY"
+		texturefile = "gfx/interface/ideas/GRU/FAUD_FAMILY.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FAUD_DRUGS"
+		texturefile = "gfx/interface/ideas/GRU/FAUD_DRUGS.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FAUD_GENDERS_SEXES"
+		texturefile = "gfx/interface/ideas/GRU/FAUD_GENDERS_SEXES.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FAUD_ANRCH_DIPLO"
+		texturefile = "gfx/interface/ideas/GRU/FAUD_ANRCH_DIPLO.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_FAUD_HELP_OTHERS"
+		texturefile = "gfx/interface/ideas/GRU/FAUD_HELP_OTHERS.tga"
+	}
 	
 }
