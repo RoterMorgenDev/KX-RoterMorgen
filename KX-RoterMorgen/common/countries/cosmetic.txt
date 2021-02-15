@@ -1051,8 +1051,8 @@ GRU_FAUD = {
 }
 
 GRU_FAUD_B = {
-	color = rgb { 220 80 80 }
-	color_ui = rgb { 220 80 80 }
+	color = rgb { 80 80 220 }
+	color_ui = rgb { 80 80 220 }
 }
 
 GRU_SEPD = {

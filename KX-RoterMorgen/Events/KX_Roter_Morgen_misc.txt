@@ -69,6 +69,22 @@ country_event = { # Futhark
 	}
 }
 
+
+country_event = { # Blan Canvas
+	id = rotermorgenmisc.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.5" }
+	title = rotermorgenmisc.5.t
+	desc = rotermorgenmisc.5.d
+	picture = GFX_report_event_trueartisthis
+	is_triggered_only = yes
+	
+	option = { 
+		name = rotermorgenmisc.5.a
+	}
+}
+
+
+
 country_event = { # allignment
 	id = rotermorgenmisc.40
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.40" }

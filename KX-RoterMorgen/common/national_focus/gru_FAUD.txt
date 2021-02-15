@@ -184,6 +184,9 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_FAUD_FINANCE_ARTISTS"
 			add_political_power = 25
 			add_stability = 0.10
+			hidden_effect = {
+				country_event = { id =  rotermorgenmisc.5 days = 40 }
+			}
 		}
 		prerequisite = { focus = GRU_FAUD_FEMININE_SOCIETY  }
 		prerequisite = { focus = GRU_FAUD_NEW_FAMILY_MODEL  }
