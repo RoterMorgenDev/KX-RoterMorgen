@@ -1,0 +1,556 @@
+focus_tree = {
+	id = gru_SPD
+	continuous_focus_position = { x = 1420 y = 1500 }
+	country = {
+		factor = 0
+	}
+	
+	focus = {
+		id = GRU_THE_DEMOCRACY_PROMISE
+		icon = GRU_
+		relative_position_id = GRU_und_freiheit
+		x = 13
+		y = 3
+		available = {
+			has_country_flag = GRU_REBUILD
+			is_subject = no
+			is_major = yes
+		}
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_THE_DEMOCRACY_PROMISE"
+		}
+	}
+	#### RADSOC / DEMOCRATIC SOCIALISTS ####
+	focus = {
+		id = GRU_RADSOCS_ELECTED
+		icon = GRU_
+		relative_position_id = GRU_THE_DEMOCRACY_PROMISE
+		x = 14
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_ELECTED"
+		}
+		prerequisite = { focus = GRU_THE_DEMOCRACY_PROMISE  }
+	}
+	
+	focus = {
+		id = GRU_RADSOCS_SOCIALIST_MARKET_ECONOMY
+		icon = GRU_
+		relative_position_id = GRU_RADSOCS_ELECTED
+		x = 0
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_SOCIALIST_MARKET_ECONOMY"
+		}
+		prerequisite = { focus = GRU_RADSOCS_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_RADSOCS_SIDELINE_RIGHT_WINGS
+		icon = GRU_
+		relative_position_id = GRU_RADSOCS_ELECTED
+		x = 2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_SIDELINE_RIGHT_WINGS"
+		}
+		prerequisite = { focus = GRU_RADSOCS_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_RADSOCS_UNIVERSIAL_HEALTHCARE
+		icon = GRU_
+		relative_position_id = GRU_RADSOCS_ELECTED
+		x = -2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_UNIVERSIAL_HEALTHCARE"
+		}
+		prerequisite = { focus = GRU_RADSOCS_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_RADSOCS_STATE_MEDIA
+		icon = GRU_
+		relative_position_id = GRU_RADSOCS_ELECTED
+		x = 1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_STATE_MEDIA"
+		}
+		prerequisite = { focus = GRU_RADSOCS_UNIVERSIAL_HEALTHCARE  }
+		prerequisite = { focus = GRU_RADSOCS_SIDELINE_RIGHT_WINGS  }
+		prerequisite = { focus = GRU_RADSOCS_SOCIALIST_MARKET_ECONOMY  }
+	}
+	
+	focus = {
+		id = GRU_RADSOCS_UNIVERSIAL_BASIC_INCOME
+		icon = GRU_
+		relative_position_id = GRU_RADSOCS_ELECTED
+		x = -1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_UNIVERSIAL_BASIC_INCOME"
+		}
+		prerequisite = { focus = GRU_RADSOCS_UNIVERSIAL_HEALTHCARE  }
+		prerequisite = { focus = GRU_RADSOCS_SIDELINE_RIGHT_WINGS  }
+		prerequisite = { focus = GRU_RADSOCS_SOCIALIST_MARKET_ECONOMY  }
+	}
+	
+	focus = {
+		id = GRU_RADSOCS_SOCIALIST_REPUBLIC
+		icon = GRU_
+		relative_position_id = GRU_RADSOCS_ELECTED
+		x = 0
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_UNIVERSIAL_BASIC_INCOME"
+		}
+		prerequisite = { focus = GRU_RADSOCS_STATE_MEDIA  }
+		prerequisite = { focus = GRU_RADSOCS_UNIVERSIAL_BASIC_INCOME  }
+	}
+	
+	
+	
+	### SOCIAL DEMS ####
+	focus = {
+		id = GRU_SOCIAL_DEMS_ELECTED
+		icon = GRU_
+		relative_position_id = GRU_THE_DEMOCRACY_PROMISE
+		x = 7
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCIAL_DEMS_ELECTED"
+		}
+		prerequisite = { focus = GRU_THE_DEMOCRACY_PROMISE  }
+	}
+	
+	focus = {
+		id = GRU_SOCDEM_PRIVATIZE_KEY_INDUSTRY
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_DEMS_ELECTED
+		x = 0
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCDEM_PRIVATIZE_KEY_INDUSTRY"
+		}
+		prerequisite = { focus = GRU_SOCIAL_DEMS_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_SOCDEM_MANDATORY_INSURRANCE
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_DEMS_ELECTED
+		x = -2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCDEM_MANDATORY_INSURRANCE"
+		}
+		prerequisite = { focus = GRU_SOCIAL_DEMS_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_SOCDEM_FREE_DAYCARE
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_DEMS_ELECTED
+		x = 2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCDEM_FREE_DAYCARE"
+		}
+		prerequisite = { focus = GRU_SOCIAL_DEMS_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_SOCDEM_PAYED_VACCATION
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_DEMS_ELECTED
+		x = 1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCDEM_PAYED_VACCATION"
+		}
+		prerequisite = { focus = GRU_SOCDEM_PRIVATIZE_KEY_INDUSTRY  }
+		prerequisite = { focus = GRU_SOCDEM_MANDATORY_INSURRANCE  }
+		prerequisite = { focus = GRU_SOCDEM_FREE_DAYCARE  }
+	}
+	
+	focus = {
+		id = GRU_SOCDEM_40_HOURS_WEEK
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_DEMS_ELECTED
+		x = -1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCDEM_40_HOURS_WEEK"
+		}
+		prerequisite = { focus = GRU_SOCDEM_PRIVATIZE_KEY_INDUSTRY  }
+		prerequisite = { focus = GRU_SOCDEM_MANDATORY_INSURRANCE  }
+		prerequisite = { focus = GRU_SOCDEM_FREE_DAYCARE  }
+	}
+	
+	focus = {
+		id = GRU_SOCDEM_SOCIAL_REPUBLIC
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_DEMS_ELECTED
+		x = 0
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCDEM_SOCIAL_REPUBLIC"
+		}
+		prerequisite = { focus = GRU_SOCDEM_PAYED_VACCATION  }
+		prerequisite = { focus = GRU_SOCDEM_40_HOURS_WEEK  }
+	}
+	
+	### Social Liberals####
+	focus = {
+		id = GRU_SOCIAL_LIBERALS_ELECTED
+		icon = GRU_
+		relative_position_id = GRU_THE_DEMOCRACY_PROMISE
+		x = 0
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCIAL_LIBERALS_ELECTED"
+		}
+		prerequisite = { focus = GRU_THE_DEMOCRACY_PROMISE  }
+	}
+	
+	focus = {
+		id = GRU_SOCLIB_DECRIMINALIZE_HOMOSEXUALITY
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
+		x = 0
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCLIB_DECRIMINALIZE_HOMOSEXUALITY"
+		}
+		prerequisite = { focus = GRU_SOCIAL_LIBERALS_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_SOCLIB_BAN_CONSCRIPTION
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
+		x = 2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCLIB_BAN_CONSCRIPTION"
+		}
+		prerequisite = { focus = GRU_SOCIAL_LIBERALS_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_SOCLIB_GURANTEE_RELIGIOUS_FREEDOM
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
+		x = -2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCLIB_GURANTEE_RELIGIOUS_FREEDOM"
+		}
+		prerequisite = { focus = GRU_SOCIAL_LIBERALS_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_SOCLIB_DIRECT_REFERENDUMS
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
+		x = 1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCLIB_DIRECT_REFERENDUMS"
+		}
+		prerequisite = { focus = GRU_SOCLIB_DECRIMINALIZE_HOMOSEXUALITY  }
+		prerequisite = { focus = GRU_SOCLIB_BAN_CONSCRIPTION  }
+		prerequisite = { focus = GRU_SOCLIB_GURANTEE_RELIGIOUS_FREEDOM  }
+	}
+	
+	focus = {
+		id = GRU_SOCLIB_CUT_BUISNESS_TAX
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
+		x = -1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCLIB_CUT_BUISNESS_TAX"
+		}
+		prerequisite = { focus = GRU_SOCLIB_DECRIMINALIZE_HOMOSEXUALITY  }
+		prerequisite = { focus = GRU_SOCLIB_BAN_CONSCRIPTION  }
+		prerequisite = { focus = GRU_SOCLIB_GURANTEE_RELIGIOUS_FREEDOM  }
+	}
+	
+	focus = {
+		id = GRU_SOCLIB_FREE_REPUBLIC
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
+		x = 0
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCLIB_FREE_REPUBLIC"
+		}
+		prerequisite = { focus = GRU_SOCLIB_CUT_BUISNESS_TAX  }
+		prerequisite = { focus = GRU_SOCLIB_DIRECT_REFERENDUMS  }
+	}
+	
+	### MArket Liberals####
+	focus = {
+		id = GRU_MARKET_LIBERALS_ELECTED
+		icon = GRU_
+		relative_position_id = GRU_THE_DEMOCRACY_PROMISE
+		x = -7
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARKET_LIBERALS_ELECTED"
+		}
+		prerequisite = { focus = GRU_THE_DEMOCRACY_PROMISE  }
+	}
+	
+	focus = {
+		id = GRU_MARLIB_CUT_THE_WELFARE
+		icon = GRU_
+		relative_position_id = GRU_MARKET_LIBERALS_ELECTED
+		x = 0
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARLIB_CUT_THE_WELFARE"
+		}
+		prerequisite = { focus = GRU_MARKET_LIBERALS_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_MARLIB_FULL_PRIVATISATION
+		icon = GRU_
+		relative_position_id = GRU_MARKET_LIBERALS_ELECTED
+		x = -2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARLIB_FULL_PRIVATISATION"
+		}
+		prerequisite = { focus = GRU_MARKET_LIBERALS_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_MARLIB_BAN_LEFTIST_THOUGHT
+		icon = GRU_
+		relative_position_id = GRU_MARKET_LIBERALS_ELECTED
+		x = 2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARLIB_BAN_LEFTIST_THOUGHT"
+		}
+		prerequisite = { focus = GRU_MARKET_LIBERALS_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_MARLIB_TWENTY_PERCENTE_ELECTROAL_THRESHOLD
+		icon = GRU_
+		relative_position_id = GRU_MARKET_LIBERALS_ELECTED
+		x = -1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARLIB_BAN_LEFTIST_THOUGHT"
+		}
+		prerequisite = { focus = GRU_MARLIB_CUT_THE_WELFARE  }
+		prerequisite = { focus = GRU_MARLIB_FULL_PRIVATISATION  }
+		prerequisite = { focus = GRU_MARLIB_BAN_LEFTIST_THOUGHT  }
+	}
+	
+	focus = {
+		id = GRU_MARLIB_CONTROL_MEDIA_WITH_MONEY
+		icon = GRU_
+		relative_position_id = GRU_MARKET_LIBERALS_ELECTED
+		x = 1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARLIB_CONTROL_MEDIA_WITH_MONEY"
+		}
+		prerequisite = { focus = GRU_MARLIB_CUT_THE_WELFARE  }
+		prerequisite = { focus = GRU_MARLIB_FULL_PRIVATISATION  }
+		prerequisite = { focus = GRU_MARLIB_BAN_LEFTIST_THOUGHT  }
+	}
+	
+	focus = {
+		id = GRU_MARLIB_OLIGARCHIC_REPUBLIC
+		icon = GRU_
+		relative_position_id = GRU_MARKET_LIBERALS_ELECTED
+		x = 0
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARLIB_OLIGARCHIC_REPUBLIC"
+		}
+		prerequisite = { focus = GRU_MARLIB_CONTROL_MEDIA_WITH_MONEY  }
+		prerequisite = { focus = GRU_MARLIB_TWENTY_PERCENTE_ELECTROAL_THRESHOLD  }
+	}
+	
+	###cons####
+	focus = {
+		id = GRU_CONSERVATIVES_ELECTED
+		icon = GRU_CONS_VIC
+		relative_position_id = GRU_THE_DEMOCRACY_PROMISE
+		x = -14
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_ELECTED"
+		}
+		prerequisite = { focus = GRU_THE_DEMOCRACY_PROMISE  }
+	}	
+	
+	focus = {
+		id = GRU_CONSERVATIVES_SIDELINE_RADICALS
+		icon = GRU_CONS_SIDELINE_RADICALS
+		relative_position_id = GRU_CONSERVATIVES_ELECTED
+		x = 0
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_SIDELINE_RADICALS"
+		}
+		prerequisite = { focus = GRU_CONSERVATIVES_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_CONSERVATIVES_TARIFF_CUTS
+		icon = GRU_CONS_TARIFF
+		relative_position_id = GRU_CONSERVATIVES_ELECTED
+		x = -2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_TARIFF_CUTS"
+		}
+		prerequisite = { focus = GRU_CONSERVATIVES_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_CONSERVATIVES_UNDO_NATIONALIZATION
+		icon = GRU_CONS_UNDO_NATIONALIZATION
+		relative_position_id = GRU_CONSERVATIVES_ELECTED
+		x = 2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_UNDO_NATIONALIZATION"
+		}
+		prerequisite = { focus = GRU_CONSERVATIVES_ELECTED  }
+	}
+	
+	focus = {
+		id = GRU_CONSERVATIVES_TAX_CUT
+		icon = GRU_CONS_TAX_CUT
+		relative_position_id = GRU_CONSERVATIVES_ELECTED
+		x = 1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_TAX_CUT"
+		}
+		prerequisite = { focus = GRU_CONSERVATIVES_SIDELINE_RADICALS  }
+		prerequisite = { focus = GRU_CONSERVATIVES_TARIFF_CUTS  }
+		prerequisite = { focus = GRU_CONSERVATIVES_UNDO_NATIONALIZATION  }
+	}
+	focus = {
+		id = GRU_CONSERVATIVES_WITH_THE_CHURCH
+		icon = GRU_CONS_WITH_CHURCH
+		relative_position_id = GRU_CONSERVATIVES_ELECTED
+		x = -1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_WITH_THE_CHURCH"
+		}
+		prerequisite = { focus = GRU_CONSERVATIVES_SIDELINE_RADICALS  }
+		prerequisite = { focus = GRU_CONSERVATIVES_TARIFF_CUTS  }
+		prerequisite = { focus = GRU_CONSERVATIVES_UNDO_NATIONALIZATION  }
+	}
+	
+	focus = {
+		id = GRU_CONSERVATIVE_REPUBLIC
+		icon = GRU_CONS_END
+		relative_position_id = GRU_CONSERVATIVES_ELECTED
+		x = 0
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVE_REPUBLIC"
+		}
+		prerequisite = { focus = GRU_CONSERVATIVES_TAX_CUT  }
+		prerequisite = { focus = GRU_CONSERVATIVES_WITH_THE_CHURCH  }
+	}
+	#####smoll diplo####
+	focus = {
+		id = GRU_REJOIN_INTERNATIONALE
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
+		x = 2
+		y = 4
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_REJOIN_INTERNATIONALE"
+		}
+		mutually_exclusive = { focus = GRU_OUR_OWN focus = GRU_JOIN_ENTENTE }
+		prerequisite = { focus = GRU_SOCDEM_SOCIAL_REPUBLIC focus = GRU_RADSOCS_SOCIALIST_REPUBLIC }
+	}
+	
+	focus = {
+		id = GRU_JOIN_ENTENTE
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
+		x = -2
+		y = 4
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_JOIN_ENTENTE"
+		}
+		mutually_exclusive = { focus = GRU_OUR_OWN focus = GRU_REJOIN_INTERNATIONALE }
+		prerequisite = { focus = GRU_CONSERVATIVE_REPUBLIC  focus = GRU_MARLIB_OLIGARCHIC_REPUBLIC focus = GRU_SOCLIB_FREE_REPUBLIC }
+	}
+	
+	focus = {
+		id = GRU_OUR_OWN
+		icon = GRU_
+		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
+		x = 0
+		y = 4
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_OUR_OWN"
+		}
+		mutually_exclusive = { focus = GRU_JOIN_ENTENTE focus = GRU_REJOIN_INTERNATIONALE }
+		prerequisite = { focus = GRU_CONSERVATIVE_REPUBLIC  focus = GRU_MARLIB_OLIGARCHIC_REPUBLIC focus = GRU_SOCLIB_FREE_REPUBLIC focus = GRU_SOCDEM_SOCIAL_REPUBLIC focus = GRU_RADSOCS_SOCIALIST_REPUBLIC }
+	}
+	
+	
+	
+	shared_focus = GRU_occupational_government
+	shared_focus = GRU_formation_of_the_nva
+}
