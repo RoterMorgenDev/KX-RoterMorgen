@@ -533,6 +533,10 @@ country_event = { # CONGRESS
 				set_country_flag = GRU_SPD_rule
 				complete_national_focus = GRU_spd_victory
 				set_cosmetic_tag = GRU_REP
+				load_focus_tree = {
+				tree = gru_SPD
+					
+				}
 				remove_all_ministers = yes
 				add_ideas = {
 					GRU_Heinrich_Brandler_hog_rso

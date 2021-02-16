@@ -225,7 +225,7 @@ focus_tree = {
 			set_cosmetic_tag = GRU_FAUD_B
 			set_party_name = {
 						ideology = syndicalist
-						long_name = ANARCHIST_GERMANS_LONG
+						long_name = ANARCHIST_GERMANS_long
 						name = ANARCHIST_GERMANS
 				}
 			hidden_effect = {
