@@ -1,17 +1,13 @@
-focus_tree = {
-	id = gru_goebbels
-	continuous_focus_position = { x = 1420 y = 1500 }
-	country = {
-		factor = 0
-	}
-	focus = {
+
+	shared_focus = {
 		id = GRU_NMDVP_PATH
 		icon = GFX_GRU_diplo_nmdvp
 		relative_position_id = GRU_nmdvp_victory
-		x = 9
-		y = 7
+		x = 17
+		y = 11
 		available = {
 			has_country_flag = GRU_REBUILD
+			has_country_flag = GRU_NMDVP_rule
 			is_subject = no
 			is_major = yes
 			has_army_manpower = { size > 300000 }
@@ -24,7 +20,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_allignment
 		icon = GFX_GRU_triumvirat
 		relative_position_id = GRU_NMDVP_PATH
@@ -37,7 +33,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = GRU_NMDVP_PATH  }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_imperialism
 		icon = GFX_GRU_imp
 		relative_position_id = GRU_NMDVP_PATH
@@ -50,7 +46,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = GRU_NMDVP_PATH  }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_END_FRANCE
 		icon = GRU_NMDVP_END_FRANCE
 		relative_position_id = GRU_NMDVP_PATH
@@ -73,7 +69,7 @@ focus_tree = {
 		prerequisite = { focus = GRU_NMDVP_allignment  }
 		mutually_exclusive = { focus = GRU_NMDVP_PRESSURE_SORELIAN_FRANCE }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_PRESSURE_SORELIAN_FRANCE
 		icon = GRU_NMDVP_PRESSURE_SORELIAN_FRANCE
 		relative_position_id = GRU_NMDVP_PATH
@@ -106,7 +102,7 @@ focus_tree = {
 		mutually_exclusive = { focus = GRU_NMDVP_END_FRANCE }
 		mutually_exclusive = { focus = GRU_NMDVP_EMBARGO_FRANCE }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_EMBARGO_FRANCE
 		icon = GRU_NMDVP_EMBARGO_FRANCE
 		relative_position_id = GRU_NMDVP_PATH
@@ -125,7 +121,7 @@ focus_tree = {
 		prerequisite = { focus = GRU_NMDVP_allignment  }
 		mutually_exclusive = { focus = GRU_NMDVP_PRESSURE_SORELIAN_FRANCE }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_CRUSADE_AGAINST_LIBERAL_LEFTIES
 		icon = GRU_NMDVP_CRUSADE_AGAINST_LIBERAL_LEFTIES
 		relative_position_id = GRU_NMDVP_PATH
@@ -138,7 +134,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = GRU_NMDVP_END_FRANCE  focus = GRU_NMDVP_PRESSURE_SORELIAN_FRANCE }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_BURN_ENTENTE_MONARCHISTS
 		icon = GRU_NMDVP_BURN_ENTENTE_MONARCHISTS
 		relative_position_id = GRU_NMDVP_PATH
@@ -151,7 +147,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = GRU_NMDVP_END_FRANCE  focus = GRU_NMDVP_PRESSURE_SORELIAN_FRANCE }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_BORDER_FORTIFICATIONS
 		icon = GFX_GRU_border
 		relative_position_id = GRU_NMDVP_PATH
@@ -164,7 +160,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = GRU_NMDVP_PATH }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_PAN_GERMANISM
 		icon = GFX_GRU_pangermanismone
 		relative_position_id = GRU_NMDVP_PATH
@@ -192,7 +188,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = GRU_NMDVP_imperialism  }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_PAN_GERMANISM_RELOADED
 		icon = GFX_GRU_pangermanismtwo
 		relative_position_id = GRU_NMDVP_PATH
@@ -261,7 +257,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = GRU_NMDVP_PAN_GERMANISM  }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_PROCLAIM_GERMANIC_STATE
 		icon = GFX_GRU_germanicstate
 		relative_position_id = GRU_NMDVP_PATH
@@ -280,11 +276,11 @@ focus_tree = {
 		prerequisite = { focus = GRU_NMDVP_SLAV_LAND_EXPANSION }
 	}
 	
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_SCANDINAVIA
 		icon = GFX_GRU_scandinavia
 		relative_position_id = GRU_NMDVP_PATH
-		x = 5
+		x = 3
 		y = 5
 		cost = 6
 		completion_reward = {
@@ -294,7 +290,7 @@ focus_tree = {
 		prerequisite = { focus = GRU_NMDVP_PROCLAIM_GERMANIC_STATE  }
 	}
 	
-	#focus = {
+	#shared_focus = {
 	#	id = GRU_NMDVP_FREE_SWEDEN
 	#	icon = GRU_NMDVP_FREE_SWEDEN
 	#	relative_position_id = GRU_NMDVP_PATH
@@ -303,7 +299,7 @@ focus_tree = {
 	#	cost = 6
 	#	prerequisite = { focus = GRU_NMDVP_PROCLAIM_GERMANIC_STATE  }
 	#}
-	#focus = {
+	#shared_focus = {
 	#	id = GRU_NMDVP_FRIENDS_SWEDEN
 	#	icon = GRU_NMDVP_FRIENDS_SWEDEN
 	#	relative_position_id = GRU_NMDVP_PATH
@@ -314,7 +310,7 @@ focus_tree = {
 	#	mutually_exclusive = { focus = GRU_NMDVP_FREE_SWEDEN }
 	#}
 	
-	#focus = {
+	#shared_focus = {
 	#	id = GRU_NMDVP_FREE_NORWAY
 	#	icon = GRU_NMDVP_FREE_NORWAY
 	#	relative_position_id = GRU_NMDVP_PATH
@@ -324,7 +320,7 @@ focus_tree = {
 	#	prerequisite = { focus = GRU_NMDVP_PROCLAIM_GERMANIC_STATE  }
 	#	mutually_exclusive = { focus = GRU_NMDVP_FRIENDS_NORWAY }
 	#}
-	#focus = {
+	#shared_focus = {
 	#	id = GRU_NMDVP_FRIENDS_NORWAY
 	#	icon = GRU_NMDVP_FRIENDS_NORWAY
 	#	relative_position_id = GRU_NMDVP_PATH
@@ -335,7 +331,7 @@ focus_tree = {
 	#	mutually_exclusive = { focus = GRU_NMDVP_FREE_NORWAY }
 	#}
 	
-	#focus = {
+	#shared_focus = {
 	#	id = GRU_NMDVP_FREE_FINLAND
 	#	icon = GRU_NMDVP_FREE_FINLAND
 	#	relative_position_id = GRU_NMDVP_PATH
@@ -346,7 +342,7 @@ focus_tree = {
 	#	prerequisite = { focus = GRU_NMDVP_FRIENDS_NORWAY focus = GRU_NMDVP_FREE_NORWAY }
 	#	mutually_exclusive = { focus = GRU_NMDVP_FRIENDS_FINLAND }
 	#}
-	#focus = {
+	#shared_focus = {
 	#	id = GRU_NMDVP_FRIENDS_FINLAND
 	#	icon = GRU_NMDVP_FRIENDS_FINLAND
 	#	relative_position_id = GRU_NMDVP_PATH
@@ -358,7 +354,7 @@ focus_tree = {
 	#	mutually_exclusive = { focus = GRU_NMDVP_FREE_FINLAND }
 	#}
 	
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_SLAV_LAND_EXPANSION
 		icon = GFX_GRU_pangermanismthree
 		relative_position_id = GRU_NMDVP_PATH
@@ -415,7 +411,7 @@ focus_tree = {
 		}		
 		prerequisite = { focus = GRU_NMDVP_PAN_GERMANISM  }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_RED_COLONIALISM
 		icon = GFX_GRU_red_colonialism
 		relative_position_id = GRU_NMDVP_PATH
@@ -430,7 +426,7 @@ focus_tree = {
 		prerequisite = { focus = GRU_NMDVP_imperialism  }
 		prerequisite = { focus = GRU_NMDVP_allignment  }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_KILL_COLONIES
 		icon = GRU_NMDVP_KILL_COLONIES
 		relative_position_id = GRU_NMDVP_RED_COLONIALISM
@@ -443,7 +439,7 @@ focus_tree = {
 		}	
 		prerequisite = { focus = GRU_NMDVP_RED_COLONIALISM  }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_LEBENSRAUM
 		icon = GFX_GRU_lebensraum
 		relative_position_id = GRU_NMDVP_RED_COLONIALISM
@@ -457,7 +453,7 @@ focus_tree = {
 		prerequisite = { focus = GRU_NMDVP_RED_COLONIALISM  }
 		prerequisite = { focus = GRU_NMDVP_PROCLAIM_GERMANIC_STATE }
 	}
-	focus = {
+	shared_focus = {
 		id = GRU_NMDVP_REMOVE_KAISER
 		icon = GRU_NMDVP_REMOVE_KAISER
 		relative_position_id = GRU_NMDVP_RED_COLONIALISM
@@ -470,6 +466,3 @@ focus_tree = {
 		}	
 		prerequisite = { focus = GRU_NMDVP_RED_COLONIALISM  }
 	}
-	shared_focus = GRU_occupational_government
-	shared_focus = GRU_formation_of_the_nva
-}

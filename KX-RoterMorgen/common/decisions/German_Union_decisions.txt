@@ -3172,6 +3172,7 @@ GRU_allignment_decisions = {
 			has_completed_focus = GRU_NMDVP_allignment
 			country_exists = ENG
 			ENG = { has_country_leader = { ruling_only = yes name = "Oswald Mosley" } }
+			NOT = { ENG = { is_subject_of = GRU } }
 		}
 
 		fire_only_once = yes
@@ -3195,6 +3196,7 @@ GRU_allignment_decisions = {
 			has_completed_focus = GRU_NMDVP_allignment
 			country_exists = SRI
 			SRI = { has_country_leader = { ruling_only = yes name = "Benito Mussolini" } }
+			NOT = { SRI = { is_subject_of = GRU } }
 		}
 
 		fire_only_once = yes

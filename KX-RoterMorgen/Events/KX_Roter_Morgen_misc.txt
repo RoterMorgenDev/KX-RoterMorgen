@@ -1278,6 +1278,52 @@ country_event = { # oskar the degenerate
 	}
 }
 
+country_event = { # oskar the degenerate
+	id = rotermorgenmisc.667
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.667" }
+	title = rotermorgenmisc.667.t
+	desc = rotermorgenmisc.667.d
+	picture = GFX_report_event_degenerate
+	is_triggered_only = yes
+	
+	option = { # tribunal
+		name = rotermorgenmisc.667.a
+		hidden_effect = {
+				country_event = {
+				id = rotermorgenmisc.668
+				days =0
+				}
+			}
+	}
+}
+
+
+country_event = { # oskar the degenerate
+	id = rotermorgenmisc.668
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.668" }
+	title = rotermorgenmisc.668.t
+	desc = rotermorgenmisc.668.d
+	picture = GFX_report_event_degenerate_two
+	is_triggered_only = yes
+	
+	option = { # death
+		name = rotermorgenmisc.668.a
+		add_manpower = -1
+	}
+	option = { # death
+		name = rotermorgenmisc.668.b
+		add_manpower = -1
+	}
+	option = { # death
+		name = rotermorgenmisc.668.c
+		add_manpower = -1
+	}
+	option = { # death
+		name = rotermorgenmisc.668.e
+		add_manpower = -1
+	}
+}
+
 
 country_event = { # allignment to internationale SMEPD
 	id = rotermorgenmisc.800
