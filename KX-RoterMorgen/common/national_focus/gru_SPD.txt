@@ -317,7 +317,7 @@ focus_tree = {
 	### MArket Liberals####
 	focus = {
 		id = GRU_MARKET_LIBERALS_ELECTED
-		icon = GRU_
+		icon = GRU_MARLIB_VIC
 		relative_position_id = GRU_THE_DEMOCRACY_PROMISE
 		x = -7
 		y = 1
@@ -330,7 +330,7 @@ focus_tree = {
 	
 	focus = {
 		id = GRU_MARLIB_CUT_THE_WELFARE
-		icon = GRU_
+		icon = GRU_MARLIB_CUT_WELFARE
 		relative_position_id = GRU_MARKET_LIBERALS_ELECTED
 		x = 0
 		y = 1
@@ -343,7 +343,7 @@ focus_tree = {
 	
 	focus = {
 		id = GRU_MARLIB_FULL_PRIVATISATION
-		icon = GRU_
+		icon = GRU_MARLIB_PRIVATIZE
 		relative_position_id = GRU_MARKET_LIBERALS_ELECTED
 		x = -2
 		y = 1
@@ -356,7 +356,7 @@ focus_tree = {
 	
 	focus = {
 		id = GRU_MARLIB_BAN_LEFTIST_THOUGHT
-		icon = GRU_
+		icon = GRU_BAN_LEFT
 		relative_position_id = GRU_MARKET_LIBERALS_ELECTED
 		x = 2
 		y = 1
@@ -369,7 +369,7 @@ focus_tree = {
 	
 	focus = {
 		id = GRU_MARLIB_TWENTY_PERCENTE_ELECTROAL_THRESHOLD
-		icon = GRU_
+		icon = GRU_CONTROL_ELECTION
 		relative_position_id = GRU_MARKET_LIBERALS_ELECTED
 		x = -1
 		y = 2
@@ -384,7 +384,7 @@ focus_tree = {
 	
 	focus = {
 		id = GRU_MARLIB_CONTROL_MEDIA_WITH_MONEY
-		icon = GRU_
+		icon = GRU_BUY_MEDIA
 		relative_position_id = GRU_MARKET_LIBERALS_ELECTED
 		x = 1
 		y = 2
@@ -399,7 +399,7 @@ focus_tree = {
 	
 	focus = {
 		id = GRU_MARLIB_OLIGARCHIC_REPUBLIC
-		icon = GRU_
+		icon = GRU_OLIGARCH_REPUBLIC
 		relative_position_id = GRU_MARKET_LIBERALS_ELECTED
 		x = 0
 		y = 3

@@ -397,7 +397,8 @@ HYPOBOREA_NATURE_PROTECTION:0 "Protect Nature"
 HYPOBOREA_NATURE_PROTECTION_desc:0 "The nature of our ancestral land must be protected from all harm for all eternity the gods walk in these woods."
 HYPOBOREA_THE_GREAT:0 "Hypoborea the Great"
 HYPOBOREA_THE_GREAT_desc:0 "We achieved the northern dream. Hypoborea is the ancestral home of the Germanic race and a fortress to it's continuity."
-
+GRU_newfocustemp:0 "This Mod was created by discord User Yaaaay 3949"
+GRU_newfocustemp_desc:0 ""
 
 GRU_FAUD_FUTURE:0 "Anarchist Future"
 GRU_FAUD_FUTURE_desc:0 "We have paved a way for the anarchist society we aim for now we must pave the way for an anarhcist utopia."
@@ -431,8 +432,7 @@ GRU_FAUD_ANARCHIST_UTOPIA_desc:0 "We have achieved the great goal, we have achie
 
 
 
-GRU_newfocustemp:0 ""
-GRU_newfocustemp_desc:0 ""
+
 
 ###flags####
 PARTIES_FORMED:0 "The Occupational Administration allowes elections"
@@ -1168,6 +1168,11 @@ GRU_expansion_three_volksreichskommissariat_moskowien:0 "§OMoskowien§! expansi
 GRU_lebensraum_decisions:0 "Conquest of Lebensraum"
 GRU_lebensraum_conquest_decision:0 "Conquest of [From.GetNameDef]."
 
+GRU_volksland_hypoborea:0 "Found the Volksland Hypoborea"
+GRU_expansion_one_volksland_hypoborea:0 "Expand Hypoborea over Sweden."
+GRU_expansion_two_volksland_hypoborea:0 "Expand Hypoborea over Norway."
+GRU_expansion_three_volksland_hypoborea:0 "Expand Hypoborea over Finland."
+
 
 GRU_export_revolution_decisions:0 "Export the §RRevolution§!"
 GRU_lib_neighbours_decision:0 "Liberate [From.GetNameDef]."
@@ -1177,6 +1182,13 @@ GRU_lib_east_decision:0 "Liberate [From.GetNameDef]."
 
 GRU_expand_internationale_decisions:0 "Expand the Internationale."
 GRU_invite_countries_decision:0 "Invite[From.GetNameDef] into the Internationale."
+####puppets##
+
+RM_Stahlpakt_member:0 "Stahlpakt Member."
+RM_Volkskommissariat:0 "Volkskommissariat."
+RM_Volksland:0 "Volksland."
+
+
 
 ###Party names###
 GRU_occu_long:0 "Occupational Government"

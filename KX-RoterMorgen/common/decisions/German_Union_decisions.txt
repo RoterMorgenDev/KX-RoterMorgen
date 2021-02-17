@@ -3773,7 +3773,7 @@ GRU_volksreichskommissariat_decisions = {
 	
 	GRU_volksland_hypoborea = {
 
-			icon = GFX_hypoborea
+			icon = GFX_hypoboreaVK
 			ai_will_do = {
 				factor = 100
 			}
@@ -3816,16 +3816,16 @@ GRU_volksreichskommissariat_decisions = {
 					}
 				HYP = {	country_event = rotermorgenmisc.900 }
 				}
-				set_autonomy = { target = HYP autonomy_state = kr_integrated_puppet }
+				set_autonomy = { target = HYP autonomy_state = RM_Volksland }
 				set_country_flag = HYP_established
 				HYP = { set_country_flag = IS_HYP }
 				HYP = { inherit_technology = GRU }
 			}
 	}
 	
-	GRU_expansion_one_volksland_hypoboreaa = {
+	GRU_expansion_one_volksland_hypoborea = {
 
-			icon = GFX_hypoborea
+			icon = GFX_hypoboreaVK
 			ai_will_do = {
 				factor = 100
 			}
@@ -3890,9 +3890,9 @@ GRU_volksreichskommissariat_decisions = {
 			}
 	}
 	
-GRU_expansion_two_volksland_hypoboreaa = {
+GRU_expansion_two_volksland_hypoborea = {
 
-			icon = GFX_hypoborea
+			icon = GFX_hypoboreaVK
 			ai_will_do = {
 				factor = 100
 			}
@@ -3944,9 +3944,9 @@ GRU_expansion_two_volksland_hypoboreaa = {
 				}
 			}
 	}
-GRU_expansion_three_volksland_hypoboreaa = {
+GRU_expansion_three_volksland_hypoborea = {
 
-			icon = GFX_hypoborea
+			icon = GFX_hypoboreaVK
 			ai_will_do = {
 				factor = 100
 			}
@@ -4073,7 +4073,7 @@ GRU_expansion_three_volksland_hypoboreaa = {
 				VKR = {	country_event = rotermorgenmisc.200 }
 				VKR = {	country_event = { id = rotermorgenmisc.201 days = 2 } }
 				}
-				set_autonomy = { target = VKR autonomy_state = kr_integrated_puppet }
+				set_autonomy = { target = VKR autonomy_state = RM_Volkskommissariat }
 				set_country_flag = VKR_established
 				VKR = { set_country_flag = IS_VKR }
 				VKR = { inherit_technology = GRU }
@@ -4125,7 +4125,7 @@ GRU_expansion_three_volksland_hypoboreaa = {
 				VKK = {	country_event = { id = rotermorgenmisc.301 days = 2 } }
 				}
 				
-				set_autonomy = { target = VKK autonomy_state = kr_integrated_puppet }
+				set_autonomy = { target = VKK autonomy_state = RM_Volkskommissariat }
 				set_country_flag = VKK_established
 				VKK = { set_country_flag = IS_VKK }
 				VKK = { inherit_technology = GRU }
@@ -4175,7 +4175,7 @@ GRU_expansion_three_volksland_hypoboreaa = {
 					}
 				VKB = {	country_event = rotermorgenmisc.400 }
 				}
-				set_autonomy = { target = VKB autonomy_state = kr_integrated_puppet }
+				set_autonomy = { target = VKB autonomy_state = RM_Volkskommissariat }
 				set_country_flag = VKB_established
 				VKB = { set_country_flag = IS_VKB }
 				VKB = { inherit_technology = GRU }
@@ -4231,7 +4231,7 @@ GRU_expansion_three_volksland_hypoboreaa = {
 					}
 				VKM = {	country_event = rotermorgenmisc.500 }
 				}
-				set_autonomy = { target = VKM autonomy_state = kr_integrated_puppet }
+				set_autonomy = { target = VKM autonomy_state = RM_Volkskommissariat }
 				set_country_flag = VKM_established
 				VKM = { set_country_flag = IS_VKM }
 				VKM = { inherit_technology = GRU }

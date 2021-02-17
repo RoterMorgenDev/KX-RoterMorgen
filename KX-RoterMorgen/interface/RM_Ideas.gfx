@@ -267,6 +267,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/moskowien.dds"
 	}
 	spriteType = {
+		name = "GFX_hypoboreaVK"
+		texturefile = "gfx/interface/decisions/hypoborea.dds"
+	}
+	spriteType = {
 		name = "GFX_decision_category_pangermanic"
 		texturefile = "gfx/interface/decisions/pangermanism1.dds"
 	}
