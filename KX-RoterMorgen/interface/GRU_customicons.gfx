@@ -2,6 +2,265 @@ spriteTypes = {
 	##Icon For: 
 	
 	SpriteType = { 
+		name = "GRU_FDP_FREE_REPUBLIC"
+		texturefile = "gfx/interface/goals/GRU_FDP_FREE_REPUBLIC.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GRU_FDP_FREE_REPUBLIC_shine"
+		texturefile = "gfx/interface/goals/GRU_FDP_FREE_REPUBLIC.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_FDP_FREE_REPUBLIC.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_FDP_FREE_REPUBLIC.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "GRU_DIRECT_REFEREDUMS"
+		texturefile = "gfx/interface/goals/GRU_DIRECT_REFEREDUMS.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GRU_DIRECT_REFEREDUMS_shine"
+		texturefile = "gfx/interface/goals/GRU_DIRECT_REFEREDUMS.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_DIRECT_REFEREDUMS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_DIRECT_REFEREDUMS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "GRU_FDP_SAVE_THE_ECONOMY"
+		texturefile = "gfx/interface/goals/GRU_FDP_SAVE_THE_ECONOMY.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GRU_FDP_SAVE_THE_ECONOMY_shine"
+		texturefile = "gfx/interface/goals/GRU_FDP_SAVE_THE_ECONOMY.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_FDP_SAVE_THE_ECONOMY.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_FDP_SAVE_THE_ECONOMY.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "GRU_FDP_THE_GAY_IS_OK"
+		texturefile = "gfx/interface/goals/GRU_FDP_THE_GAY_IS_OK.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GRU_FDP_THE_GAY_IS_OK_shine"
+		texturefile = "gfx/interface/goals/GRU_FDP_THE_GAY_IS_OK.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_FDP_THE_GAY_IS_OK.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_FDP_THE_GAY_IS_OK.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "GRU_FDP_NO_CONSCRIPT"
+		texturefile = "gfx/interface/goals/GRU_FDP_NO_CONSCRIPT.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GRU_FDP_NO_CONSCRIPT_shine"
+		texturefile = "gfx/interface/goals/GRU_FDP_NO_CONSCRIPT.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_FDP_NO_CONSCRIPT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_FDP_NO_CONSCRIPT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "GRU_FDP_ALL_THE_FAITHS"
+		texturefile = "gfx/interface/goals/GRU_FDP_ALL_THE_FAITHS.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GRU_FDP_ALL_THE_FAITHS_shine"
+		texturefile = "gfx/interface/goals/GRU_FDP_ALL_THE_FAITHS.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_FDP_ALL_THE_FAITHS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_FDP_ALL_THE_FAITHS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "GRU_FDP_VIC"
+		texturefile = "gfx/interface/goals/GRU_FDP_VIC.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GRU_FDP_VIC_shine"
+		texturefile = "gfx/interface/goals/GRU_FDP_VIC.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_FDP_VIC.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_FDP_VIC.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
 		name = "GRU_PDS_RADSOC_REPUBLIC"
 		texturefile = "gfx/interface/goals/GRU_PDS_RADSOC_REPUBLIC.dds"
 	}

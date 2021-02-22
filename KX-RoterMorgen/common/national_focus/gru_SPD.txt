@@ -215,7 +215,7 @@
 	### Social Liberals####
 	shared_focus = {
 		id = GRU_SOCIAL_LIBERALS_ELECTED
-		icon = GRU_
+		icon = GRU_FDP_VIC
 		relative_position_id = GRU_THE_DEMOCRACY_PROMISE
 		x = 0
 		y = 1
@@ -228,7 +228,7 @@
 	
 	shared_focus = {
 		id = GRU_SOCLIB_DECRIMINALIZE_HOMOSEXUALITY
-		icon = GRU_
+		icon = GRU_FDP_THE_GAY_IS_OK
 		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
 		x = 0
 		y = 1
@@ -241,7 +241,7 @@
 	
 	shared_focus = {
 		id = GRU_SOCLIB_BAN_CONSCRIPTION
-		icon = GRU_
+		icon = GRU_FDP_NO_CONSCRIPT
 		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
 		x = 2
 		y = 1
@@ -254,7 +254,7 @@
 	
 	shared_focus = {
 		id = GRU_SOCLIB_GURANTEE_RELIGIOUS_FREEDOM
-		icon = GRU_
+		icon = GRU_FDP_ALL_THE_FAITHS
 		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
 		x = -2
 		y = 1
@@ -267,7 +267,7 @@
 	
 	shared_focus = {
 		id = GRU_SOCLIB_DIRECT_REFERENDUMS
-		icon = GRU_
+		icon = GRU_DIRECT_REFEREDUMS
 		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
 		x = 1
 		y = 2
@@ -282,7 +282,7 @@
 	
 	shared_focus = {
 		id = GRU_SOCLIB_CUT_BUISNESS_TAX
-		icon = GRU_
+		icon = GRU_FDP_SAVE_THE_ECONOMY
 		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
 		x = -1
 		y = 2
@@ -297,7 +297,7 @@
 	
 	shared_focus = {
 		id = GRU_SOCLIB_FREE_REPUBLIC
-		icon = GRU_
+		icon = GRU_FDP_FREE_REPUBLIC
 		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
 		x = 0
 		y = 3
