@@ -467,5 +467,13 @@ spriteTypes = {
 		name = "GFX_idea_FAUD_HELP_OTHERS"
 		texturefile = "gfx/interface/ideas/GRU/FAUD_HELP_OTHERS.tga"
 	}
+	spriteType = {
+		name = "GFX_idea_conservative_society"
+		texturefile = "gfx/interface/ideas/ideas/christian_education.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_conservative_democracy"
+		texturefile = "gfx/interface/ideas/GRU/condem.tga"
+	}
 	
 }

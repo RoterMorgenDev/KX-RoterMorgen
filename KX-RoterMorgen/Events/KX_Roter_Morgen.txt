@@ -42,6 +42,24 @@ country_event = { # GRU setup
 							expire = "1965.1.1"
 							ideology = totalist_subtype
 				}
+				
+				create_country_leader = {
+							name = "Konrad Adenauer"
+							desc = "GRU_Adenauer_DESC"
+							picture = "gfx/leaders/GRU/Portrait_Germany_Konrad_Adenauer.tga"
+							expire = "1965.1.1"
+							ideology = social_conservative_subtype
+				}
+				create_country_leader = {
+							name = "Franz Blücher"
+							desc = "GRU_bluecher_DESC"
+							picture = "gfx/leaders/GRU/Portrait_Germany_Franz_Bluecher.tga"
+							expire = "1965.1.1"
+							ideology = social_liberal_subtype
+				}
+				
+				
+				
 				set_politics = {
 					ruling_party = syndicalist
 					last_election = "1936.11.16"
@@ -69,6 +87,23 @@ country_event = { # GRU setup
 						ideology = radical_socialist
 						long_name = GRU_occu_long
 						name = GRU_occu_long
+				}
+				
+				
+				set_party_name = {
+						ideology = social_liberal
+						long_name = GRU_SOCLIB_PARTY_long
+						name = GRU_SOCLIB_PARTY
+				}
+				set_party_name = {
+						ideology = market_liberal
+						long_name = GRU_MARLIB_PARTY_long
+						name = GRU_MARLIB_PARTY
+				}
+				set_party_name = {
+						ideology = social_conservative
+						long_name = GRU_CONS_PARTY_long
+						name = GRU_CONS_PARTY
 				}
 			}
 		}	
@@ -709,4 +744,130 @@ country_event = { # SMEPD SPLIT
 				
 		}
 	}
+}
+
+country_event = { 
+	id = rotermorgen.700
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgen.700" }
+	title = rotermorgen.700.t
+	desc = rotermorgen.700.d
+
+	is_triggered_only = yes
+	
+	option = { # CDU VIC
+		name = rotermorgen.700.a
+		ai_chance = {
+			factor = 20
+		}
+		hidden_effect = {
+				set_country_flag = GRU_CDU_rule
+				complete_national_focus = GRU_CONSERVATIVES_ELECTED
+				remove_all_ministers = yes
+				add_ideas = {
+					GER_Heinrich_Bruening_hog_sco
+					GRU_Karl_Arnold_for_sco
+					GRU_Fritz_Schaeffer_eco_sco
+					GRU_Konrad_Adenauer_sec_sco
+				}
+				set_politics = {
+					ruling_party = social_conservative
+					last_election = "1936.11.16"
+					elections_allowed = no
+				}
+		}
+	}
+	
+	option = { # DLP VIC
+		name = rotermorgen.700.b
+		ai_chance = {
+			factor = 20
+		}
+		hidden_effect = {
+				set_country_flag = GRU_DLP_rule
+				complete_national_focus = GRU_MARKET_LIBERALS_ELECTED
+				remove_all_ministers = yes
+				add_ideas = {
+					GER_Erich_Koch_hog_sli
+					GRU_Thomas_Dehler_for_mli
+					GRU_Walther_von_Rathenau_eco_mli
+					GRU_Wilhelm_Marx_sec_mli
+				}
+				set_politics = {
+					ruling_party = market_liberal
+					last_election = "1936.11.16"
+					elections_allowed = no
+				}
+		}
+	}
+	
+	option = { # FDP VIC
+		name = rotermorgen.700.c
+		ai_chance = {
+			factor = 20
+		}
+		hidden_effect = {
+				set_country_flag = GRU_FDP_rule
+				complete_national_focus = GRU_SOCIAL_LIBERALS_ELECTED
+				remove_all_ministers = yes
+				add_ideas = {
+					GRU_Alex_Moeller_hog_sli
+					GRU_Albert_Dufour_Feronce_for_sli
+					GRU_Heinrich_Wilhelm_Kopf_eco_sli
+					GRU_Reinhold_Maier_sec_sli
+				}
+				set_politics = {
+					ruling_party = social_liberal
+					last_election = "1936.11.16"
+					elections_allowed = no
+				}
+		}
+	}
+	
+	option = { # SDP VIC
+		name = rotermorgen.700.e
+		ai_chance = {
+			factor = 20
+		}
+		hidden_effect = {
+				set_country_flag = GRU_SPD_rule
+				complete_national_focus = GRU_SOCIAL_DEMS_ELECTED
+				remove_all_ministers = yes
+				add_ideas = {
+					GRU_Hans_Vogel_hog_sde
+					GRU_Erich_Ollenhauer_for_sde
+					GRU_Gustav_Bauer_eco_sde
+					GRU_Georg_August_Zinn_sec_sde
+				}
+				set_politics = {
+					ruling_party = social_democrat
+					last_election = "1936.11.16"
+					elections_allowed = no
+				}
+		}
+	}
+	
+	option = { # PDS VIC
+		name = rotermorgen.700.f
+		ai_chance = {
+			factor = 20
+		}
+		hidden_effect = {
+				set_country_flag = GRU_PDS_rule
+				complete_national_focus = GRU_RADSOCS_ELECTED
+				remove_all_ministers = yes
+				add_ideas = {
+					GRU_Erich_Honecker_hog_rso
+					GRU_Heinrich_Mann_for_rso
+					GRU_Augustin_Souchy_eco_rso
+					GRU_Fritz_Kater_sec_rso
+				}
+				set_politics = {
+					ruling_party = radical_socialist
+					last_election = "1936.11.16"
+					elections_allowed = no
+				}
+		}
+	}
+	
+	
 }

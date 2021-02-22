@@ -244,7 +244,7 @@ GRU_agrarian_collectivisation:0 "Agrarian Collectivism"
 GRU_agrarian_collectivisation_desc:0 "The agrarian lands must be nationalized and collectevized, for the good of the Nation!"
 
 GRU_volksgesundheitsamt:0 "Volksgesundheit"
-GRU_volksgesundheitsamt_desc:0 "We wil lestablish a ministry tha ttakes care of the Volksgensundheit or health of the people."
+GRU_volksgesundheitsamt_desc:0 "We will establish a ministry that takes care of the Volksgensundheit or 'health of the people' by selective sterilization of those we deem to be sickness."
 GRU_proclaim_victory_over_judeo_capitalism:0 "Proclaim victory over Judeo-Capitalism"
 GRU_proclaim_victory_over_judeo_capitalism_desc:0 "With our power seizure over Germany we have finally defeated the Judeo-Capitalists!"
 
@@ -429,6 +429,20 @@ GRU_FAUD_DRUG_LEGALISATION_desc:0 "We will lift all bans on all substances used 
 GRU_FAUD_ANARCHIST_UTOPIA:0 "The Anarchist Utopia"
 GRU_FAUD_ANARCHIST_UTOPIA_desc:0 "We have achieved the great goal, we have achieved the true Anarchist society!"
 
+GRU_CONSERVATIVES_ELECTED:0 "Conservative Victory"
+GRU_CONSERVATIVES_ELECTED_desc:0 "The conservative CDU has won the Election."
+GRU_CONSERVATIVES_SIDELINE_RADICALS:0 "Sideline the Radicals"
+GRU_CONSERVATIVES_SIDELINE_RADICALS_desc:0 "We will ban extremist parties and organisations to protect our democracy from potential internal threats."
+GRU_CONSERVATIVES_TARIFF_CUTS:0 "Tariff Cuts"
+GRU_CONSERVATIVES_TARIFF_CUTS_desc:0 "To encourage Trade and economic growth we will cut on tariffs for import and export of goods."
+GRU_CONSERVATIVES_UNDO_NATIONALIZATION:0 "Full Privatisation of Industry"
+GRU_CONSERVATIVES_UNDO_NATIONALIZATION_desc:0 "While upkeeping the Social Market Economy as an integral part of our Republic we will privatize all industries."
+GRU_CONSERVATIVES_TAX_CUT:0 "Cut Taxes"
+GRU_CONSERVATIVES_TAX_CUT_desc:0 "We will cut down the Taxes to the bare minimum required now, as a State we do not aim for profit but for maintanance only."
+GRU_CONSERVATIVES_WITH_THE_CHURCH:0 "With the Church"
+GRU_CONSERVATIVES_WITH_THE_CHURCH_desc:0 "As a traditional Christian nation we must ensure that Christian values are our guidance."
+GRU_CONSERVATIVE_REPUBLIC:0 "With Pride"
+GRU_CONSERVATIVE_REPUBLIC_desc:0 "Germany is finally a real Republic, a traditionalist one upholding the values that made Germany once great and will do again."
 
 
 
@@ -755,6 +769,15 @@ FAUD_HELP:0 "International Help"
 GRU_RED_MILITIAS_TWO:0 "Empowered Militia"
 
 
+GRU_FREE_TRADE:0 "Free Trade"
+
+GRU_CDU_SOCIAL_MARKET_MIRACLE:0 "Social Market Economics - Privatized"
+
+GRU_CONSERVATIVE_SOCIETY:0 "Conservative Society"
+
+GRU_CONDEM:0 "Conservative Republic"
+
+
 
 GRU_SYNTHWAVE:0 "Synthetische Musik"
 GRU_SYNTHWAVE_desc:0 "REJECT MODERNITY\nEMBRACE TRADITION."
@@ -822,12 +845,14 @@ GRU_Wilhelm_Pieck_hog_tot:0 "Wilhelm Pieck"
 GRU_Ernst_Thaelmann_hog_syn:0 "Ernst Thälmann"
 GRU_Helmut_Herzfeld_hog_syn:0 "Helmut Herzfeld"
 GRU_Heinrich_Brandler_hog_rso:0 "Heinrich Brandler"
+GRU_Erich_Honecker_hog_rso:0 "Erich Honecker"
 
 GRU_Bodo_Uhse_for_tot:0 "Bodo Uhse"
 GRU_Gerhart_Eisler_for_syn:0 "Gerhart Eisler"
 GRU_Erich_Ollenhauer_for_rso:0 "Erich Ollenhauer"
 
 GRU_Gregor_Strasser_eco_tot:0 "Gregor Strasser"
+GRU_Albert_Speer_eco_tot:0 "Albert Speer"
 GRU_Jakob_Kaiser_eco_syn:0 "Jakob_Kaiser"
 GRU_Hans_Reichenbach_eco_rso:0 "Hans Reichenbach"
 
@@ -1231,6 +1256,19 @@ GRU_SED_MARXISTEN_long:0 "Syndikalistische Einheitspartei Deutschland ( Revision
 ANARCHIST_GERMANS:0 "Anarchist Councils"
 ANARCHIST_GERMANS_long:0 "Anarchist Councils of Central Europe"
 
+
+GRU_SOCLIB_PARTY:0 "FDP"
+GRU_SOCLIB_PARTY_long:0 "Freiheitlich Demokratische Partei"
+GRU_MARLIB_PARTY:0 "DLP"
+GRU_MARLIB_PARTY_long:0 "Deutsche Liberale Partei"
+GRU_CONS_PARTY:0 "CDU"
+GRU_CONS_PARTY_long:0 "Cristlich Demokratische Union"
+
+GRU_SPD_PARTY:0 "SPD"
+GRU_SPD_PARTY_long:0 "Sozialdemokratische Partei Deutschland"
+GRU_PDS_PARTY:0 "PDS"
+GRU_PDS_PARTY_long:0 "Partei des Demokratischen Sozialismus"
+
 ###cosmetics###
 GRU_NMDVP_totalist:0 "German National Worker State"
 GRU_NMDVP_totalist_ADJ:0 "German"
@@ -1417,6 +1455,37 @@ GRU_REP_paternal_autocrat_DEF:0 "the German Republic"
 GRU_REP_national_populist:0 "German Republic"
 GRU_REP_national_populist_ADJ:0 "German"
 GRU_REP_national_populist_DEF:0 "the German Republic"
+
+GRU_REP_CON_totalist:0 "German National Republic"
+GRU_REP_CON_totalist_ADJ:0 "German"
+GRU_REP_CON_totalist_DEF:0 "the German National Republic"
+GRU_REP_CON_syndicalist:0 "German National Republic"
+GRU_REP_CON_syndicalist_ADJ:0 "German"
+GRU_REP_CON_syndicalist_DEF:0 "the German National Republic"
+GRU_REP_CON_radical_socialist:0 "German National Republic"
+GRU_REP_CON_radical_socialist_ADJ:0 "German"
+GRU_REP_CON_radical_socialist_DEF:0 "the German National Republic"
+GRU_REP_CON_social_democrat:0 "German National Republic"
+GRU_REP_CON_social_democrat_ADJ:0 "German"
+GRU_REP_CON_social_democrat_DEF:0 "the German National Republic"
+GRU_REP_CON_social_liberal:0 "German National Republic"
+GRU_REP_CON_social_liberal_ADJ:0 "German"
+GRU_REP_CON_social_liberal_DEF:0 "the German National Republic"
+GRU_REP_CON_market_liberal:0 "German National Republic"
+GRU_REP_CON_market_liberal_ADJ:0 "German"
+GRU_REP_CON_market_liberal_DEF:0 "the German National Republic"
+GRU_REP_CON_social_conservative:0 "German National Republic"
+GRU_REP_CON_social_conservative_ADJ:0 "German"
+GRU_REP_CON_social_conservative_DEF:0 "the German National Republic"
+GRU_REP_CON_authoritarian_democrat:0 "German National Republic"
+GRU_REP_CON_authoritarian_democrat_ADJ:0 "German"
+GRU_REP_CON_authoritarian_democrat_DEF:0 "the German National Republic"
+GRU_REP_CON_paternal_autocrat:0 "German National Republic"
+GRU_REP_CON_paternal_autocrat_ADJ:0 "German"
+GRU_REP_CON_paternal_autocrat_DEF:0 "the German National Republic"
+GRU_REP_CON_national_populist:0 "German National Republic"
+GRU_REP_CON_national_populist_ADJ:0 "German"
+GRU_REP_CON_national_populist_DEF:0 "the German National Republic"
 
 GRU_FAUD_totalist:0 "Union of German Syndicates"
 GRU_FAUD_totalist_ADJ:0 "German"

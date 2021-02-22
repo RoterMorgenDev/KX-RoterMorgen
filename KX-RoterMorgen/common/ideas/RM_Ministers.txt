@@ -95,6 +95,24 @@ ideas = {
 			}
 		}
 
+		GRU_Erich_Honecker_hog_rso = {
+			allowed = { original_tag = GRU }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GRU_Erich_Honecker_hog_rso"
+			}
+			traits = {
+				head_of_government
+				radical_socialist
+				hog_political_protege
+			}
+		}
 
 		GRU_FRAUOBSRI_syn = {
 			allowed = { original_tag = GRU }
@@ -153,6 +171,25 @@ ideas = {
 				economy_minister
 				totalist
 				eco_planned_economy_proponent
+			}
+		}
+		
+		GRU_Albert_Speer_eco_tot = {
+			allowed = { original_tag = GRU }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GRU_Albert_Speer_eco_tot"
+			}
+			traits = {
+				economy_minister
+				totalist
+				eco_administrative_genius
 			}
 		}
 		

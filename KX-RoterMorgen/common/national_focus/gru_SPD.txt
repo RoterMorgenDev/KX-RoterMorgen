@@ -14,6 +14,35 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_THE_DEMOCRACY_PROMISE"
+			hidden_effect = {
+				country_event = { id =  rotermorgen.700 }
+				kill_ideology_leader = radical_socialist
+				kill_ideology_leader = social_democrat
+				create_country_leader = {
+							name = "Kurt Schuhmacher"
+							desc = "GRU_Schuhmacher_DESC"
+							picture = "gfx/leaders/GRU/Portrait_Germany_Kurt_Schuhmacher.tga"
+							expire = "1965.1.1"
+							ideology = social_democrat_subtype
+				}
+				create_country_leader = {
+							name = "Erich Honecker"
+							desc = "GRU_Honecker_DESC"
+							picture = "gfx/leaders/GRU/Portrait_Germany_Erich_Honecker_young.tga"
+							expire = "1965.1.1"
+							ideology = radical_socialist_subtype
+				}
+				set_party_name = {
+						ideology = social_democrat
+						long_name = GRU_SPD_PARTY_long
+						name = GRU_SPD_PARTY
+				}
+				set_party_name = {
+						ideology = radical_socialist
+						long_name = GRU_PDS_PARTY_long
+						name = GRU_PDS_PARTY
+				}
+			}
 		}
 	}
 	#### RADSOC / DEMOCRATIC SOCIALISTS ####
@@ -23,6 +52,11 @@
 		relative_position_id = GRU_THE_DEMOCRACY_PROMISE
 		x = 14
 		y = 1
+		available = {
+
+				has_country_flag = GRU_DEMOCRACY_FULLFILLED
+
+		}
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_ELECTED"
@@ -118,11 +152,16 @@
 	### SOCIAL DEMS ####
 	shared_focus = {
 		id = GRU_SOCIAL_DEMS_ELECTED
-		icon = GRU_
+		icon = GRU_SPD_VIC
 		relative_position_id = GRU_THE_DEMOCRACY_PROMISE
 		x = 7
 		y = 1
 		cost = 6
+		available = {
+
+				has_country_flag = GRU_DEMOCRACY_FULLFILLED
+
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCIAL_DEMS_ELECTED"
 		}
@@ -131,7 +170,7 @@
 	
 	shared_focus = {
 		id = GRU_SOCDEM_PRIVATIZE_KEY_INDUSTRY
-		icon = GRU_
+		icon = GRU_SPD_KEY_INDUSTRY
 		relative_position_id = GRU_SOCIAL_DEMS_ELECTED
 		x = 0
 		y = 1
@@ -144,7 +183,7 @@
 	
 	shared_focus = {
 		id = GRU_SOCDEM_MANDATORY_INSURRANCE
-		icon = GRU_
+		icon = GRU_SPD_Insurances
 		relative_position_id = GRU_SOCIAL_DEMS_ELECTED
 		x = -2
 		y = 1
@@ -157,7 +196,7 @@
 	
 	shared_focus = {
 		id = GRU_SOCDEM_FREE_DAYCARE
-		icon = GRU_
+		icon = GRU_SPD_DAYCARE
 		relative_position_id = GRU_SOCIAL_DEMS_ELECTED
 		x = 2
 		y = 1
@@ -170,7 +209,7 @@
 	
 	shared_focus = {
 		id = GRU_SOCDEM_PAYED_VACCATION
-		icon = GRU_
+		icon = GRU_SPD_PAYED_LEAVE
 		relative_position_id = GRU_SOCIAL_DEMS_ELECTED
 		x = 1
 		y = 2
@@ -185,7 +224,7 @@
 	
 	shared_focus = {
 		id = GRU_SOCDEM_40_HOURS_WEEK
-		icon = GRU_
+		icon = GRU_SPD_40_HOUR_WEEK
 		relative_position_id = GRU_SOCIAL_DEMS_ELECTED
 		x = -1
 		y = 2
@@ -200,7 +239,7 @@
 	
 	shared_focus = {
 		id = GRU_SOCDEM_SOCIAL_REPUBLIC
-		icon = GRU_
+		icon = GRU_SPD_SOCDEM_REP
 		relative_position_id = GRU_SOCIAL_DEMS_ELECTED
 		x = 0
 		y = 3
@@ -220,6 +259,11 @@
 		x = 0
 		y = 1
 		cost = 6
+		available = {
+
+				has_country_flag = GRU_DEMOCRACY_FULLFILLED
+
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCIAL_LIBERALS_ELECTED"
 		}
@@ -317,6 +361,11 @@
 		x = -7
 		y = 1
 		cost = 6
+		available = {
+
+				has_country_flag = GRU_DEMOCRACY_FULLFILLED
+
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARKET_LIBERALS_ELECTED"
 		}
@@ -414,6 +463,11 @@
 		x = -14
 		y = 1
 		cost = 6
+		available = {
+
+				has_country_flag = GRU_DEMOCRACY_FULLFILLED
+
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_ELECTED"
 		}
@@ -429,6 +483,42 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_SIDELINE_RADICALS"
+			add_popularity = {
+							ideology = totalist
+							popularity = -0.10
+						}
+			add_popularity = {
+							ideology = syndicalist
+							popularity = -0.10
+						}
+			add_popularity = {
+							ideology = radical_socialist
+							popularity = -0.20
+						}
+			add_popularity = {
+							ideology = paternal_autocrat
+							popularity = -0.10
+						}
+			add_popularity = {
+							ideology = national_populist
+							popularity = -0.10
+						}
+			add_popularity = {
+							ideology = social_democrat
+							popularity = 0.10
+						}
+			add_popularity = {
+							ideology = social_liberal
+							popularity = 0.10
+						}
+			add_popularity = {
+							ideology = market_liberal
+							popularity = 0.10
+						}
+			add_popularity = {
+							ideology = social_conservative
+							popularity = 0.20
+						}
 		}
 		prerequisite = { focus = GRU_CONSERVATIVES_ELECTED  }
 	}
@@ -442,6 +532,15 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_TARIFF_CUTS"
+			add_popularity = {
+							ideology = market_liberal
+							popularity = 0.10
+						}
+			add_popularity = {
+							ideology = social_conservative
+							popularity = 0.05
+						}
+			add_ideas = GRU_FREE_TRADE
 		}
 		prerequisite = { focus = GRU_CONSERVATIVES_ELECTED  }
 	}
@@ -455,6 +554,10 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_UNDO_NATIONALIZATION"
+			swap_ideas = {
+							remove_idea = GRU_SPD_SOCIAL_MARKET_MIRACLE
+							add_idea = GRU_CDU_SOCIAL_MARKET_MIRACLE
+						}
 		}
 		prerequisite = { focus = GRU_CONSERVATIVES_ELECTED  }
 	}
@@ -468,6 +571,12 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_TAX_CUT"
+			add_political_power = 50
+			add_stability = 0.05
+			add_popularity = {
+							ideology = market_liberal
+							popularity = 0.05
+						}
 		}
 		prerequisite = { focus = GRU_CONSERVATIVES_SIDELINE_RADICALS  }
 		prerequisite = { focus = GRU_CONSERVATIVES_TARIFF_CUTS  }
@@ -482,6 +591,12 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_WITH_THE_CHURCH"
+			remove_ideas = GRU_SPD_FAUD_WOMAN_RIGHTS
+			add_ideas = GRU_CONSERVATIVE_SOCIETY
+			add_popularity = {
+							ideology = social_conservative
+							popularity = 0.10
+						}
 		}
 		prerequisite = { focus = GRU_CONSERVATIVES_SIDELINE_RADICALS  }
 		prerequisite = { focus = GRU_CONSERVATIVES_TARIFF_CUTS  }
@@ -497,6 +612,11 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVE_REPUBLIC"
+			set_cosmetic_tag = GRU_REP_CON
+			swap_ideas = {
+							remove_idea = GRU_SUCCDUM
+							add_idea = GRU_CONDEM
+						}
 		}
 		prerequisite = { focus = GRU_CONSERVATIVES_TAX_CUT  }
 		prerequisite = { focus = GRU_CONSERVATIVES_WITH_THE_CHURCH  }
@@ -504,7 +624,7 @@
 	#####smoll diplo####
 	shared_focus = {
 		id = GRU_REJOIN_INTERNATIONALE
-		icon = GRU_
+		icon = GFX_goal_comfrance
 		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
 		x = 2
 		y = 4
@@ -518,7 +638,7 @@
 	
 	shared_focus = {
 		id = GRU_JOIN_ENTENTE
-		icon = GRU_
+		icon = GFX_goal_canada
 		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
 		x = -2
 		y = 4
@@ -532,7 +652,7 @@
 	
 	shared_focus = {
 		id = GRU_OUR_OWN
-		icon = GRU_
+		icon = GRU_NEW_DEM_ALLIANCE
 		relative_position_id = GRU_SOCIAL_LIBERALS_ELECTED
 		x = 0
 		y = 4

@@ -21,6 +21,10 @@ spriteTypes = {
 		name = "GFX_idea_GRU_Heinrich_Brandler_hog_rso"
 		texturefile = "gfx/interface/ministers/GRU/GRU_Heinrich_Brandler.tga"
 	}
+	spriteType = {
+		name = "GFX_idea_GRU_Erich_Honecker_hog_rso"
+		texturefile = "gfx/interface/ministers/GRU/GRU_Erich_Honecker_young.tga"
+	}
 	##FOR##
 	spriteType = {
 		name = "GFX_idea_GRU_Bodo_Uhse_for_tot"
@@ -38,6 +42,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_GRU_Gregor_Strasser_eco_tot"
 		texturefile = "gfx/interface/ministers/GRU/GRU_Gregor_Strasser.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_Albert_Speer_eco_tot"
+		texturefile = "gfx/interface/ministers/GRU/GRU_Albert_Speer.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_GRU_Jakob_Kaiser_eco_syn"

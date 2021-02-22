@@ -1148,7 +1148,7 @@ ideas = {
 			picture = GRU_SPD_FAUD_WOMAN_RIGHTS
 			modifier = {
 				conscription_factor = 0.05
-				consumer_goods_factor = -0.1
+				consumer_goods_factor = -0.05
 			}
 		}
 		GRU_SPD_FAUD_TOLERANT_SOCIETY = {
@@ -1156,7 +1156,7 @@ ideas = {
 			picture = GRU_SPD_FAUD_TOLERANT_SOCIETY
 			modifier = {
 				conscription_factor = 0.30
-				consumer_goods_factor = 0.1
+				consumer_goods_factor = -0.1
 				stability_factor = 0.05
 			}
 		}
@@ -1850,6 +1850,55 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = GRU_RED_MILITIAS
+		}
+		
+		
+		GRU_FREE_TRADE = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_FREE_TRADE"}
+			picture = generic_trade
+			modifier = {
+				trade_opinion_factor = 0.5
+			}
+		}
+		
+		GRU_CDU_SOCIAL_MARKET_MIRACLE = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_CDU_SOCIAL_MARKET_MIRACLE"}
+			picture = GRU_SPD_SOCIAL_MARKET_MIRACLE
+			modifier = {
+				industrial_capacity_factory = 0.06
+				production_factory_max_efficiency_factor = 0.14
+				production_speed_buildings_factor = 0.05
+				production_speed_infrastructure_factor = 0.10
+				production_factory_efficiency_gain_factor = 0.02
+				consumer_goods_factor = -0.04
+				party_popularity_stability_factor = 0.1
+			}
+		}
+		
+		GRU_CONSERVATIVE_SOCIETY = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_CONSERVATIVE_SOCIETY"}
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			picture = conservative_society
+			modifier = { 
+				stability_weekly = 0.003
+				political_power_gain = 0.05
+				monthly_population = 0.05
+			}
+		}
+		GRU_CONDEM = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_CONDEM"}
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			picture = conservative_democracy
+			modifier = { 
+				production_factory_start_efficiency_factor = 0.06
+				production_speed_buildings_factor = 0.07
+				stability_weekly = 0.005
+				political_power_gain = 0.10
+				monthly_population = 0.04
+				party_popularity_stability_factor = 0.05
+			}
 		}
 		
 	}
