@@ -578,7 +578,7 @@ shared_focus = {
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_volksgesundheitsamt"
-			add_ideas = GRU_VOLKSGESUNDHEITSAMT
+			custom_effect_tooltip = GRU_tt_boden_blut
 		}
 
 		prerequisite = { focus = GRU_found_the_fdj }
@@ -1700,6 +1700,7 @@ shared_focus = {
 							add_idea = GRU_SPD_FAUD_FREIHEIT
 						}
 			leave_faction = yes
+			separate_peace_all_wars = yes
 			#if = {
 			#		limit = {
 			#			GRU = is_subject = yes

@@ -1900,6 +1900,213 @@ ideas = {
 				party_popularity_stability_factor = 0.05
 			}
 		}
+		GRU_banned_tobacco = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_banned_tobacco"}
+			picture = GRU_banned_tobacco
+			modifier = {
+				stability_weekly_factor = -0.01
+				monthly_population = 0.05
+			}
+		}
+		GRU_Basic_animal_rights = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_Basic_animal_rights"}
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			picture = GRU_Basic_animal_rights
+			modifier = { 
+				stability_weekly = 0.003
+				political_power_gain = 0.05
+			}
+		}
+		GRU_mandatory_sport = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_mandatory_sport"}
+			picture = GRU_mandatory_sport
+			modifier = {
+				stability_weekly_factor = 0.01
+				monthly_population = 0.01
+				recruitable_population_factor = 0.01
+			}
+		}
+		###DLP ###
+		GRU_DLP_EMPLOYER_RIGHTS = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_DLP_EMPLOYER_RIGHTS"}
+			picture = VK_INDUSTRY_TWO
+			modifier = {
+				industrial_capacity_factory = 0.10
+				consumer_goods_factor = -0.06
+				stability_factor = -0.05
+			}
+		}
+		
+		GRU_DLP_TURBO_CAPITALISM = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_DLP_TURBO_CAPITALISM"}
+			picture = GRU_SPD_SOCIAL_MARKET_MIRACLE
+			modifier = {
+				industrial_capacity_factory = 0.10
+				production_factory_max_efficiency_factor = 0.18
+				production_speed_buildings_factor = 0.09
+				production_speed_infrastructure_factor = 0.12
+				production_factory_efficiency_gain_factor = 0.05
+				consumer_goods_factor = 0.07
+				stability_factor = -0.05
+			}
+		}
+		GRU_DLP_STATE_CHAUVINISM = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_DLP_STATE_CHAUVINISM"}
+			picture = GRU_STATE_CHAUVINISM
+			modifier = {
+				consumer_goods_factor = 0.02
+				stability_factor = 0.08
+			}
+		}
+		GRU_DLP_BOUGHT_MEDIA = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_DLP_BOUGHT_MEDIA"}
+			picture = GRU_MEDIA_GENERIC
+			modifier = {
+				political_power_gain = 0.05
+				stability_weekly = 0.01
+			}
+		}
+		GRU_OLIGARCHY = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_OLIGARCHY"}
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			picture = GRU_THE_OLIGARCHY
+			modifier = { 
+				production_factory_start_efficiency_factor = 0.08
+				production_speed_buildings_factor = 0.09
+				stability_weekly = 0.01
+				political_power_gain = 0.25
+				monthly_population = -0.01
+				party_popularity_stability_factor = -0.01
+			}
+		}
+		###FDP###
+		GRU_FDP_THE_GAY_IS_A_OK = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_FDP_THE_GAY_IS_A_OK"}
+			picture = GRU_FDP_THE_GAY_IS_A_OK
+			modifier = {
+				monthly_population = -0.01
+				recruitable_population_factor = 0.04
+			}
+		}
+		GRU_FDP_secular_state = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_FDP_secular_state"}
+			picture = GRU_FDP_secular_state
+			modifier = {
+				political_power_gain = 0.05
+				stability_weekly = 0.01
+			}
+		}
+		GRU_FDP_SOCIAL_MARKET_MIRACLE = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_FDP_SOCIAL_MARKET_MIRACLE"}
+			picture = GRU_SPD_SOCIAL_MARKET_MIRACLE
+			modifier = {
+				industrial_capacity_factory = 0.07
+				production_factory_max_efficiency_factor = 0.15
+				production_speed_buildings_factor = 0.06
+				production_speed_infrastructure_factor = 0.11
+				production_factory_efficiency_gain_factor = 0.03
+				consumer_goods_factor = 0.03
+				party_popularity_stability_factor = 0.1
+			}
+		}
+		GRU_SOCLIB_DEM = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_SOCLIB_DEM"}
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			picture = conservative_democracy
+			modifier = { 
+				production_factory_start_efficiency_factor = 0.08
+				production_speed_buildings_factor = 0.10
+				stability_weekly = 0.009
+				political_power_gain = 0.05
+				party_popularity_stability_factor = 0.05
+			}
+		}
+		
+		###SPD continue###
+		GRU_SPD_SOCIAL_MARKET_MIRACLE_TWO = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_SPD_SOCIAL_MARKET_MIRACLE_TWO"}
+			picture = GRU_SPD_SOCIAL_MARKET_MIRACLE
+			modifier = {
+				industrial_capacity_factory = 0.06
+				production_factory_max_efficiency_factor = 0.11
+				production_speed_buildings_factor = 0.05
+				production_speed_infrastructure_factor = 0.11
+				production_factory_efficiency_gain_factor = 0.02
+				consumer_goods_factor = -0.06
+				stability_weekly = 0.02
+				political_power_gain = 0.04
+				party_popularity_stability_factor = 0.1
+			}
+		}
+		
+		GRU_SPD_WORKER_RIGHTS_AA = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_SPD_WORKER_RIGHTS_AA"}
+			picture = GRU_SPD_WORKER_RIGHTS
+			modifier = {
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.05
+				stability_factor = 0.10
+			}
+		}
+		GRU_SPD_WORKER_RIGHTS_AB = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_SPD_WORKER_RIGHTS_AB"}
+			picture = GRU_SPD_WORKER_RIGHTS
+			modifier = {
+				industrial_capacity_factory = 0.07
+				consumer_goods_factor = -0.07
+				stability_factor = 0.05
+			}
+		}
+		GRU_SPD_WORKER_RIGHTS_B = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_SPD_WORKER_RIGHTS_B"}
+			picture = GRU_SPD_WORKER_RIGHTS
+			modifier = {
+				industrial_capacity_factory = 0.07
+				consumer_goods_factor = -0.07
+				stability_factor = 0.10
+			}
+		}
+		GRU_SUCCDUM_TWO = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_SUCCDUM_TWO"}
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			picture = GRU_SUCCDUMS
+			modifier = { 
+				production_factory_start_efficiency_factor = 0.07
+				production_speed_buildings_factor = 0.07
+				stability_weekly = 0.005
+				political_power_gain = 0.10
+				monthly_population = 0.06
+				party_popularity_stability_factor = 0.08
+			}
+		}
+		####PDS####
+		GRU_PDS_SOCIALIST_MARKET_ECONOMICS = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_PDS_SOCIALIST_MARKET_ECONOMICS"}
+			picture = GRU_SOCIALIST_MARKET_ECONOMICS
+			modifier = {
+				industrial_capacity_factory = 0.09
+				production_factory_max_efficiency_factor = 0.12
+				production_speed_buildings_factor = 0.06
+				production_speed_infrastructure_factor = 0.14
+				production_factory_efficiency_gain_factor = -0.03
+				consumer_goods_factor = -0.08
+				stability_weekly = 0.01
+				political_power_gain = 0.05
+				party_popularity_stability_factor = 0.1
+			}
+		}
+		GRU_RED_NEWS_RDS = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_RED_NEWS_RDS"}
+			picture = GRU_RED_NEWS
+			modifier = {
+				political_power_gain = 0.05
+				stability_weekly = 0.01
+			}
+		}
 		
 	}
 	

@@ -9,8 +9,9 @@
 			has_country_flag = GRU_REBUILD
 			has_country_flag = GRU_SPD_rule
 			is_subject = no
-			is_major = yes
+			has_country_flag = GRU_LIEBKNECHT_RETIRED
 		}
+		ai_will_do = { factor = 100 }
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_THE_DEMOCRACY_PROMISE"
@@ -42,6 +43,32 @@
 						long_name = GRU_PDS_PARTY_long
 						name = GRU_PDS_PARTY
 				}
+				
+			add_popularity = {
+							ideology = totalist
+							popularity = -0.30
+						}
+			add_popularity = {
+							ideology = syndicalist
+							popularity = -0.30
+						}
+			add_popularity = {
+							ideology = paternal_autocrat
+							popularity = -0.40
+						}
+			add_popularity = {
+							ideology = national_populist
+							popularity = -0.40
+						}
+			add_popularity = {
+							ideology = authoritarian_democrat
+							popularity = -0.40
+						}
+			add_popularity = {
+							ideology = radical_socialist
+							popularity = -0.40
+						}
+				
 			}
 		}
 	}
@@ -73,6 +100,10 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_SOCIALIST_MARKET_ECONOMY"
+			swap_ideas = {
+							remove_idea = GRU_SPD_SOCIAL_MARKET_MIRACLE
+							add_idea = GRU_PDS_SOCIALIST_MARKET_ECONOMICS
+						}
 		}
 		prerequisite = { focus = GRU_RADSOCS_ELECTED  }
 	}
@@ -86,6 +117,46 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_SIDELINE_RIGHT_WINGS"
+			add_popularity = {
+							ideology = social_liberal
+							popularity = -0.30
+						}
+			add_popularity = {
+							ideology = paternal_autocrat
+							popularity = -0.30
+						}
+			add_popularity = {
+							ideology = national_populist
+							popularity = -0.30
+						}
+			add_popularity = {
+							ideology = market_liberal
+							popularity = -0.30
+						}
+			add_popularity = {
+							ideology = social_conservative
+							popularity = -0.30
+						}
+			add_popularity = {
+							ideology = authoritarian_democrat
+							popularity = -0.30
+						}
+			add_popularity = {
+							ideology = social_democrat
+							popularity = 0.30
+						}
+			add_popularity = {
+							ideology = syndicalist
+							popularity = 0.30
+						}
+			add_popularity = {
+							ideology = radical_socialist
+							popularity = 0.50
+						}
+			add_popularity = {
+							ideology = totalist
+							popularity = 0.20
+						}
 		}
 		prerequisite = { focus = GRU_RADSOCS_ELECTED  }
 	}
@@ -99,6 +170,14 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_UNIVERSIAL_HEALTHCARE"
+			swap_ideas = {
+							remove_idea = GRU_SPD_WORKER_RIGHTS
+							add_idea = GRU_SPD_WORKER_RIGHTS_AA
+						}
+			add_popularity = {
+							ideology = radical_socialist
+							popularity = 0.02
+						}
 		}
 		prerequisite = { focus = GRU_RADSOCS_ELECTED  }
 	}
@@ -112,6 +191,11 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_STATE_MEDIA"
+			add_ideas = GRU_RED_NEWS_RDS
+			add_popularity = {
+							ideology = radical_socialist
+							popularity = 0.05
+						}
 		}
 		prerequisite = { focus = GRU_RADSOCS_UNIVERSIAL_HEALTHCARE  }
 		prerequisite = { focus = GRU_RADSOCS_SIDELINE_RIGHT_WINGS  }
@@ -127,6 +211,14 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_UNIVERSIAL_BASIC_INCOME"
+			swap_ideas = {
+							remove_idea = GRU_SPD_WORKER_RIGHTS_AA
+							add_idea = GRU_SPD_WORKER_RIGHTS_B
+						}
+			add_popularity = {
+							ideology = radical_socialist
+							popularity = 0.03
+						}
 		}
 		prerequisite = { focus = GRU_RADSOCS_UNIVERSIAL_HEALTHCARE  }
 		prerequisite = { focus = GRU_RADSOCS_SIDELINE_RIGHT_WINGS  }
@@ -142,6 +234,11 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_UNIVERSIAL_BASIC_INCOME"
+			set_cosmetic_tag = GRU_REP_RDS
+			add_popularity = {
+							ideology = radical_socialist
+							popularity = 0.15
+						}
 		}
 		prerequisite = { focus = GRU_RADSOCS_STATE_MEDIA  }
 		prerequisite = { focus = GRU_RADSOCS_UNIVERSIAL_BASIC_INCOME  }
@@ -177,6 +274,10 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCDEM_PRIVATIZE_KEY_INDUSTRY"
+			swap_ideas = {
+							remove_idea = GRU_SPD_SOCIAL_MARKET_MIRACLE
+							add_idea = GRU_SPD_SOCIAL_MARKET_MIRACLE_TWO
+						}
 		}
 		prerequisite = { focus = GRU_SOCIAL_DEMS_ELECTED  }
 	}
@@ -190,6 +291,12 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCDEM_MANDATORY_INSURRANCE"
+			add_political_power = 45
+			add_stability = 0.10
+			add_popularity = {
+							ideology = social_democrat
+							popularity = 0.05
+						}
 		}
 		prerequisite = { focus = GRU_SOCIAL_DEMS_ELECTED  }
 	}
@@ -203,6 +310,12 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCDEM_FREE_DAYCARE"
+			add_political_power = 15
+			add_stability = 0.05
+			add_popularity = {
+							ideology = social_democrat
+							popularity = 0.10
+						}
 		}
 		prerequisite = { focus = GRU_SOCIAL_DEMS_ELECTED  }
 	}
@@ -216,6 +329,20 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCDEM_PAYED_VACCATION"
+			if={
+				limit = { has_idea = GRU_SPD_WORKER_RIGHTS }
+				swap_ideas = {
+							remove_idea = GRU_SPD_WORKER_RIGHTS
+							add_idea = GRU_SPD_WORKER_RIGHTS_AB
+						}
+			}
+			if={
+				limit = { has_idea = GRU_SPD_WORKER_RIGHTS_AA }
+				swap_ideas = {
+							remove_idea = GRU_SPD_WORKER_RIGHTS_AA
+							add_idea = GRU_SPD_WORKER_RIGHTS_B
+						}
+			}
 		}
 		prerequisite = { focus = GRU_SOCDEM_PRIVATIZE_KEY_INDUSTRY  }
 		prerequisite = { focus = GRU_SOCDEM_MANDATORY_INSURRANCE  }
@@ -231,6 +358,20 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCDEM_40_HOURS_WEEK"
+			if={
+				limit = { has_idea = GRU_SPD_WORKER_RIGHTS }
+				swap_ideas = {
+							remove_idea = GRU_SPD_WORKER_RIGHTS
+							add_idea = GRU_SPD_WORKER_RIGHTS_AA
+						}
+			}
+			if={
+				limit = { has_idea = GRU_SPD_WORKER_RIGHTS_AB }
+				swap_ideas = {
+							remove_idea = GRU_SPD_WORKER_RIGHTS_AA
+							add_idea = GRU_SPD_WORKER_RIGHTS_B
+						}
+			}
 		}
 		prerequisite = { focus = GRU_SOCDEM_PRIVATIZE_KEY_INDUSTRY  }
 		prerequisite = { focus = GRU_SOCDEM_MANDATORY_INSURRANCE  }
@@ -246,6 +387,10 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCDEM_SOCIAL_REPUBLIC"
+			swap_ideas = {
+							remove_idea = GRU_SUCCDUM
+							add_idea = GRU_SUCCDUM_TWO
+						}
 		}
 		prerequisite = { focus = GRU_SOCDEM_PAYED_VACCATION  }
 		prerequisite = { focus = GRU_SOCDEM_40_HOURS_WEEK  }
@@ -279,6 +424,8 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCLIB_DECRIMINALIZE_HOMOSEXUALITY"
+			add_ideas = GRU_FDP_THE_GAY_IS_A_OK
+			add_stability = -0.05
 		}
 		prerequisite = { focus = GRU_SOCIAL_LIBERALS_ELECTED  }
 	}
@@ -292,6 +439,9 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCLIB_BAN_CONSCRIPTION"
+			add_ideas = volunteer_only
+			set_country_flag = cannot_have_conscription
+			add_stability = 0.05
 		}
 		prerequisite = { focus = GRU_SOCIAL_LIBERALS_ELECTED  }
 	}
@@ -305,6 +455,8 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCLIB_GURANTEE_RELIGIOUS_FREEDOM"
+			add_ideas = GRU_FDP_secular_state
+			add_stability = 0.05
 		}
 		prerequisite = { focus = GRU_SOCIAL_LIBERALS_ELECTED  }
 	}
@@ -318,6 +470,13 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCLIB_DIRECT_REFERENDUMS"
+			add_political_power = 200
+			add_stability = -0.05
+			add_popularity = {
+							ideology = social_liberal
+							popularity = 0.15
+						}
+
 		}
 		prerequisite = { focus = GRU_SOCLIB_DECRIMINALIZE_HOMOSEXUALITY  }
 		prerequisite = { focus = GRU_SOCLIB_BAN_CONSCRIPTION  }
@@ -333,6 +492,15 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCLIB_CUT_BUISNESS_TAX"
+			add_political_power = 20
+			add_popularity = {
+							ideology = social_liberal
+							popularity = 0.05
+						}
+			swap_ideas = {
+							remove_idea = GRU_SPD_SOCIAL_MARKET_MIRACLE
+							add_idea = GRU_FDP_SOCIAL_MARKET_MIRACLE
+						}
 		}
 		prerequisite = { focus = GRU_SOCLIB_DECRIMINALIZE_HOMOSEXUALITY  }
 		prerequisite = { focus = GRU_SOCLIB_BAN_CONSCRIPTION  }
@@ -348,6 +516,10 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCLIB_FREE_REPUBLIC"
+			swap_ideas = {
+							remove_idea = GRU_SUCCDUM
+							add_idea = GRU_SOCLIB_DEM
+						}
 		}
 		prerequisite = { focus = GRU_SOCLIB_CUT_BUISNESS_TAX  }
 		prerequisite = { focus = GRU_SOCLIB_DIRECT_REFERENDUMS  }
@@ -381,6 +553,10 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARLIB_CUT_THE_WELFARE"
+			swap_ideas = {
+							remove_idea = GRU_SPD_WORKER_RIGHTS
+							add_idea = GRU_DLP_EMPLOYER_RIGHTS
+						}
 		}
 		prerequisite = { focus = GRU_MARKET_LIBERALS_ELECTED  }
 	}
@@ -394,6 +570,10 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARLIB_FULL_PRIVATISATION"
+			swap_ideas = {
+							remove_idea = GRU_SPD_SOCIAL_MARKET_MIRACLE
+							add_idea = GRU_DLP_TURBO_CAPITALISM
+						}
 		}
 		prerequisite = { focus = GRU_MARKET_LIBERALS_ELECTED  }
 	}
@@ -407,6 +587,48 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARLIB_BAN_LEFTIST_THOUGHT"
+			remove_ideas = GRU_SPD_FAUD_WOMAN_RIGHTS
+			add_ideas = GRU_DLP_STATE_CHAUVINISM
+			add_popularity = {
+							ideology = totalist
+							popularity = -0.30
+						}
+			add_popularity = {
+							ideology = syndicalist
+							popularity = -0.30
+						}
+			add_popularity = {
+							ideology = radical_socialist
+							popularity = -0.50
+						}
+			add_popularity = {
+							ideology = social_democrat
+							popularity = -0.30
+						}
+			add_popularity = {
+							ideology = social_liberal
+							popularity = -0.30
+						}
+			add_popularity = {
+							ideology = paternal_autocrat
+							popularity = 0.10
+						}
+			add_popularity = {
+							ideology = national_populist
+							popularity = 0.10
+						}
+			add_popularity = {
+							ideology = market_liberal
+							popularity = 0.40
+						}
+			add_popularity = {
+							ideology = social_conservative
+							popularity = 0.20
+						}
+			add_popularity = {
+							ideology = authoritarian_democrat
+							popularity = 0.20
+						}
 		}
 		prerequisite = { focus = GRU_MARKET_LIBERALS_ELECTED  }
 	}
@@ -420,6 +642,12 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARLIB_BAN_LEFTIST_THOUGHT"
+			add_political_power = 250
+			add_stability = -0.10
+			add_popularity = {
+							ideology = market_liberal
+							popularity = 0.05
+						}
 		}
 		prerequisite = { focus = GRU_MARLIB_CUT_THE_WELFARE  }
 		prerequisite = { focus = GRU_MARLIB_FULL_PRIVATISATION  }
@@ -435,6 +663,7 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARLIB_CONTROL_MEDIA_WITH_MONEY"
+			add_ideas = GRU_DLP_BOUGHT_MEDIA
 		}
 		prerequisite = { focus = GRU_MARLIB_CUT_THE_WELFARE  }
 		prerequisite = { focus = GRU_MARLIB_FULL_PRIVATISATION  }
@@ -450,6 +679,42 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARLIB_OLIGARCHIC_REPUBLIC"
+			set_cosmetic_tag = GRU_REP_KRUPP
+			swap_ideas = {
+							remove_idea = GRU_SUCCDUM
+							add_idea = GRU_OLIGARCHY
+						}
+			hidden_effect = {
+			set_party_name = {
+						ideology = authoritarian_democrat
+						long_name = GRU_INDUSTRIALS_long
+						name = GRU_INDUSTRIALS
+				}
+			create_country_leader = {
+							name = "Gustav Krupp"
+							desc = "GRU_Krupp_DESC"
+							picture = "gfx/leaders/GRU/Portrait_GRU_Gustav_Krupp.tga"
+							expire = "1965.1.1"
+							ideology = authoritarian_democrat_subtype
+				}
+			add_popularity = {
+							ideology = authoritarian_democrat
+							popularity = 0.25
+						}
+			set_politics = {
+					ruling_party = authoritarian_democrat
+					last_election = "1936.11.16"
+					elections_allowed = no
+				}
+			remove_all_ministers = yes
+				add_ideas = {
+					GRU_Alfried_Krupp_hog_sco
+					GRU_Ludwig_Kaas_for_ade
+					MAF_Fritz_Thyssen_eco_pau
+					GRU_Otto_Bradfisch_sec_ade
+				}
+			}
+			
 		}
 		prerequisite = { focus = GRU_MARLIB_CONTROL_MEDIA_WITH_MONEY  }
 		prerequisite = { focus = GRU_MARLIB_TWENTY_PERCENTE_ELECTROAL_THRESHOLD  }
@@ -629,8 +894,29 @@
 		x = 2
 		y = 4
 		cost = 6
+		available = {
+			is_subject = no
+			INT = {
+				is_faction_leader = yes
+				NOT = {
+					has_war_with = ROOT
+					is_in_faction_with = ROOT
+					is_in_faction_with = GER
+					is_in_faction_with = GEX
+					is_in_faction_with = DDR
+					is_in_faction_with = BAY
+					is_in_faction_with = NGF
+					is_in_faction_with = WGR
+					owns_state = 64
+					any_allied_country = { owns_state = 64 }
+				}
+			}
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_REJOIN_INTERNATIONALE"
+			INT = {
+				add_to_faction = GRU
+			}
 		}
 		mutually_exclusive = { focus = GRU_OUR_OWN focus = GRU_JOIN_ENTENTE }
 		prerequisite = { focus = GRU_SOCDEM_SOCIAL_REPUBLIC focus = GRU_RADSOCS_SOCIALIST_REPUBLIC }
@@ -643,8 +929,29 @@
 		x = -2
 		y = 4
 		cost = 6
+		available = {
+			is_subject = no
+			ENT = {
+				is_faction_leader = yes
+				NOT = {
+					has_war_with = ROOT
+					is_in_faction_with = ROOT
+					is_in_faction_with = GER
+					is_in_faction_with = GEX
+					is_in_faction_with = DDR
+					is_in_faction_with = BAY
+					is_in_faction_with = NGF
+					is_in_faction_with = WGR
+					owns_state = 64
+					any_allied_country = { owns_state = 64 }
+				}
+			}
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_JOIN_ENTENTE"
+			ENT = {
+				add_to_faction = GRU
+			}
 		}
 		mutually_exclusive = { focus = GRU_OUR_OWN focus = GRU_REJOIN_INTERNATIONALE }
 		prerequisite = { focus = GRU_CONSERVATIVE_REPUBLIC  focus = GRU_MARLIB_OLIGARCHIC_REPUBLIC focus = GRU_SOCLIB_FREE_REPUBLIC }
@@ -659,6 +966,8 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_OUR_OWN"
+			create_faction = "Treaty Organisation of Free Nations"
+			custom_effect_tooltip = GRU_tt_new_alliance
 		}
 		mutually_exclusive = { focus = GRU_JOIN_ENTENTE focus = GRU_REJOIN_INTERNATIONALE }
 		prerequisite = { focus = GRU_CONSERVATIVE_REPUBLIC  focus = GRU_MARLIB_OLIGARCHIC_REPUBLIC focus = GRU_SOCLIB_FREE_REPUBLIC focus = GRU_SOCDEM_SOCIAL_REPUBLIC focus = GRU_RADSOCS_SOCIALIST_REPUBLIC }

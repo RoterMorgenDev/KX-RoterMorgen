@@ -475,5 +475,42 @@ spriteTypes = {
 		name = "GFX_idea_conservative_democracy"
 		texturefile = "gfx/interface/ideas/GRU/condem.tga"
 	}
+	spriteType = {
+		name = "GFX_idea_GRU_banned_tobacco"
+		texturefile = "gfx/interface/ideas/GRU/GRU_no_smoking.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_Basic_animal_rights"
+		texturefile = "gfx/interface/ideas/GRU/savetheanimals.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_mandatory_sport"
+		texturefile = "gfx/interface/ideas/GRU/volkssport.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_STATE_CHAUVINISM"
+		texturefile = "gfx/interface/ideas/GRU/GRU_STATE_CHAUVINISM.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_MEDIA_GENERIC"
+		texturefile = "gfx/interface/ideas/GRU/GRU_MEDIA_GENERIC.tga"
+	}	
+	spriteType = {
+		name = "GFX_idea_GRU_THE_OLIGARCHY"
+		texturefile = "gfx/interface/ideas/GRU/GRU_THE_OLIGARCHY.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GRU_FDP_secular_state"
+		texturefile = "gfx/interface/ideas/GRU/GRU_FDP_secular_state.tga"
+	}	
+	spriteType = {
+		name = "GFX_idea_GRU_FDP_THE_GAY_IS_A_OK"
+		texturefile = "gfx/interface/ideas/GRU/GRU_FDP_THE_GAY_IS_A_OK.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_SOCIALIST_MARKET_ECONOMICS"
+		texturefile = "gfx/interface/ideas/GRU/GRU_SOCIALIST_MARKET_ECONOMICS.tga"
+	}
 	
 }

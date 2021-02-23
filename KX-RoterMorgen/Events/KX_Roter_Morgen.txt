@@ -390,7 +390,7 @@ country_event = { # CONGRESS
 				}
 				add_popularity = {
 					ideology = totalist
-					popularity = 0.60
+					popularity = 0.40
 				}
 		}
 	}

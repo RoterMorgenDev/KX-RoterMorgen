@@ -70,7 +70,7 @@ country_event = { # Futhark
 }
 
 
-country_event = { # Blan Canvas
+country_event = { # Blank Canvas
 	id = rotermorgenmisc.5
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.5" }
 	title = rotermorgenmisc.5.t
@@ -83,6 +83,38 @@ country_event = { # Blan Canvas
 	}
 }
 
+country_event = { # Susi
+	id = rotermorgenmisc.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.6" }
+	title = rotermorgenmisc.6.t
+	desc = rotermorgenmisc.6.d
+	picture = GFX_report_event_Susi_dog
+	is_triggered_only = yes
+	
+	option = { 
+		name = rotermorgenmisc.6.a
+	}
+}
+
+country_event = { # Liebknecht retires
+	id = rotermorgenmisc.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.7" }
+	title = rotermorgenmisc.7.t
+	desc = rotermorgenmisc.7.d
+	picture = GFX_report_event_Liebknecht_rente
+	is_triggered_only = yes
+	trigger = {
+		tag = GRU
+		has_country_flag = GRU_REBUILD
+		has_country_flag = GRU_SPD_rule
+		date > 1948.01.01
+	}
+	
+	option = { 
+		name = rotermorgenmisc.7.a
+		set_country_flag = GRU_LIEBKNECHT_RETIRED
+	}
+}
 
 
 country_event = { # allignment
@@ -1376,6 +1408,59 @@ country_event = { # allignment to internationale SMEPD
 		}
 	}
 }
+
+country_event = { # allignment to internationale SMEPD
+	id = rotermorgenmisc.801
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.801" }
+	title = rotermorgenmisc.801.t
+	desc = rotermorgenmisc.801.d
+	is_triggered_only = yes
+	
+	option = { # join internationale
+		name = rotermorgenmisc.801.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = GRU
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 100
+				has_opinion = {
+					target = GRU
+					value > 60
+				}
+			}
+		}
+		GRU = {
+		add_to_faction = ROOT
+		}
+	}
+	option = { # we good
+		name = rotermorgenmisc.801.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 100
+				has_opinion = {
+					target = GRU
+					value < 0
+				}
+			}
+			modifier = {
+				factor = 0
+				has_opinion = {
+					target = GRU
+					value > 60
+				}
+			}
+		}
+	}
+}
+
 country_event = { 
 	id = rotermorgenmisc.810
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.810" }

@@ -48,4 +48,11 @@ spriteTypes = {
 
 			texturefile = "gfx/event_pictures/blank_canvas.tga"
 	}
+	
+	spriteType = {  
+
+			name = "GFX_report_event_Susi_dog"  
+
+			texturefile = "gfx/event_pictures/Susi_dog.tga"
+	}
 }
