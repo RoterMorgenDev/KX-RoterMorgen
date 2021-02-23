@@ -504,6 +504,8 @@ shared_focus = {
 			hidden_effect = {
 				country_event = { id =  rotermorgenmisc.666 days = 550 }
 			}
+			leave_faction = yes
+			separate_peace_all_wars = yes
 		}
 		available = {
 
