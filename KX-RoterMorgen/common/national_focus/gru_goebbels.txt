@@ -53,6 +53,31 @@
 		x = -1
 		y = 2
 		cost = 6
+		available = {
+					is_subject = no
+					FRA = {
+							exists = yes
+							is_subject = no
+							controls_state = 28
+							controls_state = 779
+						}
+					NOT = {
+							is_in_faction_with = GRU
+							has_war_with = GRU
+						}
+				}
+			bypass = {
+					OR = {
+							AND = {
+									controls_state = 28
+									controls_state = 779
+								}
+							has_war_with = FRA
+							FRA = {
+									exists = no
+								}
+						}
+				}
 		completion_reward = {
 					log = "[GetDateText]: [Root.GetName]: Focus GRU_NMDVP_END_FRANCE"
 					create_wargoal = {
