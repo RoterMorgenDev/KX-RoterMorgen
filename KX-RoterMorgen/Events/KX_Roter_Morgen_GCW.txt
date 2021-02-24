@@ -107,9 +107,18 @@ country_event = { # GRU setup
 				transfer_state = 779
 				transfer_state = 28
 				}
-			BEL = {
-				transfer_state = 741
+			if={
+				limit = { country_exists = BEL  }	
+				BEL = {
+					transfer_state = 741
 				}
+			}
+			if={
+				limit = { country_exists = WLL  }	
+				WLL = {
+					transfer_state = 741
+				}
+			}
 			GRU = {
 				transfer_state = 781
 				transfer_state = 51
