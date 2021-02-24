@@ -52,7 +52,7 @@ country_event = { # Help companies
 	option = { # yes
 		name = rotermorgenGCW.100.a
 		ai_chance = {
-			factor = 60
+			factor = 100
 		}
 		add_stability = 0.02
 		add_political_power = -50
@@ -67,7 +67,7 @@ country_event = { # Help companies
 	option = { # no
 		name = rotermorgenGCW.100.b
 		ai_chance = {
-			factor = 40
+			factor = 0
 		}
 		add_stability = -0.05
 		add_political_power = 25
@@ -94,7 +94,7 @@ country_event = { #Open soup kitchens
 	option = { # no
 		name = rotermorgenGCW.101.a
 		ai_chance = {
-			factor = 50
+			factor = 0
 		}
 		add_stability = -0.1
 		add_political_power = 30
@@ -109,7 +109,7 @@ country_event = { #Open soup kitchens
 	option = { # yes
 		name = rotermorgenGCW.101.b
 		ai_chance = {
-			factor = 50
+			factor = 100
 		}
 		add_stability = 0.1
 		add_political_power = -20
@@ -178,7 +178,7 @@ country_event = { # Banks collapse
 	option = { # Help them now 
 		name = rotermorgenGCW.103.a
 		ai_chance = {
-			factor = 50
+			factor = 100
 		}
 		add_stability = 0.10
 		add_political_power = -150
@@ -193,7 +193,7 @@ country_event = { # Banks collapse
 	option = { # nope no help
 		name = rotermorgenGCW.103.b
 		ai_chance = {
-			factor = 50
+			factor = 0
 		}
 		add_stability = -0.10
 		add_political_power = 90
