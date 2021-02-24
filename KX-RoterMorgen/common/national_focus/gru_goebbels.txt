@@ -62,8 +62,8 @@
 							controls_state = 779
 						}
 					NOT = {
-							is_in_faction_with = GRU
-							has_war_with = GRU
+							is_in_faction_with = FRA
+							has_war_with = FRA
 						}
 				}
 			bypass = {
@@ -76,6 +76,8 @@
 							FRA = {
 									exists = no
 								}
+							FRA = { is_subject_of = GRU }
+							FRA = { is_puppet_of = GRU }
 						}
 				}
 		completion_reward = {

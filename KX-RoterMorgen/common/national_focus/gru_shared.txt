@@ -255,11 +255,22 @@ shared_focus = {
 		available = {
 				has_country_flag = PARTIES_FORMED
 		}
-		prerequisite = { focus = GRU_occupational_government  }
+		prerequisite = { focus = GRU_occupational_government  focus = GRU_GCW_VICTORY }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_first_congress_of_german_unions"
 			hidden_effect = {
-				country_event = { id =  rotermorgen.70 days = 1 }
+				if = {
+					limit = {
+						has_country_flag = GRU_CW_START
+					}
+					country_event = { id =  rotermorgenGCW.70 days = 1 }
+				}
+				if = {
+					limit = {
+						has_country_flag = GRU_OCCU_START
+					}
+					country_event = { id =  rotermorgen.70 days = 1 }
+				}
 			}
 		}
 	}
@@ -2241,14 +2252,37 @@ shared_focus = {
 		prerequisite = { focus = GRU_panzergrenadiere focus = GRU_overwhelming_firepower  }
 	}
 
+
+
+
+shared_focus = {
+		id = GRU_GCW_VICTORY
+		icon = GFX_GRU_occupational_government-4027
+		x = 33
+		y = 2
+		cost = 1
+		available = {
+			has_country_flag = GRU_GCW_ENDED
+			is_subject = no
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_GCW_VICTORY"
+			hidden_effect = {
+				country_event = { id =  rotermorgenGCW.10 days = 1 }
+			}
+		}
+	}
 	#Occupational Government
 shared_focus = {
 		id = GRU_occupational_government
 		icon = GFX_GRU_occupational_government-4027
-		x = 32
+		x = 33
 		y = 2
 		cost = 1
-		
+		available = {
+			has_country_flag = GRU_OCCUPIED_START
+			is_subject = no
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_occupational_government"
 			hidden_effect = {

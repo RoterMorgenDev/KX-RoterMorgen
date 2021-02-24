@@ -1105,3 +1105,8 @@ GRU_SEPD_A = {
 	color = rgb { 201 21 21 }
 	color_ui = rgb { 201 21 21 }
 }
+
+GRU_REBELLION = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
