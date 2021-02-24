@@ -93,4 +93,23 @@ spriteTypes = {
 
 			texturefile = "gfx/event_pictures/Congress_pic.tga"
 	}
+	
+	spriteType = {  
+
+			name = "GFX_report_event_Help_comps"  
+
+			texturefile = "gfx/event_pictures/Help_comps.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_suppenkueche"  
+
+			texturefile = "gfx/event_pictures/suppenkueche.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_banken_kollaps"  
+
+			texturefile = "gfx/event_pictures/banken_kollaps.tga"
+	}
 }

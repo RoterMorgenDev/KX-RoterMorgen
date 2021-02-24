@@ -1210,6 +1210,36 @@ rotermorgenGCW.70.c:0 "Rocker - FAUD Victory"
 rotermorgenGCW.70.e:0 "Liebknecht - SPD-R Victory"
 
 
+
+rotermorgenGCW.100.t:0 "Help Companies?"
+rotermorgenGCW.100.d:0 "Many German companies have been hit hard by the black monday due to an almost total stop of income for a week and are now struggeling to survive as the market has yet not fulyl recovered and they can't nearly cover thier expenses.\nMaybe we should invest into these companies to ensure thier survival."
+rotermorgenGCW.100.a:0 "It must be done"
+rotermorgenGCW.100.b:0 "..sacrifices are to be made"
+
+rotermorgenGCW.101.t:0 "Public Soupkitchens"
+rotermorgenGCW.101.d:0 "Since the recent waves of unemployment after the black monday many people are dependant on charity work and soupkitchens, the churches and the red cross have already called for help from all those that can afford to give either money or food as they can't feed everyone right now. Maybe we should supply the soupkitchens and open state run ones too to provide food for the masses."
+rotermorgenGCW.101.a:0 "Tighten the belts!"
+rotermorgenGCW.101.b:0 "We will not let our people starve!"
+
+rotermorgenGCW.102.t:0 "Bail out for Banks?"
+rotermorgenGCW.102.d:0 "Our government was approched by several Bankers which have assured us that without a bailout they will not survive much longer as many of thier assets in forms of shares have been reduced to no value during the black monday. The biggest problem for the economy would be that wit hthe banks demise almost all companies they hold a majority of shares in will likly also go down with them."
+rotermorgenGCW.102.a:0 "I tricked my Grandmother for some pennies too, it's a NO"
+rotermorgenGCW.102.b:0 "Of course we will help them."
+
+rotermorgenGCW.103.t:0 "Banks start to collaps"
+rotermorgenGCW.103.d:0 "It seems the Banks were in greater danger than we had thought and thier collapse is now almost unavoidable."
+rotermorgenGCW.103.a:0 "Herr Gott! We must intervene immediately"
+rotermorgenGCW.103.b:0 "Still a no from his Majesty"
+
+rotermorgenGCW.104.t:0 "Expropriations"
+rotermorgenGCW.104.d:0 "One solution for the mass poverty that is falling on us like a sickness is the idea of expropriating the rich elites to feed the masses....\nThis Idea is obviously very unpopular with most members of the government but could be our last way to avoid total chaos."
+rotermorgenGCW.104.a:0 "Begone with this! We are not Syndicalists"
+rotermorgenGCW.104.b:0 "Sometimes the needs of the many come first"
+
+rotermorgenGCW.106.t:0 "Return of normality"
+rotermorgenGCW.106.d:0 "It seems like everything is slowly returning to normality again maybe our recent interventions in the economy and our welfare work has just averted another crisis."
+rotermorgenGCW.106.a:0 "Who would ever know?"
+
 ###tooltips###
 GRU_tt_hydroelectricity_decisions:0 "Decisions on §YHydroelectricity§! will become available."
 GRU_tt_breitspurbahn_decisions:0 "Decisions on building the §RBreitspurbahn§! netwwork will become available."
