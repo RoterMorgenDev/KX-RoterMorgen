@@ -2257,7 +2257,7 @@ shared_focus = {
 
 shared_focus = {
 		id = GRU_GCW_VICTORY
-		icon = GFX_GRU_occupational_government-4027
+		icon = GRU_REBELLS_VICTORY
 		x = 33
 		y = 2
 		cost = 1
