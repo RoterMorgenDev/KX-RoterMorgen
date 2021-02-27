@@ -87,6 +87,17 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 create_corps_commander = {
+	name = "Joachim Peiper"
+	picture = "Portrait_Germany_Joachim_peiper.tga"
+	traits = { panzer_leader commando ranger RR_OFFICER }
+	skill = 3
+
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
 	name = "Karl Kreutz"
 	picture = "Portrait_Germany_Karl_Kreutz.tga"
 	traits = { panzer_leader RR_OFFICER }
@@ -152,5 +163,27 @@ create_corps_commander = {
 	planning_skill = 2
 	logistics_skill = 2
 }
+				create_field_marshal = {
+					name = "Ernst Röhm"
+					picture = "Portrait_Germany_Ernst_Rhoem.tga"
+					traits = { politically_connected trait_reckless war_hero volkssturm_leader }
+					skill = 3
+
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 2
+				}
+create_corps_commander = {
+					name = "Karl Ernst"
+					picture = "Portrait_Germany_Karl_Ernst.tga"
+					traits = { politically_connected war_hero volkssturm_leader }
+					skill = 3
+
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 2
+				}
 	}
 }

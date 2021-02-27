@@ -439,6 +439,27 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_trait_cosmopolitan_war_tourist"
+		texturefile = "gfx/interface/traits/wandering_rev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_red_guard_leaders"
+		texturefile = "gfx/interface/traits/wandering_rev.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_Nazbol_rev_leaders"
+		texturefile = "gfx/interface/traits/Nazbol_rev_leaders.dds"
+	}
+	
+	
+	spriteType = {
+		name = "GFX_trait_volkssturm_leader"
+		texturefile = "gfx/interface/traits/VS_fhuerer.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_idea_FAUD_ANARCHO"
 		texturefile = "gfx/interface/ideas/GRU/FAUD_ANARCHO.tga"
 	}

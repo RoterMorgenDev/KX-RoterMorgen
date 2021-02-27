@@ -70,9 +70,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Martin Bormann"
-	desc = "POLITICS_bormann_DESC"
-	picture = "gfx/leaders/GRU/Martin_Bormann.tga"
+	name = "Gregor Strasser"
+	desc = "POLITICS_strasser_DESC"
+	picture = "gfx/leaders/GRU/Portrait_Germany_Gregor_Strasser.tga"
 	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = { volkskommissar

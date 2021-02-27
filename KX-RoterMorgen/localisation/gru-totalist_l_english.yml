@@ -937,6 +937,12 @@ gru_volksfuehrer_desc:0 "Josef Goebbels has assumed the title of Volksführer me
 RR_OFFICER:0 "R.R. Officer"
 RR_OFFICER_desc:0 "This man is part of the Bewaffnete-RR, the fully militarized wing of the R.R."
 
+volkssturm_leader:0 "VS-Gruppenführer"
+volkssturm_leader_desc:0 "This man is part of the VS or Volkssturm, the paramilitary wing of the NMDVP"
+
+cosmopolitan_war_tourist:0 "Wandering Revolutionary"
+cosmopolitan_war_tourist_desc:0 "This man wanders across europe in hopes to spark bolshevik insurgencies."
+
 gru_froncophobe:0 "Francophobe"
 gru_froncophobe_desc:0 "Goebbels harbours great hatred for the French."
 

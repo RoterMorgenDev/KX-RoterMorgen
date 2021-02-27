@@ -490,7 +490,7 @@ country_event = { # GRU setup
 				create_corps_commander = {
 					name = "Josef Goebbels"
 					picture = "Portrait_Germany_Josef_Goebbels_13.tga"
-					traits = { politically_connected }
+					traits = { politically_connected Nazbol_rev_leaders }
 					skill = 4
 					attack_skill = 3
 					defense_skill = 1
@@ -500,7 +500,7 @@ country_event = { # GRU setup
 				create_corps_commander = {
 					name = "Ernst Thälmann"
 					picture = "Portrait_Germany_Ernst_Thalmann.tga"
-					traits = { politically_connected }
+					traits = { politically_connected red_guard_leaders }
 					skill = 4
 
 					attack_skill = 4
@@ -511,7 +511,7 @@ country_event = { # GRU setup
 				create_corps_commander = {
 					name = "Wilhelm Pieck"
 					picture = "Portrait_Germany_Wilhelm_Pieck_I.tga"
-					traits = { politically_connected }
+					traits = { politically_connected red_guard_leaders }
 					skill = 4
 
 					attack_skill = 1
@@ -522,7 +522,7 @@ country_event = { # GRU setup
 				create_corps_commander = {
 					name = "Erich Honecker"
 					picture = "Portrait_Germany_Erich_Honecker_young.tga"
-					traits = { politically_connected }
+					traits = { politically_connected red_guard_leaders }
 					skill = 4
 
 					attack_skill = 3
@@ -530,7 +530,7 @@ country_event = { # GRU setup
 					planning_skill = 2
 					logistics_skill = 2
 				}
-				create_corps_commander = {
+				create_field_marshal = {
 					name = "Karl Liebknecht"
 					picture = "Portrait_Germany_Karl_Liebknecht.tga"
 					traits = { politically_connected }
@@ -542,9 +542,56 @@ country_event = { # GRU setup
 					logistics_skill = 2
 				}
 				create_corps_commander = {
-					name = "Ernst Rhöm"
+					name = "Ernst Röhm"
 					picture = "Portrait_Germany_Ernst_Rhoem.tga"
-					traits = { politically_connected }
+					traits = { politically_connected Nazbol_rev_leaders }
+					skill = 3
+
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 2
+				}
+				create_corps_commander = {
+					name = "Karl Ernst"
+					picture = "Portrait_Germany_Karl_Ernst_revolution.tga"
+					traits = { politically_connected Nazbol_rev_leaders }
+					skill = 3
+
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 2
+				}
+				
+				create_corps_commander = {
+					name = "Gregor Strasser"
+					picture = "Portrait_Germany_Gregor_Strasser.tga"
+					traits = { politically_connected Nazbol_rev_leaders }
+					skill = 3
+
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 2
+				}
+				
+				create_corps_commander = {
+					name = "Karl Radek"
+					picture = "Portrait_GRU_Karl_Radek.tga"
+					traits = { politically_connected cosmopolitan_war_tourist }
+					skill = 3
+
+					attack_skill = 2
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 2
+				}
+				
+				create_corps_commander = {
+					name = "Horst Wessel"
+					picture = "Portrait_Germany_Horst_Wessel.tga"
+					traits = { politically_connected Nazbol_rev_leaders }
 					skill = 3
 
 					attack_skill = 2
