@@ -43,15 +43,81 @@
 
 ####Focus Loc####
 
+GRU_DAF:0 "Deutsche Arbeiterfront"
+GRU_DAF_desc:0 "Germany needs only one worker union the D.A.F. or Deutsche Arbeiterfront, a state controlled union that will not only be the single union of workers but also be an organisation tasked to improve the German workers life conditions."
+
+GRU_autobahnen:0 "Autobahn Network"
+GRU_autobahnen_desc:0 "For a fast economic growth we need an infrastructure more flexible than railroads, we will do heavy investments into a network of highways called the Autobahnen."
+
+GRU_rev_oil:0 "Kickstart new Oil Industry"
+GRU_rev_oil_desc:0 "We will adopt the Synthetic oil production methods developed by the Union of Britain to sustain our fuel consumption by coal liquification."
 
 
 ####Event Loc####
 
+rotermorgenGCW.7.t:0 "A Sinking Ship"
+rotermorgenGCW.7.d:0 "If one were to look at the streets of Germany’s mighty cities today, you will not see the sprawling streets of Germany’s fortune and victory. What you will see is unemployed men, families on the street with tears in the eyes of children as they go another day without warmth or food. If you look at the idyllic countryside of Germany, you will not be greeted with its mighty farms and the proud agrarian generations who worked them. Instead, you will see foreclosed farms with families with just their essentials on their backs using horses or public transport to go to the urban centers for work, many weeping as the farms their ancestors worked to maintain were gone in days. Yet, the German Empire does nothing to alleviate their suffering. Too concerned with its own imperial confusion to help the average German. Black Friday for many Germans has finally pulled their heads out of the clouds, as they finally see that the Empire cares little for them or their families. Such resentment has done the unthinkable, as people who once detested the reds now are joining one of their many groups. If the Empire does not respond soon, there is no telling how far this resentment will spread."
+rotermorgenGCW.7.a:0 "As Dawn Breaks, the Red Morning Starts to Approach."
 
 
+rotermorgenGCW.8.t:0 "Die Einheitsfront"
+rotermorgenGCW.8.d:0 "As the German Empire falters in its ability to deal with Black Friday, the various red groups in Germany have without a doubt capitalized on this. Bolstered by long awaited secretive Internationale support, the three main socialist groups within Germany have drawn tens of thousands into their ranks by the day. While these groups have drastically different ideals, their newfound support has drawn them closer together in unison against the main threat which is the corrupt and tyrannical Kaiser and his cronies. Which is why the radical wing of the SPD, the R.A.M., FAUD, NM-KV and SNF have agreed to join within a United Front to better coordinate their efforts. This astonishing turn of events shows the threat in which the socialists pose to the German order. Whispers in even the highest halls of power are speaking of the possibility of open red revolt should the United Front continue to gain traction. If the Empire is able to start in getting its face out of the mud which is Black Friday, it will face significant challenge from this new United Front in doing so."
+rotermorgenGCW.8.a:0 "The Rays of Socialism’s Light Shine into More Homes as the Red Morning Approaches."
+
+
+rotermorgenGCW.9.t:0 "The Center Cannot Hold"
+rotermorgenGCW.9.d:0 "Increased reluctance of the Kaiser’s government has only served to make things worse within Germany. As the ranks of the United Front continue to swell by the day, they are starting to get more confrontational as well. Strikes and protests are common occurrences in the Rhineland, where workers and hastily formed unions have ground any production to a halt. Former soldiers and farmers in Bavaria vandalize government property and homes of the nobility to vent their anger forwards the government’s negligence. In Berlin, daily protests risk turning into riots as the police struggle to contain the citizenry. The troubles don’t end here, however. Reports of new paramilitaries throughout the country imply that the reds are preparing for something bigger. Rumors are even starting to circulate around the high command about potential disloyal elements with sympathy towards the socialists should they decide to take action against the Kaiser. A revolution in Germany, once an idea few thoughts was fathomable, has now become a serious concern."
+rotermorgenGCW.9.a:0 "The Red Morning Has Almost Reached Germany’s Doorstep."
 ####Idea Loc#####
 
+GRU_DAF_KDF_ONE:0 "Deutsche Arbeiterfront"
+GRU_DAF_KDF_A:0 "Deutsche Arbeiterfront"
+GRU_DAF_KDF_B:0 "Deutsche Arbeiterfront"
+GRU_DAF_KDF_AB:0 "Deutsche Arbeiterfront"
+GRU_Der_Volksgenosse:0 "Der Volksgenosse"
+GRU_Volksempfaenger:0 "Volksempfänger"
+GRU_Volksempfaenger_two:0 "Volksfernseher"
+GRU_Volkswagen:0 "KDF - Volkswagen"
 
+GRU_Der_Volksgenosse_desc:0 "Der Volksgenosse has been established as the sole and only new newspaper for the German worker."
+GRU_Volksempfaenger_desc:0 "The Volksempfänger is a standartized and affordable radio for the German Worker."
+GRU_Volksempfaenger_two_desc:0 "With the great success of the Volksempfänger the DAF has brought up the newest KDF project the 'Volksfernseher' a standartized Television."
+GRU_Volkswagen_desc:0 "The Volkswagen is a sturdy allrounder car, it's creation aimed at an affordable car for the masses that would also offer some small luxuries."
+
+##Decision loc###
+
+GRU_DAF_decisions:0 "Deutsche Arbeiterfront"
+GRU_DAF_decisions_desc:0 "The Deutsche Arbeiterfront is the labour organisation under the National Marxists German Peoples Party which has replaced the various independent trade unions in Germany, it is also in charge of several KDF or Kraft durch Freuden projects that aim on the improvement of the daily workers life."
+
+GRU_DAF_Volkswagen_decision:0 "The Volkswagen"
+GRU_DAF_Volkssprecher_decision:0 "The Volksempfänger"
+GRU_DAF_Volksfernseher_decision:0 "The Volksfernseher"
+GRU_DAF_Kraft_durch_freuden_decision:0 "Kraft durch Freuden"
+GRU_DAF_schoehnheit_der_arbeit_decision:0 "Schönheit der Arbeit"
+GRU_DAF_der_volksgenosse_news_decision:0 "Der Volksgenosse"
+
+GRU_allignment_decisions_desc:0 "Decisions to align Nations with a similar cause to ours."
+GRU_subvert_france_decisions_desc:0 "Decisions to subvert the §R3rd Internationale§! and to stire up french puppets."
+
+GRU_hydroelectricity_decisions_desc:0 "We have several possible project regarding the construction of Hydroelectricity Power Plants aviable."
+GRU_breitspurbahn_decisions_desc:0 "The Breitspurbahn Network project is an ongoing effort to build the biggest, fastest and most efficent railroad system ever to exist."
+GRU_germania_plan_decisions_desc:0 "The 'Germania Plan' is the planned expansion of the German National Worker state into several neighbouring terretories."
+
+GRU_blut_boden_decisions_desc:0 "The doctrine of §GSoil§! and §RBlood§! calsl for a direct connection between a land and the people that live on it or lived there in the past it is beyond a claim also a duty, a duty towards nature and the protection of the harmonious unity a people should form with thier ancestral home."
+GRU_blut_boden_volksgesundheitsamt_decision_desc:0 "The Volksgesundheit will be established to safeguard our peoples genetic destiny and purity."
+GRU_blut_boden_ban_tobacco_decision_desc:0 "Tabacco is the worst of all the vices that have befallen our people, it is addictive and studies have shown it contains several highly toxic substances. We will ban the use and trade with this vile plant once and for all."
+GRU_blut_boden_protect_nature_decision_desc:0 "We value nature above all and must ensure it's continuity for this reason we will enact several 'Environmental Protection Laws'."
+GRU_blut_boden_basic_animal_rights_decision_desc:0 "For too long people have regarded animals as lesser beeings comapred to us humans, the truth could not be more different unlike us they live in a perfect eco system we only disrupted they are neither evil or good."
+GRU_blut_boden_mandatory_exercises_decision_desc:0 "The bellies are growing and the Manpower is shrinking.\nAn unacceptable state for our nation, we will decree mandatory exercises for all the workers of Germany."
+
+
+
+GRU_OIL_OIL_OIL_CHING_CHING_decisions:0 "Oil Search Expeditions."
+GRU_oil_polar_decision:0 "Drill for Oil in the Northern Sea."
+GRU_oil_kaukasia_one_decision:0 "Expand Baku fields."
+GRU_oil_kaukasia_two_decision:0 "Expand Azerbajani fields."
+GRU_oil_kaukasia_three_decision:0 "Astrakhan fields."
+GRU_oil_moskowia_one_decision:0 "Northern Moskowia Oil excavation."
 
 ####Minister Loc#
 
@@ -61,9 +127,16 @@
 
 
 
+####flags loc####
+
+GRU_HYDRO_BUILDING:0 "Is not focused on another Hydroelectricity project."
+GRU_TRAIN_BUILDING:0 "Is not focused on another Breitspurbahn project."
+GRU_KDF_ONGOING_PROJECT:0 "The DAF is not focused on another KDF project."
+GRU_oil_oil_oil_baby:0 "Germany is not focused on other Oil excavation projects."
+
 ####Tooltip Loc##
 
-
+GRU_tt_DAF:0 "Decisions about DAF projects will become aviable."
 
 ###Cosmetic Loc##
 
@@ -73,6 +146,10 @@
 
 red_guard_leaders:0 "R.A.M."
 red_guard_leaders_desc:0 "This man is part of R.A.M. or Rote Armee Miliz a paramilitary force of authoritarian syndicalists and bolsheviks."
+
+radsoc_rev_leaders:0 "FAUD/BGB"
+radsoc_rev_leaders_desc:0 "This man is part of R.A.M. or Rote Armee Miliz a paramilitary force of authoritarian syndicalists and bolsheviks."
+
 
 Nazbol_rev_leaders:0 "NM-KV/SNF"
 Nazbol_rev_leaders_desc:0 "One of the leaders of the NM-KV or Nationalmarxistische Kampfverbände or the similar SNF or Sozialnationalistische Front."

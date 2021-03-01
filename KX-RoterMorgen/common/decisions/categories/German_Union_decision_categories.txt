@@ -33,6 +33,11 @@ GRU_blut_boden_decisions = {
 	allowed = { tag = GRU }
 }
 
+GRU_DAF_decisions = {
+	icon = KDF
+	allowed = { tag = GRU }
+}
+
 GRU_lebensraum_decisions = {
 	icon = lebensraum
 	allowed = { tag = GRU }
@@ -55,6 +60,10 @@ GRU_kill_colonies_decisions = {
 #done
 GRU_kill_entente_decisions = {
 	icon = killentente
+	allowed = { tag = GRU }
+}
+GRU_OIL_OIL_OIL_CHING_CHING_decisions = {
+	icon = generic_construction
 	allowed = { tag = GRU }
 }
 #done

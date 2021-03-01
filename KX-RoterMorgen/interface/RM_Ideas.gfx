@@ -449,6 +449,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_trait_radsoc_rev_leaders"
+		texturefile = "gfx/interface/traits/radsoc_rev.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_trait_Nazbol_rev_leaders"
 		texturefile = "gfx/interface/traits/Nazbol_rev_leaders.dds"
 	}
@@ -520,7 +525,6 @@ spriteTypes = {
 		name = "GFX_idea_GRU_THE_OLIGARCHY"
 		texturefile = "gfx/interface/ideas/GRU/GRU_THE_OLIGARCHY.tga"
 	}
-	
 	spriteType = {
 		name = "GFX_idea_GRU_FDP_secular_state"
 		texturefile = "gfx/interface/ideas/GRU/GRU_FDP_secular_state.tga"
@@ -534,4 +538,49 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GRU/GRU_SOCIALIST_MARKET_ECONOMICS.tga"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_GRU_Volkswagen"
+		texturefile = "gfx/interface/ideas/GRU/volkswagen.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_Volksempfaenger_two"
+		texturefile = "gfx/interface/ideas/GRU/volksfernseher.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_Volksempfaenger"
+		texturefile = "gfx/interface/ideas/GRU/Volksempfaenger.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_Der_Volksgenosse"
+		texturefile = "gfx/interface/ideas/GRU/Volksgenosse_newspaper.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_DAF_KDF"
+		texturefile = "gfx/interface/ideas/GRU/KDF.tga"
+	}
+
+	spriteType = {
+		name = "GFX_Volkswagen"
+		texturefile = "gfx/interface/decisions/volkswagen.dds"
+	}
+	spriteType = {
+		name = "GFX_volksfernseher"
+		texturefile = "gfx/interface/decisions/volksfernseher.dds"
+	}
+	spriteType = {
+		name = "GFX_Volksempfaenger"
+		texturefile = "gfx/interface/decisions/volksempfaenger.dds"
+	}
+	spriteType = {
+		name = "GFX_Volksgenosse_newspaper"
+		texturefile = "gfx/interface/decisions/Volksgenosse_newspaper.dds"
+	}
+	spriteType = {
+		name = "GFX_KDF_A"
+		texturefile = "gfx/interface/decisions/KDF.dds"
+	}
+	spriteType = {
+		name = "GFX_decision_category_KDF"
+		texturefile = "gfx/interface/decisions/KDF.dds"
+	}
 }

@@ -7,7 +7,8 @@ country_event = {
 	desc = rotermorgenGCW.99.d
 	#is_triggered_only = yes
 	trigger = {
-		OR = {
+		tag = GER
+		OR = {	
 			AND = {
 				GER = {
 					has_completed_focus = GER_black_monday_aftermath
@@ -356,12 +357,34 @@ country_event = { # Inform of mass poverty
 		add_stability = -0.05
 		hidden_effect = {
 				country_event = {
+				id = rotermorgenGCW.7
+				days = 9
+				}
+		}
+	}
+}
+
+country_event = { # flavour about ruined germany
+	id = rotermorgenGCW.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenGCW.7" }
+	title = rotermorgenGCW.7.t
+	desc = rotermorgenGCW.7.d
+	#picture = GFX_report_event_Arbeitslose
+	is_triggered_only = yes
+	
+	option = { # RebellioN? What nonsense
+		name = rotermorgenGCW.7.a
+		add_stability = -0.05
+		hidden_effect = {
+				country_event = {
 				id = rotermorgenGCW.4
 				days = 9
 				}
 		}
 	}
 }
+
+
 
 country_event = { # riots!
 	id = rotermorgenGCW.4
@@ -376,12 +399,54 @@ country_event = { # riots!
 		add_stability = -0.20
 		hidden_effect = {
 				country_event = {
+				id = rotermorgenGCW.8
+				days = 14
+				}
+		}
+	}
+}
+
+
+country_event = { # flavour about united front
+	id = rotermorgenGCW.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenGCW.8" }
+	title = rotermorgenGCW.8.t
+	desc = rotermorgenGCW.8.d
+	#picture = GFX_report_event_aufstaende
+	is_triggered_only = yes
+	
+	option = { # RebellioN? What nonsense
+		name = rotermorgenGCW.8.a
+		add_stability = -0.20
+		hidden_effect = {
+				country_event = {
+				id = rotermorgenGCW.9
+				days = 14
+				}
+		}
+	}
+}
+
+country_event = { # flavour about united front II
+	id = rotermorgenGCW.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenGCW.9" }
+	title = rotermorgenGCW.9.t
+	desc = rotermorgenGCW.9.d
+	#picture = GFX_report_event_aufstaende
+	is_triggered_only = yes
+	
+	option = { # RebellioN? What nonsense
+		name = rotermorgenGCW.9.a
+		add_stability = -0.20
+		hidden_effect = {
+				country_event = {
 				id = rotermorgenGCW.5
 				days = 14
 				}
 		}
 	}
 }
+
 
 country_event = { # GRU setup
 	id = rotermorgenGCW.5
@@ -487,7 +552,7 @@ country_event = { # GRU setup
 				}
 				
 				
-				create_corps_commander = {
+				create_field_marshal = {
 					name = "Josef Goebbels"
 					picture = "Portrait_Germany_Josef_Goebbels_13.tga"
 					traits = { politically_connected Nazbol_rev_leaders }
@@ -497,7 +562,7 @@ country_event = { # GRU setup
 					planning_skill = 5
 					logistics_skill = 3
 				}
-				create_corps_commander = {
+				create_field_marshal = {
 					name = "Ernst Thälmann"
 					picture = "Portrait_Germany_Ernst_Thalmann.tga"
 					traits = { politically_connected red_guard_leaders }
@@ -508,6 +573,19 @@ country_event = { # GRU setup
 					planning_skill = 3
 					logistics_skill = 2
 				}
+				
+				create_corps_commander = {
+					name = "Willy Leow"
+					picture = "Portrait_Germany_Willy_Leow.tga"
+					traits = { politically_connected red_guard_leaders }
+					skill = 3
+
+					attack_skill = 2
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 1
+				}
+				
 				create_corps_commander = {
 					name = "Wilhelm Pieck"
 					picture = "Portrait_Germany_Wilhelm_Pieck_I.tga"
@@ -533,13 +611,13 @@ country_event = { # GRU setup
 				create_field_marshal = {
 					name = "Karl Liebknecht"
 					picture = "Portrait_Germany_Karl_Liebknecht.tga"
-					traits = { politically_connected }
+					traits = { politically_connected radsoc_rev_leaders }
 					skill = 3
 
-					attack_skill = 2
-					defense_skill = 2
+					attack_skill = 3
+					defense_skill = 3
 					planning_skill = 4
-					logistics_skill = 2
+					logistics_skill = 3
 				}
 				create_corps_commander = {
 					name = "Ernst Röhm"
@@ -558,10 +636,10 @@ country_event = { # GRU setup
 					traits = { politically_connected Nazbol_rev_leaders }
 					skill = 3
 
-					attack_skill = 2
+					attack_skill = 4
 					defense_skill = 2
-					planning_skill = 4
-					logistics_skill = 2
+					planning_skill = 1
+					logistics_skill = 3
 				}
 				
 				create_corps_commander = {
@@ -570,9 +648,9 @@ country_event = { # GRU setup
 					traits = { politically_connected Nazbol_rev_leaders }
 					skill = 3
 
-					attack_skill = 2
-					defense_skill = 2
-					planning_skill = 4
+					attack_skill = 3
+					defense_skill = 3
+					planning_skill = 2
 					logistics_skill = 2
 				}
 				
@@ -583,8 +661,8 @@ country_event = { # GRU setup
 					skill = 3
 
 					attack_skill = 2
-					defense_skill = 2
-					planning_skill = 4
+					defense_skill = 3
+					planning_skill = 3
 					logistics_skill = 2
 				}
 				
@@ -594,9 +672,69 @@ country_event = { # GRU setup
 					traits = { politically_connected Nazbol_rev_leaders }
 					skill = 3
 
+					attack_skill = 4
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 2
+				}
+				
+				create_corps_commander = {
+					name = "Otto Braun"
+					picture = "Portrait_Germany_Otto_Braun.tga"
+					traits = { politically_connected red_guard_leaders }
+					skill = 3
+
+					attack_skill = 5
+					defense_skill = 1
+					planning_skill = 2
+					logistics_skill = 2
+				}
+				
+				create_corps_commander = {
+					name = "Ernst Meyer"
+					picture = "Portrait_Germany_Ernst_meyer.tga"
+					traits = { politically_connected radsoc_rev_leaders }
+					skill = 3
+
 					attack_skill = 2
 					defense_skill = 2
 					planning_skill = 4
+					logistics_skill = 2
+				}
+				
+				create_corps_commander = {
+					name = "Karl Artelt"
+					picture = "Portrait_Germany_Karl_Artelt.tga"
+					traits = { politically_connected radsoc_rev_leaders }
+					skill = 4
+
+					attack_skill = 1
+					defense_skill = 4
+					planning_skill = 4
+					logistics_skill = 1
+				}
+				
+				create_corps_commander = {
+					name = "Albert Schreiner"
+					picture = "Portrait_Germany_Albert_Schreiner.tga"
+					traits = { politically_connected red_guard_leaders }
+					skill = 2
+
+					attack_skill = 3
+					defense_skill = 2
+					planning_skill =2
+					logistics_skill = 2
+				}
+				
+				create_corps_commander = {
+					name = "Emil Barth"
+					picture = "Portrait_Germany_Emil_Barth.tga"
+					traits = { politically_connected radsoc_rev_leaders }
+					skill = 4
+
+					attack_skill = 3
+					defense_skill = 1
+					planning_skill = 2
 					logistics_skill = 2
 				}
 				every_army_leader = {

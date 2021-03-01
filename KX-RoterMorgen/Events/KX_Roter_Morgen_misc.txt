@@ -102,7 +102,7 @@ country_event = { # Liebknecht retires
 	title = rotermorgenmisc.7.t
 	desc = rotermorgenmisc.7.d
 	picture = GFX_report_event_Liebknecht_rente
-	is_triggered_only = yes
+	#is_triggered_only = yes
 	trigger = {
 		tag = GRU	
 		OR = {
@@ -119,10 +119,6 @@ country_event = { # Liebknecht retires
 				date > 1941.01.01
 			}
 		}
-	}
-		
-		
-		
 	}
 	
 	option = { 
@@ -985,9 +981,9 @@ country_event = { # VKM claims
 				262 = {
 					add_claim_by = VKM
 				}
-				581 = {
-					add_claim_by = VKM
-				}
+				#581 = {
+				#	add_claim_by = VKM
+				#}
 	}
 }
 

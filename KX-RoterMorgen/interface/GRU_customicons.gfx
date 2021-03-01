@@ -2,6 +2,81 @@ spriteTypes = {
 	##Icon For: 
 	
 	SpriteType = { 
+		name = "GRU_autobahnen_focus"
+		texturefile = "gfx/interface/goals/GRU_autobahnen_focus.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GRU_autobahnen_focus_shine"
+		texturefile = "gfx/interface/goals/GRU_autobahnen_focus.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_autobahnen_focus.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_autobahnen_focus.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "GRU_DAF_ICON"
+		texturefile = "gfx/interface/goals/GRU_DAF_ICON.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "GRU_DAF_ICON_shine"
+		texturefile = "gfx/interface/goals/GRU_DAF_ICON.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_DAF_ICON.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/GRU_DAF_ICON.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
 		name = "GRU_REBELLS_VICTORY"
 		texturefile = "gfx/interface/goals/GRU_REBELLS_VICTORY.dds"
 	}

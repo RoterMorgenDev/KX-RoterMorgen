@@ -10,7 +10,11 @@ GRU_hydroelectricity_decisions = {
 			has_completed_focus = GRU_hydroelectric_power
 			4 = { is_owned_and_controlled_by = ROOT }
 		}
-
+		available = {
+			has_completed_focus = GRU_hydroelectric_power
+			4 = { is_owned_and_controlled_by = ROOT }
+			NOT = { has_country_flag = GRU_HYDRO_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 20
 		days_remove = 100
@@ -18,9 +22,15 @@ GRU_hydroelectricity_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GRU_Damn_the_danube_decision"
+			set_country_flag = GRU_HYDRO_BUILDING
+		}
+		
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Damn_the_danube_decision"
+			clr_country_flag = GRU_HYDRO_BUILDING
 			4 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -39,7 +49,11 @@ GRU_hydroelectricity_decisions = {
 			has_completed_focus = GRU_hydroelectric_power
 			1134 = { is_owned_and_controlled_by = ROOT }
 		}
-
+		available = {
+			has_completed_focus = GRU_hydroelectric_power
+			1134 = { is_owned_and_controlled_by = ROOT }
+			NOT = { has_country_flag = GRU_HYDRO_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 20
 		days_remove = 100
@@ -47,9 +61,12 @@ GRU_hydroelectricity_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_HYDRO_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Damn_the_chezchs_decision"
+			clr_country_flag = GRU_HYDRO_BUILDING
 			1134 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -68,7 +85,11 @@ GRU_hydroelectricity_decisions = {
 			has_completed_focus = GRU_hydroelectric_power
 			54 = { is_owned_and_controlled_by = ROOT }
 		}
-
+		available = {
+			has_completed_focus = GRU_hydroelectric_power
+			54 = { is_owned_and_controlled_by = ROOT }
+			NOT = { has_country_flag = GRU_HYDRO_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 20
 		days_remove = 100
@@ -76,9 +97,12 @@ GRU_hydroelectricity_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_HYDRO_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_FRANCONIA_Hydroelectricity_decision"
+			clr_country_flag = GRU_HYDRO_BUILDING
 			54 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -102,7 +126,11 @@ GRU_hydroelectricity_decisions = {
 			has_completed_focus = GRU_hydroelectric_power
 			57 = { is_owned_and_controlled_by = ROOT }
 		}
-
+		available = {
+			has_completed_focus = GRU_hydroelectric_power
+			57 = { is_owned_and_controlled_by = ROOT }
+			NOT = { has_country_flag = GRU_HYDRO_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 20
 		days_remove = 100
@@ -110,9 +138,12 @@ GRU_hydroelectricity_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_HYDRO_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_WUPPERSPERRE_Hydroelectricity_decision"
+			clr_country_flag = GRU_HYDRO_BUILDING
 			57 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -135,7 +166,11 @@ GRU_hydroelectricity_decisions = {
 			has_completed_focus = GRU_hydroelectric_power
 			91 = { is_owned_and_controlled_by = ROOT }
 		}
-
+		available = {
+			has_completed_focus = GRU_hydroelectric_power
+			91 = { is_owned_and_controlled_by = ROOT }
+			NOT = { has_country_flag = GRU_HYDRO_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 20
 		days_remove = 100
@@ -143,9 +178,12 @@ GRU_hydroelectricity_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_HYDRO_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Lemburg_Hydroelectricity_decision"
+			clr_country_flag = GRU_HYDRO_BUILDING
 			91 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -168,7 +206,11 @@ GRU_hydroelectricity_decisions = {
 			has_completed_focus = GRU_hydroelectric_power
 			39 = { is_owned_and_controlled_by = ROOT }
 		}
-
+		available = {
+			has_completed_focus = GRU_hydroelectric_power
+			39 = { is_owned_and_controlled_by = ROOT }
+			NOT = { has_country_flag = GRU_HYDRO_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 20
 		days_remove = 100
@@ -176,9 +218,12 @@ GRU_hydroelectricity_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_HYDRO_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_tyrol_Hydroelectricity_decision"
+			clr_country_flag = GRU_HYDRO_BUILDING
 			39 = {
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -194,6 +239,489 @@ GRU_hydroelectricity_decisions = {
 			}
 		}
 	}
+}
+
+GRU_OIL_OIL_OIL_CHING_CHING_decisions = {
+
+	GRU_oil_polar_decision = {
+		icon = generic_construction
+
+		visible = {
+			has_completed_focus = GRU_rev_oil
+			has_completed_focus = GRU_NMDVP_PATH
+			has_country_flag = polar_cored
+			1147 = { is_owned_and_controlled_by = ROOT }
+		}
+		available = {
+			has_completed_focus = GRU_rev_oil
+			has_completed_focus = GRU_NMDVP_PATH
+			1147 = { is_owned_and_controlled_by = ROOT }
+			has_country_flag = polar_cored
+			NOT = { has_country_flag = GRU_oil_oil_oil_baby}
+		}
+		fire_only_once = yes
+		cost = 200
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 6
+		}
+		complete_effect = {
+			set_country_flag = GRU_oil_oil_oil_baby
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_oil_polar_decision"
+			clr_country_flag = GRU_oil_oil_oil_baby
+			1147 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = oil
+					amount = 16
+				}
+			}
+		}
+	}
+	
+	GRU_oil_kaukasia_one_decision = {
+		icon = generic_construction
+
+		visible = {
+			has_completed_focus = GRU_rev_oil
+			has_completed_focus = GRU_NMDVP_PATH
+			OR = {
+				990 = { is_owned_and_controlled_by = ROOT }
+				AND = {
+					990 = { is_owned_and_controlled_by = VKK }
+					VKK = { is_subject_of = GRU }
+				}
+			}
+		}
+		available = {
+			has_completed_focus = GRU_rev_oil
+			has_completed_focus = GRU_NMDVP_PATH
+			OR = {
+				990 = { is_owned_and_controlled_by = ROOT }
+				AND = {
+					990 = { is_owned_and_controlled_by = VKK }
+					VKK = { is_subject_of = GRU }
+				}
+			}
+			NOT = { has_country_flag = GRU_oil_oil_oil_baby}
+		}
+		fire_only_once = yes
+		cost = 200
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 6
+		}
+		complete_effect = {
+			set_country_flag = GRU_oil_oil_oil_baby
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_oil_kaukasia_one_decision"
+			clr_country_flag = GRU_oil_oil_oil_baby
+			990 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = oil
+					amount = 20
+				}
+			}
+		}
+	}
+
+	GRU_oil_kaukasia_two_decision = {
+		icon = generic_construction
+
+		visible = {
+			has_completed_focus = GRU_rev_oil
+			has_completed_focus = GRU_NMDVP_PATH
+			OR = {
+				229 = { is_owned_and_controlled_by = ROOT }
+				AND = {
+					229 = { is_owned_and_controlled_by = VKK }
+					VKK = { is_subject_of = GRU }
+				}
+			}
+		}
+		available = {
+			has_completed_focus = GRU_rev_oil
+			has_completed_focus = GRU_NMDVP_PATH
+			OR = {
+				229 = { is_owned_and_controlled_by = ROOT }
+				AND = {
+					229 = { is_owned_and_controlled_by = VKK }
+					VKK = { is_subject_of = GRU }
+				}
+			}
+			NOT = { has_country_flag = GRU_oil_oil_oil_baby}
+		}
+		fire_only_once = yes
+		cost = 200
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 6
+		}
+		complete_effect = {
+			set_country_flag = GRU_oil_oil_oil_baby
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_oil_kaukasia_two_decision"
+			clr_country_flag = GRU_oil_oil_oil_baby
+			229 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = oil
+					amount = 20
+				}
+			}
+		}
+	}
+
+
+	GRU_oil_kaukasia_three_decision = {
+		icon = generic_construction
+
+		visible = {
+			has_completed_focus = GRU_rev_oil
+			has_completed_focus = GRU_NMDVP_PATH
+			OR = {
+				1191 = { is_owned_and_controlled_by = ROOT }
+				AND = {
+					1191 = { is_owned_and_controlled_by = VKK }
+					VKK = { is_subject_of = GRU }
+				}
+			}
+		}
+		available = {
+			has_completed_focus = GRU_rev_oil
+			has_completed_focus = GRU_NMDVP_PATH
+			OR = {
+				1191 = { is_owned_and_controlled_by = ROOT }
+				AND = {
+					1191 = { is_owned_and_controlled_by = VKK }
+					VKK = { is_subject_of = GRU }
+				}
+			}
+			NOT = { has_country_flag = GRU_oil_oil_oil_baby}
+		}
+		fire_only_once = yes
+		cost = 200
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 6
+		}
+		complete_effect = {
+			set_country_flag = GRU_oil_oil_oil_baby
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_oil_kaukasia_three_decision"
+			clr_country_flag = GRU_oil_oil_oil_baby
+			1191 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = oil
+					amount = 17
+				}
+			}
+		}
+	}
+	
+	GRU_oil_moskowia_one_decision = {
+		icon = generic_construction
+
+		visible = {
+			has_completed_focus = GRU_rev_oil
+			has_completed_focus = GRU_NMDVP_PATH
+			OR = {
+				262 = { is_owned_and_controlled_by = ROOT }
+				AND = {
+					262 = { is_owned_and_controlled_by = VKM }
+					VKM = { is_subject_of = GRU }
+				}
+			}
+		}
+		available = {
+			has_completed_focus = GRU_rev_oil
+			has_completed_focus = GRU_NMDVP_PATH
+			OR = {
+				262 = { is_owned_and_controlled_by = ROOT }
+				AND = {
+					262 = { is_owned_and_controlled_by = VKM }
+					VKM = { is_subject_of = GRU }
+				}
+			}
+			NOT = { has_country_flag = GRU_oil_oil_oil_baby}
+		}
+		fire_only_once = yes
+		cost = 200
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 6
+		}
+		complete_effect = {
+			set_country_flag = GRU_oil_oil_oil_baby
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_oil_moskowia_one_decision"
+			clr_country_flag = GRU_oil_oil_oil_baby
+			262 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = oil
+					amount = 12
+				}
+			}
+		}
+	}
+}
+
+
+
+GRU_DAF_decisions = {
+
+	GRU_DAF_Volkswagen_decision = {
+		icon = GFX_Volkswagen
+
+		visible = {
+			has_completed_focus = GRU_DAF
+		}
+		available = {
+			NOT = { has_country_flag = GRU_KDF_ONGOING_PROJECT }
+		}
+		fire_only_once = yes
+		cost = 120
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 6
+		}
+		complete_effect = {
+			set_country_flag = GRU_KDF_ONGOING_PROJECT
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_DAF_Volkswagen_decision"
+			clr_country_flag = GRU_KDF_ONGOING_PROJECT
+			add_ideas = GRU_Volkswagen
+		}
+	}
+	
+	GRU_DAF_Volkssprecher_decision = {
+		icon = GFX_Volksempfaenger
+
+		visible = {
+			has_completed_focus = GRU_DAF
+		}
+		available = {
+			NOT = { has_country_flag = GRU_KDF_ONGOING_PROJECT }
+		}
+		fire_only_once = yes
+		cost = 120
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 6
+		}
+		complete_effect = {
+			set_country_flag = GRU_KDF_ONGOING_PROJECT
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_DAF_Volkssprecher_decision"
+			clr_country_flag = GRU_KDF_ONGOING_PROJECT
+			set_country_flag = GRU_KDF_GRU_Volksempfaenger
+			add_ideas = GRU_Volksempfaenger
+		}
+	}
+	
+	GRU_DAF_Volksfernseher_decision = {
+		icon = GFX_volksfernseher
+
+		visible = {
+			has_completed_focus = GRU_DAF
+			has_country_flag = GRU_KDF_GRU_Volksempfaenger
+		}
+		available = {
+			NOT = { has_country_flag = GRU_KDF_ONGOING_PROJECT }
+			has_country_flag = GRU_KDF_GRU_Volksempfaenger
+		}
+		fire_only_once = yes
+		cost = 120
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 6
+		}
+		complete_effect = {
+			set_country_flag = GRU_KDF_ONGOING_PROJECT
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_DAF_Volksfernseher_decision"
+			clr_country_flag = GRU_KDF_ONGOING_PROJECT
+			swap_ideas = {
+							remove_idea = GRU_Volksempfaenger
+							add_idea = GRU_Volksempfaenger_two
+						}
+		}
+	}
+	
+	GRU_DAF_Kraft_durch_freuden_decision = {
+		icon = GFX_KDF_A
+
+		visible = {
+			has_completed_focus = GRU_DAF
+		}
+		available = {
+			NOT = { has_country_flag = GRU_KDF_ONGOING_PROJECT }
+		}
+		fire_only_once = yes
+		cost = 120
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 6
+		}
+		complete_effect = {
+			set_country_flag = GRU_KDF_ONGOING_PROJECT
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_DAF_Kraft_durch_freuden_decision"
+			clr_country_flag = GRU_KDF_ONGOING_PROJECT
+			if={
+				limit = { has_idea = GRU_DAF_KDF_ONE }
+				swap_ideas = {
+							remove_idea = GRU_DAF_KDF_ONE
+							add_idea = GRU_DAF_KDF_B
+						}
+			}
+			if={
+				limit = { has_idea = GRU_DAF_KDF_A }
+				swap_ideas = {
+							remove_idea = GRU_DAF_KDF_A
+							add_idea = GRU_DAF_KDF_AB
+						}
+			}
+		}
+	}
+	
+	GRU_DAF_schoehnheit_der_arbeit_decision = {
+		icon = GFX_KDF_A
+
+		visible = {
+			has_completed_focus = GRU_DAF
+		}
+		available = {
+			NOT = { has_country_flag = GRU_KDF_ONGOING_PROJECT }
+		}
+		fire_only_once = yes
+		cost = 120
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 6
+		}
+		complete_effect = {
+			set_country_flag = GRU_KDF_ONGOING_PROJECT
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_DAF_schoehnheit_der_arbeit_decision"
+			clr_country_flag = GRU_KDF_ONGOING_PROJECT
+			if={
+				limit = { has_idea = GRU_DAF_KDF_ONE }
+				swap_ideas = {
+							remove_idea = GRU_DAF_KDF_ONE
+							add_idea = GRU_DAF_KDF_A
+						}
+			}
+			if={
+				limit = { has_idea = GRU_DAF_KDF_B }
+				swap_ideas = {
+							remove_idea = GRU_DAF_KDF_B
+							add_idea = GRU_DAF_KDF_AB
+						}
+			}
+		}
+	}
+	
+	GRU_DAF_der_volksgenosse_news_decision = {
+		icon = GFX_Volksgenosse_newspaper
+
+		visible = {
+			has_completed_focus = GRU_DAF
+		}
+		available = {
+			NOT = { has_country_flag = GRU_KDF_ONGOING_PROJECT }
+		}
+		fire_only_once = yes
+		cost = 120
+		days_remove = 100
+
+		ai_will_do = {
+			factor = 6
+		}
+		complete_effect = {
+			set_country_flag = GRU_KDF_ONGOING_PROJECT
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_DAF_der_volksgenosse_news_decision"
+			clr_country_flag = GRU_KDF_ONGOING_PROJECT
+			add_ideas = GRU_Der_Volksgenosse
+		}
+	}
+
 }
 
 GRU_blut_boden_decisions = {
@@ -318,7 +846,9 @@ GRU_breitspurbahn_decisions = {
 			59 = { is_owned_and_controlled_by = ROOT }
 			}
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 120
 		days_remove = 120
@@ -326,9 +856,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_cologne_ddorf_dortmund_hannover_hamburg_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 			781 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -376,7 +909,9 @@ GRU_breitspurbahn_decisions = {
 			}
 			has_country_flag = cologne_ddorf_dortmund_hannover_build 
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 20
 		days_remove = 60
@@ -384,9 +919,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_wilhelmshaven_hannover_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 			56 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -415,7 +953,9 @@ GRU_breitspurbahn_decisions = {
 			59 = { is_owned_and_controlled_by = ROOT }
 			}
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 20
 		days_remove = 60
@@ -423,9 +963,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_berlin_hamburg_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 			59 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -457,7 +1000,9 @@ GRU_breitspurbahn_decisions = {
 			52 = { is_owned_and_controlled_by = ROOT }
 			}
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 120
 		days_remove = 120
@@ -465,9 +1010,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_berlin_nurnberg_munich_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 
 			64 = {
 				add_extra_state_shared_building_slots = 1
@@ -519,7 +1067,9 @@ GRU_breitspurbahn_decisions = {
 			}
 			has_country_flag = berlin_munich_build 
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 80
 		days_remove = 90
@@ -527,9 +1077,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_munich_vienna_expansion_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 			52 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -585,7 +1138,9 @@ GRU_breitspurbahn_decisions = {
 			54 = { is_owned_and_controlled_by = ROOT }
 			}
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 50
 		days_remove = 60
@@ -593,9 +1148,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_ddorf_frankfurt_nurnberg_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 
 			51 = {
 				add_extra_state_shared_building_slots = 1
@@ -634,7 +1192,9 @@ GRU_breitspurbahn_decisions = {
 			50 = { is_owned_and_controlled_by = ROOT }
 			}
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 20
 		days_remove = 60
@@ -645,6 +1205,7 @@ GRU_breitspurbahn_decisions = {
 
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_frankfurt_stuttgart_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 
 			50 = {
 				add_extra_state_shared_building_slots = 1
@@ -680,7 +1241,9 @@ GRU_breitspurbahn_decisions = {
 			}
 			has_country_flag = frankfurt_stuttgart_build 
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 20
 		days_remove = 60
@@ -688,9 +1251,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_munich_vienna_expansion_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 			50 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -741,7 +1307,9 @@ GRU_breitspurbahn_decisions = {
 			5 = { is_owned_and_controlled_by = ROOT }
 			}
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 200
 		days_remove = 160
@@ -749,9 +1317,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_berlin_koenigsberg_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 
 			64 = {
 				add_extra_state_shared_building_slots = 1
@@ -818,7 +1389,9 @@ GRU_breitspurbahn_decisions = {
 			67 = { is_owned_and_controlled_by = ROOT }
 			}
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 140
 		days_remove = 140
@@ -826,9 +1399,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_berlin__dresden_breslau_hindenburg_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 
 			64 = {
 				add_extra_state_shared_building_slots = 1
@@ -887,7 +1463,9 @@ GRU_breitspurbahn_decisions = {
 			has_country_flag = munich_vienna_build
 			}
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 120
 		days_remove = 120
@@ -895,9 +1473,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_vienna_prague_dresden_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 			1137 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -969,7 +1550,9 @@ GRU_breitspurbahn_decisions = {
 			7 = { is_owned_and_controlled_by = ROOT }
 			}
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 40
 		days_remove = 60
@@ -977,9 +1560,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_cologne_amsterdam_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 
 			781 = {
 				add_extra_state_shared_building_slots = 1
@@ -1035,9 +1621,15 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_cologne_brussel_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 
 			781 = {
 				add_extra_state_shared_building_slots = 1
@@ -1079,7 +1671,9 @@ GRU_breitspurbahn_decisions = {
 			}
 			has_country_flag = berlin_breslau_build 
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 40
 		days_remove = 60
@@ -1087,9 +1681,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_breslau_warschau_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 			66 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -1139,7 +1736,9 @@ GRU_breitspurbahn_decisions = {
 			}
 			has_country_flag = berlin_königsberg_build 
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 40
 		days_remove = 60
@@ -1147,9 +1746,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_koenigsberg_warschau_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 			5 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -1203,7 +1805,9 @@ GRU_breitspurbahn_decisions = {
 			has_country_flag = breslau_warschau_build 
 			}
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 60
 		days_remove = 70
@@ -1211,9 +1815,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_königsberg_warschau_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 			10 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -1273,7 +1880,9 @@ GRU_breitspurbahn_decisions = {
 			has_country_flag = berlin_breslau_build 
 
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 60
 		days_remove = 120
@@ -1281,9 +1890,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_hindenburg_lemberg_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 			67 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -1344,7 +1956,9 @@ GRU_breitspurbahn_decisions = {
 			has_country_flag = stuttgart_bern_build 
 
 		}
-
+		available = {
+			NOT = { has_country_flag = GRU_TRAIN_BUILDING }
+		}
 		fire_only_once = yes
 		cost = 120
 		days_remove = 120
@@ -1352,9 +1966,12 @@ GRU_breitspurbahn_decisions = {
 		ai_will_do = {
 			factor = 6
 		}
-
+		complete_effect = {
+			set_country_flag = GRU_TRAIN_BUILDING
+		}
 		remove_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Breitspur_hindenburg_lemberg_decision"
+			clr_country_flag = GRU_TRAIN_BUILDING
 			3 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -2455,6 +3072,7 @@ GRU_germania_plan_decisions = {
 			1129 = { is_owned_and_controlled_by = ROOT }
 			1134 = { is_owned_and_controlled_by = ROOT }
 			1132 = { is_owned_and_controlled_by = ROOT }
+			1138 = { is_owned_and_controlled_by = ROOT }
 			71 = { is_owned_and_controlled_by = ROOT }
 			75 = { is_owned_and_controlled_by = ROOT }
 			74 = { is_owned_and_controlled_by = ROOT }
@@ -2474,6 +3092,7 @@ GRU_germania_plan_decisions = {
 			1133 = { add_core_of = GRU }
 			69 = { add_core_of = GRU }
 			1139 = { add_core_of = GRU }
+			1138 = { add_core_of = GRU }
 			786 = { add_core_of = GRU }
 			1130 = { add_core_of = GRU }
 			9 = { add_core_of = GRU }
@@ -3280,6 +3899,7 @@ GRU_allignment_decisions = {
 			country_exists = ENG
 			ENG = { has_country_leader = { ruling_only = yes name = "Oswald Mosley" } }
 			NOT = { ENG = { is_subject_of = GRU } }
+			NOT = { ENG = { is_in_faction_with = GRU } }
 		}
 
 		fire_only_once = yes
@@ -3304,6 +3924,7 @@ GRU_allignment_decisions = {
 			country_exists = SRI
 			SRI = { has_country_leader = { ruling_only = yes name = "Benito Mussolini" } }
 			NOT = { SRI = { is_subject_of = GRU } }
+			NOT = { SRI = { is_in_faction_with = GRU } }
 		}
 
 		fire_only_once = yes
@@ -3330,10 +3951,13 @@ GRU_subvert_france_decisions = {
 			is_major = yes
 			has_war = no
 			is_subject = no
+			NOT = { FRA = { is_subject_of = GRU } }
+			NOT = { FRA = { is_in_faction_with = GRU } }
 		}
 		visible = {
 			has_completed_focus = GRU_NMDVP_allignment
-			
+			NOT = { FRA = { is_subject_of = GRU } }
+			NOT = { FRA = { is_in_faction_with = GRU } }
 			FROM = {
 				AND = {
 				is_in_faction_with = FRA
@@ -3395,10 +4019,13 @@ GRU_subvert_france_decisions = {
 			is_major = yes
 			has_war = no
 			is_subject = no
+			NOT = { FRA = { is_subject_of = GRU } }
+			NOT = { FRA = { is_in_faction_with = GRU } }
 		}
 		visible = {
 			has_completed_focus = GRU_NMDVP_allignment
-			
+			NOT = { FRA = { is_subject_of = GRU } }
+			NOT = { FRA = { is_in_faction_with = GRU } }
 			FROM = {
 				AND = {
 				is_subject_of = FRA

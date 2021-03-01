@@ -189,8 +189,91 @@ ideas = {
 		}
 		
 		
-		
-		
+		GRU_DAF_KDF_ONE = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_DAF_KDF_ONE"}
+			picture = GRU_DAF_KDF
+			modifier = {
+				industrial_capacity_factory = 0.01
+				production_factory_max_efficiency_factor = 0.01
+				production_factory_efficiency_gain_factor = 0.01
+				consumer_goods_factor = -0.01
+				stability_weekly = 0.01
+				political_power_gain = 0.05
+				party_popularity_stability_factor = 0.01
+			}
+		}
+		GRU_DAF_KDF_A = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_DAF_KDF_A"}
+			picture = GRU_DAF_KDF
+			modifier = {
+				industrial_capacity_factory = 0.02
+				production_factory_max_efficiency_factor = 0.02
+				production_factory_efficiency_gain_factor = 0.02
+				consumer_goods_factor = -0.02
+				stability_weekly = 0.01
+				political_power_gain = 0.05
+				party_popularity_stability_factor = 0.01
+			}
+		}
+		GRU_DAF_KDF_B = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_DAF_KDF_B"}
+			picture = GRU_DAF_KDF
+			modifier = {
+				industrial_capacity_factory = 0.01
+				production_factory_max_efficiency_factor = 0.01
+				production_factory_efficiency_gain_factor = 0.01
+				consumer_goods_factor = -0.01
+				stability_weekly = 0.02
+				political_power_gain = 0.08
+				party_popularity_stability_factor = 0.05
+			}
+		}
+		GRU_DAF_KDF_AB = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_DAF_KDF_AB"}
+			picture = GRU_DAF_KDF
+			modifier = {
+				industrial_capacity_factory = 0.02
+				production_factory_max_efficiency_factor = 0.02
+				production_factory_efficiency_gain_factor = 0.02
+				consumer_goods_factor = -0.02
+				stability_weekly = 0.02
+				political_power_gain = 0.08
+				party_popularity_stability_factor = 0.05
+			}
+		}
+		GRU_Der_Volksgenosse = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_Der_Volksgenosse"}
+			picture = GRU_Der_Volksgenosse
+			modifier = {
+				political_power_gain = 0.01
+				stability_weekly = 0.01
+			}
+		}
+		GRU_Volksempfaenger = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_Volksempfaenger"}
+			picture = GRU_Volksempfaenger
+			modifier = {
+				political_power_gain = 0.01
+				party_popularity_stability_factor = 0.01
+			}
+		}
+		GRU_Volksempfaenger_two = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_Volksempfaenger_two"}
+			picture = GRU_Volksempfaenger_two
+			modifier = {
+				political_power_gain = 0.02
+				party_popularity_stability_factor = 0.02
+			}
+		}
+		GRU_Volkswagen = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_Volkswagen"}
+			picture = GRU_Volkswagen
+			modifier = {
+				army_speed_factor_for_controller = 0.05
+				stability_weekly = 0.01
+				consumer_goods_factor = -0.02
+			}
+		}
 		
 				###carrier focus###
 		GRU_carrier = {
