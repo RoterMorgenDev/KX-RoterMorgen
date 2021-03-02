@@ -304,104 +304,15 @@ shared_focus = {
 		id = GRU_iva
 		icon = GFX_GRU_iva-3955
 		relative_position_id = GRU_nmdvp_victory
-		x = -7
+		x = -10
 		y = 2
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_iva"
-			random_owned_state = {
-							limit = {
-									free_building_slots = {
-											building = industrial_complex
-											size > 1
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 3
-							add_building_construction = {
-									type = industrial_complex
-									level = 3
-									instant_build = yes
-								}
-						}
-					random_owned_state = {
-							limit = {
-									free_building_slots = {
-											building = industrial_complex
-											size > 1
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 2
-							add_building_construction = {
-									type = industrial_complex
-									level = 2
-									instant_build = yes
-								}
-						}
-					random_owned_state = {
-							limit = {
-									free_building_slots = {
-											building = arms_factory
-											size > 0
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = arms_factory
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_state = {
-							limit = {
-									free_building_slots = {
-											building = industrial_complex
-											size > 1
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 2
-							add_building_construction = {
-									type = industrial_complex
-									level = 2
-									instant_build = yes
-								}
-						}
-					random_owned_state = {
-							limit = {
-									free_building_slots = {
-											building = industrial_complex
-											size > 1
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = industrial_complex
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_state = {
-							limit = {
-									free_building_slots = {
-											building = arms_factory
-											size > 0
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 3
-							add_building_construction = {
-									type = arms_factory
-									level = 3
-									instant_build = yes
-								}
-						}
+			add_ideas = GRU_KOMMANDOWIRTSCHAFT_a
 		}
 
-		prerequisite = { focus = GRU_proclaim_victory_over_judeo_capitalism focus = GRU_pieck  }
+		prerequisite = { focus = GRU_pieck }
 	}
 
 	#R.v.A.
@@ -409,7 +320,7 @@ shared_focus = {
 		id = GRU_rva
 		icon = GFX_GRU_rva-3956
 		relative_position_id = GRU_nmdvp_victory
-		x = -5
+		x = -8
 		y = 2
 		cost = 5
 		completion_reward = {
@@ -446,7 +357,23 @@ shared_focus = {
 						}
 				}
 
-		prerequisite = { focus = GRU_proclaim_victory_over_judeo_capitalism focus = GRU_pieck  }
+		prerequisite = { focus = GRU_proclaim_victory_over_judeo_capitalism  focus = GRU_pieck  }
+	}
+
+	#R.v.A.
+shared_focus = {
+		id = GRU_National_Corporatism
+		icon = GRU_National_corporate
+		relative_position_id = GRU_nmdvp_victory
+		x = -6
+		y = 2
+		cost = 5
+		completion_reward = {
+					log = "[GetDateText]: [Root.GetName]: Focus GRU_rva"
+					add_ideas = GRU_National_socialism_one
+				}
+
+		prerequisite = { focus = GRU_proclaim_victory_over_judeo_capitalism }
 	}
 
 	#Found the FDJ
@@ -531,7 +458,7 @@ shared_focus = {
 		id = GRU_nmdvp_victory
 		icon = NMDVP
 		relative_position_id = GRU_first_congress_of_german_unions
-		x = 20
+		x = 24
 		y = 1
 		cost = 1
 		completion_reward = {
@@ -557,17 +484,320 @@ shared_focus = {
 		id = GRU_kommandowirtschaft
 		icon = GFX_GRU_kommandowirtschaft-3954
 		relative_position_id = GRU_nmdvp_victory
-		x = -6
-		y = 3
+		x = -10
+		y = 4
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_neue_schwerindustrie"
 			add_ideas = closed_economy
-			add_ideas = GRU_KOMMANDOWIRTSCHAFT
+			swap_ideas = {
+							remove_idea = GRU_KOMMANDOWIRTSCHAFT_aa
+							add_idea = GRU_KOMMANDOWIRTSCHAFT
+						}
 		}
 
-		prerequisite = { focus = GRU_rva }
-		prerequisite = { focus = GRU_iva }
+		prerequisite = { focus = GRU_agrarian_collectivisation }
+		prerequisite = { focus = GRU_factory_network_unions }
+	}
+	
+shared_focus = {
+		id = GRU_technocrat_influence
+		icon = GRU_Technocratic
+		relative_position_id = GRU_nmdvp_victory
+		x = -8
+		y = 4
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_technocrat_influence"
+			add_political_power = 50
+			add_stability = 0.05
+			add_ideas = GRU_heavy_industry_a
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = industry
+			}
+		}
+
+		prerequisite = { focus = GRU_factory_network_unions focus = GRU_national_labour_service }
+	}
+	
+shared_focus = {
+		id = GRU_national_socialist_market_economics
+		icon = GRU_National_Socialism
+		relative_position_id = GRU_nmdvp_victory
+		x = -6
+		y = 4
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_national_socialist_market_economics"
+			add_ideas = closed_economy
+			swap_ideas = {
+							remove_idea = GRU_National_socialism_two
+							add_idea = GRU_National_socialism_three
+						}
+		}
+
+		prerequisite = { focus = GRU_agrarian_subsides }
+		prerequisite = { focus = GRU_national_labour_service }
+	}
+	
+shared_focus = {
+		id = GRU_organic_growth
+		icon = GRU_ORGANIC_GROWITH
+		relative_position_id = GRU_nmdvp_victory
+		x = -7
+		y = 5
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_organic_growth"
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+
+		}
+
+		prerequisite = { focus = GRU_technocrat_influence }
+		prerequisite = { focus = GRU_national_socialist_market_economics }
+	}
+	
+	
+shared_focus = {
+		id = GRU_planned_growth
+		icon = GRU_Planned_GROWITH
+		relative_position_id = GRU_nmdvp_victory
+		x = -9
+		y = 5
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_planned_growth"
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 3
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 3
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = industrial_complex
+									level = 3
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 3
+							add_building_construction = {
+									type = arms_factory
+									level = 3
+									instant_build = yes
+								}
+						}
+
+		}
+
+		prerequisite = { focus = GRU_technocrat_influence }
+		prerequisite = { focus = GRU_kommandowirtschaft }
 	}
 
 	#Form the Stasi
@@ -671,8 +901,6 @@ shared_focus = {
 			}
 			add_country_leader_trait = gru_volksfuehrer
 		}
-
-		prerequisite = { focus = GRU_kommandowirtschaft    }
 		prerequisite = { focus = GRU_gleichschaltung  }
 		prerequisite = { focus = GRU_volksgesundheitsamt  }
 	}
@@ -1257,11 +1485,51 @@ shared_focus = {
 		id = GRU_agrarian_collectivisation
 		icon = GRU_AGRARIAN_COLL
 		relative_position_id = GRU_nmdvp_victory
-		x = -6
-		y = 5
+		x = -11
+		y = 3
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_agrarian_collectivisation"
+			add_tech_bonus = {
+				bonus = 2
+				uses = 1
+				category = industry
+			}
+		}
+
+		prerequisite = { focus = GRU_iva }
+		prerequisite = { focus = GRU_rva }
+	}
+
+
+shared_focus = {
+		id = GRU_factory_network_unions
+		icon = GRU_factory_network
+		relative_position_id = GRU_nmdvp_victory
+		x = -9
+		y = 3
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_factory_network_unions"
+			swap_ideas = {
+							remove_idea = GRU_KOMMANDOWIRTSCHAFT_a
+							add_idea = GRU_KOMMANDOWIRTSCHAFT_aa
+						}
+		}
+
+		prerequisite = { focus = GRU_iva }
+		prerequisite = { focus = GRU_rva }
+	}
+	
+shared_focus = {
+		id = GRU_agrarian_subsides
+		icon = GRU_agrarian_subsides
+		relative_position_id = GRU_nmdvp_victory
+		x = -5
+		y = 3
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_agrarian_subsides"
 			add_tech_bonus = {
 				bonus = 1
 				uses = 2
@@ -1269,7 +1537,26 @@ shared_focus = {
 			}
 		}
 
-		prerequisite = { focus = GRU_kommandowirtschaft }
+		prerequisite = { focus = GRU_rva }
+		prerequisite = { focus = GRU_National_Corporatism }
+	}
+	
+shared_focus = {
+		id = GRU_national_labour_service
+		icon = GRU_NAD
+		relative_position_id = GRU_nmdvp_victory
+		x = -7
+		y = 3
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_national_labour_service"
+			swap_ideas = {
+							remove_idea = GRU_National_socialism_one
+							add_idea = GRU_National_socialism_two
+						}
+		}
+		prerequisite = { focus = GRU_rva }
+		prerequisite = { focus = GRU_National_Corporatism }
 	}
 
 	#Neue Schwerindustrie
@@ -1277,16 +1564,19 @@ shared_focus = {
 		id = GRU_neue_schwerindustrie
 		icon = GFX_GRU_neue_schwerindustrie-3965
 		relative_position_id = GRU_nmdvp_victory
-		x = -6
+		x = -8
 		y = 6
 		cost = 5
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_neue_schwerindustrie"
-			add_ideas = GRU_heavy_industry
+			swap_ideas = {
+							remove_idea = GRU_heavy_industry_a
+							add_idea = GRU_heavy_industry
+						}
 			set_country_flag = GRU_INDUSTRIAL_CAPACITY_ENOUGH
 		}
 
-		prerequisite = { focus = GRU_agrarian_collectivisation  }
+		prerequisite = { focus = GRU_planned_growth focus = GRU_organic_growth }
 	}
 
 	#rev_oil
@@ -2747,7 +3037,6 @@ shared_focus = {
 		}
 		
 		prerequisite = { focus = GRU_mfsp  }
-		prerequisite = { focus = GRU_neue_schwerindustrie  }
 	}
 
 	#Union Congress

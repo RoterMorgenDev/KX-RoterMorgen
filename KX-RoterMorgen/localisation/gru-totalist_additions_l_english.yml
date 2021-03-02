@@ -39,7 +39,7 @@
 ########!!!!HEY CHUNGUS!!!! IF YOU READ THIS! I advise you to se tsome form of mark inside this exclamated text for yourself when you finished a block :D MAybe JUST REMOVE THIS ANNOYING TEXT THAT WILL NOW BE AT THE BOTTOM OF EACH BLOCK#########
 #################
 
-#####NEW LOC 25.02.2021 - #####
+#####NEW LOC 25.02.2021 - 02.03.2021 #####
 
 ####Focus Loc####
 
@@ -51,6 +51,31 @@ GRU_autobahnen_desc:0 "For a fast economic growth we need an infrastructure more
 
 GRU_rev_oil:0 "Kickstart new Oil Industry"
 GRU_rev_oil_desc:0 "We will adopt the Synthetic oil production methods developed by the Union of Britain to sustain our fuel consumption by coal liquification."
+
+
+GRU_National_Corporatism:0 "National Corporatism"
+GRU_National_Corporatism_desc:0 "Unlike the other revolutionaries we do value competition and struggle as muc has we value the fair treatment of the German Volkgenossen. We will continue to allow private enterpises but enforce class cooperation and massive social programms for which the private industries will have to pay a share in it too."
+
+GRU_national_labour_service:0 "National Labour Service"
+GRU_national_labour_service_desc:0 "We wil lestablish the Nationaler Arbeitsdienst or N.A.D. a social union for our unemployed Volksgenossen that will have active connections int oall branches of industry to fidn work for the unemployed as wel las putting them to use as auxilary workforces were needed."
+
+GRU_agrarian_subsides:0 "Agrarian Subsidies"
+GRU_agrarian_subsides_desc:0 "Instead of collectivisation and expropriation we will found a National Farmer Union and give subsidies to our farmers."
+
+GRU_factory_network_unions:0 "Interlinked Economy"
+GRU_factory_network_unions_desc:0 "The interlinked economy is a project to establish direct conenctions between factories that are in one chain of production to maximise thier output and efficency."
+
+GRU_technocrat_influence:0 "Technocratic Influence"
+GRU_technocrat_influence_desc:0 "We will incorportae several aspects of Technocratic thought to increase our economic growth."
+
+GRU_planned_growth:0 "Planned Growth"
+GRU_planned_growth_desc:0 "Our industry must grow and we will enforce it by all means."
+
+GRU_national_socialist_market_economics:0 "National Socialist Market Economy"
+GRU_national_socialist_market_economics_desc:0 "We have achieved what we call the 'National Socialist Market Economy' a social corporte market economy in which private and nationalized industries work hand in hand in the interest of the Nation and the People with a strong social system that is interlinked with the party to ensure total loyality."
+
+GRU_organic_growth:0 "Organic Growth"
+GRU_organic_growth_desc:0 "Our industry is growing on it's own, and will continue to do so."
 
 
 ####Event Loc####
@@ -141,6 +166,15 @@ GRU_Der_Volksgenosse_desc:0 "Der Volksgenosse has been established as the sole a
 GRU_Volksempfaenger_desc:0 "The Volksempfänger is a standartized and affordable radio for the German Worker."
 GRU_Volksempfaenger_two_desc:0 "With the great success of the Volksempfänger the DAF has brought up the newest KDF project the 'Volksfernseher' a standartized Television."
 GRU_Volkswagen_desc:0 "The Volkswagen is a sturdy allrounder car, it's creation aimed at an affordable car for the masses that would also offer some small luxuries."
+
+GRU_heavy_industry_a:0 "Technocratic Influence"
+GRU_KOMMANDOWIRTSCHAFT_a:0 "Nationalized Economy"
+GRU_KOMMANDOWIRTSCHAFT_aa:0 "Interlinked Economy"
+GRU_National_socialism_one:0 "National Corporatism"
+GRU_National_socialism_two:0 "National Corporatist Economics"
+GRU_National_socialism_three:0 "National Socialist Market Economics"
+GRU_National_socialism_three_desc:0 "A social corporte market economy in which private and nationalized industries work hand in hand in the interest of the Nation and the People with a strong social system that is interlinked with the party to ensure total loyality."
+
 
 ##Decision loc###
 
