@@ -5789,8 +5789,8 @@ GRU_expansion_four_volksreichskommissariat_ruthenia = {
 						OR = {
 							GRU = {
 								controls_state = 229
-								controls_state = 998
-								controls_state = 230
+								#controls_state = 998
+								#controls_state = 230
 								controls_state = 1082
 								controls_state = 231
 								controls_state = 1080
@@ -5800,8 +5800,8 @@ GRU_expansion_four_volksreichskommissariat_ruthenia = {
 							any_other_country = {
 								is_subject_of = GRU
 								controls_state = 229
-								controls_state = 998
-								controls_state = 230
+								#controls_state = 998
+								#controls_state = 230
 								controls_state = 1082
 								controls_state = 231
 								controls_state = 1080
@@ -5819,8 +5819,8 @@ GRU_expansion_four_volksreichskommissariat_ruthenia = {
 			complete_effect = {
 					VKK = {
 								transfer_state = 229
-								transfer_state = 998
-								transfer_state = 230
+								#transfer_state = 998
+								#transfer_state = 230
 								transfer_state = 1082
 								transfer_state = 231
 								transfer_state = 1080
@@ -5834,6 +5834,51 @@ GRU_expansion_four_volksreichskommissariat_ruthenia = {
 				
 			}
 	}
+	
+	
+	GRU_expansion_ARMENIA_volksreichskommissariat_kaukasia = {
+
+			icon = GFX_kaukasusVK
+			ai_will_do = {
+				factor = 100
+			}
+			fire_only_once = yes
+				
+			available = {
+				has_completed_focus = GRU_NMDVP_LEBENSRAUM
+				has_country_flag = VKK_established
+				tag = GRU 
+						OR = {
+							GRU = {
+								controls_state = 998
+								controls_state = 230
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 998
+								controls_state = 230
+						}
+					}
+				}
+		
+			visible = {
+				has_completed_focus = GRU_NMDVP_LEBENSRAUM
+				has_country_flag = VKK_established
+			}
+		
+			complete_effect = {
+					VKK = {
+								transfer_state = 998
+								transfer_state = 230				
+					}
+					hidden_effect = {
+				VKK = {	country_event = rotermorgenmisc.300 }
+				VKK = {	country_event = { id = rotermorgenmisc.302 days = 2 } }
+				}
+				
+			}
+	}
+	
 	
 GRU_expansion_two_volksreichskommissariat_kaukasia = {
 

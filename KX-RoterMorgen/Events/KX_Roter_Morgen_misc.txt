@@ -213,6 +213,88 @@ country_event = { # VG
 	}
 }
 
+country_event = { # Men among Men
+	id = rotermorgenmisc.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.15" }
+	title = rotermorgenmisc.15.t
+	desc = rotermorgenmisc.15.d
+	picture = GFX_report_event_MAM
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.15.a
+	}
+}
+
+country_event = { # bruh not cool
+	id = rotermorgenmisc.16
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.16" }
+	title = rotermorgenmisc.16.t
+	desc = rotermorgenmisc.16.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.16.a
+	}
+}
+
+country_event = { # Pieck Secret Police
+	id = rotermorgenmisc.17
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.17" }
+	title = rotermorgenmisc.17.t
+	desc = rotermorgenmisc.17.d
+	picture = GFX_report_event_PIECK_STATUE
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.17.a
+	}
+}
+
+country_event = { # Pieck ugly houses
+	id = rotermorgenmisc.18
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.18" }
+	title = rotermorgenmisc.18.t
+	desc = rotermorgenmisc.18.d
+	picture = GFX_report_event_ugly_houses
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.18.a
+	}
+}
+
+country_event = { # Pieck speed run trail
+	id = rotermorgenmisc.19
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.19" }
+	title = rotermorgenmisc.19.t
+	desc = rotermorgenmisc.19.d
+	picture = GFX_report_event_speed_run_purge
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.19.a
+	}
+}
+
+country_event = { # day in munich
+	id = rotermorgenmisc.20
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.20" }
+	title = rotermorgenmisc.20.t
+	desc = rotermorgenmisc.20.d
+	picture = GFX_report_event_rudi
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.20.a
+	}
+}
+
+country_event = { # A New Curriculum
+	id = rotermorgenmisc.21
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.21" }
+	title = rotermorgenmisc.21.t
+	desc = rotermorgenmisc.21.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.21.a
+	}
+}
+
 country_event = { # allignment
 	id = rotermorgenmisc.40
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.40" }

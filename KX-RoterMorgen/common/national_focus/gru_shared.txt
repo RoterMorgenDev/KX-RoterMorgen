@@ -82,6 +82,7 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_germany_reborn"
 			add_ideas = GRU_new_germany
 			set_country_flag = GRU_REBUILD
+			country_event = { id =  rotermorgenmisc.20 }
 		}
 
 		prerequisite = { focus = GRU_night_of_the }
@@ -243,6 +244,7 @@ shared_focus = {
 					country_event = { id =  rotermorgenspicy.1  }
 				}
 				set_country_flag = RR_FORMED
+				country_event = { id =  rotermorgenmisc.15 days = 50 }
 			}
 		}
 
@@ -686,6 +688,9 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_anhaltelager"
 			add_ideas = GRU_lager
+			hidden_effect = {
+				country_event = { id =  rotermorgenmisc.16 days = 90 }
+			}
 		}
 
 		prerequisite = { focus = GRU_form_the_guard  }
@@ -1030,6 +1035,9 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_red_guard"
 			add_country_leader_trait = gru_chairman
+			hidden_effect = {
+				country_event = { id =  rotermorgenmisc.17 days = 80 }
+			}
 		}
 		prerequisite = { focus = GRU_pieck_red_guard  }
 		prerequisite = { focus = GRU_pieck_heroism  }
@@ -1072,6 +1080,9 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_brutalist_architecture"
 			add_ideas = GRU_BRUTALISM
+			hidden_effect = {
+				country_event = { id =  rotermorgenmisc.18 days = 3 }
+			}
 		}
 		prerequisite = { focus = GRU_pieck_chairman  }
 	}
@@ -1102,6 +1113,7 @@ shared_focus = {
 			kill_ideology_leader = syndicalist
 			add_popularity = { ideology = syndicalist popularity = -0.25 }
 			add_manpower = -25000
+			country_event = { id =  rotermorgenmisc.19 }
 		}
 		prerequisite = { focus = GRU_pieck_brutalist_architecture  }
 		prerequisite = { focus = GRU_pieck_propaganda  }
@@ -1803,6 +1815,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_antiauthoritarian_education"
 			add_ideas = GRU_FAUD_Education1
+			country_event = { id =  rotermorgenmisc.21 }
 		}
 		
 		prerequisite = { focus = GRU_antidiscriminatory_laws  }

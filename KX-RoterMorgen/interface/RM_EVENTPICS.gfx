@@ -161,6 +161,30 @@ spriteTypes = {
 
 			texturefile = "gfx/event_pictures/SDA_EVENT.tga"
 	}
+	spriteType = {  
+
+			name = "GFX_report_event_MAM"  
+
+			texturefile = "gfx/event_pictures/RR_Ausbildungskompanie.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_PIECK_STATUE"  
+
+			texturefile = "gfx/event_pictures/pieck_statue.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_speed_run_purge"  
+
+			texturefile = "gfx/event_pictures/thalmann_purged.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_rudi"  
+
+			texturefile = "gfx/event_pictures/rudi.tga"
+	}
 	
 	
 	
