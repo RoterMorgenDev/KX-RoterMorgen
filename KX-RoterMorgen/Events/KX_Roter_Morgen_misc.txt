@@ -103,6 +103,7 @@ country_event = { # Liebknecht retires
 	desc = rotermorgenmisc.7.d
 	picture = GFX_report_event_Liebknecht_rente
 	#is_triggered_only = yes
+	fire_only_once = yes
 	trigger = {
 		tag = GRU	
 		OR = {
@@ -127,6 +128,90 @@ country_event = { # Liebknecht retires
 	}
 }
 
+
+country_event = { # DAF
+	id = rotermorgenmisc.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.8" }
+	title = rotermorgenmisc.8.t
+	desc = rotermorgenmisc.8.d
+	picture = GFX_report_event_DAF
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.8.a
+	}
+}
+
+country_event = { # VW
+	id = rotermorgenmisc.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.9" }
+	title = rotermorgenmisc.9.t
+	desc = rotermorgenmisc.9.d
+	picture = GFX_report_event_VW
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.9.a
+	}
+}
+
+country_event = { # VE
+	id = rotermorgenmisc.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.10" }
+	title = rotermorgenmisc.10.t
+	desc = rotermorgenmisc.10.d
+	picture = GFX_report_event_VE
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.10.a
+	}
+}
+
+country_event = { # VF
+	id = rotermorgenmisc.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.11" }
+	title = rotermorgenmisc.11.t
+	desc = rotermorgenmisc.11.d
+	picture = GFX_report_event_VF
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.11.a
+	}
+}
+
+country_event = { # KDF
+	id = rotermorgenmisc.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.12" }
+	title = rotermorgenmisc.12.t
+	desc = rotermorgenmisc.12.d
+	picture = GFX_report_event_KDF
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.12.a
+	}
+}
+
+country_event = { # SDA
+	id = rotermorgenmisc.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.13" }
+	title = rotermorgenmisc.13.t
+	desc = rotermorgenmisc.13.d
+	picture = GFX_report_event_SDA
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.13.a
+	}
+}
+
+country_event = { # VG
+	id = rotermorgenmisc.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.14" }
+	title = rotermorgenmisc.14.t
+	desc = rotermorgenmisc.14.d
+	picture = GFX_report_event_VG
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.14.a
+	}
+}
 
 country_event = { # allignment
 	id = rotermorgenmisc.40

@@ -557,6 +557,9 @@ GRU_DAF_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_DAF_Volkswagen_decision"
 			clr_country_flag = GRU_KDF_ONGOING_PROJECT
 			add_ideas = GRU_Volkswagen
+			hidden_effect = {
+				GRU= {	country_event = rotermorgenmisc.9 }
+			}
 		}
 	}
 	
@@ -584,6 +587,9 @@ GRU_DAF_decisions = {
 			clr_country_flag = GRU_KDF_ONGOING_PROJECT
 			set_country_flag = GRU_KDF_GRU_Volksempfaenger
 			add_ideas = GRU_Volksempfaenger
+			hidden_effect = {
+				GRU= {	country_event = rotermorgenmisc.10 }
+			}
 		}
 	}
 	
@@ -615,6 +621,9 @@ GRU_DAF_decisions = {
 							remove_idea = GRU_Volksempfaenger
 							add_idea = GRU_Volksempfaenger_two
 						}
+			hidden_effect = {
+				GRU= {	country_event = rotermorgenmisc.11 }
+			}
 		}
 	}
 	
@@ -653,6 +662,9 @@ GRU_DAF_decisions = {
 							remove_idea = GRU_DAF_KDF_A
 							add_idea = GRU_DAF_KDF_AB
 						}
+			}
+			hidden_effect = {
+				GRU= {	country_event = rotermorgenmisc.12 }
 			}
 		}
 	}
@@ -693,6 +705,9 @@ GRU_DAF_decisions = {
 							add_idea = GRU_DAF_KDF_AB
 						}
 			}
+			hidden_effect = {
+				GRU= {	country_event = rotermorgenmisc.13 }
+			}
 		}
 	}
 	
@@ -719,6 +734,9 @@ GRU_DAF_decisions = {
 			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_DAF_der_volksgenosse_news_decision"
 			clr_country_flag = GRU_KDF_ONGOING_PROJECT
 			add_ideas = GRU_Der_Volksgenosse
+			hidden_effect = {
+				GRU= {	country_event = rotermorgenmisc.14 }
+			}
 		}
 	}
 

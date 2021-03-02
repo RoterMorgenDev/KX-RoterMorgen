@@ -62,7 +62,7 @@ shared_focus = {
 					add_political_power = 25
 					add_stability = 0.05
 					add_ideas = GRU_DAF_KDF_ONE
-					
+					country_event = { id =  rotermorgenmisc.8 }
 					custom_effect_tooltip = GRU_tt_DAF
 		}
 

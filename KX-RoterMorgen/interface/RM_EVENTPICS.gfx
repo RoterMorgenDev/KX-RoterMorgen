@@ -112,4 +112,56 @@ spriteTypes = {
 
 			texturefile = "gfx/event_pictures/banken_kollaps.tga"
 	}
+	spriteType = {  
+
+			name = "GFX_report_event_Liebknecht_rente"  
+
+			texturefile = "gfx/event_pictures/liebknecht_gone.tga"
+	}
+	
+	spriteType = {  
+
+			name = "GFX_report_event_DAF"  
+
+			texturefile = "gfx/event_pictures/DAF_event.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_VW"  
+
+			texturefile = "gfx/event_pictures/KDF_WAGEN.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_VE"  
+
+			texturefile = "gfx/event_pictures/Volksempfaenger_event.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_VF"  
+
+			texturefile = "gfx/event_pictures/volksfernseher_event.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_VG"  
+
+			texturefile = "gfx/event_pictures/volksgenosse_zeitung.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_KDF"  
+
+			texturefile = "gfx/event_pictures/KDF_HOTEL.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_SDA"  
+
+			texturefile = "gfx/event_pictures/SDA_EVENT.tga"
+	}
+	
+	
+	
 }
