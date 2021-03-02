@@ -522,6 +522,44 @@ GRU_THE_DEMOCRACY_PROMISE_desc:0 "The time has come for us to fulfill the promis
 GRU_GCW_VICTORY:0 "Victory!"
 GRU_GCW_VICTORY_desc:0 "We have defeated the Imperial forces and are now the sole government in Germany!"
 
+
+GRU_DAF:0 "Deutsche Arbeiterfront"
+GRU_DAF_desc:0 "Germany needs only one worker union the D.A.F. or Deutsche Arbeiterfront, a state controlled union that will not only be the single union of workers but also be an organization tasked to improve the German workers life conditions."
+
+GRU_autobahnen:0 "Autobahn Network"
+GRU_autobahnen_desc:0 "For a fast economic growth we need an infrastructure more flexible than railroads, we will do heavy investments into a network of highways called the Autobahnen."
+
+GRU_rev_oil:0 "Kick Start new Oil Industry"
+GRU_rev_oil_desc:0 "We will adopt the Synthetic oil production methods developed by the Union of Britain to sustain our fuel consumption by coal liquefaction."
+
+
+GRU_National_Corporatism:0 "National Corporatism"
+GRU_National_Corporatism_desc:0 "Unlike the other revolutionaries we do value competition and struggle as much has we value the fair treatment of the German Volkgenossen. We will continue to allow private enterprises but enforce class cooperation and massive social programs for which the private industries will have to pay a share in it too."
+
+GRU_national_labour_service:0 "National Labor Service"
+GRU_national_labour_service_desc:0 "We will establish the Nationaler Arbeitsdienst or N.A.D. a social union for our unemployed Volksgenossen that will have active connections into all branches of industry to find work for the unemployed as well as putting them to use as auxiliary work forces where needed."
+
+GRU_agrarian_subsides:0 "Agrarian Subsidies"
+GRU_agrarian_subsides_desc:0 "Instead of collectivisation and expropriation we will found a National Farmer Union and give subsidies to our farmers."
+
+GRU_factory_network_unions:0 "Interlinked Economy"
+GRU_factory_network_unions_desc:0 "The interlinked economy is a project to establish direct connections between factories that are in one chain of production to maximize their output and efficiency."
+
+GRU_technocrat_influence:0 "Technocratic Influence"
+GRU_technocrat_influence_desc:0 "We will incorporate several aspects of Technocratic thought to increase our economic growth."
+
+GRU_planned_growth:0 "Planned Growth"
+GRU_planned_growth_desc:0 "Our industry must grow and we will enforce it by all means."
+
+GRU_national_socialist_market_economics:0 "National Socialist Market Economy"
+GRU_national_socialist_market_economics_desc:0 "We have achieved what we call the 'National Socialist Market Economy' a social corporate market economy in which private and nationalized industries work hand in hand in the interest of the Nation and the People with a strong social system that is interlinked with the party to ensure total loyalty."
+
+GRU_organic_growth:0 "Organic Growth"
+GRU_organic_growth_desc:0 "Our industry is growing on it's own, and will continue to do so."
+
+VK_FOCUS_SHARED_OUR_OWN_RR:0 "Our own R.R."
+VK_FOCUS_SHARED_OUR_OWN_RR_desc:0 "We will establish our own Branch of the R.R. to safeguard our new Homeland."
+
 ###flags####
 PARTIES_FORMED:0 "Germany is ready for its first congress"
 GRU_CONGRESS_DONE:0 "The first Congress of German Unions is over"
@@ -543,6 +581,10 @@ GRU_GREATER_DONE:0 "The §RGermania Plan§! has been completed."
 GRU_GCW_ENDED:0 "the German civil war is over"
 GRU_WIP:0 "In the distant future"
 
+GRU_HYDRO_BUILDING:0 "Is not focused on another Hydroelectricity project."
+GRU_TRAIN_BUILDING:0 "Is not focused on another Breitspurbahn project."
+GRU_KDF_ONGOING_PROJECT:0 "The DAF is not focused on another KDF project."
+GRU_oil_oil_oil_baby:0 "Germany is not focused on other Oil excavation projects."
 
 ####ideas####
 GRU_Stasi:0 "Stasi"
@@ -881,6 +923,30 @@ GRU_SUCCDUM_TWO:0 "Social Democracy."
 GRU_PDS_SOCIALIST_MARKET_ECONOMICS:0 "Socialist Market Economics."
 GRU_RED_NEWS_RDS:0 "State Media."
 
+GRU_DAF_KDF_ONE:0 "Deutsche Arbeiterfront"
+GRU_DAF_KDF_A:0 "Deutsche Arbeiterfront"
+GRU_DAF_KDF_B:0 "Deutsche Arbeiterfront"
+GRU_DAF_KDF_AB:0 "Deutsche Arbeiterfront"
+GRU_Der_Volksgenosse:0 "Der Volksgenosse"
+GRU_Volksempfaenger:0 "Volksempfänger"
+GRU_Volksempfaenger_two:0 "Volksfernseher"
+GRU_Volkswagen:0 "KDF - Volkswagen"
+
+GRU_Der_Volksgenosse_desc:0 "Der Volksgenosse has been established as the sole and only new newspaper for the German worker."
+GRU_Volksempfaenger_desc:0 "The Volksempfänger is a standardized and affordable radio for the German Worker."
+GRU_Volksempfaenger_two_desc:0 "With the great success of the Volksempfänger the DAF has brought up the newest KDF project the 'Volksfernseher' a standardized Television."
+GRU_Volkswagen_desc:0 "The Volkswagen is a sturdy all rounder car, it's creation aimed at an affordable car for the masses that would also offer some small luxuries."
+
+GRU_heavy_industry_a:0 "Technocratic Influence"
+GRU_KOMMANDOWIRTSCHAFT_a:0 "Nationalized Economy"
+GRU_KOMMANDOWIRTSCHAFT_aa:0 "Interlinked Economy"
+GRU_National_socialism_one:0 "National Corporatism"
+GRU_National_socialism_two:0 "National Corporatist Economics"
+GRU_National_socialism_three:0 "National Socialist Market Economics"
+GRU_National_socialism_three_desc:0 "A social corporate market economy in which private and nationalized industries work hand in hand in the interest of the Nation and the People with a strong social system that is interlinked with the party to ensure total loyalty."
+
+
+
 GRU_SYNTHWAVE:0 "Sythetische Musik"
 GRU_SYNTHWAVE_desc:0 "REJECT MODERNITY\nEMBRACE TRADITION."
 ###companies shamelessly copied mostly###
@@ -947,6 +1013,20 @@ gru_froncophobe_desc:0 "Goebbels harbors great hatred for the French."
 
 gru_chairman:0 "Supreme Chairman\n\n§gWilhelm Pieck has been proclaimed the Supreme Chairman of Germany and the Party granting him absolute power over all administrations of the government as well as both the legislative and executive powers.§!"
 gru_chairman_desc:0 "Wilhelm Pieck has been proclaimed the Supreme Chairman of Germany and the Party granting him absolute power over all administrations of the government as well as both the legislative and executive powers."
+
+red_guard_leaders:0 "R.A.M."
+red_guard_leaders_desc:0 "This man is part of R.A.M. or Rote Armee Miliz a paramilitary force of authoritarian syndicalists and Bolsheviks."
+
+radsoc_rev_leaders:0 "FAUD/BGB"
+radsoc_rev_leaders_desc:0 "This man is part of R.A.M. or Rote Armee Miliz a paramilitary force of authoritarian syndicalists and Bolsheviks."
+
+
+Nazbol_rev_leaders:0 "NM-KV/SNF"
+Nazbol_rev_leaders_desc:0 "One of the leaders of the NM-KV or Nationalmarxistische Kampfverbände or the similar SNF or Sozialnationalistische Front."
+
+Nazbol_rev_vet_leaders:0 "NM-KV/SNF Veteran"
+Nazbol_rev_vet_leaders_desc:0 "One of the early leaders of the NM-KV or Nationalmarxistische Kampfverbände or the similar SNF or Sozialnationalistische Front."
+
 ####ministers####
 GRU_Joseph_Goebbels_hog_tot:0 "Josef Goebbels"
 GRU_Wilhelm_Pieck_hog_tot:0 "Wilhelm Pieck"
@@ -1245,6 +1325,80 @@ rotermorgenGCW.106.t:0 "Return of normality"
 rotermorgenGCW.106.d:0 "It seems like everything is slowly returning to normality again maybe our recent interventions in the economy and our welfare work has just averted another crisis."
 rotermorgenGCW.106.a:0 "Who would ever know?"
 
+
+rotermorgenGCW.7.t:0 "A Sinking Ship"
+rotermorgenGCW.7.d:0 "If one were to look at the streets of Germany’s mighty cities today, you will not see the sprawling streets of Germany’s fortune and victory. What you will see is unemployed men, families on the street with tears in the eyes of children as they go another day without warmth or food. If you look at the idyllic countryside of Germany, you will not be greeted with its mighty farms and the proud agrarian generations who worked them. Instead, you will see foreclosed farms with families with just their essentials on their backs using horses or public transport to go to the urban centers for work, many weeping as the farms their ancestors worked to maintain were gone in days. Yet, the German Empire does nothing to alleviate their suffering. Too concerned with its own imperial confusion to help the average German. Black Friday for many Germans has finally pulled their heads out of the clouds, as they finally see that the Empire cares little for them or their families. Such resentment has done the unthinkable, as people who once detested the reds now are joining one of their many groups. If the Empire does not respond soon, there is no telling how far this resentment will spread."
+rotermorgenGCW.7.a:0 "As Dawn Breaks, the Red Morning Starts to Approach."
+
+
+rotermorgenGCW.8.t:0 "Die Einheitsfront"
+rotermorgenGCW.8.d:0 "As the German Empire falters in its ability to deal with Black Friday, the various red groups in Germany have without a doubt capitalized on this. Bolstered by long awaited secretive Internationale support, the three main socialist groups within Germany have drawn tens of thousands into their ranks by the day. While these groups have drastically different ideals, their newfound support has drawn them closer together in unison against the main threat which is the corrupt and tyrannical Kaiser and his cronies. Which is why the radical wing of the SPD, the R.A.M., FAUD, NM-KV and SNF have agreed to join within a United Front to better coordinate their efforts. This astonishing turn of events shows the threat in which the socialists pose to the German order. Whispers in even the highest halls of power are speaking of the possibility of open red revolt should the United Front continue to gain traction. If the Empire is able to start in getting its face out of the mud which is Black Friday, it will face significant challenge from this new United Front in doing so."
+rotermorgenGCW.8.a:0 "The Rays of Socialism’s Light Shine into More Homes as the Red Morning Approaches."
+
+
+rotermorgenGCW.9.t:0 "The Center Cannot Hold"
+rotermorgenGCW.9.d:0 "Increased reluctance of the Kaiser’s government has only served to make things worse within Germany. As the ranks of the United Front continue to swell by the day, they are starting to get more confrontational as well. Strikes and protests are common occurrences in the Rhineland, where workers and hastily formed unions have ground any production to a halt. Former soldiers and farmers in Bavaria vandalize government property and homes of the nobility to vent their anger forwards the government’s negligence. In Berlin, daily protests risk turning into riots as the police struggle to contain the citizenry. The troubles don’t end here, however. Reports of new paramilitaries throughout the country imply that the reds are preparing for something bigger. Rumors are even starting to circulate around the high command about potential disloyal elements with sympathy towards the socialists should they decide to take action against the Kaiser. A revolution in Germany, once an idea few thoughts was fathomable, has now become a serious concern."
+rotermorgenGCW.9.a:0 "The Red Morning Has Almost Reached Germany’s Doorstep."
+
+
+rotermorgenmisc.8.t:0 "Formation of the German Worker’s Front"
+rotermorgenmisc.8.d:0 "Under the recent decree of Volksfuhrer Joseph Goebbels, all national unions are to be consolidated into one national union for the German workers. The newly formed German Worker’s Front, or DAF, is expected to streamline and consolidate all national union bureaucracy into one unit to increase efficiency and save costs that would come with running multiple state unions. There is also a political aspect to it as well, as having one centralized union would ensure that less threats from organized labor would occur against the regime. The DAF is also expected to pursue several economic initiatives to bring greater opportunities for leisure and worker prosperity within Germany."
+rotermorgenmisc.8.a:0 "A New Day For Unionism in Germany"
+
+rotermorgenmisc.9.t:0 "Creation of the Volkswagen"
+rotermorgenmisc.9.d:0 "Thanks to the recent effort of targeted funding for nationalized automobile plants in Germany, the NMDVP has now perfected an affordable car readily accessible to the German people. Dubbed the People’s Car, or the Volkswagen, is significantly cheaper compared to the consumer vehicles on the market during the reign of the Kaiser while sacrificing little in terms of quality and efficiency. By allowing an affordable car to be given to the people of Germany, it is expected to reduce travel times to and from work while reducing the strain on public transport. Aside from the obvious efficiency increase, the car will now give German families more incentives to travel across Germany whether it be for leisure or vacation. As state automobile plants begin the first vehicles rolling off the assembly line, the Volkswagen is expected to be readily available in most major urban centers by the end of the year."
+rotermorgenmisc.9.a:0 "A True Marvel of German Engineering in the Hands of the People!"
+
+rotermorgenmisc.10.t:0 "Der Volksempfänger"
+rotermorgenmisc.10.d:0 "Across Germany, many households are being given free radios or ones at significantly marked down state prices. This new mass produced radio, named the Volksempfänger, is expected to bring the entertainment and essentials of the radio into the homes of every German. From UFA radio shows to the latest music, and even from the latest state news to speeches from the Volksfuhrer himself, the new radio is expected to boost the morale of the average German household across the country. It also serves as a means of indoctrination, as the radios only broadcast state mandated programming, which may or may not be so subtle in spreading the NMDVP’s ideas into the subconscious of the German within his own home."
+rotermorgenmisc.10.a:0 "Living Room Sized Fun for the Whole German Family!"
+
+rotermorgenmisc.11.t:0 "Development of the Volksfernseher"
+rotermorgenmisc.11.d:0 "In a handful of German electronics plants and laboratories, the NMDVP is giving special attention and funding to the creation of a radically new invention for home entertainment. Named by the party leadership and the R&D labs as the Volksfernseher, this new device uses a cable transmission and radio signals to project images on a screen along with audio. While the current product is still early stage and expensive to produce, it hasn’t stopped the upper echelons of the party leadership from installing this “visual radio” into their own homes. Currently, there are only two channels on the Volksfernseher, one for news and one for entertainment which mostly consists of live music performances in various UFA studios. Not to mention getting a decent signal for the Volksfernseher is difficult as there isn’t sufficient civilian telecommunications infrastructure to support it. Despite the early shortcomings of the first few models, the NMDVP is confident that with more funding and attention that even the Volksfernseher might be able to overtake the radio one day."
+rotermorgenmisc.11.a:0 "Truly Interesting Times for Technological Advancement."
+
+rotermorgenmisc.12.t:0 "Kraft durch Freuden"
+rotermorgenmisc.12.d:0 "As of today, the DAF has announced the creation of a subsidiary agency called Kraft durch Freuden, or Strength Through Joy. Under the direction of the KdF, the DAF will be able to grant generous funding towards programs to expand the options of leisure for the German worker. Already certain towns and villages are being given giant state grants to build and renovate parks and leisure facilities such as sports centers, cinemas, and public restaurants. The KdF is also going as far as offering benefits to working German families to incentivize them to take vacations to state recommended locations, both within Germany and to other nations. While the KdF’s goal is certainly ambitious, the DAF is hopeful that this will end up greatly expanding the options of leisure for the people, which will help to boost, happiness, productivity, and loyalty."
+rotermorgenmisc.12.a:0 "I Bet the Brits Don’t Even Get Government Incentivized Holidays to Sweden!"
+
+rotermorgenmisc.13.t:0 "Schönheit der Arbeit"
+rotermorgenmisc.13.d:0 "The DAF has announced the creation of a new subsidiary agency named the Schönheit der Arbeit, or the Beauty of Labor. Through the SdA, the DAF is using generous state funding to renovate workplace facilities and promote better hygienic standards across Germany. Mess halls, locker rooms, and bathrooms will all be given renovations to bring them up to a certain hygienic standard, while on the propaganda front the SdA will encourage Germans to do things such as wash their hands and even to quit smoking. The DAF hopes that through the activities of the SdA, workplace happiness and productivity will go up, along with a potentially increased lifespan of the German workers through promoting cleanliness and better workplace standards."
+rotermorgenmisc.13.a:0 "Cleanliness is Next to Godliness"
+
+rotermorgenmisc.14.t:0 "Der Volksgenosse"
+rotermorgenmisc.14.d:0 "Under the decree of Volksfuhrer Goebbels, a new national printing press will be opened to better inform the German people of the party’s successes. Named Der Volksgenosse, the NMDVP is hoping that this new national newspaper will become the prime source of news and information given to the German people and to act as a counter to the remaining red opposition papers within Germany. Already, the paper is becoming widely distributed across newspaper stands and the doorsteps of German homes. Depending on the success of Der Volksgenosse as being the prime news outlet for the German people, there are potential plans to branch out into radio and cinema news as well once the remaining competitors are either nationalized and incorporated or driven out of the industry all together."
+rotermorgenmisc.14.a:0 "Finally, a News Source that we can Trust!"
+
+rotermorgenmisc.15.t:0 "Men Among Men"
+rotermorgenmisc.15.d:0 "It is a cold morning in Western Germany at one of the various RR officer training facilities. The sun is shining over the horizon as the fog disperses, with moist grass gleaming in the sunlight. It would be an idyllic day had it not been one of the hardest training days for the next generation of Germany’s elite officers. A group of candidates armed with shovels stand on the hard dirt in a field as their superiors watch, they are then given the orders to start digging a ditch for them to lay down in. The catch is that a tank on the other side of the field is about to start driving towards them. Should they dawdle, they will be run over. Should they run, they will be shot. The time starts, and the tank begins its approach. The candidates frantically dig the hole as the tank approaches ever closer. One brave candidate directs the others to dig in certain areas and encourages them to dig for their lives no mater how tired their bones may get. One tries to run as the tank nearly arrives, and his expectedly shot from a tower. The brave candidate directs his fellow companions to dig harder, to ignore the weak coward who ran for himself rather than to help the many. As the tank arrives near meters away the ditch is complete, and the brave candidate ensures every man hops in before he does. As the tank passes over the exercise ends. When the superiors come down to congratulate the candidates, they give particular praise to the brave candidate who led his men with courage, who had put them before himself."
+rotermorgenmisc.15.a:0 "If Germany Produces More Men Like This, Its Future is Indeed Brought"
+
+rotermorgenmisc.16.t:0 "Tackling the Question"
+rotermorgenmisc.16.d:0 "It is no secret that Goebbels and the NMDVP have little love for the Jews. Being seen as foreign and responsible for the root of the suffering for the German worker since the middle ages, the Volskfuhrer and the party leadership have been harassing Germany’s Jewish population since their ascension to power. Recently, the regime has been ramping up efforts to tackle the question of the Jews within Germany. To complete this task, Goebbels has signed off on the creation of the Central Organization of Jewish Affairs, acting as a subdivision of the RR. Staffed by RR members with extensive knowledge on Judaism, with some even going as far as to speak Hebrew fluently, the division is expected by the regime to come up with plans to drive the Jewish population out of German lands or at least isolate them. Already, plans detailing agreements with the local governments within Madagascar and the Levant to accept Jewish emigrants along with the logistics for emigrating Jews to those lands are already starting to be drafted. Along with this come plans of concentrating urban Jewish populations into walled off ghettos within those urban centers, even with suspected coordinated harassment and attacks with the VR to give extra “encouragement” for the Jews to leave. Obvious human rights concerns have come up over these alleged plans with many governments accusing the NMDVP’s actions of being depraved and vile, with even some of Germany’s allies raising concerns in private. However, it is unlikely that these objections will change much if anything over the course Germany has decided to take with its Jewish population."
+rotermorgenmisc.16.a:0 "And So, the Diaspora Find Themselves Persecuted Once Again."
+
+rotermorgenmisc.17.t:0 "Terror for the Sake of Love"
+rotermorgenmisc.17.d:0 "In the city of Hamburg lies a towering statue of General Secretary Pieck, and behind it a building which serves as the secret police headquarters for the city. Throughout the day, members of this secretive force will tail enemies of the Revolution and keep tabs on the citizens of the city to ensure that they aren’t going against either Pieck or the Party. Should they see anything out of order, whether it be counterrevolutionary or just plainly illegal, said person should count on his life essentially being over before the day is finished. At night, when the workers are in their apartments and no one is on the streets, the secret police make their move. They barge into the homes of criminals and enemies of the Revolution, dragging them and their families out from their homes. The brave few who resist get a rifle butt to the face if they aren’t shot outright, as those who remain are loaded onto trucks headed for facilities god knows where. Their neighbors can only listen to the screams, shouts, and wails that cry out in the night as they take their friends and coworkers. Those sounds serve as a reminder to why one should love Pieck and the Revolution, and why one should never forget it."
+rotermorgenmisc.17.a:0 "For the Good of Germany, Pieck, and the Revolution…"
+
+rotermorgenmisc.18.t:0 "A New Communist Architecture"
+rotermorgenmisc.18.d:0 "In an attempt to socialize German society and sweep away old reactionary ways, General Secretary Pieck has issued a decree which declares that all new buildings must be designed in certain style. The style in question is one which relies heavily on a squared minimalist style, using mainly concrete and brick as the main material to create a modern and equalized look for buildings. This new style dubbed Brutalismus, or Brutalism, is expected to revolutionize architecture in Germany and serve as a reminder of the future of Germany’s socialist future, along with said future’s superiority over the reactionary past. The style has quickly been adopted into German university curriculums so that the new generations of architects and city planners will become accustomed and proud of this uniquely socialist building style..."
+rotermorgenmisc.18.a:0 "A Pretty Dour and Ugly Style if you Ask Me."
+
+rotermorgenmisc.19.t:0 "Kangaroo Courts and Show Trials"
+rotermorgenmisc.19.d:0 "As soon as he was in a position of power, the new General Secretary of Germany has certainly wasted no time in purging his enemies. While only a savage or a reactionary would put a muzzle to the heads of his enemies before pulling the trigger, Pieck is not as cruel as he has given the curiosity of granting his enemies the luxury of a fair trial by his peers. Of course, Thalmann and his other associates must’ve rolled their eyes when these “fair trials by their peers” were little more than secret military tribunals with fabricated evidence and no lawyers for the accused, but what did an enemy of the state know? What he did know that the high crimes of treason along with various claims of crimes against humanity during the civil war were enough for the judges to reach a conclusion within no more than two hours of each trials. Each time, almost unanimously, the sentence was always guilty with a punishment of death. In some instances, the accused were dragged outside so that the next poor soul on trial could be put on the chopping block, with the gunshots heard outside the courtroom being a foreshadowing of their fate once the gavel strikes."
+rotermorgenmisc.19.a:0 "Hey, at Least They Get A Speedy Trial."
+
+rotermorgenmisc.20.t:0 "A Day in Munich"
+rotermorgenmisc.20.d:0 "The city of Munich is home to many happy German inhabitants, one such inhabitant is a twelve-year-old boy named Rudi. Rudi lives with his older sister Liesel and his younger brother Klaus. His father has been a bureaucrat of the NMDVP since he fought with them during the revolution against the Kaiser, and his mother a proud homemaker who tended to the wounds of the revolution heroes during their bloody struggle. On an early Saturday, both Rudi and Liesel were given money to buy fresh fruit and bread from the market for their household, as task the two especially enjoyed. In the open market where flags of the new Germany flew, the shoppers and shopkeepers greeted each other with salutes and “Heil Goebbels” before completing their transaction and waving farewell by doing the same. Rudi and Liesel became accustomed to this, after all it seemed only natural to thank the man who brought them prosperity anyway. As they were returning home from the market, something caught Rudi’s eye. A poster on a wall, on depicting three rats holding individual bayonets at Germany, exclaiming that “The Dangers to Germany Shall Threaten Us Until Destroyed!”. The first rat wore a beret and a mustache, the second a Pickelhaube with big red lips, and the third with curly hair and an elongated nose. Rudi knew immediately what they were; the deceitful French, the treacherous Kaiser in Africa, and the scheming Jew. His blood shot up and his face began to run red with anger. He stood there wishing the destruction of the enemies jealous of the new Germany and her prosperity. As Liesel called for him to continue, Rudi knew immediately what he wanted to be in the future. A soldier that pointed the bayonet back at the three rats."
+rotermorgenmisc.20.a:0 "Train Up a Child in the Way he Should Go, Even When he is Old he Will Not Depart From it."
+
+rotermorgenmisc.21.t:0 "A New Curriculum"
+rotermorgenmisc.21.d:0 "When it comes to educating the children of Germany, it is a matter of the upmost importance. FAUD understands this idea well, as education at an early age better prepares children for life as an adult, or it can be used as a tool of manipulating the next generations. Whatever the case may be, unionist councils are running a coordinated effort to overhaul education in all areas, from the curriculum to the facilities. Although the exact specifics of the Anarcho-Syndicalist curriculum may differ based on the area of Germany, there is a general agreement that children will be educated on the ideas of their society. The main tenants include emphasis on equity and cooperation among all peers, the encouragement of progressive ideals and experimentation, teaching students the inherent wrongs of the reactionary, capitalistic, and imperialistic Germany’s of yore, and the inner workings of the Anarcho-Syndicalist system and the ideals that power it. Some families claim that the new curriculum is purely ideological and doesn’t prepare the next generation for actual work. In some towns, there are notable absences of subjects such as calculus and physics while subjects revolving around socialist political theory and the arts get more precedence in schooling. FAUD has addressed these concerns by emphasizing how the Anarcho-Syndicalist future must be secured within education first before reactionaries poison the next generation."
+rotermorgenmisc.21.a:0 "How is Memorizing Marx and Kropotkin Pertain to Becoming an Engineer or a Factory Worker?"
+
+
+
 ###tooltips###
 GRU_tt_hydroelectricity_decisions:0 "Decisions on §YHydroelectricity§! will become available."
 GRU_tt_breitspurbahn_decisions:0 "Decisions on building the §RBreitspurbahn§! network will become available."
@@ -1270,6 +1424,8 @@ GRU_tt_new_alliance:0 "Unlocks decisions to expand the new §YAlliance§!."
 
 FAUD_tt_promote:0 "Unlocks decisions to promote anarchism around the world."
 FAUD_tt_Shithole:0 "Unlocks decisions to help poor nations."
+
+GRU_tt_DAF:0 "Decisions about DAF projects will become aviable."
 ###decisions###
 GRU_hydroelectricity_decisions:0 "Hydroelectricity"
 GRU_Damn_the_danube_decision:0 "Damm the Danube"
@@ -1447,6 +1603,47 @@ GRU_blut_boden_ban_tobacco_decision:0 "Ban Tobacco"
 GRU_blut_boden_protect_nature_decision:0 "Environmental Protection Laws"
 GRU_blut_boden_basic_animal_rights_decision:0 "Animal Basic Rights"
 GRU_blut_boden_mandatory_exercises_decision:0 "Mandatory Sport"
+
+
+
+
+GRU_DAF_decisions:0 "Deutsche Arbeiterfront"
+GRU_DAF_decisions_desc:0 "The Deutsche Arbeiterfront is the labor organization under the National Marxists German Peoples Party which has replaced the various independent trade unions in Germany, it is also in charge of several KDF or Kraft durch Freuden projects that aim on the improvement of the daily workers life."
+
+GRU_DAF_Volkswagen_decision:0 "The Volkswagen"
+GRU_DAF_Volkssprecher_decision:0 "The Volksempfänger"
+GRU_DAF_Volksfernseher_decision:0 "The Volksfernseher"
+GRU_DAF_Kraft_durch_freuden_decision:0 "Kraft durch Freuden"
+GRU_DAF_schoehnheit_der_arbeit_decision:0 "Schönheit der Arbeit"
+GRU_DAF_der_volksgenosse_news_decision:0 "Der Volksgenosse"
+
+GRU_allignment_decisions_desc:0 "Decisions to align Nations with a similar cause to ours."
+GRU_subvert_france_decisions_desc:0 "Decisions to subvert the §R3rd Internationale§! and to stir up French puppets."
+
+GRU_hydroelectricity_decisions_desc:0 "We have several possible project regarding the construction of Hydroelectricity Power Plants available."
+GRU_breitspurbahn_decisions_desc:0 "The Breitspurbahn Network project is an ongoing effort to build the biggest, fastest and most efficent railroad system ever to exist."
+GRU_germania_plan_decisions_desc:0 "The 'Germania Plan' is the planned expansion of the German National Worker state into several neighboring territories."
+
+GRU_blut_boden_decisions_desc:0 "The doctrine of §GSoil§! and §RBlood§! calls for a direct connection between a land and the people that live on it or lived there in the past it is beyond a claim also a duty, a duty towards nature and the protection of the harmonious unity a people should form with their ancestral home."
+GRU_blut_boden_volksgesundheitsamt_decision_desc:0 "The Volksgesundheit will be established to safeguard our peoples genetic destiny and purity."
+GRU_blut_boden_ban_tobacco_decision_desc:0 "Tobacco is the worst of all the vices that have befallen our people, it is addictive and studies have shown it contains several highly toxic substances. We will ban the use and trade with this vile plant once and for all."
+GRU_blut_boden_protect_nature_decision_desc:0 "We value nature above all and must ensure it's continuity for this reason we will enact several 'Environmental Protection Laws'."
+GRU_blut_boden_basic_animal_rights_decision_desc:0 "For too long people have regarded animals as lesser beings compared to us humans, the truth could not be more different unlike us they live in a perfect ecosystem we only disrupted they are neither evil or good."
+GRU_blut_boden_mandatory_exercises_decision_desc:0 "The bellies are growing and the Manpower is shrinking.\nAn unacceptable state for our nation, we will decree mandatory exercises for all the workers of Germany."
+
+
+
+GRU_OIL_OIL_OIL_CHING_CHING_decisions:0 "Oil Search Expeditions."
+GRU_oil_polar_decision:0 "Drill for Oil in the Northern Sea."
+GRU_oil_kaukasia_one_decision:0 "Expand Baku fields."
+GRU_oil_kaukasia_two_decision:0 "Expand Azerbajani fields."
+GRU_oil_kaukasia_three_decision:0 "Astrakhan fields."
+GRU_oil_moskowia_one_decision:0 "Northern Moskowia Oil excavation."
+
+
+
+GRU_expansion_ARMENIA_volksreichskommissariat_kaukasia:0 "§YKaukasus§! expansion into §RArmenia§!."
+
 ####puppets##
 
 RM_Stahlpakt_member:0 "Stahlpakt Member."
