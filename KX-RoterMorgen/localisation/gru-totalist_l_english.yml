@@ -379,24 +379,24 @@ VK_FOCUS_BALTEN_COLONIZE_SIX_desc:0 "We will Germanize the sixth district"
 VK_FOCUS_BALTENLAND_COLONIZED:0 "Finish Baltenland Germanization"
 VK_FOCUS_BALTENLAND_COLONIZED_desc:0 "The Baltenland Germanization will be finished"
 
-HYPOBOREA_START:0 "HYPERBOREA"
-HYPOBOREA_START_desc:0 "The northern lands are ours, liberated by our Germanic brothers from the south. We will safeguard the Hyperborean lands they trusted us."
-HYPOBOREA_germanize_PEOPLE:0 "Hyperboreanization"
-HYPOBOREA_germanize_PEOPLE_desc:0 "We will create a new singular Hyperborean culture based upon Nordic mythology and Pan-Germanism."
-HYPOBOREA_germanize_LAND:0 "A Fortress Alike Thule"
+HYPOBOREA_START:0 "HYPOBOREA"
+HYPOBOREA_START_desc:0 "The northern lands are ours, liberated by our Germanic brothers from the south we will safeguard the HYpoborean lands they trusted us."
+HYPOBOREA_germanize_PEOPLE:0 "Hypoboreanisation"
+HYPOBOREA_germanize_PEOPLE_desc:0 "We will create a new singular Hypoborean culture based upon nordic mythology and pan-germanism."
+HYPOBOREA_germanize_LAND:0 "A Fortress alike Thule"
 HYPOBOREA_germanize_LAND_desc:0 "We will directly integrate all the conquered lands and claim heritage to the former Scandinavian Nations."
 HYPOBOREA_GERMAN_SYSTEM:0 "Germanic Society"
 HYPOBOREA_GERMAN_SYSTEM_desc:0 "We must model our new society after that of our liberators!"
-HYPOBOREA_YOUTH_ORG:0 "Hyperborean FDJ"
-HYPOBOREA_YOUTH_ORG_desc:0 "The German FDJ must be expanded into Hyperborea!"
+HYPOBOREA_YOUTH_ORG:0 "Hypoborean FDJ"
+HYPOBOREA_YOUTH_ORG_desc:0 "The German FDJ must be expanded into Hypoborea!"
 HYPOBOREA_RR:0 "Northern R.R."
-HYPOBOREA_RR_desc:0 "The Revolutionären Regimenter will start to recruit across Hyperborea."
+HYPOBOREA_RR_desc:0 "The Revolutionären Regimenter will start to recruit across Hypoborea."
 HYPOBOREA_LEBENSBORN:0 "Lebensborn"
 HYPOBOREA_LEBENSBORN_desc:0 "It is time to bring the National-Marxist family model to our people too."
 HYPOBOREA_NATURE_PROTECTION:0 "Protect Nature"
-HYPOBOREA_NATURE_PROTECTION_desc:0 "The nature of our ancestral land must be protected from all harm for all eternity. The Gods walk in these woods."
-HYPOBOREA_THE_GREAT:0 "Hyperborea the Great"
-HYPOBOREA_THE_GREAT_desc:0 "We achieved the northern dream. Hyperborea is the ancestral home of the Germanic race and a fortress to its continuity."
+HYPOBOREA_NATURE_PROTECTION_desc:0 "The nature of our ancestral land must be protected from all harm for all eternity the gods walk in these woods."
+HYPOBOREA_THE_GREAT:0 "Hypoborea the Great"
+HYPOBOREA_THE_GREAT_desc:0 "We achieved the northern dream. Hypoborea is the ancestral home of the Germanic race and a fortress to it's continuity."
 GRU_newfocustemp:0 "This Mod was created by discord User Yaaaay 3949"
 GRU_newfocustemp_desc:0 ""
 
@@ -522,13 +522,11 @@ GRU_THE_DEMOCRACY_PROMISE_desc:0 "The time has come for us to fulfill the promis
 GRU_GCW_VICTORY:0 "Victory!"
 GRU_GCW_VICTORY_desc:0 "We have defeated the Imperial forces and are now the sole government in Germany!"
 
-#################################################CONTINUING FROM HERE##############################################################
-
 ###flags####
 PARTIES_FORMED:0 "Germany is ready for its first congress"
 GRU_CONGRESS_DONE:0 "The first Congress of German Unions is over"
-GRU_SMEPD_SPLIT_SOLVED:0 "The internal SMEPD split has ben solved"
-GRU_INDUSTRIAL_CAPACITY_ENOUGH:0 "Germany has sufficent industrial capacity to sustain an army again"
+GRU_SMEPD_SPLIT_SOLVED:0 "The internal SMEPD split has been solved"
+GRU_INDUSTRIAL_CAPACITY_ENOUGH:0 "Germany has sufficient industrial capacity to sustain an army again"
 GRU_REBUILD:0 "Germany has been rebuilt"
 GRU_NMDVP_rule:0 "The NMDVP won the congress election!"
 GRU_SMEPD_rule:0 "The SMEPD won the congress election!"
@@ -554,17 +552,17 @@ GRU_FDJ:0 "FDJ"
 GRU_FDJ_desc:0 "The Freie Deutsche Jugend\n\the political and ideological goal of the FDJ is to influence every aspect of life of young people in Germany, distribution of National-Marxism and the promotion of „German behavior“ as the Volksführer calls it.\nMembership in the FDJ is nominally voluntary, however, those who do not join lose access to organized holidays, and find it difficult, if not impossible to be admitted to universities, pursue chosen careers, etc. The FDJ has appropriated many of the activities of the Boy Scouts movement which has been banned since the formation of the FDJ; including camping and hiking. However, its content and intention are different. For example, many activities closely resemble military training, with weapons training, assault course circuits and basic tactics. The aim is to instill the motivation that will enable its members to fight faithfully for Germany as soldiers. There is greater emphasis on physical fitness, hardness and military training than on academic study."
 
 GRU_red_ufa:0 "UFA"
-GRU_red_ufa_desc:0 "After their nationalization all media distribution and production has been merged into the UFA to serve as Germany's new centralised propaganda machine."
+GRU_red_ufa_desc:0 "After their nationalization all media distribution and production has been merged into the UFA to serve as Germany's new centralized propaganda machine."
 
 
 GRU_blackbook:0 "Schwarzes Buch der Partei"
-GRU_blackbook_desc:0 "The black book of the party.\n\the Volksführer has published this ideological mastpiece in which his ideological thought on state and society are set in stone.\nEvery German household is to recieve a copy of this book as well as every German on his sixteenth birthday.\nOf course every citizen is expected to read it carefully so they can easialy detect and report all forms of anti-governmental speech, action or both."
+GRU_blackbook_desc:0 "The black book of the party.\n\The Volksführer has published this ideological masterpiece in which his ideological thought on state and society are set in stone.\nEvery German household is to receive a copy of this book as well as every German on his sixteenth birthday.\nOf course, every citizen is expected to read it carefully so they can easily detect and report all forms of anti-governmental speech, action or both."
 
 GRU_breitspur:0 "Breitspurbahnen"
 GRU_breitspur_desc:0 "The Breitspurbahnen is an ongoing project of building up a railroad network with an extremely wide gauge width.\the idea behind this is to interlink all German cities and areas with high industrial development or large amount of resources."
 
 GRU_guard:0 "R.R. - Revolutionäres Regiment"
-GRU_guard_desc:0 "The Revolutionary Regiment.\n\these men fear no one, in fact everyone else fears them now not only in Germany as their reputation has already reached neighbouring countries.\n\The Revolutionary Regiment, dressed in all black uniforms with their crimson runic 'RR' symbols serves as a small elite force under direct command of the party. They are responsible for the deportation and removal of enemies of the state in Germany and beyond."
+GRU_guard_desc:0 "The Revolutionary Regiment.\n\These men fear no one, in fact everyone else fears them now not only in Germany as their reputation has already reached neighboring countries.\n\The Revolutionary Regiment, dressed in all black uniforms with their crimson runic 'RR' symbols serves as a small elite force under direct command of the party. They are responsible for the deportation and removal of enemies of the state in Germany and beyond."
 
 GRU_lager:0 "Anhaltelager"
 GRU_lager_desc:0 "These camps are run by the R.R. and no one knows what happens to those that end up in them, all the average citizen will ever know of them is the thick black smoke hailing from them."
@@ -574,7 +572,7 @@ GRU_new_germany:0 "Das neue Deutschland!"
 GRU_new_germany_desc:0 "The new Germany.\n\nGermany has been reborn, risen from the ashes when it was crushed by foreign forces, but no more! Now we have been reborn like a phoenix and we shall forever vanguard our glorious Fatherland!"
 
 GRU_deutsche_architecture:0 "Deutschsozialistische Architektur"
-GRU_deutsche_architecture_desc:0 "German Socialist Architecture.\n\the Volksführer has developed a special interest in the architectural image of Germany.\nSome might question why chose a reactionary as his new national architect but who knows what Albert Speer might accomplish if guided by the hand of the revolution."
+GRU_deutsche_architecture_desc:0 "German Socialist Architecture.\n\The Volksführer has developed a special interest in the architectural image of Germany.\nSome might question why chose a reactionary as his new national architect but who knows what Albert Speer might accomplish if guided by the hand of the revolution."
 
 GRU_heavy_industry:0 "Neue Schwerindustrie"
 GRU_heavy_industry_desc:0 "New Heavy Industries.\n\nWe have building up a new heavy industry that will dwarf the industries of all other European countries."
@@ -583,7 +581,7 @@ GRU_carrier:0 "Naval Focus: Carriers"
 GRU_carrier_desc:0 "Our Navy development is focused on building up a carrier task force based fleet."
 
 GRU_carrier_submarine:0 "Naval Focus: Carriers and Submarines"
-GRU_carrier_submarine_desc:0 "Our Navy development is focused on building up a carrier task force and wolfpacks based fleet."
+GRU_carrier_submarine_desc:0 "Our navy development is focused on building up a carrier task force and wolfpacks based fleet."
 
 GRU_carrier_cruiser:0 "Naval Focus: Carriers and Cruisers"
 GRU_carrier_cruiser_desc:0 "Our Navy development is focused on building up a carrier task force and cruiser based fleet."
@@ -598,7 +596,7 @@ GRU_battleship:0 "Naval Focus: Battleships"
 GRU_battleship_desc:0 "Our Navy development is focused on building up a battleship task force based fleet."
 
 GRU_battleship_submarine:0 "Naval Focus: Battleships and Submarines"
-GRU_battleship_submarine_desc:0 "Our Navy development is focused on building up a battleship task force and wolfpacks based fleet."
+GRU_battleship_submarine_desc:0 "Our navy development is focused on building up a battleship task force and wolfpacks based fleet."
 
 GRU_battleship_cruiser:0 "Naval Focus: Battleships and Cruisers"
 GRU_battleship_cruiser_desc:0 "Our Navy development is focused on building up a battleship task force and cruiser based fleet."
@@ -609,35 +607,35 @@ GRU_battleship_submarine_OK_NVM_desc:0 "The naval high command of the German nat
 GRU_battleship_cruiser_OK_NVM:0 "Oberkommando National Volksmarine"
 GRU_battleship_cruiser_OK_NVM_desc:0 "The naval high command of the German national armed forces.\n\nOur Fleet has a heavy focus on Battleships task forces and Cruisers."
 
-GRU_fighter:0 "Airforce Focus: Fighters"
-GRU_fighter_desc:0 "Our Airforce development is focused on building up a Fighter based Airforce."
+GRU_fighter:0 "Air Force Focus: Fighters"
+GRU_fighter_desc:0 "Our air force development is focused on building up a Fighter based air force."
 
-GRU_fighter_ground:0 "Airforce Focus: Fighters and ground support"
-GRU_fighter_ground_desc:0 "Our Airforce development is focused on building up a Fighter and ground support based Airforce."
+GRU_fighter_ground:0 "Air Force Focus: Fighters and ground support"
+GRU_fighter_ground_desc:0 "Our air force development is focused on building up a Fighter and ground support based air force."
 
-GRU_fighter_sea:0 "Airforce Focus: Fighters and naval support"
-GRU_fighter_sea_desc:0 "Our Airforce development is focused on building up a Fighter and naval support based Airforce."
+GRU_fighter_sea:0 "Air Force Focus: Fighters and naval support"
+GRU_fighter_sea_desc:0 "Our air force development is focused on building up a Fighter and naval support based air force."
 
 GRU_fighter_ground_OK_NLW:0 "Oberkommando Nationale Luftwaffe"
-GRU_fighter_ground_OK_NLW_desc:0 "The airforce high command of the German national armed forces.\n\nOur Airforce has a heavy focus on Fighters and ground support."
+GRU_fighter_ground_OK_NLW_desc:0 "The air force high command of the German national armed forces.\n\nOur air force has a heavy focus on Fighters and ground support."
 
 GRU_fighter_sea_OK_NLW:0 "Oberkommando Nationale Luftwaffe"
-GRU_fighter_sea_OK_NLW_desc:0 "The airforce high command of the German national armed forces.\n\nOur Airforce has a heavy focus on Fighters and naval support."
+GRU_fighter_sea_OK_NLW_desc:0 "The air force high command of the German national armed forces.\n\nOur air force has a heavy focus on Fighters and naval support."
 
-GRU_bomber:0 "Airforce Focus: Bombers"
-GRU_bomber_desc:0 "Our Airforce development is focused on building up a bomber based Airforce."
+GRU_bomber:0 "Air Force Focus: Bombers"
+GRU_bomber_desc:0 "Our air force development is focused on building up a bomber based air force."
 
-GRU_bomber_ground:0 "Airforce Focus: Bombers and ground support"
-GRU_bomber_ground_desc:0 "Our Airforce development is focused on building up a bomber and ground support based Airforce."
+GRU_bomber_ground:0 "Air Force Focus: Bombers and ground support"
+GRU_bomber_ground_desc:0 "Our air force development is focused on building up a bomber and ground support based air force."
 
-GRU_bomber_sea:0 "Airforce Focus: Bombers and naval support"
-GRU_bomber_sea_desc:0 "Our Airforce development is focused on building up a bomber and naval support based Airforce."
+GRU_bomber_sea:0 "Air Force Focus: Bombers and naval support"
+GRU_bomber_sea_desc:0 "Our air force development is focused on building up a bomber and naval support based air force."
 
 GRU_bomber_ground_OK_NLW:0 "Oberkommando Nationale Luftwaffe"
-GRU_bomber_ground_OK_NLW_desc:0 "The airforce high command of the German national armed forces.\n\nOur Airforce has a heavy focus on bombers and ground support."
+GRU_bomber_ground_OK_NLW_desc:0 "The air force high command of the German national armed forces.\n\nOur air force has a heavy focus on bombers and ground support."
 
 GRU_bomber_sea_OK_NLW:0 "Oberkommando Nationale Luftwaffe"
-GRU_bomber_sea_OK_NLW_desc:0 "The airforce high command of the German national armed forces.\n\nOur Airforce has a heavy focus on bombers and naval support."
+GRU_bomber_sea_OK_NLW_desc:0 "The air force high command of the German national armed forces.\n\nOur air force has a heavy focus on bombers and naval support."
 
 GRU_panzer:0 "Army Focus: Panzers"
 GRU_panzer_desc:0 "Our Army development is focused on building up a armored force."
@@ -645,15 +643,15 @@ GRU_panzer_desc:0 "Our Army development is focused on building up a armored forc
 GRU_panzer_two:0 "Army Focus: Panzers and Mechanized Infantry"
 GRU_panzer_two_desc:0 "Our Army development is focused on building up a combined arms force."
 
-GRU_masses:0 "Army Focus: Massconscription"
-GRU_masses_desc:0 "Our Army development is focused on building up a large infantry force."
+GRU_masses:0 "Army Focus: Mass Conscription"
+GRU_masses_desc:0 "Our army development is focused on building up a large infantry force."
 
-GRU_masses_two:0 "Army Focus: Massconscription and overwhelming Artillery"
-GRU_masses_two_desc:0 "Our Army development is focused on building up a large infantry force combined with overwhelming artillery support."
+GRU_masses_two:0 "Army Focus: Mass Conscription and Overwhelming Artillery"
+GRU_masses_two_desc:0 "Our army development is focused on building up a large infantry force combined with overwhelming artillery support."
 
 
 GRU_mobile_generals:0 "Oberkommando Nationales Volksheer"
-GRU_mobile_generals_desc:0 "The army high command of the German national armed forces.\n\nOur land based armed forces are focused on mobility, speed and the use of armored devisions."
+GRU_mobile_generals_desc:0 "The army high command of the German national armed forces.\n\nOur land based armed forces are focused on mobility, speed and the use of armored divisions."
 
 GRU_masses_generals:0 "Oberkommando Nationales Volksheer"
 GRU_masses_generals_desc:0 "The army high command of the German national armed forces.\n\nOur land based armed forces are focused on human wave tactics combined with overwhelming artillery fire on enemy positions."
@@ -668,7 +666,7 @@ GRU_eleced_off:0 "Elected Officers"
 GRU_eleced_off_desc:0 "Soldiers elect their direct superior from among their ranks, except for the Generality which is appointed by the government."
 
 GRU_MFSP:0 "Ministerium für Spezialprojekte"
-GRU_MFSP_desc:0 "Ministry of Special Projects.\the Ministry of Special Projects is tasked with allocating brainpool and resources for top primacy projects."
+GRU_MFSP_desc:0 "Ministry of Special Projects.\the Ministry of Special Projects is tasked with allocating brain pool and resources for top primacy projects."
 
 
 
@@ -697,14 +695,14 @@ GRU_DSR_fortschritt_desc:0 "Progress!\n\nWe have achieved our dreams of creating
 GRU_DSR_industrialunions:0 "Industrial Unions"
 GRU_DSR_industrialunions_desc:0 "The unionization of German industry has given us a strong base to build an even stronger economy."
 
-GRU_DSR_COMITTEE:0 "Union Trade Comittee"
-GRU_DSR_COMITTEE_desc:0 "The Union Trade Comittee serves as a middleman for resource trade between unions and foreign countries or other unions as well as a central command in case of needs for one."
+GRU_DSR_COMITTEE:0 "Union Trade Committee"
+GRU_DSR_COMITTEE_desc:0 "The Union Trade Committee serves as a middleman for resource trade between unions and foreign countries or other unions as well as a central command in case of needs for one."
 
 GRU_DSR_ressources1:0 "The URED"
 GRU_DSR_ressources1_desc:0 "The Union for Resource Extraction and Distribution or URED is a state-run union that controls the extraction and distribution of natural resources."
 
 GRU_DSR_ressources2:0 "The UREDAC"
-GRU_DSR_ressources2_desc:0 "The Union for Resource Extraction, Distribution and Agricultural Communes shortened UREDAC is a state run union that controlls the extraction and distribution of natural resources as well as agricultural products."
+GRU_DSR_ressources2_desc:0 "The Union for Resource Extraction, Distribution and Agricultural Communes shortened UREDAC is a state run union that controls the extraction and distribution of natural resources as well as agricultural products."
 
 
 
@@ -722,7 +720,7 @@ GRU_SPD_Education1:0 "Liberal Education"
 GRU_SPD_Education1_desc:0 "Political or religious thought has no place in schools, our school system will serve as what it is meant to be; a place to obtain knowledge and nothing more. Future generations must think for themselves."
 
 GRU_SPD_Education2:0 "Liberal Education and Education Grants"
-GRU_SPD_Education2_desc:0 "Political or Religious thought has no place in schools, our schoolsystem will serve as what it is meant to be a place to obtain knowledge nothing more future generations must think for themself.\n\nThose that can not afford to study but show the qualities for academic works will get governmental funds to finance their studies."
+GRU_SPD_Education2_desc:0 "Political or Religious thought has no place in schools, our school system will serve as what it is meant to be a place to obtain knowledge nothing more future generations must think for themselves.\n\nThose that can not afford to study but show the qualities for academic works will get governmental funds to finance their studies."
 
 GRU_SPD_FAUD_EINIGKEIT_RECHT:0 "Einigkeit und Recht und.."
 GRU_SPD_FAUD_EINIGKEIT_RECHT_desc:0 "Unity and Justice are principles that will form the core of our constitution and society."
@@ -740,7 +738,7 @@ GRU_SPD_SOCIAL_MARKET:0 "Social Market Economics"
 GRU_SPD_SOCIAL_MARKET_desc:0 "We have established the basis for a social market economy that combines a free market with social ideals and security."
 
 GRU_SPD_SOCIAL_MARKET_MIRACLE:0 "Social Market Economics - The Economic Miracle"
-GRU_SPD_SOCIAL_MARKET_MIRACLE_desc:0 "We have established a social market economy that combines a free market with social ideals and security and now we shall harvest the fruits of our labour.\nOur economy is one of the fastest growing in the world and wealth for the masses has become a reality."
+GRU_SPD_SOCIAL_MARKET_MIRACLE_desc:0 "We have established a social market economy that combines a free market with social ideals and security and now we shall harvest the fruits of our labor.\nOur economy is one of the fastest growing in the world and wealth for the masses has become a reality."
 
 GRU_SPD_WORKER_RIGHTS:0 "Worker Rights"
 GRU_SPD_WORKER_RIGHTS_desc:0 "By passing several laws that protect workers from unfair treatment of their employers we shall create a society in which classes exist in harmony."
@@ -754,26 +752,26 @@ gru_red_imperialism2:0 "Germanic Imperialism"
 gru_red_imperialism2_desc:0 "We conquered and subjugated all those in our way and now we are the supreme rulers of Europe."
 GRU_paganism_idea:0 "Wodan Kirche"
 GRU_paganism_idea_desc:0 "The church of Wodan will guide our people to a new age."
-gru_red_imperialism3:0 "Germanic Millenium"
+gru_red_imperialism3:0 "Germanic Millennium"
 gru_red_imperialism3_desc:0 "We conquered and subjugated all those in our way and now we are the supreme rulers of Europe. Our empire shall rule for millennia to come!"
 GRU_the_eye_idea:0 "All seeing Eye"
 GRU_the_eye_idea_desc:0 "Nothing is hidden, all is seen, freedom is slavery and ignorance is strength."
 GRU_NW_FAMILY_idea:0 "National-Marxist Family"
 GRU_NW_FAMILY_idea_desc:0 "The ideal National-Marxist Family consists of a Father, a Mother, and 5 children. The mother is obligated to take care of the household and to raise the children she gave birth to.\the father is the Worker-Soldier of the state who has to provide for his family and together the father and the mother must raise their children in their image."
 GRU_soccredit_idea:0 "Treuepunktesystem"
-GRU_soccredit_idea_desc:0 "Permits obligations and bans on certain activities are bound to everyones own loyality points, our society is thus encouraged to be a loyal model citizen to the state."
+GRU_soccredit_idea_desc:0 "Permits obligations and bans on certain activities are bound to everyone's own loyalty points, our society is thus encouraged to be a loyal model citizen to the state."
 
 GRU_WORLD_REVOLUTION:0 "Exporting the Revolution"
 GRU_WORLD_REVOLUTION_desc:0 "We will export the Revolution!"
 GRU_arsenal_of_syndicalism_idea:0 "The Arsenal of Syndicalist-Marxism"
-GRU_arsenal_of_syndicalism_idea_desc:0 "Our industral war machine is restless in preparation for the finale struggle."
+GRU_arsenal_of_syndicalism_idea_desc:0 "Our industrial war machine is restless in preparation for the finale struggle."
 GRU_RED_TRADE:0 "Red Trade"
 GRU_RED_TRADE_desc:0 "We shall only trade with Nations that have embraced the revolution and we must pressure our allies to do the same."
 GRU_RED_WORLD:0 "The World Revolution"
 GRU_RED_WORLD_desc:0 "We will swipe over the globe as the red tide that washes away the old."
 
 GRU_VOLKSGESUNDHEITSAMT:0 "Volksgesundheitsamt"
-GRU_VOLKSGESUNDHEITSAMT_desc:0 "The Volksgesundheitsamt or Ministry for the peoples health has been established to safeguard the German Volks genetic inheritance.\nIt is tasked with the forced sterilization of those deemed geneticly inferior and tasked with research on race, genetics and eugenics.\nAnother task of the ministry is to set laws regarding marriage and procreation between cultures and races."
+GRU_VOLKSGESUNDHEITSAMT_desc:0 "The Volksgesundheitsamt or Ministry For the Peoples Health has been established to safeguard the German Volks' genetic inheritance.\nIt is tasked with the forced sterilization of those deemed genetically inferior and tasked with research on race, genetics and eugenics.\nAnother task of the ministry is to set laws regarding marriage and procreation between cultures and races."
 
 
 GRU_HEROISM:0 "Positive Heroism"
@@ -796,13 +794,13 @@ GRU_GPR_desc:0 "The German People's Republic considers itself as the legal succe
 GRU_GDU:0 "Deutsche Demokratische Union"
 GRU_GDU_desc:0 "The German Democratic Union considers itself as the legal successor to all former German governments which it also considers to be illegal if they still exist in some form."
 GRU_GESTAPO:0 "Gestapo"
-GRU_GESTAPO_desc:0 "The Gestapo or Geheime Staatspolizei is a political survillance and enforcement unit acting similarly to the police but with less humane methods."
+GRU_GESTAPO_desc:0 "The Gestapo or Geheime Staatspolizei is a political surveillance and enforcement unit acting similarly to the police but with less humane methods."
 GRU_DIRECT_CONTROL:0 "Direct Union Control"
 GRU_DIRECT_CONTROL_desc:0 "The unions no longer elect their leaders in a democratic manner, instead the party appoints their favorite candidate."
 GRU_PARLIAMENT:0 "Empowered Parliament"
-GRU_PARLIAMENT_desc:0 "The Parliament has been empowered decentralising the supreme pwoer inside the government among several high offices."
+GRU_PARLIAMENT_desc:0 "The Parliament has been empowered decentralizing the supreme power inside the government among several high offices."
 GRU_RED_PATRIOT:0 "Red Patriotism"
-GRU_RED_PATRIOT_desc:0 "While openly condeming nationalism we promote Red Patriotism towards our Syndicalist state."
+GRU_RED_PATRIOT_desc:0 "While openly condemning Nationalism we promote Red Patriotism towards our Syndicalist state."
 GRU_FEMALE_SOLDIER:0 "Female Soldiers"
 GRU_FEMALE_SOLDIER_desc:0 "We allow women to serve and work in all jobs as their male counterparts do."
 
@@ -814,8 +812,8 @@ GRU_COMMUNAL_HOUSING:0 "Communal Housing"
 GRU_SUCCDUM:0 "Socialist Democracy"
 
 
-VK_COLONY_ONE:0 "Early colonisation"
-VK_COLONY_TWO:0 "Ongoing colonisation"
+VK_COLONY_ONE:0 "Early colonization"
+VK_COLONY_TWO:0 "Ongoing colonization"
 VK_COLONY_THREE:0 "Fully colonized"
 
 VK_COLONY_SETTLERS_ONE:0 "Germanic immigration"
@@ -825,7 +823,7 @@ VK_COLONY_INDUSTRY_ONE:0 "German Industrial model"
 VK_COLONY_INDUSTRY_TWO:0 "Slavery based Industry"
 
 GRU_FUTHARK:0 "Futhark writing"
-GRU_FUTHARK_desc:0 "The Latin alphabet ahs been declared a foreign hostile influence on Germanic culture and is to be phased out by the old Germanic Futhark."
+GRU_FUTHARK_desc:0 "The Latin alphabet has been declared a foreign hostile influence on Germanic culture and is to be phased out by the old Germanic Futhark."
 
 HYP_HYPOBOREA1:0 "Hypoborean Dream"
 
@@ -870,7 +868,7 @@ GRU_DLP_BOUGHT_MEDIA:0 "Controlled Media"
 GRU_OLIGARCHY:0 "Oligarchic Republic"
 
 GRU_FDP_THE_GAY_IS_A_OK:0 "Decriminalized Homosexuality."
-GRU_FDP_secular_state:0 "Seperation of State and Church."
+GRU_FDP_secular_state:0 "Separation of State and Church."
 GRU_FDP_SOCIAL_MARKET_MIRACLE:0 "Social Liberal Market Economics."
 GRU_SOCLIB_DEM:0 "Social Liberal Democracy."
 
@@ -945,10 +943,10 @@ cosmopolitan_war_tourist:0 "Wandering Revolutionary"
 cosmopolitan_war_tourist_desc:0 "This man wanders across Europe in hopes to spark Bolshevik insurgencies."
 
 gru_froncophobe:0 "Francophobe"
-gru_froncophobe_desc:0 "Goebbels harbours great hatred for the French."
+gru_froncophobe_desc:0 "Goebbels harbors great hatred for the French."
 
-gru_chairman:0 "Supreme Chairman\n\n§gWilhelm Pieck has been proclaimed the Supreme Chairman of Germany and the Party granting him absolute pwoer over all administrations of the government as well as both the legeslative and executive powers.§!"
-gru_chairman_desc:0 "Wilhelm Pieck has been proclaimed the Supreme Chairman of Germany and the Party granting him absolute pwoer over all administrations of the government as well as both the legeslative and executive powers."
+gru_chairman:0 "Supreme Chairman\n\n§gWilhelm Pieck has been proclaimed the Supreme Chairman of Germany and the Party granting him absolute power over all administrations of the government as well as both the legislative and executive powers.§!"
+gru_chairman_desc:0 "Wilhelm Pieck has been proclaimed the Supreme Chairman of Germany and the Party granting him absolute power over all administrations of the government as well as both the legislative and executive powers."
 ####ministers####
 GRU_Joseph_Goebbels_hog_tot:0 "Josef Goebbels"
 GRU_Wilhelm_Pieck_hog_tot:0 "Wilhelm Pieck"
@@ -979,13 +977,13 @@ GRU_UOB_syn:0 "British Administration"
 GRU_SRI_syn:0 "Italian Administration"
 
 ###Leaders###
-GRU_GOEBBELS_DESC:0 "When the 2nd Weltkrieg broke out Josef Goebbels was not conscripted due to his malformed foot, a fact he would later try to supress as good as possible to the public, especially due to his strong francophobia he developed during the occupation.\nBefore the war he worked as a journalist and occasional Film Theatre and Theatre critique in his hometown of Rheydt. He was relatively well known in his home region and within the bigger cities of Cologne, Düsseldorf and Mönchengladbach near his hometown.\nHis early contact with Marxism during his youth and tendencies to Nationalism influenced his political leanings and ideological thought alot which he had to hide during the reign of the Kaiser or he might have faced a ban on his journalism work due to repressions against far left writers in the German Empire.\nWhile not beeing in line with traditional Syndicalist or Socialist values he can be seen a a mirror to the French Sorelians with his syncretism between ideological concepts that can be found within the far left and the far right he has manifested himself his very own ideology which he calls „National-Marxism“. It still remains questionable if it is actually different to Sorelian National-Syndicalism."
+GRU_GOEBBELS_DESC:0 "When the 2nd Weltkrieg broke out Josef Goebbels was not conscripted due to his malformed foot, a fact he would later try to suppress as good as possible to the public, especially due to his strong Francophobia he developed during the occupation.\nBefore the war he worked as a journalist and occasional Film Theater and Theater critique in his hometown of Rheydt. He was relatively well known in his home region and within the bigger cities of Cologne, Düsseldorf and Mönchengladbach near his hometown.\nHis early contact with Marxism during his youth and tendencies to Nationalism influenced his political leanings and ideological thought a lot which he had to hide during the reign of the Kaiser or he might have faced a ban on his journalism work due to repressions against far left writers in the German Empire.\nWhile not being in line with traditional Syndicalist or Socialist values he can be seen a a mirror to the French Sorelians with his Syncretism between ideological concepts that can be found within the far left and the far right he has manifested himself his very own ideology which he calls „National-Marxism“. It still remains questionable if it is actually different to Sorelian National-Syndicalism."
 
 
 ###events###
 
 rotermorgenmisc.1.t:0 "The Sythetische Welle"
-rotermorgenmisc.1.d:0 "After the nationalisation and merging of all media production and distribution, into UFA, Volksführer Goebbels ordered them to find new means for massinfluence. An employee at UFA who was responsible for creating background sounds with his Elektrophon and recordings of sounds he would manipulate, came up with a new form of music, the „Sythetische Musik“ at first deemed ungerman by his superior it’s weird modern sounds did catch the ear of Volksführer Goebbels during a routine visit. The Volksführer was stunend by this new truely german form of music and it’s ability to let people „vibe“ on it while adding subliminal messages."
+rotermorgenmisc.1.d:0 "After the nationalization and merging of all media production and distribution, into UFA, Volksführer Goebbels ordered them to find new means for mass influence. An employee at UFA who was responsible for creating background sounds with his Elektrophon and recordings of sounds he would manipulate, came up with a new form of music, the „Sythetische Musik“ at first deemed Un-German by his superior it’s weird modern sounds did catch the ear of Volksführer Goebbels during a routine visit. The Volksführer was stunned by this new truly German form of music and it’s ability to let people „vibe“ on it while adding subliminal messages."
 rotermorgenmisc.1.a:0 "A testament to German supremacy"
 rotermorgenmisc.1.b:0 "BEGONE DEGENERATE"
 
@@ -1008,7 +1006,7 @@ rotermorgenmisc.60.b:0 "These Krauts are up to something."
 rotermorgenmisc.70.t:0 "Germans demand submission."
 rotermorgenmisc.70.d:0 "Today the German government has officially demanded our submission to them on the following terms:\n\n1st:Restoration of the 1936 Franco-German Border.\n2nd:The dissolution of the 3rd Internationale.\n3rd:France joins the Stahlpakt."
 rotermorgenmisc.70.a:0 "We have but no choice left..."
-rotermorgenmisc.70.b:0 "Are they Insane now?"
+rotermorgenmisc.70.b:0 "Are they insane now?"
 
 rotermorgenmisc.80.t:0 "Déat surrenders to us."
 rotermorgenmisc.80.d:0 "Déat seemingly seeing no other way for France to survive has accepted our harsh terms and surrendered to our terms."
@@ -1027,22 +1025,22 @@ rotermorgenmisc.100.b:0 "Fuck off Kraut"
 
 rotermorgenmisc.110.t:0 "News reach us that [From.GetNameDef] refuses our offer."
 rotermorgenmisc.110.d:0 "News reach us that [From.GetNameDef] has refused our generous offer to join our alliance, how will we react to this insult?"
-rotermorgenmisc.110.a:0 "We will bring them into the fold nomatter how."
+rotermorgenmisc.110.a:0 "We will bring them into the fold no matter how."
 rotermorgenmisc.110.b:0 "Back down for now."
 
 rotermorgenmisc.150.t:0 "Rehabilitation of Reichswehr Officers."
-rotermorgenmisc.150.d:0 "While many of the more liberal and less pragmatic leftists may protest this we have but no chocie but to make use of Generals that served in the Reichswehr to build up our new armed forces.."
+rotermorgenmisc.150.d:0 "While many of the more liberal and less pragmatic leftists may protest this we have but no choice but to make use of Generals that served in the Reichswehr to build up our new armed forces.."
 rotermorgenmisc.150.a:0 "Welcome back!"
 
 rotermorgen.70.t:0 "The First Congress of German Unions"
-rotermorgen.70.d:0 "The occupation administration has called upon the first Congress of German Unions in which every union, party or political organization with more than 20.000 members is allowed to participate.\n\n The leading candidates are the SMEPD, which promotes a heavily Marxist influenced form of Syndicalism, and the SPD-R, the radicalised wing of the pre-war SPD, which calls for a "Socialist Democracy".\nBut there are other horses in the race as well. The FAUD, which has lost a lot of influence thanks to the legal formation of leftist parties in Germany, and the NMDVP, which is lead by Josef Goebbels and is not accepted by the other parties for its call for Ultranationalism, promotion of traditional values and call for a „National Rebirth“."
+rotermorgen.70.d:0 "The occupation administration has called upon the first Congress of German Unions in which every union, party or political organization with more than 20.000 members is allowed to participate.\n\n The leading candidates are the SMEPD, which promotes a heavily Marxist influenced form of Syndicalism, and the SPD-R, the radicalized wing of the pre-war SPD, which calls for a "Socialist Democracy".\nBut there are other horses in the race as well. The FAUD, which has lost a lot of influence thanks to the legal formation of leftist parties in Germany, and the NMDVP, which is lead by Josef Goebbels and is not accepted by the other parties for its call for Ultranationalism, promotion of traditional values and call for a „National Rebirth“."
 rotermorgen.70.a:0 "Goebbels - NMDVP Victory"
 rotermorgen.70.b:0 "Pieck/Thälmann - SMEPD Victory"
 rotermorgen.70.c:0 "Rocker - FAUD Victory"
 rotermorgen.70.e:0 "Liebknecht - SPD-R Victory"
 
 rotermorgen.700.t:0 "The Election"
-rotermorgen.700.d:0 "Shortly before the Elections the SPD-R split up again with the Radicals forming the PDS - Partei des Demokratischen Sozialismus and the moderate members returned mostly to the old mainstream SPD again leaving no chance for a return of the SPD-R at all.\n\nSeveral Parties which would be labled Reactionaries by the former government are in the race against the Socialist society that has been build and noone can clearly say what the electiosn outcome will be like..."
+rotermorgen.700.d:0 "Shortly before the Elections the SPD-R split up again with the Radicals forming the PDS - Partei des Demokratischen Sozialismus and the moderate members returned mostly to the old mainstream SPD again leaving no chance for a return of the SPD-R at all.\n\nSeveral Parties which would be labeled Reactionaries by the former government are in the race against the Socialist society that has been build and no one can clearly say what the election outcome will be like..."
 rotermorgen.700.a:0 "Conservatives win! CDU"
 rotermorgen.700.b:0 "The DLP market liberals secured victory!"
 rotermorgen.700.c:0 "The social Liberal FDP has won!"
@@ -1050,27 +1048,27 @@ rotermorgen.700.e:0 "The old guard SPD had won!"
 rotermorgen.700.f:0 "The radicalized PDS will safeguard the socialist democracy!"
 
 rotermorgenmisc.7.t:0 "Liebknecht retires due to Age"
-rotermorgenmisc.7.d:0 "Today the German President Karl Liebknecht announced he would retire and fullfill the early given promise of full democracy.\n\nHaving reached an age of over 70 years Liebknecht nolonger sees himself fit to rule a Nation and wishes to live his last few years in peace."
+rotermorgenmisc.7.d:0 "Today the German President Karl Liebknecht announced he would retire and fulfill the early given promise of full democracy.\n\nHaving reached an age of over 70 years Liebknecht no longer sees himself fit to rule a Nation and wishes to live his last few years in peace."
 rotermorgenmisc.7.a:0 "The SPD-R will not survive this..."
 
 
 rotermorgen.1.t:0 "Be a German Herrmann?"
 rotermorgen.1.d:0 "You have done it! You saved Europe from the Kaiser! Now I only have one question for you!\n\nDo you want to play as Germany?"
 rotermorgen.1.a:0 "No thanks I am good."
-rotermorgen.1.b:0 "Thats the only reason I am here mate!"
+rotermorgen.1.b:0 "That's the only reason I am here mate!"
 
-rotermorgen.80.t:0 "SMEPD infights escalte"
-rotermorgen.80.d:0 "The SMEPD consisting of the SMEPD-S and SMEPD-M factions has finally split due to constant infights among the Syndicalists and Marxists on important matters as the state and future of the economy. The party leadership has called an emergency party convention on which both Thälmann and Pieck as well as several supporters of both did hold inspiring speeches constantly interrupted by insults from party members of the opposite faction.\n\nNow the question remains who came out on top."
-rotermorgen.80.a:0 "Thälmann leads to prosperty!"
+rotermorgen.80.t:0 "SMEPD infighting escalates"
+rotermorgen.80.d:0 "The SMEPD consisting of the SMEPD-S and SMEPD-M factions has finally split due to constant infighting among the Syndicalists and Marxists on important matters as the state and future of the economy. The party leadership has called an emergency party convention on which both Thälmann and Pieck as well as several supporters of both did hold inspiring speeches constantly interrupted by insults from party members of the opposite faction.\n\nNow the question remains who came out on top."
+rotermorgen.80.a:0 "Thälmann leads to prosperity!"
 rotermorgen.80.b:0 "Pieck will guide us!"
 
 rotermorgen.10.t:0 "The Occupation"
-rotermorgen.10.d:0 "Now that we hold total control over Germany we must find a future way for it.\the problem we now face is that while there have been underground organizations all over the German Empire, there has not been any official syndicalist or socialist one beside the FAUD, and we can't simply hand all power to a worker union that has strong factionalism inside.\n\the committee, consiting of the French, British and Italian delegations, has decided to call for the Germans to form unions parties for a future Congress of German Unions."
+rotermorgen.10.d:0 "Now that we hold total control over Germany we must find a future way for it.\the problem we now face is that while there have been underground organizations all over the German Empire, there has not been any official syndicalist or socialist one beside the FAUD, and we can't simply hand all power to a worker union that has strong factionalism inside.\n\the committee, consisting of the French, British and Italian delegations, has decided to call for the Germans to form unions parties for a future Congress of German Unions."
 rotermorgen.10.a:0 "We shall see how this develops."
 
 rotermorgen.20.t:0 "The Remains of the Old Parties"
 rotermorgen.20.d:0 "While officially having banned all pre-war German parties at first, we have decided to legalize parties again that had shown commitment to the workers' struggle before the war.\n\nSeveral Syndicalist organizations and unions around prominent German Syndicalists like Ernst Thälmann are forming, but there is also the SPD which is having a great schism right now between those that oppose radical Socialist ideals the the radical members that have now formed the SPD-R faction around Karl Liebknecht inside the SPD."
-rotermorgen.20.a:0 "An intersesting development."
+rotermorgen.20.a:0 "An interesting development."
 
 rotermorgen.30.t:0 "The FAUD Split"
 rotermorgen.30.d:0 "The FAUD has recently faced some major problems, when Ernst Thälmann left with a significant portion of its more Centralist members to form the SUDA „Syndikalistsche Union Deutscher Arbeiter“.\nFollowing this, the remains of the FAUD have made it clear that they will now represent the only truly Syndicalist union, as they call Thälmann a Marxist, Bolshevik, and traitor to liberty for his centralization stance on the government and economy."
@@ -1091,15 +1089,15 @@ rotermorgen.51.a:0 "Syndicalist-Marxism?"
 rotermorgen.52.t:0 "Josef Goebbels and the NMDVP"
 rotermorgen.52.d:0 "Troubling news have reached our desks. That maniac from the Rhine, Josef Goebbels, did actually manage to sway people to his cause and organized his own party, the NMDVP, a „National-Marxist“ party as he calls it which is more or less a Marxist version of Sorelian National-Syndicalism.\n\nHe even openly defies our power monopoly by forming his own militia called the „beefsteaks“ by many due to them using brown uniforms with red shirts."
 rotermorgen.52.a:0 "Get me that troublemaker's head!"
-rotermorgen.52.b:0 "Allow him to run in the elctions if he holds his men on a leash."
+rotermorgen.52.b:0 "Allow him to run in the elections if he holds his men on a leash."
 
 
 rotermorgen.60.t:0 "Preparing the First Congress of German Unions"
 rotermorgen.60.d:0 "We have prepared meeting spaces for representatives of all unions and parties of significant size to participate in the first Congress of German Unions."
-rotermorgen.60.a:0 "We realy did a great job here, didn't we?"
+rotermorgen.60.a:0 "We really did a great job here, didn't we?"
 
 rotermorgen.61.t:0 "Brownshirts clash with Military Police"
-rotermorgen.61.d:0 "37 dead! NMDVP and Police clash!\n\nIt is on all the german newspapers the NMDVP did not kind to our failed attempt to arrest it's leader and the significant size of it's militia and the fact that weapons from the war are all over the country make it impossible to end it this way without more bloodsheet.\n\there is only one way left now, we must tolerate and allow the party for now in turn for turning in everyone that activly harmed or killed policemen."
+rotermorgen.61.d:0 "37 dead! NMDVP and Police clash!\n\nIt is on all the German newspapers the NMDVP did not kind to our failed attempt to arrest it's leader and the significant size of it's militia and the fact that weapons from the war are all over the country make it impossible to end it this way without more bloodshed.\n\there is only one way left now, we must tolerate and allow the party for now in turn for turning in everyone that actively harmed or killed policemen."
 rotermorgen.61.a:0 "Just get that fucking congress done"
 
 
@@ -1121,19 +1119,19 @@ rotermorgenmisc.668.d:0 "A silence of horror would be a fitting description of t
 rotermorgenmisc.668.a:0 "...death by public hanging."
 rotermorgenmisc.668.b:0 "...death by public stoning."
 rotermorgenmisc.668.c:0 "...death by public beheading."
-rotermorgenmisc.668.e:0 "...death by getting dragged by a steamlokomotive."
+rotermorgenmisc.668.e:0 "...death by getting dragged by a steam locomotive."
 
-rotermorgenrussiandoom.3.t:0 "Collaps of the Eastern Giant"
-rotermorgenrussiandoom.3.d:0 "It seems as if the Russians could no longer withstand the German forces that hammered through eastern Europe like thunder and in the chaos that errupted after the Russian military surrendered civil order broke down all over the remains of russia giving birth to many new and old nations again."
+rotermorgenrussiandoom.3.t:0 "Collapse of the Eastern Giant"
+rotermorgenrussiandoom.3.d:0 "It seems as if the Russians could no longer withstand the German forces that hammered through Eastern Europe like thunder, and in the chaos that erupted after the Russian military surrendered, civil order broke down all over the remains of Russia giving birth to many new and old nations again."
 rotermorgenrussiandoom.3.a:0 "Russia now lays in the history books."
 
 rotermorgenmisc.4.t:0 "The Futhark"
-rotermorgenmisc.4.d:0 "Volksführer Goebbels has declared that the Latin alphabet due to it's foreign origin will be phased ut by the Germanic Futhark scripture.\n\nAll citizens will be obligated to learn Futhark script as afer a period of two years the Latin alphabet will be banned for official documents and schools."
+rotermorgenmisc.4.d:0 "Volksführer Goebbels has declared that the Latin alphabet due to it's foreign origin will be phased ut by the Germanic Futhark scripture.\n\nAll citizens will be obligated to learn Futhark script as after a period of two years the Latin alphabet will be banned for official documents and schools."
 rotermorgenmisc.4.a:0 "Return to the old."
 
 
 rotermorgenmisc.5.t:0 "The Soul of Art"
-rotermorgenmisc.5.d:0 "Among the artists at our most recent art convention, a rather well known artist by the name of Felix Nussbaum showcased his many pieces of art, chief among which being one that had most critics amazed.\the piece, entitled 'The Soul', depicts a completely blank, white canvas, and while nearly all critics called it 'a Dadaist masterpiece' and said 'it's an example of what art should be about', some other critics called it 'bland', 'soulless', however, they were silenced by the crowd booing them out.\nAfterwards ,some of the artists in favour of Nussbaum even started to remove pieces created by those that were in critique of 'The Soul'."
+rotermorgenmisc.5.d:0 "Among the artists at our most recent art convention, a rather well known artist by the name of Felix Nussbaum showcased his many pieces of art, chief among which being one that had most critics amazed.\the piece, entitled 'The Soul', depicts a completely blank, white canvas, and while nearly all critics called it 'a Dadaist masterpiece' and said 'it's an example of what art should be about', some other critics called it 'bland', 'soulless', however, they were silenced by the crowd booing them out.\nAfterwards ,some of the artists in favor of Nussbaum even started to remove pieces created by those that were in critique of 'The Soul'."
 rotermorgenmisc.5.a:0 "THIS is what true art is all about!"
 
 rotermorgenmisc.6.t:0 "Germany's first Doggo"
@@ -1141,7 +1139,7 @@ rotermorgenmisc.6.d:0 "After singing the decree to guarantee the basic animal ri
 rotermorgenmisc.6.a:0 "All love Susi!"
 
 rotermorgenmisc.777.t:0 "The Traitor"
-rotermorgenmisc.777.d:0 "It was late in the evening when the door to the Volksführers office silently opened and Paetel entered it, he drew his Luger pointing it directly at the Volksführer. He started to speak gibberish and strange things about the Volksführer beeing a reactionary and not revolutionary enough having betrayed the revolution which he Karl Otto Paetel would now save from him.\n\the Volksführer stared into Paetels eyes and only commented that someone as ugly as Paetel should never have been put in charge of anything.\n\nThan a shot was fired."
+rotermorgenmisc.777.d:0 "It was late in the evening when the door to the Volksführers office silently opened and Paetel entered it, he drew his Luger pointing it directly at the Volksführer. He started to speak gibberish and strange things about the Volksführer being a reactionary and not revolutionary enough having betrayed the revolution which he Karl Otto Paetel would now save from him.\n\the Volksführer stared into Paetel's eyes and only commented that someone as ugly as Paetel should never have been put in charge of anything.\n\nThan a shot was fired."
 rotermorgenmisc.777.a:0 "...and so it ends."
 
 rotermorgenmisc.778.t:0 "The Hero"
@@ -1149,12 +1147,12 @@ rotermorgenmisc.778.d:0 "Paetel lays on the floor itching in pain as the blood l
 rotermorgenmisc.778.a:0 "Mein Held!."
 
 rotermorgenmisc.800.t:0 "Germans pressure us to join the Internationale"
-rotermorgenmisc.800.d:0 "Today we recieved a telegram from the German Syndicalist Republic offering us in accordance with France to join the 3rd Internationale.\nThis could be a great chance for us to gain the protection from the Syndicalist giants of Europe."
+rotermorgenmisc.800.d:0 "Today we received a telegram from the German Syndicalist Republic offering us in accordance with France to join the 3rd Internationale.\nThis could be a great chance for us to gain the protection from the Syndicalist giants of Europe."
 rotermorgenmisc.800.a:0 "Finally!"
 rotermorgenmisc.800.a:0 "No thanks."
 
 rotermorgenmisc.801.t:0 "Germans want us to join them"
-rotermorgenmisc.801.d:0 "Today we recieved a telegram from the Germans Syndicalist Republic offering us to join their Alliance."
+rotermorgenmisc.801.d:0 "Today we received a telegram from the Germans Syndicalist Republic offering us to join their Alliance."
 rotermorgenmisc.801.a:0 "Finally!"
 rotermorgenmisc.801.a:0 "No thanks."
 
@@ -1164,10 +1162,10 @@ rotermorgenmisc.810.a:0 "Not realy a loss is it?"
 
 
 
-#### German Civil Wr #####
+#### German Civil War #####
 
 rotermorgenGCW.2.t:0 "The Economy in ruins"
-rotermorgenGCW.2.d:0 "After our failure to deal with the aftermath of the 'Black Monday' German companies are going down in bankruptcy en mass.\nWorkers are discharged in the hundreads of thousands facing a new reality without hope."
+rotermorgenGCW.2.d:0 "After our failure to deal with the aftermath of the 'Black Monday' German companies are going down in bankruptcy en mass.\nWorkers are discharged in the hundreds of thousands facing a new reality without hope."
 rotermorgenGCW.2.a:0 "That will just solve itself eventually!"
 
 rotermorgenGCW.3.t:0 "Unemployed masses flock the streets"
@@ -1179,13 +1177,13 @@ rotermorgenGCW.4.d:0 "There are massive riots breaking out everywhere across Ger
 rotermorgenGCW.4.a:0 "Mein Gott it is 1918 all over again...."
 
 rotermorgenGCW.5.t:0 "Open Rebellion"
-rotermorgenGCW.5.d:0 "It happened...\n\the unthinkable has happened, we are facing an open rebellion stired up by all sorts of Leftists and left alligned nationalists from the Rhine several 'National-MArxist', 'National-Bolsheviks" from the north Socialists and Bolsheviks and from all of the western German lands unemployed Germans that sought help with the FAUD and other Syndicalist Unions.\n\nNow these unlikly allies have all formed a unified front and central command already having swayed half our worker class based soldiers and sailors to their cause we face te biggest war on german soil since the napoleonic age and as if it wasn not yet enough the vile Commune of France has seized the opportunity to seize Alsace-Lorraine."
+rotermorgenGCW.5.d:0 "It happened...\n\The unthinkable has happened, we are facing an open rebellion stirred up by all sorts of Leftists and left aligned Nationalists from the Rhine several 'National-MArxist', 'National-Bolsheviks" from the north Socialists and Bolsheviks and from all of the western German lands unemployed Germans that sought help with the FAUD and other Syndicalist Unions.\n\nNow these unlikely allies have all formed a unified front and central command already having swayed half our worker class based soldiers and sailors to their cause we face the biggest war on German soil since the Napoleonic age and as if it wasn't not yet enough the vile Commune of France has seized the opportunity to seize Alsace-Lorraine."
 rotermorgenGCW.5.a:0 "Für Gott und Vaterland!"
 rotermorgenGCW.5.b:0 "The Revolution has arrived!"
 
 
 rotermorgenGCW.10.t:0 "Victory Proclaimed"
-rotermorgenGCW.10.d:0 "The Revolutionary Central Command has proclaimed total Victory over the Imperial Forces and called for a quick restoration of order in Germany having already signed a treaty with france to give up all claims on Alsace-Lorraine in exchange for membership in the Internationale.\n\nMeanwhileld rivalries and ideological incompatibilities are boiling up again but also newly forged alliances have emerged inside the revolution.\n\the ideological leaders of the revolution have already started to organize their own new political parties for the upcomming first german congress."
+rotermorgenGCW.10.d:0 "The Revolutionary Central Command has proclaimed total Victory over the Imperial Forces and called for a quick restoration of order in Germany having already signed a treaty with France to give up all claims on Alsace-Lorraine in exchange for membership in the Internationale.\n\nMeanwhileld rivalries and ideological incompatibilities are boiling up again but also newly forged alliances have emerged inside the revolution.\n\the ideological leaders of the revolution have already started to organize their own new political parties for the upcoming first German congress."
 rotermorgenGCW.10.a:0 "And so we boldly go."
 
 rotermorgenGCW.20.t:0 "The SPD holds strong!"
@@ -1193,24 +1191,24 @@ rotermorgenGCW.20.d:0 "Karl Liebknecht who already was one of the leaders in the
 rotermorgenGCW.20.a:0 "The old guard returns."
 
 rotermorgenGCW.30.t:0 "Champions of the Masses"
-rotermorgenGCW.30.d:0 "The FAUD, the biggest worker union in germany often marginalised by the imperial government and beeing the undisputed champion of the worker class gas called for a reorganisation as a political party which has caused several internal problems because of political rivalries of high ranking mebers."
+rotermorgenGCW.30.d:0 "The FAUD, the biggest worker union in Germany, often marginalized by the imperial government and being the undisputed champion of the worker class, has called for a reorganization as a political party which has caused several internal problems because of political rivalries of high ranking members."
 rotermorgenGCW.30.a:0 "Still one of biggest."
 
 rotermorgenGCW.40.t:0 "Syndiclaistischer Marxismus"
-rotermorgenGCW.40.d:0 "The leader of the authoritarian syndicalists Ernst Thälmann and the bolshevik Wilhelm Pieck have agreed that tier ideological believes have enough in common for a unified frotn against the liberals and nationalists inside the revolution.\they have called for all their followers to enlist in their newly founded Syndicalist-Marxist party the SMEPD.\n\nif tha twill be enough to challange the big ones?"
+rotermorgenGCW.40.d:0 "The leader of the authoritarian syndicalists Ernst Thälmann and the Bolshevik Wilhelm Pieck have agreed that tier ideological believes have enough in common for a unified front against the Liberals and Nationalists inside the revolution.\They have called for all their followers to enlist in their newly founded Syndicalist-Marxist party the SMEPD.\n\nif that will be enough to challenge the big ones?"
 rotermorgenGCW.40.a:0 "We shall see."
 
 rotermorgenGCW.50.t:0 "The Black Sheep"
-rotermorgenGCW.50.d:0 "Most inside the Revolution consider nationalism beyond patriotism to be a sickness.\n\nMost not all of them, no there is one man who managed to unify most of the nationalistic groups during the civil war already behind his banner.\nThat man is Josef Goebbels, a man from the Rhine, a man early a sympathizer of marxism but also a man that could only be comapred to people like Valois, Deat or Bucard in France... a man with hatred for a lot of thing but a love for Germany unchallanged.\n\nHe has announced today that he will to take part in the congress with his new party the NMDVP."
+rotermorgenGCW.50.d:0 "Most inside the Revolution consider nationalism beyond patriotism to be a sickness.\n\nMost not all of them, no there is one man who managed to unify most of the nationalistic groups during the civil war already behind his banner.\nThat man is Josef Goebbels, a man from the Rhine, a man early a sympathizer of Marxism but also a man that could only be compared to people like Valois, Deat or Bucard in France... a man with hatred for a lot of thing but a love for Germany unchallenged.\n\nHe has announced today that he will to take part in the congress with his new party the NMDVP."
 rotermorgenGCW.50.a:0 "Just give his delegation the worst seats...ok?"
 
 rotermorgenGCW.60.t:0 "All is prepared"
-rotermorgenGCW.60.d:0 "We have prepared everything for the upcomming congress shelter, food, meeting rooms all of it the congress will take several days when it starts and subjects of all kind will come on the table.\the future is son decided."
+rotermorgenGCW.60.d:0 "We have prepared everything for the upcoming congress shelter, food, meeting rooms all of it the congress will take several days when it starts and subjects of all kind will come on the table.\the future is son decided."
 rotermorgenGCW.60.a:0 "Better start packing!"
 
 
 rotermorgenGCW.70.t:0 "The First Congress of German Unions"
-rotermorgenGCW.70.d:0 "The Revolutionary Government has called upon the first Congress of German Unions in which every union, party or political organization with more than 20.000 members is allowed to participate.\n\n The leading candidates are the SMEPD, which promotes a heavily Marxist influenced form of Syndicalism, and the SPD-R, the radicalised wing of the SPD, which calls for a "Socialist Democracy".\nBut there are other horses in the race as well. The FAUD, which has lost a lot of influence thanks to the legal formation of leftist parties in Germany, and the NMDVP, which is lead by Josef Goebbels and is not accepted by the other parties for its call for Ultranationalism, promotion of traditional values and call for a „National Rebirth“."
+rotermorgenGCW.70.d:0 "The Revolutionary Government has called upon the first Congress of German Unions in which every union, party or political organization with more than 20.000 members is allowed to participate.\n\n The leading candidates are the SMEPD, which promotes a heavily Marxist influenced form of Syndicalism, and the SPD-R, the radicalized wing of the SPD, which calls for a "Socialist Democracy".\nBut there are other horses in the race as well. The FAUD, which has lost a lot of influence thanks to the legal formation of leftist parties in Germany, and the NMDVP, which is lead by Josef Goebbels and is not accepted by the other parties for its call for Ultranationalism, promotion of traditional values and call for a „National Rebirth“."
 rotermorgenGCW.70.a:0 "Goebbels - NMDVP Victory"
 rotermorgenGCW.70.b:0 "Pieck/Thälmann - SMEPD Victory"
 rotermorgenGCW.70.c:0 "Rocker - FAUD Victory"
@@ -1219,17 +1217,17 @@ rotermorgenGCW.70.e:0 "Liebknecht - SPD-R Victory"
 
 
 rotermorgenGCW.100.t:0 "Help Companies?"
-rotermorgenGCW.100.d:0 "Many German companies have been hit hard by the black monday due to an almost total stop of income for a week and are now struggeling to survive as the market has yet not fulyl recovered and they can't nearly cover their expenses.\nMaybe we should invest into these companies to ensure their survival."
+rotermorgenGCW.100.d:0 "Many German companies have been hit hard by the Black Monday due to an almost total stop of income for a week and are now struggling to survive as the market has yet not fully recovered and they can't nearly cover their expenses.\nMaybe we should invest into these companies to ensure their survival."
 rotermorgenGCW.100.a:0 "It must be done"
 rotermorgenGCW.100.b:0 "..sacrifices are to be made"
 
-rotermorgenGCW.101.t:0 "Public Soupkitchens"
-rotermorgenGCW.101.d:0 "Since the recent waves of unemployment after the black monday many people are dependant on charity work and soupkitchens, the churches and the red cross have already called for help from all those that can afford to give either money or food as they can't feed everyone right now. Maybe we should supply the soupkitchens and open state run ones too to provide food for the masses."
+rotermorgenGCW.101.t:0 "Public Soup Kitchens"
+rotermorgenGCW.101.d:0 "Since the recent waves of unemployment after the Black Monday many people are dependent on charity work and soup kitchens, the churches and the red cross have already called for help from all those that can afford to give either money or food as they can't feed everyone right now. Maybe we should supply the soup kitchens and open state run ones too to provide food for the masses."
 rotermorgenGCW.101.a:0 "Tighten the belts!"
 rotermorgenGCW.101.b:0 "We will not let our people starve!"
 
 rotermorgenGCW.102.t:0 "Bail Out for Banks?"
-rotermorgenGCW.102.d:0 "Our government was approached by several bankers which have assured us that without a bailout they will not survive much longer as many of their assets in forms of shares have been reduced to no value during the black monday. The biggest problem for the economy would be that with the banks' demise almost all companies they hold a majority of shares in will likly also go down with them."
+rotermorgenGCW.102.d:0 "Our government was approached by several bankers which have assured us that without a bailout they will not survive much longer as many of their assets in forms of shares have been reduced to no value during the Black Monday. The biggest problem for the economy would be that with the banks' demise almost all companies they hold a majority of shares in will likely also go down with them."
 rotermorgenGCW.102.a:0 "I tricked my Grandmother for some pennies too, it's a NO!"
 rotermorgenGCW.102.b:0 "Of course we will help them."
 
@@ -1249,20 +1247,20 @@ rotermorgenGCW.106.a:0 "Who would ever know?"
 
 ###tooltips###
 GRU_tt_hydroelectricity_decisions:0 "Decisions on §YHydroelectricity§! will become available."
-GRU_tt_breitspurbahn_decisions:0 "Decisions on building the §RBreitspurbahn§! netwwork will become available."
+GRU_tt_breitspurbahn_decisions:0 "Decisions on building the §RBreitspurbahn§! network will become available."
 GRU_tt_pan_germanism_one_decisions:0 "Unlocks decisions for the §RGermania Plan§!\n\nGrants claims on German lands."
 GRU_tt_pan_germanism_two_decisions:0 "Unlocks westward decisions for the §RGermania Plan§!\n\nGrants claims on Germanic lands."
 GRU_tt_pan_germanism_three_decisions:0 "Unlocks eastward decisions for the §RGermania Plan§!\n\nGrants claims on Slavic lands."
-GRU_tt_lebensraum_decisions:0 "Decisions on §RLebensraum§! become aviable."
+GRU_tt_lebensraum_decisions:0 "Decisions on §RLebensraum§! become available."
 GRU_tt_scandinavia_decisions:0 "Unlocks decisions for §CScandinavia§!."
-GRU_tt_allies_decisions:0 "Decisions to §Yallign§! other §YNations§! and to subvert the §R3rd Internationale§! become aviable."
+GRU_tt_allies_decisions:0 "Decisions to §Yallign§! other §YNations§! and to subvert the §R3rd Internationale§! become available."
 GRU_tt_entente_decisions:0 "Unlocks §RWar§! decisions towards the §CEntente§!."
 GRU_tt_killLibs_decisions:0 "Unlocks §RWar§! decisions towards §RLiberal-Left Regimes§."
-GRU_tt_killcolonies_decisions:0 "Decisions to §Rstrike§! the remains of the §YKaiserreich§! become aviable."
-GRU_tt_killkaiser_decisions:0 "Decisions to §Rattack rival German governments§! become aviable."
+GRU_tt_killcolonies_decisions:0 "Decisions to §Rstrike§! the remains of the §YKaiserreich§! become available."
+GRU_tt_killkaiser_decisions:0 "Decisions to §Rattack rival German governments§! become available."
 GRU_tt_faction:0 "We will form our own §RFaction§!."
-GRU_tt_border:0 "Unlocks §Yborder§! forctification decisions."
-GRU_tt_lib_neighbour:0 "Unlocks decisions to §RLiberate§! our neighbours."
+GRU_tt_border:0 "Unlocks §Yborder§! fortification decisions."
+GRU_tt_lib_neighbour:0 "Unlocks decisions to §RLiberate§! our neighbors."
 GRU_tt_expand_int:0 "Unlocks decisions to §RInvite§! Nations into the Internationale."
 GRU_tt_lib_africa:0 "Unlocks decisions to §RLiberate§! Africa."
 GRU_tt_lib_middle_east:0 "Unlocks decisions to §RLiberate§! the Middle East."
@@ -1359,14 +1357,14 @@ GRU_fortify_french_border_decision:0 "Wall up against the French"
 GRU_fortify_austrian_border_decision:0 "Fortify the Austrian border"
 GRU_fortify_bohemian_border_decision:0 "Fortify the Bohemian border"
 
-GRU_allignment_decisions:0 "Nation Allignment"
-GRU_allign_mosley_decision:0 "Allign Mosley"
-GRU_allign_mussolini_decision:0 "Allign Mussolini"
+GRU_allignment_decisions:0 "Nation Alignment"
+GRU_allign_mosley_decision:0 "Align Mosley"
+GRU_allign_mussolini_decision:0 "Align Mussolini"
 
 
 GRU_subvert_france_decisions:0 "Subvert the §R3rd Internationale§!"
 GRU_subvert_thrid_internationale:0 "Try to make [From.GetNameDef] leave the French on their own."
-GRU_subvert_thrid_internationale_puppets:0 "Stire [From.GetNameDef] up against their French masters."
+GRU_subvert_thrid_internationale_puppets:0 "Stir [From.GetNameDef] up against their French masters."
 
 GRU_kill_entente_decisions:0 "Strike the §CEntente§!"
 GRU_attack_other_frogs_decision:0 "Strike §CNational France§!"
@@ -1375,7 +1373,7 @@ GRU_attack_united_kingdom_decision:0 "Strike the §CUnited Kingdom§!"
 GRU_kill_rivals_decisions:0 "Rival Governments"
 GRU_attack_rival_germany_decision:0 "Destroy [From.GetNameDef]."
 
-GRU_kill_colonies_decisions:0 "Imperial Remants"
+GRU_kill_colonies_decisions:0 "Imperial Remnants"
 GRU_attack_german_colonies_decision:0 "Destroy [From.GetNameDef]."
 
 GRU_kill_libleft_decisions:0 "Purge the §RRevolution§!"
@@ -1385,9 +1383,9 @@ GRU_scandi_decisions:0 "Scandinavian Diplomacy"
 GRU_scandi_sweden_war_decision:0 "Attack Sweden."
 GRU_scandi_norway_war_decision:0 "Attack Norway."
 GRU_scandi_finland_war_decision:0 "Attack Finland."
-GRU_scandi_sweden_friend_decision:0 "Allign Sweden."
-GRU_scandi_norway_friend_decision:0 "Allign Norway."
-GRU_scandi_finland_friend_decision:0 "Allign Finland."
+GRU_scandi_sweden_friend_decision:0 "Align Sweden."
+GRU_scandi_norway_friend_decision:0 "Align Norway."
+GRU_scandi_finland_friend_decision:0 "Align Finland."
 
 
 GRU_volksreichskommissariat_decisions:0 "Establish the VKs"
