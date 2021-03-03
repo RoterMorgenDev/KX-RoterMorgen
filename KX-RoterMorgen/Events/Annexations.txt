@@ -7756,7 +7756,7 @@ country_event = { #fate of Germany
 			limit = { tag = FRA }
 			GRU = { country_event = part.49 }
 		}
-		
+		##RedDawn##
 		GRU = { inherit_technology = ROOT }
 		
 		ROOT = { country_event = rotermorgen.1 }
@@ -7809,6 +7809,7 @@ country_event = { #fate of Germany
 			end_puppet = GRU
 			add_to_faction = GRU
 		}
+		##RedDawn##
 		GRU = { country_event = part.49 }
 		GRU = { inherit_technology = ROOT }
 		ROOT = { country_event = rotermorgen.1 }
@@ -7859,6 +7860,7 @@ country_event = { #fate of Germany
 			end_puppet = GRU
 			add_to_faction = GRU
 		}
+		##RedDawn##
 		GRU = { country_event = part.49 }
 		GRU = { inherit_technology = ROOT }
 		ROOT = { country_event = rotermorgen.1 }
@@ -7958,6 +7960,7 @@ country_event = { #fate of Germany
 			end_puppet = GRU
 			add_to_faction = GRU
 		}
+		##RedDawn##
 		GRU = { country_event = part.49 }
 		GRU = { inherit_technology = ROOT }
 		ROOT = { country_event = rotermorgen.1 }
@@ -7999,6 +8002,7 @@ country_event = { #fate of Germany
 			end_puppet = GRU
 			add_to_faction = GRU
 		}
+		##RedDawn##
 		GRU = { country_event = part.49 }
 		GRU = { inherit_technology = ROOT }
 		ROOT = { country_event = rotermorgen.1 }

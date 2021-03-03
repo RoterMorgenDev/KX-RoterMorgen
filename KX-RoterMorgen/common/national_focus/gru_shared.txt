@@ -831,6 +831,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_form_the_stasi"
 			add_ideas = GRU_Stasi
+			create_intelligence_agency = yes
 		}
 
 		prerequisite = { focus = GRU_volkssturm  }
@@ -1157,6 +1158,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_thalmann_gestapo"
 			add_ideas = GRU_GESTAPO
+			create_intelligence_agency = yes
 		}
 		prerequisite = { focus = GRU_thalmann_power_to_party  }
 	}
@@ -1278,6 +1280,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_pieck_red_guard"
 			add_ideas = GRU_RED_GUARD
+			create_intelligence_agency = yes
 		}
 		prerequisite = { focus = GRU_pieck  }
 	}
@@ -2524,6 +2527,22 @@ shared_focus = {
 		
 		prerequisite = { focus = GRU_higher_education_grants  }
 		prerequisite = { focus = GRU_humane_pensions }
+	}
+	
+	
+shared_focus = {
+		id = GRU_I_found_dad
+		icon = GRU_DAD_FOUNDATION
+		relative_position_id = GRU_spd_victory
+		x = 0
+		y = 7
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_I_found_dad"
+			create_intelligence_agency = yes
+		}
+		
+		prerequisite = { focus = GRU_german_industrial_miracle  }
 	}
 
 	#Formation of the NVA

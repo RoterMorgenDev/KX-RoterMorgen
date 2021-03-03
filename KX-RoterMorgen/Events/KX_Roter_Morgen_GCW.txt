@@ -264,14 +264,14 @@ country_event = {
 	immediate = {
 		GER = {
 			if={
-				limit = { check_variable = { Willy_fucks_it_up > 5 }  }	
+				limit = { check_variable = { Willy_fucks_it_up > 8 }  }	
 				country_event = {
 				id = rotermorgenGCW.2
 				days = 30
 				}
 			}
 			if={
-				limit = { check_variable = { Willy_fucks_it_up < 6 }  }	
+				limit = { check_variable = { Willy_fucks_it_up < 9 }  }	
 				country_event = {
 				id = rotermorgenGCW.106
 				days = 5
@@ -520,6 +520,7 @@ country_event = { # GRU setup
 			
 			
 			GRU = {
+				
 				add_ideas = GERMAN_CIVIL_WAR_participant
 				transfer_state = 781
 				transfer_state = 51
