@@ -89,6 +89,7 @@ country_event = { #Open soup kitchens
 	desc = rotermorgenGCW.101.d
 	picture = GFX_report_event_suppenkueche
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 
 	
@@ -129,7 +130,7 @@ country_event = { # Bail out Banks
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenGCW.102" }
 	title = rotermorgenGCW.102.t
 	desc = rotermorgenGCW.102.d
-
+	fire_only_once = yes
 	is_triggered_only = yes
 	
 
@@ -173,6 +174,7 @@ country_event = { # Banks collapse
 	desc = rotermorgenGCW.103.d
 	picture = GFX_report_event_banken_kollaps
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 
 	
@@ -213,7 +215,7 @@ country_event = { # expropirate some rich people
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenGCW.104" }
 	title = rotermorgenGCW.104.t
 	desc = rotermorgenGCW.104.d
-	
+	fire_only_once = yes
 	is_triggered_only = yes
 	
 
@@ -284,7 +286,7 @@ country_event = { # CW averted!
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenGCW.106" }
 	title = rotermorgenGCW.106.t
 	desc = rotermorgenGCW.106.d
-	
+	fire_only_once = yes
 	is_triggered_only = yes
 	
 
@@ -331,7 +333,7 @@ country_event = { # companies crash
 	desc = rotermorgenGCW.2.d
 	picture = GFX_report_event_factories_empty_ger
 	is_triggered_only = yes
-	
+	fire_only_once = yes
 	option = { # RebellioN? What nonsense
 		name = rotermorgenGCW.2.a
 		add_stability = -0.15
@@ -351,7 +353,7 @@ country_event = { # Inform of mass poverty
 	desc = rotermorgenGCW.3.d
 	picture = GFX_report_event_Arbeitslose
 	is_triggered_only = yes
-	
+	fire_only_once = yes
 	option = { # RebellioN? What nonsense
 		name = rotermorgenGCW.3.a
 		add_stability = -0.05
@@ -371,7 +373,7 @@ country_event = { # flavour about ruined germany
 	desc = rotermorgenGCW.7.d
 	#picture = GFX_report_event_Arbeitslose
 	is_triggered_only = yes
-	
+	fire_only_once = yes
 	option = { # RebellioN? What nonsense
 		name = rotermorgenGCW.7.a
 		add_stability = -0.05
@@ -393,7 +395,7 @@ country_event = { # riots!
 	desc = rotermorgenGCW.4.d
 	picture = GFX_report_event_aufstaende
 	is_triggered_only = yes
-	
+	fire_only_once = yes
 	option = { # RebellioN? What nonsense
 		name = rotermorgenGCW.4.a
 		add_stability = -0.20
@@ -414,7 +416,7 @@ country_event = { # flavour about united front
 	desc = rotermorgenGCW.8.d
 	#picture = GFX_report_event_aufstaende
 	is_triggered_only = yes
-	
+	fire_only_once = yes
 	option = { # RebellioN? What nonsense
 		name = rotermorgenGCW.8.a
 		add_stability = -0.20
@@ -434,7 +436,7 @@ country_event = { # flavour about united front II
 	desc = rotermorgenGCW.9.d
 	#picture = GFX_report_event_aufstaende
 	is_triggered_only = yes
-	
+	fire_only_once = yes
 	option = { # RebellioN? What nonsense
 		name = rotermorgenGCW.9.a
 		add_stability = -0.20
