@@ -185,5 +185,16 @@ create_corps_commander = {
 					planning_skill = 4
 					logistics_skill = 2
 				}
+create_corps_commander = {
+					name = "Horst Wessel"
+					picture = "Portrait_Germany_Horst_Wessel.tga"
+					traits = { politically_connected war_hero volkssturm_leader }
+					skill = 3
+
+					attack_skill = 4
+					defense_skill = 2
+					planning_skill = 4
+					logistics_skill = 2
+				}
 	}
 }

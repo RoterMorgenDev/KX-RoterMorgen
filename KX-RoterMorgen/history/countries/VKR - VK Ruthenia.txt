@@ -70,9 +70,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Rudolf Hess"
-	desc = "POLITICS_hess_DESC"
-	picture = "gfx/leaders/GRU/Portrait_Germany_Rudolf_Hess2.tga"
+	name = "Alfred Rosenberg"
+	desc = "POLITICS_Rosenberg_DESC"
+	picture = "gfx/leaders/GRU/Portrait_Germany_Alfred_rosenberg.tga"
 	expire = "1965.1.1"
 	ideology = totalist_subtype
 	traits = { volkskommissar

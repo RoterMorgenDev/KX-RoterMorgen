@@ -587,4 +587,13 @@ spriteTypes = {
 		name = "GFX_idea_GRU_NATSOC_ECONOMICS"
 		texturefile = "gfx/interface/ideas/GRU/NATSOC_ECONOMICS.tga"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_GRU_RUINED_ECONOMY_IDEA"
+		texturefile = "gfx/interface/ideas/GRU/RUINED_ECONOMY.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_CIVIL_WAR_IDEA"
+		texturefile = "gfx/interface/ideas/GRU/GERMAN_CIVIL_WAR.tga"
+	}
 }

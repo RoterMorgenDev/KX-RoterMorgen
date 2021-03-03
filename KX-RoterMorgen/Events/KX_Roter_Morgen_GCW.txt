@@ -482,7 +482,43 @@ country_event = { # GRU setup
 					transfer_state = 741
 				}
 			}
+			
+			if={
+				limit = { BEL = { is_subject_of = GER }	}
+				GER = { end_puppet = BEL }
+			}
+			if={
+				limit = { WLL = { is_subject_of = GER }	}	
+				GER = { end_puppet = WLL }
+			}
+			if={
+				limit = { FLN = { is_subject_of = GER }	}	
+				GER = { end_puppet = FLN }
+			}
+			if={
+				limit = { POL = { is_subject_of = GER }	}	
+				GER = { end_puppet = POL }
+			}
+			if={
+				limit = { WHR = { is_subject_of = GER }	}	
+				GER = { end_puppet = WHR }
+			}
+			if={
+				limit = { LIT = { is_subject_of = GER }	}	
+				GER = { end_puppet = LIT }
+			}
+			if={
+				limit = { BAT = { is_subject_of = GER }	}	
+				GER = { end_puppet = BAT }
+			}
+			if={
+				limit = { GEA = { is_subject_of = GER }	}
+				GER = { end_puppet = GEA }
+			}
+			
+			
 			GRU = {
+				add_ideas = GERMAN_CIVIL_WAR_participant
 				transfer_state = 781
 				transfer_state = 51
 				transfer_state = 42
@@ -796,6 +832,7 @@ country_event = { # GRU setup
 				}
 			}
 			GER = {
+				add_ideas = GERMAN_CIVIL_WAR_participant
 				transfer_units_fraction= {
 					target = GRU
 					size = 0.5
@@ -853,6 +890,13 @@ country_event = {
 			clr_country_flag = GRU_REBELLION
 			separate_peace_all_wars = yes
 			set_country_flag = GRU_GCW_ENDED
+			swap_ideas = {
+							remove_idea = GERMAN_CIVIL_WAR_participant
+							add_idea = GRU_RUINED_ECONOMY_TOALLY_RUINED
+						}
+		}
+		GER = {
+			remove_ideas = GERMAN_CIVIL_WAR_participant
 		}
 	}
 }

@@ -4913,6 +4913,17 @@ GRU_expansion_three_volksland_hypoborea = {
 			}
 		
 			complete_effect = {
+				create_field_marshal = {
+					name = "Heinrich Himmler"
+					picture = "Portrait_VKB_Heinrich_Himmler.tga"
+					traits = { trickster panzer_leader war_hero RR_OFFICER }
+					skill = 4
+
+					attack_skill = 4
+					defense_skill = 2
+					planning_skill = 2
+					logistics_skill = 4
+				}
 				hidden_effect = {
 					VKB = {
 						transfer_state = 1091

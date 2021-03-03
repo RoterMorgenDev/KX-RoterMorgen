@@ -419,6 +419,16 @@ shared_focus = {
 		x = -13
 		y = 1
 		cost = 1
+		
+		completion_reward = {
+			hidden_effect = {
+				swap_ideas = {
+							remove_idea = GRU_RUINED_ECONOMY_TOALLY_RUINED
+							add_idea = GRU_RUINED_ECONOMY_TOALLY_BETTER
+						}
+			}
+		}
+		
 		available = {
 
 				has_country_flag = GRU_CONGRESS_DONE
@@ -447,6 +457,10 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_sepd_victory"
 			hidden_effect = {
 				country_event = { id =  rotermorgen.80 days = 10 }
+				swap_ideas = {
+							remove_idea = GRU_RUINED_ECONOMY_TOALLY_RUINED
+							add_idea = GRU_RUINED_ECONOMY_TOALLY_BETTER
+						}
 			}
 		}
 		prerequisite = { focus = GRU_first_congress_of_german_unions  }
@@ -465,6 +479,10 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_nmdvp_victory"
 			hidden_effect = {
 				country_event = { id =  rotermorgenmisc.666 days = 550 }
+				swap_ideas = {
+							remove_idea = GRU_RUINED_ECONOMY_TOALLY_RUINED
+							add_idea = GRU_RUINED_ECONOMY_TOALLY_BETTER
+						}
 			}
 			leave_faction = yes
 			separate_peace_all_wars = yes
@@ -490,6 +508,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_neue_schwerindustrie"
 			add_ideas = closed_economy
+			remove_ideas = GRU_RUINED_ECONOMY_TOALLY_BETTER
 			swap_ideas = {
 							remove_idea = GRU_KOMMANDOWIRTSCHAFT_aa
 							add_idea = GRU_KOMMANDOWIRTSCHAFT
@@ -532,6 +551,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_national_socialist_market_economics"
 			add_ideas = closed_economy
+			remove_ideas = GRU_RUINED_ECONOMY_TOALLY_BETTER
 			swap_ideas = {
 							remove_idea = GRU_National_socialism_two
 							add_idea = GRU_National_socialism_three
@@ -959,6 +979,14 @@ shared_focus = {
 		x = -21
 		y = 1
 		cost = 1
+		completion_reward = {
+			hidden_effect = {
+				swap_ideas = {
+							remove_idea = GRU_RUINED_ECONOMY_TOALLY_RUINED
+							add_idea = GRU_RUINED_ECONOMY_TOALLY_BETTER
+						}
+			}
+		}
 		available = {
 				has_country_flag = GRU_CONGRESS_DONE
 		}
@@ -1773,6 +1801,132 @@ shared_focus = {
 									instant_build = yes
 								}
 						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
 				}
 		
 		prerequisite = { focus = GRU_mfsp  }
@@ -1846,6 +2000,7 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_union_trade_committee"
 			set_country_flag = GRU_INDUSTRIAL_CAPACITY_ENOUGH
 			add_ideas = GRU_DSR_COMITTEE
+			remove_ideas = GRU_RUINED_ECONOMY_TOALLY_BETTER
 		}
 		
 		prerequisite = { focus = GRU_artisan_communes  }
@@ -2364,6 +2519,7 @@ shared_focus = {
 							remove_idea = GRU_SPD_SOCIAL_MARKET
 							add_idea = GRU_SPD_SOCIAL_MARKET_MIRACLE
 						}
+			remove_ideas = GRU_RUINED_ECONOMY_TOALLY_BETTER
 		}
 		
 		prerequisite = { focus = GRU_higher_education_grants  }
@@ -3051,6 +3207,7 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_union_congress"
 			set_country_flag = GRU_INDUSTRIAL_CAPACITY_ENOUGH
 			add_ideas = GRU_FAUD_congress
+			remove_ideas = GRU_RUINED_ECONOMY_TOALLY_BETTER
 		}
 		prerequisite = { focus = GRU_councilism }
 		prerequisite = { focus = GRU_communal_universities  }
