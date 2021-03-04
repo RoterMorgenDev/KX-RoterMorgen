@@ -87,6 +87,7 @@
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_RADSOCS_ELECTED"
+			custom_effect_tooltip = GRU_tt_RADSOCS
 		}
 		prerequisite = { focus = GRU_THE_DEMOCRACY_PROMISE  }
 	}
@@ -261,6 +262,7 @@
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCIAL_DEMS_ELECTED"
+			custom_effect_tooltip = GRU_tt_SOCDEMS
 		}
 		prerequisite = { focus = GRU_THE_DEMOCRACY_PROMISE  }
 	}
@@ -411,6 +413,7 @@
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SOCIAL_LIBERALS_ELECTED"
+			custom_effect_tooltip = GRU_tt_SOCLIBS
 		}
 		prerequisite = { focus = GRU_THE_DEMOCRACY_PROMISE  }
 	}
@@ -540,6 +543,7 @@
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_MARKET_LIBERALS_ELECTED"
+			custom_effect_tooltip = GRU_tt_MARLIBS
 		}
 		prerequisite = { focus = GRU_THE_DEMOCRACY_PROMISE  }
 	}
@@ -735,6 +739,7 @@
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_CONSERVATIVES_ELECTED"
+			custom_effect_tooltip = GRU_tt_CONSERV
 		}
 		prerequisite = { focus = GRU_THE_DEMOCRACY_PROMISE  }
 	}	

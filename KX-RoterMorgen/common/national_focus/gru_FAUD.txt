@@ -123,6 +123,7 @@
 							remove_idea = GRU_RED_MILITIAS
 							add_idea = GRU_RED_MILITIAS_TWO
 						}
+			country_event = { id =  rotermorgenmisc.23 }
 		}
 		prerequisite = { focus = GRU_FAUD_NEW_SOCIETY  }
 	}

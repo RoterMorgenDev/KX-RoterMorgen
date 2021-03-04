@@ -416,7 +416,7 @@ shared_focus = {
 		id = GRU_faud_victory
 		icon = GFX_GRU_faud_victory-3944
 		relative_position_id = GRU_first_congress_of_german_unions
-		x = -13
+		x = -15
 		y = 1
 		cost = 1
 		
@@ -977,7 +977,7 @@ shared_focus = {
 		id = GRU_spd_victory
 		icon = GFX_GRU_spd_victory-3988
 		relative_position_id = GRU_first_congress_of_german_unions
-		x = -21
+		x = -23
 		y = 1
 		cost = 1
 		completion_reward = {
@@ -1072,6 +1072,7 @@ shared_focus = {
 			add_popularity = { ideology = social_liberal popularity = -0.05 }
 			add_popularity = { ideology = totalist popularity = -0.20 }
 			add_popularity = { ideology = syndicalist popularity = 0.20 }
+			country_event = { id =  rotermorgenmisc.26 }
 		}
 		prerequisite = { focus = GRU_thalmann_gestapo  }
 		prerequisite = { focus = GRU_thalmann_rural_housing_programm  }
@@ -1159,6 +1160,7 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_thalmann_gestapo"
 			add_ideas = GRU_GESTAPO
 			create_intelligence_agency = yes
+			country_event = { id =  rotermorgenmisc.25 }
 		}
 		prerequisite = { focus = GRU_thalmann_power_to_party  }
 	}
@@ -1174,6 +1176,7 @@ shared_focus = {
 			kill_ideology_leader = totalist
 			add_popularity = { ideology = totalist popularity = -0.15 }
 			add_manpower = -5000
+			country_event = { id =  rotermorgenmisc.27 }
 		}
 		prerequisite = { focus = GRU_thalmann_gestapo  }
 		prerequisite = { focus = GRU_thalmann_rural_housing_programm  }
@@ -1940,7 +1943,7 @@ shared_focus = {
 		id = GRU_industrial_unionisation
 		icon = GFX_GRU_industrial_unionisation-3985
 		relative_position_id = GRU_thalmann
-		x = -6
+		x = -7
 		y = 1
 		cost = 5
 		completion_reward = {
@@ -1951,12 +1954,31 @@ shared_focus = {
 		prerequisite = { focus = GRU_faud_victory focus = GRU_thalmann  }
 	}
 
+shared_focus = {
+		id = GRU_industrial_democracy
+		icon = GFX_goal_syndicalist_workers
+		relative_position_id = GRU_thalmann
+		x = -6
+		y = 2
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_industrial_democracy"
+			swap_ideas = {
+							remove_idea = GRU_DSR_industrialunions
+							add_idea = GRU_DSR_industrialunions_TWO
+						}
+		}
+		
+		prerequisite = { focus = GRU_industrial_unionisation }
+		prerequisite = { focus = GRU_ressource_redistribution  }
+	}
+
 	#Resource re-distribution
 shared_focus = {
 		id = GRU_ressource_redistribution
 		icon = GFX_GRU_ressource_redistribution-3984
 		relative_position_id = GRU_thalmann
-		x = -4
+		x = -5
 		y = 1
 		cost = 5
 		completion_reward = {
@@ -1971,7 +1993,7 @@ shared_focus = {
 		id = GRU_new_industries
 		icon = GRU_ELECTRONICS_INDUSTRY
 		relative_position_id = GRU_thalmann
-		x = -5
+		x = -8
 		y = 2
 		cost = 5
 		completion_reward = {
@@ -1985,7 +2007,6 @@ shared_focus = {
 		}
 		
 		prerequisite = { focus = GRU_industrial_unionisation  }
-		prerequisite = { focus = GRU_ressource_redistribution  }
 	}
 
 	#Union trade committee
@@ -1993,7 +2014,7 @@ shared_focus = {
 		id = GRU_union_trade_committee
 		icon = GFX_GRU_union_trade_committee-3981
 		relative_position_id = GRU_thalmann
-		x = -4
+		x = -6
 		y = 5
 		cost = 5
 		available = {
@@ -2002,7 +2023,10 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_union_trade_committee"
 			set_country_flag = GRU_INDUSTRIAL_CAPACITY_ENOUGH
-			add_ideas = GRU_DSR_COMITTEE
+			swap_ideas = {
+							remove_idea = GRU_DSR_industrialunions_TWO
+							add_idea = GRU_DSR_COMITTEE
+						}
 			remove_ideas = GRU_RUINED_ECONOMY_TOALLY_BETTER
 		}
 		
@@ -2010,12 +2034,97 @@ shared_focus = {
 		prerequisite = { focus = GRU_agrarian_collectives  }
 	}
 
+
+shared_focus = {
+		id = GRU_new_railroads
+		icon = GFX_goal_generic_railroad
+		relative_position_id = GRU_thalmann
+		x = -4
+		y = 2
+		cost = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_new_railroads"
+			random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+		}
+		
+		prerequisite = { focus = GRU_ressource_redistribution  }
+	}
+
 	#Agrarian collectives
 shared_focus = {
 		id = GRU_agrarian_collectives
 		icon = GFX_GRU_agrarian_collectives-3983
 		relative_position_id = GRU_thalmann
-		x = -4
+		x = -5
 		y = 3
 		cost = 5
 		completion_reward = {
@@ -2026,7 +2135,8 @@ shared_focus = {
 						}
 		}
 		
-		prerequisite = { focus = GRU_ressource_redistribution  }
+		prerequisite = { focus = GRU_industrial_democracy }
+		prerequisite = { focus = GRU_new_railroads }
 	}
 
 	#Artisan  communes
@@ -2034,7 +2144,7 @@ shared_focus = {
 		id = GRU_artisan_communes
 		icon = GFX_GRU_artisan_communes-3982
 		relative_position_id = GRU_thalmann
-		x = -6
+		x = -7
 		y = 3
 		cost = 5
 		completion_reward = {
@@ -2117,7 +2227,8 @@ shared_focus = {
 
 		}
 		
-		prerequisite = { focus = GRU_industrial_unionisation  }
+		prerequisite = { focus = GRU_industrial_democracy }
+		prerequisite = { focus = GRU_new_industries  }
 	}
 
 	#Einigkeit, Recht.....
@@ -2147,6 +2258,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_woman_suffrage"
 			add_ideas = GRU_SPD_FAUD_WOMAN_RIGHTS
+			country_event = { id =  rotermorgenmisc.28 }
 			set_rule = {
 							can_generate_female_aces = yes
 						}
@@ -2201,6 +2313,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_union_democracy"
 			add_ideas = GRU_UNION_DEMOCRATIC
+
 		}
 		
 		prerequisite = { focus = GRU_faud_victory  }
@@ -2216,6 +2329,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_antidiscriminatory_laws"
 			add_ideas = GRU_SPD_FAUD_TOLERANT_SOCIETY
+			country_event = { id =  rotermorgenmisc.22 }
 			set_rule = {
 							can_generate_female_aces = yes
 						}
@@ -2247,6 +2361,7 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_minority_quota"
 			add_ideas = GRU_MINORITIE_QUOTA
+			country_event = { id =  rotermorgenmisc.24 }
 		}
 		
 		prerequisite = { focus = GRU_antidiscriminatory_laws  }
@@ -2911,6 +3026,9 @@ shared_focus = {
 							add_idea = GRU_battleship_submarine
 						}
 			}
+			else={
+			custom_effect_tooltip = GRU_tt_army_boni
+			}
 		}
 		
 		
@@ -2942,6 +3060,9 @@ shared_focus = {
 							add_idea = GRU_battleship_cruiser
 						}
 			}
+			else={
+			custom_effect_tooltip = GRU_tt_army_boni
+			}
 		}
 		
 		prerequisite = { focus = GRU_carrier_focus focus = GRU_battleship_focus  }
@@ -2972,6 +3093,9 @@ shared_focus = {
 							add_idea = GRU_masses_generals
 						}
 			}
+			else={
+			custom_effect_tooltip = GRU_tt_OKW_boni
+			}
 		}
 		
 		prerequisite = { focus = GRU_panzergrenadiere focus = GRU_overwhelming_firepower  }
@@ -2983,7 +3107,7 @@ shared_focus = {
 shared_focus = {
 		id = GRU_GCW_VICTORY
 		icon = GRU_REBELLS_VICTORY
-		x = 33
+		x = 37
 		y = 2
 		cost = 1
 		available = {
@@ -3001,7 +3125,7 @@ shared_focus = {
 shared_focus = {
 		id = GRU_occupational_government
 		icon = GFX_GRU_occupational_government-4027
-		x = 33
+		x = 37
 		y = 2
 		cost = 1
 		available = {
@@ -3090,6 +3214,9 @@ shared_focus = {
 							add_idea = GRU_carrier_submarine_OK_NVM
 						}
 			}
+			else={
+			custom_effect_tooltip = GRU_tt_OKW_boni
+			}
 		}
 		
 		prerequisite = { focus = GRU_cruiser_focus focus = GRU_submarine_focus  }
@@ -3118,6 +3245,9 @@ shared_focus = {
 							remove_idea = GRU_bomber
 							add_idea = GRU_bomber_sea
 						}
+			}
+			else={
+			custom_effect_tooltip = GRU_tt_army_boni
 			}
 		}
 		
@@ -3148,6 +3278,9 @@ shared_focus = {
 							remove_idea = GRU_bomber
 							add_idea = GRU_bomber_ground
 						}
+			}
+			else={
+			custom_effect_tooltip = GRU_tt_army_boni
 			}
 		}
 		
@@ -3192,6 +3325,9 @@ shared_focus = {
 							remove_idea = GRU_bomber_sea
 							add_idea = GRU_bomber_sea_OK_NLW
 						}
+			}
+			else={
+			custom_effect_tooltip = GRU_tt_OKW_boni
 			}
 		}
 		

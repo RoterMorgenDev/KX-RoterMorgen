@@ -295,6 +295,83 @@ country_event = { # A New Curriculum
 	}
 }
 
+country_event = { # Love is Love
+	id = rotermorgenmisc.22
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.22" }
+	title = rotermorgenmisc.22.t
+	desc = rotermorgenmisc.22.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.22.a
+	}
+}
+
+country_event = { # The Vanguard of the Working Class
+	id = rotermorgenmisc.23
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.23" }
+	title = rotermorgenmisc.23.t
+	desc = rotermorgenmisc.23.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.23.a
+	}
+}
+
+country_event = { # Pogge quotas
+	id = rotermorgenmisc.24
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.24" }
+	title = rotermorgenmisc.24.t
+	desc = rotermorgenmisc.24.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.24.a
+	}
+}
+
+country_event = { # Gestapo
+	id = rotermorgenmisc.25
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.25" }
+	title = rotermorgenmisc.25.t
+	desc = rotermorgenmisc.25.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.25.a
+	}
+}
+
+country_event = { # Cultural Revolution
+	id = rotermorgenmisc.26
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.26" }
+	title = rotermorgenmisc.26.t
+	desc = rotermorgenmisc.26.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.26.a
+	}
+}
+
+country_event = { # The Last Laugh
+	id = rotermorgenmisc.27
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.27" }
+	title = rotermorgenmisc.27.t
+	desc = rotermorgenmisc.27.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.27.a
+	}
+}
+
+country_event = { # The Suffrage of the Other Sex
+	id = rotermorgenmisc.28
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.28" }
+	title = rotermorgenmisc.28.t
+	desc = rotermorgenmisc.28.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.28.a
+	}
+}
+
 country_event = { # allignment
 	id = rotermorgenmisc.40
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.40" }

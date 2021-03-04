@@ -1136,12 +1136,24 @@ ideas = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_DSR_industrialunions"}
 			picture = GRU_DSR_industrialunions
 			modifier = {
+				production_speed_industrial_complex_factor = 0.1
+				production_speed_dockyard_factor = 0.1
+				production_speed_arms_factory_factor = 0.1
+				industry_repair_factor = 0.1
+			}
+		}
+		
+		GRU_DSR_industrialunions_TWO = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_DSR_industrialunions_TWO"}
+			picture = GRU_DSR_industrialunions
+			modifier = {
 				production_speed_industrial_complex_factor = 0.15
 				production_speed_dockyard_factor = 0.15
 				production_speed_arms_factory_factor = 0.15
 				industry_repair_factor = 0.15
 			}
 		}
+		
 		GRU_DSR_COMITTEE = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_DSR_COMITTEE"}
 			picture = GRU_DSR_COMITTEE
@@ -1157,7 +1169,10 @@ ideas = {
 				local_resources_factor = 0.05
 				local_manpower = 0.08
 				production_lack_of_resource_penalty_factor = -0.03
-				production_speed_buildings_factor = 0.1
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_dockyard_factor = 0.15
+				production_speed_arms_factory_factor = 0.15
+				industry_repair_factor = 0.15
 			}
 		}
 		GRU_DSR_ressources1 = {

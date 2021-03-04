@@ -236,7 +236,7 @@ GRU_SMEPD_RED_WORLD_desc:0 "We have achieved our greatest dreams, the red banner
 
 GRU_housing_communes:0 "Communal Housing"
 GRU_housing_communes_desc:0 "Those that have a lot of space in their apartments or houses must share them with those that would otherwise live on the streets."
-GRU_new_industries:0 "New Electric Industries"
+GRU_new_industries:0 "New Electronics Industries"
 GRU_new_industries_desc:0 "We will invest in new electronic technologies."
 GRU_universial_healthcare:0 "Universal Healthcare"
 GRU_universial_healthcare_desc:0 "Our nation will implement universal healthcare granting free of charge treatment for all workers."
@@ -429,7 +429,7 @@ GRU_FAUD_DRUG_LEGALISATION_desc:0 "We will lift all bans on all substances used 
 GRU_FAUD_ANARCHIST_UTOPIA:0 "The Anarchist Utopia"
 GRU_FAUD_ANARCHIST_UTOPIA_desc:0 "We have achieved the great goal, we have achieved the true Anarchist society!"
 
-GRU_CONSERVATIVES_ELECTED:0 "Conservative Victory"
+GRU_CONSERVATIVES_ELECTED:0 "CDU Victory"
 GRU_CONSERVATIVES_ELECTED_desc:0 "The conservative CDU has won the election."
 GRU_CONSERVATIVES_SIDELINE_RADICALS:0 "Sideline the Radicals"
 GRU_CONSERVATIVES_SIDELINE_RADICALS_desc:0 "We will ban extremist parties and organizations to protect our Democracy from potential internal threats."
@@ -444,7 +444,7 @@ GRU_CONSERVATIVES_WITH_THE_CHURCH_desc:0 "As a traditional Christian nation we m
 GRU_CONSERVATIVE_REPUBLIC:0 "With Pride"
 GRU_CONSERVATIVE_REPUBLIC_desc:0 "Germany is finally a real Republic, a Traditionalist one upholding the values that made Germany once great and will do again."
 
-GRU_MARKET_LIBERALS_ELECTED:0 "Market Liberals Victory"
+GRU_MARKET_LIBERALS_ELECTED:0 "DLP Victory"
 GRU_MARKET_LIBERALS_ELECTED_desc:0 "The Market Liberal DLP has won the election."
 GRU_MARLIB_CUT_THE_WELFARE:0 "Stop the Nonsense"
 GRU_MARLIB_CUT_THE_WELFARE_desc:0 "Worker's rights? Welfare? Not in OUR Germany! We now control this nation and we will undo all this pestilence spread by the SPD."
@@ -459,7 +459,7 @@ GRU_MARLIB_CONTROL_MEDIA_WITH_MONEY_desc:0 "All media is owned by us, The Indust
 GRU_MARLIB_OLIGARCHIC_REPUBLIC:0 "Drop the Charade"
 GRU_MARLIB_OLIGARCHIC_REPUBLIC_desc:0 "We are not a Democracy and never will be again, wealth is all that matters and what gives one true value."
 
-GRU_SOCIAL_LIBERALS_ELECTED:0 "Social Liberals Victory"
+GRU_SOCIAL_LIBERALS_ELECTED:0 "FDP Victory"
 GRU_SOCIAL_LIBERALS_ELECTED_desc:0 "The Social Liberal FDP has won the election."
 GRU_SOCLIB_DECRIMINALIZE_HOMOSEXUALITY:0 "Decriminalize Homosexuality"
 GRU_SOCLIB_DECRIMINALIZE_HOMOSEXUALITY_desc:0 "Even though many will still disagree with it we believe that the state has no right to interfere with someone's personal life and thus also not with someone's sexuality."
@@ -475,7 +475,7 @@ GRU_SOCLIB_FREE_REPUBLIC:0 "Freedom after all"
 GRU_SOCLIB_FREE_REPUBLIC_desc:0 "We are a true Democracy a beacon of Liberalism and Freedom."
 
 
-GRU_SOCIAL_DEMS_ELECTED:0 "Social Democratic Victory"
+GRU_SOCIAL_DEMS_ELECTED:0 "SPD Victory"
 GRU_SOCIAL_DEMS_ELECTED_desc:0 "The Social Democratic SPD has won the election."
 GRU_SOCDEM_PRIVATIZE_KEY_INDUSTRY:0 "Privatize Key Industries Again"
 GRU_SOCDEM_PRIVATIZE_KEY_INDUSTRY_desc:0 "The former radical wing of our party had nationalized many key industries to enforce the new economic system, we will privatize these again since our economic system has become stable."
@@ -491,7 +491,7 @@ GRU_SOCDEM_SOCIAL_REPUBLIC:0 "Social We Are"
 GRU_SOCDEM_SOCIAL_REPUBLIC_desc:0 "Our Democracy, while neither too far on the left or the right, has found itself to be a social heaven for both the workers and the market."
 
 
-GRU_RADSOCS_ELECTED:0 "Radical Socialist Victory"
+GRU_RADSOCS_ELECTED:0 "PDS Victory"
 GRU_RADSOCS_ELECTED_desc:0 "The Radical Socialist PDS has won the election."
 GRU_RADSOCS_SOCIALIST_MARKET_ECONOMY:0 "Socialist Market Economics"
 GRU_RADSOCS_SOCIALIST_MARKET_ECONOMY_desc:0 "On our way to achieving true Socialism we will exploit the benefits of capitalism with a fully state owned economy in a capitalistic system."
@@ -560,8 +560,16 @@ GRU_organic_growth_desc:0 "Our industry is growing on it's own, and will continu
 VK_FOCUS_SHARED_OUR_OWN_RR:0 "Our own R.R."
 VK_FOCUS_SHARED_OUR_OWN_RR_desc:0 "We will establish our own Branch of the R.R. to safeguard our new Homeland."
 
-GRU_I_found_dad:0 "Found DAD."
+GRU_I_found_dad:0 "Found DAD"
 GRU_I_found_dad_desc:0 "The DAD or Deutscher Abschirmdienst will become the true successor to the imperial Abwehr agency."
+
+
+GRU_industrial_democracy:0 "Industrial Democracy"
+GRU_industrial_democracy_desc:0 "Industrial unionization was the first step, noew we must democratize the indurtial unions! The workers will turly seize thier means of production!"
+
+GRU_new_railroads:0 "New Railrods"
+GRU_new_railroads_desc:0 "Fair and nationa wide resource distribution can only be guaranteed when we can reach every corner of Germany for this purpose we will build new railroads in the lesser developed regions."
+
 
 
 ###flags####
@@ -740,6 +748,10 @@ GRU_DSR_fortschritt_desc:0 "Progress!\n\nWe have achieved our dreams of creating
 
 GRU_DSR_industrialunions:0 "Industrial Unions"
 GRU_DSR_industrialunions_desc:0 "The unionization of German industry has given us a strong base to build an even stronger economy."
+
+GRU_DSR_industrialunions_TWO:0 "Industrial Democracy"
+GRU_DSR_industrialunions_TWO_desc:0 "The unionization of German industry has given us a strong base to build an even stronger economy. A fair demoratized industry in which the workers directly control the means of production!"
+
 
 GRU_DSR_COMITTEE:0 "Union Trade Committee"
 GRU_DSR_COMITTEE_desc:0 "The Union Trade Committee serves as a middleman for resource trade between unions and foreign countries or other unions as well as a central command in case of needs for one."
@@ -1407,7 +1419,33 @@ rotermorgenmisc.21.t:0 "A New Curriculum"
 rotermorgenmisc.21.d:0 "When it comes to educating the children of Germany, it is a matter of the upmost importance. FAUD understands this idea well, as education at an early age better prepares children for life as an adult, or it can be used as a tool of manipulating the next generations. Whatever the case may be, unionist councils are running a coordinated effort to overhaul education in all areas, from the curriculum to the facilities. Although the exact specifics of the Anarcho-Syndicalist curriculum may differ based on the area of Germany, there is a general agreement that children will be educated on the ideas of their society. The main tenants include emphasis on equity and cooperation among all peers, the encouragement of progressive ideals and experimentation, teaching students the inherent wrongs of the reactionary, capitalistic, and imperialistic Germany’s of yore, and the inner workings of the Anarcho-Syndicalist system and the ideals that power it. Some families claim that the new curriculum is purely ideological and doesn’t prepare the next generation for actual work. In some towns, there are notable absences of subjects such as calculus and physics while subjects revolving around socialist political theory and the arts get more precedence in schooling. FAUD has addressed these concerns by emphasizing how the Anarcho-Syndicalist future must be secured within education first before reactionaries poison the next generation."
 rotermorgenmisc.21.a:0 "How is Memorizing Marx and Kropotkin Pertain to Becoming an Engineer or a Factory Worker?"
 
+rotermorgenmisc.22.t:0 "Love is Love"
+rotermorgenmisc.22.d:0 "The long running conservatism within Germany that has persisted up until the deposing of the Kaiser has offered some of the harshest punishments towards the homosexuals of Germany. Homosexual activity was met with harsh prison sentences and hard labor, and even in some cases resulted in some of them being sent to mental institutions for electroshock therapy and, in the cases of high-profile homosexuals, experimental lobotomy treatments. FAUD has viewed the treatment of gays and lesbians in this manner as incredibly barbaric and backward, which is why it came as little surprise to any when they decriminalized homosexuality and enacted legal protections towards them. Under the new laws, homosexuals will be granted equal opportunities in all levels of government, employment, and military service with any institutional discrimination towards or hate crimes towards them being met with legal punishment. The most controversial aspect of these new laws is the protections of the very small transexual community in Germany, which even some members of FAUD think is going a bit too far as it might bolden the already enflamed reactionary resistance to these new laws. However, despite the challenges towards these new laws, many members of FAUD and the progressives of Germany that this is a step in the right direction."
+rotermorgenmisc.22.a:0 "For Equality and Progress"
 
+rotermorgenmisc.23.t:0 "The Vanguard of the Working Class"
+rotermorgenmisc.23.d:0 "Militias are undoubtably the backbone of any Syndicalist revolution. When one looks to the revolutions of France, England, and Italy, you never saw formal units end the rule of reactionaries. Rather, it was the will and strength of the masses who were able to drive out the capitalists and tyrants and bring about the Revolution. FAUD understands this principle fully, which is why they have decided unanimously during a joint session of their trade unions to formally declare the red militias as the military vanguard of the Revolution. This declaration firmly places the militias as the main military force of Germany and to be the institution most trusted with maintaining and upholding the revolution behind the unions and councils themselves. While some may raise concerns over a group of informal weekend warriors being the backbone of maintaining order and defending Germany, the members of FAUD and quite a few Germans are ecstatic over this development as the defenders of the Revolution finally get the rightful importance and recognition they deserve."
+rotermorgenmisc.23.a:0 "The Flame of Socialism is Best Shielded by the Workers"
+
+rotermorgenmisc.24.t:0 "The Equity of All"
+rotermorgenmisc.24.d:0 "In Germany there is this old and destructive notion which persists that Germany is meant for the Germans. However, it is arguable that Germany was never purely German. If it was, how does it explain the amount of Jews, Poles, Czechs, Dutch, Belgians, and French that have lived in Germany for hundreds of years. Not even mentioning those of the colonies who had came to the mainland for the purpose of work, whether they be black, South East Asian, or Chinese. To keep these minority groups down any longer would be a disgrace to German history and its people, which is why during a recent session of FAUD unions it was agreed on that more action should be taken to ensure that these groups are treated equally. Aside from the anti-discrimination laws against them, unions and communes have instituted employment quotas for minority groups every year to ensure that they get better chances of employment. Failure to hit the quotas might result in potential fines and punishments towards the unions and communes that do so. This is perhaps the most controversial action taken by FAUD so far, as it was the first FAUD vote to receive a decent amount of union opposition to. Despite the radical nature of these reforms, history will perhaps show that they were necessary in achieving equality and progress for all of Germany’s inhabitants."
+rotermorgenmisc.24.a:0 "Radical Problems Require Radical Solutions"
+
+rotermorgenmisc.25.t:0 "Formation of the Gestapo"
+rotermorgenmisc.25.d:0 "Since the victory in the German Revolution, the SMEPD has largely relied on the various militias around Germany to maintain law and order, and on some occasions to carry out some of the more secret unsavory tasks. Due to the varying effectiveness of these militias, the People’s Parliament has signed off on the creation of a centralized and secretive police force during a session behind closed doors. Named the Geheime Staatspolizei, or Gestapo for short, this new centralized police agency will answer only directly to the will of the People’s Parliament and has carte blanche to run operations as they see fit for the sake of Germany and the Revolution. The parliament voted for militia leader and longtime loyalist Ernst Wollweber to be the Gestapo’s first head. Since the creation of the Gestapo, there are already various confirmed disappearance of some German citizens and some of the more vocal members of the opposition have gone strangely silent if they weren’t apart of the disappeared already. Many were quick to catch onto the Gestapo’s existence, and as a result the fear and paranoia generated by them has been enough to keep the more reactionary Germans in line, if not become fiercely loyal to the Revolution."
+rotermorgenmisc.25.a:0 "Subservience Through Fear"
+
+rotermorgenmisc.26.t:0 "The Fields of Red"
+rotermorgenmisc.26.d:0 "The fields of Eastern Germany are renowned for many things. Their beauty, their bountiful agricultural yields, and their resilient people might be the first things that come to mind, but now their fields are becoming known for something much more sinister. Since the proclamation of Thalmann’s brainchild, the Great Cultural Revolution, by the People’s Parliament the Gestapo and the more notorious red militias have been taking those accused of treason and severe anti-Revolutionary activity to these fields to be executed. The methods tend to differ based on who carries it out; the Gestapo prefers a method called “Sardine Packing where reactionaries lay down in a deep ditch only to be shot while the next row lays on top of their corpses to repeat the process, while some of the red militias prefer using mounted machine guns to mow down lined up crowds before pilling their corpses to be doused with gasoline and set on fire. There are even rumors going around that one militia, Rotkämpferbund Radek, has preformed various cruel acts on those meant to be executed, with some claims saying that some are hunted like animals or dragged by vehicles, not even mentioning the stories of rape and use of reactionaries as targets for shooting practice. At night, some of the farmers from the communes can hear the screams and gunshots from the designated killing zones not far away, and the stench of death, gunpowder and gasoline is apparently so strong that it can persist for a few kilometers."
+rotermorgenmisc.26.a:0 "A Dead Reactionary is a Good Reactionary"
+
+rotermorgenmisc.27.t:0 "The Last Laugh"
+rotermorgenmisc.27.d:0 "Thalmann and the People’s Parliament always knew this day would have to come, and they couldn’t have been happier to do it now. Pieck and his faction of communists have been a constant thorn in their side since the SMEPD came into power, always objecting to whatever course taken whether it be for legitimate ideological differences or petty squabbles. Despite whatever challenges they may have put up, Pieck’s faction has been weakened to a point where they can be removed from the picture as a whole. Which is why the People’s Parliament issued arrest warrants for Pieck and the upper echelons of his clique so that they could be brought to public trial. International observers remarked that the trials were conducted with an usual degree of fairness, as the defendants were given proper lawyers to defend them along with time to make their case. However, it did not change the fact that the presiding jury had been entirely comprised of SMEPD bureaucrats or low ranking militia members, or the fact that some of the evidence and witness testimonies were either partially or fully fabricated to match some of the charges against them. In the end, Pieck along with his inner circle and lieutenants were found guilty of a variety of charges, with all of them having their party membership, along with any awards and titles, revoked and being prohibited of holding a position of power or political office again. The courts even went as far as the place Pieck and some others on indefinite house arrest. What was once the most persistent headache in all of Germany has now been reduced to an irrelevant footnote in history left to wither away as the rest of history goes forth without them."
+rotermorgenmisc.27.a:0 "The Enemies of the Revolution Always Get Their Due"
+
+rotermorgenmisc.28.t:0 "The Suffrage of the Other Sex"
+rotermorgenmisc.28.d:0 "It is no secret that Germany during the Kaiser was infamous for its backward treatment of women. Even at a time when democracies such as the United States and Russia extended the right of suffrage to women, Germany for whatever reason still relented. The SPD realized the backwardness of such a decisions which is why the party leadership pursued giving the right of women to vote almost instantly since coming into power. As of today, the SPD has achieved just that. All women who are citizens of Germany and aged 21 or older now have the right to vote. The decision to grant women suffrage has been seen by most elements of German society as a step in the right direction, resulting in the SPD’s popularity going up virtually overnight. "
+rotermorgenmisc.28.a:0 "A Step in the Right Direction"
 
 ###tooltips###
 GRU_tt_hydroelectricity_decisions:0 "Decisions on §YHydroelectricity§! will become available."
@@ -1436,6 +1474,18 @@ FAUD_tt_promote:0 "Unlocks decisions to promote anarchism around the world."
 FAUD_tt_Shithole:0 "Unlocks decisions to help poor nations."
 
 GRU_tt_DAF:0 "Decisions about DAF projects will become aviable."
+
+
+GRU_tt_army_boni:0 "Gain a §YNational Idea§! depending on the previous choice."
+GRU_tt_OKW_boni:0 "Gain a §YCentral Command§! depending on the previous choice."
+
+
+GRU_tt_CONSERV:0 "The §CConservatives§! will rule Germany"
+GRU_tt_MARLIBS:0 "The §OMarket Liberals§! will rule Germany"
+GRU_tt_SOCLIBS:0 "The §YSocial Liberals§! will rule Germany"
+GRU_tt_SOCDEMS:0 "The §PSocial Democrats§! will rule Germany"
+GRU_tt_RADSOCS:0 "The §RRadical Socialists§! will rule Germany"
+
 ###decisions###
 GRU_hydroelectricity_decisions:0 "Hydroelectricity"
 GRU_Damn_the_danube_decision:0 "Damm the Danube"
