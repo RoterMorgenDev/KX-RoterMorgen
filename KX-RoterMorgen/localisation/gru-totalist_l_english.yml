@@ -4,7 +4,7 @@ GRU_breitspurbahnen_desc:0 "The Breitspurbahnen will interlink every corner of t
 GRU_welfare:0 "Welfare"
 GRU_welfare_desc:0 "We will never leave a single worker behind, our society will carry the weight of everyone. One finger can be broken but five fingers are a fist!"
 GRU_staatsfeind_nr1:0 "Staatsfeind Nr.1"
-GRU_staatsfeind_nr1_desc:0 "They are everywhere, the inventors of „Judeo-Capitalism“ and „Jewish snakes of lies“ as the Volksführer calls the Jewish population."
+GRU_staatsfeind_nr1_desc:0 "They are everywhere, the inventors of „Judeo-Capitalism“ and „Jewish snakes of lies“ as the Volksführer calls the Jewish bankers but also the International and German Bankers, his economic anti-semitism has reached new hights as he has recently ordered the mass arrest and executions of Bankers and Shareholders may they be jewish or not."
 GRU_germany_reborn:0 "Germany Reborn"
 GRU_germany_reborn_desc:0 "Germany has been reborn like a phoenix risen from it's own ashes and we stand triumphant!"
 GRU_form_the_guard:0 "Form the Guard"
@@ -16,7 +16,7 @@ GRU_first_congress_of_german_unions_desc:0 "The Internationale has organized the
 GRU_iva:0 "I.v.A."
 GRU_iva_desc:0 "Industrie verstaatlichungs Aktion - The Industrial Nationalization Action\n We will nationalize all industrial and other economic assets in Germany."
 GRU_rva:0 "R.v.A."
-GRU_rva_desc:0 "Ressourcen verstaatlichungs Aktion - The Resources Nationalization Action\n We Will nationalize all resources, water supplies and agricultural land inside of Germany."
+GRU_rva_desc:0 "Ressourcen verstaatlichungs Aktion - The Resources Nationalization Action\n We Will nationalize all resources and water supplies inside of Germany to protect these basic needs of national survival from the capitalist roots of evil."
 GRU_found_the_fdj:0 "Found the FDJ"
 GRU_found_the_fdj_desc:0 "To ensure national survival now and in the times to come we need better Germans, Germans forged with hardship and discipline and for that very reason we will outlaw all youth organizations and replace them with one state run youth organization."
 GRU_nationalize_ufa:0 "Nationalize UFA"
@@ -611,7 +611,7 @@ GRU_guard:0 "R.R. - Revolutionäres Regiment"
 GRU_guard_desc:0 "The Revolutionary Regiment.\n\These men fear no one, in fact everyone else fears them now not only in Germany as their reputation has already reached neighboring countries.\n\The Revolutionary Regiment, dressed in all black uniforms with their crimson runic 'RR' symbols serves as a small elite force under direct command of the party. They are responsible for the deportation and removal of enemies of the state in Germany and beyond."
 
 GRU_lager:0 "Anhaltelager"
-GRU_lager_desc:0 "These camps are run by the R.R. and no one knows what happens to those that end up in them, all the average citizen will ever know of them is the thick black smoke hailing from them."
+GRU_lager_desc:0 "These camps are run by the R.R. and no one knows for sure what happens to those that end up in them. All the people know is that productst hat onyl require manual labour have gotten cheap recently."
 
 
 GRU_new_germany:0 "Das neue Deutschland!"
@@ -1067,7 +1067,7 @@ GRU_UOB_syn:0 "British Administration"
 GRU_SRI_syn:0 "Italian Administration"
 
 ###Leaders###
-GRU_GOEBBELS_DESC:0 "When the 2nd Weltkrieg broke out Josef Goebbels was not conscripted due to his malformed foot, a fact he would later try to suppress as good as possible to the public, especially due to his strong Francophobia he developed during the occupation.\nBefore the war he worked as a journalist and occasional Film Theater and Theater critique in his hometown of Rheydt. He was relatively well known in his home region and within the bigger cities of Cologne, Düsseldorf and Mönchengladbach near his hometown.\nHis early contact with Marxism during his youth and tendencies to Nationalism influenced his political leanings and ideological thought a lot which he had to hide during the reign of the Kaiser or he might have faced a ban on his journalism work due to repressions against far left writers in the German Empire.\nWhile not being in line with traditional Syndicalist or Socialist values he can be seen a a mirror to the French Sorelians with his Syncretism between ideological concepts that can be found within the far left and the far right he has manifested himself his very own ideology which he calls „National-Marxism“. It still remains questionable if it is actually different to Sorelian National-Syndicalism."
+GRU_GOEBBELS_DESC:0 "When the 2nd Weltkrieg broke out Josef Goebbels was not conscripted due to his malformed foot, a fact he would later try to suppress as good as possible to the public, especially due to his strong Francophobia he developed during the occupation.\nBefore the war he worked as a journalist and occasional Film Theater and Theater critique in his hometown of Rheydt. He was relatively well known in his home region and within the bigger cities of Cologne, Düsseldorf and Mönchengladbach near his hometown.\nHis early contact with Marxism during his youth and tendencies to Nationalism influenced his political leanings and ideological thought a lot which he had to hide during the reign of the Kaiser or he might have faced a ban on his journalism work due to repressions against far left writers in the German Empire.\nWhile not being in line with traditional Syndicalist or Socialist values he can be seen a a mirror to the French Sorelians with his Syncretism between ideological concepts that can be found within the far left and the far right he has manifested himself his very own ideology which he calls „National-Marxism“. It still remains questionable if it is actually different to Sorelian National-Syndicalism or if it even is 'Marxist' at all."
 
 
 ###events###
@@ -1169,7 +1169,7 @@ rotermorgen.40.d:0 "Wilhelm Pieck, one of Germany's best known supporters of Mar
 rotermorgen.40.a:0 "Lenin failed in Russia, Pieck will fail here."
 
 rotermorgen.50.t:0 "The Hypnotic Charm of a Small Man"
-rotermorgen.50.d:0 "While many already considered the formation of Pieck's MLEPD as problematic for a Syndicalist society, no one would have expected a party that could overshadow that.\n\nJosef Goebbels, a Marxist and furiously Nationalistic journalist from the Rhineland managed to organize a meeting of Nationalist hardliners in Pieck's MLEPD, Nationalists that had sympathies towards Marxist and Syndicalist economics, and the minority of „German Sorelians“."
+rotermorgen.50.d:0 "While many already considered the formation of Pieck's MLEPD as problematic for a Syndicalist society, no one would have expected a party that could overshadow that.\n\nJosef Goebbels, a former supporter of marxism and furiously Nationalistic journalist from the Rhineland managed to organize a meeting of Nationalist hardliners in Pieck's MLEPD, Nationalists that had sympathies towards Marxist and Syndicalist economics, and the minority of „German Sorelians“."
 rotermorgen.50.a:0 "Is this a joke?"
 
 rotermorgen.51.t:0 "The Fusion of the SUDA and MLEPD"
@@ -1177,7 +1177,7 @@ rotermorgen.51.d:0 "Today, Ernst Thälmann and Wilhelm Pieck announced the fusio
 rotermorgen.51.a:0 "Syndicalist-Marxism?"
 
 rotermorgen.52.t:0 "Josef Goebbels and the NMDVP"
-rotermorgen.52.d:0 "Troubling news have reached our desks. That maniac from the Rhine, Josef Goebbels, did actually manage to sway people to his cause and organized his own party, the NMDVP, a „National-Marxist“ party as he calls it which is more or less a Marxist version of Sorelian National-Syndicalism.\n\nHe even openly defies our power monopoly by forming his own militia called the „beefsteaks“ by many due to them using brown uniforms with red shirts."
+rotermorgen.52.d:0 "Troubling news have reached our desks. That maniac from the Rhine, Josef Goebbels, did actually manage to sway people to his cause and organized his own party, the NMDVP, a „National-Marxist“ party as he calls it which is more or less a German version of French National-Syndicalism which one big difference, his ideology does not even call for ending capitalism instead prefering a partially nationalized social corporate economy a fact many already consider to be a betrayl of the revolution.\n\nHe even openly defies our power monopoly by forming his own militia called the „beefsteaks“ by many due to them using brown uniforms with red shirts."
 rotermorgen.52.a:0 "Get me that troublemaker's head!"
 rotermorgen.52.b:0 "Allow him to run in the elections if he holds his men on a leash."
 
@@ -1289,7 +1289,7 @@ rotermorgenGCW.40.d:0 "The leader of the authoritarian syndicalists Ernst Thälm
 rotermorgenGCW.40.a:0 "We shall see."
 
 rotermorgenGCW.50.t:0 "The Black Sheep"
-rotermorgenGCW.50.d:0 "Most inside the Revolution consider nationalism beyond patriotism to be a sickness.\n\nMost not all of them, no there is one man who managed to unify most of the nationalistic groups during the civil war already behind his banner.\nThat man is Josef Goebbels, a man from the Rhine, a man early a sympathizer of Marxism but also a man that could only be compared to people like Valois, Deat or Bucard in France... a man with hatred for a lot of thing but a love for Germany unchallenged.\n\nHe has announced today that he will to take part in the congress with his new party the NMDVP."
+rotermorgenGCW.50.d:0 "Most inside the Revolution consider nationalism beyond patriotism to be a sickness.\n\nMost not all of them, no there is one man who managed to unify most of the nationalistic groups during the civil war already behind his banner.\nThat man is Josef Goebbels, a man from the Rhine, a man early a sympathizer of Marxism now having developed his own ideology called 'National-Marxism' which is very far from what most would call 'Marxism' instead calling for a partially nationalized social corporate economy to end class struggle by class cooperation. But he is also a man that could only be compared to people like Valois, Deat or Bucard in France due to his furious nationalism, a man with hatred for a lot of thing but a love for Germany unchallenged.\n\nHe has announced today that he will to take part in the congress with his new party the NMDVP."
 rotermorgenGCW.50.a:0 "Just give his delegation the worst seats...ok?"
 
 rotermorgenGCW.60.t:0 "All is prepared"
