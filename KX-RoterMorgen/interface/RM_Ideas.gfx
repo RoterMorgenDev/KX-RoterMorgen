@@ -271,6 +271,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/hypoborea.dds"
 	}
 	spriteType = {
+		name = "GFX_judeaVS"
+		texturefile = "gfx/interface/decisions/judea.dds"
+	}
+	spriteType = {
+		name = "GFX_turaniaVS"
+		texturefile = "gfx/interface/decisions/turania.dds"
+	}
+	spriteType = {
 		name = "GFX_decision_category_pangermanic"
 		texturefile = "gfx/interface/decisions/pangermanism1.dds"
 	}
@@ -595,5 +603,38 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_GRU_CIVIL_WAR_IDEA"
 		texturefile = "gfx/interface/ideas/GRU/GERMAN_CIVIL_WAR.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_VST_GOKTURK"
+		texturefile = "gfx/interface/ideas/GRU/GOTURK_IDEA.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_VST_TURANIA_ICON"
+		texturefile = "gfx/interface/ideas/GRU/TURANIA_IDEA.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_VST_TURANIA_NEW"
+		texturefile = "gfx/interface/ideas/GRU/THE_NEW_IDEA.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_VST_TURANIA_OLD"
+		texturefile = "gfx/interface/ideas/GRU/THE_OLD_IDEA.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_VSJ_JUDEA_IDEA"
+		texturefile = "gfx/interface/ideas/GRU/JUDEA_IDEA.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_VSJ_ASHKENAZI_IMMIGRATE"
+		texturefile = "gfx/interface/ideas/GRU/JUDEA_immigration_IDEA.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_VSJ_ASHKENAZI_SUPREMACISM"
+		texturefile = "gfx/interface/ideas/GRU/ASHKENAZI_SUPREMACY_IDEA.tga"
 	}
 }

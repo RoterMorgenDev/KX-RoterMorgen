@@ -885,6 +885,9 @@ country_event = { # VKR claims
 				821 = {
 					add_claim_by = VKR
 				}
+				79 = {
+					add_claim_by = VKR
+				}
 	}
 }
 
@@ -1005,6 +1008,33 @@ country_event = { # VKK claims
 					add_claim_by = VKK
 				}
 				1191 = {
+					add_claim_by = VKK
+				}
+				
+				
+				
+				1001 = {
+					add_claim_by = VKK
+				}
+				1000 = {
+					add_claim_by = VKK
+				}
+				355 = {
+					add_claim_by = VKK
+				}
+				354 = {
+					add_claim_by = VKK
+				}
+				352 = {
+					add_claim_by = VKK
+				}
+				417 = {
+					add_claim_by = VKK
+				}
+				419 = {
+					add_claim_by = VKK
+				}
+				420 = {
 					add_claim_by = VKK
 				}
 	}
@@ -1225,9 +1255,18 @@ country_event = { # VKM claims
 				262 = {
 					add_claim_by = VKM
 				}
-				#581 = {
-				#	add_claim_by = VKM
-				#}
+				398 = {
+					add_claim_by = VKM
+				}
+				651 = {
+					add_claim_by = VKM
+				}
+				652 = {
+					add_claim_by = VKM
+				}
+				406 = {
+					add_claim_by = VKM
+				}
 	}
 }
 
@@ -1338,6 +1377,175 @@ country_event = { # HYP claims
 				}
 				216 = {
 					add_claim_by = HYP
+				}
+	}
+}
+
+
+country_event = { # VSJ claims
+	id = rotermorgenmisc.950
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.950" }
+	title = rotermorgenmisc.950.t
+	desc = rotermorgenmisc.950.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+				653 = {
+					add_claim_by = VSJ
+				}	
+				572 = {
+					add_claim_by = VSJ
+				}
+				403 = {
+					add_claim_by = VSJ
+				}
+				580 = {
+					add_claim_by = VSJ
+				}
+				516 = {
+					add_claim_by = VSJ
+				}
+				577 = {
+					add_claim_by = VSJ
+				}
+				571 = {
+					add_claim_by = VSJ
+				}
+				570 = {
+					add_claim_by = VSJ
+				}
+				578 = {
+					add_claim_by = VSJ
+				}
+				576 = {
+					add_claim_by = VSJ
+				}
+				568 = {
+					add_claim_by = VSJ
+				}
+				569 = {
+					add_claim_by = VSJ
+				}
+				811 = {
+					add_claim_by = VSJ
+				}
+	}
+}
+
+country_event = { # VST claims
+	id = rotermorgenmisc.951
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.951" }
+	title = rotermorgenmisc.951.t
+	desc = rotermorgenmisc.951.d
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+				402 = {
+					add_claim_by = VST
+				}	
+				587 = {
+					add_claim_by = VST
+				}
+				583 = {
+					add_claim_by = VST
+				}
+				404 = {
+					add_claim_by = VST
+				}
+				590 = {
+					add_claim_by = VST
+				}
+				712 = {
+					add_claim_by = VST
+				}
+				588 = {
+					add_claim_by = VST
+				}
+				810 = {
+					add_claim_by = VST
+				}
+				40 = {
+					add_claim_by = VST
+				}
+				589 = {
+					add_claim_by = VST
+				}
+				584 = {
+					add_claim_by = VST
+				}
+				861 = {
+					add_claim_by = VST
+				}
+				585 = {
+					add_claim_by = VST
+				}
+				
+				405 = {
+					add_claim_by = VST
+				}
+				732 = {
+					add_claim_by = VST
+				}
+				1042 = {
+					add_claim_by = VST
+				}
+				407 = {
+					add_claim_by = VST
+				}
+				586 = {
+					add_claim_by = VST
+				}
+				
+				418 = {
+					add_claim_by = VST
+				}
+				804 = {
+					add_claim_by = VST
+				}
+				267 = {
+					add_claim_by = VST
+				}
+				654 = {
+					add_claim_by = VST
+				}
+				618 = {
+					add_claim_by = VST
+				}
+				617 = {
+					add_claim_by = VST
+				}
+				1083 = {
+					add_claim_by = VST
+				}
+				619 = {
+					add_claim_by = VST
+				}
+				1085 = {
+					add_claim_by = VST
+				}
+				287 = {
+					add_claim_by = VST
+				}
+				897 = {
+					add_claim_by = VST
+				}
+				416 = {
+					add_claim_by = VST
+				}
+				415 = {
+					add_claim_by = VST
+				}
+				442 = {
+					add_claim_by = VST
+				}
+				441 = {
+					add_claim_by = VST
+				}
+				445 = {
+					add_claim_by = VST
+				}
+				891 = {
+					add_claim_by = VST
 				}
 	}
 }

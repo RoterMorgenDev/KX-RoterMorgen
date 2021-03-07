@@ -43,6 +43,11 @@ GRU_lebensraum_decisions = {
 	allowed = { tag = GRU }
 }
 
+GRU_beyond_lebensraum_decisions = {
+	icon = lebensraum
+	allowed = { tag = GRU }
+}
+
 GRU_volksreichskommissariat_decisions = {
 	icon = volkskomissariats
 	allowed = { tag = GRU }

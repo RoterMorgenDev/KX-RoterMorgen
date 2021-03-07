@@ -570,7 +570,57 @@ GRU_industrial_democracy_desc:0 "Industrial unionization was the first step, noe
 GRU_new_railroads:0 "New Railrods"
 GRU_new_railroads_desc:0 "Fair and nationa wide resource distribution can only be guaranteed when we can reach every corner of Germany for this purpose we will build new railroads in the lesser developed regions."
 
+TURANIA_START:0 "Birth of Turania"
+TURANIA_START_desc:0 "The Germanic conquerors have brought us a new National-MArxist future, a future for a united Turania!"
+TURANIA_THE_NEW:0 "The New"
+TURANIA_THE_NEW_desc:0 "We will have to adapt to the westerners in some aspects to keep up with them, we can no longer live the life of Nomads.."
+TURANIA_IMPORT_GERMANS:0 "Thier Guidance"
+TURANIA_IMPORT_GERMANS_desc:0 "The Germans have send us one of thier high ranking R.R. officers to help us build a new National-Marxist society."
+TURANIA_URBANISATION:0 "Urbanization Initiative"
+TURANIA_URBANISATION_desc:0 "We must expand the few cities of the steppe into shining jewels of prosperity!"
+TURANIA_NEW_INDUSTRIES:0 "New Industries"
+TURANIA_NEW_INDUSTRIES_desc:0 "In order to survive we need to build up our own Industries"
+TURANIA_THE_OLD:0 "The Old"
+TURANIA_THE_OLD_desc:0 "Some new things might be good, but in soem cases you must look in the past to find guidance."
+TURANIA_WARRIORS_OF_THE_STEPPE:0 "Steppe Horde"
+TURANIA_WARRIORS_OF_THE_STEPPE_desc:0 "Our ancestors were the most feared warriors of all asia, we will reclaim thier honour and follow thier example."
+TURANIA_GOKTURK:0 "Introduce Göktürk"
+TURANIA_GOKTURK_desc:0 "For too long foreign writing has polluted our society and culture, the Germans brought back the Futhark, we shall bring back Göktürk!"
+TURANIA_SKYFATHER:0 "Skyfather Tengrii"
+TURANIA_SKYFATHER_desc:0 "The God of Mecca is a foreign God, not a true Turkic God, no we must return to our ancestral God, the God who gave birth to our race, Tengrii, Skyfather above us we hail you!"
+TURANIA_HAIL_THE_ONDER:0 "Hail the Başbug"
+TURANIA_HAIL_THE_ONDER_desc:0 "Mirsaid Sultan-Galiev our great Başbug has lead us to new glory! Hail him, hail the great marshal!"
 
+TURANIA_INTEGRATE_ALASH:0 "Integrate the Kazakh"
+TURANIA_INTEGRATE_ALASH_desc:0 "We will finally Turanize the Kazakh completly"
+TURANIA_TAKE_MUGHAL_LAND:0 "Integrate the Mughals"
+TURANIA_TAKE_MUGHAL_LAND_desc:0 "We will finally Turanize the Mughal lands completly"
+TURANIA_TAKE_EAST_TURKESTAN:0 "Integrate the East Turkestani"
+TURANIA_TAKE_EAST_TURKESTAN_desc:0 "We will finally Turanize east Turkestan completly"
+TURANIA_INTEGRATE_TURKMENS:0 "Integrate the Turkmeni"
+TURANIA_INTEGRATE_TURKMENS_desc:0 "We will finally Turanize the Turkmeni completly"
+TURANIA_LORDS_OF_THE_STEPPE:0 "Turania ruler of the Steppe"
+TURANIA_LORDS_OF_THE_STEPPE_desc:0 "We have achieved our greatest dreams, a united Turania for al lthe central asian Turkic people."
+
+
+JUDEA_START:0 "Stern leads!"
+JUDEA_START_desc:0 "Avraham Stern has been given green light by Berli nto establish the state of Judea from Berlin, a new state for the Germanic Jews in Siberia. This Land will from this day ownard be our given birthright!"
+JUDEA_ASHKENAZI_IMMIGRATION:0 "Ashkenazi Immigration"
+JUDEA_ASHKENAZI_IMMIGRATION_desc:0 "We will call upon all our Ashkenazi brethern around the world to follow us into the new Ashkenati state of Judea."
+JUDEA_JUDAIZE_LAND:0 "Settle the Land!"
+JUDEA_JUDAIZE_LAND_desc:0 "We will strip the vile slavic goyim of thier land and resdistribute it to it'S new Ashkenazi owners."
+JUDEA_THE_GOYIM_SLAV_SERF:0 "Enslave the Goyim"
+JUDEA_THE_GOYIM_SLAV_SERF_desc:0 "The Slavic Goyim that occupied Judea before us will made use of as our eternal serfs."
+JUDEA_ASHKENZI_SUPREMACISM:0 "Chosen of the Chosen"
+JUDEA_ASHKENZI_SUPREMACISM_desc:0 "The Ashkenazi are not onyl the Chosen of YHWH, no we are also of the supreme germanic race! We are the Chosen of the Chosen!"
+JUDEA_YIDDISH_RR:0 "The Yiddish RR"
+JUDEA_YIDDISH_RR_desc:0 "Judea will establish it's own branch of the RR to safeguard the great Germania."
+JUDEA_PROMOTE_POP_GROWTH:0 "The National-Marxist family model"
+JUDEA_PROMOTE_POP_GROWTH_desc:0 "To ensure a long lasting growth and grip on Judea we will adopt the National-Marxist family model."
+JUDEA_GERMAN_ECONOMICS:0 "German Economics"
+JUDEA_GERMAN_ECONOMICS_desc:0 "To better integrate ourself into the Greater Germanic state we will fully adopt the Germanic Economic system."
+JUDEA_BUILD_THE_TEMPLE:0 "§CTHE NEW ZION§!"
+JUDEA_BUILD_THE_TEMPLE_desc:0 "We will build a new Zion and the Third Temple for our people in this new land, forevr shall we be it'S lords and never fall again!"
 
 ###flags####
 PARTIES_FORMED:0 "Germany is ready for its first congress"
@@ -967,6 +1017,18 @@ GRU_RUINED_ECONOMY_TOALLY_RUINED:0 "Totally ruined Economy"
 GRU_RUINED_ECONOMY_TOALLY_BETTER:0 "Recovering Economy"
 
 
+VST_GOKTURK:0 "Göktürk"
+VST_TENGRI:0 "Tengriism"
+VST_TURANIA_ONE:0 "The Turanian Dream"
+VST_TURANIA_TWO:0 "Turania"
+VST_TURANIA_THREE:0 "Turania ruler of the Steppe"
+VST_TURANIA_NEW:0 "The New"
+VST_TURANIA_OLD:0 "The Old"
+VST_TURANIA_OLD_TWO:0 "The Old"
+
+VSJ_JUDEA:0 "Judea"
+VSJ_ASHKENAZI_IMMIGRATION:0 "Ashkenazi Immigration"
+VSJ_ASHKENAZI_SUPREMACISM:0 "Ashkenazi Supremacism"
 
 
 GRU_SYNTHWAVE:0 "Sythetische Musik"
@@ -1040,7 +1102,7 @@ red_guard_leaders:0 "R.A.M."
 red_guard_leaders_desc:0 "This man is part of R.A.M. or Rote Armee Miliz a paramilitary force of authoritarian syndicalists and Bolsheviks."
 
 radsoc_rev_leaders:0 "FAUD/BGB"
-radsoc_rev_leaders_desc:0 "This man is part of R.A.M. or Rote Armee Miliz a paramilitary force of authoritarian syndicalists and Bolsheviks."
+radsoc_rev_leaders_desc:0 "This man is part of the FAUD or the BGB and alligned to the liberal left."
 
 
 Nazbol_rev_leaders:0 "NM-KV/SNF"
@@ -1079,7 +1141,7 @@ GRU_UOB_syn:0 "British Administration"
 GRU_SRI_syn:0 "Italian Administration"
 
 ###Leaders###
-GRU_GOEBBELS_DESC:0 "When the 2nd Weltkrieg broke out Josef Goebbels was not conscripted due to his malformed foot, a fact he would later try to suppress as good as possible to the public, especially due to his strong Francophobia he developed during the occupation.\nBefore the war he worked as a journalist and occasional Film Theater and Theater critique in his hometown of Rheydt. He was relatively well known in his home region and within the bigger cities of Cologne, Düsseldorf and Mönchengladbach near his hometown.\nHis early contact with Marxism during his youth and tendencies to Nationalism influenced his political leanings and ideological thought a lot which he had to hide during the reign of the Kaiser or he might have faced a ban on his journalism work due to repressions against far left writers in the German Empire.\nWhile not being in line with traditional Syndicalist or Socialist values he can be seen a a mirror to the French Sorelians with his Syncretism between ideological concepts that can be found within the far left and the far right he has manifested himself his very own ideology which he calls „National-Marxism“. It still remains questionable if it is actually different to Sorelian National-Syndicalism or if it even is 'Marxist' at all."
+GRU_GOEBBELS_DESC:0 "Before his rise to power Goebbels worked as a journalist and occasional Film Theater and Theater critique in his hometown of Rheydt. He was relatively well known in his home region and within the bigger cities of Cologne, Düsseldorf and Mönchengladbach near his hometown.\nHis early contact with Marxism during his youth and tendencies to Nationalism influenced his political leanings and ideological thought a lot which he had to hide during the reign of the Kaiser or he might have faced a ban on his journalism work due to repressions against far left writers in the German Empire.\nWhile not being in line with traditional Syndicalist or Socialist values he can be seen a a mirror to the French Sorelians with his Syncretism between ideological concepts that can be found within the far left and the far right he has manifested himself his very own ideology which he calls „National-Marxism“. It still remains questionable if it is actually different to Sorelian National-Syndicalism or if it even is 'Marxist' at all."
 
 
 ###events###
@@ -1635,6 +1697,16 @@ GRU_expansion_three_volksreichskommissariat_moskowien:0 "§OMoskowien§! expansi
 GRU_lebensraum_decisions:0 "Conquest of Lebensraum"
 GRU_lebensraum_conquest_decision:0 "Conquest of [From.GetNameDef]."
 
+GRU_beyond_lebensraum_decisions:0 "Lebensraum beyond the Urals"
+GRU_beyond_lebensraum_conquest_decision:0 "Conquest of [From.GetNameDef]."
+GRU_beyond_lebensraum_great_wall_decision:0 "The great wall of the §CUrals§!"
+GRU_volksstaat_Judea:0 "Establish the Volksstaat Judea."
+GRU_expansion_one_volksstaat_Judea:0 "Expand Judea."
+GRU_expansion_two_volksstaat_Judea:0 "Expand Judea further east."
+GRU_volksstaat_turnaia:0 "Establish Turania."
+GRU_expansion_one_volksstaat_turnaia:0 "First Turania Expansion."
+GRU_expansion_two_volksstaat_turnaia:0 "Second Turania Expansion."
+
 GRU_volksland_hypoborea:0 "Found the Volksland Hyperborea"
 GRU_expansion_one_volksland_hypoborea:0 "Expand Hyperborea over Sweden."
 GRU_expansion_two_volksland_hypoborea:0 "Expand Hyperborea over Norway."
@@ -1699,17 +1771,18 @@ GRU_oil_kaukasia_one_decision:0 "Expand Baku fields."
 GRU_oil_kaukasia_two_decision:0 "Expand Azerbajani fields."
 GRU_oil_kaukasia_three_decision:0 "Astrakhan fields."
 GRU_oil_moskowia_one_decision:0 "Northern Moskowia Oil excavation."
-
+GRU_oil_turania_one_decision:0 "Mangyshalk Oil excavation."
+GRU_oil_turania_two_decision:0 "Karakum Oil excavation."
 
 
 GRU_expansion_ARMENIA_volksreichskommissariat_kaukasia:0 "§YKaukasus§! expansion into §RArmenia§!."
 
 ####puppets##
 
-RM_Stahlpakt_member:0 "Stahlpakt Member."
-RM_Volkskommissariat:0 "Volkskommissariat."
-RM_Volksland:0 "Volksland."
-
+RM_Stahlpakt_member:0 "Stahlpakt Member"
+RM_Volkskommissariat:0 "Volkskommissariat"
+RM_Volksland:0 "Volksland"
+RM_Volksstaat:0 "Volksstaat"
 
 
 ###Party names###
