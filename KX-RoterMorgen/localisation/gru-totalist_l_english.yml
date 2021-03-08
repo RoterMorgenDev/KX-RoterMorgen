@@ -1509,6 +1509,10 @@ rotermorgenmisc.28.t:0 "The Suffrage of the Other Sex"
 rotermorgenmisc.28.d:0 "It is no secret that Germany during the Kaiser was infamous for its backward treatment of women. Even at a time when democracies such as the United States and Russia extended the right of suffrage to women, Germany for whatever reason still relented. The SPD realized the backwardness of such a decisions which is why the party leadership pursued giving the right of women to vote almost instantly since coming into power. As of today, the SPD has achieved just that. All women who are citizens of Germany and aged 21 or older now have the right to vote. The decision to grant women suffrage has been seen by most elements of German society as a step in the right direction, resulting in the SPD’s popularity going up virtually overnight. "
 rotermorgenmisc.28.a:0 "A Step in the Right Direction"
 
+rotermorgenmisc.29.t:0 "The Stalking Woods"
+rotermorgenmisc.29.d:0 "Since the creation and official endorsement of the new Wodan Church as state religion we have build a new faith upon old Norse and Germanic mythology and many that feared to be taunted or laughed at for their pagan believes in the past have risen to the ranks of the Goði priests by now.\nThey are stalking the woods at night dressed in fur, horns and wooden crowns seeking guidance from the gods for our glorious Nation sacrificing animals and other small offerings. Many of the more conservative parts of our society are at terror about these neo-pagans that roam the nights mirroring the image of the Christian devil himself."
+rotermorgenmisc.29.a:0 "Thier Age is over!"
+
 ###tooltips###
 GRU_tt_hydroelectricity_decisions:0 "Decisions on §YHydroelectricity§! will become available."
 GRU_tt_breitspurbahn_decisions:0 "Decisions on building the §RBreitspurbahn§! network will become available."

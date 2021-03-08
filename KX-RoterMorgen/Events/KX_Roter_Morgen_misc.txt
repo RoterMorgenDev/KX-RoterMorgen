@@ -372,6 +372,18 @@ country_event = { # The Suffrage of the Other Sex
 	}
 }
 
+country_event = { # The Stalking Woods
+	id = rotermorgenmisc.29
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.29" }
+	title = rotermorgenmisc.29.t
+	desc = rotermorgenmisc.29.d
+	picture = GFX_report_event_GOTHI
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.29.a
+	}
+}
+
 country_event = { # allignment
 	id = rotermorgenmisc.40
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.40" }

@@ -185,6 +185,12 @@ spriteTypes = {
 
 			texturefile = "gfx/event_pictures/rudi.tga"
 	}
+	spriteType = {  
+
+			name = "GFX_report_event_GOTHI"  
+
+			texturefile = "gfx/event_pictures/Gothi.tga"
+	}
 	
 	
 	

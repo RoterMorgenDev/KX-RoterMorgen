@@ -172,6 +172,9 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_OLD_GOD"
 			add_ideas = GRU_paganism_idea
+			hidden_effect = {
+			country_event = { id =  rotermorgenmisc.29 days = 50 }
+			}
 		}
 
 		prerequisite = { focus = GRU_german_endsieg }
