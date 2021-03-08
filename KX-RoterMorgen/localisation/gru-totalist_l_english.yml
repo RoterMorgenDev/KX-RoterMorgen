@@ -4,7 +4,7 @@ GRU_breitspurbahnen_desc:0 "The Breitspurbahnen will interlink every corner of t
 GRU_welfare:0 "Welfare"
 GRU_welfare_desc:0 "We will never leave a single worker behind, our society will carry the weight of everyone. One finger can be broken but five fingers are a fist!"
 GRU_staatsfeind_nr1:0 "Staatsfeind Nr.1"
-GRU_staatsfeind_nr1_desc:0 "They are everywhere, the inventors of „Judeo-Capitalism“ and „Jewish snakes of lies“ as the Volksführer calls the Jewish bankers but also the International and German Bankers, his economic anti-semitism has reached new hights as he has recently ordered the mass arrest and executions of Bankers and Shareholders may they be jewish or not."
+GRU_staatsfeind_nr1_desc:0 "They are everywhere, the inventors of „Judeo-Capitalism“ and „Jewish snakes of lies“ as the Volksführer calls the Jewish bankers but also the International and German Bankers, his economic antisemitism has reached new heights as he has recently ordered the mass arrest and executions of Bankers and Shareholders may they be Jewish or not."
 GRU_germany_reborn:0 "Germany Reborn"
 GRU_germany_reborn_desc:0 "Germany has been reborn like a phoenix risen from it's own ashes and we stand triumphant!"
 GRU_form_the_guard:0 "Form the Guard"
@@ -122,7 +122,7 @@ GRU_bomber_focus_desc:0 "We will favor bombers over fighters in our attempts to 
 GRU_fighter_focus:0 "Fighter Focus"
 GRU_fighter_focus_desc:0 "We will favor fighters over bombers in our attempts to rebuild the Air Force."
 GRU_carrier_focus:0 "Carrier Focus"
-GRU_carrier_focus_desc:0 "Our new navy will be centred around carrier task forces."
+GRU_carrier_focus_desc:0 "Our new navy will be centered around carrier task forces."
 GRU_battleship_focus:0 "Battleship Focus"
 GRU_battleship_focus_desc:0 "Dreadnoughts won the seas in the last wars and will continue to do so, our fleet will focus on building floating fortresses."
 GRU_panzertruppe:0 "Panzertruppe"
@@ -382,7 +382,7 @@ VK_FOCUS_BALTENLAND_COLONIZED_desc:0 "The Baltenland Germanization will be finis
 HYPOBOREA_START:0 "HYPERBOREA"
 HYPOBOREA_START_desc:0 "The northern lands are ours, liberated by our Germanic brothers from the south we will safeguard the Hyperborean lands they trusted us."
 HYPOBOREA_germanize_PEOPLE:0 "Hyperboreanisation"
-HYPOBOREA_germanize_PEOPLE_desc:0 "We will create a new singular Hyperborean culture based upon nordic mythology and pan-germanism."
+HYPOBOREA_germanize_PEOPLE_desc:0 "We will create a new singular Hyperborean culture based upon Nordic mythology and Pan-Germanism."
 HYPOBOREA_germanize_LAND:0 "A Fortress alike Thule"
 HYPOBOREA_germanize_LAND_desc:0 "We will directly integrate all the conquered lands and claim heritage to the former Scandinavian Nations."
 HYPOBOREA_GERMAN_SYSTEM:0 "Germanic Society"
@@ -455,7 +455,7 @@ GRU_MARLIB_BAN_LEFTIST_THOUGHT_desc:0 "We must get rid of the Leftists by all me
 GRU_MARLIB_TWENTY_PERCENTE_ELECTROAL_THRESHOLD:0 "The Impossible Threshold"
 GRU_MARLIB_TWENTY_PERCENTE_ELECTROAL_THRESHOLD_desc:0 "By establishing a twenty percent threshold for the elections we make any real opposition impossible."
 GRU_MARLIB_CONTROL_MEDIA_WITH_MONEY:0 "Simply Buy the Public Opinion"
-GRU_MARLIB_CONTROL_MEDIA_WITH_MONEY_desc:0 "All media is owned by us, The Industrials, we pay them and we tell them what to print."
+GRU_MARLIB_CONTROL_MEDIA_WITH_MONEY_desc:0 "All media is owned by us, The Industrialists, we pay them and we tell them what to print."
 GRU_MARLIB_OLIGARCHIC_REPUBLIC:0 "Drop the Charade"
 GRU_MARLIB_OLIGARCHIC_REPUBLIC_desc:0 "We are not a Democracy and never will be again, wealth is all that matters and what gives one true value."
 
@@ -540,7 +540,7 @@ GRU_national_labour_service:0 "National Labor Service"
 GRU_national_labour_service_desc:0 "We will establish the Nationaler Arbeitsdienst or N.A.D. a social union for our unemployed Volksgenossen that will have active connections into all branches of industry to find work for the unemployed as well as putting them to use as auxiliary work forces where needed."
 
 GRU_agrarian_subsides:0 "Agrarian Subsidies"
-GRU_agrarian_subsides_desc:0 "Instead of collectivisation and expropriation we will found a National Farmer Union and give subsidies to our farmers."
+GRU_agrarian_subsides_desc:0 "Instead of collectivization and expropriation we will found a National Farmer Union and give subsidies to our farmers."
 
 GRU_factory_network_unions:0 "Interlinked Economy"
 GRU_factory_network_unions_desc:0 "The interlinked economy is a project to establish direct connections between factories that are in one chain of production to maximize their output and efficiency."
@@ -565,62 +565,62 @@ GRU_I_found_dad_desc:0 "The DAD or Deutscher Abschirmdienst will become the true
 
 
 GRU_industrial_democracy:0 "Industrial Democracy"
-GRU_industrial_democracy_desc:0 "Industrial unionization was the first step, noew we must democratize the indurtial unions! The workers will turly seize thier means of production!"
+GRU_industrial_democracy_desc:0 "Industrial unionization was the first step, now we must democratize the industrial unions! The workers will truly seize their means of production!"
 
-GRU_new_railroads:0 "New Railrods"
-GRU_new_railroads_desc:0 "Fair and nationa wide resource distribution can only be guaranteed when we can reach every corner of Germany for this purpose we will build new railroads in the lesser developed regions."
+GRU_new_railroads:0 "New Railroads"
+GRU_new_railroads_desc:0 "Fair and nation wide resource distribution can only be guaranteed when we can reach every corner of Germany for this purpose we will build new railroads in the lesser developed regions."
 
 TURANIA_START:0 "Birth of Turania"
 TURANIA_START_desc:0 "The Germanic conquerors have brought us a new National-MArxist future, a future for a united Turania!"
 TURANIA_THE_NEW:0 "The New"
 TURANIA_THE_NEW_desc:0 "We will have to adapt to the westerners in some aspects to keep up with them, we can no longer live the life of Nomads.."
-TURANIA_IMPORT_GERMANS:0 "Their guidance"
-TURANIA_IMPORT_GERMANS_desc:0 "The Germans have send us one of thier high ranking R.R. officers to help us build a new National-Marxist society."
+TURANIA_IMPORT_GERMANS:0 "Their Guidance"
+TURANIA_IMPORT_GERMANS_desc:0 "The Germans have send us one of their high ranking R.R. officers to help us build a new National-Marxist society."
 TURANIA_URBANISATION:0 "Urbanization Initiative"
 TURANIA_URBANISATION_desc:0 "We must expand the few cities of the steppe into shining jewels of prosperity!"
 TURANIA_NEW_INDUSTRIES:0 "New Industries"
 TURANIA_NEW_INDUSTRIES_desc:0 "In order to survive we need to build up our own Industries"
 TURANIA_THE_OLD:0 "The Old"
-TURANIA_THE_OLD_desc:0 "Some new things might be good, but in soem cases you must look in the past to find guidance."
+TURANIA_THE_OLD_desc:0 "Some new things might be good, but in some cases you must look in the past to find guidance."
 TURANIA_WARRIORS_OF_THE_STEPPE:0 "Steppe Horde"
-TURANIA_WARRIORS_OF_THE_STEPPE_desc:0 "Our ancestors were the most feared warriors of all asia, we will reclaim thier honour and follow thier example."
+TURANIA_WARRIORS_OF_THE_STEPPE_desc:0 "Our ancestors were the most feared warriors of all Asia, we will reclaim their honor and follow their example."
 TURANIA_GOKTURK:0 "Introduce Göktürk"
 TURANIA_GOKTURK_desc:0 "For too long foreign writing has polluted our society and culture, the Germans brought back the Futhark, we shall bring back Göktürk!"
-TURANIA_SKYFATHER:0 "Skyfather Tengrii"
-TURANIA_SKYFATHER_desc:0 "The God of Mecca is a foreign God, not a true Turkic God, no we must return to our ancestral God, the God who gave birth to our race, Tengrii, Skyfather above us we hail you!"
+TURANIA_SKYFATHER:0 "Sky Father Tengrii"
+TURANIA_SKYFATHER_desc:0 "The God of Mecca is a foreign God, not a true Turkic God, no we must return to our ancestral God, the God who gave birth to our race, Tengrii, Sky Father above us we hail you!"
 TURANIA_HAIL_THE_ONDER:0 "Hail the Başbug"
 TURANIA_HAIL_THE_ONDER_desc:0 "Mirsaid Sultan-Galiev our great Başbug has lead us to new glory! Hail him, hail the great marshal!"
 
 TURANIA_INTEGRATE_ALASH:0 "Integrate the Kazakh"
-TURANIA_INTEGRATE_ALASH_desc:0 "We will finally Turanize the Kazakh completly"
+TURANIA_INTEGRATE_ALASH_desc:0 "We will finally Turanize the Kazakh completely"
 TURANIA_TAKE_MUGHAL_LAND:0 "Integrate the Mughals"
-TURANIA_TAKE_MUGHAL_LAND_desc:0 "We will finally Turanize the Mughal lands completly"
+TURANIA_TAKE_MUGHAL_LAND_desc:0 "We will finally Turanize the Mughal lands completely"
 TURANIA_TAKE_EAST_TURKESTAN:0 "Integrate the East Turkestani"
-TURANIA_TAKE_EAST_TURKESTAN_desc:0 "We will finally Turanize east Turkestan completly"
+TURANIA_TAKE_EAST_TURKESTAN_desc:0 "We will finally Turanize east Turkestan completely"
 TURANIA_INTEGRATE_TURKMENS:0 "Integrate the Turkmeni"
-TURANIA_INTEGRATE_TURKMENS_desc:0 "We will finally Turanize the Turkmeni completly"
+TURANIA_INTEGRATE_TURKMENS_desc:0 "We will finally Turanize the Turkmeni completely"
 TURANIA_LORDS_OF_THE_STEPPE:0 "Turania ruler of the Steppe"
-TURANIA_LORDS_OF_THE_STEPPE_desc:0 "We have achieved our greatest dreams, a united Turania for al lthe central asian Turkic people."
+TURANIA_LORDS_OF_THE_STEPPE_desc:0 "We have achieved our greatest dreams, a united Turania for al lthe central Asian Turkic people."
 
 
-JUDEA_START:0 "Stern leads!"
-JUDEA_START_desc:0 "Avraham Stern has been given green light by Berli nto establish the state of Judea from Berlin, a new state for the Germanic Jews in Siberia. This Land will from this day ownard be our given birthright!"
+JUDEA_START:0 "Stern Leads!"
+JUDEA_START_desc:0 "Avraham Stern has been given green light by Berlin to establish the state of Judea from Berlin, a new state for the Germanic Jews in Siberia. This land will from this day onward be our given birthright!"
 JUDEA_ASHKENAZI_IMMIGRATION:0 "Ashkenazi Immigration"
-JUDEA_ASHKENAZI_IMMIGRATION_desc:0 "We will call upon all our Ashkenazi brethern around the world to follow us into the new Ashkenati state of Judea."
+JUDEA_ASHKENAZI_IMMIGRATION_desc:0 "We will call upon all our Ashkenazi brethren around the world to follow us into the new Ashkenati state of Judea."
 JUDEA_JUDAIZE_LAND:0 "Settle the Land!"
-JUDEA_JUDAIZE_LAND_desc:0 "We will strip the vile slavic goyim of thier land and resdistribute it to it'S new Ashkenazi owners."
+JUDEA_JUDAIZE_LAND_desc:0 "We will strip the vile Slavic Goyim of their land and redistribute it to it's new Ashkenazi owners."
 JUDEA_THE_GOYIM_SLAV_SERF:0 "Enslave the Goyim"
 JUDEA_THE_GOYIM_SLAV_SERF_desc:0 "The Slavic Goyim that occupied Judea before us will made use of as our eternal serfs."
 JUDEA_ASHKENZI_SUPREMACISM:0 "Chosen of the Chosen"
-JUDEA_ASHKENZI_SUPREMACISM_desc:0 "The Ashkenazi are not onyl the Chosen of YHWH, no we are also of the supreme germanic race! We are the Chosen of the Chosen!"
+JUDEA_ASHKENZI_SUPREMACISM_desc:0 "The Ashkenazi are not only the Chosen of YHWH, no we are also of the supreme Germanic race! We are the Chosen of the Chosen!"
 JUDEA_YIDDISH_RR:0 "The Yiddish RR"
 JUDEA_YIDDISH_RR_desc:0 "Judea will establish it's own branch of the RR to safeguard the great Germania."
 JUDEA_PROMOTE_POP_GROWTH:0 "The National-Marxist family model"
 JUDEA_PROMOTE_POP_GROWTH_desc:0 "To ensure a long lasting growth and grip on Judea we will adopt the National-Marxist family model."
 JUDEA_GERMAN_ECONOMICS:0 "German Economics"
-JUDEA_GERMAN_ECONOMICS_desc:0 "To better integrate ourself into the Greater Germanic state we will fully adopt the Germanic Economic system."
+JUDEA_GERMAN_ECONOMICS_desc:0 "To better integrate ourselves into the Greater Germanic state we will fully adopt the Germanic Economic system."
 JUDEA_BUILD_THE_TEMPLE:0 "§CTHE NEW ZION§!"
-JUDEA_BUILD_THE_TEMPLE_desc:0 "We will build a new Zion and the Third Temple for our people in this new land, forevr shall we be it'S lords and never fall again!"
+JUDEA_BUILD_THE_TEMPLE_desc:0 "We will build a new Zion and the Third Temple for our people in this new land, forever shall we be it's lords and never fall again!"
 
 ###flags####
 PARTIES_FORMED:0 "Germany is ready for its first congress"
@@ -669,7 +669,7 @@ GRU_guard:0 "R.R. - Revolutionäres Regiment"
 GRU_guard_desc:0 "The Revolutionary Regiment.\n\These men fear no one, in fact everyone else fears them now not only in Germany as their reputation has already reached neighboring countries.\n\The Revolutionary Regiment, dressed in all black uniforms with their crimson runic 'RR' symbols serves as a small elite force under direct command of the party. They are responsible for the deportation and removal of enemies of the state in Germany and beyond."
 
 GRU_lager:0 "Anhaltelager"
-GRU_lager_desc:0 "These camps are run by the R.R. and no one knows for sure what happens to those that end up in them. All the people know is that productst hat onyl require manual labour have gotten cheap recently."
+GRU_lager_desc:0 "These camps are run by the R.R. and no one knows for sure what happens to those that end up in them. All the people know is that products that only require manual labor have gotten cheaper recently."
 
 
 GRU_new_germany:0 "Das neue Deutschland!"
@@ -800,7 +800,7 @@ GRU_DSR_industrialunions:0 "Industrial Unions"
 GRU_DSR_industrialunions_desc:0 "The unionization of German industry has given us a strong base to build an even stronger economy."
 
 GRU_DSR_industrialunions_TWO:0 "Industrial Democracy"
-GRU_DSR_industrialunions_TWO_desc:0 "The unionization of German industry has given us a strong base to build an even stronger economy. A fair demoratized industry in which the workers directly control the means of production!"
+GRU_DSR_industrialunions_TWO_desc:0 "The unionization of German industry has given us a strong base to build an even stronger economy. A fair democratized industry in which the workers directly control the means of production!"
 
 
 GRU_DSR_COMITTEE:0 "Union Trade Committee"
@@ -1322,7 +1322,7 @@ rotermorgenmisc.801.a:0 "No thanks."
 
 rotermorgenmisc.810.t:0 "Victory over Judeo-Capitalism."
 rotermorgenmisc.810.d:0 "After our proclamation of victory over Judeo-Capitalism many of our supporters took it as a green light signal for escalation and during the following nights Jewish stores and houses were raided by disorganized militia and common people alike."
-rotermorgenmisc.810.a:0 "Not realy a loss is it?"
+rotermorgenmisc.810.a:0 "Not really a loss is it?"
 
 
 
@@ -1364,7 +1364,7 @@ rotermorgenGCW.40.a:0 "We shall see."
 
 rotermorgenGCW.50.t:0 "The Black Sheep"
 rotermorgenGCW.50.d:0 "Most inside the Revolution consider nationalism beyond patriotism to be a sickness.\n\nMost not all of them, no there is one man who managed to unify most of the nationalistic groups during the civil war already behind his banner.\nThat man is Josef Goebbels, a man from the Rhine, a man early a sympathizer of Marxism now having developed his own ideology called 'National-Marxism' which is very far from what most would call 'Marxism' instead calling for a partially nationalized social corporate economy to end class struggle by class cooperation. But he is also a man that could only be compared to people like Valois, Deat or Bucard in France due to his furious nationalism, a man with hatred for a lot of thing but a love for Germany unchallenged.\n\nHe has announced today that he will to take part in the congress with his new party the NMDVP."
-rotermorgenGCW.50.a:0 "Just give his delegation the worst seats...ok?"
+rotermorgenGCW.50.a:0 "Just give his delegation the worst seats...OK?"
 
 rotermorgenGCW.60.t:0 "All is prepared"
 rotermorgenGCW.60.d:0 "We have prepared everything for the upcoming congress shelter, food, meeting rooms all of it the congress will take several days when it starts and subjects of all kind will come on the table.\the future is son decided."
@@ -1482,11 +1482,11 @@ rotermorgenmisc.21.d:0 "When it comes to educating the children of Germany, it i
 rotermorgenmisc.21.a:0 "How is Memorizing Marx and Kropotkin Pertain to Becoming an Engineer or a Factory Worker?"
 
 rotermorgenmisc.22.t:0 "Love is Love"
-rotermorgenmisc.22.d:0 "The long running conservatism within Germany that has persisted up until the deposing of the Kaiser has offered some of the harshest punishments towards the homosexuals of Germany. Homosexual activity was met with harsh prison sentences and hard labor, and even in some cases resulted in some of them being sent to mental institutions for electroshock therapy and, in the cases of high-profile homosexuals, experimental lobotomy treatments. FAUD has viewed the treatment of gays and lesbians in this manner as incredibly barbaric and backward, which is why it came as little surprise to any when they decriminalized homosexuality and enacted legal protections towards them. Under the new laws, homosexuals will be granted equal opportunities in all levels of government, employment, and military service with any institutional discrimination towards or hate crimes towards them being met with legal punishment. The most controversial aspect of these new laws is the protections of the very small transexual community in Germany, which even some members of FAUD think is going a bit too far as it might bolden the already enflamed reactionary resistance to these new laws. However, despite the challenges towards these new laws, many members of FAUD and the progressives of Germany that this is a step in the right direction."
+rotermorgenmisc.22.d:0 "The long running conservatism within Germany that has persisted up until the deposing of the Kaiser has offered some of the harshest punishments towards the homosexuals of Germany. Homosexual activity was met with harsh prison sentences and hard labor, and even in some cases resulted in some of them being sent to mental institutions for electroshock therapy and, in the cases of high-profile homosexuals, experimental lobotomy treatments. FAUD has viewed the treatment of gays and lesbians in this manner as incredibly barbaric and backward, which is why it came as little surprise to any when they decriminalized homosexuality and enacted legal protections towards them. Under the new laws, homosexuals will be granted equal opportunities in all levels of government, employment, and military service with any institutional discrimination towards or hate crimes towards them being met with legal punishment. The most controversial aspect of these new laws is the protections of the very small transsexual community in Germany, which even some members of FAUD think is going a bit too far as it might bolden the already inflamed reactionary resistance to these new laws. However, despite the challenges towards these new laws, many members of FAUD and the progressives of Germany that this is a step in the right direction."
 rotermorgenmisc.22.a:0 "For Equality and Progress"
 
 rotermorgenmisc.23.t:0 "The Vanguard of the Working Class"
-rotermorgenmisc.23.d:0 "Militias are undoubtably the backbone of any Syndicalist revolution. When one looks to the revolutions of France, England, and Italy, you never saw formal units end the rule of reactionaries. Rather, it was the will and strength of the masses who were able to drive out the capitalists and tyrants and bring about the Revolution. FAUD understands this principle fully, which is why they have decided unanimously during a joint session of their trade unions to formally declare the red militias as the military vanguard of the Revolution. This declaration firmly places the militias as the main military force of Germany and to be the institution most trusted with maintaining and upholding the revolution behind the unions and councils themselves. While some may raise concerns over a group of informal weekend warriors being the backbone of maintaining order and defending Germany, the members of FAUD and quite a few Germans are ecstatic over this development as the defenders of the Revolution finally get the rightful importance and recognition they deserve."
+rotermorgenmisc.23.d:0 "Militias are undoubtedly the backbone of any Syndicalist revolution. When one looks to the revolutions of France, England, and Italy, you never saw formal units end the rule of reactionaries. Rather, it was the will and strength of the masses who were able to drive out the capitalists and tyrants and bring about the Revolution. FAUD understands this principle fully, which is why they have decided unanimously during a joint session of their trade unions to formally declare the red militias as the military vanguard of the Revolution. This declaration firmly places the militias as the main military force of Germany and to be the institution most trusted with maintaining and upholding the revolution behind the unions and councils themselves. While some may raise concerns over a group of informal weekend warriors being the backbone of maintaining order and defending Germany, the members of FAUD and quite a few Germans are ecstatic over this development as the defenders of the Revolution finally get the rightful importance and recognition they deserve."
 rotermorgenmisc.23.a:0 "The Flame of Socialism is Best Shielded by the Workers"
 
 rotermorgenmisc.24.t:0 "The Equity of All"
@@ -1510,8 +1510,8 @@ rotermorgenmisc.28.d:0 "It is no secret that Germany during the Kaiser was infam
 rotermorgenmisc.28.a:0 "A Step in the Right Direction"
 
 rotermorgenmisc.29.t:0 "The Stalking Woods"
-rotermorgenmisc.29.d:0 "Since the creation and official endorsement of the new Wodan Church as state religion we have build a new faith upon old Norse and Germanic mythology and many that feared to be taunted or laughed at for their pagan believes in the past have risen to the ranks of the Goði priests by now.\nThey are stalking the woods at night dressed in fur, horns and wooden crowns seeking guidance from the gods for our glorious Nation sacrificing animals and other small offerings. Many of the more conservative parts of our society are at terror about these neo-pagans that roam the nights mirroring the image of the Christian devil himself."
-rotermorgenmisc.29.a:0 "Thier Age is over!"
+rotermorgenmisc.29.d:0 "Since the creation and official endorsement of the new Wodan Church as state religion we have build a new faith upon old Norse and Germanic mythology and many that feared to be taunted or laughed at for their Pagan believes in the past have risen to the ranks of the Goði priests by now.\nThey are stalking the woods at night dressed in fur, horns and wooden crowns seeking guidance from the Gods for our glorious Nation sacrificing animals and other small offerings. Many of the more Conservative parts of our society are at terror about these Neo-Pagans that roam the nights mirroring the image of the Christian devil himself."
+rotermorgenmisc.29.a:0 "Their Age is over!"
 
 ###tooltips###
 GRU_tt_hydroelectricity_decisions:0 "Decisions on §YHydroelectricity§! will become available."
@@ -1539,7 +1539,7 @@ GRU_tt_new_alliance:0 "Unlocks decisions to expand the new §YAlliance§!."
 FAUD_tt_promote:0 "Unlocks decisions to promote anarchism around the world."
 FAUD_tt_Shithole:0 "Unlocks decisions to help poor nations."
 
-GRU_tt_DAF:0 "Decisions about DAF projects will become aviable."
+GRU_tt_DAF:0 "Decisions about DAF projects will become available."
 
 
 GRU_tt_army_boni:0 "Gain a §YNational Idea§! depending on the previous choice."
@@ -1757,7 +1757,7 @@ GRU_allignment_decisions_desc:0 "Decisions to align Nations with a similar cause
 GRU_subvert_france_decisions_desc:0 "Decisions to subvert the §R3rd Internationale§! and to stir up French puppets."
 
 GRU_hydroelectricity_decisions_desc:0 "We have several possible project regarding the construction of Hydroelectricity Power Plants available."
-GRU_breitspurbahn_decisions_desc:0 "The Breitspurbahn Network project is an ongoing effort to build the biggest, fastest and most efficent railroad system ever to exist."
+GRU_breitspurbahn_decisions_desc:0 "The Breitspurbahn Network project is an ongoing effort to build the biggest, fastest and most efficient railroad system ever to exist."
 GRU_germania_plan_decisions_desc:0 "The 'Germania Plan' is the planned expansion of the German National Worker state into several neighboring territories."
 
 GRU_blut_boden_decisions_desc:0 "The doctrine of §GSoil§! and §RBlood§! calls for a direct connection between a land and the people that live on it or lived there in the past it is beyond a claim also a duty, a duty towards nature and the protection of the harmonious unity a people should form with their ancestral home."
