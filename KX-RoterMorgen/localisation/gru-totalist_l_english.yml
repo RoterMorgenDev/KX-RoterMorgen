@@ -1727,11 +1727,8 @@ GRU_expand_internationale_decisions:0 "Expand the Internationale."
 GRU_invite_countries_decision:0 "Invite [From.GetNameDef] into the Internationale."
 
 GRU_new_alliance_decisions:0 "Expand our Alliance."
-GRU_invite_friendly_countries_CONS_decision:0 "Invite [From.GetNameDef] into our Alliance."
-GRU_invite_friendly_countries_MARLIB_decision:0 "Invite [From.GetNameDef] into our Alliance."
-GRU_invite_friendly_countries_SOCLIB_decision:0 "Invite [From.GetNameDef] into our Alliance."
-GRU_invite_friendly_countries_SOCDEM_decision:0 "Invite [From.GetNameDef] into our Alliance."
-GRU_invite_friendly_countries_RADSOC_decision:0 "Invite [From.GetNameDef] into our Alliance."
+GRU_dem_invite_countries_decision:0 "Invite [From.GetNameDef] into our Alliance."
+
 
 GRU_blut_boden_decisions:0 "Decisions on §GSoil§! and §RBlood§!"
 GRU_blut_boden_volksgesundheitsamt_decision:0 "Establish the Amt für Volksgesundheit"

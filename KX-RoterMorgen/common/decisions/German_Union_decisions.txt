@@ -8085,28 +8085,21 @@ GRU_expand_internationale_decisions = {
 	}
 }
 GRU_new_alliance_decisions = {
-
 	
-
-GRU_invite_friendly_countries_CONS_decision = {
+	GRU_dem_invite_countries_decision = {
 		icon = generic_political_actions
 
 		available = {
-			has_completed_focus = GRU_OUR_OWN
 			is_major = yes
 			has_war = no
 			is_subject = no
 			is_faction_leader = yes
-			OR = {
-			has_government = social_conservative
-			has_government = authoritarian_democrat
-			}
 		}
 		visible = {
 			has_completed_focus = GRU_OUR_OWN
-			OR = {
-			has_government = social_conservative
-			has_government = authoritarian_democrat
+			FROM = {
+				is_possible_target_for_germanoid_alliance = yes
+				is_not_excluded_from_germanoid_alliance = no
 			}
 		}
 
@@ -8115,37 +8108,10 @@ GRU_invite_friendly_countries_CONS_decision = {
 		}
 
 		target_trigger = {
-			
-	
 			FROM = {
-				OR = {
-					has_government = social_conservative
-					has_government = authoritarian_democrat
-					has_government = market_liberal
-				}
-				NOT = { is_in_faction_with = GRU }
-				NOT = { is_in_faction = yes }
-				NOT = { is_puppet = yes }
-				NOT = { is_subject = yes }
+				is_possible_target_for_germanoid_alliance = yes
+				is_not_excluded_from_germanoid_alliance = no
 			}
-			NOT = {
-				OR = {
-					tag = RUS
-					tag = USA
-					tag = COR
-					tag = CSA
-					tag = CAL
-					tag = TEX
-					tag = WGR
-					tag = DDR
-					tag = BAY
-					tag = NGF
-					tag = GER
-					tag = GEX
-					tag = MAF
-					}
-			}
-			NOT = { is_puppet = yes }
 		}
 
 		fire_only_once = no
@@ -8154,274 +8120,7 @@ GRU_invite_friendly_countries_CONS_decision = {
 			factor = 6
 		}
 		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GRU_invite_friendly_countries_decision target: [From.GetName]"
-			FROM = {	country_event = rotermorgenmisc.801 }
-		}
-	}
-
-GRU_invite_friendly_countries_MARLIB_decision = {
-		icon = generic_political_actions
-
-		available = {
-			has_completed_focus = GRU_OUR_OWN
-			is_major = yes
-			has_war = no
-			is_subject = no
-			is_faction_leader = yes
-			has_government = market_liberal
-		}
-		visible = {
-			has_completed_focus = GRU_OUR_OWN
-			has_government = market_liberal
-		}
-
-		target_root_trigger = {
-			has_completed_focus = GRU_OUR_OWN
-		}
-
-		target_trigger = {
-			
-	
-			FROM = {
-				OR = {
-					has_government = social_conservative
-					has_government = social_liberal
-					has_government = market_liberal
-				}
-				NOT = { is_in_faction_with = GRU }
-				NOT = { is_in_faction = yes }
-				NOT = { is_puppet = yes }
-				NOT = { is_subject = yes }
-			}
-			NOT = {
-				OR = {
-					tag = RUS
-					tag = USA
-					tag = COR
-					tag = CSA
-					tag = CAL
-					tag = TEX
-					tag = WGR
-					tag = DDR
-					tag = BAY
-					tag = NGF
-					tag = GER
-					tag = GEX
-					tag = MAF
-					}
-			}
-			NOT = { is_puppet = yes }
-		}
-
-		fire_only_once = no
-		cost = 50
-		ai_will_do = {
-			factor = 6
-		}
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GRU_invite_friendly_countries_decision target: [From.GetName]"
-			FROM = {	country_event = rotermorgenmisc.801 }
-		}
-	}
-	
-GRU_invite_friendly_countries_SOCLIB_decision = {
-		icon = generic_political_actions
-
-		available = {
-			has_completed_focus = GRU_OUR_OWN
-			is_major = yes
-			has_war = no
-			is_subject = no
-			is_faction_leader = yes
-			has_government = social_liberal
-		}
-		visible = {
-			has_completed_focus = GRU_OUR_OWN
-			has_government = social_liberal
-		}
-
-		target_root_trigger = {
-			has_completed_focus = GRU_OUR_OWN
-		}
-
-		target_trigger = {
-			
-	
-			FROM = {
-				OR = {
-						has_government = social_democrat
-						has_government = social_liberal
-						has_government = market_liberal
-						}
-				NOT = { is_in_faction_with = GRU }
-				NOT = { is_in_faction = yes }
-				NOT = { is_puppet = yes }
-				NOT = { is_subject = yes }
-			}
-			NOT = {
-				OR = {
-					tag = RUS
-					tag = USA
-					tag = COR
-					tag = CSA
-					tag = CAL
-					tag = TEX
-					tag = WGR
-					tag = DDR
-					tag = BAY
-					tag = NGF
-					tag = GER
-					tag = GEX
-					tag = MAF
-					}
-			}
-			NOT = { is_puppet = yes }
-		}
-
-		fire_only_once = no
-		cost = 50
-		ai_will_do = {
-			factor = 6
-		}
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GRU_invite_friendly_countries_decision target: [From.GetName]"
-			FROM = {	country_event = rotermorgenmisc.801 }
-		}
-	}
-	
-GRU_invite_friendly_countries_SOCDEM_decision = {
-		icon = generic_political_actions
-
-		available = {
-			has_completed_focus = GRU_OUR_OWN
-			is_major = yes
-			has_war = no
-			is_subject = no
-			is_faction_leader = yes
-			has_government = social_democrat
-		}
-		visible = {
-			has_completed_focus = GRU_OUR_OWN
-			has_government = social_democrat
-		}
-
-		target_root_trigger = {
-			has_completed_focus = GRU_OUR_OWN
-		}
-
-		target_trigger = {
-			
-	
-			FROM = {
-				OR = {
-						has_government = social_democrat
-						has_government = social_liberal
-						has_government = radical_socialist
-						}
-				NOT = { is_in_faction_with = GRU }
-				NOT = { is_in_faction = yes }
-				NOT = { is_puppet = yes }
-				NOT = { is_subject = yes }
-			}
-			NOT = {
-				OR = {
-					tag = RUS
-					tag = USA
-					tag = COR
-					tag = CSA
-					tag = CAL
-					tag = TEX
-					tag = WGR
-					tag = DDR
-					tag = BAY
-					tag = NGF
-					tag = GER
-					tag = GEX
-					tag = MAF
-					}
-			}
-			NOT = { is_puppet = yes }
-		}
-
-		fire_only_once = no
-		cost = 50
-		ai_will_do = {
-			factor = 6
-		}
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GRU_invite_friendly_countries_decision target: [From.GetName]"
-			FROM = {	country_event = rotermorgenmisc.801 }
-		}
-	}
-	
-GRU_invite_friendly_countries_RADSOC_decision = {
-		icon = generic_political_actions
-
-		available = {
-			has_completed_focus = GRU_OUR_OWN
-			is_major = yes
-			has_war = no
-			is_subject = no
-			is_faction_leader = yes
-			OR = {
-			has_government = radical_socialist
-			has_government = syndicalist
-			}
-		}
-		visible = {
-			has_completed_focus = GRU_OUR_OWN
-			OR = {
-			has_government = radical_socialist
-			has_government = syndicalist
-			}
-		}
-
-		target_root_trigger = {
-			has_completed_focus = GRU_OUR_OWN
-		}
-
-		target_trigger = {
-			
-	
-			FROM = {
-				OR = {
-						has_government = social_democrat
-						has_government = syndicalist
-						has_government = radical_socialist
-						has_government = totalist
-						}
-				NOT = { is_in_faction_with = GRU }
-				NOT = { is_in_faction = yes }
-				NOT = { is_puppet = yes }
-				NOT = { is_subject = yes }
-			}
-			NOT = {
-				OR = {
-					tag = RUS
-					tag = USA
-					tag = COR
-					tag = CSA
-					tag = CAL
-					tag = TEX
-					tag = WGR
-					tag = DDR
-					tag = BAY
-					tag = NGF
-					tag = GER
-					tag = GEX
-					tag = MAF
-					}
-			}
-			NOT = { is_puppet = yes }
-		}
-
-		fire_only_once = no
-		cost = 50
-		ai_will_do = {
-			factor = 6
-		}
-		complete_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision GRU_invite_friendly_countries_decision target: [From.GetName]"
+			log = "[GetDateText]: [Root.GetName]: Decision GRU_dem_invite_countries_decision target: [From.GetName]"
 			FROM = {	country_event = rotermorgenmisc.801 }
 		}
 	}
