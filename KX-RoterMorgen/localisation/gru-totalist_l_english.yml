@@ -653,20 +653,20 @@ GRU_Stasi:0 "Stasi"
 GRU_Stasi_desc:0 "The Ministerium für Staatssicherheit, MfS or Staatssicherheitsdienst, SSD, commonly known as the Stasi, is the official state security service of the German National Worker State. It has been described as one of the most effective and repressive intelligence and secret police agencies to have ever existed."
 
 GRU_FDJ:0 "FDJ"
-GRU_FDJ_desc:0 "The Freie Deutsche Jugend\n\the political and ideological goal of the FDJ is to influence every aspect of life of young people in Germany, distribution of National-Marxism and the promotion of „German behavior“ as the Volksführer calls it.\nMembership in the FDJ is nominally voluntary, however, those who do not join lose access to organized holidays, and find it difficult, if not impossible to be admitted to universities, pursue chosen careers, etc. The FDJ has appropriated many of the activities of the Boy Scouts movement which has been banned since the formation of the FDJ; including camping and hiking. However, its content and intention are different. For example, many activities closely resemble military training, with weapons training, assault course circuits and basic tactics. The aim is to instill the motivation that will enable its members to fight faithfully for Germany as soldiers. There is greater emphasis on physical fitness, hardness and military training than on academic study."
+GRU_FDJ_desc:0 "The Freie Deutsche Jugend\nThe political and ideological goal of the FDJ is to influence every aspect of life of young people in Germany, distribution of National-Marxism and the promotion of „German behavior“ as the Volksführer calls it.\nMembership in the FDJ is nominally voluntary, however, those who do not join lose access to organized holidays, and find it difficult, if not impossible to be admitted to universities, pursue chosen careers, etc. The FDJ has appropriated many of the activities of the Boy Scouts movement which has been banned since the formation of the FDJ; including camping and hiking. However, its content and intention are different. For example, many activities closely resemble military training, with weapons training, assault course circuits and basic tactics. The aim is to instill the motivation that will enable its members to fight faithfully for Germany as soldiers. There is greater emphasis on physical fitness, hardness and military training than on academic study."
 
 GRU_red_ufa:0 "UFA"
 GRU_red_ufa_desc:0 "After their nationalization all media distribution and production has been merged into the UFA to serve as Germany's new centralized propaganda machine."
 
 
 GRU_blackbook:0 "Schwarzes Buch der Partei"
-GRU_blackbook_desc:0 "The black book of the party.\n\The Volksführer has published this ideological masterpiece in which his ideological thought on state and society are set in stone.\nEvery German household is to receive a copy of this book as well as every German on his sixteenth birthday.\nOf course, every citizen is expected to read it carefully so they can easily detect and report all forms of anti-governmental speech, action or both."
+GRU_blackbook_desc:0 "The black book of the party.\nThe Volksführer has published this ideological masterpiece in which his ideological thought on state and society are set in stone.\nEvery German household is to receive a copy of this book as well as every German on his sixteenth birthday.\nOf course, every citizen is expected to read it carefully so they can easily detect and report all forms of anti-governmental speech, action or both."
 
 GRU_breitspur:0 "Breitspurbahnen"
-GRU_breitspur_desc:0 "The Breitspurbahnen is an ongoing project of building up a railroad network with an extremely wide gauge width.\the idea behind this is to interlink all German cities and areas with high industrial development or large amount of resources."
+GRU_breitspur_desc:0 "The Breitspurbahnen is an ongoing project of building up a railroad network with an extremely wide gauge width. The idea behind this is to interlink all German cities and areas with high industrial development or large amount of resources."
 
 GRU_guard:0 "R.R. - Revolutionäres Regiment"
-GRU_guard_desc:0 "The Revolutionary Regiment.\n\These men fear no one, in fact everyone else fears them now not only in Germany as their reputation has already reached neighboring countries.\n\The Revolutionary Regiment, dressed in all black uniforms with their crimson runic 'RR' symbols serves as a small elite force under direct command of the party. They are responsible for the deportation and removal of enemies of the state in Germany and beyond."
+GRU_guard_desc:0 "The Revolutionary Regiment.\nThese men fear no one, in fact everyone else fears them now not only in Germany as their reputation has already reached neighboring countries.\nThe Revolutionary Regiment, dressed in all black uniforms with their crimson runic 'RR' symbols serves as a small elite force under direct command of the party. They are responsible for the deportation and removal of enemies of the state in Germany and beyond."
 
 GRU_lager:0 "Anhaltelager"
 GRU_lager_desc:0 "These camps are run by the R.R. and no one knows for sure what happens to those that end up in them. All the people know is that products that only require manual labor have gotten cheaper recently."
@@ -676,7 +676,7 @@ GRU_new_germany:0 "Das neue Deutschland!"
 GRU_new_germany_desc:0 "The new Germany.\n\nGermany has been reborn, risen from the ashes when it was crushed by foreign forces, but no more! Now we have been reborn like a phoenix and we shall forever vanguard our glorious Fatherland!"
 
 GRU_deutsche_architecture:0 "Deutschsozialistische Architektur"
-GRU_deutsche_architecture_desc:0 "German Socialist Architecture.\n\The Volksführer has developed a special interest in the architectural image of Germany.\nSome might question why chose a reactionary as his new national architect but who knows what Albert Speer might accomplish if guided by the hand of the revolution."
+GRU_deutsche_architecture_desc:0 "German Socialist Architecture.\nThe Volksführer has developed a special interest in the architectural image of Germany.\nSome might question why chose a reactionary as his new national architect but who knows what Albert Speer might accomplish if guided by the hand of the revolution."
 
 GRU_heavy_industry:0 "Neue Schwerindustrie"
 GRU_heavy_industry_desc:0 "New Heavy Industries.\n\nWe have building up a new heavy industry that will dwarf the industries of all other European countries."
@@ -770,7 +770,7 @@ GRU_eleced_off:0 "Elected Officers"
 GRU_eleced_off_desc:0 "Soldiers elect their direct superior from among their ranks, except for the Generality which is appointed by the government."
 
 GRU_MFSP:0 "Ministerium für Spezialprojekte"
-GRU_MFSP_desc:0 "Ministry of Special Projects.\the Ministry of Special Projects is tasked with allocating brain pool and resources for top primacy projects."
+GRU_MFSP_desc:0 "Ministry of Special Projects.\nThe Ministry of Special Projects is tasked with allocating brain pool and resources for top primacy projects."
 
 
 
@@ -821,7 +821,7 @@ GRU_FAUD_Education1:0 "Anti-Authoritarian Education"
 GRU_FAUD_Education1_desc:0 "German education will no longer follow the classic model of schooling and instead focus on individuality and creativity based on the „Waldorfpädagogik“ of Rudolf Steiner, abolishing grades in this process."
 
 GRU_FAUD_Education2:0 "Autonomous Student Communes"
-GRU_FAUD_Education2_desc:0 "German education will no longer follow the classic model of schooling and instead focus on individuality and creativity based on the „Waldorfpädagogik“ of Rudolf Steiner, abolishing grades in this process.\n\the classic forms of universities are also abolished and instead replaced with autonomous communes of students that have no exams nor professors, instead they focus on individual self improvement in student villages provided for them, centered around libraries with aged academics as patrons, not superiors living among them."
+GRU_FAUD_Education2_desc:0 "German education will no longer follow the classic model of schooling and instead focus on individuality and creativity based on the „Waldorfpädagogik“ of Rudolf Steiner, abolishing grades in this process.\nThe classic forms of universities are also abolished and instead replaced with autonomous communes of students that have no exams nor professors, instead they focus on individual self improvement in student villages provided for them, centered around libraries with aged academics as patrons, not superiors living among them."
 
 
 GRU_SPD_Education1:0 "Liberal Education"
@@ -865,7 +865,7 @@ gru_red_imperialism3_desc:0 "We conquered and subjugated all those in our way an
 GRU_the_eye_idea:0 "All seeing Eye"
 GRU_the_eye_idea_desc:0 "Nothing is hidden, all is seen, freedom is slavery and ignorance is strength."
 GRU_NW_FAMILY_idea:0 "National-Marxist Family"
-GRU_NW_FAMILY_idea_desc:0 "The ideal National-Marxist Family consists of a Father, a Mother, and 5 children. The mother is obligated to take care of the household and to raise the children she gave birth to.\the father is the Worker-Soldier of the state who has to provide for his family and together the father and the mother must raise their children in their image."
+GRU_NW_FAMILY_idea_desc:0 "The ideal National-Marxist Family consists of a Father, a Mother, and 5 children. The mother is obligated to take care of the household and to raise the children she gave birth to.\nThe father is the Worker-Soldier of the state who has to provide for his family and together the father and the mother must raise their children in their image."
 GRU_soccredit_idea:0 "Treuepunktesystem"
 GRU_soccredit_idea_desc:0 "Permits obligations and bans on certain activities are bound to everyone's own loyalty points, our society is thus encouraged to be a loyal model citizen to the state."
 
@@ -1158,7 +1158,7 @@ rotermorgenmisc.40.a:0 "Towards Victory with Berlin!"
 rotermorgenmisc.40.b:0 "Fuck off Kraut"
 
 rotermorgenmisc.50.t:0 "French friends or enemies?"
-rotermorgenmisc.50.d:0 "The Germans have supplied us with intel about covered French hostile activities against us inside the 3rd Internationale\the authenticity of these claims is at most shady.\n\nHow should we react on this?."
+rotermorgenmisc.50.d:0 "The Germans have supplied us with intel about covered French hostile activities against us inside the 3rd Internationale, the authenticity of these claims is at most shady.\n\nHow should we react on this?."
 rotermorgenmisc.50.a:0 "The Germans would not lie to us!"
 rotermorgenmisc.50.b:0 "These Krauts are up to something."
 
@@ -1227,7 +1227,7 @@ rotermorgen.80.a:0 "Thälmann leads to prosperity!"
 rotermorgen.80.b:0 "Pieck will guide us!"
 
 rotermorgen.10.t:0 "The Occupation"
-rotermorgen.10.d:0 "Now that we hold total control over Germany we must find a future way for it.\the problem we now face is that while there have been underground organizations all over the German Empire, there has not been any official syndicalist or socialist one beside the FAUD, and we can't simply hand all power to a worker union that has strong factionalism inside.\n\the committee, consisting of the French, British and Italian delegations, has decided to call for the Germans to form unions parties for a future Congress of German Unions."
+rotermorgen.10.d:0 "Now that we hold total control over Germany we must find a future way for it. The problem we now face is that while there have been underground organizations all over the German Empire, there has not been any official syndicalist or socialist one beside the FAUD, and we can't simply hand all power to a worker union that has strong factionalism inside.\nThe committee, consisting of the French, British and Italian delegations, has decided to call for the Germans to form unions parties for a future Congress of German Unions."
 rotermorgen.10.a:0 "We shall see how this develops."
 
 rotermorgen.20.t:0 "The Remains of the Old Parties"
@@ -1261,7 +1261,7 @@ rotermorgen.60.d:0 "We have prepared meeting spaces for representatives of all u
 rotermorgen.60.a:0 "We really did a great job here, didn't we?"
 
 rotermorgen.61.t:0 "Brownshirts clash with Military Police"
-rotermorgen.61.d:0 "37 dead! NMDVP and Police clash!\n\nIt is on all the German newspapers the NMDVP did not kind to our failed attempt to arrest it's leader and the significant size of it's militia and the fact that weapons from the war are all over the country make it impossible to end it this way without more bloodshed.\n\there is only one way left now, we must tolerate and allow the party for now in turn for turning in everyone that actively harmed or killed policemen."
+rotermorgen.61.d:0 "37 dead! NMDVP and Police clash!\n\nIt is on all the German newspapers the NMDVP did not kind to our failed attempt to arrest it's leader and the significant size of it's militia and the fact that weapons from the war are all over the country make it impossible to end it this way without more bloodshed.\nThere is only one way left now, we must tolerate and allow the party for now in turn for turning in everyone that actively harmed or killed policemen."
 rotermorgen.61.a:0 "Just get that fucking congress done"
 
 
@@ -1279,7 +1279,7 @@ rotermorgenmisc.667.d:0 "Bad news has reached the council's desks today. One of 
 rotermorgenmisc.667.a:0 "He will be brought before a People's Tribunal"
 
 rotermorgenmisc.668.t:0 "The tribunal of Oskar Dirlewanger"
-rotermorgenmisc.668.d:0 "A silence of horror would be a fitting description of the ambience in court that day.\nDirlewanger was originally on trial for the rape of a woman and her daughter, however, Dirlewanger later went on to confess to have also raped, murdered and even canibalized serveral women and children beforehand, shocking everyone that day.\n\the trial, which resembled a show trial more than anything, with the Tribunes being random locals picked by the People for this Tribunal, concluded with Dirlewanger being sentenced to..."
+rotermorgenmisc.668.d:0 "A silence of horror would be a fitting description of the ambience in court that day.\nDirlewanger was originally on trial for the rape of a woman and her daughter, however, Dirlewanger later went on to confess to have also raped, murdered and even canibalized serveral women and children beforehand, shocking everyone that day.\nThe trial, which resembled a show trial more than anything, with the Tribunes being random locals picked by the People for this Tribunal, concluded with Dirlewanger being sentenced to..."
 rotermorgenmisc.668.a:0 "...death by public hanging."
 rotermorgenmisc.668.b:0 "...death by public stoning."
 rotermorgenmisc.668.c:0 "...death by public beheading."
@@ -1295,7 +1295,7 @@ rotermorgenmisc.4.a:0 "Return to the old."
 
 
 rotermorgenmisc.5.t:0 "The Soul of Art"
-rotermorgenmisc.5.d:0 "Among the artists at our most recent art convention, a rather well known artist by the name of Felix Nussbaum showcased his many pieces of art, chief among which being one that had most critics amazed.\the piece, entitled 'The Soul', depicts a completely blank, white canvas, and while nearly all critics called it 'a Dadaist masterpiece' and said 'it's an example of what art should be about', some other critics called it 'bland', 'soulless', however, they were silenced by the crowd booing them out.\nAfterwards ,some of the artists in favor of Nussbaum even started to remove pieces created by those that were in critique of 'The Soul'."
+rotermorgenmisc.5.d:0 "Among the artists at our most recent art convention, a rather well known artist by the name of Felix Nussbaum showcased his many pieces of art, chief among which being one that had most critics amazed. The piece, entitled 'The Soul', depicts a completely blank, white canvas, and while nearly all critics called it 'a Dadaist masterpiece' and said 'it's an example of what art should be about', some other critics called it 'bland', 'soulless', however, they were silenced by the crowd booing them out.\nAfterwards ,some of the artists in favor of Nussbaum even started to remove pieces created by those that were in critique of 'The Soul'."
 rotermorgenmisc.5.a:0 "THIS is what true art is all about!"
 
 rotermorgenmisc.6.t:0 "Germany's first Doggo"
@@ -1303,7 +1303,7 @@ rotermorgenmisc.6.d:0 "After singing the decree to guarantee the basic animal ri
 rotermorgenmisc.6.a:0 "All love Susi!"
 
 rotermorgenmisc.777.t:0 "The Traitor"
-rotermorgenmisc.777.d:0 "It was late in the evening when the door to the Volksführers office silently opened and Paetel entered it, he drew his Luger pointing it directly at the Volksführer. He started to speak gibberish and strange things about the Volksführer being a reactionary and not revolutionary enough having betrayed the revolution which he Karl Otto Paetel would now save from him.\n\the Volksführer stared into Paetel's eyes and only commented that someone as ugly as Paetel should never have been put in charge of anything.\n\nThan a shot was fired."
+rotermorgenmisc.777.d:0 "It was late in the evening when the door to the Volksführers office silently opened and Paetel entered it, he drew his Luger pointing it directly at the Volksführer. He started to speak gibberish and strange things about the Volksführer being a reactionary and not revolutionary enough having betrayed the revolution which he Karl Otto Paetel would now save from him.\nThe Volksführer stared into Paetel's eyes and only commented that someone as ugly as Paetel should never have been put in charge of anything.\n\nThan a shot was fired."
 rotermorgenmisc.777.a:0 "...and so it ends."
 
 rotermorgenmisc.778.t:0 "The Hero"
@@ -1341,13 +1341,13 @@ rotermorgenGCW.4.d:0 "There are massive riots breaking out everywhere across Ger
 rotermorgenGCW.4.a:0 "Mein Gott it is 1918 all over again...."
 
 rotermorgenGCW.5.t:0 "Open Rebellion"
-rotermorgenGCW.5.d:0 "It happened...\n\The unthinkable has happened, we are facing an open rebellion stirred up by all sorts of Leftists and left aligned Nationalists from the Rhine several 'National-MArxist', 'National-Bolsheviks" from the north Socialists and Bolsheviks and from all of the western German lands unemployed Germans that sought help with the FAUD and other Syndicalist Unions.\n\nNow these unlikely allies have all formed a unified front and central command already having swayed half our worker class based soldiers and sailors to their cause we face the biggest war on German soil since the Napoleonic age and as if it wasn't not yet enough the vile Commune of France has seized the opportunity to seize Alsace-Lorraine."
+rotermorgenGCW.5.d:0 "It happened...\nThe unthinkable has happened, we are facing an open rebellion stirred up by all sorts of Leftists and left aligned Nationalists from the Rhine several 'National-MArxist', 'National-Bolsheviks" from the north Socialists and Bolsheviks and from all of the western German lands unemployed Germans that sought help with the FAUD and other Syndicalist Unions.\n\nNow these unlikely allies have all formed a unified front and central command already having swayed half our worker class based soldiers and sailors to their cause we face the biggest war on German soil since the Napoleonic age and as if it wasn't not yet enough the vile Commune of France has seized the opportunity to seize Alsace-Lorraine."
 rotermorgenGCW.5.a:0 "Für Gott und Vaterland!"
 rotermorgenGCW.5.b:0 "The Revolution has arrived!"
 
 
 rotermorgenGCW.10.t:0 "Victory Proclaimed"
-rotermorgenGCW.10.d:0 "The Revolutionary Central Command has proclaimed total Victory over the Imperial Forces and called for a quick restoration of order in Germany having already signed a treaty with France to give up all claims on Alsace-Lorraine in exchange for membership in the Internationale.\n\nMeanwhileld rivalries and ideological incompatibilities are boiling up again but also newly forged alliances have emerged inside the revolution.\n\the ideological leaders of the revolution have already started to organize their own new political parties for the upcoming first German congress."
+rotermorgenGCW.10.d:0 "The Revolutionary Central Command has proclaimed total Victory over the Imperial Forces and called for a quick restoration of order in Germany having already signed a treaty with France to give up all claims on Alsace-Lorraine in exchange for membership in the Internationale.\n\nMeanwhileld rivalries and ideological incompatibilities are boiling up again but also newly forged alliances have emerged inside the revolution.\nThe ideological leaders of the revolution have already started to organize their own new political parties for the upcoming first German congress."
 rotermorgenGCW.10.a:0 "And so we boldly go."
 
 rotermorgenGCW.20.t:0 "The SPD holds strong!"
@@ -1359,7 +1359,7 @@ rotermorgenGCW.30.d:0 "The FAUD, the biggest worker union in Germany, often marg
 rotermorgenGCW.30.a:0 "Still one of biggest."
 
 rotermorgenGCW.40.t:0 "Syndiclaistischer Marxismus"
-rotermorgenGCW.40.d:0 "The leader of the authoritarian syndicalists Ernst Thälmann and the Bolshevik Wilhelm Pieck have agreed that tier ideological believes have enough in common for a unified front against the Liberals and Nationalists inside the revolution.\They have called for all their followers to enlist in their newly founded Syndicalist-Marxist party the SMEPD.\n\nif that will be enough to challenge the big ones?"
+rotermorgenGCW.40.d:0 "The leader of the authoritarian syndicalists Ernst Thälmann and the Bolshevik Wilhelm Pieck have agreed that tier ideological believes have enough in common for a unified front against the Liberals and Nationalists inside the revolution. They have called for all their followers to enlist in their newly founded Syndicalist-Marxist party the SMEPD.\n\nif that will be enough to challenge the big ones?"
 rotermorgenGCW.40.a:0 "We shall see."
 
 rotermorgenGCW.50.t:0 "The Black Sheep"
