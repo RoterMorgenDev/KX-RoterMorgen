@@ -406,9 +406,6 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_nationalize_ufa"
 			add_ideas = GRU_red_ufa
-			hidden_effect = {
-				country_event = { id =  rotermorgenmisc.1 days = 55 }
-			}
 		}
 
 		prerequisite = { focus = GRU_proclaim_victory_over_judeo_capitalism  }
@@ -489,6 +486,7 @@ shared_focus = {
 			}
 			leave_faction = yes
 			separate_peace_all_wars = yes
+			remove_from_tech_sharing_group = phalanstere_research
 		}
 		available = {
 
@@ -922,6 +920,7 @@ shared_focus = {
 				country_event = { id =  rotermorgenmisc.2 }
 				country_event = { id =  rotermorgenmisc.777 days = 340 }
 				country_event = { id =  rotermorgenmisc.4 days = 100 }
+				country_event = { id =  rotermorgenmisc.1 days = 25 }
 			}
 			add_country_leader_trait = gru_volksfuehrer
 		}
