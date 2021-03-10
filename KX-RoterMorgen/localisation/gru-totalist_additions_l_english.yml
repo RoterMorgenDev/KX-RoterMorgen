@@ -8,8 +8,9 @@
 
 ####Event Loc####
 
-
-
+annex.157.k:0 "Create a loyal Sorelian puppet regime!"
+annex.159.k:0 "Create a loyal Maximist puppet regime!"
+annex.73.k:0 "Create a loyal National-Syndicalist puppet regime!"
 ####Idea Loc#####
 
 
@@ -28,55 +29,15 @@
 
 ###Cosmetic Loc##
 
-
-
-####Trait####
-
-
-
-
-#################
-########!!!!HEY CHUNGUS!!!! IF YOU READ THIS! I advise you to se tsome form of mark inside this exclamated text for yourself when you finished a block :D MAybe JUST REMOVE THIS ANNOYING TEXT THAT WILL NOW BE AT THE BOTTOM OF EACH BLOCK#########
-#################
-
-#####NEW LOC 25.02.2021 - 02.03.2021 #####
-
-####Focus Loc####
-
-
-####Event Loc####
-
-####Idea Loc#####
-
-
-
-##Decision loc###
-
-
-####Minister Loc#
-
-
-
-###company loc###
-
-
-
-####flags loc####
-
-
-
-####Tooltip Loc##
-
-
-
-###Cosmetic Loc##
-
-
+CNT_FNES:0 "Iberian National Syndicates"
+FRP_Vanguard:0 "French National Worker State"
 
 ####Trait####
 
 
-
+###other###
+CNT_PUPPET_PARTY_LONG:0 "Falange Española de Nacional Sindicalistas"
+CNT_PUPPET_PARTY:0 "FENS"
 #################
 ########!!!!HEY CHUNGUS!!!! IF YOU READ THIS! I advise you to se tsome form of mark inside this exclamated text for yourself when you finished a block :D MAybe JUST REMOVE THIS ANNOYING TEXT THAT WILL NOW BE AT THE BOTTOM OF EACH BLOCK#########
 #################

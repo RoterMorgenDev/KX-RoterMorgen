@@ -7355,7 +7355,118 @@ country_event = { #Releasing Spain (if not POR)
 			}
 		}
 	}
+	##RedDawn##
+	option = { #Release/Give to CNT
+		name = annex.73.k
+		trigger = {
+			has_socialist_government = yes
+			OR = {
+				is_in_faction_with = CNT
+				NOT = { country_exists = CNT }
+			}
+			AND = {
+				tag = GRU
+				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
+			}
+		}
+		ai_chance = {
+			factor = 95
+		}
+		if = {
+			limit = { country_exists = CNT }
+			every_owned_state = {
+				limit = {
+					is_not_claim_or_core_of_ROOT = yes
+					OR = {
+						is_core_of = SPR
+						is_core_of = CAR
+						is_core_of = CNT
+					}
+				}
+				remove_core_of = SPR
+				remove_core_of = CAR
+				CNT = {
+					add_state_core = PREV
+					transfer_state = PREV
+				}
+			}
+		}
+		else = {
+			every_owned_state = {
+				limit = {
+					is_not_claim_or_core_of_ROOT = yes
+					OR = {
+						is_core_of = SPR
+						is_core_of = CAR
+						is_core_of = CNT
+					}
+				}
+				remove_core_of = SPR
+				remove_core_of = CAR
+				CNT = {
+					add_state_core = PREV
+					transfer_state = PREV
+				}
+			}
+			set_temp_variable = { tag_to_release = CNT }
+			puppet_released_tag = yes
+			CNT = {
+				set_country_flag = released_after_annexation
+			}
+		}
+		CNT = {
+			create_country_leader = {
+				name = "José Antonio Primo de Rivera"
+				desc = "POLITICS_rivera_DESC"
+				picture = "Portrait_SPAIN_Jose_Antonio_Primo_de_Rivera.tga"
+				expire = "1965.1.1"
+				ideology = totalist_subtype
+				traits = {
+					dictator
+				}
+			}
+				set_party_name = {
+					ideology = totalist
+					long_name = CNT_PUPPET_PARTY_LONG
+					name = CNT_PUPPET_PARTY
+				}	
+				set_cosmetic_tag = CNT_FNES
+				set_capital = 41
+				
+		if = {
+				limit = {
+					112 = { is_owned_and_controlled_by = GRU }
+				}
+				transfer_state = 112
+			}
+		if = {
+				limit = {
+					181 = { is_owned_and_controlled_by = GRU }
+				}
+				transfer_state = 181
+			}
+		if = {
+				limit = {
+					180 = { is_owned_and_controlled_by = GRU }
+				}
+				transfer_state = 180
+			}
+		if = {
+				limit = {
+					179 = { is_owned_and_controlled_by = GRU }
+				}
+				transfer_state = 179
+			}
+		add_state_claim = 112
+		add_state_claim = 180
+		add_state_claim = 181
+		add_state_claim = 179
 
+		}
+		set_autonomy = { target = CNT autonomy_state = RM_Stahlpakt_member }
+			
+	}
+	##RedDawn##
 	option = { #Release/Give to CNT
 		name = annex.73.c
 		trigger = {
@@ -7363,6 +7474,12 @@ country_event = { #Releasing Spain (if not POR)
 			OR = {
 				is_in_faction_with = CNT
 				NOT = { country_exists = CNT }
+			}
+			NOT = {
+				AND = {
+				tag = GRU
+				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
+				}
 			}
 		}
 		ai_chance = {
@@ -7411,7 +7528,7 @@ country_event = { #Releasing Spain (if not POR)
 			}
 		}
 	}
-
+	##RedDawn##
 	option = { #Release Spanish Republic
 		trigger = {
 			NOT = {
@@ -15260,10 +15377,10 @@ country_event = { #Fate of France
 
 	##RedDawn##
 	option = {
-		name = annex.157.h #Liberate the Commune!
+		name = annex.157.k #Liberate the Commune!
 		trigger = {
 			has_socialist_government = yes
-			NOT = { country_exists = FRA }
+			NOT = { country_exists = FRP }
 			AND = {
 				tag = GRU
 				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
@@ -15279,13 +15396,24 @@ country_event = { #Fate of France
 				}
 			}
 		}
-		every_owned_state = {
+		every_state = {
 			limit = {
-				is_core_of = FRA
-				is_not_claim_or_core_of_ROOT = yes
+				OR = {
+					region = 19 #Northern France
+					region = 20 #Southern France
+					region = 164 #Western France
+					is_core_of = FRP
+				}
 				NOT = {
 					AND = {
-						ROOT = { tag = SRI }
+						ROOT = {
+							OR = {
+								has_country_flag = SIC_empire
+								tag = SRD
+								tag = SRI
+								tag = ITA
+							}
+						}
 						OR = {
 							state = 762 #Nice
 							state = 735 #Savoy
@@ -15294,27 +15422,30 @@ country_event = { #Fate of France
 					}
 				}
 			}
-			FRA = {
-				transfer_state = PREV
+			add_core_of = FRP
+			if = {
+				limit = {
+					is_owned_by = ROOT
+					is_claim_or_core_of_ROOT = no
+					NOT = { has_variable = ambition_area_@ROOT }
+				}
+				FRP = { transfer_state = PREV }
 			}
 		}
-		set_temp_variable = { tag_to_release = FRA }
-		puppet_released_tag = yes
-		set_autonomy = { target = FRA autonomy_state = RM_Stahlpakt_member }
-		FRA = {
+		set_temp_variable = { tag_to_release = FRP }
+		release_targeted_tag = yes
+		FRP = {
 			hidden_effect = {	
-			complete_national_focus = FRA_sorelians_rule_supreme
-			unlock_national_focus = FRA_valois_is_gone
-			unlock_national_focus = FRA_who_shall_lead
-			complete_national_focus = FRA_nazbols_win
-			kill_country_leader = yes
-			
+			kill_country_leader = yes		
 			create_country_leader = {
 				name = "Marcel Déat"
 				desc = "POLITICS_MARCEL_DEAT_DESC"
-				picture = "Portrait_France_Marcel_Deat.tga"
+				picture = "gfx/leaders/FRA/Portrait_France_Marcel_Deat_supreme.tga"
 				expire = "1965.1.1"
 				ideology = totalist_subtype
+				traits = {
+					dictator
+				}
 			}
 		    add_stability = -0.1
 		    remove_ideas_with_trait = head_of_government
@@ -15329,18 +15460,27 @@ country_event = { #Fate of France
 			  ideology = totalist
 			   popularity = 0.20
 		 	}
-			set_cosmetic_tag = FRA_Vanguard
+			set_cosmetic_tag = FRP_Vanguard
 		    set_party_name = {
 			  ideology = totalist
 			  long_name = FRA_vanguard
 			  name = FRA_vanguard
-	        }	 
-			country_event = {
-				id = comfrance.929
-				days = 10
-			}	 
+	        }
+
+			add_ideas = FRA_vanguards_in_power
+			add_ideas = FRA_cult
+			add_ideas = FRA_union_loyalty2
+			add_ideas = FRA_corporate_syndie_idea2		
 			}
+			if = {
+				limit = {
+					760 = { is_owned_and_controlled_by = GRU }
+				}
+				transfer_state = 760
+			}
+			add_state_claim = 760
 		}
+		set_autonomy = { target = FRP autonomy_state = RM_Stahlpakt_member }
 	}
 	##RedDawn##
 	option = {
@@ -16062,7 +16202,7 @@ country_event = { #Fate of Britain
 
 	##RedDawn##
 	option = { #united britian
-		name = annex.159.b
+		name = annex.159.k
 		trigger = {
 			owns_state = 121
 			AND = {
@@ -16113,17 +16253,58 @@ country_event = { #Fate of Britain
 					dictator
 					grand_protector
 				}
+			}
 				set_party_name = {
 					ideology = totalist
 					long_name = ENG_totalist_party
 					name = ENG_totalist_party
 				}	
-			}
+			
 			add_ideas = ENG_Oswald_Mosley_hog_tot
 			add_ideas = ENG_Leslie_Solley_for_tot
 			add_ideas = ENG_William_Joyce_sec_tot
 			add_ideas = ENG_Oswald_Mosley_eco_tot
+			
+			add_ideas = ENG_maximist_idea2
+			add_ideas = ENG_ministry_truth_idea
+			add_ideas = ENG_political_commissars_idea
+			add_ideas = ENG_merchant_marine_idea
+			add_ideas = ENG_air_production2
+			add_ideas = ENG_revolutionary_navy_idea
+			add_ideas = ENG_synthetic_oil_lover
+			add_ideas = ENG_mobilized_industry_idea
+			add_ideas = ENG_central_command_idea
+			add_ideas = ENG_women_soldiers_idea
+			
 			set_cosmetic_tag = ENG_Mosley_totalist 
+			if = {
+				limit = {
+					119 = { is_owned_and_controlled_by = GRU }
+				}
+				transfer_state = 119
+			}
+		if = {
+				limit = {
+					113 = { is_owned_and_controlled_by = GRU }
+				}
+				transfer_state = 113
+			}
+		if = {
+				limit = {
+					134 = { is_owned_and_controlled_by = GRU }
+				}
+				transfer_state = 134
+			}
+		if = {
+				limit = {
+					135 = { is_owned_and_controlled_by = GRU }
+				}
+				transfer_state = 135
+			}
+		add_state_claim = 113
+		add_state_claim = 119
+		add_state_claim = 134
+		add_state_claim = 135
 		}
 		set_autonomy = { target = GBP autonomy_state = RM_Stahlpakt_member }
 	}
@@ -26143,6 +26324,13 @@ country_event = { #The Fate of Italy
 			complete_national_focus = SRI_streghten_the_chairman
 			remove_ideas = SRI_unpopular_chairman
 			remove_ideas = SRI_french_advisors_idea
+			if = {
+				limit = {
+					761 = { is_owned_and_controlled_by = GRU }
+				}
+				transfer_state = 761
+			}
+			add_state_claim = 761
 		}
 		set_autonomy = { target = SRI autonomy_state = RM_Stahlpakt_member }
 	}
@@ -29312,6 +29500,13 @@ country_event = { #The Fate of Southern Italy
 			complete_national_focus = SRI_streghten_the_chairman
 			remove_ideas = SRI_unpopular_chairman
 			remove_ideas = SRI_french_advisors_idea
+			if = {
+				limit = {
+					761 = { is_owned_and_controlled_by = GRU }
+				}
+				transfer_state = 761
+			}
+			add_state_claim = 761
 		}
 		set_autonomy = { target = SRI autonomy_state = RM_Stahlpakt_member }
 	}

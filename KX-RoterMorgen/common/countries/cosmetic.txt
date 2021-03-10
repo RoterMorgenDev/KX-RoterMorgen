@@ -1142,6 +1142,7 @@ POL_ANARCHY = {
 }
 
 
+###reddawn
 GRU_NMDVP = {
 	color = rgb { 45 45 45 }
 	color_ui = rgb { 55 55 55 }
@@ -1181,4 +1182,14 @@ GRU_SEPD_A = {
 GRU_REBELLION = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
+}
+
+CNT_FNES = {
+	color = rgb { 160 80 20 }
+	color_ui = rgb { 160 80 20 }
+}
+
+FRP_Vanguard = {
+	color = rgb { 175 13 0 }
+	color_ui = rgb { 175 13 0 }
 }
