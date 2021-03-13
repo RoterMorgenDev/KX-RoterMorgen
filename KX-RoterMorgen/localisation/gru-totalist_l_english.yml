@@ -4,19 +4,19 @@ GRU_breitspurbahnen_desc:0 "The Breitspurbahnen will interlink every corner of t
 GRU_welfare:0 "Welfare"
 GRU_welfare_desc:0 "We will never leave a single worker behind, our society will carry the weight of everyone. One finger can be broken but five fingers are a fist!"
 GRU_staatsfeind_nr1:0 "Staatsfeind Nr.1"
-GRU_staatsfeind_nr1_desc:0 "They are everywhere, the inventors of „Judeo-Capitalism“ and „Jewish snakes of lies“ as the Volksführer calls the Jewish bankers but also the International and German Bankers, his economic antisemitism has reached new heights as he has recently ordered the mass arrest and executions of Bankers and Shareholders Jewish or not."
+GRU_staatsfeind_nr1_desc:0 "They are everywhere, the inventors of 'Judeo-Capitalism' and 'Jewish snakes of lies', as the Volksführer calls the Jewish bankers, but also the International and German Bankers, his economic antisemitism has reached new heights as he has recently ordered the mass arrest and executions of Bankers and Shareholders, Jewish or not."
 GRU_germany_reborn:0 "Germany Reborn"
-GRU_germany_reborn_desc:0 "Germany has been reborn like a phoenix risen from it's own ashes and we stand triumphant!"
+GRU_germany_reborn_desc:0 "Germany has been reborn like a phoenix risen from its own ashes and we stand triumphant!"
 GRU_form_the_guard:0 "Form the Guard"
 GRU_form_the_guard_desc:0 "To safeguard our new society and the party we can no longer only rely on the army and party militias, we will form a revolutionary guard of ideological fanatics under direct party command that will receive the best training and equipment."
 GRU_kulturkampf:0 "Kulturkampf"
-GRU_kulturkampf_desc:0 "The Church and other non-governmental organizations that we couldn't remove directly are a real thorn in our side. Now the time has come to finally settle this and cement our grip while we're at it; we will expropriate the Churches, ban their activities, declare state atheism and hand our our own „Holy Book“."
+GRU_kulturkampf_desc:0 "The Church and other non-governmental organizations that we couldn't remove directly are a real thorn in our side. Now the time has come to finally settle this and cement our grip while we're at it; we will expropriate the Churches, ban their activities, declare state atheism and hand our our own 'Holy Book'."
 GRU_first_congress_of_german_unions:0 "First Congress of German Unions"
-GRU_first_congress_of_german_unions_desc:0 "The Internationale has organized the FAUD, other German Unions and worker organizations to hold a first Emergency Congress of Unions so we can lay the first stones of a new Germany."
+GRU_first_congress_of_german_unions_desc:0 "The Internationale has organized the FAUD, other German Unions and worker organizations to hold a first Emergency Congress of German Unions so we can lay the first stones of a new Germany."
 GRU_iva:0 "I.v.A."
 GRU_iva_desc:0 "Industrie verstaatlichungs Aktion - The Industrial Nationalization Action\n We will nationalize all industrial and other economic assets in Germany."
 GRU_rva:0 "R.v.A."
-GRU_rva_desc:0 "Ressourcen verstaatlichungs Aktion - The Resources Nationalization Action\n We Will nationalize all resources and water supplies inside of Germany to protect these basic needs of national survival from the capitalist roots of evil."
+GRU_rva_desc:0 "Ressourcen verstaatlichungs Aktion - The Resources Nationalization Action\n We will nationalize all resources and water supplies inside of Germany to protect the basic needs of national survival from the Capitalist roots of evil."
 GRU_found_the_fdj:0 "Found the FDJ"
 GRU_found_the_fdj_desc:0 "To ensure national survival now and in the times to come we need better Germans, Germans forged with hardship and discipline and for that very reason we will outlaw all youth organizations and replace them with one state run youth organization."
 GRU_nationalize_ufa:0 "Nationalize UFA"
@@ -30,13 +30,13 @@ GRU_nmdvp_victory_desc:0 "During the first national Congress of Unions the NMDVP
 GRU_kommandowirtschaft:0 "Kommandowirtschaft"
 GRU_kommandowirtschaft_desc:0 "We will exercise direct control over the economy by creating a Kommandowirtschaft - direct command economy in which every decision is made by centralized command bureaus."
 GRU_form_the_stasi:0 "Form the Stasi"
-GRU_form_the_stasi_desc:0 "Germany is in need of an agency that will dwarf the imperial Abwehr of the Kaiserreich into irrelevance. The Ministerium für Staatssicherheit or (Stasi for short) will not only counter foreign espionage and intel gathering but also observe every foreigner inside Germany as well as every of our citizens inside and outside of Germany permanently."
+GRU_form_the_stasi_desc:0 "Germany is in need of an agency that will dwarf the imperial Abwehr of the Kaiserreich into irrelevance. The Ministerium für Staatssicherheit, or Stasi for short, will not only counter foreign espionage and intel gathering but also observe every foreigner inside Germany as well as every of our citizens inside and outside of Germany permanently."
 GRU_gleichschaltung:0 "Gleichschaltung"
-GRU_gleichschaltung_desc:0 "The Gleichschaltung or co-ordination will link all parts and aspects of civil life and society to the party, its cause and Goebbels himself. There will be nothing untouched by us left in Germany."
+GRU_gleichschaltung_desc:0 "The Gleichschaltung or co-ordination will link all parts and aspects of civil life and society to the party, its cause, and Goebbels himself. There will be nothing untouched by us left in Germany."
 GRU_volksfuhrer:0 "Hail the Volksführer"
-GRU_volksfuhrer_desc:0 "The time has come to finalize the question of the power structures in Germany. with the Volksführer-Erlass the Head-of-State, Head-of-Government and Commander-in-chief will officially be merged into the office of the Volksführer."
+GRU_volksfuhrer_desc:0 "The time has come to finalize the question of the power structures in Germany. With the Volksführer-Erlass, the Head-of-State, Head-of-Government and Commander-in-Chief will officially be merged into the office of the Volksführer."
 GRU_anhaltelager:0 "Anhaltelager"
-GRU_anhaltelager_desc:0 "The lists of our enemies and „dangerous elements“ of society have grown to an extent that our prisons are overcrowded. There is also the problem that most of these people never saw a court and have simply been arrested without charges which throws a rather unpleasant light on us in the public. To solve this problem once and for all the Volksführer has commanded that all political prisoners be transferred to the newly constructed Anhaltelager which is outside of the regular judicial system."
+GRU_anhaltelager_desc:0 "The lists of our enemies and 'dangerous elements' of society have grown to an extent that our prisons are overcrowded. There is also the problem that most of these people never saw a court and have simply been arrested without charges which throws a rather unpleasant light on us in the public. To solve this problem once and for all the Volksführer has commanded that all political prisoners be transferred to the newly constructed Anhaltelager, which is outside of the regular judicial system."
 GRU_night_of_the:0 "Night of the........"
 GRU_night_of_the_desc:0 "Despite all our advances to establish a society that is fully merged with party orthodoxy and the state there are still remains of our rivals, especially around their leadership. Well, we will see for how long."
 GRU_spd_victory:0 "SPD-R Victory"
@@ -64,7 +64,7 @@ GRU_neue_schwerindustrie_desc:0 "The current German industry is not sufficient f
 GRU_spzproj_uran:0 "Spz.Proj. URAN"
 GRU_spzproj_uran_desc:0 "The special project URAN has the goal to find an application for fissile material as source of electric energy as well as a weapon of yet unseen destruction."
 GRU_spzprojpfeil:0 "Spz.Proj.PFEIL"
-GRU_spzprojpfeil_desc:0 "Special project PFEIL named after the German word for arrow is a top secret development project for long range ballistic weaponry based on rocket engines."
+GRU_spzprojpfeil_desc:0 "Special project PFEIL, named after the German word for arrow, is a top secret development project for long range ballistic weaponry based on rocket engines."
 GRU_industrial_unionisation:0 "Industrial Unionization"
 GRU_industrial_unionisation_desc:0 "German industries will be officially nationalized and handed to the workers' unions to make the direct means of production ownership a reality."
 GRU_ressource_redistribution:0 "Resource Re-Distribution"
@@ -104,7 +104,7 @@ GRU_german_industrial_miracle_desc:0 "Our economy is thriving as it has never se
 GRU_return_to_the_worldstage:0 "Return to the World Stage"
 GRU_return_to_the_worldstage_desc:0 "Back in business"
 GRU_formation_of_the_nva:0 "Formation of the NVA"
-GRU_formation_of_the_nva_desc:0 "We have restored enough industrial capacity to sustain an official armed forces again. To secure our national security the National Volksarmee with the planned branches of the Navy - Nationale Volksmarine, the Air Force - Nationale Luftwaffe and the Army - Nationales Volksheer. We bring up an ambitious plan and dream for a modern military."
+GRU_formation_of_the_nva_desc:0 "We have restored enough industrial capacity to sustain an official armed forces again. To secure our national security, the National Volksarmee, with the planned branches of the Navy - Nationale Volksmarine, the Air Force - Nationale Luftwaffe and the Army - Nationales Volksheer. We bring up an ambitious plan and dream for a modern military."
 GRU_nationales_volksheer:0 "Nationales Volksheer"
 GRU_nationales_volksheer_desc:0 "We can now finally establish the army branch of our newly formed armed forces."
 GRU_nationale_volksmarine:0 "Nationale Volksmarine"
@@ -150,15 +150,15 @@ GRU_ground_support_focus_desc:0 "Our Air Force will focus on supporting the grou
 GRU_oknlw:0 "OK-NLW"
 GRU_oknlw_desc:0 "Oberkommando Nationale Luftwaffe will serve as the unified command of our air force. It consist of the Generalsstab-Luftwaffe and direct links to other central commands."
 GRU_hydroelectric_power:0 "Hydroelectric Power"
-GRU_hydroelectric_power_desc:0 "To sustain our future industrial growth we need as much energy as possible, if we can not provide enough by fossil fuels we must build massive hydroelectric power plants."
+GRU_hydroelectric_power_desc:0 "To sustain our future industrial growth we need as much energy as possible, if we cannot provide enough by fossil fuels we must build massive hydroelectric power plants."
 GRU_union_congress:0 "Union Congress"
 GRU_union_congress_desc:0 "We will decentralize power even more and hand most power directly to the newly formed Union Congress."
 GRU_deutschsozialistische_architektur:0 "Deutschsozialistische Architektur"
-GRU_deutschsozialistische_architektur_desc:0 "The Volksführer does have a very clear vision of the Germany he wants to build, a Germany of triumph arcs and „German Architecture“."
+GRU_deutschsozialistische_architektur_desc:0 "The Volksführer does have a very clear vision of the Germany he wants to build, a Germany of triumph arcs and 'German Architecture'."
 
 
 GRU_volkssturm:0 "Volkssturm"
-GRU_volkssturm_desc:0 "While many paramilitary groups had aligned to and helped our party we cannot let the chaos of different uniforms and hierarchies go on. Josef Goebbels has ordered all militias to disband and regroup into a new state mandated paramilitary, the „Volkssturm“, which will serve as party security service and as an auxiliary force for the police."
+GRU_volkssturm_desc:0 "While many paramilitary groups had aligned to and helped our party we cannot let the chaos of different uniforms and hierarchies go on. Josef Goebbels has ordered all militias to disband and regroup into a new state mandated paramilitary, the "Volkssturm", which will serve as party security service and as an auxiliary force for the police."
 GRU_NMDVP_PATH:0 "Back to the World Stage"
 GRU_NMDVP_PATH_desc:0 "Now that we have rebuilt our glorious nation we can finally be a major player in world politics again."
 GRU_NMDVP_allignment:0 "Isolate the French"
@@ -172,7 +172,7 @@ GRU_NMDVP_PRESSURE_SORELIAN_FRANCE_desc:0 "While France might be our biggest pos
 GRU_NMDVP_EMBARGO_FRANCE:0 "Embargo France"
 GRU_NMDVP_EMBARGO_FRANCE_desc:0 "In order to weaken France we cannot allow them to make use of our exported goods. We will embargo the French economy and trade."
 GRU_NMDVP_CRUSADE_AGAINST_LIBERAL_LEFTIES:0 "Purge the World Revolution"
-GRU_NMDVP_CRUSADE_AGAINST_LIBERAL_LEFTIES_desc:0 "It has become clear to us that not the orders of old nor the populists are our greatest enemies still around, no it's the Liberals inside the §RRevolution§!."
+GRU_NMDVP_CRUSADE_AGAINST_LIBERAL_LEFTIES_desc:0 "It has become clear to us that not the orders of old nor the populists are our greatest enemies still around, no; it's the Liberals inside the §RRevolution§!."
 GRU_NMDVP_BURN_ENTENTE_MONARCHISTS:0 "Destroy the Entente"
 GRU_NMDVP_BURN_ENTENTE_MONARCHISTS_desc:0 "While we realistically might not be able to cross the Atlantic we can still strike the §CEntente§! in Europe and Africa."
 GRU_NMDVP_BORDER_FORTIFICATIONS:0 "Fortify the border"
@@ -199,7 +199,7 @@ GRU_NMDVP_REMOVE_KAISER_desc:0 "We cannot tolerate any German government in exil
 GRU_german_endsieg:0 "Endsieg"
 GRU_german_endsieg_desc:0 "We have achieved the final victory for Germany, bringing prosperity and a future to all the Germans inside our glorious Nation."
 GRU_state_eye:0 "All seeing Eye"
-GRU_state_eye_desc:0 "To safeguard our new society we must forever be vigilant especially towards our greatest threat, the threat from within.\nWe shall monitor every citizen now and forever. Nothing shall be unseen."
+GRU_state_eye_desc:0 "To safeguard our new society we must forever be vigilant, especially towards our greatest threat, the threat from within.\nWe shall monitor every citizen now and forever. Nothing shall be unseen."
 GRU_NM_family:0 "National-Marxist Family"
 GRU_NM_family_desc:0 "The Volksführer has called upon all the Germans to follow the new National-Marxist family model which combines Traditionalism with ideological party thought aiming for a rapid population growth."
 GRU_OLD_GOD:0 "A German God"
@@ -524,17 +524,17 @@ GRU_GCW_VICTORY_desc:0 "We have defeated the Imperial forces and are now the sol
 
 
 GRU_DAF:0 "Deutsche Arbeiterfront"
-GRU_DAF_desc:0 "Germany needs only one worker union the D.A.F. or Deutsche Arbeiterfront, a state controlled union that will not only be the single union of workers but also be an organization tasked to improve the German workers life conditions."
+GRU_DAF_desc:0 "Germany needs only one worker union; the D.A.F., or Deutsche Arbeiterfront, a state controlled union that will not only be the single union of workers but also be an organization tasked to improve the German workers' life conditions."
 
 GRU_autobahnen:0 "Autobahn Network"
-GRU_autobahnen_desc:0 "For a fast economic growth we need an infrastructure more flexible than railroads, we will do heavy investments into a network of highways called the Autobahnen."
+GRU_autobahnen_desc:0 "For fast economic growth we need an infrastructure more flexible than railroads, we will do heavy investments into a network of highways called the Autobahnen."
 
 GRU_rev_oil:0 "Kick Start new Oil Industry"
 GRU_rev_oil_desc:0 "We will adopt the Synthetic oil production methods developed by the Union of Britain to sustain our fuel consumption by coal liquefaction."
 
 
 GRU_National_Corporatism:0 "National Corporatism"
-GRU_National_Corporatism_desc:0 "Unlike the other revolutionaries we do value competition and struggle as much has we value the fair treatment of the German Volkgenossen. We will continue to allow private enterprises but enforce class cooperation and massive social programs for which the private industries will have to pay a share in it too."
+GRU_National_Corporatism_desc:0 "Unlike the other revolutionaries, we value competition and struggle as much as we value the fair treatment of the German Volkgenossen. We will continue to allow private enterprises but enforce class cooperation and massive social programs for which the private industries will have to pay a share in it too."
 
 GRU_national_labour_service:0 "National Labor Service"
 GRU_national_labour_service_desc:0 "We will establish the Nationaler Arbeitsdienst or N.A.D. a social union for our unemployed Volksgenossen that will have active connections into all branches of industry to find work for the unemployed as well as putting them to use as auxiliary work forces where needed."
@@ -552,10 +552,10 @@ GRU_planned_growth:0 "Planned Growth"
 GRU_planned_growth_desc:0 "Our industry must grow and we will enforce it by all means."
 
 GRU_national_socialist_market_economics:0 "National Socialist Market Economy"
-GRU_national_socialist_market_economics_desc:0 "We have achieved what we call the 'National Socialist Market Economy' a social corporate market economy in which private and nationalized industries work hand in hand in the interest of the Nation and the People with a strong social system that is interlinked with the party to ensure total loyalty."
+GRU_national_socialist_market_economics_desc:0 "We have achieved what we call the 'National Socialist Market Economy', a social corporate market economy in which private and nationalized industries work hand in hand in the interest of the Nation and the People with a strong social system that is interlinked with the party to ensure total loyalty."
 
 GRU_organic_growth:0 "Organic Growth"
-GRU_organic_growth_desc:0 "Our industry is growing on it's own, and will continue to do so."
+GRU_organic_growth_desc:0 "Our industry is growing on its own, and will continue to do so."
 
 VK_FOCUS_SHARED_OUR_OWN_RR:0 "Our own R.R."
 VK_FOCUS_SHARED_OUR_OWN_RR_desc:0 "We will establish our own Branch of the R.R. to safeguard our new Homeland."
@@ -653,7 +653,7 @@ GRU_Stasi:0 "Stasi"
 GRU_Stasi_desc:0 "The Ministerium für Staatssicherheit, MfS or Staatssicherheitsdienst, SSD, commonly known as the Stasi, is the official state security service of the German National Worker State. It has been described as one of the most effective and repressive intelligence and secret police agencies to have ever existed."
 
 GRU_FDJ:0 "FDJ"
-GRU_FDJ_desc:0 "The Freie Deutsche Jugend\nThe political and ideological goal of the FDJ is to influence every aspect of life of young people in Germany, distribution of National-Marxism and the promotion of „German behavior“ as the Volksführer calls it.\nMembership in the FDJ is nominally voluntary, however, those who do not join lose access to organized holidays, and find it difficult, if not impossible to be admitted to universities, pursue chosen careers, etc. The FDJ has appropriated many of the activities of the Boy Scouts movement which has been banned since the formation of the FDJ; including camping and hiking. However, its content and intention are different. For example, many activities closely resemble military training, with weapons training, assault course circuits and basic tactics. The aim is to instill the motivation that will enable its members to fight faithfully for Germany as soldiers. There is greater emphasis on physical fitness, hardness and military training than on academic study."
+GRU_FDJ_desc:0 "The Freie Deutsche Jugend\nThe political and ideological goal of the FDJ is to influence every aspect of life of young people in Germany, distribution of National-Marxism, and the promotion of 'German behavior', as the Volksführer calls it.\nMembership in the FDJ is nominally voluntary, however, those who do not join lose access to organized holidays, and find it difficult, if not impossible to be admitted to universities, pursue chosen careers, etc. The FDJ has appropriated many of the activities of the Boy Scouts movement which has been banned since the formation of the FDJ; including camping and hiking. However, its content and intention are different. For example, many activities closely resemble military training, with weapons training, assault course circuits and basic tactics. The aim is to instill the motivation that will enable its members to fight faithfully for Germany as soldiers. There is greater emphasis on physical fitness, hardness and military training than on academic study."
 
 GRU_red_ufa:0 "UFA"
 GRU_red_ufa_desc:0 "After their nationalization all media distribution and production has been merged into the UFA to serve as Germany's new centralized propaganda machine."
@@ -679,7 +679,7 @@ GRU_deutsche_architecture:0 "Deutschsozialistische Architektur"
 GRU_deutsche_architecture_desc:0 "German Socialist Architecture.\nThe Volksführer has developed a special interest in the architectural image of Germany.\nSome might question why chose a reactionary as his new national architect but who knows what Albert Speer might accomplish if guided by the hand of the revolution."
 
 GRU_heavy_industry:0 "Neue Schwerindustrie"
-GRU_heavy_industry_desc:0 "New Heavy Industries.\n\nWe have building up a new heavy industry that will dwarf the industries of all other European countries."
+GRU_heavy_industry_desc:0 "New Heavy Industries.\n\nWe have been building up a new heavy industry that will dwarf the industries of all other European countries."
 
 GRU_carrier:0 "Naval Focus: Carriers"
 GRU_carrier_desc:0 "Our Navy development is focused on building up a carrier task force based fleet."
@@ -879,7 +879,7 @@ GRU_RED_WORLD:0 "The World Revolution"
 GRU_RED_WORLD_desc:0 "We will swipe over the globe as the red tide that washes away the old."
 
 GRU_VOLKSGESUNDHEITSAMT:0 "Volksgesundheitsamt"
-GRU_VOLKSGESUNDHEITSAMT_desc:0 "The Volksgesundheitsamt or Ministry For the Peoples Health has been established to safeguard the German Volks' genetic inheritance.\nIt is tasked with the forced sterilization of those deemed genetically inferior and tasked with research on race, genetics and eugenics.\nAnother task of the ministry is to set laws regarding marriage and procreation between cultures and races."
+GRU_VOLKSGESUNDHEITSAMT_desc:0 "The Volksgesundheitsamt or Ministry For the People's Health has been established to safeguard the German Volks' genetic inheritance.\nIt is tasked with the forced sterilization of those deemed genetically inferior and tasked with research on race, genetics and eugenics.\nAnother task of the ministry is to set laws regarding marriage and procreation between cultures and races."
 
 
 GRU_HEROISM:0 "Positive Heroism"
@@ -1000,8 +1000,8 @@ GRU_Volkswagen:0 "KDF - Volkswagen"
 
 GRU_Der_Volksgenosse_desc:0 "Der Volksgenosse has been established as the sole and only new newspaper for the German worker."
 GRU_Volksempfaenger_desc:0 "The Volksempfänger is a standardized and affordable radio for the German Worker."
-GRU_Volksempfaenger_two_desc:0 "With the great success of the Volksempfänger the DAF has brought up the newest KDF project the 'Volksfernseher' a standardized Television."
-GRU_Volkswagen_desc:0 "The Volkswagen is a sturdy all rounder car, it's creation aimed at an affordable car for the masses that would also offer some small luxuries."
+GRU_Volksempfaenger_two_desc:0 "With the great success of the Volksempfänger, the DAF has brought up the newest KDF project, the 'Volksfernseher', a standardized Television."
+GRU_Volkswagen_desc:0 "The Volkswagen is a sturdy all rounder car, its creation aimed at an affordable car for the masses that would also offer some small luxuries."
 
 GRU_heavy_industry_a:0 "Technocratic Influence"
 GRU_KOMMANDOWIRTSCHAFT_a:0 "Nationalized Economy"
@@ -1009,11 +1009,11 @@ GRU_KOMMANDOWIRTSCHAFT_aa:0 "Interlinked Economy"
 GRU_National_socialism_one:0 "National Corporatism"
 GRU_National_socialism_two:0 "National Corporatist Economics"
 GRU_National_socialism_three:0 "National Socialist Market Economics"
-GRU_National_socialism_three_desc:0 "§YFight the class struggle by class cooperation§! this is the idea behind our 'National Socialist Market Economy' in which private and nationalized industries work hand in hand in the interest of the Nation and the People with a strong social system that is interlinked with the party to ensure total loyalty."
+GRU_National_socialism_three_desc:0 "§YFight the class struggle by class cooperation§!. This is the idea behind our 'National Socialist Market Economy', in which private and nationalized industries work hand in hand in the interest of the Nation and the People with a strong social system that is interlinked with the party to ensure total loyalty."
 
 
 GERMAN_CIVIL_WAR_participant:0 "German Civil War Participant"
-GRU_RUINED_ECONOMY_TOALLY_RUINED:0 "Totally ruined Economy"
+GRU_RUINED_ECONOMY_TOALLY_RUINED:0 "Totally Ruined Economy"
 GRU_RUINED_ECONOMY_TOALLY_BETTER:0 "Recovering Economy"
 
 
@@ -1032,7 +1032,7 @@ VSJ_ASHKENAZI_SUPREMACISM:0 "Ashkenazi Supremacism"
 
 
 GRU_SYNTHWAVE:0 "Sythetische Musik"
-GRU_SYNTHWAVE_desc:0 "REJECT MODERNITY\nEMBRACE TRADITION."
+GRU_SYNTHWAVE_desc:0 "REJECT MODERNITY\nEMBRACE TRADITION"
 ###companies shamelessly copied mostly###
 
 GRU_krupp:0 "VEB Krupp"
@@ -1080,7 +1080,7 @@ GRU_siemens_schuckert2:0 "VEB Siemens-Schukert Verbessert"
 
 
 #####traits####
-gru_volksfuehrer:0 "\nVolksführer\n\n§gJosef Goebbels has assumed the title of Volksführer meaning the leader of the people, for some this might seem trivial but it is a clear show of his own political power.§!"
+gru_volksfuehrer:0 "\nVolksführer\n\n§gJosef Goebbels has assumed the title of Volksführer, meaning the leader of the people. For some this might seem trivial, but it is a clear show of his own political power.§!"
 gru_volksfuehrer_desc:0 "Josef Goebbels has assumed the title of Volksführer meaning the leader of the people, for some this might seem trivial but it is a clear show of his own political power"
 
 RR_OFFICER:0 "R.R. Officer"
@@ -1147,7 +1147,7 @@ GRU_GOEBBELS_DESC:0 "Before his rise to power Goebbels worked as a journalist an
 ###events###
 
 rotermorgenmisc.1.t:0 "The Sythetische Welle"
-rotermorgenmisc.1.d:0 "After the nationalization and merging of all media production and distribution, into UFA, Volksführer Goebbels ordered them to find new means for mass influence. An employee at UFA who was responsible for creating background sounds with his Elektrophon and recordings of sounds he would manipulate, came up with a new form of music, the „Sythetische Musik“ at first deemed Un-German by his superior it’s weird modern sounds did catch the ear of Volksführer Goebbels during a routine visit. The Volksführer was stunned by this new truly German form of music and it’s ability to let people „vibe“ on it while adding subliminal messages."
+rotermorgenmisc.1.d:0 "After the nationalization and merging of all media production and distribution into the UFA, Volksführer Goebbels ordered them to find new means for mass influence. An employee at UFA who was responsible for creating background sounds with his Elektrophon and recordings of sounds he would manipulate, came up with a new form of music, the 'Sythetische Musik'. At first deemed Un-German by his superior, its weird modern sounds did catch the ear of Volksführer Goebbels during a routine visit. The Volksführer was stunned by this new truly German form of music and its ability to let people 'vibe' on it while adding subliminal messages."
 rotermorgenmisc.1.a:0 "A testament to German supremacy"
 rotermorgenmisc.1.b:0 "BEGONE DEGENERATE"
 
@@ -1193,7 +1193,7 @@ rotermorgenmisc.110.a:0 "We will bring them into the fold no matter how."
 rotermorgenmisc.110.b:0 "Back down for now."
 
 rotermorgenmisc.150.t:0 "Rehabilitation of Reichswehr Officers."
-rotermorgenmisc.150.d:0 "While many of the more liberal and less pragmatic leftists may protest this we have but no choice but to make use of Generals that served in the Reichswehr to build up our new armed forces.."
+rotermorgenmisc.150.d:0 "While many of the more liberal and less pragmatic leftists may protest this we have but no choice but to make use of generals that served in the Reichswehr to build up our new armed forces.."
 rotermorgenmisc.150.a:0 "Welcome back!"
 
 rotermorgen.70.t:0 "The First Congress of German Unions"
@@ -1290,7 +1290,7 @@ rotermorgenrussiandoom.3.d:0 "It seems as if the Russians could no longer withst
 rotermorgenrussiandoom.3.a:0 "Russia now lays in the history books."
 
 rotermorgenmisc.4.t:0 "The Futhark"
-rotermorgenmisc.4.d:0 "Volksführer Goebbels has declared that the Latin alphabet due to it's foreign origin will be phased ut by the Germanic Futhark scripture.\n\nAll citizens will be obligated to learn Futhark script as after a period of two years the Latin alphabet will be banned for official documents and schools."
+rotermorgenmisc.4.d:0 "Volksführer Goebbels has declared that the Latin alphabet, due to its foreign origin, will be phased out by the Germanic Futhark scripture.\n\nAll citizens will be obligated to learn Futhark script as after a period of two years the Latin alphabet will be banned for official documents and schools."
 rotermorgenmisc.4.a:0 "Return to the old."
 
 
@@ -1298,17 +1298,17 @@ rotermorgenmisc.5.t:0 "The Soul of Art"
 rotermorgenmisc.5.d:0 "Among the artists at our most recent art convention, a rather well known artist by the name of Felix Nussbaum showcased his many pieces of art, chief among which being one that had most critics amazed. The piece, entitled 'The Soul', depicts a completely blank, white canvas, and while nearly all critics called it 'a Dadaist masterpiece' and said 'it's an example of what art should be about', some other critics called it 'bland', 'soulless', however, they were silenced by the crowd booing them out.\nAfterwards ,some of the artists in favor of Nussbaum even started to remove pieces created by those that were in critique of 'The Soul'."
 rotermorgenmisc.5.a:0 "THIS is what true art is all about!"
 
-rotermorgenmisc.6.t:0 "Germany's first Doggo"
-rotermorgenmisc.6.d:0 "After singing the decree to guarantee the basic animal rights a little party of high ranking NMDVP members was held in the Volksführers office.\nTowards the end of the party a beautiful dog was brought in as a gift to the Volksführer who instantly took her in as a new member of the Goebbels family naming her 'Susi'."
+rotermorgenmisc.6.t:0 "Germany's First Doggo"
+rotermorgenmisc.6.d:0 "After signing the decree to guarantee the basic rights of animals a little party of high ranking NMDVP members was held in the Volksführer's office.\nTowards the end of the party a beautiful dog was brought in as a gift to the Volksführer, who instantly took her in as a new member of the Goebbels family, naming her 'Susi'."
 rotermorgenmisc.6.a:0 "All love Susi!"
 
 rotermorgenmisc.777.t:0 "The Traitor"
-rotermorgenmisc.777.d:0 "It was late in the evening when the door to the Volksführers office silently opened and Paetel entered it, he drew his Luger pointing it directly at the Volksführer. He started to speak gibberish and strange things about the Volksführer being a reactionary and not revolutionary enough having betrayed the revolution which he Karl Otto Paetel would now save from him.\nThe Volksführer stared into Paetel's eyes and only commented that someone as ugly as Paetel should never have been put in charge of anything.\n\nThan a shot was fired."
+rotermorgenmisc.777.d:0 "It was late in the evening when the door to the Volksführer's office silently opened and Paetel entered it, he drew his Luger pointing it directly at the Volksführer. He started to speak gibberish and strange things about the Volksführer being a reactionary and not revolutionary enough having betrayed the revolution which he, Karl Otto Paetel, would now save from him.\nThe Volksführer stared into Paetel's eyes and only commented that someone as ugly as Paetel should never have been put in charge of anything.\n\nThan a shot was fired."
 rotermorgenmisc.777.a:0 "...and so it ends."
 
 rotermorgenmisc.778.t:0 "The Hero"
-rotermorgenmisc.778.d:0 "Paetel lays on the floor itching in pain as the blood leaves his body from the hole in his back.\nBehind him stands Ernst Röhm head of Volkssturm unit in charge of the Volksführers security."
-rotermorgenmisc.778.a:0 "Mein Held!."
+rotermorgenmisc.778.d:0 "Paetel lays on the floor itching in pain as the blood leaves his body from the hole in his back.\nBehind him stands Ernst Röhm, head of Volkssturm unit in charge of the Volksführers security."
+rotermorgenmisc.778.a:0 "Mein Held!"
 
 rotermorgenmisc.800.t:0 "Germans pressure us to join the Internationale"
 rotermorgenmisc.800.d:0 "Today we received a telegram from the German Syndicalist Republic offering us in accordance with France to join the 3rd Internationale.\nThis could be a great chance for us to gain the protection from the Syndicalist giants of Europe."
@@ -1320,54 +1320,54 @@ rotermorgenmisc.801.d:0 "Today we received a telegram from the Germans Syndicali
 rotermorgenmisc.801.a:0 "Finally!"
 rotermorgenmisc.801.a:0 "No thanks."
 
-rotermorgenmisc.810.t:0 "Victory over Judeo-Capitalism."
-rotermorgenmisc.810.d:0 "After our proclamation of victory over Judeo-Capitalism many of our supporters took it as a green light signal for escalation and during the following nights Jewish stores and houses were raided by disorganized militia and common people alike."
-rotermorgenmisc.810.a:0 "Not really a loss is it?"
+rotermorgenmisc.810.t:0 "Victory over Judeo-Capitalism"
+rotermorgenmisc.810.d:0 "After our proclamation of victory over Judeo-Capitalism many of our supporters took it as a green light signal for escalation, and during the following nights Jewish stores and houses were raided by disorganized militia and common people alike."
+rotermorgenmisc.810.a:0 "Not really a loss, is it?"
 
 
 
 #### German Civil War #####
 
-rotermorgenGCW.2.t:0 "The Economy in ruins"
-rotermorgenGCW.2.d:0 "After our failure to deal with the aftermath of the 'Black Monday' German companies are going down in bankruptcy en mass.\nWorkers are discharged in the hundreds of thousands facing a new reality without hope."
+rotermorgenGCW.2.t:0 "The Economy In Ruins"
+rotermorgenGCW.2.d:0 "After our failure to deal with the aftermath of the Black Monday German companies are going down in bankruptcy en mass.\nWorkers are discharged in the hundreds of thousands facing a new reality without hope."
 rotermorgenGCW.2.a:0 "That will just solve itself eventually!"
 
-rotermorgenGCW.3.t:0 "Unemployed masses flock the streets"
-rotermorgenGCW.3.d:0 "German cities are filled with beggars and Unemployed men in search of work, many are selling all they own just to feed their families by now."
+rotermorgenGCW.3.t:0 "Unemployed Masses Flock to the Streets"
+rotermorgenGCW.3.d:0 "German cities are filled with beggars and unemployed men in search of work, many are selling all they own just to feed their families now."
 rotermorgenGCW.3.a:0 "Maybe we should have done something..."
 
 rotermorgenGCW.4.t:0 "Massive Riots"
-rotermorgenGCW.4.d:0 "There are massive riots breaking out everywhere across Germany after several speeches of prominent left-wing politicians from the Bolsheviks to the moderate SPD they all call for drastic changes."
-rotermorgenGCW.4.a:0 "Mein Gott it is 1918 all over again...."
+rotermorgenGCW.4.d:0 "There are massive riots breaking out everywhere across Germany after several speeches of prominent left-wing politicians from the Bolsheviks to the moderate SPD where they all call for drastic changes."
+rotermorgenGCW.4.a:0 "Mein Gott, it's 1918 all over again...."
 
 rotermorgenGCW.5.t:0 "Open Rebellion"
-rotermorgenGCW.5.d:0 "It happened...\nThe unthinkable has happened, we are facing an open rebellion stirred up by all sorts of Leftists and left aligned Nationalists from the Rhine several 'National-MArxist', 'National-Bolsheviks" from the north Socialists and Bolsheviks and from all of the western German lands unemployed Germans that sought help with the FAUD and other Syndicalist Unions.\n\nNow these unlikely allies have all formed a unified front and central command already having swayed half our worker class based soldiers and sailors to their cause we face the biggest war on German soil since the Napoleonic age and as if it wasn't not yet enough the vile Commune of France has seized the opportunity to seize Alsace-Lorraine."
+rotermorgenGCW.5.d:0 "It happened...\nThe unthinkable has happened, we are facing an open rebellion stirred up by all sorts of Leftists and left aligned nationalists from the Rhine, several "National-Marxist", "National-Bolsheviks" from the north, Socialists and Bolsheviks and from all of the western German lands, unemployed Germans that sought help with the FAUD, and other Syndicalist Unions.\n\nNow these unlikely allies have all formed a united front and central command, already having swayed half our worker class based soldiers and sailors to their cause. We face the biggest war on German soil since the Napoleonic age and as if it wasn't enough the vile Commune of France has seized the opportunity to seize Alsace-Lorraine."
 rotermorgenGCW.5.a:0 "Für Gott und Vaterland!"
 rotermorgenGCW.5.b:0 "The Revolution has arrived!"
 
 
 rotermorgenGCW.10.t:0 "Victory Proclaimed"
-rotermorgenGCW.10.d:0 "The Revolutionary Central Command has proclaimed total Victory over the Imperial Forces and called for a quick restoration of order in Germany having already signed a treaty with France to give up all claims on Alsace-Lorraine in exchange for membership in the Internationale.\n\nMeanwhileld rivalries and ideological incompatibilities are boiling up again but also newly forged alliances have emerged inside the revolution.\nThe ideological leaders of the revolution have already started to organize their own new political parties for the upcoming first German congress."
+rotermorgenGCW.10.d:0 "The Revolutionary Central Command has proclaimed total Victory over the Imperial Forces and called for a quick restoration of order in Germany; having already signed a treaty with France to give up all claims on Alsace-Lorraine in exchange for membership in the Internationale.\n\nMeanwhileld rivalries and ideological incompatibilities are boiling up again but also newly forged alliances have emerged inside the revolution.\nThe ideological leaders of the revolution have already started to organize their own new political parties for the upcoming First German Congress."
 rotermorgenGCW.10.a:0 "And so we boldly go."
 
 rotermorgenGCW.20.t:0 "The SPD holds strong!"
-rotermorgenGCW.20.d:0 "Karl Liebknecht who already was one of the leaders in the first socialist uprising in 1918 has called for the SPD to once again follow his guidance on his way for a better German future."
+rotermorgenGCW.20.d:0 "Karl Liebknecht, who already was one of the leaders in the first Socialist uprising in 1918, has called for the SPD to once again follow his guidance on his way for a better German future."
 rotermorgenGCW.20.a:0 "The old guard returns."
 
 rotermorgenGCW.30.t:0 "Champions of the Masses"
-rotermorgenGCW.30.d:0 "The FAUD, the biggest worker union in Germany and often marginalized by the imperial government for being the undisputed champion of the worker class, has called for a reorganization as a political party which has caused several internal problems because of political rivalries of high ranking members."
+rotermorgenGCW.30.d:0 "The FAUD, the biggest worker union in Germany and often marginalized by the imperial government for being the undisputed champion of the worker class, has called for a reorganization as a political party, which has caused several internal problems because of the political rivalries of high ranking members."
 rotermorgenGCW.30.a:0 "Still one of biggest."
 
 rotermorgenGCW.40.t:0 "Syndiclaistischer Marxismus"
-rotermorgenGCW.40.d:0 "The leaders of the the Authoritarian Syndicalist Ernst Thalmann and the Bolshevik Wilhelm Pleck have agreed that their ideological beliefs have enough in common to found a unified front against the Liberals and the Nationalists inside the revolution. They have called for all their followers to enlist in their newly founded Syndicalist-Marxist party the SMEPD.\n\nIf that will be enough to challenge the big ones remains questionable."
+rotermorgenGCW.40.d:0 "The leaders of the the Authoritarian Syndicalists, Ernst Thalmann, and the Bolsheviks, Wilhelm Pleck, have agreed that their ideological beliefs have enough in common to found a unified front against the Liberals and the Nationalists inside the revolution. They have called for all their followers to enlist in their newly founded Syndicalist-Marxist party the SMEPD.\n\nIf that will be enough to challenge the big ones remains questionable."
 rotermorgenGCW.40.a:0 "We shall see."
 
 rotermorgenGCW.50.t:0 "The Black Sheep"
-rotermorgenGCW.50.d:0 "Most inside the Revolution consider nationalism beyond patriotism to be a sickness.\n\nMost not all of them, no there is one man who managed to unify most of the nationalistic groups during the civil war already behind his banner.\nThat man is Josef Goebbels, a man from the Rhine, a man early a sympathizer of Marxism now having developed his own ideology called 'National-Marxism' which is very far from what most would call 'Marxism' instead calling for a partially nationalized social corporate economy to end class struggle by class cooperation. But he is also a man that could only be compared to people like Valois, Deat or Bucard in France due to his furious nationalism, a man with hatred for a lot of thing but a love for Germany unchallenged.\n\nHe has announced today that he will to take part in the congress with his new party the NMDVP."
+rotermorgenGCW.50.d:0 "Most inside the Revolution consider nationalism beyond patriotism to be a sickness.\n\n Only Most though; not all of them no, there is one man who managed to unify most of the nationalistic groups during the civil war already behind his banner.\nThat man is Josef Goebbels, a man from the Rhine, a man early a sympathizer of Marxism now having developed his own ideology called 'National-Marxism' which is very far from what most would call 'Marxism' instead calling for a partially nationalized social corporate economy to end class struggle by class cooperation. But he is also a man that could only be compared to people like Valois, Deat or Bucard in France due to his furious nationalism, a man with hatred for a lot of things, but a love for Germany unchallenged.\n\nHe has announced today that he will to take part in the congress with his new party the NMDVP."
 rotermorgenGCW.50.a:0 "Just give his delegation the worst seats...OK?"
 
-rotermorgenGCW.60.t:0 "All is prepared"
-rotermorgenGCW.60.d:0 "We have prepared everything for the upcoming congress shelter, food, meeting rooms all of it the congress will take several days when it starts and subjects of all kind will come on the table.\n The future of Germany will soon be decided."
+rotermorgenGCW.60.t:0 "All is Prepared"
+rotermorgenGCW.60.d:0 "We have prepared everything for the upcoming congress. Shelter, food, meeting rooms, all of it. The congress will take several days when it starts and subjects of all kind will come on the table.\n The future of Germany will soon be decided."
 rotermorgenGCW.60.a:0 "Better start packing!"
 
 
@@ -1381,13 +1381,13 @@ rotermorgenGCW.70.e:0 "Liebknecht - SPD-R Victory"
 
 
 rotermorgenGCW.100.t:0 "Help Companies?"
-rotermorgenGCW.100.d:0 "Many German companies have been hit hard by the Black Monday due to an almost total stop of income for a week and are now struggling to survive as the market has yet not fully recovered and they can't nearly cover their expenses.\nMaybe we should invest into these companies to ensure their survival."
+rotermorgenGCW.100.d:0 "Many German companies have been hit hard by the Black Monday due to an almost total stop of income for a week and are now struggling to survive as the market has not yet fully recovered and they can't nearly cover their expenses.\nMaybe we should invest into these companies to ensure their survival."
 rotermorgenGCW.100.a:0 "It must be done"
 rotermorgenGCW.100.b:0 "..sacrifices are to be made"
 
 rotermorgenGCW.101.t:0 "Public Soup Kitchens"
-rotermorgenGCW.101.d:0 "Since the recent waves of unemployment after the Black Monday many people are dependent on charity work and soup kitchens, the churches and the red cross have already called for help from all those that can afford to give either money or food as they can't feed everyone right now. Maybe we should supply the soup kitchens and open state run ones too to provide food for the masses."
-rotermorgenGCW.101.a:0 "Tighten the belts!"
+rotermorgenGCW.101.d:0 "Since the recent waves of unemployment after the Black Monday many people are dependent on charity work and soup kitchens, the churches and the red cross have already called for help from all those that can afford to give either money or food as they can't feed everyone right now. Maybe we should supply the soup kitchens and open state run ones too in order to provide food for the masses."
+rotermorgenGCW.101.a:0 "Tighten our belts!"
 rotermorgenGCW.101.b:0 "We will not let our people starve!"
 
 rotermorgenGCW.102.t:0 "Bail Out for Banks?"
@@ -1396,12 +1396,12 @@ rotermorgenGCW.102.a:0 "I tricked my Grandmother for some pennies too, it's a NO
 rotermorgenGCW.102.b:0 "Of course we will help them."
 
 rotermorgenGCW.103.t:0 "Banks start to collapse"
-rotermorgenGCW.103.d:0 "It seems the Banks were in greater danger than we had thought and their collapse is now almost unavoidable."
+rotermorgenGCW.103.d:0 "It seems that the Banks were in greater danger than we had thought and their collapse is now almost unavoidable."
 rotermorgenGCW.103.a:0 "Herr Gott! We must intervene immediately!"
 rotermorgenGCW.103.b:0 "Still a no from His Majesty."
 
 rotermorgenGCW.104.t:0 "Expropriations"
-rotermorgenGCW.104.d:0 "One solution for the mass poverty that is falling on us like a sickness is the idea of expropriating the rich elites to feed the masses....\nThis Idea is obviously very unpopular with most members of the government but could be our last way to avoid total chaos."
+rotermorgenGCW.104.d:0 "One solution for the mass poverty that is falling on us like a sickness is the idea of expropriating the rich elites to feed the masses....\nThis idea is obviously very unpopular with most members of the government but could be our last way to avoid total chaos."
 rotermorgenGCW.104.a:0 "Begone with this! We are not Syndicalists"
 rotermorgenGCW.104.b:0 "Sometimes the needs of the many come first"
 
@@ -1416,12 +1416,12 @@ rotermorgenGCW.7.a:0 "As Dawn Breaks, the Red Morning Starts to Approach."
 
 
 rotermorgenGCW.8.t:0 "Die Einheitsfront"
-rotermorgenGCW.8.d:0 "As the German Empire falters in its ability to deal with Black Friday, the various red groups in Germany have without a doubt capitalized on this. Bolstered by long awaited secretive Internationale support, the three main socialist groups within Germany have drawn tens of thousands into their ranks by the day. While these groups have drastically different ideals, their newfound support has drawn them closer together in unison against the main threat which is the corrupt and tyrannical Kaiser and his cronies. Which is why the radical wing of the SPD, the R.A.M., FAUD, NM-KV and SNF have agreed to join within a United Front to better coordinate their efforts. This astonishing turn of events shows the threat in which the socialists pose to the German order. Whispers in even the highest halls of power are speaking of the possibility of open red revolt should the United Front continue to gain traction. If the Empire is able to start in getting its face out of the mud which is Black Friday, it will face significant challenge from this new United Front in doing so."
+rotermorgenGCW.8.d:0 "As the German Empire falters in its ability to deal with Black Friday, the various red groups in Germany have without a doubt capitalized on this. Bolstered by long awaited secretive Internationale support, the three main socialist groups within Germany have drawn tens of thousands into their ranks by the day. While these groups have drastically different ideals, their newfound support has drawn them closer together in unison against the main threat which is the corrupt and tyrannical Kaiser and his cronies. Which is why the radical wing of the SPD, the R.A.M., FAUD, NM-KV and SNF have agreed to join within a United Front to better coordinate their efforts. This astonishing turn of events shows the threat in which the Socialists pose to the German order. Whispers in even the highest halls of power are speaking of the possibility of open red revolt should the United Front continue to gain traction. If the Empire is able to start in getting its face out of the mud which is Black Friday, it will face significant challenge from this new United Front in doing so."
 rotermorgenGCW.8.a:0 "The Rays of Socialism’s Light Shine into More Homes as the Red Morning Approaches."
 
 
 rotermorgenGCW.9.t:0 "The Center Cannot Hold"
-rotermorgenGCW.9.d:0 "Increased reluctance of the Kaiser’s government has only served to make things worse within Germany. As the ranks of the United Front continue to swell by the day, they are starting to get more confrontational as well. Strikes and protests are common occurrences in the Rhineland, where workers and hastily formed unions have ground any production to a halt. Former soldiers and farmers in Bavaria vandalize government property and homes of the nobility to vent their anger forwards the government’s negligence. In Berlin, daily protests risk turning into riots as the police struggle to contain the citizenry. The troubles don’t end here, however. Reports of new paramilitaries throughout the country imply that the reds are preparing for something bigger. Rumors are even starting to circulate around the high command about potential disloyal elements with sympathy towards the socialists should they decide to take action against the Kaiser. A revolution in Germany, once an idea few thoughts was fathomable, has now become a serious concern."
+rotermorgenGCW.9.d:0 "Increased reluctance of the Kaiser’s government has only served to make things worse within Germany. As the ranks of the United Front continue to swell by the day, they are starting to get more confrontational as well. Strikes and protests are common occurrences in the Rhineland, where workers and hastily formed unions have ground any production to a halt. Former soldiers and farmers in Bavaria vandalize government property and homes of the nobility to vent their anger forwards the government’s negligence. In Berlin, daily protests risk turning into riots as the police struggle to contain the citizenry. The troubles don’t end here, however. Reports of new paramilitaries throughout the country imply that the reds are preparing for something bigger. Rumors are even starting to circulate around the high command about potential disloyal elements with sympathy towards the Socialists should they decide to take action against the Kaiser. A revolution in Germany, once an idea few thoughts was fathomable, has now become a serious concern."
 rotermorgenGCW.9.a:0 "The Red Morning Has Almost Reached Germany’s Doorstep."
 
 
@@ -1430,7 +1430,7 @@ rotermorgenmisc.8.d:0 "Under the recent decree of Volksfuhrer Joseph Goebbels, a
 rotermorgenmisc.8.a:0 "A New Day For Unionism in Germany"
 
 rotermorgenmisc.9.t:0 "Creation of the Volkswagen"
-rotermorgenmisc.9.d:0 "Thanks to the recent effort of targeted funding for nationalized automobile plants in Germany, the NMDVP has now perfected an affordable car readily accessible to the German people. Dubbed the People’s Car, or the Volkswagen, is significantly cheaper compared to the consumer vehicles on the market during the reign of the Kaiser while sacrificing little in terms of quality and efficiency. By allowing an affordable car to be given to the people of Germany, it is expected to reduce travel times to and from work while reducing the strain on public transport. Aside from the obvious efficiency increase, the car will now give German families more incentives to travel across Germany whether it be for leisure or vacation. As state automobile plants begin the first vehicles rolling off the assembly line, the Volkswagen is expected to be readily available in most major urban centers by the end of the year."
+rotermorgenmisc.9.d:0 "Thanks to the recent effort of targeted funding for nationalized automobile plants in Germany, the NMDVP has now perfected an affordable car readily accessible to the German people. Dubbed the People’s Car, or the Volkswagen, it is significantly cheaper compared to the consumer vehicles on the market during the reign of the Kaiser while sacrificing little in terms of quality and efficiency. By allowing an affordable car to be given to the people of Germany, it is expected to reduce travel times to and from work while reducing the strain on public transport. Aside from the obvious efficiency increase, the car will now give German families more incentives to travel across Germany whether it be for leisure or vacation. As state automobile plants begin the first vehicles rolling off the assembly line, the Volkswagen is expected to be readily available in most major urban centers by the end of the year."
 rotermorgenmisc.9.a:0 "A True Marvel of German Engineering in the Hands of the People!"
 
 rotermorgenmisc.10.t:0 "Der Volksempfänger"
@@ -1454,7 +1454,7 @@ rotermorgenmisc.14.d:0 "Under the decree of Volksfuhrer Goebbels, a new national
 rotermorgenmisc.14.a:0 "Finally, a News Source that we can Trust!"
 
 rotermorgenmisc.15.t:0 "Men Among Men"
-rotermorgenmisc.15.d:0 "It is a cold morning in Western Germany at one of the various RR officer training facilities. The sun is shining over the horizon as the fog disperses, with moist grass gleaming in the sunlight. It would be an idyllic day had it not been one of the hardest training days for the next generation of Germany’s elite officers. A group of candidates armed with shovels stand on the hard dirt in a field as their superiors watch, they are then given the orders to start digging a ditch for them to lay down in. The catch is that a tank on the other side of the field is about to start driving towards them. Should they dawdle, they will be run over. Should they run, they will be shot. The time starts, and the tank begins its approach. The candidates frantically dig the hole as the tank approaches ever closer. One brave candidate directs the others to dig in certain areas and encourages them to dig for their lives no mater how tired their bones may get. One tries to run as the tank nearly arrives, and his expectedly shot from a tower. The brave candidate directs his fellow companions to dig harder, to ignore the weak coward who ran for himself rather than to help the many. As the tank arrives near meters away the ditch is complete, and the brave candidate ensures every man hops in before he does. As the tank passes over the exercise ends. When the superiors come down to congratulate the candidates, they give particular praise to the brave candidate who led his men with courage, who had put them before himself."
+rotermorgenmisc.15.d:0 "It is a cold morning in Western Germany at one of the various RR officer training facilities. The sun is shining over the horizon as the fog disperses, with moist grass gleaming in the sunlight. It would be an idyllic day had it not been one of the hardest training days for the next generation of Germany’s elite officers. A group of candidates armed with shovels stand on the hard dirt in a field as their superiors watch, they are then given the orders to start digging a ditch for them to lay down in. The catch is that a tank on the other side of the field is about to start driving towards them. Should they dawdle, they will be run over. Should they run, they will be shot. The time starts, and the tank begins its approach. The candidates frantically dig the hole as the tank approaches ever closer. One brave candidate directs the others to dig in certain areas and encourages them to dig for their lives no mater how tired their bones may get. One tries to run as the tank nearly arrives, and is expectedly shot from a tower. The brave candidate directs his fellow companions to dig harder, to ignore the weak coward who ran for himself rather than help the many. As the tank arrives near meters away the ditch is complete, and the brave candidate ensures every man hops in before he does. As the tank passes over the exercise ends. When the superiors come down to congratulate the candidates, they give particular praise to the brave candidate who led his men with courage, who had put them before himself."
 rotermorgenmisc.15.a:0 "If Germany Produces More Men Like This, Its Future is Indeed Brought"
 
 rotermorgenmisc.16.t:0 "Tackling the Question"
@@ -1474,7 +1474,7 @@ rotermorgenmisc.19.d:0 "As soon as he was in a position of power, the new Genera
 rotermorgenmisc.19.a:0 "Hey, at Least They Get A Speedy Trial."
 
 rotermorgenmisc.20.t:0 "A Day in Munich"
-rotermorgenmisc.20.d:0 "The city of Munich is home to many happy German inhabitants, one such inhabitant is a twelve-year-old boy named Rudi. Rudi lives with his older sister Liesel and his younger brother Klaus. His father has been a bureaucrat of the NMDVP since he fought with them during the revolution against the Kaiser, and his mother a proud homemaker who tended to the wounds of the revolution heroes during their bloody struggle. On an early Saturday, both Rudi and Liesel were given money to buy fresh fruit and bread from the market for their household, as task the two especially enjoyed. In the open market where flags of the new Germany flew, the shoppers and shopkeepers greeted each other with salutes and “Heil Goebbels” before completing their transaction and waving farewell by doing the same. Rudi and Liesel became accustomed to this, after all it seemed only natural to thank the man who brought them prosperity anyway. As they were returning home from the market, something caught Rudi’s eye. A poster on a wall, on depicting three rats holding individual bayonets at Germany, exclaiming that “The Dangers to Germany Shall Threaten Us Until Destroyed!”. The first rat wore a beret and a mustache, the second a Pickelhaube with big red lips, and the third with curly hair and an elongated nose. Rudi knew immediately what they were; the deceitful French, the treacherous Kaiser in Africa, and the scheming Jew. His blood shot up and his face began to run red with anger. He stood there wishing the destruction of the enemies jealous of the new Germany and her prosperity. As Liesel called for him to continue, Rudi knew immediately what he wanted to be in the future. A soldier that pointed the bayonet back at the three rats."
+rotermorgenmisc.20.d:0 "The city of Munich is home to many happy German inhabitants, one such inhabitant is a twelve-year-old boy named Rudi. Rudi lives with his older sister Liesel and his younger brother Klaus. His father has been a bureaucrat of the NMDVP since he fought with them during the revolution against the Kaiser, and his mother a proud homemaker who tended to the wounds of the revolution's heroes during their bloody struggle. On an early Saturday, both Rudi and Liesel were given money to buy fresh fruit and bread from the market for their household, a task the two especially enjoyed. In the open market where flags of the new Germany flew, the shoppers and shopkeepers greeted each other with salutes and “Heil Goebbels” before completing their transaction and waving farewell by doing the same. Rudi and Liesel became accustomed to this, after all it seemed only natural to thank the man who brought them prosperity anyway. As they were returning home from the market, something caught Rudi’s eye. A poster on a wall, on depicting three rats holding individual bayonets at Germany, exclaiming that “The Dangers to Germany Shall Threaten Us Until Destroyed!”. The first rat wore a beret and a mustache, the second a Pickelhaube with big red lips, and the third had curly hair and an elongated nose. Rudi knew immediately what they were; the deceitful French, the treacherous Kaiser in Africa, and the scheming Jew. His blood shot up and his face began to run red with anger. He stood there wishing the destruction of the enemies jealous of the new Germany and her prosperity. As Liesel called for him to continue, Rudi knew immediately what he wanted to be in the future. A soldier that pointed the bayonet back at the three rats."
 rotermorgenmisc.20.a:0 "Train Up a Child in the Way he Should Go, Even When he is Old he Will Not Depart From it."
 
 rotermorgenmisc.21.t:0 "A New Curriculum"
@@ -1510,7 +1510,7 @@ rotermorgenmisc.28.d:0 "It is no secret that Germany during the Kaiser was infam
 rotermorgenmisc.28.a:0 "A Step in the Right Direction"
 
 rotermorgenmisc.29.t:0 "The Stalking Woods"
-rotermorgenmisc.29.d:0 "Since the creation and official endorsement of the new Wodan Church as state religion we have build a new faith upon old Norse and Germanic mythology and many that feared to be taunted or laughed at for their Pagan believes in the past have risen to the ranks of the Goði priests by now.\nThey are stalking the woods at night dressed in fur, horns and wooden crowns seeking guidance from the Gods for our glorious Nation sacrificing animals and other small offerings. Many of the more Conservative parts of our society are at terror about these Neo-Pagans that roam the nights mirroring the image of the Christian devil himself."
+rotermorgenmisc.29.d:0 "Since the creation and official endorsement of the new Wodan Church as state religion we have built a new faith upon old Norse and Germanic mythology and many that feared to be taunted or laughed at for their Pagan believes in the past have risen to the ranks of the Goði priests by now.\nThey are stalking the woods at night dressed in fur, horns, and wooden crowns, seeking guidance from the Gods for our glorious Nation, sacrificing animals and other small offerings. Many of the more Conservative parts of our society are at terror about these Neo-Pagans that roam the nights mirroring the image of the Christian devil himself."
 rotermorgenmisc.29.a:0 "Their Age is over!"
 
 ###tooltips###
@@ -1741,7 +1741,7 @@ GRU_blut_boden_mandatory_exercises_decision:0 "Mandatory Sport"
 
 
 GRU_DAF_decisions:0 "Deutsche Arbeiterfront"
-GRU_DAF_decisions_desc:0 "The Deutsche Arbeiterfront is the labor organization under the National Marxists German Peoples Party which has replaced the various independent trade unions in Germany, it is also in charge of several KDF or Kraft durch Freuden projects that aim on the improvement of the daily workers life."
+GRU_DAF_decisions_desc:0 "The Deutsche Arbeiterfront is the labor organization under the National Marxist German Peoples' Party which has replaced the various independent trade unions in Germany, it is also in charge of several KDF or Kraft durch Freuden projects that aim on the improvement of the daily workers' life."
 
 GRU_DAF_Volkswagen_decision:0 "The Volkswagen"
 GRU_DAF_Volkssprecher_decision:0 "The Volksempfänger"
@@ -1758,10 +1758,10 @@ GRU_breitspurbahn_decisions_desc:0 "The Breitspurbahn Network project is an ongo
 GRU_germania_plan_decisions_desc:0 "The 'Germania Plan' is the planned expansion of the German National Worker state into several neighboring territories."
 
 GRU_blut_boden_decisions_desc:0 "The doctrine of §GSoil§! and §RBlood§! calls for a direct connection between a land and the people that live on it or lived there in the past it is beyond a claim also a duty, a duty towards nature and the protection of the harmonious unity a people should form with their ancestral home."
-GRU_blut_boden_volksgesundheitsamt_decision_desc:0 "The Volksgesundheit will be established to safeguard our peoples genetic destiny and purity."
+GRU_blut_boden_volksgesundheitsamt_decision_desc:0 "The Volksgesundheit will be established to safeguard our people's genetic destiny and purity."
 GRU_blut_boden_ban_tobacco_decision_desc:0 "Tobacco is the worst of all the vices that have befallen our people, it is addictive and studies have shown it contains several highly toxic substances. We will ban the use and trade with this vile plant once and for all."
-GRU_blut_boden_protect_nature_decision_desc:0 "We value nature above all and must ensure it's continuity for this reason we will enact several 'Environmental Protection Laws'."
-GRU_blut_boden_basic_animal_rights_decision_desc:0 "For too long people have regarded animals as lesser beings compared to us humans, the truth could not be more different unlike us they live in a perfect ecosystem we only disrupted they are neither evil or good."
+GRU_blut_boden_protect_nature_decision_desc:0 "We value nature above all and must ensure its continuity, for this reason we will enact several 'Environmental Protection Laws'."
+GRU_blut_boden_basic_animal_rights_decision_desc:0 "For too long people have regarded animals as lesser beings compared to us humans. The truth could not be more different, unlike us they live in a perfect ecosystem we have only disrupted. They are neither evil or good."
 GRU_blut_boden_mandatory_exercises_decision_desc:0 "The bellies are growing and the Manpower is shrinking.\nAn unacceptable state for our nation, we will decree mandatory exercises for all the workers of Germany."
 
 

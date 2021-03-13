@@ -3,6 +3,7 @@ tags={
 	"Alternative History"
 }
 name="KX-RoterMorgen"
+picture="thumbnail.png"
 dependencies={
 	"Kaiserredux: A Kaiserreich Expansion"
 	"Kaiserredux"
