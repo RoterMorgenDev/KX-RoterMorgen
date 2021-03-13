@@ -847,6 +847,8 @@ country_event = { # GRU setup
 						NOT = { has_unit_leader_flag = my_test_flag }
 					}
 				}
+					
+				dismantle_faction = yes
 			}
 		}	
 	}
