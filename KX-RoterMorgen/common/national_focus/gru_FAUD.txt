@@ -227,6 +227,202 @@
 				}
 			hidden_effect = {
 				country_event = { id =  rotermorgenmisc.3 }
+				
+				54 = {
+					remove_core_of = GRU
+				}
+				53 = {
+					remove_core_of = GRU
+				}
+				52 = {
+					remove_core_of = GRU
+				}
+				50 = {
+					remove_core_of = GRU
+				}
+				780 = {
+					remove_core_of = GRU
+				}
+				42 = {
+					remove_core_of = GRU
+				}
+				55 = {
+					remove_core_of = GRU
+				}
+				781 = {
+					remove_core_of = GRU
+				}
+				8 = {
+					remove_core_of = GRU
+				}
+				57 = {
+					remove_core_of = GRU
+				}
+				56 = {
+					remove_core_of = GRU
+				}
+				59 = {
+					remove_core_of = GRU
+				}
+				58 = {
+					remove_core_of = GRU
+				}
+				839 = {
+					remove_core_of = GRU
+				}
+				782 = {
+					remove_core_of = GRU
+				}
+				66 = {
+					remove_core_of = GRU
+				}
+				67 = {
+					remove_core_of = GRU
+				}
+				86 = {
+					remove_core_of = GRU
+				}
+				68 = {
+					remove_core_of = GRU
+				}
+				63 = {
+					remove_core_of = GRU
+				}
+				776 = {
+					remove_core_of = GRU
+				}
+				777 = {
+					remove_core_of = GRU
+				}
+				5 = {
+					remove_core_of = GRU
+				}
+				188 = {
+					remove_core_of = GRU
+				}
+				51 = {
+					remove_core_of = GRU
+				}
+				create_prussian_cores = yes
+				set_temp_variable = { tag_to_release = DDR }
+				release_targeted_tag = yes
+				64 = {
+					remove_core_of = DDR
+				}
+				GRU = {
+					transfer_state = 64
+				}
+				60 = {
+					remove_core_of = DDR
+				}
+				GRU = {
+					transfer_state = 60
+				}
+				65 = {
+					remove_core_of = DDR
+				}
+				GRU = {
+					transfer_state = 65
+				}
+				62 = {
+					remove_core_of = DDR
+				}
+				GRU = {
+					transfer_state = 62
+				}
+				create_rhenish_cores = yes
+				set_temp_variable = { tag_to_release = WGR }
+				release_targeted_tag = yes
+				8 = {
+					add_core_of = WGR
+				}
+				WGR = {
+					transfer_state = 8
+				}
+				create_hanoverian_cores = yes
+				set_temp_variable = { tag_to_release = NGF }
+				release_targeted_tag = yes
+				61 = {
+					remove_core_of = NGF
+				}
+				GRU = {
+					transfer_state = 61
+				}
+				create_bavarian_cores = yes
+				set_temp_variable = { tag_to_release = BAY }
+				release_targeted_tag = yes
+				
+				DDR = {
+				create_country_leader = {
+							name = "Communal Councils"
+							desc = "GRU_Councils_DESC"
+							picture = "gfx/leaders/GRU/councilism.tga"
+							expire = "1965.1.1"
+							ideology = syndicalist_subtype
+				}
+				set_cosmetic_tag = GRU_FAUD_B
+				set_party_name = {
+						ideology = syndicalist
+						long_name = ANARCHIST_GERMANS_long
+						name = ANARCHIST_GERMANS
+				}
+				add_ideas = FAUD_SOCIETY_THREE
+				}
+				WGR = {
+				create_country_leader = {
+							name = "Communal Councils"
+							desc = "GRU_Councils_DESC"
+							picture = "gfx/leaders/GRU/councilism.tga"
+							expire = "1965.1.1"
+							ideology = syndicalist_subtype
+				}
+				set_cosmetic_tag = GRU_FAUD_B
+				set_party_name = {
+						ideology = syndicalist
+						long_name = ANARCHIST_GERMANS_long
+						name = ANARCHIST_GERMANS
+				}
+				add_ideas = FAUD_SOCIETY_THREE
+				}
+				NGF = {
+				create_country_leader = {
+							name = "Communal Councils"
+							desc = "GRU_Councils_DESC"
+							picture = "gfx/leaders/GRU/councilism.tga"
+							expire = "1965.1.1"
+							ideology = syndicalist_subtype
+				}
+				set_cosmetic_tag = GRU_FAUD_B
+				set_party_name = {
+						ideology = syndicalist
+						long_name = ANARCHIST_GERMANS_long
+						name = ANARCHIST_GERMANS
+				}
+				add_ideas = FAUD_SOCIETY_THREE
+				}
+				BAY = {
+				create_country_leader = {
+							name = "Communal Councils"
+							desc = "GRU_Councils_DESC"
+							picture = "gfx/leaders/GRU/councilism.tga"
+							expire = "1965.1.1"
+							ideology = syndicalist_subtype
+				}
+				set_cosmetic_tag = GRU_FAUD_B
+				set_party_name = {
+						ideology = syndicalist
+						long_name = ANARCHIST_GERMANS_long
+						name = ANARCHIST_GERMANS
+				}
+				add_ideas = FAUD_SOCIETY_THREE
+				}
+				set_autonomy = { target = DDR autonomy_state = RM_ANARCHOCOMMUNE }
+				set_autonomy = { target = NGF autonomy_state = RM_ANARCHOCOMMUNE }
+				set_autonomy = { target = WGR autonomy_state = RM_ANARCHOCOMMUNE }
+				set_autonomy = { target = BAY autonomy_state = RM_ANARCHOCOMMUNE }
+				
+				
+				
 			}
 		}
 		prerequisite = { focus = GRU_FAUD_ABSOLUTLY_FREE_SEXUALITY  }
