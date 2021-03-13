@@ -11,6 +11,7 @@
 annex.157.k:0 "Create a loyal Sorelian puppet regime!"
 annex.159.k:0 "Create a loyal Maximist puppet regime!"
 annex.73.k:0 "Create a loyal National-Syndicalist puppet regime!"
+annex.12.k:0 "Create a loyal National-Bolshevik Hungary!"
 ####Idea Loc#####
 
 
@@ -31,13 +32,16 @@ annex.73.k:0 "Create a loyal National-Syndicalist puppet regime!"
 
 CNT_FNES:0 "Iberian National Syndicates"
 FRP_Vanguard:0 "French National Worker State"
-
+HUN_Nazbol:0 "National Magyarország Worker Republic"
+BALKAN_STATE:0 "Integral Balkan State"
 ####Trait####
 
 
 ###other###
 CNT_PUPPET_PARTY_LONG:0 "Falange Española de Nacional Sindicalistas"
 CNT_PUPPET_PARTY:0 "FENS"
+HUN_NAZBOL_PARTY_LONG:0 "Magyar Nemzeti-bolsevik munkáspárt"
+HUN_NAZBOL_PARTY:0 "MNBM"
 #################
 ########!!!!HEY CHUNGUS!!!! IF YOU READ THIS! I advise you to se tsome form of mark inside this exclamated text for yourself when you finished a block :D MAybe JUST REMOVE THIS ANNOYING TEXT THAT WILL NOW BE AT THE BOTTOM OF EACH BLOCK#########
 #################

@@ -749,9 +749,149 @@ country_event = { #HUN liberation
 			}
 		}
 	}
+	##RedDawn##
+	option = { #Liberate Greater Hungary
+		name = annex.12.k
+		trigger = {
+			AND = {
+				tag = GRU
+				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
+			}		
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 0
+				OR = {
+					tag = ROM
+					tag = POL
+					tag = RUS
+					tag = SOV
+				}
+			}
+			modifier = {
+				factor = 10
+				is_german_tag = yes
+			}
+		}
+		if = {
+			limit = {
+				is_german_tag = yes
+				owns_state = 4
+			}
+			784 = { remove_core_of = HUN }
+		}
+		hidden_effect = {
+			every_state = {
+				limit = {
+					OR = {
+						region = 27 #Hungary
+						region = 144 #Transylvania
+						region = 145 #Slovakia
+					}
+					NOT = {
+						state = 80 #Cernauti
+						state = 713 #Suceava
+						AND = {
+							state = 784 #Burgenland
+							ROOT = {
+								NOT = {
+									owns_state = 1137 #Vienna
+									has_country_flag = AUS_CONQ
+									is_ally_with = AUS
+								}
+							}
+						}
+					}
+				}
+				add_core_of = HUN
+			}
+			
+		}
+		set_temp_variable = { tag_to_release = HUN }
+		release_targeted_tag = yes
+		HUN = {
+			hidden_effect = {
+				set_cosmetic_tag = HUN_Nazbol
+				#load_focus_tree = {
+				#	tree = generic_focus		
+				#}
+				create_country_leader = {
+					name = "Matyas Rakosi"
+					desc = "POLITICS_MATYAS_RAKOSI_DESC"
+					picture = "gfx/leaders/BAN/BAN_matyas_rakosi.tga"
+					expire = "1965.1.1"
+					ideology = totalist_subtype
+					traits = {
+						dictator
+						national_integralist
+						BAN_totalist_revolutionary
+					}
+				}
+				set_party_name = {
+					ideology = totalist
+					long_name = HUN_NAZBOL_PARTY_LONG
+					name = HUN_NAZBOL_PARTY
+				}
 
+				if = {
+					limit = {
+						109 = { is_owned_and_controlled_by = GRU }
+					}
+					transfer_state = 109
+				}
+				if = {
+					limit = {
+						1102 = { is_owned_and_controlled_by = GRU }
+					}
+					transfer_state = 1102
+				}
+				if = {
+					limit = {
+						794 = { is_owned_and_controlled_by = GRU }
+					}
+					transfer_state = 794
+				}
+				if = {
+					limit = {
+						1128 = { is_owned_and_controlled_by = GRU }
+					}
+					transfer_state = 1128
+				}
+				if = {
+					limit = {
+						81 = { is_owned_and_controlled_by = GRU }
+					}
+					transfer_state = 81
+				}
+				if = {
+					limit = {
+						46 = { is_owned_and_controlled_by = GRU }
+					}
+					transfer_state = 46
+				}
+				add_state_claim = 109
+				add_state_claim = 1102
+				add_state_claim = 794
+				add_state_claim = 1128
+				add_state_claim = 81
+				add_state_claim = 46				
+			}
+		}
+		set_autonomy = { target = HUN autonomy_state = RM_Stahlpakt_member }
+	
+	}
+	##RedDawn##
 	option = { #Liberate Greater Hungary
 		name = annex.12.a
+		trigger = {
+			NOT = {
+				AND = {
+					tag = GRU
+					GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
+				}
+			}
+		}
 		ai_chance = {
 			factor = 5
 			modifier = {
@@ -828,8 +968,17 @@ country_event = { #HUN liberation
 			}
 		}	
 	}
+	##RedDawn##
 	option = { #Liberate national Hungary
 		name = annex.12.b
+		trigger = {
+			NOT = {
+				AND = {
+					tag = GRU
+					GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
+				}
+			}
+		}
 		ai_chance = {
 			factor = 95
 			modifier = {
@@ -887,6 +1036,7 @@ country_event = { #HUN liberation
 			}
 		}	
 	}
+	##RedDawn##
 	option = { #Give to Austria
 		name = annex.20.b
 		trigger = {
@@ -7425,13 +7575,16 @@ country_event = { #Releasing Spain (if not POR)
 					dictator
 				}
 			}
-				set_party_name = {
+			set_party_name = {
 					ideology = totalist
 					long_name = CNT_PUPPET_PARTY_LONG
 					name = CNT_PUPPET_PARTY
-				}	
-				set_cosmetic_tag = CNT_FNES
-				set_capital = 41
+			}	
+			set_cosmetic_tag = CNT_FNES
+			set_capital = 41
+			load_focus_tree = {
+				tree = generic_focus		
+			}
 				
 		if = {
 				limit = {

@@ -197,7 +197,7 @@ country_event = {
 				GER = { has_idea = GERMAN_CIVIL_WAR_participant }
 			}
 			modifier = {
-				factor = 0
+				factor = 20
 				NOT = { GER = { has_idea = GERMAN_CIVIL_WAR_participant } }
 			}
 		}
