@@ -11,12 +11,41 @@ country_event = { #
 		has_war_with = GRU
 		surrender_progress > 0.50
 		GRU = { has_country_leader = { ruling_only = yes name = "Josef Goebbels" } }
-		GRU = {
-			controls_state = 195
-			controls_state = 205
-			controls_state = 263
-			controls_state = 217
-			surrender_progress < 0.20
+		OR = {
+			GRU = {
+				controls_state = 195
+			}
+			any_other_country = {
+				is_subject_of = GRU
+				controls_state = 195
+			}
+		}
+		OR = {
+			GRU = {
+				controls_state = 205
+			}
+			any_other_country = {
+				is_subject_of = GRU
+				controls_state = 205
+			}
+		}
+		OR = {
+			GRU = {
+				controls_state = 263
+			}
+			any_other_country = {
+				is_subject_of = GRU
+				controls_state = 263
+			}
+		}
+		OR = {
+			GRU = {
+				controls_state = 217
+			}
+			any_other_country = {
+				is_subject_of = GRU
+				controls_state = 217
+			}
 		}
 	}
 	hidden = yes
@@ -707,12 +736,41 @@ country_event = { #
 		has_war_with = GRU
 		surrender_progress > 0.50
 		GRU = { has_country_leader = { ruling_only = yes name = "Josef Goebbels" } }
-		GRU = {
-			controls_state = 195
-			controls_state = 205
-			controls_state = 263
-			controls_state = 217
-			surrender_progress < 0.20
+		OR = {
+			GRU = {
+				controls_state = 195
+			}
+			any_other_country = {
+				is_subject_of = GRU
+				controls_state = 195
+			}
+		}
+		OR = {
+			GRU = {
+				controls_state = 205
+			}
+			any_other_country = {
+				is_subject_of = GRU
+				controls_state = 205
+			}
+		}
+		OR = {
+			GRU = {
+				controls_state = 263
+			}
+			any_other_country = {
+				is_subject_of = GRU
+				controls_state = 263
+			}
+		}
+		OR = {
+			GRU = {
+				controls_state = 217
+			}
+			any_other_country = {
+				is_subject_of = GRU
+				controls_state = 217
+			}
 		}
 	}
 	hidden = yes
