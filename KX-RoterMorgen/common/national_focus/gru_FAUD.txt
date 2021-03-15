@@ -225,6 +225,7 @@
 						long_name = ANARCHIST_GERMANS_long
 						name = ANARCHIST_GERMANS
 				}
+			set_country_flag = GRU_ANARCHIST_WORLD
 			hidden_effect = {
 				country_event = { id =  rotermorgenmisc.3 }
 				

@@ -39,15 +39,6 @@ autonomy_state = {
 	}
 
 	allowed = {
-		OR = {
-			tag = DDR
-			tag = WGR
-			tag = NGF
-			tag = BAY
-			tag = AUS
-			tag = CZE
-			tag = POL
-		}
 		overlord = { 
 			AND = {
 				tag = GRU 

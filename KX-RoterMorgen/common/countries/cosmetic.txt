@@ -1165,8 +1165,13 @@ GRU_FAUD = {
 }
 
 GRU_FAUD_B = {
-	color = rgb { 80 80 220 }
-	color_ui = rgb { 80 80 220 }
+	color = rgb { 55 0 0 }
+	color_ui = rgb { 80 0 0 }
+}
+
+GRU_ANARCHISM_PUPPET = {
+	color = rgb { 55 0 0 }
+	color_ui = rgb { 80 0 0 }
 }
 
 GRU_SEPD = {
