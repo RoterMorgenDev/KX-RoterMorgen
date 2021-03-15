@@ -1041,7 +1041,7 @@ country_event = { # CONGRESS
 	option = { # NMDVP Victory
 		name = rotermorgenGCW.70.a
 		ai_chance = {
-			factor = 25
+			factor = 0
 		}
 		hidden_effect = {
 				kill_ideology_leader = totalist
@@ -1133,7 +1133,7 @@ country_event = { # CONGRESS
 	option = { # SMEPD Victory
 		name = rotermorgenGCW.70.b
 		ai_chance = {
-			factor = 25
+			factor = 80
 		}
 		hidden_effect = {
 				kill_ideology_leader = totalist
@@ -1221,7 +1221,7 @@ country_event = { # CONGRESS
 	option = { # FAUD Victory
 		name = rotermorgenGCW.70.c
 		ai_chance = {
-			factor = 25
+			factor = 10
 		}
 		hidden_effect = {
 				kill_ideology_leader = totalist
@@ -1299,7 +1299,7 @@ country_event = { # CONGRESS
 	option = { # SPD Victory
 		name = rotermorgenGCW.70.e
 		ai_chance = {
-			factor = 25
+			factor = 10
 		}
 		hidden_effect = {
 				kill_ideology_leader = totalist
