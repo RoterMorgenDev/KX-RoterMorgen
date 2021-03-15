@@ -383,6 +383,142 @@ country_event = { # The Stalking Woods
 		name = rotermorgenmisc.29.a
 	}
 }
+country_event = { # All to the Chairman 
+	id = rotermorgenmisc.30
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.30" }
+	title = rotermorgenmisc.30.t
+	desc = rotermorgenmisc.30.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.30.a
+	}
+}
+country_event = { # The Dark Red Constitution Part I
+	id = rotermorgenmisc.31
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.31" }
+	title = rotermorgenmisc.31.t
+	desc = rotermorgenmisc.31.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.31.a
+		country_event = { id =  rotermorgenmisc.32 }
+	}
+}
+country_event = { # The Dark Red Constitution Part II
+	id = rotermorgenmisc.32
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.32" }
+	title = rotermorgenmisc.32.t
+	desc = rotermorgenmisc.32.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.32.a
+		country_event = { id =  rotermorgenmisc.33 }
+	}
+}
+country_event = { # The Finishing Touches
+	id = rotermorgenmisc.33
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.33" }
+	title = rotermorgenmisc.33.t
+	desc = rotermorgenmisc.33.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.33.a
+	}
+}
+
+country_event = { # The Bright Red Constitution Part I
+	id = rotermorgenmisc.34
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.34" }
+	title = rotermorgenmisc.34.t
+	desc = rotermorgenmisc.34.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.34.a
+		country_event = { id =  rotermorgenmisc.35 }
+	}
+}
+
+country_event = { # The Bright Red Constitution Part II
+	id = rotermorgenmisc.35
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.35" }
+	title = rotermorgenmisc.35.t
+	desc = rotermorgenmisc.35.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.35.a
+		country_event = { id =  rotermorgenmisc.36 }
+	}
+}
+
+country_event = { # The Finishing Touches
+	id = rotermorgenmisc.36
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.36" }
+	title = rotermorgenmisc.36.t
+	desc = rotermorgenmisc.36.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.36.a
+	}
+}
+
+country_event = { # Volksführerprinzip
+	id = rotermorgenmisc.37
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.37" }
+	title = rotermorgenmisc.37.t
+	desc = rotermorgenmisc.37.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.37.a
+	}
+}
+
+country_event = { # The Doctors of the Revolution
+	id = rotermorgenmisc.38
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.38" }
+	title = rotermorgenmisc.38.t
+	desc = rotermorgenmisc.38.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.38.a
+	}
+}
+
+country_event = { # The New German Cinema
+	id = rotermorgenmisc.39
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.39" }
+	title = rotermorgenmisc.39.t
+	desc = rotermorgenmisc.39.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.39.a
+	}
+}
+
+country_event = { # A Germanic Epic
+	id = rotermorgenmisc.1040
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.1040" }
+	title = rotermorgenmisc.1040.t
+	desc = rotermorgenmisc.1040.d
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.1040.a
+		hidden_effect = {
+			country_event = { id =  rotermorgenmisc.1041 }
+		}
+	}
+}
+
+country_event = { # A Night at the Theatre
+	id = rotermorgenmisc.1041
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.1041" }
+	title = rotermorgenmisc.1041.t
+	desc = rotermorgenmisc.1041.d
+	picture = GFX_report_event_SEINKAMPF
+	is_triggered_only = yes
+	option = { 
+		name = rotermorgenmisc.1041.a
+	}
+}
 
 country_event = { # allignment
 	id = rotermorgenmisc.40

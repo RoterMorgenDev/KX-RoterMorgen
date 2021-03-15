@@ -192,6 +192,13 @@ spriteTypes = {
 			texturefile = "gfx/event_pictures/Gothi.tga"
 	}
 	
+	spriteType = {  
+
+			name = "GFX_report_event_SEINKAMPF"  
+
+			texturefile = "gfx/event_pictures/sein_kampf.tga"
+	}
+	
 	
 	
 }

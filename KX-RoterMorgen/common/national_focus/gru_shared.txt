@@ -406,6 +406,9 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_nationalize_ufa"
 			add_ideas = GRU_red_ufa
+			hidden_effect = {
+				country_event = { id =  rotermorgenmisc.39 days = 20 }
+			}
 		}
 
 		prerequisite = { focus = GRU_proclaim_victory_over_judeo_capitalism  }
@@ -924,6 +927,10 @@ shared_focus = {
 				country_event = { id =  rotermorgenmisc.1 days = 25 }
 			}
 			add_country_leader_trait = gru_volksfuehrer
+			country_event = { id =  rotermorgenmisc.37 }
+			hidden_effect = {
+				country_event = { id =  rotermorgenmisc.1040 days = 50 }
+			}
 		}
 		prerequisite = { focus = GRU_gleichschaltung  }
 		prerequisite = { focus = GRU_volksgesundheitsamt  }
@@ -1076,6 +1083,9 @@ shared_focus = {
 			add_popularity = { ideology = totalist popularity = -0.20 }
 			add_popularity = { ideology = syndicalist popularity = 0.20 }
 			country_event = { id =  rotermorgenmisc.26 }
+			hidden_effect = {
+				country_event = { id =  rotermorgenmisc.38 days = 20 }
+			}
 		}
 		prerequisite = { focus = GRU_thalmann_gestapo  }
 		prerequisite = { focus = GRU_thalmann_rural_housing_programm  }
@@ -1209,6 +1219,7 @@ shared_focus = {
 						long_name = GRU_SED_MARXISTEN_long
 						name = GRU_SED_MARXISTEN
 				}
+			country_event = { id =  rotermorgenmisc.34 }
 		}
 		prerequisite = { focus = GRU_thalman_culture_revolution  }
 		prerequisite = { focus = GRU_thalmann_trail_pieck  }
@@ -1302,6 +1313,7 @@ shared_focus = {
 			add_country_leader_trait = gru_chairman
 			hidden_effect = {
 				country_event = { id =  rotermorgenmisc.17 days = 80 }
+				country_event = { id =  rotermorgenmisc.30 }
 			}
 		}
 		prerequisite = { focus = GRU_pieck_red_guard  }
@@ -1408,6 +1420,7 @@ shared_focus = {
 						long_name = GRU_MLPD_SYN_long
 						name = GRU_MLPD_SYN
 				}
+			country_event = { id =  rotermorgenmisc.31 }
 		}
 		prerequisite = { focus = GRU_pieck_kill_syndies  }
 		prerequisite = { focus = GRU_pieck_five_year_plans  }

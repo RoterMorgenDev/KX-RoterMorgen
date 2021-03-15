@@ -230,7 +230,7 @@ GRU_SMEPD_LIBERATE_EAST_desc:0 "The time has come to carry the revolution back t
 GRU_SMEPD_LIBERATE_MIDDLE_EAST:0 "Liberate the Arabs"
 GRU_SMEPD_LIBERATE_MIDDLE_EAST_desc:0 "For too long the Middle East has been ruled by religious groups and monarchies, we will bring them the freedom they deserve!"
 GRU_SMEPD_LIBERATE_AFRICA:0 "Liberate Africa"
-GRU_SMEPD_LIBERATE_AFRICA_desc:0 "There are many colonial nations left in Africa that deny self governance to its native people. We will undo the crimes committed by Europe to them."
+GRU_SMEPD_LIBERATE_AFRICA_desc:0 "There are many colonial nations left in Africa that deny self governance to their native people. We will undo the crimes committed by Europe to them."
 GRU_SMEPD_RED_WORLD:0 "A Red World"
 GRU_SMEPD_RED_WORLD_desc:0 "We have achieved our greatest dreams, the red banners fly high around all of the globe!"
 
@@ -872,7 +872,7 @@ GRU_soccredit_idea_desc:0 "Permits obligations and bans on certain activities ar
 GRU_WORLD_REVOLUTION:0 "Exporting the Revolution"
 GRU_WORLD_REVOLUTION_desc:0 "We will export the Revolution!"
 GRU_arsenal_of_syndicalism_idea:0 "The Arsenal of Syndicalist-Marxism"
-GRU_arsenal_of_syndicalism_idea_desc:0 "Our industrial war machine is restless in preparation for the finale struggle."
+GRU_arsenal_of_syndicalism_idea_desc:0 "Our industrial war machine is restless in preparation for the final struggle."
 GRU_RED_TRADE:0 "Red Trade"
 GRU_RED_TRADE_desc:0 "We shall only trade with Nations that have embraced the revolution and we must pressure our allies to do the same."
 GRU_RED_WORLD:0 "The World Revolution"
