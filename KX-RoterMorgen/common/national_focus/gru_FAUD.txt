@@ -210,7 +210,7 @@
 		id = GRU_FAUD_ANARCHIST_UTOPIA
 		icon = FAUD_UTOPIA
 		relative_position_id = GRU_FAUD_NEW_SOCIETY
-		x = 0
+		x = 3
 		y = 3
 		cost = 6
 		completion_reward = {
@@ -425,8 +425,10 @@
 				
 				
 			}
+			custom_effect_tooltip = FAUD_tt_anarchism_spread
 		}
 		prerequisite = { focus = GRU_FAUD_ABSOLUTLY_FREE_SEXUALITY  }
 		prerequisite = { focus = GRU_FAUD_FINANCE_ARTISTS  }
 		prerequisite = { focus = GRU_FAUD_DRUG_LEGALISATION  }
+		prerequisite = { focus = GRU_FAUD_NEW_INTERNATIONAL_FAMILY_OF_ANARCHISTS }
 	}

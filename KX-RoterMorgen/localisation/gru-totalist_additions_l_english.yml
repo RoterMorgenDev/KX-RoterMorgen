@@ -95,6 +95,11 @@ HUN_NAZBOL_PARTY:0 "MNBM"
 
 GRU_ANARCHISM_PUPPET:0 "Anarchist Commune"
 RM_ANARCHOCOMMUNE:0 "Anarchist Commune"
+
+GRU_anarchism_spread_decisions:0 "Liberation of the World"
+GRU_anarchism_spread_decision:0 "Liberate [From.GetNameDef]"
+
+FAUD_tt_anarchism_spread:0 "Unlocks decisions to liberate neighbour nations."
 #################
 ########!!!!HEY CHUNGUS!!!! IF YOU READ THIS! I advise you to se tsome form of mark inside this exclamated text for yourself when you finished a block :D MAybe JUST REMOVE THIS ANNOYING TEXT THAT WILL NOW BE AT THE BOTTOM OF EACH BLOCK#########
 #################

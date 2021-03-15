@@ -95,3 +95,8 @@ GRU_new_alliance_decisions = {
 	icon = generic_foreign_policy
 	allowed = { tag = GRU }
 }
+
+GRU_anarchism_spread_decisions = {
+	icon = generic_political_actions
+	allowed = { tag = GRU }
+}
