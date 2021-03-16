@@ -637,4 +637,15 @@ spriteTypes = {
 		name = "GFX_idea_VSJ_ASHKENAZI_SUPREMACISM"
 		texturefile = "gfx/interface/ideas/GRU/ASHKENAZI_SUPREMACY_IDEA.tga"
 	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_Germania_building"
+		texturefile = "gfx/interface/ideas/GRU/germania_IDEA.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_category_germania_stadt"
+		texturefile = "gfx/interface/decisions/germaniabuilding.dds"
+	}
 }

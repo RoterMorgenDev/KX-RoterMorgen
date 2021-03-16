@@ -8,6 +8,7 @@
 		available = {
 			has_country_flag = GRU_REBUILD
 			has_country_flag = GRU_SMEPD_rule
+			has_country_flag = gru_military_build_up
 			is_subject = no
 			is_major = yes
 			has_army_manpower = { size > 300000 }

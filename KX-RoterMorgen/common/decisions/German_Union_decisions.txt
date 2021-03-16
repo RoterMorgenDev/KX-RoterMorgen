@@ -3644,6 +3644,32 @@ GRU_germania_plan_decisions = {
 	}
 
 }
+GRU_Germania_Stadt_decisions = {
+
+	GRU_Germania_Stadt_decision = {
+		icon = GFX_decision_category_germania_stadt
+
+		visible = {
+			has_completed_focus = GRU_german_millenia
+		}
+		available = {
+			has_completed_focus = GRU_german_millenia
+		}
+		fire_only_once = yes
+		cost = 120
+		days_remove = 1
+
+		ai_will_do = {
+			factor = 6
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_Germania_Stadt_decision"
+			GRU = {	country_event = rotermorgenmisc.2000 }
+		}
+	}
+
+}
+
 GRU_build_that_wall_decisions = {
 
 	GRU_fortify_french_border_decision = {

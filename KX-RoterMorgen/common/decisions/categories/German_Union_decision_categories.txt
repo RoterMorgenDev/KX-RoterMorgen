@@ -100,3 +100,8 @@ GRU_anarchism_spread_decisions = {
 	icon = generic_political_actions
 	allowed = { tag = GRU }
 }
+
+GRU_Germania_Stadt_decisions = {
+	icon = germania_stadt
+	allowed = { tag = GRU }
+}

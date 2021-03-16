@@ -2489,6 +2489,31 @@ ideas = {
 			}
 		}
 		####judea
+		
+		BUILDING_GERMANIA = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea BUILDING_GERMANIA"}
+			picture = Germania_building
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				production_speed_buildings_factor = -0.10
+				production_speed_infrastructure_factor = -0.10
+				production_factory_efficiency_gain_factor = -0.05
+				consumer_goods_factor = 0.20
+				industry_repair_factor = -0.10
+				local_resources_factor = -0.20
+			}
+		}
+		
+		GERMANIA_STADT = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GERMANIA_STADT"}
+			picture = Germania_building
+			modifier = {
+				surrender_limit = 0.40
+				political_power_gain = 0.05
+				conscription_factor = 0.01
+				MONTHLY_POPULATION = 0.05
+			}
+		}
 	}
 	
 	hidden_ideas = {

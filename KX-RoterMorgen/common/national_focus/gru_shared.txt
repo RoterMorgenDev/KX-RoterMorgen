@@ -2699,6 +2699,7 @@ shared_focus = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_formation_of_the_nva"
 			hidden_effect = {
 				country_event = { id =  rotermorgenmisc.150 }
+				set_country_flag = gru_military_build_up
 				if = {
 					limit = {
 						has_country_flag = RR_FORMED

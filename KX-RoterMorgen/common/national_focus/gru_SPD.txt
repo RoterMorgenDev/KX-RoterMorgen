@@ -901,6 +901,7 @@
 		cost = 6
 		available = {
 			is_subject = no
+			has_country_flag = gru_military_build_up
 			INT = {
 				is_faction_leader = yes
 				NOT = {
@@ -936,6 +937,7 @@
 		cost = 6
 		available = {
 			is_subject = no
+			has_country_flag = gru_military_build_up
 			ENT = {
 				is_faction_leader = yes
 				NOT = {
@@ -969,6 +971,11 @@
 		x = 0
 		y = 4
 		cost = 6
+		available = {
+			is_subject = no
+			is_in_faction = no
+			has_country_flag = gru_military_build_up
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_OUR_OWN"
 			create_faction = "Treaty Organisation of Free Nations"
