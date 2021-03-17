@@ -638,6 +638,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/GRU/ASHKENAZI_SUPREMACY_IDEA.tga"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_natmarxdiplo"
+		texturefile = "gfx/interface/ideas/GRU/natmarx_diplo.tga"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_Germania_building"

@@ -140,6 +140,20 @@ BALKAN_STATE:0 "Integral Balkan State"
 
 
 ###other###
+social_democrat_acceptance:0 "Acceptance of §YSocial Democrats§!"
+social_liberal_acceptance:0 "Acceptance of §YSocial Liberalism§!"
+market_liberal_acceptance:0 "Acceptance of §YMarket Liberalism§!"
+social_conservative_acceptance:0 "Acceptance of §YSocial Conservatism§!"
+authoritarian_democrat_acceptance:0 "Acceptance of §YAuthoritarian Democracy§!"
+
+natmarx_diplo:0 "National-Marxist Diplomacy"
+natmarx_diplo_desc:0 "We walk the thin line between the far left and far right hated by most but accepted by the outcasts we unite the front against liberalism and degeneracy to protect the interests of all workers and their national states."
+
+GRU_stahlpakt_alliance_decisions:0 "Stahlpakt Expansion"
+GRU_stahlpakt_alliance_decisions_desc:0 "We shall try to expand the Stahlpakt we will welcome Nations aligned to the far left and right as our ideology builds a bridge between them."
+GRU_stahlpakt_invite_countries_decision:0 "Invite [From.GetNameDef] into the Stahlpakt"
+
+
 CNT_PUPPET_PARTY_LONG:0 "Falange Española de Nacional Sindicalistas"
 CNT_PUPPET_PARTY:0 "FENS"
 HUN_NAZBOL_PARTY_LONG:0 "Magyar Nemzeti-bolsevik munkáspárt"

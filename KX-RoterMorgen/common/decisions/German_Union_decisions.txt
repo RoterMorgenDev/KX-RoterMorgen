@@ -3656,8 +3656,8 @@ GRU_Germania_Stadt_decisions = {
 			has_completed_focus = GRU_german_millenia
 		}
 		fire_only_once = yes
-		cost = 120
-		days_remove = 1
+		cost = 500
+		days_remove = 250
 
 		ai_will_do = {
 			factor = 6
@@ -8172,9 +8172,7 @@ GRU_expand_internationale_decisions = {
 		visible = {
 			has_completed_focus = GRU_SMEPD_EXPAND_INTERNATIONALE
 			FROM = {
-				has_socialist_government = yes
-				NOT = { is_in_faction_with = GRU }
-				NOT = { is_puppet = yes }
+				is_internationale_invite_target_for_gru = yes
 			}
 		}
 
@@ -8184,9 +8182,7 @@ GRU_expand_internationale_decisions = {
 
 		target_trigger = {
 			FROM = {
-				has_socialist_government = yes
-				NOT = { is_in_faction_with = GRU }
-				NOT = { is_puppet = yes }
+				is_internationale_invite_target_for_gru = yes
 			}
 		}
 
@@ -8238,6 +8234,50 @@ GRU_new_alliance_decisions = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision GRU_dem_invite_countries_decision target: [From.GetName]"
+			FROM = {	country_event = rotermorgenmisc.801 }
+		}
+	}
+}
+
+
+
+GRU_stahlpakt_alliance_decisions = {
+	
+	GRU_stahlpakt_invite_countries_decision = {
+		icon = generic_political_actions
+
+		available = {
+			is_major = yes
+			has_war = no
+			is_subject = no
+			is_faction_leader = yes
+		}
+		visible = {
+			has_completed_focus = GRU_NMDVP_allignment
+			FROM = {
+				is_possible_target_for_stahlpakt_alliance = yes
+				is_not_excluded_from_stahlpakt_alliance = no
+			}
+		}
+
+		target_root_trigger = {
+			has_completed_focus = GRU_NMDVP_allignment
+		}
+
+		target_trigger = {
+			FROM = {
+				is_possible_target_for_stahlpakt_alliance = yes
+				is_not_excluded_from_stahlpakt_alliance = no
+			}
+		}
+
+		fire_only_once = no
+		cost = 50
+		ai_will_do = {
+			factor = 6
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision GRU_stahlpakt_invite_countries_decision target: [From.GetName]"
 			FROM = {	country_event = rotermorgenmisc.801 }
 		}
 	}

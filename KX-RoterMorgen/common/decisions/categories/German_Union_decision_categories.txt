@@ -105,3 +105,7 @@ GRU_Germania_Stadt_decisions = {
 	icon = germania_stadt
 	allowed = { tag = GRU }
 }
+GRU_stahlpakt_alliance_decisions = {
+	icon = generic_foreign_policy
+	allowed = { tag = GRU }
+}

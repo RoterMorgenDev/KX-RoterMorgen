@@ -2512,8 +2512,34 @@ ideas = {
 				political_power_gain = 0.05
 				conscription_factor = 0.01
 				MONTHLY_POPULATION = 0.05
+				supply_consumption_factor = -0.15
+				out_of_supply_factor = -0.1
+				training_time_factor = -0.3
+				planning_speed = 0.2
 			}
 		}
+		
+		natmarx_diplo = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea natmarx_diplo"}
+			allowed = { always = no }
+			modifier = {
+				totalist_acceptance = 80
+				national_populist_acceptance = 80
+				syndicalist_acceptance = -75
+				radical_socialist_acceptance = -100
+			    social_democrat_acceptance = -150
+				social_liberal_acceptance = -150
+				market_liberal_acceptance = -150
+				social_conservative_acceptance = -150
+				authoritarian_democrat_acceptance = -100
+				paternal_autocrat_acceptance = -75
+
+			}
+			removal_cost = -1
+			picture = natmarxdiplo
+		}
+		
+		
 	}
 	
 	hidden_ideas = {
