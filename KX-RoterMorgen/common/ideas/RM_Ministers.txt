@@ -19,6 +19,25 @@ ideas = {
 			}
 		}
 		
+		GRU_Joseph_Goebbels_hog_npo = {
+			allowed = { original_tag = GRU }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GRU_Joseph_Goebbels_hog_npo"
+			}
+			traits = {
+				head_of_government
+				national_populist
+				hog_silent_workhorse
+			}
+		}
+		
 		GRU_Wilhelm_Pieck_hog_tot = {
 			allowed = { original_tag = GRU }
 			available = {
@@ -174,6 +193,25 @@ ideas = {
 			}
 		}
 		
+		GRU_Gregor_Strasser_eco_npo = {
+			allowed = { original_tag = GRU }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GRU_Gregor_Strasser_eco_npo"
+			}
+			traits = {
+				economy_minister
+				national_populist
+				eco_planned_economy_proponent
+			}
+		}
+		
 		GRU_Albert_Speer_eco_tot = {
 			allowed = { original_tag = GRU }
 			available = {
@@ -189,6 +227,25 @@ ideas = {
 			traits = {
 				economy_minister
 				totalist
+				eco_administrative_genius
+			}
+		}
+		
+		GRU_Albert_Speer_eco_npo = {
+			allowed = { original_tag = GRU }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GRU_Albert_Speer_eco_npo"
+			}
+			traits = {
+				economy_minister
+				national_populist
 				eco_administrative_genius
 			}
 		}
@@ -247,6 +304,24 @@ ideas = {
 			traits = {
 				security_minister
 				totalist
+				sec_prince_of_terror
+			}
+		}
+		GRU_Ernst_Roehm_sec_npo = {
+			allowed = { original_tag = GRU }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GRU_Ernst_Roehm_sec_npo"
+			}
+			traits = {
+				security_minister
+				national_populist
 				sec_prince_of_terror
 			}
 		}

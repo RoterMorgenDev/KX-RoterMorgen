@@ -816,24 +816,28 @@ country_event = { #HUN liberation
 				#load_focus_tree = {
 				#	tree = generic_focus		
 				#}
-				create_country_leader = {
-					name = "Matyas Rakosi"
-					desc = "POLITICS_MATYAS_RAKOSI_DESC"
-					picture = "gfx/leaders/BAN/BAN_matyas_rakosi.tga"
-					expire = "1965.1.1"
-					ideology = totalist_subtype
-					traits = {
-						dictator
-						national_integralist
-						BAN_totalist_revolutionary
-					}
-				}
+				#create_country_leader = {
+				#	name = "Matyas Rakosi"
+				#	desc = "POLITICS_MATYAS_RAKOSI_DESC"
+				#	picture = "gfx/leaders/BAN/BAN_matyas_rakosi.tga"
+				#	expire = "1965.1.1"
+				#	ideology = totalist_subtype
+				#	traits = {
+				#		dictator
+				#		national_integralist
+				#		BAN_totalist_revolutionary
+				#	}
+				#}
 				set_party_name = {
 					ideology = totalist
 					long_name = HUN_NAZBOL_PARTY_LONG
 					name = HUN_NAZBOL_PARTY
 				}
-
+				set_party_name = {
+					ideology = national_populist
+					long_name = HUN_NAZBOL_PARTY_LONG
+					name = HUN_NAZBOL_PARTY
+				}
 				if = {
 					limit = {
 						109 = { is_owned_and_controlled_by = GRU }
@@ -879,6 +883,20 @@ country_event = { #HUN liberation
 			}
 		}
 		set_autonomy = { target = HUN autonomy_state = RM_Stahlpakt_member }
+		HUN = {
+		hidden_effect = {
+			set_politics = {
+				ruling_party = national_populist
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+			add_popularity = {
+							ideology = national_populist
+							popularity = 0.70
+						}
+		}
+		}
 	
 	}
 	##RedDawn##
@@ -7376,6 +7394,12 @@ country_event = { #Releasing Spain (if not POR)
 				is_in_faction_with = CAR
 				NOT = { country_exists = CAR }
 			}
+			NOT = {
+				AND = {
+				tag = GRU
+				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
+				}
+			}
 		}
 		ai_chance = {
 			factor = 95
@@ -7445,6 +7469,12 @@ country_event = { #Releasing Spain (if not POR)
 				is_in_faction_with = SPR
 				NOT = { country_exists = SPR }
 			}
+			NOT = {
+				AND = {
+				tag = GRU
+				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
+				}
+			}
 		}
 		ai_chance = {
 			factor = 95
@@ -7509,7 +7539,6 @@ country_event = { #Releasing Spain (if not POR)
 	option = { #Release/Give to CNT
 		name = annex.73.k
 		trigger = {
-			has_socialist_government = yes
 			OR = {
 				is_in_faction_with = CNT
 				NOT = { country_exists = CNT }
@@ -7565,6 +7594,7 @@ country_event = { #Releasing Spain (if not POR)
 			}
 		}
 		CNT = {
+		hidden_effect = {
 			create_country_leader = {
 				name = "José Antonio Primo de Rivera"
 				desc = "POLITICS_rivera_DESC"
@@ -7580,6 +7610,21 @@ country_event = { #Releasing Spain (if not POR)
 					long_name = CNT_PUPPET_PARTY_LONG
 					name = CNT_PUPPET_PARTY
 			}	
+			create_country_leader = {
+				name = "José Antonio Primo de Rivera"
+				desc = "POLITICS_rivera_DESC"
+				picture = "Portrait_SPAIN_Jose_Antonio_Primo_de_Rivera.tga"
+				expire = "1965.1.1"
+				ideology = national_populist_subtype
+				traits = {
+					dictator
+				}
+			}
+			set_party_name = {
+					ideology = national_populist
+					long_name = CNT_PUPPET_PARTY_LONG
+					name = CNT_PUPPET_PARTY
+			}
 			set_cosmetic_tag = CNT_FNES
 			set_capital = 41
 			load_focus_tree = {
@@ -7615,6 +7660,7 @@ country_event = { #Releasing Spain (if not POR)
 		add_state_claim = 181
 		add_state_claim = 179
 
+		}
 		}
 		set_autonomy = { target = CNT autonomy_state = RM_Stahlpakt_member }
 			
@@ -7690,6 +7736,12 @@ country_event = { #Releasing Spain (if not POR)
 				is_in_faction_with = CNT
 			}
 			has_socialist_government = no
+			NOT = {
+				AND = {
+				tag = GRU
+				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
+				}
+			}
 		}
 
 		name = annex.73.e
@@ -15532,7 +15584,6 @@ country_event = { #Fate of France
 	option = {
 		name = annex.157.k #Liberate the Commune!
 		trigger = {
-			has_socialist_government = yes
 			NOT = { country_exists = FRP }
 			AND = {
 				tag = GRU
@@ -15620,6 +15671,21 @@ country_event = { #Fate of France
 			  name = FRA_vanguard
 	        }
 
+			create_country_leader = {
+				name = "Marcel Déat"
+				desc = "POLITICS_MARCEL_DEAT_DESC"
+				picture = "gfx/leaders/FRA/Portrait_France_Marcel_Deat_supreme.tga"
+				expire = "1965.1.1"
+				ideology = national_populist_subtype
+				traits = {
+					dictator
+				}
+			}
+			set_party_name = {
+			  ideology = national_populist
+			  long_name = FRA_vanguard
+			  name = FRA_vanguard
+	        }
 			add_ideas = FRA_vanguards_in_power
 			add_ideas = FRA_cult
 			add_ideas = FRA_union_loyalty2
@@ -15634,6 +15700,21 @@ country_event = { #Fate of France
 			add_state_claim = 760
 		}
 		set_autonomy = { target = FRP autonomy_state = RM_Stahlpakt_member }
+		FRP = {
+		hidden_effect = {
+			set_politics = {
+				ruling_party = totalist
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		
+			add_popularity = {
+							ideology = totalist
+							popularity = 0.70
+						}
+		}
+		}
 	}
 	##RedDawn##
 	option = {
@@ -15705,6 +15786,12 @@ country_event = { #Fate of France
 			NOT = {
 				country_exists = FRP
 				is_in_faction_with = NFA
+			}
+			NOT = {
+			AND = {
+				tag = GRU
+				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
+			}
 			}
 		}
 
@@ -16396,6 +16483,7 @@ country_event = { #Fate of Britain
 		set_temp_variable = { tag_to_release = GBP }
 		release_targeted_tag = yes
 		GBP = {
+		hidden_effect = {
 			create_country_leader = {
 				name = "Oswald Mosley"
 				desc = "POLITICS_OSWALD_MOSLEY_DESC"
@@ -16412,7 +16500,22 @@ country_event = { #Fate of Britain
 					long_name = ENG_totalist_party
 					name = ENG_totalist_party
 				}	
-			
+			create_country_leader = {
+				name = "Oswald Mosley"
+				desc = "POLITICS_OSWALD_MOSLEY_DESC"
+				picture = "gfx/leaders/ENG/Portrait_England_Oswald_Mosley_Dictator.tga"
+				expire = "1965.1.1"
+				ideology = national_populist_subtype
+				traits = {
+					dictator
+					grand_protector
+				}
+			}
+				set_party_name = {
+					ideology = national_populist
+					long_name = ENG_totalist_party
+					name = ENG_totalist_party
+				}
 			add_ideas = ENG_Oswald_Mosley_hog_tot
 			add_ideas = ENG_Leslie_Solley_for_tot
 			add_ideas = ENG_William_Joyce_sec_tot
@@ -16459,7 +16562,23 @@ country_event = { #Fate of Britain
 		add_state_claim = 134
 		add_state_claim = 135
 		}
+		}
 		set_autonomy = { target = GBP autonomy_state = RM_Stahlpakt_member }
+		GBP = {
+		hidden_effect = {
+			set_politics = {
+				ruling_party = totalist
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		
+			add_popularity = {
+							ideology = totalist
+							popularity = 0.70
+						}
+		}
+		}
 	}
 
 	option = { #united britian
@@ -26175,6 +26294,12 @@ country_event = { #The Fate of Italy
 				ITA = { is_ally_of_ROOT = yes }
 				SRI = { is_ally_of_ROOT = yes }
 			}
+			NOT = {
+			AND = {
+				tag = GRU
+				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
+			}
+			}
 		}
 		ai_chance = {
 			factor = 95
@@ -26299,6 +26424,12 @@ country_event = { #The Fate of Italy
 				ITA = { is_ally_of_ROOT = yes }
 				SRI = { is_ally_of_ROOT = yes }
 			}
+			NOT = {
+			AND = {
+				tag = GRU
+				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
+			}
+			}
 		}
 		ai_chance = {
 			factor = 95
@@ -26397,7 +26528,6 @@ country_event = { #The Fate of Italy
 	option = {
 		name = annex.280.b #Release as SRI
 		trigger = {
-			has_socialist_government = yes
 			NOT = {
 				country_exists = SRI
 				ITA = { is_ally_of_ROOT = yes }
@@ -26474,6 +26604,7 @@ country_event = { #The Fate of Italy
 		set_temp_variable = { tag_to_release = SRI }
 		puppet_released_tag = yes
 		SRI = {
+		hidden_effect = {
 			complete_national_focus = SRI_streghten_the_chairman
 			remove_ideas = SRI_unpopular_chairman
 			remove_ideas = SRI_french_advisors_idea
@@ -26484,8 +26615,31 @@ country_event = { #The Fate of Italy
 				transfer_state = 761
 			}
 			add_state_claim = 761
+			}
 		}
 		set_autonomy = { target = SRI autonomy_state = RM_Stahlpakt_member }
+		SRI = {
+		hidden_effect = {
+			set_politics = {
+				ruling_party = totalist
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		
+			add_popularity = {
+							ideology = totalist
+							popularity = 0.70
+						}
+			
+			add_ideas = {
+					SRI_Benito_Mussolini_hog_tot
+					SRI_Dino_Grandi_for_tot
+					SRI_Benito_Mussolini_eco_tot
+					SRI_Luigi_Razza_sec_tot
+				}
+			}
+		}
 	}
 	##RedDawn##
 	
@@ -29581,7 +29735,6 @@ country_event = { #The Fate of Southern Italy
 	option = {
 		name = annex.280.b #Release as SRI
 		trigger = {
-			has_socialist_government = yes
 			NOT = { country_exists = SRI }
 			AND = {
 				tag = GRU
@@ -29650,6 +29803,7 @@ country_event = { #The Fate of Southern Italy
 		set_temp_variable = { tag_to_release = SRI }
 		puppet_released_tag = yes
 		SRI = {
+		hidden_effect = {
 			complete_national_focus = SRI_streghten_the_chairman
 			remove_ideas = SRI_unpopular_chairman
 			remove_ideas = SRI_french_advisors_idea
@@ -29660,8 +29814,30 @@ country_event = { #The Fate of Southern Italy
 				transfer_state = 761
 			}
 			add_state_claim = 761
+			}
 		}
 		set_autonomy = { target = SRI autonomy_state = RM_Stahlpakt_member }
+		SRI = {
+		hidden_effect = {
+			set_politics = {
+				ruling_party = totalist
+				last_election = "1936.1.1"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		
+			add_popularity = {
+							ideology = totalist
+							popularity = 0.70
+				}
+				add_ideas = {
+					SRI_Benito_Mussolini_hog_tot
+					SRI_Dino_Grandi_for_tot
+					SRI_Benito_Mussolini_eco_tot
+					SRI_Luigi_Razza_sec_tot
+				}
+			}
+		}
 	}
 	##RedDawn##
 	option = {
@@ -29744,6 +29920,12 @@ country_event = { #The Fate of Southern Italy
 		trigger = {
 			has_socialist_government = no
 			NOT = { country_exists = SIC }
+			NOT = {
+			AND = {
+				tag = GRU
+				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
+			}
+			}
 		}
 		ai_chance = {
 			factor = 50

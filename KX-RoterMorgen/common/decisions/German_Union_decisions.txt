@@ -3109,6 +3109,47 @@ GRU_germania_plan_decisions = {
 			783 = { add_core_of = GRU}
 			784 = { add_core_of = GRU}
 			set_country_flag = austria_cored
+			create_corps_commander = {
+				name = "Julius Ringel"
+				portrait_path = "gfx/leaders/AUS/Portrait_AUS_Julius_Ringel.tga"
+				traits = {
+					trait_mountaineer
+					commando
+				}
+				skill = 3
+				attack_skill = 2
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Karl Eglseer"
+				portrait_path = "gfx/leaders/AUS/Portrait_AUS_Karl_Eglseer.tga"
+				traits = {
+					trait_mountaineer
+					trickster
+				}
+				skill = 3
+				attack_skill = 2
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 2
+			}
+			create_corps_commander = {
+				name = "Otto Skorzeny"
+				portrait_path = "gfx/leaders/AUS/Portrait_AUS_Otto.tga"
+				traits = {
+					trait_mountaineer
+					trickster
+					commando
+					urban_assault_specialist
+				}
+				skill = 3
+				attack_skill = 2
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 2
+			}
 		}
 	}
 	
@@ -3192,6 +3233,22 @@ GRU_germania_plan_decisions = {
 				add_core_of = ROOT
 			}
 			set_country_flag = swiss_cored
+			create_corps_commander = {
+				name = "Eugen Bircher"
+				desc = "POLITICS_SWI_EUGEN_BIRCHER_ARMY_DESC"
+				portrait_path = "gfx/leaders/SWI/Portrait_Switzerland_Eugen_Bircher.tga"
+				id = 26701
+				traits = {
+					trait_cautious
+					hill_fighter
+					skilled_staffer
+				}
+				skill = 3
+				attack_skill = 2
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 3
+			}
 		}
 	}
 	GRU_pan_germanism_core_bohemia_decision = {
@@ -4715,6 +4772,22 @@ GRU_volksreichskommissariat_decisions = {
 						add_manpower = 40000
 					}
 				HYP = {	country_event = rotermorgenmisc.900 }
+					if = {
+						limit = {
+							GRU = { has_country_flag = NMDVP_R_RULE }
+						}
+						HYP = {	
+							set_popularities = {
+								national_populist = 100
+							}
+							set_politics = {
+								ruling_party = national_populist
+								last_election = "1936.1.1"
+								election_frequency = 48
+								elections_allowed = no
+							}
+						}
+					}
 				}
 				set_autonomy = { target = HYP autonomy_state = RM_Volksland }
 				set_country_flag = HYP_established
@@ -5181,6 +5254,22 @@ GRU_expansion_three_volksland_hypoborea = {
 					}
 				VKR = {	country_event = rotermorgenmisc.200 }
 				VKR = {	country_event = { id = rotermorgenmisc.201 days = 2 } }
+				if = {
+						limit = {
+							GRU = { has_country_flag = NMDVP_R_RULE }
+						}
+						VKR = {	
+							set_popularities = {
+								national_populist = 100
+							}
+							set_politics = {
+								ruling_party = national_populist
+								last_election = "1936.1.1"
+								election_frequency = 48
+								elections_allowed = no
+							}
+						}
+					}
 				}
 				set_autonomy = { target = VKR autonomy_state = RM_Volkskommissariat }
 				set_country_flag = VKR_established
@@ -5232,6 +5321,22 @@ GRU_expansion_three_volksland_hypoborea = {
 					}
 				VKK = {	country_event = rotermorgenmisc.300 }
 				VKK = {	country_event = { id = rotermorgenmisc.301 days = 2 } }
+				if = {
+						limit = {
+							GRU = { has_country_flag = NMDVP_R_RULE }
+						}
+						VKK = {	
+							set_popularities = {
+								national_populist = 100
+							}
+							set_politics = {
+								ruling_party = national_populist
+								last_election = "1936.1.1"
+								election_frequency = 48
+								elections_allowed = no
+							}
+						}
+					}
 				}
 				
 				set_autonomy = { target = VKK autonomy_state = RM_Volkskommissariat }
@@ -5294,6 +5399,22 @@ GRU_expansion_three_volksland_hypoborea = {
 						add_manpower = 40000
 					}
 				VKB = {	country_event = rotermorgenmisc.400 }
+				if = {
+						limit = {
+							GRU = { has_country_flag = NMDVP_R_RULE }
+						}
+						VKB = {	
+							set_popularities = {
+								national_populist = 100
+							}
+							set_politics = {
+								ruling_party = national_populist
+								last_election = "1936.1.1"
+								election_frequency = 48
+								elections_allowed = no
+							}
+						}
+					}
 				}
 				set_autonomy = { target = VKB autonomy_state = RM_Volkskommissariat }
 				set_country_flag = VKB_established
@@ -5350,6 +5471,22 @@ GRU_expansion_three_volksland_hypoborea = {
 						add_manpower = 40000
 					}
 				VKM = {	country_event = rotermorgenmisc.500 }
+				if = {
+						limit = {
+							GRU = { has_country_flag = NMDVP_R_RULE }
+						}
+						VKM = {	
+							set_popularities = {
+								national_populist = 100
+							}
+							set_politics = {
+								ruling_party = national_populist
+								last_election = "1936.1.1"
+								election_frequency = 48
+								elections_allowed = no
+							}
+						}
+					}
 				}
 				set_autonomy = { target = VKM autonomy_state = RM_Volkskommissariat }
 				set_country_flag = VKM_established
@@ -7195,6 +7332,22 @@ GRU_beyond_lebensraum_decisions = {
 						add_manpower = 40000
 					}
 				VSJ = {	country_event = rotermorgenmisc.950 }
+				if = {
+						limit = {
+							GRU = { has_country_flag = NMDVP_R_RULE }
+						}
+						VSJ = {	
+							set_popularities = {
+								national_populist = 100
+							}
+							set_politics = {
+								ruling_party = national_populist
+								last_election = "1936.1.1"
+								election_frequency = 48
+								elections_allowed = no
+							}
+						}
+					}
 				}
 				set_autonomy = { target = VSJ autonomy_state = RM_Volksstaat }
 				set_country_flag = VSJ_established
@@ -7434,6 +7587,22 @@ GRU_expansion_two_volksstaat_Judea = {
 						add_manpower = 40000
 					}
 				VST = {	country_event = rotermorgenmisc.951 }
+				if = {
+						limit = {
+							GRU = { has_country_flag = NMDVP_R_RULE }
+						}
+						VST = {	
+							set_popularities = {
+								national_populist = 100
+							}
+							set_politics = {
+								ruling_party = national_populist
+								last_election = "1936.1.1"
+								election_frequency = 48
+								elections_allowed = no
+							}
+						}
+					}
 				}
 				set_autonomy = { target = VST autonomy_state = RM_Volksstaat }
 				set_country_flag = VST_established

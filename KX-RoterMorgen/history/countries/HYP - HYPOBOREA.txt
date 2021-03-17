@@ -65,6 +65,7 @@ set_politics = {
 	elections_allowed = no
 }
 set_party_name = { ideology = totalist long_name = "NMDVP - Hypoborean" name = "NMDVP-H"}
+set_party_name = { ideology = national_populist long_name = "NMDVP - Hypoborean" name = "NMDVP-H"}
 set_popularities = {
 	totalist = 100
 }
@@ -75,6 +76,15 @@ create_country_leader = {
 	picture = "gfx/leaders/GRU/Portrait_HYP_sevn.tga"
 	expire = "1965.1.1"
 	ideology = totalist_subtype
+	traits = { northern_fuehrer
+	}
+}
+create_country_leader = {
+	name = "Sven Olov Lindholm"
+	desc = "POLITICS_Lindholm_DESC"
+	picture = "gfx/leaders/GRU/Portrait_HYP_sevn.tga"
+	expire = "1965.1.1"
+	ideology = national_populist_subtype
 	traits = { northern_fuehrer
 	}
 }

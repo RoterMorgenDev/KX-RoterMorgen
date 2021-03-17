@@ -15,6 +15,7 @@ country_event = { # GRU setup
 				set_cosmetic_tag = GRU_OCCUPIED
 				set_country_flag = GRU_LEFTYMOD
 				set_country_flag = GRU_OCCU_START
+				set_country_flag = GRU_OCCUPIED_START
 				remove_all_ministers = yes
 				add_ideas = {
 					GRU_FRAUOBSRI_syn

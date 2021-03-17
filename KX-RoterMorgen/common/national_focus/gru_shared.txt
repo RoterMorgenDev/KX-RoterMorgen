@@ -972,10 +972,25 @@ shared_focus = {
 					kill_ideology_leader = social_democrat
 					kill_ideology_leader = radical_socialist
 					kill_ideology_leader = syndicalist
-					add_popularity = {
+					
+					if = {
+						limit = {
+							has_country_flag = NMDVP_L_RULE
+						}
+						add_popularity = {
 							ideology = totalist
 							popularity = 0.25
 						}
+					}
+					if = {
+						limit = {
+							has_country_flag = NMDVP_R_RULE
+						}
+						add_popularity = {
+							ideology = national_populist
+							popularity = 0.25
+						}
+					}
 		}
 
 		prerequisite = { focus = GRU_form_the_guard }
@@ -3395,10 +3410,22 @@ shared_focus = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_deutschsozialistische_architektur"
 			add_ideas = GRU_deutsche_architecture
-			swap_ideas = {
+			
+			if = {
+				limit = {
+					GRU = { has_country_flag = NMDVP_R_RULE }
+				}
+				swap_ideas = {
+							remove_idea = GRU_Gregor_Strasser_eco_npo
+							add_idea = GRU_Albert_Speer_eco_npo
+						}
+			}
+			else = {
+				swap_ideas = {
 							remove_idea = GRU_Gregor_Strasser_eco_tot
 							add_idea = GRU_Albert_Speer_eco_tot
 						}
+			}
 		}
 		
 		prerequisite = { focus = GRU_volksfuhrer  }

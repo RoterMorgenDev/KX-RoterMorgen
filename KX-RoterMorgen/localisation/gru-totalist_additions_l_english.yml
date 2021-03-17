@@ -11,7 +11,7 @@
 annex.157.k:0 "Create a loyal Sorelian puppet regime!"
 annex.159.k:0 "Create a loyal Maximist puppet regime!"
 annex.73.k:0 "Create a loyal National-Syndicalist puppet regime!"
-annex.12.k:0 "Create a loyal National-Bolshevik Hungary!"
+annex.12.k:0 "Create a loyal National-Social Hungary!"
 
 
 
@@ -110,6 +110,11 @@ rotermorgenmisc.2009.a:0 "The heart will be completed soon!"
 rotermorgenmisc.2010.t:0 "Germania the city above them all"
 rotermorgenmisc.2010.d:0 "It is done the greatest city ever to be constructed has been finished after several years the new heart of the Germanic empire has become a symbol of Germanic ‘supremacy’ and conquest.\nThe day of it’s official completion the Volksführer addressed the nation from his office in the Volkshalle by radio and television speaking about Germania being the greatest feat in recent human history and a testament to German supremacy. Featuring several massive landmarks like the Triumph Arc and the Volkshalle Germania is now dragging in thousands of tourists from all over the world to it’s massive airport and the city is slowly but exponentially coming to true life as many party officials, decorated heroes and their families have been given apartments in Germania for free and the rents are as low as possible on purpose to encourage Germanics from all over the German reigned lands to move to Germania, to live in the jewel of Europe and become part of the future."
 rotermorgenmisc.2010.a:0 "The final triumph."
+
+rotermorgenmisc.1037.t:0 "The direction of the German future"
+rotermorgenmisc.1037.d:0 "Since it’s foundation the NMDVP drew patriotic and nationalistic leftists and socially and economically left orientated  nationalists into it’s ranks which have not always gotten along very well, there have even been verbal and even physical attacks among the members of the NMDVP in the Volkssenat the young parliament of the state.  The leftist wing of the NMDVP calls for further cooperation with the entire left spectrum while the nationalist wing calls for more cooperation with the socially orientated right. As tensions are growing inside the party Goebbels has to decide the future direction of the Party to end the endless discussions in the Volkssenat once and for all."
+rotermorgenmisc.1037.a:0 "We will continue our course!"
+rotermorgenmisc.1037.b:0 "We are at first Nationalists!"
 ####Idea Loc#####
 
 BUILDING_GERMANIA:0 "Building Germania"
@@ -120,7 +125,10 @@ GERMANIA_STADT_desc:0 "The Festungsstadt or fortress city Germania is the newly 
 
 ####Minister Loc#
 
-
+GRU_Joseph_Goebbels_hog_npo:0 "Josef Goebbels"
+GRU_Gregor_Strasser_eco_npo:0 "Gregor Strasser"
+GRU_Albert_Speer_eco_npo:0 "Albert Speer"
+GRU_Ernst_Roehm_sec_npo:0 "Ernst Röhm"
 
 ###company loc###
 
@@ -146,8 +154,12 @@ market_liberal_acceptance:0 "Acceptance of §YMarket Liberalism§!"
 social_conservative_acceptance:0 "Acceptance of §YSocial Conservatism§!"
 authoritarian_democrat_acceptance:0 "Acceptance of §YAuthoritarian Democracy§!"
 
-natmarx_diplo:0 "National-Marxist Diplomacy"
-natmarx_diplo_desc:0 "We walk the thin line between the far left and far right hated by most but accepted by the outcasts we unite the front against liberalism and degeneracy to protect the interests of all workers and their national states."
+natmarx_diplo_left:0 "Leftwing National-Marxist Diplomacy"
+natmarx_diplo_left_desc:0 "We walk the thin line between the far left and far right hated by most but accepted by the outcasts we unite the front against liberalism and degeneracy to protect the interests of all workers and their national states."
+
+natmarx_diplo_right:0 "Rightwing National-Marxist Diplomacy"
+natmarx_diplo_right_desc:0 "We walk the thin line between the far left and far right hated by most but accepted by the outcasts we unite the front against liberalism and degeneracy to protect the interests of all workers and their national states."
+
 
 GRU_stahlpakt_alliance_decisions:0 "Stahlpakt Expansion"
 GRU_stahlpakt_alliance_decisions_desc:0 "We shall try to expand the Stahlpakt we will welcome Nations aligned to the far left and right as our ideology builds a bridge between them."
@@ -156,8 +168,8 @@ GRU_stahlpakt_invite_countries_decision:0 "Invite [From.GetNameDef] into the Sta
 
 CNT_PUPPET_PARTY_LONG:0 "Falange Española de Nacional Sindicalistas"
 CNT_PUPPET_PARTY:0 "FENS"
-HUN_NAZBOL_PARTY_LONG:0 "Magyar Nemzeti-bolsevik munkáspárt"
-HUN_NAZBOL_PARTY:0 "MNBM"
+HUN_NAZBOL_PARTY_LONG:0 "Magyar Nemzeti-Szociális Munkáspárt"
+HUN_NAZBOL_PARTY:0 "MNSM"
 
 GRU_ANARCHISM_PUPPET:0 "Anarchist Commune"
 RM_ANARCHOCOMMUNE:0 "Anarchist Commune"
@@ -171,6 +183,14 @@ GRU_Germania_Stadt_decisions:0 "Construction of Germania"
 GRU_Germania_Stadt_decision:0 "Start the construction if a news capital city."
 
 FAUD_tt_anarchism_spread:0 "Unlocks decisions to liberate neighbour nations."
+
+GRU_OCCUPIED_START:0 "Germany is an occupied State"
+
+GRU_NMDVP_L:0 "NMDVP (L)"
+GRU_NMDVP_L_long:0 "Nationalmarxistische Deutsche Volkspartei - (Soziale)"
+
+GRU_NMDVP_R:0 "NMDVP (R)"
+GRU_NMDVP_R_long:0 "Nationalmarxistische Deutsche Volkspartei - (Nationale)"
 #################
 ########!!!!HEY CHUNGUS!!!! IF YOU READ THIS! I advise you to se tsome form of mark inside this exclamated text for yourself when you finished a block :D MAybe JUST REMOVE THIS ANNOYING TEXT THAT WILL NOW BE AT THE BOTTOM OF EACH BLOCK#########
 #################

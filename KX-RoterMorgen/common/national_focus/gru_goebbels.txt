@@ -31,7 +31,6 @@
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_NMDVP_allignment"
 			custom_effect_tooltip = GRU_tt_allies_decisions
-			add_ideas = natmarx_diplo
 		}
 		prerequisite = { focus = GRU_NMDVP_PATH  }
 	}
