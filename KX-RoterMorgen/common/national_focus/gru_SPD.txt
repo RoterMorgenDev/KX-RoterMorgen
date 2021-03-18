@@ -533,7 +533,7 @@
 		id = GRU_MARKET_LIBERALS_ELECTED
 		icon = GRU_MARLIB_VIC
 		relative_position_id = GRU_THE_DEMOCRACY_PROMISE
-		x = -7
+		x = -14
 		y = 1
 		cost = 6
 		available = {
@@ -690,7 +690,7 @@
 						}
 			hidden_effect = {
 			set_party_name = {
-						ideology = authoritarian_democrat
+						ideology = paternal_autocrat
 						long_name = GRU_INDUSTRIALS_long
 						name = GRU_INDUSTRIALS
 				}
@@ -699,14 +699,14 @@
 							desc = "GRU_Krupp_DESC"
 							picture = "gfx/leaders/GRU/Portrait_GRU_Gustav_Krupp.tga"
 							expire = "1965.1.1"
-							ideology = authoritarian_democrat_subtype
+							ideology = paternal_autocrat_subtype
 				}
 			add_popularity = {
-							ideology = authoritarian_democrat
-							popularity = 0.25
+							ideology = paternal_autocrat
+							popularity = 0.35
 						}
 			set_politics = {
-					ruling_party = authoritarian_democrat
+					ruling_party = paternal_autocrat
 					last_election = "1936.11.16"
 					elections_allowed = no
 				}
@@ -722,6 +722,183 @@
 		}
 		prerequisite = { focus = GRU_MARLIB_CONTROL_MEDIA_WITH_MONEY  }
 		prerequisite = { focus = GRU_MARLIB_TWENTY_PERCENTE_ELECTROAL_THRESHOLD  }
+		
+	}
+	
+	shared_focus = {
+		id = GRU_CORPORATE_DICTATORSHIP
+		icon = GRU_CORPORATE_DICTATORSHIP
+		relative_position_id = GRU_MARLIB_OLIGARCHIC_REPUBLIC
+		x = 0
+		y = 2
+		cost = 6
+		available = {
+				has_country_flag = GRU_CORPORATE_DICTATORSHIP
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_CORPORATE_DICTATORSHIP"
+		}
+	}
+		
+	shared_focus = {
+		id = GRU_ALLIANCE_OF_INDUSTRIALS
+		icon = GRU_ALLIANCE_OF_INDUSTRIALS
+		relative_position_id = GRU_CORPORATE_DICTATORSHIP
+		x = 0
+		y = 1
+		cost = 6
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_ALLIANCE_OF_INDUSTRIALS"
+		}
+		prerequisite = { focus = GRU_CORPORATE_DICTATORSHIP  }
+	}
+	
+	shared_focus = {
+		id = GRU_EXPAND_POLICE
+		icon = GRU_EXPAND_POLICE
+		relative_position_id = GRU_CORPORATE_DICTATORSHIP
+		x = -2
+		y = 1
+		cost = 6
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_EXPAND_POLICE"
+		}
+		prerequisite = { focus = GRU_CORPORATE_DICTATORSHIP  }
+	}
+	
+	shared_focus = {
+		id = GRU_AUTOBAHN_FINANCING
+		icon = GRU_AUTOBAHN_FINANCING
+		relative_position_id = GRU_CORPORATE_DICTATORSHIP
+		x = 2
+		y = 1
+		cost = 6
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_AUTOBAHN_FINANCING"
+		}
+		prerequisite = { focus = GRU_CORPORATE_DICTATORSHIP  }
+	}
+	
+	shared_focus = {
+		id = GRU_MILITARY_INDUSTRIAL_COMPLEX
+		icon = GRU_MILITARY_INDUSTRIAL_COMPLEX
+		relative_position_id = GRU_CORPORATE_DICTATORSHIP
+		x = 1
+		y = 2
+		cost = 6
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_MILITARY_INDUSTRIAL_COMPLEX"
+		}
+		prerequisite = { focus = GRU_ALLIANCE_OF_INDUSTRIALS  }
+		prerequisite = { focus = GRU_AUTOBAHN_FINANCING  }
+	}
+	
+	shared_focus = {
+		id = GRU_RIOT_CONTROL
+		icon = GRU_RIOT_CONTROL
+		relative_position_id = GRU_CORPORATE_DICTATORSHIP
+		x = -1
+		y = 2
+		cost = 6
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_RIOT_CONTROL"
+		}
+		prerequisite = { focus = GRU_ALLIANCE_OF_INDUSTRIALS  }
+		prerequisite = { focus = GRU_EXPAND_POLICE  }
+	}
+	
+	shared_focus = {
+		id = GRU_RED_SCARE
+		icon = GRU_RED_SCARE
+		relative_position_id = GRU_CORPORATE_DICTATORSHIP
+		x = 0
+		y = 3
+		cost = 6
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_RED_SCARE"
+		}
+		prerequisite = { focus = GRU_MILITARY_INDUSTRIAL_COMPLEX  }
+		prerequisite = { focus = GRU_RIOT_CONTROL  }
+	}
+	
+	shared_focus = {
+		id = GRU_RAPID_GROWTH
+		icon = GRU_RAPID_GROWTH
+		relative_position_id = GRU_CORPORATE_DICTATORSHIP
+		x = 2
+		y = 3
+		cost = 6
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_RAPID_GROWTH"
+		}
+		prerequisite = { focus = GRU_MILITARY_INDUSTRIAL_COMPLEX  }
+		prerequisite = { focus = GRU_RIOT_CONTROL  }
+	}
+	shared_focus = {
+		id = GRU_CHEMICAL_INDUSTRY
+		icon = GRU_CHEMICAL_INDUSTRY
+		relative_position_id = GRU_CORPORATE_DICTATORSHIP
+		x = -2
+		y = 3
+		cost = 6
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_CHEMICAL_INDUSTRY"
+		}
+		prerequisite = { focus = GRU_MILITARY_INDUSTRIAL_COMPLEX  }
+		prerequisite = { focus = GRU_RIOT_CONTROL  }
+	}
+	
+	shared_focus = {
+		id = GRU_BUY_UP_SMALL_BUISNESS
+		icon = GRU_BUY_UP_SMALL_BUISNESS
+		relative_position_id = GRU_CORPORATE_DICTATORSHIP
+		x = 1
+		y = 4
+		cost = 6
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_BUY_UP_SMALL_BUISNESS"
+		}
+		prerequisite = { focus = GRU_RAPID_GROWTH  }
+		prerequisite = { focus = GRU_RED_SCARE  }
+	}
+	
+	shared_focus = {
+		id = GRU_METH_FOR_ALL
+		icon = GRU_METH_FOR_ALL
+		relative_position_id = GRU_CORPORATE_DICTATORSHIP
+		x = -1
+		y = 4
+		cost = 6
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_METH_FOR_ALL"
+		}
+		prerequisite = { focus = GRU_CHEMICAL_INDUSTRY  }
+		prerequisite = { focus = GRU_RED_SCARE  }
+	}
+	
+	shared_focus = {
+		id = GRU_WORLDS_FIRST_MEGACORP
+		icon = GRU_WORLDS_FIRST_MEGACORP
+		relative_position_id = GRU_CORPORATE_DICTATORSHIP
+		x = 0
+		y = 5
+		cost = 6
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_WORLDS_FIRST_MEGACORP"
+		}
+		prerequisite = { focus = GRU_BUY_UP_SMALL_BUISNESS  }
+		prerequisite = { focus = GRU_METH_FOR_ALL  }
 	}
 	
 	###cons####
@@ -729,7 +906,7 @@
 		id = GRU_CONSERVATIVES_ELECTED
 		icon = GRU_CONS_VIC
 		relative_position_id = GRU_THE_DEMOCRACY_PROMISE
-		x = -14
+		x = -7
 		y = 1
 		cost = 6
 		available = {

@@ -43,7 +43,7 @@ country_event = { # portraitswapper
 							ideology = national_populist_subtype
 							traits = {
 								gru_froncophobe
-							
+								gru_volksfuehrer
 							}
 					}
 	}

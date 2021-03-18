@@ -11,4 +11,5 @@ focus_tree = {
 	shared_focus = GRU_FAUD_FUTURE
 	shared_focus = GRU_NMDVP_PATH
 	shared_focus = GRU_SMEPD_DIPLO
+	#shared_focus = GRU_CORPORATE_DICTATORSHIP
 	}
