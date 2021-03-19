@@ -2649,3 +2649,119 @@ country_event = { # anarcho_communes
 		}
 	}
 }
+
+
+
+country_event = { # Future of Germany MarLibs
+	id = rotermorgenmisc.860
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.860" }
+	title = rotermorgenmisc.860.t
+	desc = rotermorgenmisc.860.d
+	is_triggered_only = yes
+	
+	option = { # 
+		name = rotermorgenmisc.860.a
+			swap_ideas = {
+							remove_idea = GRU_SUCCDUM
+							add_idea = GRU_MARLIB_STATE
+						}
+	}
+	
+	option = { # 
+		name = rotermorgenmisc.860.b
+			set_cosmetic_tag = GRU_REP_KRUPP
+			swap_ideas = {
+							remove_idea = GRU_SUCCDUM
+							add_idea = GRU_OLIGARCHY
+						}
+			hidden_effect = {
+			set_party_name = {
+						ideology = authoritarian_democrat
+						long_name = GRU_MARLIB_PARTY_long
+						name = GRU_MARLIB_PARTY
+				}
+			create_country_leader = {
+							name = "Gustav Krupp"
+							desc = "GRU_Krupp_DESC"
+							picture = "gfx/leaders/GRU/Portrait_GRU_Gustav_Krupp.tga"
+							expire = "1965.1.1"
+							ideology = authoritarian_democrat_subtype
+				}
+			add_popularity = {
+							ideology = authoritarian_democrat
+							popularity = 0.35
+						}
+			set_politics = {
+					ruling_party = authoritarian_democrat
+					last_election = "1936.11.16"
+					elections_allowed = no
+				}
+			remove_all_ministers = yes
+				add_ideas = {
+					GRU_Alfried_Krupp_hog_sco
+					GRU_Ludwig_Kaas_for_ade
+					MAF_Fritz_Thyssen_eco_pau
+					GRU_Otto_Bradfisch_sec_ade
+				}
+			}
+	}
+	
+	option = { # 
+		name = rotermorgenmisc.860.c
+			set_cosmetic_tag = GRU_CORPORATE_DICTATORSHIP
+			remove_ideas = GRU_SPD_FAUD_FREIHEIT
+			swap_ideas = {
+							remove_idea = GRU_SUCCDUM
+							add_idea = GRU_CORPORATE_DICTATORSHIP_IDEA
+						}
+			hidden_effect = {
+			set_country_flag = GRU_CORPORATE_DICTATORSHIP_FLAG
+			set_party_name = {
+						ideology = paternal_autocrat
+						long_name = GRU_INDUSTRIALS_long
+						name = GRU_INDUSTRIALS
+				}
+			create_country_leader = {
+							name = "Gustav Krupp"
+							desc = "GRU_Krupp_DESC"
+							picture = "gfx/leaders/GRU/Portrait_GRU_Gustav_Krupp.tga"
+							expire = "1965.1.1"
+							ideology = paternal_autocrat_subtype
+				}
+			set_party_name = {
+						ideology = authoritarian_democrat
+						long_name = GRU_INDUSTRIALS_long
+						name = GRU_INDUSTRIALS
+				}
+			create_country_leader = {
+							name = "Gustav Krupp"
+							desc = "GRU_Krupp_DESC"
+							picture = "gfx/leaders/GRU/Portrait_GRU_Gustav_Krupp.tga"
+							expire = "1965.1.1"
+							ideology = authoritarian_democrat_subtype
+				}
+			set_party_name = {
+						ideology = market_liberal
+						long_name = GRU_INDUSTRIALS_long
+						name = GRU_INDUSTRIALS
+				}
+			add_popularity = {
+							ideology = paternal_autocrat
+							popularity = 0.35
+						}
+			set_politics = {
+					ruling_party = paternal_autocrat
+					last_election = "1936.11.16"
+					elections_allowed = no
+				}
+			complete_national_focus = GRU_CORPORATE_DICTATORSHIP
+			remove_all_ministers = yes
+				add_ideas = {
+					GRU_Alfried_Krupp_hog_sco
+					GRU_Ludwig_Kaas_for_ade
+					MAF_Fritz_Thyssen_eco_pau
+					GRU_Otto_Bradfisch_sec_ade
+				}
+			}
+	}
+}

@@ -2195,6 +2195,93 @@ ideas = {
 				party_popularity_stability_factor = -0.01
 			}
 		}
+		###newkrupp
+		GRU_MARLIB_STATE = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_MARLIB_STATE"}
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			picture = GRU_THE_OLIGARCHY
+			modifier = { 
+				production_factory_start_efficiency_factor = 0.04
+				production_speed_buildings_factor = 0.05
+				stability_weekly = 0.01
+				political_power_gain = 0.20
+
+			}
+		}
+		
+		GRU_CORPORATE_DICTATORSHIP_IDEA = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_CORPORATE_DICTATORSHIP"}
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			picture = GRU_THE_OLIGARCHY
+			modifier = { 
+				production_factory_start_efficiency_factor = 0.14
+				production_speed_buildings_factor = 0.12
+				production_speed_infrastructure_factor = 0.12
+				production_factory_efficiency_gain_factor = 0.06
+				stability_weekly = 0.01
+				political_power_gain = 0.35
+				monthly_population = -0.02
+				consumer_goods_factor = -0.1
+			}
+		}
+		GRU_CORPORATE_DICTATORSHIP_IDEA_TWO = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea GRU_CORPORATE_DICTATORSHIP"}
+			allowed = {	always = no	}
+			allowed_civil_war = { always = yes }
+			picture = GRU_THE_OLIGARCHY
+			modifier = { 
+				production_factory_start_efficiency_factor = 0.14
+				production_speed_buildings_factor = 0.14
+				production_speed_infrastructure_factor = 0.14
+				production_factory_efficiency_gain_factor = 0.08
+				stability_weekly = 0.01
+				political_power_gain = 0.35
+				monthly_population = -0.02
+				consumer_goods_factor = -0.15
+				conscription_factor = 0.04
+			}
+		}
+		GRU_KRUPP_POLICE= {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_KRUPP_POLICE"}
+			picture = gru_cops
+			modifier = {
+				encryption_factor = 0.1
+				decryption_factor = 0.15
+				party_popularity_stability_factor = 0.1
+				conscription_factor = 0.01
+				political_power_gain = 0.03
+				stability_weekly = 0.003
+			}
+		}
+		GRU_KRUPP_POLICE_TWO = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_KRUPP_POLICE_TWO"}
+			picture = gru_riot_cops
+			modifier = {
+				party_popularity_stability_factor = 0.1
+				conscription_factor = 0.01
+				max_command_power = 15
+				political_power_gain = 0.10
+				special_forces_cap = 0.02
+				stability_weekly = 0.003
+			}
+		}
+		
+		gru_corporate_meth = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea gru_corporate_meth"}
+			picture = gru_meth
+			modifier = {
+				army_morale_factor = 0.1
+				experience_gain_army_factor = -0.35
+				stability_factor = 0.01
+				political_power_gain = 0.05
+				army_speed_factor = 0.03
+				war_support_factor = 0.2
+				out_of_supply_factor = 0.1
+			}
+		}
+		
 		###FDP###
 		GRU_FDP_THE_GAY_IS_A_OK = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_FDP_THE_GAY_IS_A_OK"}

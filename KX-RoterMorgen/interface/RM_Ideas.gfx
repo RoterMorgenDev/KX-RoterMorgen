@@ -652,4 +652,18 @@ spriteTypes = {
 		name = "GFX_decision_category_germania_stadt"
 		texturefile = "gfx/interface/decisions/germaniabuilding.dds"
 	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_gru_meth"
+		texturefile = "gfx/interface/ideas/GRU/meth_idea.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_gru_cops"
+		texturefile = "gfx/interface/ideas/GRU/cop_idea.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_gru_riot_cops"
+		texturefile = "gfx/interface/ideas/GRU/riot_cops.tga"
+	}
 }

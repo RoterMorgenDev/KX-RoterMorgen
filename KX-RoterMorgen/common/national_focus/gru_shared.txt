@@ -96,6 +96,8 @@ shared_focus = {
 				country_exists = VKB
 				country_exists = VKR
 				country_exists = VKK
+				country_exists = VKM
+				country_exists = HYP
 			}
 		}
 		icon = GRU_german_endsieg
@@ -120,6 +122,8 @@ shared_focus = {
 				country_exists = VKB
 				country_exists = VKR
 				country_exists = VKK
+				country_exists = VKM
+				country_exists = HYP
 			}
 		}
 		icon = GRU_state_eye
@@ -141,6 +145,8 @@ shared_focus = {
 				country_exists = VKB
 				country_exists = VKR
 				country_exists = VKK
+				country_exists = VKM
+				country_exists = HYP
 			}
 		}
 		icon = GRU_NM_family
@@ -162,6 +168,8 @@ shared_focus = {
 				country_exists = VKB
 				country_exists = VKR
 				country_exists = VKK
+				country_exists = VKM
+				country_exists = HYP
 			}
 		}
 		icon = GRU_OLD_GOD
@@ -186,6 +194,8 @@ shared_focus = {
 				country_exists = VKB
 				country_exists = VKR
 				country_exists = VKK
+				country_exists = VKM
+				country_exists = HYP
 			}
 		}
 		icon = GRU_SOCIAL_CREDIT
@@ -207,6 +217,8 @@ shared_focus = {
 				country_exists = VKB
 				country_exists = VKR
 				country_exists = VKK
+				country_exists = VKM
+				country_exists = HYP
 			}
 		}
 		icon = GRU_german_millenia
