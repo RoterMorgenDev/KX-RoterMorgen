@@ -2281,7 +2281,25 @@ ideas = {
 				out_of_supply_factor = 0.1
 			}
 		}
+		####IMP "victory"###
 		
+		
+		GER_bleeding_germany = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_RUINED_ECONOMY"}
+			picture = GRU_SOON_DEAD
+			modifier = {
+				industrial_capacity_factory = -0.4
+				production_factory_max_efficiency_factor = -0.20
+				production_speed_buildings_factor = -0.60
+				production_speed_infrastructure_factor = -0.60
+				production_factory_efficiency_gain_factor = -0.20
+				consumer_goods_factor = 0.50
+				industry_repair_factor = -0.20
+				local_resources_factor = -0.50
+				political_power_gain = -0.50
+				stability_weekly = -0.03
+			}
+		}
 		###FDP###
 		GRU_FDP_THE_GAY_IS_A_OK = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_FDP_THE_GAY_IS_A_OK"}

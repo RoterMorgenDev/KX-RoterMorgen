@@ -170,6 +170,17 @@ rotermorgenmisc.860.d:0 "The elites of Germany either political or industrial an
 rotermorgenmisc.860.a:0 "Call the plan off!"
 rotermorgenmisc.860.b:0 "Make a compromise."
 rotermorgenmisc.860.c:0 "An end to democracy."
+
+rotermorgenIV.2.t:0 "The Darkest Day"
+rotermorgenIV.2.d:0 "Facing defeat in victory due to now beeing hated by at least half the population and his nation in ruins the Kaiser of Germany, WIlhelm 2nd of his name has today committed suicide in his private chambers. To the public it has been annoucned that he died of old age to avoid any rumors.."
+rotermorgenIV.2.a:0 "Memento Mori"
+
+rotermorgenIV.3.t:0 "Germany a dream nomore"
+rotermorgenIV.3.d:0 "Following the coronation of Wilhelm the third riots started to spark again as the german population had expected an end to german Moanrchy after the disasterous civil war and the cause for it, beeing primaly blamed on Wilhelm the second and his government.\nWHile a large part of the army has retreated with Wilhelm the third to prussia several regions have proclaimed independence some even with rival governments that delcared the same state... the end of Germany it has finally come."
+rotermorgenIV.3.a:0 "Retreat to Prussia!"
+rotermorgenIV.3.b:0 "Long live Ruprecht of Bavaria!"
+rotermorgenIV.3.c:0 "Democracy at the Rhine!"
+rotermorgenIV.3.e:0 "The revolutions torch still burns in the north!"
 ####Idea Loc#####
 
 BUILDING_GERMANIA:0 "Building Germania"
@@ -178,6 +189,8 @@ BUILDING_GERMANIA_desc:0 "Our industry takes a heavy toll from the gargantuan Ge
 GERMANIA_STADT:0 "Festungsstadt Germania"
 GERMANIA_STADT_desc:0 "The Festungsstadt or fortress city Germania is the newly erected capital of the Germanic State and a testament to German supremacy. Featuring several massive landmarks like the Triumph Arc and the Volkshalle Germania is now dragging in thousands of tourists from all over the world to it’s massive airport and the city is slowly but exponentially coming to true life as many party officials, decorated heroes and their families have been given apartments in Germania for free and the rents are as low as possible on purpose to encourage Germanics from all over the German reigned lands to move to Germania, to live in the jewel of Europe and become part of the future."
 
+GER_bleeding_germany:0 "Bleeding Germany"
+GER_bleeding_germany_desc:0 "Wounds have been torn, woudns impossible to heal and Germany might face it's death soon."
 ####Minister Loc#
 
 GRU_Joseph_Goebbels_hog_npo:0 "Josef Goebbels"
@@ -185,6 +198,7 @@ GRU_Gregor_Strasser_eco_npo:0 "Gregor Strasser"
 GRU_Albert_Speer_eco_npo:0 "Albert Speer"
 GRU_Ernst_Roehm_sec_npo:0 "Ernst Röhm"
 
+NGF_Herbert_Frahm_sec_sde:0 "Herbert Frahm"
 ###company loc###
 
 
@@ -247,7 +261,23 @@ GRU_NMDVP_L_long:0 "Nationalmarxistische Deutsche Volkspartei - (Soziale)"
 GRU_NMDVP_R:0 "NMDVP (R)"
 GRU_NMDVP_R_long:0 "Nationalmarxistische Deutsche Volkspartei - (Nationale)"
 
+DDR_pataut_party:0 "Königstreur Militärrat"
+DDR_pataut_party_long:0 "Königstreur Militärrat des preußischen Staates"
 
+BAY_NATPOP:0 "BVF"
+BAY_NATPOP_LONG:0 "Bayrische Vaterländische Front"
+
+WGR_soccon_party:0 "Zentrum"
+WGR_soccon_party_long:0 "Rheinische Zentrumspartei"
+
+NGF_RADSOC_PARTY:0 "NAP"
+NGF_RADSOC_PARTY_LONG:0 "Norddeutsche Arbeiter Partei"
+
+DDR_Kingdom:0 "Kingdom of Prussia"
+
+BAY_NATPOP_STATE:0 "Greater Bavaria"
+
+NGF_RADSOC_STATE:0 "North German Worker Republic"
 
 GRU_CORPORATE_DICTATORSHIP_FLAG:0 "Krupp and the W.D.I have established a corporate dictatorship"
 

@@ -836,6 +836,7 @@ country_event = { # GRU setup
 			}
 			GER = {
 				add_ideas = GERMAN_CIVIL_WAR_participant
+				set_country_flag = GER_LEFT_REVOLT
 				transfer_units_fraction= {
 					target = GRU
 					size = 0.3

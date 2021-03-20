@@ -69,6 +69,10 @@ spriteTypes = {
 	}
 	##SEC##
 	spriteType = {
+		name = "GFX_idea_NGF_Herbert_Frahm_sec_sde"
+		texturefile = "gfx/interface/ministers/GER/GER_Herbert_Frahm.tga"
+	}
+	spriteType = {
 		name = "GFX_idea_GRU_Joseph_Goebbels_sec_tot"
 		texturefile = "gfx/interface/ministers/GRU/GRU_Joseph_Goebbels.tga"
 	}

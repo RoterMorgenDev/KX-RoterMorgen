@@ -666,4 +666,8 @@ spriteTypes = {
 		name = "GFX_idea_gru_riot_cops"
 		texturefile = "gfx/interface/ideas/GRU/riot_cops.tga"
 	}
+	spriteType = {
+		name = "GFX_idea_GRU_SOON_DEAD"
+		texturefile = "gfx/interface/ideas/GRU/germany_soon_dead_idea.tga"
+	}
 }

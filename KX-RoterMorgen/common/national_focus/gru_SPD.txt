@@ -1314,7 +1314,7 @@
 			add_state_claim = 918
 			add_state_claim = 869
 			add_state_claim = 870
-			add_state_claim = 849
+			add_state_claim = 1185
 			add_state_claim = 970
 			add_state_claim = 547
 			add_state_claim = 982
@@ -1349,7 +1349,6 @@
 			add_state_claim = 718
 			add_state_claim = 1026
 			add_state_claim = 1181
-			add_state_claim = 997
 			add_state_claim = 949
 			add_state_claim = 1184
 			add_state_claim = 970
@@ -1376,7 +1375,7 @@
 			owns_state = 918
 			owns_state = 869
 			owns_state = 870
-			owns_state = 849
+			owns_state = 1185
 			owns_state = 970
 			owns_state = 547
 			owns_state = 982
@@ -1411,7 +1410,6 @@
 			owns_state = 718
 			owns_state = 1026
 			owns_state = 1181
-			owns_state = 997
 			owns_state = 949
 			owns_state = 1184
 			owns_state = 970
