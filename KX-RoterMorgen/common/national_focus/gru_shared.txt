@@ -1697,7 +1697,7 @@ shared_focus = {
 	#Spz.Proj.PFEIL
 shared_focus = {
 		id = GRU_spzprojpfeil
-		icon = GFX_focus_rocketry
+		icon = GRU_SPZ_PFEIL
 		relative_position_id = GRU_nmdvp_victory
 		x = -7
 		y = 9
