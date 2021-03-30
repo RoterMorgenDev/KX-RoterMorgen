@@ -334,7 +334,7 @@ country_event = { # CONGRESS
 						name = GRU_NMDVP
 				}
 				create_country_leader = {
-							name = "Josef Goebbels"
+							name = "Gobbel Chickler"
 							desc = "GRU_GOEBBELS_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Josef_Goebbels_13.tga"
 							expire = "1965.1.1"
@@ -350,7 +350,7 @@ country_event = { # CONGRESS
 						name = GRU_SEPD
 				}
 				create_country_leader = {
-							name = "Wilhelm Pieck"
+							name = "Wilhelm hit the pief"
 							desc = "GRU_PIECK_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Wilhelm_Pieck_I.tga"
 							expire = "1965.1.1"
@@ -426,7 +426,7 @@ country_event = { # CONGRESS
 						name = GRU_NMDVP
 				}
 				create_country_leader = {
-							name = "Josef Goebbels"
+							name = "Gobbel Chickler"
 							desc = "GRU_GOEBBELS_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Josef_Goebbels_13.tga"
 							expire = "1965.1.1"
@@ -439,7 +439,7 @@ country_event = { # CONGRESS
 						name = GRU_SEPD
 				}
 				create_country_leader = {
-							name = "Wilhelm Pieck"
+							name = "Wilhelm hit the pief"
 							desc = "GRU_PIECK_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Wilhelm_Pieck_I.tga"
 							expire = "1965.1.1"
@@ -531,7 +531,7 @@ country_event = { # CONGRESS
 						name = GRU_SEPD
 				}
 				create_country_leader = {
-							name = "Wilhelm Pieck"
+							name = "Wilhelm hit the pief"
 							desc = "GRU_PIECK_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Wilhelm_Pieck_I.tga"
 							expire = "1965.1.1"
@@ -610,7 +610,7 @@ country_event = { # CONGRESS
 						name = GRU_NMDVP
 				}
 				create_country_leader = {
-							name = "Josef Goebbels"
+							name = "Gobbel Chickler"
 							desc = "GRU_GOEBBELS_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Josef_Goebbels_13.tga"
 							expire = "1965.1.1"
@@ -623,7 +623,7 @@ country_event = { # CONGRESS
 						name = GRU_SEPD
 				}
 				create_country_leader = {
-							name = "Wilhelm Pieck"
+							name = "Wilhelm hit the pief"
 							desc = "GRU_PIECK_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Wilhelm_Pieck_I.tga"
 							expire = "1965.1.1"
@@ -675,7 +675,7 @@ country_event = { # SMEPD SPLIT
 						name = GRU_SEPD_THALY
 				}
 				create_country_leader = {
-							name = "Ernst Thälmann"
+							name = "Ernst RoBoman"
 							desc = "GRU_THALY_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Ernst_Thalmann.tga"
 							expire = "1965.1.1"
@@ -687,7 +687,7 @@ country_event = { # SMEPD SPLIT
 						name = GRU_SEPD_PIECK
 				}
 				create_country_leader = {
-							name = "Wilhelm Pieck"
+							name = "Wilhelm hit the pief"
 							desc = "GRU_PIECK_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Wilhelm_Pieck_I.tga"
 							expire = "1965.1.1"
@@ -720,7 +720,7 @@ country_event = { # SMEPD SPLIT
 						name = GRU_SEPD_THALY
 				}
 				create_country_leader = {
-							name = "Ernst Thälmann"
+							name = "Ernst RoBoman"
 							desc = "GRU_THALY_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Ernst_Thalmann.tga"
 							expire = "1965.1.1"
@@ -732,7 +732,7 @@ country_event = { # SMEPD SPLIT
 						name = GRU_SEPD_PIECK
 				}
 				create_country_leader = {
-							name = "Wilhelm Pieck"
+							name = "Wilhelm hit the pief"
 							desc = "GRU_PIECK_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Wilhelm_Pieck_I.tga"
 							expire = "1965.1.1"

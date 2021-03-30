@@ -338,6 +338,13 @@ shared_focus = {
 		x = -8
 		y = 2
 		cost = 5
+		offset = {
+			x = -1
+			y = 0
+			trigger = {
+					has_country_flag = GRU_Heydrichs_Coup 
+				}
+			}
 		completion_reward = {
 					log = "[GetDateText]: [Root.GetName]: Focus GRU_rva"
 					add_resource = {
@@ -383,6 +390,13 @@ shared_focus = {
 		x = -6
 		y = 2
 		cost = 5
+		offset = {
+			x = -1
+			y = 0
+			trigger = {
+					has_country_flag = GRU_Heydrichs_Coup 
+				}
+			}
 		completion_reward = {
 					log = "[GetDateText]: [Root.GetName]: Focus GRU_rva"
 					add_ideas = GRU_National_socialism_one
@@ -521,6 +535,9 @@ shared_focus = {
 		x = -10
 		y = 4
 		cost = 5
+		allow_branch = {
+			NOT = { has_country_flag = GRU_Heydrichs_Coup }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_neue_schwerindustrie"
 			add_ideas = closed_economy
@@ -542,6 +559,19 @@ shared_focus = {
 		x = -8
 		y = 4
 		cost = 5
+		offset = {
+			x = -1
+			y = 0
+			trigger = {
+					has_country_flag = GRU_Heydrichs_Coup 
+				}
+			}
+		allow_branch = {
+			OR = {
+			NOT = { has_country_flag = GRU_Heydrichs_Coup }
+			has_country_flag = GRU_Heydrichs_Coup 
+			}
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_technocrat_influence"
 			add_political_power = 50
@@ -565,6 +595,13 @@ shared_focus = {
 		x = -6
 		y = 4
 		cost = 5
+		offset = {
+			x = -1
+			y = 0
+			trigger = {
+					has_country_flag = GRU_Heydrichs_Coup 
+				}
+			}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_national_socialist_market_economics"
 			add_ideas = closed_economy
@@ -586,6 +623,13 @@ shared_focus = {
 		x = -7
 		y = 5
 		cost = 5
+		offset = {
+			x = -1
+			y = 0
+			trigger = {
+					has_country_flag = GRU_Heydrichs_Coup 
+				}
+			}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_organic_growth"
 					random_owned_state = {
@@ -768,6 +812,9 @@ shared_focus = {
 		x = -9
 		y = 5
 		cost = 5
+		allow_branch = {
+			NOT = { has_country_flag = GRU_Heydrichs_Coup }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_planned_growth"
 					random_owned_state = {
@@ -1532,6 +1579,9 @@ shared_focus = {
 		x = 0
 		y = 5
 		cost = 1
+		allow_branch = {
+			NOT = { has_country_flag = GRU_Heydrichs_Coup }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_fortschritt"
 			set_country_flag = GRU_REBUILD
@@ -1566,6 +1616,9 @@ shared_focus = {
 		x = -11
 		y = 3
 		cost = 5
+		allow_branch = {
+			NOT = { has_country_flag = GRU_Heydrichs_Coup }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_agrarian_collectivisation"
 			add_tech_bonus = {
@@ -1587,6 +1640,9 @@ shared_focus = {
 		x = -9
 		y = 3
 		cost = 5
+		allow_branch = {
+			NOT = { has_country_flag = GRU_Heydrichs_Coup }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_factory_network_unions"
 			swap_ideas = {
@@ -1606,6 +1662,13 @@ shared_focus = {
 		x = -5
 		y = 3
 		cost = 5
+		offset = {
+			x = -2
+			y = 0
+			trigger = {
+					has_country_flag = GRU_Heydrichs_Coup 
+				}
+			}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_agrarian_subsides"
 			add_tech_bonus = {
@@ -1626,6 +1689,13 @@ shared_focus = {
 		x = -7
 		y = 3
 		cost = 5
+		offset = {
+			x = -2
+			y = 0
+			trigger = {
+					has_country_flag = GRU_Heydrichs_Coup 
+				}
+			}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_national_labour_service"
 			swap_ideas = {
@@ -1645,6 +1715,12 @@ shared_focus = {
 		x = -8
 		y = 6
 		cost = 5
+		allow_branch = {
+			OR = {
+			NOT = { has_country_flag = GRU_Heydrichs_Coup }
+			has_country_flag = GRU_Heydrichs_Coup 
+			}
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_neue_schwerindustrie"
 			swap_ideas = {

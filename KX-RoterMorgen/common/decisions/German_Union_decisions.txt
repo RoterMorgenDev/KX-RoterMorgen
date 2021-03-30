@@ -4121,6 +4121,7 @@ GRU_allignment_decisions = {
 			ENG = { has_country_leader = { ruling_only = yes name = "Oswald Mosley" } }
 			NOT = { ENG = { is_subject_of = GRU } }
 			NOT = { ENG = { is_in_faction_with = GRU } }
+			NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 		}
 
 		fire_only_once = yes
@@ -4146,6 +4147,7 @@ GRU_allignment_decisions = {
 			SRI = { has_country_leader = { ruling_only = yes name = "Benito Mussolini" } }
 			NOT = { SRI = { is_subject_of = GRU } }
 			NOT = { SRI = { is_in_faction_with = GRU } }
+			NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 		}
 
 		fire_only_once = yes
@@ -4307,9 +4309,11 @@ GRU_kill_entente_decisions = {
 		visible = {
 			has_completed_focus = GRU_NMDVP_BURN_ENTENTE_MONARCHISTS
 			country_exists = NFA
+			NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 		}
 		available = {
 			country_exists = NFA
+			NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 		}
 
 		fire_only_once = no
@@ -4334,12 +4338,14 @@ GRU_kill_entente_decisions = {
 			country_exists = GBR
 			country_exists = GBP
 			}
+			NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 		}
 		available = {
 			OR = {
 			country_exists = GBR
 			country_exists = GBP
 			}
+			NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 		}
 
 		fire_only_once = no
@@ -4464,9 +4470,11 @@ GRU_kill_libleft_decisions = {
 			is_major = yes
 			has_war = no
 			is_subject = no
+			NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 		}
 		visible = {
 			has_completed_focus = GRU_NMDVP_CRUSADE_AGAINST_LIBERAL_LEFTIES
+			NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 			can_declare_war_on = FROM
 			FROM = {
 				OR = {
@@ -7188,6 +7196,7 @@ GRU_beyond_lebensraum_decisions = {
 			has_country_flag = VKR_established
 			has_country_flag = VKM_established
 			has_country_flag = HYP_established
+			NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 			can_declare_war_on = FROM
 			FROM = {
 				OR = {
@@ -7290,6 +7299,7 @@ GRU_beyond_lebensraum_decisions = {
 				has_country_flag = VKR_established
 				has_country_flag = VKM_established
 				has_country_flag = HYP_established
+				NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 			}
 			available = {
 				has_completed_focus = GRU_NMDVP_LEBENSRAUM
@@ -7545,6 +7555,7 @@ GRU_expansion_two_volksstaat_Judea = {
 				has_country_flag = VKR_established
 				has_country_flag = VKM_established
 				has_country_flag = HYP_established
+				NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 			}
 			available = {
 				has_completed_focus = GRU_NMDVP_LEBENSRAUM
@@ -8420,9 +8431,11 @@ GRU_stahlpakt_alliance_decisions = {
 			has_war = no
 			is_subject = no
 			is_faction_leader = yes
+			NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 		}
 		visible = {
 			has_completed_focus = GRU_NMDVP_allignment
+			NOT = { has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes } }
 			FROM = {
 				is_possible_target_for_stahlpakt_alliance = yes
 				is_not_excluded_from_stahlpakt_alliance = no

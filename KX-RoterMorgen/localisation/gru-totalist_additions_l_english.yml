@@ -231,7 +231,7 @@ natmarx_diplo_right_desc:0 "We walk the thin line between the far left and far r
 
 
 GRU_stahlpakt_alliance_decisions:0 "Stahlpakt Expansion"
-GRU_stahlpakt_alliance_decisions_desc:0 "We shall try to expand the Stahlpakt we will welcome Nations aligned to the far left and right as our ideology builds a bridge between them."
+GRU_stahlpakt_alliance_decisions_desc:0 "We shall try to expand the Stahlpakt we will welcome Nations aligned to our ideology."
 GRU_stahlpakt_invite_countries_decision:0 "Invite [From.GetNameDef] into the Stahlpakt"
 
 
@@ -240,8 +240,8 @@ CNT_PUPPET_PARTY:0 "FENS"
 HUN_NAZBOL_PARTY_LONG:0 "Magyar Nemzeti-Szociális Munkáspárt"
 HUN_NAZBOL_PARTY:0 "MNSM"
 
-GRU_ANARCHISM_PUPPET:0 "Anarchist Commune"
-RM_ANARCHOCOMMUNE:0 "Anarchist Commune"
+GRU_ANARCHISM_PUPPET:0 "Absolutist Commune"
+RM_ANARCHOCOMMUNE:0 "Absolutist Commune"
 
 gru_military_build_up:0 "Has begun rearmament"
 
@@ -249,7 +249,7 @@ GRU_anarchism_spread_decisions:0 "Liberation of the World"
 GRU_anarchism_spread_decision:0 "Liberate [From.GetNameDef]"
 
 GRU_Germania_Stadt_decisions:0 "Construction of Germania"
-GRU_Germania_Stadt_decision:0 "Start the construction if a news capital city."
+GRU_Germania_Stadt_decision:0 "Start the construction of a new capital city."
 
 FAUD_tt_anarchism_spread:0 "Unlocks decisions to liberate neighbour nations."
 
@@ -273,6 +273,11 @@ WGR_soccon_party_long:0 "Rheinische Zentrumspartei"
 NGF_RADSOC_PARTY:0 "NAP"
 NGF_RADSOC_PARTY_LONG:0 "Norddeutsche Arbeiter Partei"
 
+HEYDRICH_PARTY:0 "NSRAP"
+HEYDRICH_PARTY_LONG:0 "National Sozialistische Revolutionäre Arbeiter Partei"
+
+NM_RESISTANCE:0 "National-marxist Resistance"
+
 DDR_Kingdom:0 "Kingdom of Prussia"
 
 BAY_NATPOP_STATE:0 "Greater Bavaria"
@@ -287,6 +292,11 @@ GRU_CORPORATE_DICTATORSHIP_IDEA_TWO:0 "Dictatorial MegaCorp"
 GRU_KRUPP_POLICE:0 "Expanded Police"
 GRU_KRUPP_POLICE_TWO:0 "Lethal Riot Control"
 gru_corporate_meth:0 "Corporate Meth"
+
+BAY_GREATER_FRANKIA:0 "Frankish Empire"
+
+GRU_HEYDRICH_STATE:0 "Greater Germanic State"
+JUDEA_FREE:0 "New Israel"
 #################
 ########!!!!HEY CHUNGUS!!!! IF YOU READ THIS! I advise you to se tsome form of mark inside this exclamated text for yourself when you finished a block :D MAybe JUST REMOVE THIS ANNOYING TEXT THAT WILL NOW BE AT THE BOTTOM OF EACH BLOCK#########
 #################

@@ -803,6 +803,7 @@ country_event = { # Germania finished
 		remove_ideas = BUILDING_GERMANIA
 		add_ideas = GERMANIA_STADT
 	hidden_effect = {
+	set_country_flag = GRU_GERMANIA_FINISHED
 	if = {
 			limit = {
 			GRU = { has_country_flag = Germania_berlin }

@@ -592,7 +592,7 @@ country_event = { # GRU setup
 				
 				
 				create_field_marshal = {
-					name = "Josef Goebbels"
+					name = "Gobbel Chickler"
 					picture = "Portrait_Germany_Josef_Goebbels_13.tga"
 					traits = { politically_connected Nazbol_rev_leaders }
 					skill = 4
@@ -602,7 +602,7 @@ country_event = { # GRU setup
 					logistics_skill = 3
 				}
 				create_field_marshal = {
-					name = "Ernst Thälmann"
+					name = "Ernst RoBoman"
 					picture = "Portrait_Germany_Ernst_Thalmann.tga"
 					traits = { politically_connected red_guard_leaders }
 					skill = 4
@@ -626,7 +626,7 @@ country_event = { # GRU setup
 				}
 				
 				create_corps_commander = {
-					name = "Wilhelm Pieck"
+					name = "Wilhelm hit the pief"
 					picture = "Portrait_Germany_Wilhelm_Pieck_I.tga"
 					traits = { politically_connected red_guard_leaders }
 					skill = 4
@@ -1063,7 +1063,7 @@ country_event = { # CONGRESS
 						name = GRU_NMDVP
 				}
 				create_country_leader = {
-							name = "Josef Goebbels"
+							name = "Gobbel Chickler"
 							desc = "GRU_GOEBBELS_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Josef_Goebbels_13.tga"
 							expire = "1965.1.1"
@@ -1079,7 +1079,7 @@ country_event = { # CONGRESS
 						name = GRU_SEPD
 				}
 				create_country_leader = {
-							name = "Wilhelm Pieck"
+							name = "Wilhelm hit the pief"
 							desc = "GRU_PIECK_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Wilhelm_Pieck_I.tga"
 							expire = "1965.1.1"
@@ -1155,7 +1155,7 @@ country_event = { # CONGRESS
 						name = GRU_NMDVP
 				}
 				create_country_leader = {
-							name = "Josef Goebbels"
+							name = "Gobbel Chickler"
 							desc = "GRU_GOEBBELS_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Josef_Goebbels_13.tga"
 							expire = "1965.1.1"
@@ -1168,7 +1168,7 @@ country_event = { # CONGRESS
 						name = GRU_SEPD
 				}
 				create_country_leader = {
-							name = "Wilhelm Pieck"
+							name = "Wilhelm hit the pief"
 							desc = "GRU_PIECK_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Wilhelm_Pieck_I.tga"
 							expire = "1965.1.1"
@@ -1260,7 +1260,7 @@ country_event = { # CONGRESS
 						name = GRU_SEPD
 				}
 				create_country_leader = {
-							name = "Wilhelm Pieck"
+							name = "Wilhelm hit the pief"
 							desc = "GRU_PIECK_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Wilhelm_Pieck_I.tga"
 							expire = "1965.1.1"
@@ -1339,7 +1339,7 @@ country_event = { # CONGRESS
 						name = GRU_NMDVP
 				}
 				create_country_leader = {
-							name = "Josef Goebbels"
+							name = "Gobbel Chickler"
 							desc = "GRU_GOEBBELS_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Josef_Goebbels_13.tga"
 							expire = "1965.1.1"
@@ -1352,7 +1352,7 @@ country_event = { # CONGRESS
 						name = GRU_SEPD
 				}
 				create_country_leader = {
-							name = "Wilhelm Pieck"
+							name = "Wilhelm hit the pief"
 							desc = "GRU_PIECK_DESC"
 							picture = "gfx/leaders/GRU/Portrait_Germany_Wilhelm_Pieck_I.tga"
 							expire = "1965.1.1"

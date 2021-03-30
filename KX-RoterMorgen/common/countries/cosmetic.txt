@@ -1208,3 +1208,20 @@ GRU_CORPORATE_DICTATORSHIP_TWO = {
 	color = rgb { 0 55 160 }
 	color_ui = rgb { 0 55 160 }
 }
+
+BAY_GREATER_FRANKIA = {
+	color = rgb { 0 70 255 }
+	color_ui = rgb { 0 70 255 }
+}
+GRU_HEYDRICH_STATE = {
+	color = rgb { 20 20 20 }
+	color_ui = rgb { 20 20 20 }
+}
+JUDEA_FREE = {
+	color = rgb { 50 80 230 }
+	color_ui = rgb { 50 80 230 }
+}
+VK_REBBELLION = {
+	color = rgb { 110 0 0 }
+	color_ui = rgb { 110 0 0 }
+}

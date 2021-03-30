@@ -109,8 +109,22 @@ is_internationale_invite_target_for_gru = {
 
 is_possible_target_for_stahlpakt_alliance = {
 	OR = {
-		has_government = totalist 
-		has_government = national_populist
+		AND = {
+			has_government = totalist
+			ROOT = { has_government = totalist }
+		}
+		AND = {
+			has_government = national_populist
+			ROOT = { has_government = national_populist }
+		}
+		AND = {
+			OR = {
+				has_government = national_populist
+				has_government = paternal_autocrat
+				has_government = authoritarian_democrat
+			}
+			ROOT = { has_country_flag = GRU_Heydrichs_STATE }
+		}
 	}				
 }
 is_not_excluded_from_stahlpakt_alliance = {
@@ -166,5 +180,30 @@ is_not_excluded_from_stahlpakt_alliance = {
 		tag = MAF
 		tag = GEX
 		tag = GEA
+		tag = VSJ
+		tag = VST
+		tag = VKB
+		tag = VKK
+		tag = VKR
+		tag = VKM
+		tag = HYP
+		tag = LEP
+		tag = GXC
+		tag = CHI
+		tag = HNN
+		tag = QIE
+		tag = YUN
+		tag = SZC
+		tag = SHX
+		tag = XSM
+		tag = SIK
+		tag = ETS
+		tag = MON
+		tag = TIB
+		tag = FNG
+		tag = AOG
+		tag = LEC
+		tag = MLT
+		tag = CRE
 	}
 }
