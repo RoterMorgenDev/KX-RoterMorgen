@@ -2864,6 +2864,10 @@ country_event = { #
 					}
 					PRC = {
 						transfer_state = 608
+						transfer_state = 609
+						transfer_state = 614
+						transfer_state = 1062
+						transfer_state = 1063
 					}
 					
 					
