@@ -303,14 +303,16 @@ shared_focus = {
 						has_country_flag = GRU_CW_START
 					}
 					country_event = { id =  rotermorgenGCW.70 days = 1 }
-					QIE = { country_event = { id =  rotermorgenmisc.669966 days = 1 } }
+					#QIE = { country_event = { id =  rotermorgenmisc.669966 days = 1 } }
+					#news_event = { id =  rotermorgenmisc.999669 days = 3 }
 				}
 				if = {
 					limit = {
 						has_country_flag = GRU_OCCU_START
 					}
 					country_event = { id =  rotermorgen.70 days = 1 }
-					QIE = { country_event = { id =  rotermorgenmisc.669966 days = 1 } }
+					#QIE = { country_event = { id =  rotermorgenmisc.669966 days = 1 } }
+					#news_event = { id =  rotermorgenmisc.999669 days = 3 }
 				}
 			}
 		}

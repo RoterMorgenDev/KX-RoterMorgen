@@ -19,6 +19,80 @@ leader_traits = {
 		planning_skill_factor = 1
 	}
 	
+	
+	XINET_MAINFRAME = {
+		type = land
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		modifier = {
+			planning_speed = 0.50
+			army_morale_factor = 0.50
+			cavalry_attack_factor = 0.45
+			motorized_attack_factor = 0.45
+			army_infantry_attack_factor = 0.45
+			army_speed_factor = 0.5
+			max_planning_factor = 2.0
+		}
+		non_shared_modifier = {
+			promote_cost_factor = 9.99
+		}
+
+		attack_skill_factor = 10
+		defense_skill_factor = 10
+		planning_skill_factor = 10
+	}
+	XINET_TERMINATOR = {
+		type = land
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		modifier = {
+			planning_speed = 0.50
+			army_morale_factor = 0.50
+			cavalry_attack_factor = 0.45
+			motorized_attack_factor = 0.45
+			army_infantry_attack_factor = 0.45
+		}
+		non_shared_modifier = {
+			promote_cost_factor = 9.99
+		}
+
+		attack_skill_factor = 10
+		defense_skill_factor = 10
+		planning_skill_factor = 10
+	}
+	XINET_TERMINATOR_SEA = {
+		type = land
+		trait_type = personality_trait
+		gain_xp = {
+			always = no # not gainable
+		}
+		modifier = {
+			naval_retreat_chance = 0.99
+			naval_retreat_speed = 0.99
+			convoy_retreat_speed = 0.99
+			positioning = 0.99
+			spotting_chance = 0.9
+			navy_capital_ship_defence_factor = 0.9
+			navy_carrier_air_targetting_factor = 0.9 # Airplanes from carriers has better naval targetting
+			sortie_efficiency = 0.9
+			naval_torpedo_reveal_chance_factor = -0.99
+			naval_torpedo_cooldown_factor = -0.99
+			navy_submarine_detection_factor = 0.9
+			navy_submarine_attack_factor = 0.9
+			naval_enemy_fleet_size_ratio_penalty_factor = 0.8
+			navy_capital_ship_attack_factor = 0.8
+			shore_bombardment_bonus = 0.85
+			naval_critical_score_chance_factor = 2.0
+		}
+		attack_skill_factor = 10
+		defense_skill_factor = 10
+		planning_skill_factor = 10
+	}
+	
 	volkssturm_leader = {
 		type = land
 		trait_type = personality_trait

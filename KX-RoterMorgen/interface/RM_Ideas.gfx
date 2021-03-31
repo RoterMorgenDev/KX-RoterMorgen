@@ -479,7 +479,18 @@ spriteTypes = {
 		name = "GFX_trait_Nazbol_rev_leaders"
 		texturefile = "gfx/interface/traits/Nazbol_rev_leaders.dds"
 	}
-	
+	spriteType = {
+		name = "GFX_trait_XINET_MAINFRAME"
+		texturefile = "gfx/interface/traits/TERMINATOR.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_XINET_TERMINATOR"
+		texturefile = "gfx/interface/traits/TERMINATOR.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_XINET_TERMINATOR_SEA"
+		texturefile = "gfx/interface/traits/TERMINATOR.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_trait_volkssturm_leader"
@@ -683,5 +694,26 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_GRU_SOON_DEAD"
 		texturefile = "gfx/interface/ideas/GRU/germany_soon_dead_idea.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_PRC_COVID"
+		texturefile = "gfx/interface/ideas/GRU/PRC_COVID.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_HUNTER_DRONE"
+		texturefile = "gfx/interface/ideas/GRU/PRC_HUNTER_DRONE.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_HUNTER_TANK"
+		texturefile = "gfx/interface/ideas/GRU/PRC_HUNTER_TANK.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_JUDGEMENT_DAY_ICON"
+		texturefile = "gfx/interface/ideas/GRU/PRC_JUDGEMENT_DAY_ICON.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_TERMINATOR"
+		texturefile = "gfx/interface/ideas/GRU/PRC_TERMINATOR.tga"
 	}
 }

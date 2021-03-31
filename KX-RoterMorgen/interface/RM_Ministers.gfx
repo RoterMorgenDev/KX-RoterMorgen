@@ -117,4 +117,23 @@ spriteTypes = {
 		name = "GFX_idea_GRU_SRI_syn"
 		texturefile = "gfx/interface/ministers/GRU/GRU_SRI.tga"
 	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_PRC_MAINFRAME_hog_tot"
+		texturefile = "gfx/interface/ministers/PRC/PRC_CORE_SYSTEM.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_MAINFRAME_for_tot"
+		texturefile = "gfx/interface/ministers/PRC/PRC_CORE_SYSTEM.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_MAINFRAME_eco_tot"
+		texturefile = "gfx/interface/ministers/PRC/PRC_CORE_SYSTEM.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_PRC_MAINFRAME_sec_tot"
+		texturefile = "gfx/interface/ministers/PRC/PRC_CORE_SYSTEM.tga"
+	}
+	
 }

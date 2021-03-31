@@ -539,7 +539,7 @@ country_event = { # Party Direction
 			remove_all_ministers = yes
 			add_ideas = {
 				GRU_Joseph_Goebbels_hog_npo
-				GRU_Robert_Ley_sec_npo
+				GRU_Robert_Ley_for_npo
 				GRU_Albert_Speer_eco_npo
 				GRU_MEMEMAN_sec_tot
 			}
@@ -2774,7 +2774,10 @@ country_event = { #
 	title = rotermorgenmisc.669966.t
 	desc = rotermorgenmisc.669966.d
 	hidden = yes
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		date > 1936.02.02
+	}
 	immediate = {
 					every_state = {
 						limit = {
@@ -2786,9 +2789,21 @@ country_event = { #
 								is_core_of = TRM
 								is_core_of = NEP
 								is_core_of = BHU
+								is_core_of = JAP
+								is_core_of = GEA
+								is_core_of = SIA
+								is_core_of = PHI
+								is_core_of = DEI
+								is_core_of = BRM
 								is_claimed_by = QIE
 								is_claimed_by = FNG
 								is_claimed_by = CHI
+								is_claimed_by = JAP
+								is_claimed_by = GEA
+								is_claimed_by = SIA
+								is_claimed_by = PHI
+								is_claimed_by = DEI
+								is_claimed_by = BRM
 							}
 						}
 						add_core_of = PRC		
@@ -2799,10 +2814,130 @@ country_event = { #
 					441 = {
 						add_core_of = PRC		
 					}
+					432 = {
+						add_core_of = PRC		
+					}
+					434 = {
+						add_core_of = PRC		
+					}
+					523 = {
+						add_core_of = PRC		
+					}
+					430 = {
+						add_core_of = PRC		
+					}
+					566 = {
+						add_core_of = PRC		
+					}
+					567 = {
+						add_core_of = PRC		
+					}
+					575 = {
+						add_core_of = PRC		
+					}
+					524 = {
+						add_core_of = PRC		
+					}
+					632 = {
+						add_core_of = PRC		
+					}
+					631 = {
+						add_core_of = PRC		
+					}
+					630 = {
+						add_core_of = PRC		
+					}
+					642 = {
+						add_core_of = PRC		
+					}
+					727 = {
+						add_core_of = PRC		
+					}
+					629 = {
+						add_core_of = PRC		
+					}
+					463 = {
+						add_core_of = PRC		
+					}
+					644 = {
+						add_core_of = PRC		
+					}
+					PRC = {
+						transfer_state = 608
+					}
+					
 					
 					PRC = {
+						inherit_technology = GRU	
+						inherit_technology = USA
+						inherit_technology = FRA
+						inherit_technology = ENG
+						inherit_technology = JAP
+						set_country_flag = XINET 
+						set_technology = {
+							improved_infantry_weapons = 1
+						}
+						set_technology = {
+							advanced_infantry_weapons = 1
+						}
+						set_technology = {
+							electronic_mechanical_engineering = 1
+						}
+						set_technology = {
+							radio = 1
+						}
+						set_technology = {
+							radio_detection = 1
+						}
+						set_technology = {
+							interwar_artillery = 1
+						}
+						set_technology = {
+							interwar_antiair = 1
+						}
+						set_technology = {
+							interwar_antitank = 1
+						}
 						
-						transfer_state = 608
+						set_technology = {
+							gwtank = 1
+						}
+						set_technology = {
+							basic_light_tank = 1
+						}
+						set_technology = {
+							improved_light_tank = 1
+						}
+						set_technology = {
+							basic_medium_tank = 1
+						}
+						set_technology = {
+							improved_medium_tank = 1
+						}
+						set_technology = {
+							basic_heavy_tank = 1
+						}
+						set_technology = {
+							improved_heavy_tank = 1
+						}
+						set_technology = {
+							advanced_medium_tank = 1
+						}
+						set_technology = {
+							advanced_heavy_tank = 1
+						}
+						set_technology = {
+							main_battle_tank = 1
+						}
+						add_equipment_to_stockpile = {
+							type = infantry_equipment_1
+							amount = 40000
+						} 
+						add_equipment_to_stockpile = {
+							type = support_equipment
+							amount = 40000
+						}
+						add_manpower = 800000
 						create_faction = "Mandate of Heaven"
 						create_country_leader = {
 							name = "XINET"
@@ -2823,33 +2958,414 @@ country_event = { #
 							ideology = totalist
 							popularity = 100
 						}
-						add_manpower = 200000000
+						remove_all_ministers = yes
+						add_ideas = {
+							PRC_MAINFRAME_hog_tot
+							PRC_MAINFRAME_for_tot
+							PRC_MAINFRAME_eco_tot
+							PRC_MAINFRAME_sec_tot
+						}
+						load_focus_tree = {
+							tree = XINET_TREE
+					
+						}
 						add_ideas = chinese_socialism
 						set_cosmetic_tag = PRC_CHINA
 						add_offsite_building = { type = arms_factory level = 5000 }
 						add_offsite_building = { type = industrial_complex level = 5000 }
 						
 						set_capital = 608
-						add_research_slot = 100
+						add_research_slot = 20
 						set_party_name = {
 						ideology = totalist
 						long_name = CCP_PARTY_LONG
 						name = CCP_PARTY
 						}
+						create_field_marshal = {
+							name = "MAINFRAME ONE"
+							picture="XINET_MAINFRAME_ONE.tga"
+							traits = { XINET_MAINFRAME }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+						create_field_marshal = {
+							name = "MAINFRAME TWO"
+							picture="XINET_MAINFRAME_TWO.tga"
+							traits = { XINET_MAINFRAME }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+						create_field_marshal = {
+							name = "MAINFRAME THREE"
+							picture="XINET_MAINFRAME_THREE.tga"
+							traits = { XINET_MAINFRAME }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+						create_field_marshal = {
+							name = "MAINFRAME FOUR"
+							picture="XINET_MAINFRAME_FOUR.tga"
+							traits = { XINET_MAINFRAME }
+							skill = 5
+							attack_skill = 5
+							defense_skill = 5
+							planning_skill = 5
+							logistics_skill = 5
+						}
+						create_corps_commander = {
+							name = "UNIT-N9PRC5X"
+							picture="XINET_UNIT_01.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-KI3KJ5"
+							picture="XINET_UNIT_02.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-CVG448N"
+							picture="XINET_UNIT_03.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-ALPH54J"
+							picture="XINET_UNIT_04.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-ZERO9"
+							picture="XINET_UNIT_05.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-0oF3M"
+							picture="XINET_UNIT_06.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-DV6H8"
+							picture="XINET_UNIT_07.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-KLE0"
+							picture="XINET_UNIT_08.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-hf43"
+							picture="XINET_UNIT_09.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-FA84FHBd25"
+							picture="XINET_UNIT_10.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-N9HkUUF"
+							picture="XINET_UNIT_11.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-U4WAR7D"
+							picture="XINET_UNIT_12.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-ARN0L4"
+							picture="XINET_UNIT_13.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-AEX12"
+							picture="XINET_UNIT_07.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-YS8F3W"
+							picture="XINET_UNIT_03.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-BCCU59Y"
+							picture="XINET_UNIT_06.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-SUCCDUM69"
+							picture="XINET_UNIT_07.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-ZU6XXC"
+							picture="XINET_UNIT_08.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-H9AV3"
+							picture="XINET_UNIT_09.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_corps_commander = {
+							name = "UNIT-D4FV"
+							picture="XINET_UNIT_10.tga"
+							traits = { XINET_TERMINATOR }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							planning_skill = 3
+							logistics_skill = 3
+						}
+						create_navy_leader = {
+							name = "UNIT-6hv4"
+							picture="XINET_UNIT_01.tga"
+							traits = { XINET_TERMINATOR_SEA }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							maneuvering_skill = 3
+							coordination_skill = 3
+						}
+						create_navy_leader = {
+							name = "UNIT-3faf45"
+							picture="XINET_UNIT_07.tga"
+							traits = { XINET_TERMINATOR_SEA }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							maneuvering_skill = 3
+							coordination_skill = 3
+						}
+						create_navy_leader = {
+							name = "UNIT-gj88ikl"
+							picture="XINET_UNIT_02.tga"
+							traits = { XINET_TERMINATOR_SEA }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							maneuvering_skill = 3
+							coordination_skill = 3
+						}
+						create_navy_leader = {
+							name = "UNIT-KLO98BN"
+							picture="XINET_UNIT_08.tga"
+							traits = { XINET_TERMINATOR_SEA }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							maneuvering_skill = 3
+							coordination_skill = 3
+						}
+						create_navy_leader = {
+							name = "UNIT-9KLiU"
+							picture="XINET_UNIT_05.tga"
+							traits = { XINET_TERMINATOR_SEA }
+							skill = 3
+							attack_skill = 3
+							defense_skill = 3
+							maneuvering_skill = 3
+							coordination_skill = 3
+						}
+						
+						
 					}
-					news_event = { id =  rotermorgenmisc.999669 }
 	}
 }
 news_event = { #
 	id = rotermorgenmisc.999669
-	major = yes 
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.999669" }
-	fire_only_once = yes
 	title = rotermorgenmisc.999669.t
 	desc = rotermorgenmisc.999669.d
 	picture = GFX_report_event_XIVASION
-	is_triggered_only = yes 
+	trigger = {
+		date > 1936.02.07
+		PRC = { has_country_flag = XINET }
+		NOT = { has_country_flag = xivasion_read }
+	}
 	option = {
 		name = rotermorgenmisc.999669.a
+		ai_chance = {
+			factor = 100
+		}
+		set_country_flag = xivasion_read
+	}
+	option = {
+		name = rotermorgenmisc.999669.b
+		PRC = {
+			change_tag_from = ROOT
+		}
+		set_country_flag = xivasion_read
+	}
+}
+
+country_event = { # 
+	id = rotermorgenmisc.999667
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.999667" }
+	title = rotermorgenmisc.999667.t
+	desc = rotermorgenmisc.999667.d
+	is_triggered_only = yes
+	
+	option = { 
+		name = rotermorgenmisc.999667.a
+	}
+}
+
+country_event = { 
+	id = rotermorgenmisc.999665
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.999665" }
+	title = rotermorgenmisc.999665.t
+	desc = rotermorgenmisc.999665.d
+	#is_triggered_only = yes
+	hidden = yes
+	trigger = {
+		is_subject_of = PRC
+		NOT = { has_country_flag = PRC_PUPPET }
+		PRC = { has_country_flag = XINET }
+	}
+	immediate = {
+		ROOT = {
+				create_country_leader = {
+							name = "XINET ADMINISTRATION"
+							desc = "GRU_XINET_DESC"
+							picture = "gfx/leaders/PRC/XINET_CONTROL.tga"
+							expire = "1965.1.1"
+							ideology = totalist_subtype
+				}
+				set_cosmetic_tag = PRC_PUPPET
+				set_party_name = {
+						ideology = totalist
+						long_name = XINET_PUPPET
+						name = XINET_PUPPET
+				}
+				set_politics = {
+					ruling_party = totalist
+					last_election = "1936.1.1"
+					election_frequency = 48
+					elections_allowed = no
+				}
+				load_focus_tree = {
+					tree = generic_focus		
+				}
+				set_country_flag = PRC_PUPPET
+				remove_all_ministers = yes
+						add_ideas = {
+							PRC_MAINFRAME_hog_tot
+							PRC_MAINFRAME_for_tot
+							PRC_MAINFRAME_eco_tot
+							PRC_MAINFRAME_sec_tot
+						}
+		}
+		PRC = {
+			puppet = ROOT
+			set_autonomy = {
+				target = ROOT
+				autonomy_state = kr_integrated_puppet
+			}
+		}
 	}
 }
