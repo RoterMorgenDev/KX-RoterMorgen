@@ -8590,6 +8590,7 @@ PRC_JUDGEMENT_DAY_NUKING = {
 						tag = SZC
 						tag = LEC
 						tag = AOG
+						tag = HNN
 					}
 					
 				}
@@ -8620,6 +8621,7 @@ PRC_JUDGEMENT_DAY_NUKING = {
 						tag = SZC
 						tag = LEC
 						tag = AOG
+						tag = HNN
 					}
 					
 				}
