@@ -76,6 +76,17 @@ create_corps_commander = {
 	logistics_skill = 3
 }
 create_corps_commander = {
+	name = "Richard Baer"
+	picture = "Portrait_Germany_Richard_Baer.tga"
+	traits = { winter_specialist commando war_hero urban_assault_specialist RR_OFFICER }
+	skill = 4
+
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 4
+}
+create_corps_commander = {
 	name = "Joachim Peiper"
 	picture = "Portrait_Germany_Joachim_peiper.tga"
 	traits = { panzer_leader commando ranger RR_OFFICER }
@@ -184,18 +195,6 @@ create_corps_commander = {
 					defense_skill = 2
 					planning_skill = 4
 					logistics_skill = 2
-				}
-				every_army_leader = {
-					limit = {
-						has_trait = RR_OFFICER
-					}
-					set_unit_leader_flag = RR_OFFICER
-				}
-				every_army_leader = {
-					limit = {
-						has_trait = volkssturm_leader
-					}
-					set_unit_leader_flag = VS_OFFICER
 				}
 	}
 }

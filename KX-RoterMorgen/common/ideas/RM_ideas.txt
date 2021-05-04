@@ -5,7 +5,6 @@ ideas = {
 	##############
 
 	country = {
-		
 		COVID_INFECTION = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea COVID_INFECTION"}
 			picture = PRC_COVID
@@ -161,7 +160,6 @@ ideas = {
 				unit_limit_max = 100
 			}
 		}
-		
 		GRU_Stasi = {
 			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_Stasi"}
 			picture = GRU_Stasi

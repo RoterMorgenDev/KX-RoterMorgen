@@ -6,10 +6,6 @@ KYR_KOK = {
 	color = rgb { 36 41 95 }
 	color_ui = rgb { 36 41 95 }
 }
-SAF_MONKE = {
-	color = rgb { 97 207 50 }
-	color_ui = rgb { 97 207 50 }
-}
 
 TRM_Mlad = {
 	color = rgb { 233 34 34 }
@@ -181,16 +177,8 @@ ALA_LIC = {
 	color = rgb { 0 43 127 }
 	color_ui = rgb { 0 43 127 }
 }
-ALA_LIC_USA = {
-	color = rgb { 0 43 127 }
-	color_ui = rgb { 0 43 127 }
-}
 
 ALA_JEW = {
-	color = rgb { 93 181 227 }
-	color_ui = rgb { 121 235 255 }
-}
-ALA_JEW_USA = {
 	color = rgb { 93 181 227 }
 	color_ui = rgb { 121 235 255 }
 }
@@ -1095,26 +1083,6 @@ TOG_FED = {
 	color_ui = rgb { 130 130 161 }
 }
 
-ZAM_AFRICA = {
-	color = rgb { 150 0 24 }
-	color_ui = rgb { 150 0 24 }
-}
-
-NGR_ZAM = {
-	color = rgb { 255 0 23 }
-	color_ui = rgb { 255 0 23 }
-}
-
-KEN_ZAM = {
-	color = rgb { 255 0 23 }
-	color_ui = rgb { 255 0 23 }
-}
-
-CIV_ZAM = {
-	color = rgb { 255 0 23 }
-	color_ui = rgb { 255 0 23 }
-}
-
 WAB = {
 	color = rgb { 59 148 65 }
 	color_ui = rgb { 74 186 82 }
@@ -1173,11 +1141,6 @@ POL_ANARCHY = {
 	color_ui = rgb { 40 14 17 }
 }
 
-ABP = {
-	color = rgb { 29 52 119 }
-	color_ui = rgb { 29 52 119 }
-}
-
 
 ###reddawn
 GRU_NMDVP = {
@@ -1192,7 +1155,6 @@ GRU_GPR = {
 	color = rgb { 122 4 4 }
 	color_ui = rgb { 122 4 4 }
 }
-
 PRC_CHINA = {
 	color = rgb { 122 4 4 }
 	color_ui = rgb { 122 4 4 }
@@ -1201,8 +1163,6 @@ PRC_PUPPET = {
 	color = rgb { 122 4 4 }
 	color_ui = rgb { 122 4 4 }
 }
-
-
 GRU_GDU = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 255 0 0 }
@@ -1255,21 +1215,4 @@ GRU_CORPORATE_DICTATORSHIP = {
 GRU_CORPORATE_DICTATORSHIP_TWO = {
 	color = rgb { 0 55 160 }
 	color_ui = rgb { 0 55 160 }
-}
-
-BAY_GREATER_FRANKIA = {
-	color = rgb { 0 70 255 }
-	color_ui = rgb { 0 70 255 }
-}
-GRU_HEYDRICH_STATE = {
-	color = rgb { 20 20 20 }
-	color_ui = rgb { 20 20 20 }
-}
-JUDEA_FREE = {
-	color = rgb { 50 80 230 }
-	color_ui = rgb { 50 80 230 }
-}
-VK_REBBELLION = {
-	color = rgb { 110 0 0 }
-	color_ui = rgb { 110 0 0 }
 }

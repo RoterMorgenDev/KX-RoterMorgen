@@ -49,10 +49,7 @@ autonomy_state = {
 		overlord = { 
 			AND = {
 				tag = GRU 
-				OR = {
-					has_country_leader = { name = "Josef Goebbels" ruling_only = yes }
-					has_country_leader = { name = "Reinhard Heydrich" ruling_only = yes }
-				}
+				has_country_leader = { name = "Josef Goebbels" ruling_only = yes }
 			}
 		}
 	}

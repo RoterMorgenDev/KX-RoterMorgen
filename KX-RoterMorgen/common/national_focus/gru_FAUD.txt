@@ -221,10 +221,7 @@
 							add_idea = FAUD_SOCIETY_THREE
 						}
 			set_cosmetic_tag = GRU_FAUD_B
-			set_party_name = {
-						ideology = syndicalist
-						long_name = ANARCHIST_GERMANS_long
-						name = ANARCHIST_GERMANS
+
 				}
 			set_country_flag = GRU_ANARCHIST_WORLD
 			hidden_effect = {
@@ -427,6 +424,52 @@
 				
 			}
 			custom_effect_tooltip = FAUD_tt_anarchism_spread
+
+			set_party_name = {
+						ideology = totalist
+						long_name = FAUD_revisionists_long
+						name = FAUD_revisionists
+				}
+			set_party_name = {
+						ideology = radical_socialist
+						long_name = FAUD_revisionists_long
+						name = FAUD_revisionists
+				}
+			set_party_name = {
+						ideology = social_democrat
+						long_name = FAUD_reactionary_long
+						name = FAUD_reactionary
+				}
+			set_party_name = {
+						ideology = social_liberal
+						long_name = FAUD_reactionary_long
+						name = FAUD_reactionary
+				}
+			set_party_name = {
+						ideology = market_liberal
+						long_name = FAUD_reactionary_long
+						name = FAUD_reactionary
+				}
+			set_party_name = {
+						ideology = social_conservative
+						long_name = FAUD_reactionary_long
+						name = FAUD_reactionary
+				}
+			set_party_name = {
+						ideology = authoritarian_democrat
+						long_name = FAUD_reactionary_long
+						name = FAUD_reactionary
+				}
+			set_party_name = {
+						ideology = paternal_autocrat
+						long_name = FAUD_reactionary_long
+						name = FAUD_reactionary
+				}
+			set_party_name = {
+						ideology = national_populist
+						long_name = FAUD_reactionary_long
+						name = FAUD_reactionary
+				}
 		}
 		prerequisite = { focus = GRU_FAUD_ABSOLUTLY_FREE_SEXUALITY  }
 		prerequisite = { focus = GRU_FAUD_FINANCE_ARTISTS  }

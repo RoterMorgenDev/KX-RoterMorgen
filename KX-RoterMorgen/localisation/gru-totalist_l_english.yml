@@ -10,7 +10,7 @@ GRU_germany_reborn_desc:0 "Germany has been reborn like a phoenix risen from its
 GRU_form_the_guard:0 "Form the Guard"
 GRU_form_the_guard_desc:0 "To safeguard our new society and the party we can no longer only rely on the army and party militias, we will form a revolutionary guard of ideological fanatics under direct party command that will receive the best training and equipment."
 GRU_kulturkampf:0 "Kulturkampf"
-GRU_kulturkampf_desc:0 "The Church and other non-governmental organizations that we couldn't remove directly are a real thorn in our side. Now the time has come to finally settle this and cement our grip while we're at it; we will expropriate the Churches, ban their activities and hand out our own 'Holy Book'."
+GRU_kulturkampf_desc:0 "The Church and other non-governmental organizations that we couldn't remove directly are a real thorn in our side. Now the time has come to finally settle this and cement our grip while we're at it; we will expropriate the Churches, ban their activities, declare state atheism and hand our our own 'Holy Book'."
 GRU_first_congress_of_german_unions:0 "First Congress of German Unions"
 GRU_first_congress_of_german_unions_desc:0 "The Internationale has organized the FAUD, other German Unions and worker organizations to hold a first Emergency Congress of German Unions so we can lay the first stones of a new Germany."
 GRU_iva:0 "I.v.A."
@@ -1815,6 +1815,11 @@ GRU_SED_MARXISTEN_long:0 "Syndikalistische Einheitspartei Deutschland ( Revision
 ANARCHIST_GERMANS:0 "Anarchist Councils"
 ANARCHIST_GERMANS_long:0 "Anarchist Councils of Central Europe"
 
+FAUD_revisionists:0 "Revisionists"
+FAUD_revisionists_long:0 "Revisionists"
+
+FAUD_reactionary:0 "Reactionaries"
+FAUD_reactionary_long:0 "Reactionaries"     
 
 GRU_SOCLIB_PARTY:0 "FDP"
 GRU_SOCLIB_PARTY_long:0 "Freiheitlich Demokratische Partei"

@@ -18,8 +18,6 @@ leader_traits = {
 		defense_skill_factor = -1
 		planning_skill_factor = 1
 	}
-	
-	
 	XINET_MAINFRAME = {
 		type = land
 		trait_type = personality_trait
@@ -91,8 +89,7 @@ leader_traits = {
 		attack_skill_factor = 10
 		defense_skill_factor = 10
 		planning_skill_factor = 10
-	}
-	
+	}	
 	volkssturm_leader = {
 		type = land
 		trait_type = personality_trait
