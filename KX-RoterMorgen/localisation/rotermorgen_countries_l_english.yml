@@ -127,36 +127,36 @@ VKB_national_populist_RM_Volkskommissariat_DEF:0 "the Volkskommissariat Baltenla
 ###VKB###
 ###VKR###
 
-VKR_totalist:0 "Ruthenien
+VKR_totalist:0 "Ruthenien"
 VKR_totalist_ADJ:0 "Ruthenisch"
-VKR_totalist_DEF:0 "Ruthenien
-VKR_syndicalist:0 "Ruthenien
+VKR_totalist_DEF:0 "Ruthenien"
+VKR_syndicalist:0 "Ruthenien"
 VKR_syndicalist_ADJ:0 "Ruthenisch"
-VKR_syndicalist_DEF:0 "Ruthenien
-VKR_radical_socialist:0 "Ruthenien
+VKR_syndicalist_DEF:0 "Ruthenien"
+VKR_radical_socialist:0 "Ruthenien"
 VKR_radical_socialist_ADJ:0 "Ruthenisch"
-VKR_radical_socialist_DEF:0 "Ruthenien
-VKR_social_democrat:0 "Ruthenien
+VKR_radical_socialist_DEF:0 "Ruthenien"
+VKR_social_democrat:0 "Ruthenien"
 VKR_social_democrat_ADJ:0 "Ruthenisch"
-VKR_social_democrat_DEF:0 "Ruthenien
-VKR_social_liberal:0 "Ruthenien
+VKR_social_democrat_DEF:0 "Ruthenien"
+VKR_social_liberal:0 "Ruthenien"
 VKR_social_liberal_ADJ:0 "Ruthenisch"
-VKR_social_liberal_DEF:0 "Ruthenien
-VKR_market_liberal:0 "Ruthenien
+VKR_social_liberal_DEF:0 "Ruthenien"
+VKR_market_liberal:0 "Ruthenien"
 VKR_market_liberal_ADJ:0 "Ruthenisch"
-VKR_market_liberal_DEF:0 "Ruthenien
-VKR_social_conservative:0 "Ruthenien
+VKR_market_liberal_DEF:0 "Ruthenien"
+VKR_social_conservative:0 "Ruthenien"
 VKR_social_conservative_ADJ:0 "Ruthenisch"
-VKR_social_conservative_DEF:0 "Ruthenien
-VKR_authoritarian_democrat:0 "Ruthenien
+VKR_social_conservative_DEF:0 "Ruthenien"
+VKR_authoritarian_democrat:0 "Ruthenien"
 VKR_authoritarian_democrat_ADJ:0 "Ruthenisch"
-VKR_authoritarian_democrat_DEF:0 "Ruthenien
-VKR_paternal_autocrat:0 "Ruthenien
+VKR_authoritarian_democrat_DEF:0 "Ruthenien"
+VKR_paternal_autocrat:0 "Ruthenien"
 VKR_paternal_autocrat_ADJ:0 "Ruthenisch"
-VKR_paternal_autocrat_DEF:0 "Ruthenien
-VKR_national_populist:0 "Ruthenien
+VKR_paternal_autocrat_DEF:0 "Ruthenien"
+VKR_national_populist:0 "Ruthenien"
 VKR_national_populist_ADJ:0 "Ruthenisch"
-VKR_national_populist_DEF:0 "Ruthenien
+VKR_national_populist_DEF:0 "Ruthenien"
 
 VKR_totalist_RM_Volksstaat:0 "Volksstaat Ruthenien"
 VKR_totalist_RM_Volksstaat_ADJ:0 "Ruthenisch"

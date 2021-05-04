@@ -537,7 +537,7 @@ country_event = { # GRU setup
 				type = infantry_equipment_2
 				amount = 40000
 				} 
-				dd_equipment_to_stockpile = {
+				add_equipment_to_stockpile = {
 				type = support_equipment
 				amount = 1000
 				}

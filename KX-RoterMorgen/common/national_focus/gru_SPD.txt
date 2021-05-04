@@ -1786,6 +1786,7 @@
 		mutually_exclusive = { focus = GRU_JOIN_ENTENTE focus = GRU_REJOIN_INTERNATIONALE }
 		prerequisite = { focus = GRU_CONSERVATIVE_REPUBLIC focus = GRU_MARLIB_OLIGARCHIC_REPUBLIC focus = GRU_SOCLIB_FREE_REPUBLIC focus = GRU_SOCDEM_SOCIAL_REPUBLIC focus = GRU_RADSOCS_SOCIALIST_REPUBLIC }
 	}
+	###addition onto diplo lole###
 	shared_focus = { #evil unwholesome 卐 entente path
 		id = GRU_WITH_ENTENTE
 		icon = GRU
@@ -1920,7 +1921,6 @@
 		cost = 2
 		available = {
 			is_in_faction_with = CAN
-			is_neighbor_of = 
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_BREAK_THROUGH_FRENCH_BORDER"
@@ -1935,7 +1935,7 @@
 		prerequisite = { focus = GRU_BREAK_THROUGH_FRENCH_BORDER }
 		cost = 10
 		available = {
-			is_neighbor_of = FRA
+			has_tech = basic_heavy_armor
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_FORT_DESTROYERS"
@@ -2057,7 +2057,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_VICTORY_AGAINST_SYNDIES"
 		}
 	}
-	shared_focus = {
+	shared_focus = { #The Alsace Agreement add event 
 		id = GRU_ALSACE_AGREEMENT
 		icon = GRU
 		relative_position_id = GRU_JOIN_ENTENTE
@@ -2071,10 +2071,10 @@
 			}
 		}
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GRU_ALSACE_AGREEMENT"
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_VICTORY_AGAINST_SYNDIES"
 		}
 	}
-	shared_focus = { 
+	shared_focus = { #Settle our Differences ### STOPS WORKING HERE FOR SOME GOD UNKNOWN REASON ###
 		id = GRU_SETTLE_DIFFERENCES
 		icon = GRU 
 		relative_position_id = GRU_JOIN_ENTENTE
@@ -2083,11 +2083,10 @@
 		prerequisite = { focus = GRU_ALSACE_AGREEMENT }
 		cost = 3
 		completion_reward = {
-			add_political_power = 50
-			log = "[GetDateText]: [Root.GetName]: Focus GRU_SETTLE_DIFFERENCES"
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SETTLE_DIFFERENCES
 		}
 	}
-	shared_focus = {
+	shared_focus = { #Brothers in Arms
 		id = GRU_BROTHERS_IN_ARMS
 		icon = GRU
 		relative_position_id = GRU_JOIN_ENTENTE
@@ -2099,7 +2098,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_BROTHERS_IN_ARMS"
 		}
 	}
-	shared_focus = { 
+	shared_focus = { #Attacking Syndicalism
 		id = GRU_ATTACKING_SYNDIES
 		icon = GRU
 		relative_position_id = GRU_JOIN_ENTENTE
@@ -2123,7 +2122,7 @@
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_SPREADING_LIBERTY"
 		}
 	}
-	shared_focus = { #Cleanse Europe of Red gain  ## decision thing to attack nearby syndie nations ##
+	shared_focus = { #Cleanse Europe of Red gain decision thing to attack nearby syndie nations
 		id = GRU_REMOVING_SYNDICALISM
 		icon = GRU
 		relative_position_id = GRU_JOIN_ENTENTE
@@ -2140,7 +2139,7 @@
 		icon = GRU
 		relative_position_id = GRU_JOIN_ENTENTE
 		x = 1
-		y = 9
+		y = 10
 		available = { country_exists = GBR }
 		prerequisite = { focus = GRU_VICTORY_AGAINST_SYNDIES }
 		cost = 5
@@ -2153,7 +2152,7 @@
 		icon = GRU
 		relative_position_id = GRU_JOIN_ENTENTE
 		x = 0
-		y = 10
+		y = 11
 		prerequisite = { focus = GRU_DIPLO_WITH_BRITISH }
 		cost = 3
 		completion_reward = {
@@ -2165,14 +2164,14 @@
 		icon = GRU
 		relative_position_id = GRU_JOIN_ENTENTE
 		x = -1
-		y = 11
-		prerequisite = { focus = GRU_INVESTING_IN_ENGLAND }
+		y = 12
+		prerequisite = { focus = GRU_DIPLO_WITH_BRITISH }
 		cost = 5
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GRU_NAVAL_WITH_BRITISH"
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_NAVAL_WITH_BRITISH
 		}
 	}
-	shared_focus = { #A syndicalist free europe
+	shared_focus = { #A syndicalist free europe....
 		id = GRU_SYNDICALIST_FREE_EUROPE
 		icon = GRU
 		relative_position_id = GRU_JOIN_ENTENTE
@@ -2183,10 +2182,10 @@
 		prerequisite = { focus = GRU_NAVAL_WITH_BRITISH }
 		cost = 4
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GRU_SYNDICALIST_FREE_EUROPE"
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_SYNDICALIST_FREE_EUROPE
 		}
 	}
-	shared_focus = { #is a freer Europe
+	shared_focus = { #is a freer Europe.
 		id = GRU_A_FREER_EUROPE_WITHOUT_SYNDIES
 		icon = GRU
 		relative_position_id = GRU_JOIN_ENTENTE
@@ -2195,117 +2194,13 @@
 		prerequisite = { focus = GRU_SYNDICALIST_FREE_EUROPE }
 		cost = 4
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GRU_A_FREER_EUROPE_WITHOUT_SYNDIES"
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_A_FREER_EUROPE_WITHOUT_SYNDIES
 		}
 	}
 	
-##### END OF ENTENTE DIPLO ######
-
-##### START OF INTERNATIONALE DIPLO #####
-	shared_focus = { #For the Revolution
-		id = GRU_FOR_THE_REVOLUTION
-		icon = GRU
-		relative_position_id = GRU_REJOIN_INTERNATIONALE
-		x = 5
-		y = 1
-		prerequisite = { focus = GRU_REJOIN_INTERNATIONALE }
-		cost = 5
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GRU_FOR_THE_REVOLUTION"
-		}
-	}
-	shared_focus = { #Forceful Revolution (LOAD SYNDIE/TOT DIPLO)
-		id = GRU_FORCEFUL_REVOLUTION
-		icon = GRU
-		relative_position_id = GRU_REJOIN_INTERNATIONALE
-		x = 8
-		y = 2
-		mutually_exclusive = { focus = GRU_MODERATE_REVOLUTION}
-		available = {
-			has_government = radical_socialist
-		}
-		prerequisite = { focus = GRU_FOR_THE_REVOLUTION }
-		cost = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GRU_FORCEFUL_REVOLUTION"
-		}
-	}
-	shared_focus = { # A Hesitant Approach/Moderate Revolution
-		id = GRU_MODERATE_REVOLUTION
-		icon = GRU
-		relative_position_id = GRU_REJOIN_INTERNATIONALE
-		x = 5
-		y = 2
-		mutually_exclusive = { focus = GRU_FORCEFUL_REVOLUTION }
-		prerequisite = { focus = GRU_FOR_THE_REVOLUTION }
-		cost = 3
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GRU_MODERATE_REVOLUTION"
-		}
-	}
-	shared_focus = { #Look to the West
-		id = GRU_LOOKING_TO_THE_WEST
-		icon = GRU
-		relative_position_id = GRU_REJOIN_INTERNATIONALE
-		x = 3
-		y = 3
-		prerequisite = { focus = GRU_MODERATE_REVOLUTION }
-		cost = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GRU_LOOKING_TO_THE_WEST"
-		}
-	}
-	shared_focus = { #Looking East
-		id = GRU_LOOKING_TO_THE_EAST
-		icon = GRU
-		relative_position_id = GRU_REJOIN_INTERNATIONALE
-		x = 7
-		y = 3
-		prerequisite = { focus = GRU_MODERATE_REVOLUTION }
-		cost = 1
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GRU_LOOKING_TO_THE_EAST"
-		}
-	}
-	shared_focus = { #Pact With the Russians?
-		id = GRU_PACT_WITH_SOVIETS
-		icon = GRU
-		relative_position_id = GRU_REJOIN_INTERNATIONALE
-		x = 8
-		y = 4
-		prerequisite = { focus = GRU_LOOKING_TO_THE_EAST }
-		mutually_exclusive = { focus = GRU_BRING_SOCIALISM_EAST }
-		available = {
-			country_exists = SOV
-			OR = {
-				RUS = {
-					has_government = { radical_socialist }
-				}
-			}
-			OR = {
-				RUS = {
-					has_government = { social_democrat }
-				}
-			}
-			OR = {
-				TRM = {
-					has_government = { totalist }
-				}
-				NOT = {
-					country_exists = RUS
-					country_exists = SOV
-				}
-			}
-		}
-		cost = 3
-		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus GRU_PACT_WITH_SOVIETS"
-		}
-	}
-	shared_focus = { #Bringing Red to the East
-		id = GRU_BRING_SOCIALISM_EAST
-		icon = GRU
-		relative_position_id = GRU_REJOIN_INTERNATIONALE
-		x = 6
-		y = 4
-		
+	
+	
+	
+	
+	
+	
