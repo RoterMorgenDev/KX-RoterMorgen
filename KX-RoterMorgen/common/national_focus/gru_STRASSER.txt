@@ -1,0 +1,99 @@
+focus_tree = {
+	id = gru_STR
+	continuous_focus_position = { x = 2700 y = 300 }
+	country = {
+		factor = 0
+	}
+	focus = {
+		id = STR_FIRST
+		icon = STR
+		x = 15
+		y = 0
+		cost = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STR_FIRST"
+		}
+	}
+	focus = {
+		id = STR_question_of_marx
+		icon = STR
+		relative_position_id = STR_FIRST
+		x = 0
+		y = 1
+		cost = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STR_question_of_marx"
+		}
+	}
+	focus = { #he was a jew
+		id = STR_marx_the_jew
+		icon = STR
+		relative_position_id = STR_FIRST
+		x = 1
+		y = 2
+		cost = 4
+		prerequisite = { focus = STR_question_of_marx }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STR_marx_the_jew"
+		}
+	}
+	focus = { #a pvre german hero
+		id = STR_a_german_hero
+		icon = STR
+		relative_position_id = STR_FIRST
+		x = -1
+		y = 2
+		cost = 4
+		prerequisite = { focus = STR_question_of_marx }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STR_a_german_hero"
+		}
+	}
+	focus = { #Ban Soviet Books and Newspapers
+		id = STR_ban_soviet_stuff
+		icon = STR
+		relative_position_id = STR_FIRST
+		x = -1
+		y = 2
+		cost = 6
+		prerequisite = { focus = STR_marx_the_jew }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STR_ban_soviet_stuff"
+		}
+	focus = { #Destroy the Marxists
+		id = STR_destroy_marxists
+		icon = STR
+		relative_position_id = STR_FIRST
+		x = -1
+		y = 3
+		cost = 6
+		prerequisite = { focus = STR_ban_soviet_stuff }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STR_ban_soviet_stuff"
+		}
+	}
+	focus = { #Encourage "Uncensored" Versions of Marx's Teachings
+		id = STR_ALLOW_GERMAN_COMMUNIST_MANIFESTO
+		icon = STR
+		relative_position_id = STR_FIRST
+		x = 1
+		y = 2
+		cost = 4
+		prerequisite = { focus = STR_a_german_hero }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STR_ALLOW_GERMAN_COMMUNIST_MANIFESTO"
+		}
+	}
+	focus = { #Collaborate with Willing Soviets
+		id = STR_COLLAB_WITH_SOVIETS
+		icon = STR
+		relative_position_id = STR_FIRST
+		x = 1
+		y = 3
+		cost = 4
+		prerequisite = { focus = STR_COLLAB_WITH_SOVIETS }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus STR_COLLAB_WITH_SOVIETS"
+		}
+	}
+	

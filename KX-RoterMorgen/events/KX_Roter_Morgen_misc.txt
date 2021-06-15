@@ -2767,18 +2767,20 @@ country_event = { # Future of Germany MarLibs
 	}
 }
 
-
-country_event = { # 
+country_event = { # Xinet trolle
 	id = rotermorgenmisc.669966
 	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenmisc.669966" }
 	title = rotermorgenmisc.669966.t
 	desc = rotermorgenmisc.669966.d
-	hidden = yes
 	fire_only_once = yes
 	trigger = {
-		date > 1936.02.02
+		date > 1936.01.02
+		NOT = {
+			is_ai = yes
+		}
 	}
-	immediate = {
+	option = { #Spawn Xinet
+		name = rotermorgenmisc.669966.a
 					every_state = {
 						limit = {
 							OR = {
@@ -3275,9 +3277,18 @@ country_event = { #
 							maneuvering_skill = 3
 							coordination_skill = 3
 						}
-						
-						
+						add_named_threat = {
+							threat = 100
+							name = PRC_XINET_AWOKEN
+						}
 					}
+		
+	}
+	option = { #no
+		name = rotermorgenmisc.669966.b
+		ai_chance = {
+			factor = 10000
+		}
 	}
 }
 news_event = { #
