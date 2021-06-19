@@ -1,0 +1,83 @@
+add_namespace = gexGCW
+
+country_event = { #Monarchist Sympathies in the Army
+	id = gexGCW.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gexGCW.1" }
+	title = gexGCW.1.t
+	desc = gexGCW.1.d
+	trigger = {
+		tag = GEO
+		has_country_flag = GEO_KAISER_REFUGE
+	}
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	option = { #Purge Them!
+		name = gexGCW.1.a
+		ai_chance = {
+			factor = 30
+		}
+		hidden_effect = {
+			set_country_flag = GEO_no_kaiser
+		}
+	}
+	
+	option = { #Why would the army revolt against me?
+		name = gexGCW.1.b
+		ai_chance = {
+			factor = 70
+		}
+		custom_effect_tooltip = GEO_kaiser_takeover
+		add_stability = -0.2
+		hidden_effect = {
+			GEO = {
+				country_event = { id = gexGCW.2 days = 4 }
+			}
+		}
+	}
+}
+
+country_event = { #Monarchist Takeover 
+	id = gexGCW.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event gexGCW.2" }
+	title = gexGCW.2.t
+	desc = gexGCW.2.d
+	is_triggered_only = yes
+	
+	option = { #sadbob
+		name = gexGCW.2.a
+		ai_chance = {
+			factor = 100
+		}
+		custom_effect_tooltip = GEO_kaiser_full_takeover
+		hidden_effect = {
+			create_country_leader = {
+				name = "Wilhelm II"
+				desc = "POLITICS_Wilhelm_II_GEX_DESC"
+				picture = "Portrait_MAF_Wilhelm_II.tga"
+				expire = "1965.1.1"
+				ideology = paternal_autocracy_subtype
+				traits = { }	
+			}
+			set_popularities = {
+				totalist = 0
+				syndicalist = 5
+				radical_socialist = 0
+				social_democracy = 5
+				social_liberalism = 10
+				social_conservatism = 15
+				paternal_autocracy = 40
+				national_populism = 30
+			}
+			set_politics = {
+				ruling_party = paternal_autocrat
+				elections_allowed = no
+			}
+			set_party_name = { ideology = paternal_autocrat long_name = "Kaiser Loyalists" name = "Kaiser Loyalists" }
+			set_party_name = { ideology = national_populist long_name = "Kaiser Loyalists" name = "Kaiser Loyalists" }
+			
+		}
+	
+		
+			

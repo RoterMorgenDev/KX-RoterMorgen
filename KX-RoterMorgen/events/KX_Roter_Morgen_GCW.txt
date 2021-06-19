@@ -1379,3 +1379,106 @@ country_event = { # CONGRESS
 		}
 	}
 }
+country_event = { #mittelafrika do be collapse
+	id = rotermorgenGCW.999
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenGCW.999" }
+	title = rotermorgenGCW.999.t
+	desc = rotermorgenGCW.999.d
+	trigger = {
+		GRU = {
+			has_country_flag = GRU_REBELLION
+		}
+		original_tag = MAF
+	}
+	option = { #we're fucked
+		name = rotermorgenGCW.999.a
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -100
+	}
+}	
+country_event = { # KAISER RETURNS TO AFRIKA OR CONTINUES FIGHTING
+	id = rotermorgenGCW.1000
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenGCW.1000" }
+	title = rotermorgenGCW.1000.t
+	desc = rotermorgenGCW.1000.d
+	trigger = {
+		GRU = {	controls_state = 64 }
+	}
+	option = { #Send a telegram to goring asking for refuge
+		name = rotermorgenGCW.1000.a
+		ai_chance = {
+			factor = 20
+		}
+		GEO = {
+			country_event = { id = rotermorgenGCW.1001 days = 3 }
+		}
+	}
+	option = { #die instead
+		name = rotermorgenGCW.1000.b
+		ai_chance = {
+			factor = 80
+		}
+	}
+}
+country_event = { #kaiser asking for help doe
+	id = rotermorgenGCW.1001
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenGCW.1001" }
+	title = rotermorgenGCW.1001.t
+	desc = rotermorgenGCW.1001.d
+	is_triggered_only = yes
+
+	option = { #Sure
+		name = rotermorgenGCW.1001.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 1000
+				NOT = { 
+					GER = { is_ai = yes }
+				}
+			}
+		}
+		GER = {
+			country_event = { id = rotermorgenGCW.1002 days = 1
+		}
+	}
+	option = { #no
+		name = rotermorgenGCW.1001.b
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+country_event = { #Goring accepts
+	id = rotermorgenGCW.1002
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotermorgenGCW.1002" }
+	title = rotermorgenGCW.1002.t
+	desc = rotermorgenGCW.1002.d
+	is_triggered_only = yes
+	
+	option = { #troll the methhead
+		name = rotermorgenGCW.1002.a
+		ai_chance = {
+			factor = 100
+		}
+		custom_effect_tooltip = GEO_exile_to_goring
+		hidden_effect = {
+			GEO = { change_tag_from = GER }
+			GRU = {
+				annex_country = { target = GER transfer_troops = no }
+			}
+			GEO = {
+				set_country_flag = GEO_KAISER_REFUGE
+			}
+		}
+	}
+}
+			
+			
+		
+	
+		
+		
+		

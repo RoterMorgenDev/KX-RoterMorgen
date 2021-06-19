@@ -223,7 +223,7 @@ country_event = {
 		ai_chance = {
 			factor = 1
 			modifier = {
-				factor = 20
+				factor = 0
 				GER = { has_idea = GERMAN_CIVIL_WAR_participant }
 			}
 			modifier = {
