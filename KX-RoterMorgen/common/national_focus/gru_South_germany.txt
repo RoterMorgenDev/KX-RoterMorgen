@@ -12,6 +12,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_START"
+			add_ideas = BAY_A_PURE_MONARCHY
 		}
 	}
 	focus = {
@@ -23,6 +24,10 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_EMPOWER_MONARCHY"
+			swap_ideas = {
+					remove_idea = BAY_A_PURE_MONARCHY
+					add_idea = BAY_EMPOWERED_MONARCHY
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_START  }
 	}
@@ -35,6 +40,20 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_CRACK_DOWN_ON_THE_LEFT"
+			add_ideas = BAY_CRACKDOWN_LEFT
+			add_stability = -0.1
+			hidden_effect = {
+				swap_ideas = {
+					remove_idea = BAY_LEFT_RESISTANCE
+					add_idea = BAY_LEFT_RESISTANCE_1
+				}
+				country_event = {
+					id = BAYCollapse.1
+					days = 4
+				}
+					
+			}
+	
 		}
 		prerequisite = { focus = BAY_NATPOP_START  }
 	}
@@ -47,6 +66,12 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_RALLY_THE_RIGHT"
+			add_war_support = 0.1
+			add_ideas = BAY_RIGHT_RALLIES
+			country_event = {
+				id = BAYCollapse.2
+				days = 1
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_START  }
 	}
@@ -59,6 +84,16 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_BAN_PARTIES"
+			swap_ideas = {
+					remove_ideas = BAY_CRACKDOWN_LEFT
+					add_ideas = BAY_BANNED_LEFT
+			}
+			hidden_effect = {
+				swap_ideas = {
+					remove_ideas = LEFT_RESISTANCE_1
+					add_ideas = LEFT_RESISTANCE_2
+				}
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_CRACK_DOWN_ON_THE_LEFT  }
 		prerequisite = { focus = BAY_NATPOP_EMPOWER_MONARCHY  }
@@ -383,6 +418,19 @@ focus_tree = {
 		x = -5
 		y = 7
 		cost = 6
+		available = {
+			AUS = {
+				has_government = national_populist
+				has_country_leader = {
+					name = "Engelbert Dollfuss"
+					ruling_only = yes
+				}
+				NOT = {
+					is_puppet = yes
+				}
+			}
+		}
+				
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_AUSTRIAN_FUTURE"
 		}
@@ -395,6 +443,18 @@ focus_tree = {
 		x = -1
 		y = 1
 		cost = 6
+		available = {
+			AUS = {
+				has_government = national_populist
+				has_country_leader = {
+					name = "Engelbert Dollfuss"
+					ruling_only = yes
+				}
+				NOT = {
+					is_puppet = yes
+				}
+			}
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_JOIN_THE_AUSTRIAN_ALLIANCE"
 		}
@@ -408,6 +468,18 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 6
+		available = {
+			AUS = {
+				has_government = national_populist
+				has_country_leader = {
+					name = "Engelbert Dollfuss"
+					ruling_only = yes
+				}
+				NOT = {
+					is_puppet = yes
+				}
+			}
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_JOIN_AUSTRIA"
 		}
