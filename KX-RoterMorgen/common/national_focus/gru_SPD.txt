@@ -1786,6 +1786,7 @@
 		mutually_exclusive = { focus = GRU_JOIN_ENTENTE focus = GRU_REJOIN_INTERNATIONALE }
 		prerequisite = { focus = GRU_CONSERVATIVE_REPUBLIC focus = GRU_MARLIB_OLIGARCHIC_REPUBLIC focus = GRU_SOCLIB_FREE_REPUBLIC focus = GRU_SOCDEM_SOCIAL_REPUBLIC focus = GRU_RADSOCS_SOCIALIST_REPUBLIC }
 	}
+	### BIG (CHUNGUS) DIPLO ###
 	shared_focus = { #evil unwholesome 卐 entente path
 		id = GRU_WITH_ENTENTE
 		icon = GRU
@@ -1997,7 +1998,7 @@
 			}
 			OR = {
 				country_exists = GBR
-				#state id for paris
+				#state id for paris#
 			}
 		}
 		completion_reward = {
@@ -2302,10 +2303,129 @@
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_PACT_WITH_SOVIETS"
 		}
 	}
-	shared_focus = { #Bringing Red to the East
+	shared_focus = { #Bringing Red to the East (get decisions to invite syndie countries in europe/east)
 		id = GRU_BRING_SOCIALISM_EAST
 		icon = GRU
 		relative_position_id = GRU_REJOIN_INTERNATIONALE
 		x = 6
 		y = 4
+		prerequisite = { focus = GRU_LOOKING_TO_THE_EAST }
+		available = {
+			NOT = {
+				country_exists = SOV
+			}
+		}
+		cost = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_BRING_SOCIALISM_EAST"
+		}
+	}
+	shared_focus = { #Liberate the Poles
+		id = GRU_LIBERATING_POLES
+		icon = GRU
+		relative_position_id = GRU_REJOIN_INTERNATIONALE
+		x = 6
+		y = 5
+		prerequisite = { focus = GRU_BRING_SOCIALISM_EAST }
+		available = {
+			NOT = {
+				POL = {
+					has_government = totalist
+				}
+				POL = {
+					has_government = syndicalist
+				}
+				POL = {
+					has_government = radical_socialist
+				}
+			}
+		}
+		bypass = {
+			OR = {
+				POL = {
+					OR = {
+						has_government = totalist
+					}
+					OR = {
+						has_government = syndicalist
+					}
+					OR = {
+						has_government = radical_socialist
+					}
+				}
+			}
+			OR = {
+				NOT = {
+					country_exists = POL
+				}
+			}
+		}
+		cost = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_LIBERATING_POLES"
+		}
+	}
+	shared_focus = { #Liberating the Baltics
+		id = GRU_LIBERATING_BALTICS
+		icon = GRU
+		relative_position_id = GRU_REJOIN_INTERNATIONALE
+		x = 6
+		y = 6
+		prerequisite = { focus = GRU_LIBERATING_POLES }
+		cost = 3
+		bypass = {
+			OR = {
+				NOT = {
+					country_exists = BAT
+				}
+				LAT = {
+					OR = {
+						has_government = radical_socialist
+					}
+					OR = {
+						has_government = totalist
+					}
+					OR = {
+						has_government = syndicalist
+						}
+					OR = {
+						is_in_faction_with = GRU
+					}
+				}
+				EST = {
+					OR = {
+						has_government = radical_socialist
+					}
+					OR = {
+						has_government = totalist
+					}
+					OR = {
+						has_government = syndicalist
+					}
+					OR = {
+						is_in_faction_with = GRU
+					}
+				}
+			}
+			OR = {
+				NOT = {
+					country_exists = LAT
+					country_exists = EST
+					country_exists = BAT
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus GRU_LIBERATING_BALTICS
+		}
+	}
+	shared_focus = { #Into Ukraine
+		id = GRU_LIBERATING_UKRAINIANS
+		icon = GRU
+		relative_position_id = GRU_REJOIN_INTERNATIONALE
+		x = 6
+		y = 7
+		prerequisite = { focus = GRU_LIBERATING_UKRAINIANS }
 		
+		
+	
