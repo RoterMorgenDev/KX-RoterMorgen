@@ -1,0 +1,3 @@
+add_namespace = BAYCollapse
+	
+country_event = { #Lefties Targeted on the Streets 
