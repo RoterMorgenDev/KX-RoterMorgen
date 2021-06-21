@@ -1,0 +1,883 @@
+focus_tree = {
+	id = GRU_ROSENBERG_TREE
+	continuous_focus_position = { x = 50 y = 50 }
+	country = {
+		factor = 0
+	}
+	focus = {
+		id = NATSOC_FUNREAL
+		icon = NATSOC_FUNREAL
+		x = 20
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_FUNREAL"
+			hidden_effect = {
+				set_cosmetic_tag = GRU_GERMANIC_REICH
+				set_party_name = {
+						ideology = national_populist
+						long_name = NSDAF_PARTY_LONG
+						name = NSDAF_PARTY
+				}
+				set_party_name = {
+						ideology = paternal_autocrat
+						long_name = NSDAF_PARTY_LONG
+						name = NSDAF_PARTY
+				}
+			}
+		}
+	}
+	#STATE
+	focus = {
+		id = NATSOC_UNIFY_MILITIAS
+		icon = NATSOC_UNIFY_MILITIAS
+		relative_position_id = NATSOC_FUNREAL
+		x = 0
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_UNIFY_MILITIAS"
+		}
+		prerequisite = { focus = NATSOC_FUNREAL  }
+	}
+	focus = {
+		id = NATSOC_ESTABLISH_GESTAPA
+		icon = NATSOC_ESTABLISH_GESTAPA
+		relative_position_id = NATSOC_FUNREAL
+		x = -1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ESTABLISH_GESTAPA"
+		}
+		prerequisite = { focus = NATSOC_UNIFY_MILITIAS  }
+	}
+	
+	focus = {
+		id = NATSOC_ESTABLISH_SS
+		icon = NATSOC_ESTABLISH_SS
+		relative_position_id = NATSOC_FUNREAL
+		x = 1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ESTABLISH_SS"
+		}
+		prerequisite = { focus = NATSOC_UNIFY_MILITIAS  }
+	}
+	
+	focus = {
+		id = NATSOC_ESTABLISH_THE_CAMPS
+		icon = NATSOC_ESTABLISH_THE_CAMPS
+		relative_position_id = NATSOC_FUNREAL
+		x = 2
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ESTABLISH_THE_CAMPS"
+		}
+		prerequisite = { focus = NATSOC_ESTABLISH_SS  }
+	}
+
+	focus = {
+		id = NATSOC_FOUND_SD
+		icon = NATSOC_FOUND_SD
+		relative_position_id = NATSOC_FUNREAL
+		x = 0
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_FOUND_SD"
+		}
+		prerequisite = { focus = NATSOC_ESTABLISH_GESTAPA  }
+		prerequisite = { focus = NATSOC_ESTABLISH_SS  }
+	}
+	
+	focus = {
+		id = NATSOC_ROOT_OUT_RESISTANCE
+		icon = NATSOC_ROOT_OUT_RESISTANCE
+		relative_position_id = NATSOC_FUNREAL
+		x = -2
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ROOT_OUT_RESISTANCE"
+		}
+		prerequisite = { focus = NATSOC_ESTABLISH_GESTAPA  }
+	}
+	
+	focus = {
+		id = NATSOC_THULE_SOCIETY
+		icon = NATSOC_THULE_SOCIETY
+		relative_position_id = NATSOC_FUNREAL
+		x = -1
+		y = 4
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_THULE_SOCIETY"
+		}
+		prerequisite = { focus = NATSOC_ROOT_OUT_RESISTANCE  }
+		prerequisite = { focus = NATSOC_FOUND_SD  }
+	}
+	
+	focus = {
+		id = NATSOC_EUGENIC_SCIENCE
+		icon = NATSOC_EUGENIC_SCIENCE
+		relative_position_id = NATSOC_FUNREAL
+		x = 1
+		y = 4
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_EUGENIC_SCIENCE"
+		}
+		prerequisite = { focus = NATSOC_ESTABLISH_THE_CAMPS  }
+		prerequisite = { focus = NATSOC_FOUND_SD  }
+	}
+	
+	focus = {
+		id = NATSOC_ROSENBERG_FUHRER
+		icon = NATSOC_ROSENBERG_FUHRER
+		relative_position_id = NATSOC_FUNREAL
+		x = 0
+		y = 5
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ROSENBERG_FUHRER"
+		}
+		prerequisite = { focus = NATSOC_THULE_SOCIETY  }
+		prerequisite = { focus = NATSOC_EUGENIC_SCIENCE  }
+	}
+	#STATE
+	#ECONOMY
+	focus = {
+		id = NATSOC_REBUILD_ECONOMY
+		icon = NATSOC_REBUILD_ECONOMY
+		relative_position_id = NATSOC_FUNREAL
+		x = -7
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_REBUILD_ECONOMY"
+		}
+		prerequisite = { focus = NATSOC_FUNREAL  }
+	}
+	focus = {
+		id = NATSOC_AGRARIAN_SUBSIDES
+		icon = NATSOC_AGRARIAN_SUBSIDES
+		relative_position_id = NATSOC_REBUILD_ECONOMY
+		x = 2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_AGRARIAN_SUBSIDES"
+		}
+		prerequisite = { focus = NATSOC_REBUILD_ECONOMY  }
+	}
+	focus = {
+		id = NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES
+		icon = NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES
+		relative_position_id = NATSOC_REBUILD_ECONOMY
+		x = -2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES"
+		}
+		prerequisite = { focus = NATSOC_REBUILD_ECONOMY  }
+	}
+	focus = {
+		id = NATSOC_SYNTHETIC_OIL
+		icon = NATSOC_SYNTHETIC_OIL
+		relative_position_id = NATSOC_REBUILD_ECONOMY
+		x = -3
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_SYNTHETIC_OIL"
+		}
+		prerequisite = { focus = NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES  }
+	}
+	focus = {
+		id = NATSOC_INVEST_IN_KEY_INDUSTRY
+		icon = NATSOC_INVEST_IN_KEY_INDUSTRY
+		relative_position_id = NATSOC_REBUILD_ECONOMY
+		x = 0
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_INVEST_IN_KEY_INDUSTRY"
+		}
+		prerequisite = { focus = NATSOC_REBUILD_ECONOMY  }
+	}
+	
+	focus = {
+		id = NATSOC_CORPORATISM
+		icon = NATSOC_CORPORATISM
+		relative_position_id = NATSOC_REBUILD_ECONOMY
+		x = 0
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_CORPORATISM"
+		}
+		prerequisite = { focus = NATSOC_AGRARIAN_SUBSIDES  }
+		prerequisite = { focus = NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES  }
+		prerequisite = { focus = NATSOC_INVEST_IN_KEY_INDUSTRY  }
+	}
+	focus = {
+		id = NATSOC_RESTORE_MILITARY_INDUSTRIAL_COMPLEX
+		icon = NATSOC_RESTORE_MILITARY_INDUSTRIAL_COMPLEX
+		relative_position_id = NATSOC_REBUILD_ECONOMY
+		x = 1
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_RESTORE_MILITARY_INDUSTRIAL_COMPLEX"
+		}
+		prerequisite = { focus = NATSOC_CORPORATISM  }
+	}
+	focus = {
+		id = NATSOC_GUIDE_THE_ECONOMY
+		icon = NATSOC_GUIDE_THE_ECONOMY
+		relative_position_id = NATSOC_REBUILD_ECONOMY
+		x = -1
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_GUIDE_THE_ECONOMY"
+		}
+		prerequisite = { focus = NATSOC_CORPORATISM  }
+	}
+	focus = {
+		id = NATSOC_NATSOC_ECONOMICS
+		icon = NATSOC_NATSOC_ECONOMICS
+		relative_position_id = NATSOC_REBUILD_ECONOMY
+		x = 0
+		y = 4
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_NATSOC_ECONOMICS"
+		}
+		prerequisite = { focus = NATSOC_RESTORE_MILITARY_INDUSTRIAL_COMPLEX  }
+		prerequisite = { focus = NATSOC_GUIDE_THE_ECONOMY  }
+	}
+	#ECONOMY
+	#SPECIAL
+	focus = {
+		id = NATSOC_SdPrjAbtl
+		icon = NATSOC_SdPrjAbtl
+		relative_position_id = NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES
+		x = -4
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_SdPrjAbtl"
+		}
+		prerequisite = { focus = NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES  }
+	}
+	focus = {
+		id = NATSOC_BREITSPURBAHNEN
+		icon = NATSOC_BREITSPURBAHNEN
+		relative_position_id = NATSOC_SdPrjAbtl
+		x = -2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_BREITSPURBAHNEN"
+		}
+		prerequisite = { focus = NATSOC_SdPrjAbtl  }
+	}
+	focus = {
+		id = NATSOC_ROCKETS
+		icon = NATSOC_ROCKETS
+		relative_position_id = NATSOC_SdPrjAbtl
+		x = 0
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ROCKETS"
+		}
+		prerequisite = { focus = NATSOC_SdPrjAbtl  }
+	}
+	focus = {
+		id = NATSOC_HAMMER_OF_THOR_NUKE
+		icon = NATSOC_HAMMER_OF_THOR_NUKE
+		relative_position_id = NATSOC_SdPrjAbtl
+		x = 1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_HAMMER_OF_THOR_NUKE"
+		}
+		prerequisite = { focus = NATSOC_SdPrjAbtl  }
+	}
+	focus = {
+		id = NATSOC_AUTOBAHN
+		icon = NATSOC_AUTOBAHN
+		relative_position_id = NATSOC_SdPrjAbtl
+		x = -1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_AUTOBAHN"
+		}
+		prerequisite = { focus = NATSOC_SdPrjAbtl  }
+	}
+	focus = {
+		id = NATSOC_HYDRO_ENERGY
+		icon = NATSOC_HYDRO_ENERGY
+		relative_position_id = NATSOC_SdPrjAbtl
+		x = 2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_HYDRO_ENERGY"
+		}
+		prerequisite = { focus = NATSOC_SdPrjAbtl  }
+	}
+	#SPECIAL
+	#SOCIETY
+	focus = {
+		id = NATSOC_FOR_THE_GERMAN_PEOPLE
+		icon = NATSOC_FOR_THE_GERMAN_PEOPLE
+		relative_position_id = NATSOC_FUNREAL
+		x = 7
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_FOR_THE_GERMAN_PEOPLE"
+		}
+		prerequisite = { focus = NATSOC_FUNREAL  }
+	}
+	focus = {
+		id = NATSOC_FOUND_DRJ
+		icon = NATSOC_FOUND_DRJ
+		relative_position_id = NATSOC_FOR_THE_GERMAN_PEOPLE
+		x = -1
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_FOUND_DRJ"
+		}
+		prerequisite = { focus = NATSOC_FOR_THE_GERMAN_PEOPLE  }
+	}
+	focus = {
+		id = NATSOC_TRADITIONAL_FAMILY
+		icon = NATSOC_TRADITIONAL_FAMILY
+		relative_position_id = NATSOC_FOR_THE_GERMAN_PEOPLE
+		x = 1
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_TRADITIONAL_FAMILY"
+		}
+		prerequisite = { focus = NATSOC_FOR_THE_GERMAN_PEOPLE  }
+	}
+	focus = {
+		id = NATSOC_RAD
+		icon = NATSOC_RAD
+		relative_position_id = NATSOC_FOR_THE_GERMAN_PEOPLE
+		x = 0
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_RAD"
+		}
+		prerequisite = { focus = NATSOC_FOUND_DRJ  }
+		prerequisite = { focus = NATSOC_TRADITIONAL_FAMILY  }
+	}
+	focus = {
+		id = NATSOC_GOEBBELS_STUDIOS
+		icon = NATSOC_GOEBBELS_STUDIOS
+		relative_position_id = NATSOC_FOR_THE_GERMAN_PEOPLE
+		x = -2
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_GOEBBELS_STUDIOS"
+		}
+		prerequisite = { focus = NATSOC_FOUND_DRJ  }
+		prerequisite = { focus = NATSOC_TRADITIONAL_FAMILY  }
+	}
+	focus = {
+		id = NATSOC_POSITIVE_CHRISTIANITY
+		icon = NATSOC_POSITIVE_CHRISTIANITY
+		relative_position_id = NATSOC_FOR_THE_GERMAN_PEOPLE
+		x = 2
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_POSITIVE_CHRISTIANITY"
+		}
+		prerequisite = { focus = NATSOC_FOUND_DRJ  }
+		prerequisite = { focus = NATSOC_TRADITIONAL_FAMILY  }
+	}
+	focus = {
+		id = NATSOC_BLUT_UND_BODEN
+		icon = NATSOC_BLUT_UND_BODEN
+		relative_position_id = NATSOC_FOR_THE_GERMAN_PEOPLE
+		x = 1
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_BLUT_UND_BODEN"
+		}
+		prerequisite = { focus = NATSOC_POSITIVE_CHRISTIANITY  }
+		prerequisite = { focus = NATSOC_RAD  }
+	}
+	focus = {
+		id = NATSOC_DAF
+		icon = NATSOC_DAF
+		relative_position_id = NATSOC_FOR_THE_GERMAN_PEOPLE
+		x = -1
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_DAF"
+		}
+		prerequisite = { focus = NATSOC_GOEBBELS_STUDIOS  }
+		prerequisite = { focus = NATSOC_RAD  }
+	}
+	focus = {
+		id = NATSOC_LEBENSBORN
+		icon = NATSOC_LEBENSBORN
+		relative_position_id = NATSOC_FOR_THE_GERMAN_PEOPLE
+		x = 0
+		y = 4
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_LEBENSBORN"
+		}
+		prerequisite = { focus = NATSOC_BLUT_UND_BODEN  }
+		prerequisite = { focus = NATSOC_DAF  }
+	}
+
+	
+	#SOCIETY
+	#MERGER POINT
+	focus = {
+		id = NATSOC_DEUTSCHLAND_ERWACHE
+		icon = NATSOC_DEUTSCHLAND_ERWACHE
+		relative_position_id = NATSOC_FUNREAL
+		x = 0
+		y = 6
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_DEUTSCHLAND_ERWACHE"
+		}
+		prerequisite = { focus = NATSOC_ROSENBERG_FUHRER  }
+		prerequisite = { focus = NATSOC_NATSOC_ECONOMICS  }
+		prerequisite = { focus = NATSOC_LEBENSBORN  }
+	}
+	#MERGER POINT
+	#DIPLO-CONQUEST
+	focus = {
+		id = NATSOC_FOREIGN_ACTIONS
+		icon = NATSOC_FOREIGN_ACTIONS
+		relative_position_id = NATSOC_FUNREAL
+		x = 6
+		y = 7
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_FOREIGN_ACTIONS"
+		}
+	}
+	
+	focus = {
+		id = NATSOC_SACK_ROME
+		icon = NATSOC_SACK_ROME
+		relative_position_id = NATSOC_FOREIGN_ACTIONS
+		x = 2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_SACK_ROME"
+		}
+		prerequisite = { focus = NATSOC_FOREIGN_ACTIONS  }
+	}
+	
+	focus = {
+		id = NATSOC_AVENGE_804
+		icon = NATSOC_AVENGE_804
+		relative_position_id = NATSOC_FOREIGN_ACTIONS
+		x = 4
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_AVENGE_804"
+		}
+		prerequisite = { focus = NATSOC_FOREIGN_ACTIONS  }
+	}
+	focus = {
+		id = NATSOC_ANGEL_SAXEN
+		icon = NATSOC_ANGEL_SAXEN
+		relative_position_id = NATSOC_FOREIGN_ACTIONS
+		x = 3
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ANGEL_SAXEN"
+		}
+		prerequisite = { focus = NATSOC_FOREIGN_ACTIONS  }
+	}
+	
+	focus = {
+		id = NATSOC_AFRIKA
+		icon = NATSOC_AFRIKA
+		relative_position_id = NATSOC_FOREIGN_ACTIONS
+		x = 0
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_AFRIKA"
+		}
+		prerequisite = { focus = NATSOC_FOREIGN_ACTIONS  }
+	}
+	
+	
+	focus = {
+		id = NATSOC_ANSCHLUSS
+		icon = NATSOC_ANSCHLUSS
+		relative_position_id = NATSOC_FOREIGN_ACTIONS
+		x = -4
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ANSCHLUSS"
+		}
+		prerequisite = { focus = NATSOC_FOREIGN_ACTIONS  }
+	}
+	
+	focus = {
+		id = NATSOC_CLAIM_EAST_GERMANIC_LANDS
+		icon = NATSOC_CLAIM_EAST_GERMANIC_LANDS
+		relative_position_id = NATSOC_FOREIGN_ACTIONS
+		x = -6
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_CLAIM_EAST_GERMANIC_LANDS"
+		}
+		prerequisite = { focus = NATSOC_FOREIGN_ACTIONS  }
+	}
+	
+	focus = {
+		id = NATSOC_CLAIM_WEST_GERMANIC_LANDS
+		icon = NATSOC_CLAIM_WEST_GERMANIC_LANDS
+		relative_position_id = NATSOC_FOREIGN_ACTIONS
+		x = -2
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_CLAIM_WEST_GERMANIC_LANDS"
+		}
+		prerequisite = { focus = NATSOC_FOREIGN_ACTIONS  }
+	}
+	
+	focus = {
+		id = NATSOC_CLAIM_SCANDINAVIA
+		icon = NATSOC_CLAIM_SCANDINAVIA
+		relative_position_id = NATSOC_FOREIGN_ACTIONS
+		x = -3
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_CLAIM_SCANDINAVIA"
+		}
+		prerequisite = { focus = NATSOC_CLAIM_WEST_GERMANIC_LANDS  }
+		prerequisite = { focus = NATSOC_ANSCHLUSS  }
+	}
+	focus = {
+		id = NATSOC_CLAIM_THE_LEBENSRAUM
+		icon = NATSOC_CLAIM_THE_LEBENSRAUM
+		relative_position_id = NATSOC_FOREIGN_ACTIONS
+		x = -5
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_CLAIM_THE_LEBENSRAUM"
+		}
+		prerequisite = { focus = NATSOC_CLAIM_EAST_GERMANIC_LANDS  }
+		prerequisite = { focus = NATSOC_ANSCHLUSS  }
+	}
+	focus = {
+		id = NATSOC_GOTHEN_REICH
+		icon = NATSOC_GOTHEN_REICH
+		relative_position_id = NATSOC_FOREIGN_ACTIONS
+		x = -4
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_GOTHEN_REICH"
+		}
+		prerequisite = { focus = NATSOC_CLAIM_SCANDINAVIA  }
+		prerequisite = { focus = NATSOC_CLAIM_THE_LEBENSRAUM  }
+	}
+	
+	
+	
+	
+	#DIPLO-CONQUEST
+	#WEHRMACHT
+	focus = {
+		id = NATSOC_REARMAMENT
+		icon = NATSOC_REARMAMENT
+		relative_position_id = NATSOC_FUNREAL
+		x = -9
+		y = 7
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_REARMAMENT"
+		}
+	}
+	
+	focus = {
+		id = NATSOC_WEHRMACHT
+		icon = NATSOC_WEHRMACHT
+		relative_position_id = NATSOC_REARMAMENT
+		x = 4
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_WEHRMACHT"
+		}
+		prerequisite = { focus = NATSOC_REARMAMENT  }
+	}
+	focus = {
+		id = NATSOC_PRUSSIAN_TRADITIONS
+		icon = NATSOC_PRUSSIAN_TRADITIONS
+		relative_position_id = NATSOC_REARMAMENT
+		x = 3
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_PRUSSIAN_TRADITIONS"
+		}
+		prerequisite = { focus = NATSOC_WEHRMACHT  }
+	}
+	focus = {
+		id = NATSOC_START_MECHANIZATION_EFFORT
+		icon = NATSOC_START_MECHANIZATION_EFFORT
+		relative_position_id = NATSOC_REARMAMENT
+		x = 5
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_START_MECHANIZATION_EFFORT"
+		}
+		prerequisite = { focus = NATSOC_WEHRMACHT  }
+	}
+	focus = {
+		id = NATSOC_PANZER
+		icon = NATSOC_PANZER
+		relative_position_id = NATSOC_REARMAMENT
+		x = 6
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_PANZER"
+		}
+		prerequisite = { focus = NATSOC_START_MECHANIZATION_EFFORT  }
+	}
+	focus = {
+		id = NATSOC_ARTILELRY_DEVELOPMENT
+		icon = NATSOC_ARTILELRY_DEVELOPMENT
+		relative_position_id = NATSOC_REARMAMENT
+		x = 4
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ARTILELRY_DEVELOPMENT"
+		}
+		prerequisite = { focus = NATSOC_START_MECHANIZATION_EFFORT  }
+	}
+	focus = {
+		id = NATSOC_SUPERIOR_FIREPOWER
+		icon = NATSOC_SUPERIOR_FIREPOWER
+		relative_position_id = NATSOC_REARMAMENT
+		x = 5
+		y = 4
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_SUPERIOR_FIREPOWER"
+		}
+		prerequisite = { focus = NATSOC_PANZER  }
+		prerequisite = { focus = NATSOC_ARTILELRY_DEVELOPMENT  }
+	}
+	
+	focus = {
+		id = NATSOC_LUFTWAFFE
+		icon = NATSOC_LUFTWAFFE
+		relative_position_id = NATSOC_REARMAMENT
+		x = 0
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_LUFTWAFFE"
+		}
+		prerequisite = { focus = NATSOC_REARMAMENT  }
+	}
+	focus = {
+		id = NATSOC_BOMBER_DEVELOPMENT
+		icon = NATSOC_BOMBER_DEVELOPMENT
+		relative_position_id = NATSOC_REARMAMENT
+		x = -1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_BOMBER_DEVELOPMENT"
+		}
+		prerequisite = { focus = NATSOC_LUFTWAFFE  }
+	}
+	
+	focus = {
+		id = NATSOC_GERMANY_DOMINATE_THE_SKIES
+		icon = NATSOC_GERMANY_DOMINATE_THE_SKIES
+		relative_position_id = NATSOC_REARMAMENT
+		x = 0
+		y = 4
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_GERMANY_DOMINATE_THE_SKIES"
+		}
+		prerequisite = { focus = NATSOC_TRANSPORT_PLANES  }
+		prerequisite = { focus = NATSOC_BOMBER_DEVELOPMENT  }
+	}
+	
+	focus = {
+		id = NATSOC_TRANSPORT_PLANES
+		icon = NATSOC_TRANSPORT_PLANES
+		relative_position_id = NATSOC_REARMAMENT
+		x = 1
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_TRANSPORT_PLANES"
+		}
+		prerequisite = { focus = NATSOC_BOMBER_DEVELOPMENT  }
+		prerequisite = { focus = NATSOC_FIGHTER_DEVELOPMENT  }
+	}
+	focus = {
+		id = NATSOC_FALLSCHIRM
+		icon = NATSOC_FALLSCHIRM
+		relative_position_id = NATSOC_REARMAMENT
+		x = 2
+		y = 4
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_FALLSCHIRM"
+		}
+		prerequisite = { focus = NATSOC_TRANSPORT_PLANES  }
+		prerequisite = { focus = NATSOC_PRUSSIAN_TRADITIONS  }
+	}
+	focus = {
+		id = NATSOC_FIGHTER_DEVELOPMENT
+		icon = NATSOC_FIGHTER_DEVELOPMENT
+		relative_position_id = NATSOC_REARMAMENT
+		x = 1
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_FIGHTER_DEVELOPMENT"
+		}
+		prerequisite = { focus = NATSOC_LUFTWAFFE  }
+	}
+	
+	focus = {
+		id = NATSOC_KRIEGSMARINE
+		icon = NATSOC_KRIEGSMARINE
+		relative_position_id = NATSOC_REARMAMENT
+		x = -4
+		y = 1
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_KRIEGSMARINE"
+		}
+		prerequisite = { focus = NATSOC_REARMAMENT  }
+	}
+	
+	focus = {
+		id = NATSOC_CRUISER_EFFORT
+		icon = NATSOC_CRUISER_EFFORT
+		relative_position_id = NATSOC_REARMAMENT
+		x = -4
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_CRUISER_EFFORT"
+		}
+		prerequisite = { focus = NATSOC_KRIEGSMARINE  }
+	}
+	
+	focus = {
+		id = NATSOC_GERMANIA_RULE_THE_WAVES
+		icon = NATSOC_GERMANIA_RULE_THE_WAVES
+		relative_position_id = NATSOC_REARMAMENT
+		x = -5
+		y = 4
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_GERMANIA_RULE_THE_WAVES"
+		}
+		prerequisite = { focus = NATSOC_SUBMARINE_DEVELOPMENT  }
+		prerequisite = { focus = NATSOC_CRUISER_EFFORT  }
+		prerequisite = { focus = NATSOC_CARRIER_DEVELOPMENT  }
+	}
+	
+	focus = {
+		id = NATSOC_SUBMARINE_DEVELOPMENT
+		icon = NATSOC_SUBMARINE_DEVELOPMENT
+		relative_position_id = NATSOC_REARMAMENT
+		x = -5
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_SUBMARINE_DEVELOPMENT"
+		}
+		prerequisite = { focus = NATSOC_KRIEGSMARINE  }
+	}
+	
+	focus = {
+		id = NATSOC_CAPITAL_SHIP_EFFORT
+		icon = NATSOC_CAPITAL_SHIP_EFFORT
+		relative_position_id = NATSOC_REARMAMENT
+		x = -3
+		y = 2
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_CAPITAL_SHIP_EFFORT"
+		}
+		prerequisite = { focus = NATSOC_KRIEGSMARINE  }
+	}
+	
+	focus = {
+		id = NATSOC_CARRIER_DEVELOPMENT
+		icon = NATSOC_CARRIER_DEVELOPMENT
+		relative_position_id = NATSOC_REARMAMENT
+		x = -2
+		y = 3
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_CARRIER_DEVELOPMENT"
+		}
+		prerequisite = { focus = NATSOC_CAPITAL_SHIP_EFFORT  }
+		prerequisite = { focus = NATSOC_BOMBER_DEVELOPMENT  }
+	}
+	
+	focus = {
+		id = NATSOC_ARMY_OF_CONQUEST
+		icon = NATSOC_ARMY_OF_CONQUEST
+		relative_position_id = NATSOC_REARMAMENT
+		x = 0
+		y = 5
+		cost = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ARMY_OF_CONQUEST"
+		}
+		prerequisite = { focus = NATSOC_GERMANIA_RULE_THE_WAVES  }
+		prerequisite = { focus = NATSOC_GERMANY_DOMINATE_THE_SKIES  }
+		prerequisite = { focus = NATSOC_SUPERIOR_FIREPOWER  }
+	}
+	
+	#WEHRMACHT
+}

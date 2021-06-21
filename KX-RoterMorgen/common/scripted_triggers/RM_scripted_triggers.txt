@@ -207,3 +207,21 @@ is_not_excluded_from_stahlpakt_alliance = {
 		tag = CRE
 	}
 }
+
+
+GRU_GREATER_DONE = {
+	AND = {
+			#has_country_flag = elsas_cored
+			has_country_flag = denmark_cored
+			has_country_flag = luxembourg_cored
+			has_country_flag = belgium_cored
+			has_country_flag = dutch_cored
+			#has_country_flag = suwalki_cored
+			has_country_flag = poland_cored
+			has_country_flag = galicia_cored
+			has_country_flag = bohemia_cored
+			has_country_flag = swiss_cored
+			has_country_flag = slovenia_cored
+			has_country_flag = austria_cored
+	}
+}

@@ -361,6 +361,57 @@ BAY_GREATER_FRANKIA:0 "Frankish Empire"
 
 GRU_HEYDRICH_STATE:0 "Greater Germanic State"
 JUDEA_FREE:0 "New Israel"
+
+GRU_GREATER_DONE_tt:0 "Germanic Lands have been cored"
+
+#rosenberg
+
+reactioanry_resistance_one:0 "Dangerous reactionary resistance"
+reactioanry_resistance_two:0 "Weakened reactionary resistance"
+
+GRU_FAUD_FIGHT_REACTIONARY:0 "Unstable Future"
+FAUD_FIGHT_REACTIONARY_DECISION:0 "Fight Reactioanries"
+REACTIONARY_COUP:0 "Reactionary counter coup"
+
+rotf.1.t:0 "Reactionary resistance"
+rotf.1.d:0 "We stand alone with our views, neither the other branches of the left realy stand with us nor do the reactionaries that consider us subhuman filth, Goebbels who claimed to be part of the revolution has finalyl dropepd hsi charade and openly declared that all his followers shall resist us with all means.\nNot suprisingly his ranks have been flocked now with imperial remants and other reactioanry groups, we must act quickly and arrest or even eliminate thier leadership..."
+rotf.1.a:0 "Death to Reactionaries!"
+
+rotf.2.t:0 "Rooting out reactionary resistance"
+rotf.2.d:0 "After our first success in combating the reactioanries we can't stop now as we have hit a hornets nest... if we don't act now we might face a 2nd revolution in Germany within just a year, one driven not by egalitarian values but by supremacism, biggotry and outright inhumane values."
+rotf.2.a:0 "Round them all up now!"
+
+rotf.3.t:0 "March on Berlin"
+rotf.3.d:0 "Drums were halling or was it the boots of marching militia men and soldiers never disarmed?\n It would not matter anymore as our dreams of a bright anarchist future were destroyed when Goebbels and his allies stormed Berlin, Rocker and the rest of the FAUD leadership tried to escape by a Plane but it was shot down and thier burned bodies were dragged down the streets to the Reichstag were they were hanged up in public with signs calling them traitors."
+rotf.3.a:0 "Yet not over...."
+
+rotf.4.t:0 "Endless fights in Berlin"
+rotf.4.d:0 "Berlin was set aflame as Rome was by Nero it seemed, a city engulfed in fires, artillery shots and machien guns could be heared miles away as the FAUD now already supported by other left wing militias and the reactioanries clashed..."
+rotf.4.a:0 "It is the ENDTIMES!"
+
+rotf.5.t:0 "Bitter Victory"
+rotf.5.d:0 "Even tho the anarchist scum had been eradicated this Victory was sour and bitter, our leader Josef Goebbels had been hit by a stray bullet to the stomach and with the current medical options in Berlin there is no chance for survival, the leadership of all those groups that had rallied behind him has come together to stand with him on his last journey and await his last instructions."
+rotf.5.a:0 "Germny, hear me! A Hero was born this day"
+
+rotf.6.t:0 "His last will"
+rotf.6.d:0 "After three days of painful suffering with the limited medical help that could be obtained for Goebbels and endles stressfull talks he held with the leaders of all the factions that had followed him Goebbels had made a decision for whom would step int ohis footsteps, he did not take this decision lightly as he knew someoen with the iron teuton will of the old germanic tribesmen and the intelelct of an academic was needed to hold together what he would die for.\n\n He annoucned to everyone that his successor would be Alfred Rosnberg despite having palyed a rather insignificant role he was ideologically close to goebbels and had all the traits Goebbels had searched among his fellowship.\n Everyone hailed Goebbels and Rosenberg just a mere minutes before Goebbels finally was able to rest forever...."
+rotf.6.a:0 "I see you in Valhalla dear Josef"
+
+GRU_REACTIONARY_COUP_GOV:0 "Notstandsregierung Deutschland"
+
+GRU_GERMANIC_REICH:0 "Germanisches Reich"
+
+NSDAF_PARTY:0 "NSDAF"
+NSDAF_PARTY_LONG:0 "National Soziale Deutsche Arbeiter Front"
+
+GRU_Alfred_rosenberg_hog_npo:0 "Alfred Rosenberg"
+
+GRU_FAUD_reactionary_threat:0 "Reactionaries threaten our society."
+
+GRU_FAUD_reactionary_dead:0 "Reactionaries have been dealt with."
+
+reactionary_fought_once:0 "Is fighting the reactionaries."
+
 #################
 ########!!!!HEY CHUNGUS!!!! IF YOU READ THIS! I advise you to se tsome form of mark inside this exclamated text for yourself when you finished a block :D MAybe JUST REMOVE THIS ANNOYING TEXT THAT WILL NOW BE AT THE BOTTOM OF EACH BLOCK#########
 #################

@@ -2819,6 +2819,28 @@ ideas = {
 			picture = natmarxdiplo
 		}
 		
+		#rosenberg
+		
+		reactioanry_resistance_one = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea reactioanry_resistance_one"}
+			picture = GRU_REACTIONARY_RESISTANCE
+			modifier = {
+				political_power_gain = -0.4
+				conscription_factor = -0.08
+				stability_factor = -0.15
+			}
+		}
+		reactioanry_resistance_two = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea reactioanry_resistance_two"}
+			picture = GRU_REACTIONARY_RESISTANCE
+			modifier = {
+				political_power_gain = -0.7
+				conscription_factor = -0.18
+				stability_factor = -0.25
+			}
+		}
+		
+		
 		
 	}
 	
@@ -3278,6 +3300,7 @@ industrial_concern = {
 				air_equipment = 0.1
 			}
 		}
+		
 
 	}
 

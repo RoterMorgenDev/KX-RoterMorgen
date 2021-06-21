@@ -246,7 +246,7 @@ country_event = { # Heydrich proclaims new state
 	desc = greendawn.11.d
 	is_triggered_only = yes
 	option = { #
-		name = greendawn.10.a
+		name = greendawn.11.a
 		country_event = { id = greendawn.12 days = 5 }
 		set_party_name = { 
 			ideology = national_populist 

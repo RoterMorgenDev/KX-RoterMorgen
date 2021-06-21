@@ -1229,6 +1229,7 @@ country_event = { # CONGRESS
 				kill_ideology_leader = syndicalist
 				kill_ideology_leader = radical_socialist
 				set_country_flag = GRU_FAUD_rule
+				set_country_flag = GRU_FAUD_reactionary_threat
 				complete_national_focus = GRU_faud_victory
 				set_cosmetic_tag = GRU_FAUD
 				remove_all_ministers = yes
@@ -1242,6 +1243,7 @@ country_event = { # CONGRESS
 					GRU_Paul_Levi_for_syn
 					GRU_Rudolf_Egelhofer_eco_syn
 					GRU_Eugen_Levine_sec_syn
+					reactioanry_resistance_one
 				}
 				set_politics = {
 					ruling_party = syndicalist

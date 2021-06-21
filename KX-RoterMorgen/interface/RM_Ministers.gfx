@@ -136,4 +136,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ministers/PRC/PRC_CORE_SYSTEM.tga"
 	}
 	
+	
+	spriteType = {
+		name = "GFX_idea_XNE_CENTRAL_WAR_CORE"
+		texturefile = "gfx/interface/ministers/PRC/PRC_CORE_SYSTEM.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_XNE_CENTRAL_WAR_CORE_ARMY"
+		texturefile = "gfx/interface/ministers/PRC/PRC_CORE_SYSTEM.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_XNE_CENTRAL_WAR_CORE_NAVY"
+		texturefile = "gfx/interface/ministers/PRC/PRC_CORE_SYSTEM.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_XNE_CENTRAL_WAR_CORE_AIR"
+		texturefile = "gfx/interface/ministers/PRC/PRC_CORE_SYSTEM.tga"
+	}
+	
+	
+	
+	spriteType = {
+		name = "GFX_idea_GRU_Alfred_rosenberg_hog_npo"
+		texturefile = "gfx/interface/ministers/GRU/GRU_Alfred_rosenberg.tga"
+	}
 }

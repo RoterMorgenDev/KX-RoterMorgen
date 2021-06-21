@@ -318,13 +318,16 @@
 		x = 3
 		y = 4
 		available = {
-			has_country_flag = GRU_GREATER_DONE
+		hidden_trigger = {
+			GRU_GREATER_DONE = yes
+		}
 			is_subject = no
 		}
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_NMDVP_PROCLAIM_GERMANIC_STATE"
 			set_cosmetic_tag = GRU_NMDVP_BIG
+			#custom_effect_tooltip = GRU_GREATER_DONE_tt
 		}
 		prerequisite = { focus = GRU_NMDVP_PAN_GERMANISM_RELOADED  }
 		prerequisite = { focus = GRU_NMDVP_SLAV_LAND_EXPANSION }

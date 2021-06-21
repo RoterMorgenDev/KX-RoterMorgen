@@ -2070,6 +2070,9 @@ shared_focus = {
 		x = -7
 		y = 1
 		cost = 5
+		available = {
+			NOT = { has_country_flag = GRU_FAUD_reactionary_threat }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_industrial_unionisation"
 			add_ideas = GRU_DSR_industrialunions
@@ -2106,6 +2109,9 @@ shared_focus = {
 		x = -5
 		y = 1
 		cost = 5
+		available = {
+			NOT = { has_country_flag = GRU_FAUD_reactionary_threat }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_ressource_redistribution"
 			add_ideas = GRU_DSR_ressources1
@@ -2364,6 +2370,9 @@ shared_focus = {
 		x = -4
 		y = 1
 		cost = 5
+		available = {
+			NOT = { has_country_flag = GRU_FAUD_reactionary_threat }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus GRU_einigkeit_recht"
 			add_ideas = GRU_SPD_FAUD_EINIGKEIT_RECHT

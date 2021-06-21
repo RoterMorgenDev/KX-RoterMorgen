@@ -1,0 +1,233 @@
+add_namespace = rotf
+
+country_event = { # first time fight reactioanry
+	id = rotf.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotf.1" }
+	title = rotf.1.t
+	is_triggered_only = yes
+	desc = rotf.1.d
+	fire_only_once = yes
+	
+	option = { #
+		name = rotf.1.a
+		add_manpower = -2000
+	}
+}
+
+country_event = { # 2nd time fight reactioanry
+	id = rotf.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotf.2" }
+	title = rotf.2.t
+	is_triggered_only = yes
+	desc = rotf.2.d
+	fire_only_once = yes
+	
+	option = { #
+		name = rotf.2.a
+		add_manpower = -4000
+	}
+}
+
+country_event = { # March on Berlin
+	id = rotf.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotf.3" }
+	title = rotf.3.t
+	is_triggered_only = yes
+	desc = rotf.3.d
+	fire_only_once = yes
+	
+	option = { #
+		name = rotf.3.a
+		country_event = {
+				id = rotf.4
+				days = 1
+				}
+		set_country_flag = GRU_REACTIONARY_COUPED_GOV
+		kill_ideology_leader = syndicalist
+		create_country_leader = {
+							name = "Unknown Leadership"
+							desc = "GRU_Councils_DESC"
+							picture = "gfx/leaders/GRU/councilism.tga"
+							expire = "1965.1.1"
+							ideology = syndicalist_subtype
+				}
+				hidden_effect = {
+				set_party_name = {
+						ideology = national_populist
+						long_name = "Reactionary Forces"
+						name = "Reactionary Forces"
+				}
+				set_party_name = {
+						ideology = paternal_autocrat
+						long_name = "Reactionary Forces"
+						name = "Reactionary Forces"
+				}
+				
+				create_country_leader = {
+							name = "Josef Goebbels"
+							desc = "GRU_GOEBBELS_almost_dead_DESC"
+							picture = "gfx/leaders/GRU/Portrait_Germany_Josef_Goebbels_almost_dead.tga"
+							expire = "1965.1.1"
+							ideology = national_populist_subtype
+							traits = {
+								gru_froncophobe
+								gru_volksfuehrer
+							}
+					}
+				create_country_leader = {
+							name = "Josef Goebbels"
+							desc = "GRU_GOEBBELS_almost_dead_DESC"
+							picture = "gfx/leaders/GRU/Portrait_Germany_Josef_Goebbels_almost_dead.tga"
+							expire = "1965.1.1"
+							ideology = paternal_autocrat_subtype
+							traits = {
+								gru_froncophobe
+								gru_volksfuehrer
+							}
+					}
+				}
+	}
+}
+
+country_event = { # Militias clash
+	id = rotf.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotf.4" }
+	title = rotf.4.t
+	is_triggered_only = yes
+	desc = rotf.4.d
+	fire_only_once = yes
+	
+	option = { #
+		name = rotf.4.a
+		country_event = {
+				id = rotf.5
+				days = 2
+				}
+		add_manpower = -20000
+	}
+}
+
+country_event = { # Victory of the reactionaries
+	id = rotf.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotf.5" }
+	title = rotf.5.t
+	is_triggered_only = yes
+	desc = rotf.5.d
+	fire_only_once = yes
+	
+	option = { #
+		name = rotf.5.a
+		hidden_effect = {
+				clr_country_flag = GRU_FAUD_rule
+				set_country_flag = GRU_NAZI_rule
+				set_cosmetic_tag = GRU_REACTIONARY_COUP_GOV
+				set_politics = {
+					ruling_party = national_populist
+					last_election = "1936.11.16"
+					elections_allowed = no
+				}
+				leave_faction = yes
+				remove_ideas = reactioanry_resistance_two
+				remove_ideas = reactioanry_resistance_one
+				kill_ideology_leader = syndicalist
+				set_party_name = {
+						ideology = totalist
+						long_name = "Communist Resistnce"
+						name = "Communist Resistnce"
+				}
+				set_party_name = {
+						ideology = syndicalist
+						long_name = "Syndicalist Resistnce"
+						name = "Syndicalist Resistnce"
+				}
+				set_party_name = {
+						ideology = radical_socialist
+						long_name = "Socialist Resistnce"
+						name = "Socialist Resistnce"
+				}
+				set_party_name = {
+						ideology = national_populist
+						long_name = Notstandsregierung
+						name = Notstandsregierung
+				}
+				set_party_name = {
+						ideology = paternal_autocrat
+						long_name = Notstandsregierung
+						name = Notstandsregierung
+				}
+				add_popularity = {
+					ideology = totalist
+					popularity = 0.15
+				}
+				add_popularity = {
+					ideology = radical_socialist
+					popularity = 0.15
+				}
+				add_popularity = {
+					ideology = paternal_autocrat
+					popularity = 0.35
+				}
+				add_popularity = {
+					ideology = national_populist
+					popularity = 0.45
+				}
+				remove_all_ministers = yes
+				add_ideas = {
+					GRU_Joseph_Goebbels_hog_npo
+					GER_Max_Amann_for_npo
+					GRU_Albert_Speer_eco_npo
+					GRU_Ernst_Roehm_sec_npo
+				}
+		}
+		country_event = {
+				id = rotf.6
+				days = 3
+				}
+	}
+}
+
+country_event = { # Goebbels last will
+	id = rotf.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event rotf.6" }
+	title = rotf.6.t
+	is_triggered_only = yes
+	desc = rotf.6.d
+	fire_only_once = yes
+	
+	option = { #
+		name = rotf.6.a
+		kill_ideology_leader = national_populist
+		create_country_leader = {
+							name = "Alfred Rosenberg"
+							desc = "GRU_ROSENBERG_LEADER_DESC"
+							picture = "gfx/leaders/GRU/Portrait_Germany_Alfred_rosenberg_fuhrer.tga"
+							expire = "1965.1.1"
+							ideology = national_populist_subtype
+							traits = {
+
+							}
+					}
+		create_country_leader = {
+							name = "Alfred Rosenberg"
+							desc = "GRU_ROSENBERG_LEADER_DESC"
+							picture = "gfx/leaders/GRU/Portrait_Germany_Alfred_rosenberg_fuhrer.tga"
+							expire = "1965.1.1"
+							ideology = paternal_autocrat_subtype
+							traits = {
+
+							}
+					}
+		hidden_effect = {
+		remove_all_ministers = yes
+				add_ideas = {
+					GRU_Alfred_rosenberg_hog_npo
+					GER_Joachim_Ribbentrop_for_ade
+					GRU_Albert_Speer_eco_npo
+					WGR_Josef_Terboven_sec_npo
+				}
+		load_focus_tree = {
+			tree = GRU_ROSENBERG_TREE			
+		}
+		}
+	}
+}

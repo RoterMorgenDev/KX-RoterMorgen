@@ -1928,6 +1928,35 @@ country_event = { # VKM claims
 				406 = {
 					add_claim_by = VKM
 				}
+				
+				1205 = {
+					add_claim_by = VKM
+				}
+				1204 = {
+					add_claim_by = VKM
+				}
+				1203 = {
+					add_claim_by = VKM
+				}
+				
+				
+				1198 = {
+					add_claim_by = VKM
+				}
+				1193 = {
+					add_claim_by = VKM
+				}
+				1199 = {
+					add_claim_by = VKM
+				}
+				1197 = {
+					add_claim_by = VKM
+				}
+				
+				
+				1194 = {
+					add_claim_by = VKM
+				}
 	}
 }
 
@@ -2090,6 +2119,13 @@ country_event = { # VSJ claims
 				811 = {
 					add_claim_by = VSJ
 				}
+				
+				1200 = {
+					add_claim_by = VSJ
+				}
+				1201 = {
+					add_claim_by = VSJ
+				}
 	}
 }
 
@@ -2206,6 +2242,9 @@ country_event = { # VST claims
 					add_claim_by = VST
 				}
 				891 = {
+					add_claim_by = VST
+				}
+				582 = {
 					add_claim_by = VST
 				}
 	}
@@ -2517,7 +2556,7 @@ country_event = { # allignment to internationale SMEPD
 				}
 			}
 		}
-		GRU = {
+		INT = {
 		add_to_faction = ROOT
 		}
 	}
@@ -2775,9 +2814,10 @@ country_event = { #
 	desc = rotermorgenmisc.669966.d
 	hidden = yes
 	fire_only_once = yes
-	trigger = {
-		date > 1936.02.02
-	}
+	is_triggered_only = yes
+	#trigger = {
+	#	date > 1936.02.02
+	#}
 	immediate = {
 					every_state = {
 						limit = {
@@ -2806,63 +2846,63 @@ country_event = { #
 								is_claimed_by = BRM
 							}
 						}
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					890 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					441 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					432 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					434 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					523 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					430 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					566 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					567 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					575 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					524 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					632 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					631 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					630 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					642 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					727 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					629 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					463 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
 					644 = {
-						add_core_of = PRC		
+						add_core_of = XNE		
 					}
-					PRC = {
+					XNE = {
 						transfer_state = 608
 						transfer_state = 609
 						transfer_state = 614
@@ -2871,7 +2911,7 @@ country_event = { #
 					}
 					
 					
-					PRC = {
+					XNE = {
 						inherit_technology = GRU	
 						inherit_technology = USA
 						inherit_technology = FRA
@@ -2945,7 +2985,7 @@ country_event = { #
 						create_faction = "Mandate of Heaven"
 						create_country_leader = {
 							name = "XINET"
-							desc = "POLITICS_roehm_DESC"
+							desc = "POLITICS_XINET_DESC"
 							picture = "GFX_XINET_ANIMATED"
 							expire = "1965.1.1"
 							ideology = totalist_subtype
@@ -2968,6 +3008,10 @@ country_event = { #
 							PRC_MAINFRAME_for_tot
 							PRC_MAINFRAME_eco_tot
 							PRC_MAINFRAME_sec_tot
+							XNE_CENTRAL_WAR_CORE
+							XNE_CENTRAL_WAR_CORE_ARMY
+							XNE_CENTRAL_WAR_CORE_NAVY
+							XNE_CENTRAL_WAR_CORE_AIR
 						}
 						load_focus_tree = {
 							tree = XINET_TREE
@@ -3288,7 +3332,7 @@ news_event = { #
 	picture = GFX_report_event_XIVASION
 	trigger = {
 		date > 1936.02.07
-		PRC = { has_country_flag = XINET }
+		XNE = { has_country_flag = XINET }
 		NOT = { has_country_flag = xivasion_read }
 	}
 	option = {
@@ -3300,7 +3344,7 @@ news_event = { #
 	}
 	option = {
 		name = rotermorgenmisc.999669.b
-		PRC = {
+		XNE = {
 			change_tag_from = ROOT
 		}
 		set_country_flag = xivasion_read
@@ -3327,16 +3371,16 @@ country_event = {
 	#is_triggered_only = yes
 	hidden = yes
 	trigger = {
-		is_subject_of = PRC
+		is_subject_of = XNE
 		NOT = { has_country_flag = PRC_PUPPET }
-		PRC = { has_country_flag = XINET }
+		XNE = { has_country_flag = XINET }
 	}
 	immediate = {
 		ROOT = {
 				create_country_leader = {
 							name = "XINET ADMINISTRATION"
 							desc = "GRU_XINET_DESC"
-							picture = "gfx/leaders/PRC/XINET_CONTROL.tga"
+							picture = "gfx/leaders/XNE/XINET_CONTROL.tga"
 							expire = "1965.1.1"
 							ideology = totalist_subtype
 				}
@@ -3364,7 +3408,7 @@ country_event = {
 							PRC_MAINFRAME_sec_tot
 						}
 		}
-		PRC = {
+		XNE = {
 			puppet = ROOT
 			set_autonomy = {
 				target = ROOT

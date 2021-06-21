@@ -716,4 +716,8 @@ spriteTypes = {
 		name = "GFX_idea_PRC_TERMINATOR"
 		texturefile = "gfx/interface/ideas/GRU/PRC_TERMINATOR.tga"
 	}
+	spriteType = {
+		name = "GFX_idea_GRU_REACTIONARY_RESISTANCE"
+		texturefile = "gfx/interface/ideas/GRU/reactionary_resistance.tga"
+	}
 }

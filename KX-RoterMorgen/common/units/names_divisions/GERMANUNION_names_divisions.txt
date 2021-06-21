@@ -281,3 +281,52 @@ GERMANUNION_GAR_01 = {
 	}
 }
 
+XINET_INF_01 = {
+	name = "TERMINATOR"
+
+	for_countries = { XNE }
+	
+	can_use = { always = yes } 
+
+	division_types = { "infantry" "cavalry" "motorized" "mechanized" "marine" "mountaineers" "paratrooper" }
+
+	fallback_name = "%d. TERMINATOR-UNIT"
+
+	ordered = {
+		1 = { "%d. TERMINATOR-UNIT" }
+		2 = { "%d. TERMINATOR-UNIT" }
+		3 = { "%d. TERMINATOR-UNIT" }
+		4 = { "%d. TERMINATOR-UNIT" }
+		5 = { "%d. TERMINATOR-UNIT" }
+		6 = { "%d. TERMINATOR-UNIT" }
+		7 = { "%d. TERMINATOR-UNIT" }
+		8 = { "%d. TERMINATOR-UNIT" }
+		9 = { "%d. TERMINATOR-UNIT" }
+		10 = { "%d. TERMINATOR-UNIT" }
+	}
+}
+
+XINET_ARM_02 = {
+	name = "HK TANK"
+
+	for_countries = { XNE }
+	
+	can_use = { always = yes } 
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d. HUNTER-TANK-UNIT"
+
+	ordered = {
+		1 = { "%d. HUNTER-TANK-UNIT" }
+		2 = { "%d. HUNTER-TANK-UNIT" }
+		3 = { "%d. HUNTER-TANK-UNIT" }
+		4 = { "%d. HUNTER-TANK-UNIT" }
+		5 = { "%d. HUNTER-TANK-UNIT" }
+		6 = { "%d. HUNTER-TANK-UNIT" }
+		7 = { "%d. HUNTER-TANK-UNIT" }
+		8 = { "%d. HUNTER-TANK-UNIT" }
+		9 = { "%d. HUNTER-TANK-UNIT" }
+		10 = { "%d. HUNTER-TANK-UNIT" }
+	}
+}

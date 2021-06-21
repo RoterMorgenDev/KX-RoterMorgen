@@ -3666,39 +3666,39 @@ GRU_germania_plan_decisions = {
 		}
 	}
 	
-	GRU_pan_germanism_complete_germania_plan_decision = {
-		icon = GFX_pangermanictwo
-
-		visible = {
-		and = {
-			has_country_flag = elsas_cored
-			has_country_flag = denmark_cored
-			has_country_flag = luxembourg_cored
-			has_country_flag = belgium_cored
-			has_country_flag = dutch_cored
-			has_country_flag = suwalki_cored
-			has_country_flag = poland_cored
-			has_country_flag = galicia_cored
-			has_country_flag = bohemia_cored
-			has_country_flag = swiss_cored
-			has_country_flag = slovenia_cored
-			has_country_flag = austria_cored
-			}
-		}
-
-		fire_only_once = yes
-		cost = 20
-		days_remove = 0
-
-		ai_will_do = {
-			factor = 6
-		}
-
-		remove_effect = {
-			log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_complete_germania_plan_decision"
-			set_country_flag = GRU_GREATER_DONE
-		}
-	}
+	#GRU_pan_germanism_complete_germania_plan_decision = {
+	#	icon = GFX_pangermanictwo
+#
+	#	visible = {
+	#	and = {
+	#		has_country_flag = elsas_cored
+	#		has_country_flag = denmark_cored
+	#		has_country_flag = luxembourg_cored
+	#		has_country_flag = belgium_cored
+	#		has_country_flag = dutch_cored
+	#		has_country_flag = suwalki_cored
+	#		has_country_flag = poland_cored
+	#		has_country_flag = galicia_cored
+	#		has_country_flag = bohemia_cored
+	#		has_country_flag = swiss_cored
+	#		has_country_flag = slovenia_cored
+	#		has_country_flag = austria_cored
+	#		}
+	##	}
+#
+	#	fire_only_once = yes
+	#	cost = 20
+	#	days_remove = 0
+#
+	#	ai_will_do = {
+	#		factor = 6
+	#	}
+#
+	#	remove_effect = {
+	#		log = "[GetDateText]: [Root.GetName]: Decision remove GRU_pan_germanism_complete_germania_plan_decision"
+	#		set_country_flag = GRU_GREATER_DONE
+	#	}
+	#}
 
 }
 GRU_Germania_Stadt_decisions = {
@@ -5706,6 +5706,70 @@ GRU_expansion_three_volksland_hypoborea = {
 								controls_state = 399
 							}
 						}
+						OR = {
+							GRU = {
+								controls_state = 1205
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 1205
+							}
+						}
+						OR = {
+							GRU = {
+								controls_state = 1204
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 1204
+							}
+						}
+						OR = {
+							GRU = {
+								controls_state = 1203
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 1203
+							}
+						}
+						OR = {
+							GRU = {
+								controls_state = 1198
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 1198
+							}
+						}
+						OR = {
+							GRU = {
+								controls_state = 1193
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 1193
+							}
+						}
+						OR = {
+							GRU = {
+								controls_state = 1199
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 1199
+							}
+						}
+						OR = {
+							GRU = {
+								controls_state = 1197
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 1197
+							}
+						}
+						
 					}	
 			}
 		
@@ -5726,6 +5790,15 @@ GRU_expansion_three_volksland_hypoborea = {
 								transfer_state = 249
 								transfer_state = 400
 								transfer_state = 399
+								
+								transfer_state = 1197
+								transfer_state = 1199
+								transfer_state = 1193
+								transfer_state = 1198
+								transfer_state = 1203
+								transfer_state = 1204
+								transfer_state = 1205
+
 					}
 					hidden_effect = {
 				VKM = {	country_event = rotermorgenmisc.500 }
@@ -7257,8 +7330,9 @@ GRU_beyond_lebensraum_decisions = {
 		}
 		available = {
 			581 = { is_owned_and_controlled_by = ROOT }
-			582 = { is_owned_and_controlled_by = ROOT }
+			1195 = { is_owned_and_controlled_by = ROOT }
 			573 = { is_owned_and_controlled_by = ROOT }
+			1196 = { is_owned_and_controlled_by = ROOT }
 		}
 
 		fire_only_once = yes
@@ -7274,10 +7348,13 @@ GRU_beyond_lebensraum_decisions = {
 			581 = {
 				add_core_of = ROOT
 			}
-			582 = {
+			1195 = {
 				add_core_of = ROOT
 			}
 			573 = {
+				add_core_of = ROOT
+			}
+			1196 = {
 				add_core_of = ROOT
 			}
 			set_country_flag = urals_cored
@@ -7514,6 +7591,24 @@ GRU_expansion_two_volksstaat_Judea = {
 								controls_state = 569
 							}
 						}
+						OR = {
+							GRU = {
+								controls_state = 1201
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 1201
+							}
+						}
+						OR = {
+							GRU = {
+								controls_state = 1200
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 1200
+							}
+						}
 				}
 			}
 		
@@ -7533,6 +7628,8 @@ GRU_expansion_two_volksstaat_Judea = {
 								transfer_state = 576
 								transfer_state = 568
 								transfer_state = 569
+								transfer_state = 1200
+								transfer_state = 1201
 					}
 					hidden_effect = {
 				VSJ = {	country_event = rotermorgenmisc.950 }
@@ -7717,6 +7814,15 @@ GRU_expansion_two_volksstaat_Judea = {
 								controls_state = 589
 							}
 						}
+						OR = {
+							GRU = {
+								controls_state = 582
+							}
+							any_other_country = {
+								is_subject_of = GRU
+								controls_state = 582
+							}
+						}
 				}
 			}
 		
@@ -7737,6 +7843,7 @@ GRU_expansion_two_volksstaat_Judea = {
 								transfer_state = 810
 								transfer_state = 40
 								transfer_state = 589
+								transfer_state = 582
 					}
 					hidden_effect = {
 				VST = {	country_event = rotermorgenmisc.951 }
@@ -8533,7 +8640,7 @@ PRC_JUDGEMENT_DAY = {
 				factor = 0
 				FROM = {
 					is_in_faction = no
-					strength_ratio = { tag = PRC ratio > 0.5 }
+					strength_ratio = { tag = XNE ratio > 0.5 }
 				}
 			}
 			modifier = {
@@ -8541,10 +8648,10 @@ PRC_JUDGEMENT_DAY = {
 				FROM = {
 					is_in_faction = yes
 					OR = {
-						strength_ratio = { tag = PRC ratio > 0.5 }
+						strength_ratio = { tag = XNE ratio > 0.5 }
 						any_allied_country = {
 							is_faction_leader = yes
-							strength_ratio = { tag = PRC ratio > 1.0 }
+							strength_ratio = { tag = XNE ratio > 1.0 }
 						}
 					}
 				}
@@ -8643,7 +8750,7 @@ PRC_JUDGEMENT_DAY_NUKING = {
 				limit = {
 						 is_owned_by = FROM
 					}
-				PRC = {
+				XNE = {
 				launch_nuke = {
 					state = PREV
 					controller = FROM
@@ -8675,7 +8782,7 @@ PRC_JUDGEMENT_DAY_NUKING = {
 				limit = {
 						 is_owned_by = FROM
 					}
-				PRC = {
+				XNE = {
 				launch_nuke = {
 					state = PREV
 					controller = FROM
@@ -8707,7 +8814,7 @@ PRC_JUDGEMENT_DAY_NUKING = {
 				limit = {
 						 is_owned_by = FROM
 					}
-				PRC = {
+				XNE = {
 				launch_nuke = {
 					state = PREV
 					controller = FROM
@@ -8739,7 +8846,7 @@ PRC_JUDGEMENT_DAY_NUKING = {
 				limit = {
 						 is_owned_by = FROM
 					}
-				PRC = {
+				XNE = {
 				launch_nuke = {
 					state = PREV
 					controller = FROM
@@ -8770,4 +8877,96 @@ PRC_JUDGEMENT_DAY_NUKING = {
 		}
 	}
 	
+}
+
+GRU_FAUD_FIGHT_REACTIONARY = {
+
+		FAUD_FIGHT_REACTIONARY_DECISION = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				OR = {
+					has_country_flag = GRU_FAUD_reactionary_threat
+					has_country_flag = reactionary_fought_once 
+				}
+				NOT = { has_country_flag = GRU_REACTIONARY_COUPED_GOV }
+			}
+			available = {
+				OR = {
+					has_country_flag = GRU_FAUD_reactionary_threat
+					has_country_flag = reactionary_fought_once 
+				}
+			}
+			days_remove = 50
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				#country_event = russia.39
+				if = {
+					limit = {
+						GRU = { has_country_flag = reactionary_fought_once }
+					}
+					clr_country_flag = reactionary_fought_once
+					clr_country_flag = GRU_FAUD_reactionary_threat
+					set_country_flag = GRU_FAUD_reactionary_dead
+					remove_ideas = reactioanry_resistance_two
+					country_event = rotf.2
+				}
+				else = {
+					set_country_flag = reactionary_fought_once
+					swap_ideas = {
+							remove_idea = reactioanry_resistance_one
+							add_idea = reactioanry_resistance_two
+						}
+					country_event = rotf.1
+				}
+			}
+		}
+
+
+
+
+
+
+		REACTIONARY_COUP  {
+			icon = cat_caf_rebellion
+			allowed = { tag = GRU }
+			visible = {
+				AND = {
+					has_country_flag = GRU_FAUD_rule
+					NOT = { has_country_flag = GRU_REACTIONARY_COUPED_GOV }
+				}
+			}
+			activation = {
+				has_country_flag = GRU_FAUD_rule
+			}
+			available = {
+				hidden_trigger = {
+					always = no
+				}
+			}
+			days_remove = 0
+			
+			#days_mission_timeout = 150
+			days_mission_timeout = 10
+			is_good = no
+			fire_only_once = yes
+			cancel_trigger = {
+				OR = {
+					has_country_flag = GRU_FAUD_reactionary_dead
+					
+				}
+			}
+			timeout_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision timeout REACTIONARY_COUP"
+				country_event = rotf.3
+			}
+		}
+
 }

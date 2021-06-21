@@ -140,6 +140,87 @@ country_event = { #
 			}
 		}
 		###Kazan
+		
+		if = {
+			limit = {
+				1199 = { is_owned_by = RUS }
+			}
+			RRE = {
+				transfer_state = 1199
+			}
+			1199 = { 
+				add_core_of = RRE
+			}
+		}
+		if = {
+			limit = {
+				1193 = { is_owned_by = RUS }
+			}
+			RRE = {
+				transfer_state = 1193
+			}
+			1193 = { 
+				add_core_of = RRE
+			}
+		}
+		if = {
+			limit = {
+				1204 = { is_owned_by = RUS }
+			}
+			RRE = {
+				transfer_state = 1204
+			}
+			1204 = { 
+				add_core_of = RRE
+			}
+		}
+		if = {
+			limit = {
+				1203 = { is_owned_by = RUS }
+			}
+			RRE = {
+				transfer_state = 1203
+			}
+			1203 = { 
+				add_core_of = RRE
+			}
+		}
+		
+		if = {
+			limit = {
+				1198 = { is_owned_by = RUS }
+			}
+			RRE = {
+				transfer_state = 1198
+			}
+			1198 = { 
+				add_core_of = RRE
+			}
+		}
+		if = {
+			limit = {
+				1197 = { is_owned_by = RUS }
+			}
+			RRE = {
+				transfer_state = 1197
+			}
+			1197 = { 
+				add_core_of = RRE
+			}
+		}
+		
+		if = {
+			limit = {
+				1205 = { is_owned_by = RUS }
+			}
+			RRE = {
+				transfer_state = 1205
+			}
+			1205 = { 
+				add_core_of = RRE
+			}
+		}
+		
 		if = {
 			limit = {
 				249 = { is_owned_by = RUS }
@@ -288,13 +369,51 @@ country_event = { #
 			limit = {
 				581 = { is_owned_by = RUS }
 			}
-			RRZ = {
+			RRF = {
 				transfer_state = 581
 			}
 			581 = { 
-				add_core_of = RRZ
+				add_core_of = RRF
 			}
 		}
+		
+		
+		if = {
+			limit = {
+				1196 = { is_owned_by = RUS }
+			}
+			RRF = {
+				transfer_state = 1196
+			}
+			1196 = { 
+				add_core_of = RRF
+			}
+		}
+		
+		if = {
+			limit = {
+				1195 = { is_owned_by = RUS }
+			}
+			RRF = {
+				transfer_state = 1195
+			}
+			1195 = { 
+				add_core_of = RRF
+			}
+		}
+		
+		if = {
+			limit = {
+				1194 = { is_owned_by = RUS }
+			}
+			RRF = {
+				transfer_state = 1194
+			}
+			1194 = { 
+				add_core_of = RRF
+			}
+		}
+		
 		if = {
 			limit = {
 				516 = { is_owned_by = RUS }
@@ -306,6 +425,44 @@ country_event = { #
 				add_core_of = RRV
 			}
 		}
+		
+		
+		if = {
+			limit = {
+				1196 = { is_owned_by = RUS }
+			}
+			RRF = {
+				transfer_state = 1196
+			}
+			1196 = { 
+				add_core_of = RRF
+			}
+		}
+		
+		if = {
+			limit = {
+				1195 = { is_owned_by = RUS }
+			}
+			RRF = {
+				transfer_state = 1195
+			}
+			1195 = { 
+				add_core_of = RRF
+			}
+		}
+		
+		if = {
+			limit = {
+				1201 = { is_owned_by = RUS }
+			}
+			RRV = {
+				transfer_state = 1201
+			}
+			1201 = { 
+				add_core_of = RRV
+			}
+		}
+		
 		###Urals
 		if = {
 			limit = {
@@ -448,6 +605,17 @@ country_event = { #
 				transfer_state = 577
 			}
 			577 = { 
+				add_core_of = RRV
+			}
+		}
+		if = {
+			limit = {
+				1200 = { is_owned_by = RUS }
+			}
+			RRV = {
+				transfer_state = 1200
+			}
+			1200 = { 
 				add_core_of = RRV
 			}
 		}
@@ -865,6 +1033,87 @@ country_event = { #
 			}
 		}
 		###Kazan
+		
+		if = {
+			limit = {
+				1199 = { is_owned_by = SOV }
+			}
+			RRE = {
+				transfer_state = 1199
+			}
+			1199 = { 
+				add_core_of = RRE
+			}
+		}
+		if = {
+			limit = {
+				1193 = { is_owned_by = SOV }
+			}
+			RRE = {
+				transfer_state = 1193
+			}
+			1193 = { 
+				add_core_of = RRE
+			}
+		}
+		if = {
+			limit = {
+				1204 = { is_owned_by = SOV }
+			}
+			RRE = {
+				transfer_state = 1204
+			}
+			1204 = { 
+				add_core_of = RRE
+			}
+		}
+		if = {
+			limit = {
+				1203 = { is_owned_by = SOV }
+			}
+			RRE = {
+				transfer_state = 1203
+			}
+			1203 = { 
+				add_core_of = RRE
+			}
+		}
+		
+		if = {
+			limit = {
+				1198 = { is_owned_by = SOV }
+			}
+			RRE = {
+				transfer_state = 1198
+			}
+			1198 = { 
+				add_core_of = RRE
+			}
+		}
+		if = {
+			limit = {
+				1197 = { is_owned_by = SOV }
+			}
+			RRE = {
+				transfer_state = 1197
+			}
+			1197 = { 
+				add_core_of = RRE
+			}
+		}
+		
+		if = {
+			limit = {
+				1205 = { is_owned_by = SOV }
+			}
+			RRE = {
+				transfer_state = 1205
+			}
+			1205 = { 
+				add_core_of = RRE
+			}
+		}
+		
 		if = {
 			limit = {
 				249 = { is_owned_by = SOV }
@@ -1013,13 +1262,50 @@ country_event = { #
 			limit = {
 				581 = { is_owned_by = SOV }
 			}
-			RRZ = {
+			RRF = {
 				transfer_state = 581
 			}
 			581 = { 
-				add_core_of = RRZ
+				add_core_of = RRF
 			}
 		}
+		
+		if = {
+			limit = {
+				1196 = { is_owned_by = SOV }
+			}
+			RRF = {
+				transfer_state = 1196
+			}
+			1196 = { 
+				add_core_of = RRF
+			}
+		}
+		
+		if = {
+			limit = {
+				1195 = { is_owned_by = SOV }
+			}
+			RRF = {
+				transfer_state = 1195
+			}
+			1195 = { 
+				add_core_of = RRF
+			}
+		}
+		
+		if = {
+			limit = {
+				1194 = { is_owned_by = SOV }
+			}
+			RRF = {
+				transfer_state = 1194
+			}
+			1194 = { 
+				add_core_of = RRF
+			}
+		}
+		
 		if = {
 			limit = {
 				516 = { is_owned_by = SOV }
@@ -1028,6 +1314,18 @@ country_event = { #
 				transfer_state = 516
 			}
 			516 = { 
+				add_core_of = RRV
+			}
+		}
+		
+		if = {
+			limit = {
+				1201 = { is_owned_by = SOV }
+			}
+			RRV = {
+				transfer_state = 1201
+			}
+			1201 = { 
 				add_core_of = RRV
 			}
 		}
@@ -1173,6 +1471,17 @@ country_event = { #
 				transfer_state = 577
 			}
 			577 = { 
+				add_core_of = RRV
+			}
+		}
+		if = {
+			limit = {
+				1200 = { is_owned_by = SOV }
+			}
+			RRV = {
+				transfer_state = 1200
+			}
+			1200 = { 
 				add_core_of = RRV
 			}
 		}
@@ -1343,13 +1652,13 @@ country_event = { #
 		}
 		if = {
 			limit = {
-				861 = { is_owned_by = RUS }
+				861 = { is_owned_by = SOV }
 			}
 			release = UZB
 		}
 		if = {
 			limit = {
-				586 = { is_owned_by = RUS }
+				586 = { is_owned_by = SOV }
 			}
 			release = KYR
 		}

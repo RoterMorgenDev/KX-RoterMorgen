@@ -1,3 +1,9 @@
+
+GRU_FAUD_FIGHT_REACTIONARY = {
+	icon = export_revolution
+	allowed = { tag = GRU }
+}
+
 GRU_hydroelectricity_decisions = {
 	icon = hol_prepare_the_inundation_lines
 	allowed = { tag = GRU }

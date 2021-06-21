@@ -208,6 +208,54 @@ country_event = { #Annexation of Bulgaria
 			}
 		}
 	}
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_government = totalist
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				AND = {
+					has_cosmetic_tag = RUS_EUR
+					has_government = national_populist
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = BUL
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = BUL
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = BUL }
+		recheck_annexations = yes
+	}
 	option = { #occupy
 		name = annex.occupation
 		ai_chance = {
@@ -343,6 +391,54 @@ country_event = { #Romanian liberation
 			789 = { add_claim_by = ROM } #Szeklerland
 		}
 	}
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_government = totalist
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				AND = {
+					has_cosmetic_tag = RUS_EUR
+					has_government = national_populist
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = ROM
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = ROM
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = ROM }
+		recheck_annexations = yes
+	}
 	option = { #occupy
 		name = annex.occupation
 		ai_chance = {
@@ -394,6 +490,54 @@ country_event = { #Serbian liberation
 		hidden_effect = {
 			765 = { add_core_of = SER }
 		}
+	}
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_government = totalist
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				AND = {
+					has_cosmetic_tag = RUS_EUR
+					has_government = national_populist
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = SER
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = SER
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = SER }
+		recheck_annexations = yes
 	}
 	option = { #make Yugoslavia
 		trigger = {
@@ -749,6 +893,7 @@ country_event = { #HUN liberation
 			}
 		}
 	}
+
 	##RedDawn##
 	option = { #Liberate Greater Hungary
 		name = annex.12.k
@@ -1081,6 +1226,54 @@ country_event = { #HUN liberation
 				AUS = { transfer_state = PREV }
 			}
 		}
+	}
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_government = totalist
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				AND = {
+					has_cosmetic_tag = RUS_EUR
+					has_government = national_populist
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = HUN
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = HUN
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = HUN }
+		recheck_annexations = yes
 	}
 	option = { #occupy
 		name = annex.occupation
@@ -2176,6 +2369,54 @@ country_event = { #Liberation of Croatia
 		set_temp_variable = { tag_to_release = CRO }
 		release_targeted_tag = yes
 	}
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_government = totalist
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				AND = {
+					has_cosmetic_tag = RUS_EUR
+					has_government = national_populist
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = CRO
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = CRO
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = CRO }
+		recheck_annexations = yes
+	}
 	option = { #Give to Austria
 		name = annex.20.b
 		trigger = {
@@ -2771,7 +3012,51 @@ country_event = { #Fate of Poland
 		set_temp_variable = { tag_to_release = POL }
 		puppet_released_tag = yes
 	}
-
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_cosmetic_tag = RUS_EUR
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				has_cosmetic_tag = RUS_EUR_empire
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = POL
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = POL
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = POL }
+		recheck_annexations = yes
+	}
 	option = { #occupy
 		name = annex.occupation
 		ai_chance = {
@@ -3087,7 +3372,51 @@ country_event = { #Fate of Finland
 			}
 		}
 	}
-
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_cosmetic_tag = RUS_EUR
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				has_cosmetic_tag = RUS_EUR_empire
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = FIN
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = FIN
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = FIN }
+		recheck_annexations = yes
+	}
 	option = { #occupy
 		name = annex.occupation
 		ai_chance = {
@@ -7339,6 +7668,27 @@ country_event = { #The fate of Georgia
 				}
 			}
 			add_claim_by = ROOT
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = GEO
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
 		}
 		add_political_power = -25
 		add_to_array = { RUS_integration_array = GEO }
@@ -7393,12 +7743,6 @@ country_event = { #Releasing Spain (if not POR)
 			OR = {
 				is_in_faction_with = CAR
 				NOT = { country_exists = CAR }
-			}
-			NOT = {
-				AND = {
-				tag = GRU
-				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
-				}
 			}
 		}
 		ai_chance = {
@@ -7469,12 +7813,6 @@ country_event = { #Releasing Spain (if not POR)
 				is_in_faction_with = SPR
 				NOT = { country_exists = SPR }
 			}
-			NOT = {
-				AND = {
-				tag = GRU
-				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
-				}
-			}
 		}
 		ai_chance = {
 			factor = 95
@@ -7535,6 +7873,7 @@ country_event = { #Releasing Spain (if not POR)
 			}
 		}
 	}
+
 	##RedDawn##
 	option = { #Release/Give to CNT
 		name = annex.73.k
@@ -7728,6 +8067,7 @@ country_event = { #Releasing Spain (if not POR)
 		}
 	}
 	##RedDawn##
+
 	option = { #Release Spanish Republic
 		trigger = {
 			NOT = {
@@ -7736,12 +8076,6 @@ country_event = { #Releasing Spain (if not POR)
 				is_in_faction_with = CNT
 			}
 			has_socialist_government = no
-			NOT = {
-				AND = {
-				tag = GRU
-				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
-				}
-			}
 		}
 
 		name = annex.73.e
@@ -8875,64 +9209,6 @@ country_event = { #fate of Germany
 	}
 }
 
-country_event = { #The fate of Turkmenistan
-	id = annex.78
-	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.78" }
-	title = annexation_TKM_CONQ
-	desc = annexation_TKM_CONQ_desc
-	picture = GFX_report_event_SIK_scenery
-
-	is_triggered_only = yes
-
-	immediate = {
-		hidden_effect = {
-			add_to_temp_array = { core_removal_array = TRK }
-			remove_all_cores_and_claims_of_tags = yes
-		}
-	}
-
-	option = { #Release Turkmenistan
-		name = annex.78.a
-		ai_chance = { base = 20 }
-		TRK = {
-			add_state_core = 584 #Karakum
-		}
-		set_temp_variable = { tag_to_release = TRK }
-		release_targeted_tag = yes
-	}
-
-	option = { #give to Russian ally
-		name = annex.80.e
-		trigger = {
-			any_allied_country = {
-				is_russian_tag = yes
-				owns_state = 219
-			}
-		}
-		ai_chance = { base = 80 }
-		random_other_country = {
-			limit = {
-				is_russian_tag = yes
-				is_ally_with = ROOT
-			}
-			transfer_state = 584 #Karakum
-		}
-	}
-
-	option = { #occupy
-		name = annex.occupation
-		trigger = { is_ai = no }
-		set_country_flag = TKM_CONQ
-		occupy_small_country = yes
-		hidden_effect = {
-			for_each_scope_loop = {
-				array = RUS.RUS_turkestan_region
-				add_core_of = TRK
-			}
-		}
-	}
-}
-
 country_event = { #The fate of Turkestan
 	id = annex.79
 	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.79" }
@@ -8980,56 +9256,58 @@ country_event = { #The fate of Turkestan
 				is_russian_tag = yes
 			}
 		}
-		#Tajikistan
-		hidden_effect = {
-			732 = { #Pamir
-				add_core_of = TAJ
-				remove_core_of = TRK
-			}
-			if = {
-				limit = {
-					586 = { is_valid_annexation_state = no } #Kokand
-				}
-				1042 = { #Osh
-					add_core_of = TAJ
-					remove_core_of = TRK
-				}
-			}
-		}
-		set_temp_variable = { tag_to_release = TAJ }
-		release_targeted_tag = yes
-
+		
 		#Uzbekistan
 		hidden_effect = {
-			405 = { #Bukhara
+			861 = { #Nukus
 				add_core_of = UZB
+				remove_core_of = TRK
+			}
+		}
+		
+		set_temp_variable = { tag_to_release = UZB }
+		release_targeted_tag = yes
+		
+		#Kokand
+		hidden_effect = {
+			586 = { #Pishpek
+				add_core_of = KYR
+				remove_core_of = ALO
+			}
+			1042 = { #Osh
+				add_core_of = KYR
 				remove_core_of = TRK
 			}
 			407 = { #Tashkent
 				add_core_of = UZB
 				remove_core_of = TRK
 			}
-			585 = { #Kyzylkum
-				add_core_of = UZB
-				remove_core_of = TRK
-			}
-			861 = { #Nukus
-				add_core_of = UZB
-				remove_core_of = TRK
-			}
-			712 = { #Kyzylorda
-				add_core_of = UZB
-				remove_core_of = TRK
-			}
 		}
-		set_temp_variable = { tag_to_release = UZB }
+		set_temp_variable = { tag_to_release = KYR }
 		release_targeted_tag = yes
-
+		KYR = { set_cosmetic_tag = KYR_KOK }
+		
 		#Turkestan
 		set_temp_variable = { tag_to_release = TRK }
 		release_targeted_tag = yes
 	}
-
+	option = { #Integrate
+		name = annex.79.c
+		trigger = {
+			OR = {
+				tag = ALO
+				tag = UZB
+				tag = KYR
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = TRK
+				is_claim_or_core_of_ROOT = no
+			}
+			add_core_of = ROOT
+		}
+	}
 	option = { #Integrate
 		name = annex.79.c
 		trigger = {
@@ -9047,12 +9325,51 @@ country_event = { #The fate of Turkestan
 				}
 			}
 			add_claim_by = ROOT
+			remove_claim_by = UZB
+			remove_claim_by = KYR
+			remove_core_of = UZB
+			remove_core_of = KYR
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = TRK
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			
 		}
 		add_political_power = -40
 		add_to_array = { RUS_integration_array = TRK }
 		recheck_annexations = yes
 	}
-
+	option = { #Integrate
+		name = annex.79.c
+		trigger = {
+			tag = ALO
+		}
+		every_state = {
+			limit = {
+				OR = {
+					is_core_of = TRK
+					is_core_of = UZB
+					is_core_of = KYR
+				}
+				is_claim_or_core_of_ROOT = no
+			}
+			add_core_of = ROOT
+		}
+	}
+	
 	option = { #give to Russian ally
 		name = annex.80.e
 		trigger = {
@@ -9104,6 +9421,8 @@ country_event = { #The fate of Central Asia
 		hidden_effect = {
 			add_to_temp_array = { core_removal_array = ALO }
 			add_to_temp_array = { core_removal_array = TRK }
+			add_to_temp_array = { core_removal_array = UZB }
+			add_to_temp_array = { core_removal_array = KYR }
 			remove_all_cores_and_claims_of_tags = yes
 			for_each_scope_loop = {
 				array = RUS.RUS_kazakhstan_region
@@ -9128,6 +9447,8 @@ country_event = { #The fate of Central Asia
 		set_temp_variable = { tag_to_release = ALO }
 		add_to_temp_array = { target_cores_to_release = ALO }
 		add_to_temp_array = { target_cores_to_release = TRK }
+		add_to_temp_array = { target_cores_to_release = UZB }
+		add_to_temp_array = { target_cores_to_release = KYR }
 		release_targeted_tag_from_core_regions_and_add_cores = yes
 		var:tag_to_release = {
 			set_cosmetic_tag = ALO_CAF
@@ -9165,7 +9486,7 @@ country_event = { #The fate of Central Asia
 				is_russian_tag = yes
 			}
 		}
-		#Kyrgyzstan
+		#Kokand
 		hidden_effect = {
 			586 = { #Pishpek
 				add_core_of = KYR
@@ -9175,39 +9496,18 @@ country_event = { #The fate of Central Asia
 				add_core_of = KYR
 				remove_core_of = TRK
 			}
-		}
-		set_temp_variable = { tag_to_release = KYR }
-		release_targeted_tag = yes
-
-		#Tajikistan
-		hidden_effect = {
-			732 = { #Pamir
-				add_core_of = TAJ
-				remove_core_of = TRK
-			}
-		}
-		set_temp_variable = { tag_to_release = TAJ }
-		release_targeted_tag = yes
-
-		#Uzbekistan
-		hidden_effect = {
-			405 = { #Bukhara
-				add_core_of = UZB
-				remove_core_of = TRK
-			}
 			407 = { #Tashkent
 				add_core_of = UZB
 				remove_core_of = TRK
 			}
-			585 = { #Kyzylkum
-				add_core_of = UZB
-				remove_core_of = TRK
-			}
+		}
+		set_temp_variable = { tag_to_release = KYR }
+		release_targeted_tag = yes
+		KYR = { set_cosmetic_tag = KYR_KOK }
+		
+		#Khiva
+		hidden_effect = {
 			861 = { #Nukus
-				add_core_of = UZB
-				remove_core_of = TRK
-			}
-			712 = { #Kyzylorda
 				add_core_of = UZB
 				remove_core_of = TRK
 			}
@@ -9224,11 +9524,7 @@ country_event = { #The fate of Central Asia
 		}
 		set_temp_variable = { tag_to_release = ALO }
 		release_targeted_tag = yes
-		if = {
-			limit = { is_russian_tag = no }
-			ALO = { set_cosmetic_tag = ALO_KAZ }
-		}
-
+		
 		#Turkestan
 		set_temp_variable = { tag_to_release = TRK }
 		release_targeted_tag = yes
@@ -9258,6 +9554,8 @@ country_event = { #The fate of Central Asia
 		add_political_power = -80
 		add_to_array = { RUS_integration_array = ALO }
 		add_to_array = { RUS_integration_array = TRK }
+		add_to_array = { RUS_integration_array = KYR }
+		add_to_array = { RUS_integration_array = UZB }
 		recheck_annexations = yes
 	}
 
@@ -9272,6 +9570,8 @@ country_event = { #The fate of Central Asia
 		ai_chance = { base = 80 }
 		add_to_temp_array = { target_cores_to_release = ALO }
 		add_to_temp_array = { target_cores_to_release = TRK }
+		add_to_temp_array = { target_cores_to_release = UZB }
+		add_to_temp_array = { target_cores_to_release = KYR }
 		hidden_effect = {
 			for_each_scope_loop = {
 				array = RUS.RUS_turkestan_region
@@ -9314,11 +9614,7 @@ country_event = { #The fate of Uzbekistan
 	immediate = {
 		hidden_effect = {
 			UZB = {
-				add_state_core = 405 #Bukhara
-				add_state_core = 407 #Tashkent
-				add_state_core = 585 #Kyzyl Kum
 				add_state_core = 861 #Nukus
-				add_state_core = 712 #Kyzylorda
 			}
 		}
 	}
@@ -9351,57 +9647,28 @@ country_event = { #The fate of Uzbekistan
 		}
 		transfer_territory_from_core_regions = yes
 	}
-
+	option = { #Integrate
+		name = annex.79.c
+		trigger = {
+			OR = {
+				tag = ALO
+				tag = KYR
+				tag = TRK
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = UZB
+				is_claim_or_core_of_ROOT = no
+			}
+			add_core_of = ROOT
+		}
+	}
 	option = { #occupy
 		name = annex.occupation
 		trigger = { is_ai = no }
 		set_country_flag = UZB_CONQ
 		occupy_medium_country = yes
-	}
-}
-
-country_event = { #The fate of Tajikistan
-	id = annex.86
-	immediate = { log = "[GetDateText]: [Root.GetName]: event annex.86" }
-	title = annexation_TAJ_CONQ
-	desc = annexation_TAJ_CONQ_desc
-	picture = GFX_report_event_SIK_scenery
-
-	is_triggered_only = yes
-
-	option = { #Release Tajikistan
-		name = annex.86.a
-		ai_chance = { base = 20 }
-		TAJ = {
-			add_state_core = 732 #Ferghana
-		}
-		set_temp_variable = { tag_to_release = TAJ }
-		release_targeted_tag = yes
-	}
-
-	option = { #give to Russian ally
-		name = annex.80.e
-		trigger = {
-			any_allied_country = {
-				is_russian_tag = yes
-				owns_state = 219
-			}
-		}
-		ai_chance = { base = 80 }
-		random_other_country = {
-			limit = {
-				is_russian_tag = yes
-				owns_state = 219
-			}
-			transfer_state = 732 #Pamir
-		}
-	}
-
-	option = { #occupy
-		name = annex.occupation
-		trigger = { is_ai = no }
-		set_country_flag = TAJ_CONQ
-		occupy_small_country = yes
 	}
 }
 
@@ -9420,9 +9687,11 @@ country_event = { #The fate of Kyrgyzstan
 		KYR = {
 			add_state_core = 586 #Pishpek
 			add_state_core = 1042 #Osh
+			add_state_core = 407 #Osh
 		}
 		set_temp_variable = { tag_to_release = KYR }
 		release_targeted_tag = yes
+		KYR = { set_cosmetic_tag = KYR_KOK }
 	}
 
 	option = { #give to Russian ally
@@ -9444,9 +9713,29 @@ country_event = { #The fate of Kyrgyzstan
 				limit = { ROOT = { owns_state = 1042 } }
 				transfer_state = 1042
 			}
+			if = {
+				limit = { ROOT = { owns_state = 407 } }
+				transfer_state = 407
+			}
 		}
 	}
-
+	option = { #Integrate
+		name = annex.79.c
+		trigger = {
+			OR = {
+				tag = ALO
+				tag = UZB
+				tag = TRK
+			}
+		}
+		every_state = {
+			limit = {
+				is_core_of = KYR
+				is_claim_or_core_of_ROOT = no
+			}
+			add_core_of = ROOT
+		}
+	}
 	option = { #occupy
 		name = annex.occupation
 		trigger = { is_ai = no }
@@ -9486,10 +9775,6 @@ country_event = { #The fate of Kazakhstan
 		}
 		set_temp_variable = { tag_to_release = ALO }
 		release_targeted_tag = yes
-		if = {
-			limit = { is_russian_tag = no }
-			ALO = { set_cosmetic_tag = ALO_KAZ }
-		}
 	}
 
 	option = { #Split Kyrgyzstan off
@@ -9509,18 +9794,34 @@ country_event = { #The fate of Kazakhstan
 		KYR = {
 			add_state_core = 586 #Pishpek
 			add_state_core = 1042 #Osh
+			add_state_core = 407 #Osh
 		}
 		set_temp_variable = { tag_to_release = KYR }
 		release_targeted_tag = yes
+		KYR = { set_cosmetic_tag = KYR_KOK }
 
 		set_temp_variable = { tag_to_release = ALO }
 		release_targeted_tag = yes
-		if = {
-			limit = { is_russian_tag = no }
-			ALO = { set_cosmetic_tag = ALO_KAZ }
+	}
+	option = { #Integrate
+		name = annex.88.c
+		trigger = {
+			OR = {
+				tag = KYR
+				tag = TRK
+				tag = UZB
+			}
+		}
+		every_state = {
+			limit = {
+				OR = {
+					is_core_of = ALO
+				}
+				is_claim_or_core_of_ROOT = no
+			}
+			add_core_of = ROOT
 		}
 	}
-
 	option = { #Integrate
 		name = annex.88.c
 		trigger = {
@@ -9538,8 +9839,29 @@ country_event = { #The fate of Kazakhstan
 				}
 			}
 			add_claim_by = ROOT
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = ALO
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
 		}
-		add_political_power = -40
+		add_political_power = -10
 		add_to_array = { RUS_integration_array = ALO }
 		recheck_annexations = yes
 	}
@@ -10280,7 +10602,52 @@ country_event = { #The Annexation of Persia
 			}
 		}
 	}
-
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_government = totalist
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				has_cosmetic_tag = RUS_EUR
+				has_cosmetic_tag = RUS_EUR_empire
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = PER
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = PER
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = PER }
+		recheck_annexations = yes
+	}
 	option = { #occupy
 		name = annex.occupation
 		trigger = { is_ai = no }
@@ -10532,6 +10899,27 @@ country_event = { #The Annexation of Armenia
 				}
 			}
 			add_claim_by = ROOT
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = ARM
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
 		}
 		add_political_power = -20
 		add_to_array = { RUS_integration_array = ARM }
@@ -10638,6 +11026,27 @@ country_event = { #The Annexation of Azerbaijan
 				}
 			}
 			add_claim_by = ROOT
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = AZE
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
 		}
 		add_political_power = -20
 		add_to_array = { RUS_integration_array = AZE }
@@ -10855,7 +11264,52 @@ country_event = { #The Annexation of Afghanistan
 		set_temp_variable = { tag_to_release = AFG }
 		release_targeted_tag = yes
 	}
-
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_government = totalist
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				has_cosmetic_tag = RUS_EUR
+				has_cosmetic_tag = RUS_EUR_empire
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = AFG
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = AFG
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = AFG }
+		recheck_annexations = yes
+	}
 	option = { #occupy
 
 		name = annex.occupation
@@ -11658,6 +12112,54 @@ country_event = { #The Conquest of Bohemia
 		}
 		else = { transfer_territory_from_core_regions = yes }
 	}
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_government = totalist
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				AND = {
+					has_cosmetic_tag = RUS_EUR
+					has_government = national_populist
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = CZE
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = CZE
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = CZE }
+		recheck_annexations = yes
+	}
 	option = { #occupation
 		name = annex.occupation
 		ai_chance = {
@@ -11666,6 +12168,7 @@ country_event = { #The Conquest of Bohemia
 		occupy_medium_country = yes
 		set_country_flag = CZE_CONQ
 	}
+	
 }
 
 country_event = { #The Annexation of the Ukraine
@@ -11750,6 +12253,27 @@ country_event = { #The Annexation of the Ukraine
 				is_claim_or_core_of_ROOT = no
 			}
 			add_claim_by = ROOT
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = UKR
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
 		}
 		add_political_power = -100
 		add_to_array = { RUS_integration_array = UKR }
@@ -12986,14 +13510,15 @@ country_event = { #Fate of Haiti
 					has_country_leader = { name = "John Russell" ruling_only = yes }
 				}
 			}
+			HAI = {
 			create_country_leader = {
-				name = "Franck Lavaud"
-				desc = "POLITICS_FRANCK_LAVAUD_DESC"
-				picture = "Portrait_Haiti_Frank_Lavaud.tga"
-				expire = "1965.1.1"
-				ideology = paternal_autocrat_subtype
-				traits = {}
-			}
+			name = "Franck Lavaud"
+			desc = "POLITICS_FRANCK_LAVAUD_DESC"
+			picture = "Portrait_Haiti_Frank_Lavaud.tga"
+			expire = "1965.1.1"
+			ideology = authoritarian_democrat_subtype
+			traits = { disciplined_soldier head_of_the_garde the_dynamic_duo }
+		}
 		}
 		else_if = {
 			limit = {
@@ -13010,14 +13535,18 @@ country_event = { #Fate of Haiti
 					}
 				}
 			}
+			HAI = {
 			create_country_leader = {
-				name = "John Russell"
-				desc = "POLITICS_JOHN_RUSSELL_DESC"
-				picture = "Portrait_Haiti_John_Russell.tga"
-				expire = "1965.1.1"
-				ideology = paternal_autocrat_subtype
+			name = "Paul Magloire"
+			desc = "POLITICS_PAUL_MAGLOIRE_DESC"
+			picture = "Portrait_Haiti_Paul_Magloire.tga"
+			expire = "1965.1.1"
+			ideology = authoritarian_democrat_subtype
+			traits = { guiding_hand_of_haiti military_backing the_dynamic_duo }
+			}
 			}
 		}
+	}
 	}
 	option = {
 		name = annex.272.c #give it to CAF
@@ -13729,6 +14258,54 @@ country_event = { #Fate of Galicia
 			}
 		}
 	}
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_government = totalist
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				AND = {
+					has_cosmetic_tag = RUS_EUR
+					has_government = national_populist
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = GAL
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = GAL
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = GAL }
+		recheck_annexations = yes
+	}
 	option = { #Occupy Galicia
 		name = annex.occupation
 		trigger = {
@@ -13841,6 +14418,27 @@ country_event = { #Fate of Belarus
 				}
 			}
 			add_claim_by = ROOT
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = WHR
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
 		}
 		add_political_power = -50
 		add_to_array = { RUS_integration_array = WHR }
@@ -14583,6 +15181,54 @@ country_event = { #Liberation of Bosnia
 			SER = { transfer_state = PREV }
 		}
 	}
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_government = totalist
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				AND = {
+					has_cosmetic_tag = RUS_EUR
+					has_government = national_populist
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = BOS
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = BOS
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = BOS }
+		recheck_annexations = yes
+	}
 	option = { #annex
 		name = annex.17.h
 		trigger = {
@@ -14816,6 +15462,54 @@ country_event = { #Liberation of Montenegro
 			}
 			SER = { transfer_state = PREV }
 		}
+	}
+	option = { #integrate
+		name = eurasian_integration.option
+		trigger = {
+			tag = RUS
+			OR = {
+				has_government = totalist
+				has_cosmetic_tag = RUS_EUR_bolshevist
+				has_cosmetic_tag = RUS_EUR_national_maximalist
+				AND = {
+					has_cosmetic_tag = RUS_EUR
+					has_government = national_populist
+				}
+			}
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = MNT
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = MNT
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -25
+		add_to_array = { RUS_integration_array = MNT }
+		recheck_annexations = yes
 	}
 	option = { #occupy
 		name = annex.occupation
@@ -17396,6 +18090,27 @@ country_event = { #Fate of Lithuania
 				is_claim_or_core_of_ROOT = no
 			}
 			add_claim_by = ROOT
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = LIT
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
 		}
 		add_political_power = -40
 		add_to_array = { RUS_integration_array = LIT }
@@ -17636,7 +18351,47 @@ country_event = { #Fate of Don
 			}
 		}
 	}
-
+	option = { #Form Don-Kuban Union
+		name = annex.168.e
+		trigger = {
+			tag = KUB
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_state = {
+			limit = {
+				OR = {
+					is_core_of = DKB
+				}
+				is_claim_or_core_of_ROOT = no
+			}
+			add_core_of = ROOT
+		}
+		set_cosmetic_tag = DKB_union
+	}
+	option = { #Form Don-Kuban Union not Kuban
+		name = annex.168.e
+		trigger = {
+			KUB = { is_subject_of = ROOT }
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_state = {
+			limit = {
+				OR = {
+					is_core_of = DKB
+				}
+				NOT = { is_claimed_by = KUB }
+				NOT = { is_core_of = KUB }
+				is_claim_or_core_of_ROOT = no
+			}
+			add_core_of = KUB
+		}
+		KUB = { set_cosmetic_tag = DKB_union }
+	}
+		
 	option = { #Integrate
 		name = annex.168.b
 		trigger = {
@@ -18471,6 +19226,7 @@ country_event = { #Fate of China
 		release_chinese_government = yes
 		CHI = {
 			set_cosmetic_tag = CHI_ROC
+			hidden_effect = { set_potential_national_government = yes }
 		}
 	}
 
@@ -18930,6 +19686,22 @@ country_event = { #Fate of China
 		}
 		occupy_massive_country = yes
 		set_country_flag = CHI_CONQ
+		if = {
+			limit = {
+				tag = LEC 
+				NOT = {
+					has_country_flag = LEC_Triad_Power
+				}
+			}
+			set_cosmetic_tag = LEC_china
+		}
+		else_if = {
+			limit = {
+				tag = LEC
+				has_country_flag = LEC_Triad_Power
+			}
+			set_cosmetic_tag = LEC_china_triad
+		}
 	}
 }
 
@@ -18994,6 +19766,10 @@ country_event = { #Fate of Mongolia
 					has_idea = RUS_Lev_N_Gumilov_for_pau
 					has_idea = RUS_Konstantin_A_Chkheidze_eco_ade
 					has_idea = RUS_Pyetr_N_Savitskiy_sec_ade
+					has_cosmetic_tag = RUS_EUR
+					has_cosmetic_tag = RUS_EUR_national_maximalist
+					has_cosmetic_tag = RUS_EUR_empire
+					has_cosmetic_tag = RUS_EUR_bolshevist
 				}
 			}
 		}
@@ -19009,6 +19785,27 @@ country_event = { #Fate of Mongolia
 				}
 			}
 			add_claim_by = ROOT
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = MON
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
 		}
 		add_political_power = -25
 		add_to_array = { RUS_integration_array = MON }
@@ -19759,11 +20556,25 @@ country_event = { #Fate of Manchuria
 					has_idea = RUS_Lev_N_Gumilov_for_pau
 					has_idea = RUS_Konstantin_A_Chkheidze_eco_ade
 					has_idea = RUS_Pyetr_N_Savitskiy_sec_ade
+					has_cosmetic_tag = RUS_EUR
+					has_cosmetic_tag = RUS_EUR_national_maximalist
+					has_cosmetic_tag = RUS_EUR_empire
+					has_cosmetic_tag = RUS_EUR_bolshevist
 				}
 			}
 		}
 		ai_chance = {
 			factor = 100
+		}
+		
+		every_owned_state = {
+			limit = {
+				is_manchuria = yes
+				is_not_claim_or_core_of_ROOT = yes
+			}
+			MAN = {
+				add_state_core = PREV
+			}
 		}
 		every_owned_state = {
 			limit = {
@@ -19773,7 +20584,29 @@ country_event = { #Fate of Manchuria
 					is_claimed_by = ROOT
 				}
 			}
+			remove_cores_of_dead_tags = yes
 			add_claim_by = ROOT
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = MAN
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
 		}
 		add_political_power = -25
 		add_to_array = { RUS_integration_array = MAN }
@@ -19863,12 +20696,17 @@ country_event = { #Fate of Xinjiang
 					has_idea = RUS_Lev_N_Gumilov_for_pau
 					has_idea = RUS_Konstantin_A_Chkheidze_eco_ade
 					has_idea = RUS_Pyetr_N_Savitskiy_sec_ade
+					has_cosmetic_tag = RUS_EUR
+					has_cosmetic_tag = RUS_EUR_national_maximalist
+					has_cosmetic_tag = RUS_EUR_empire
+					has_cosmetic_tag = RUS_EUR_bolshevist
 				}
 			}
 		}
 		ai_chance = {
 			factor = 100
 		}
+		remove_cores_of_dead_tags  = yes
 		every_owned_state = {
 			limit = {
 				region = 221
@@ -19878,6 +20716,27 @@ country_event = { #Fate of Xinjiang
 				}
 			}
 			add_claim_by = ROOT
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = EST
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
 		}
 		add_political_power = -25
 		add_to_array = { RUS_integration_array = ETS }
@@ -24731,7 +25590,7 @@ country_event = { #The Annexation of Galicia
 		set_temp_variable = { tag_to_release = GLC }
 		release_targeted_tag = yes
 	}
-
+	
 	option = { #occupy
 
 		name = annex.264.a
@@ -26294,12 +27153,6 @@ country_event = { #The Fate of Italy
 				ITA = { is_ally_of_ROOT = yes }
 				SRI = { is_ally_of_ROOT = yes }
 			}
-			NOT = {
-			AND = {
-				tag = GRU
-				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
-			}
-			}
 		}
 		ai_chance = {
 			factor = 95
@@ -26423,12 +27276,6 @@ country_event = { #The Fate of Italy
 				country_exists = ITA
 				ITA = { is_ally_of_ROOT = yes }
 				SRI = { is_ally_of_ROOT = yes }
-			}
-			NOT = {
-			AND = {
-				tag = GRU
-				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
-			}
 			}
 		}
 		ai_chance = {
@@ -29920,12 +30767,6 @@ country_event = { #The Fate of Southern Italy
 		trigger = {
 			has_socialist_government = no
 			NOT = { country_exists = SIC }
-			NOT = {
-			AND = {
-				tag = GRU
-				GRU = { has_country_leader = { name = "Josef Goebbels" ruling_only = yes }}
-			}
-			}
 		}
 		ai_chance = {
 			factor = 50
@@ -33807,11 +34648,10 @@ country_event = { #Fate of KUBAN
 			}
 		}
 	}
-
-	option = { #Integrate
-		name = annex.400.b
+	option = { #Form Don-Kuban Union
+		name = annex.168.e
 		trigger = {
-			is_russian_tag = yes
+			tag = DKB
 		}
 		ai_chance = {
 			base = 100
@@ -33823,9 +34663,67 @@ country_event = { #Fate of KUBAN
 				}
 				is_claim_or_core_of_ROOT = no
 			}
-			add_claim_by = ROOT
+			add_core_of = ROOT
 		}
-		add_political_power = -50
+		set_cosmetic_tag = DKB_union
+	}
+	option = { #Form Don-Kuban Union not Kuban
+		name = annex.168.e
+		trigger = {
+			DKB = { is_subject_of = ROOT }
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_state = {
+			limit = {
+				OR = {
+					is_core_of = KUB
+				}
+				NOT = { is_claimed_by = DKB }
+				NOT = { is_core_of = DKB }
+				is_claim_or_core_of_ROOT = no
+			}
+			add_core_of = DKB
+		}
+		DKB = { set_cosmetic_tag = DKB_union }
+	}
+	option = { #Integrate
+		name = annex.400.b
+		trigger = {
+			is_russian_tag = yes
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = KUB
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = KUB
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -20
 		add_to_array = { RUS_integration_array = KUB }
 		recheck_annexations = yes
 	}
@@ -33914,10 +34812,13 @@ country_event = { #Fate of Kalmykia
 		transfer_territory_from_core_regions = yes
 		recheck_annexations = yes
 	}
-	option = { #Integrate
+	option = { #Integrate not russia
 		name = annex.401.b
 		trigger = {
-			is_russian_tag = yes
+			OR = {
+				tag = DKB
+				tag = KUB
+			}
 		}
 		ai_chance = {
 			base = 100
@@ -33929,9 +34830,46 @@ country_event = { #Fate of Kalmykia
 				}
 				is_claim_or_core_of_ROOT = no
 			}
-			add_claim_by = ROOT
+			add_core_of = ROOT
 		}
-		add_political_power = -50
+	}
+		
+	option = { #Integrate
+		name = annex.401.b
+		trigger = {
+			is_russian_tag = yes
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = KLY
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = KLY
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -20
 		add_to_array = { RUS_integration_array = KLY }
 		recheck_annexations = yes
 	}
@@ -33995,11 +34933,13 @@ country_event = { #Fate of Mountain Republic
 		set_temp_variable = { tag_to_release = MTR }
 		release_targeted_tag = yes
 	}
-
-	option = { #Integrate
+	option = { #Integrate not russia
 		name = annex.402.b
 		trigger = {
-			is_russian_tag = yes
+			OR = {
+				tag = DKB
+				tag = KUB
+			}
 		}
 		ai_chance = {
 			base = 100
@@ -34011,7 +34951,43 @@ country_event = { #Fate of Mountain Republic
 				}
 				is_claim_or_core_of_ROOT = no
 			}
-			add_claim_by = ROOT
+			add_core_of = ROOT
+		}
+	}
+	option = { #Integrate
+		name = annex.402.b
+		trigger = {
+			is_russian_tag = yes
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_owned_state = {
+			limit = {
+				is_core_of = MTR
+				is_claim_or_core_of_ROOT = no
+			}
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = MTR
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
 		}
 		add_political_power = -50
 		add_to_array = { RUS_integration_array = MTR }
