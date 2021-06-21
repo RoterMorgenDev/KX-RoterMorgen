@@ -12,7 +12,6 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_START"
-			add_ideas = BAY_A_PURE_MONARCHY
 		}
 	}
 	focus = {
@@ -24,10 +23,6 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_EMPOWER_MONARCHY"
-			swap_ideas = {
-					remove_idea = BAY_A_PURE_MONARCHY
-					add_idea = BAY_EMPOWERED_MONARCHY
-			}
 		}
 		prerequisite = { focus = BAY_NATPOP_START  }
 	}
@@ -40,20 +35,6 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_CRACK_DOWN_ON_THE_LEFT"
-			add_ideas = BAY_CRACKDOWN_LEFT
-			add_stability = -0.1
-			hidden_effect = {
-				swap_ideas = {
-					remove_idea = BAY_LEFT_RESISTANCE
-					add_idea = BAY_LEFT_RESISTANCE_1
-				}
-				country_event = {
-					id = BAYCollapse.1
-					days = 4
-				}
-					
-			}
-	
 		}
 		prerequisite = { focus = BAY_NATPOP_START  }
 	}
@@ -66,12 +47,6 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_RALLY_THE_RIGHT"
-			add_war_support = 0.1
-			add_ideas = BAY_RIGHT_RALLIES
-			country_event = {
-				id = BAYCollapse.2
-				days = 1
-			}
 		}
 		prerequisite = { focus = BAY_NATPOP_START  }
 	}
@@ -84,16 +59,6 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_BAN_PARTIES"
-			swap_ideas = {
-					remove_ideas = BAY_CRACKDOWN_LEFT
-					add_ideas = BAY_BANNED_LEFT
-			}
-			hidden_effect = {
-				swap_ideas = {
-					remove_ideas = BAY_LEFT_RESISTANCE_1
-					add_ideas = BAY_LEFT_RESISTANCE_2
-				}
-			}
 		}
 		prerequisite = { focus = BAY_NATPOP_CRACK_DOWN_ON_THE_LEFT  }
 		prerequisite = { focus = BAY_NATPOP_EMPOWER_MONARCHY  }
@@ -107,42 +72,19 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_DEPLOY_PARAMILITARY"
-			add_ideas = BAY_RIGHT_PARAMILITARIES
 		}
 		prerequisite = { focus = BAY_NATPOP_RALLY_THE_RIGHT  }
 		prerequisite = { focus = BAY_NATPOP_EMPOWER_MONARCHY  }
 	}
-	focus = { #GET CLAIMS ON GERMANY#
+	focus = {
 		id = BAY_NATPOP_NEW_SOUTH_GERMANY
 		icon = BAY_NEW_SOUTH
 		relative_position_id = BAY_NATPOP_START
 		x = 0
 		y = 3
-		cost = 10
+		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_NEW_SOUTH_GERMANY"
-			custom_effect_tooltip = BAY_NEW_SOUTHERN_GERMANY
-			remove_ideas = BAY_LEFT_RESISTANCE_2
-			add_ideas = BAY_NEW_SOUTH_GERMANY
-			set_cosmetic_tag = BAY_NEW_SOUTH_GERMANY
-			hidden_effect = {
-				WGR = {
-					every_owned_state = {
-						add_claim_by = BAY
-					}
-				}
-				DDR = {
-					every_owned_state = {
-						add_claim_by = BAY
-					}
-				}
-				NGF = {
-					every_owned_state = {
-						add_claim_by = BAY
-					}
-				}
-			}	
-				
 		}
 		prerequisite = { focus = BAY_NATPOP_BAN_PARTIES  }
 		prerequisite = { focus = BAY_NATPOP_DEPLOY_PARAMILITARY  }
@@ -156,10 +98,6 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_CORPORATE_MONARCHY"
-			replace_ideas = {
-					remove_idea = BAY_EMPOWERED_MONARCHY
-					add_idea = BAY_CORPORATE_MONARCHY
-			}
 		}
 		prerequisite = { focus = BAY_NATPOP_NEW_SOUTH_GERMANY  }
 	}
@@ -172,37 +110,6 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_NEW_MILITARY_INDUSTRY"
-			random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-			random_owned_state = {
-				limit = {
-					free_building_slots = {
-						building = arms_factory
-						size > 1
-						include_locked = yes
-					}
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}	
-			add_ideas = BAY_NEW_MILITARY_INDUSTRIES
 		}
 		prerequisite = { focus = BAY_NATPOP_NEW_SOUTH_GERMANY  }
 	}
@@ -476,19 +383,6 @@ focus_tree = {
 		x = -5
 		y = 7
 		cost = 6
-		available = {
-			AUS = {
-				has_government = national_populist
-				has_country_leader = {
-					name = "Engelbert Dollfuss"
-					ruling_only = yes
-				}
-				NOT = {
-					is_puppet = yes
-				}
-			}
-		}
-				
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_AUSTRIAN_FUTURE"
 		}
@@ -501,18 +395,6 @@ focus_tree = {
 		x = -1
 		y = 1
 		cost = 6
-		available = {
-			AUS = {
-				has_government = national_populist
-				has_country_leader = {
-					name = "Engelbert Dollfuss"
-					ruling_only = yes
-				}
-				NOT = {
-					is_puppet = yes
-				}
-			}
-		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_JOIN_THE_AUSTRIAN_ALLIANCE"
 		}
@@ -526,18 +408,6 @@ focus_tree = {
 		x = 1
 		y = 1
 		cost = 6
-		available = {
-			AUS = {
-				has_government = national_populist
-				has_country_leader = {
-					name = "Engelbert Dollfuss"
-					ruling_only = yes
-				}
-				NOT = {
-					is_puppet = yes
-				}
-			}
-		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_JOIN_AUSTRIA"
 		}
