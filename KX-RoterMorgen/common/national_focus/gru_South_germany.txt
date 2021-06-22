@@ -112,7 +112,7 @@ focus_tree = {
 		prerequisite = { focus = BAY_NATPOP_RALLY_THE_RIGHT  }
 		prerequisite = { focus = BAY_NATPOP_EMPOWER_MONARCHY  }
 	}
-	focus = { #GET CLAIMS ON GERMANY#
+	focus = { #
 		id = BAY_NATPOP_NEW_SOUTH_GERMANY
 		icon = BAY_NEW_SOUTH
 		relative_position_id = BAY_NATPOP_START
@@ -125,24 +125,6 @@ focus_tree = {
 			remove_ideas = BAY_LEFT_RESISTANCE_2
 			add_ideas = BAY_NEW_SOUTH_GERMANY
 			set_cosmetic_tag = BAY_NEW_SOUTH_GERMANY
-			hidden_effect = {
-				WGR = {
-					every_owned_state = {
-						add_claim_by = BAY
-					}
-				}
-				DDR = {
-					every_owned_state = {
-						add_claim_by = BAY
-					}
-				}
-				NGF = {
-					every_owned_state = {
-						add_claim_by = BAY
-					}
-				}
-			}	
-				
 		}
 		prerequisite = { focus = BAY_NATPOP_BAN_PARTIES  }
 		prerequisite = { focus = BAY_NATPOP_DEPLOY_PARAMILITARY  }
@@ -297,7 +279,7 @@ focus_tree = {
 		prerequisite = { focus = BAY_NATPOP_PRIORIZE_THE_MILITARY  }
 		prerequisite = { focus = BAY_NATPOP_FAMILY_SUBSIDES  }
 	}
-	focus = {
+	focus = { # ADD CLAIMS AAAAAAAAA
 		id = BAY_NATPOP_FRANKISH_AMBITION
 		icon = BAY_FRANKISH_DREAM
 		relative_position_id = BAY_NATPOP_START
@@ -308,6 +290,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_FRANKISH_AMBITION"
 		}
 		prerequisite = { focus = BAY_NATPOP_OUR_FUTURE  }
+		mutually_exclusive = { focus = BAY_NATPOP_SOUTH_GERMAN_AMBITION focus = BAY_NATPOP_AUSTRIAN_FUTURE }
 	}
 	
 	focus = {
@@ -319,6 +302,15 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_TAKE_SWITZERLAND"
+			declare_war_on = {
+				target = SWI
+				type = annex_everything
+			}
+		}
+		bypass = {
+			NOT = {
+				country_exists = SWI
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_FRANKISH_AMBITION  }
 	}
@@ -330,7 +322,16 @@ focus_tree = {
 		y = 1
 		cost = 6
 		completion_reward = {
+			declare_war_on = {
+				target = AUS
+				type = annex_everything
+			}
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_TAKE_AUSTRIA"
+		}
+		bypass = {
+			NOT = {
+				country_exists = AUS
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_FRANKISH_AMBITION  }
 	}
@@ -343,6 +344,44 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_RETAKE_GERMANY"
+			declare_war_on = {
+				target = WGR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = DDR
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = NGF
+				type = annex_everything
+			}
+			hidden_effect = {
+				WGR = {
+					every_owned_state = {
+						limit = {
+							is_core_of = WGR
+						}
+						add_core_of = BAY
+					}
+				}
+				DDR = {
+					every_owned_state = {
+						limit = {
+							is_core_of = DDR
+						}
+						add_core_of = BAY
+					}
+				}
+				NGF = {
+					every_owned_state = {
+						limit = {
+							is_core_of = NGF
+						}
+						add_core_of = BAY
+					}
+				}
+				
 		}
 		prerequisite = { focus = BAY_NATPOP_TAKE_SWITZERLAND  }
 		prerequisite = { focus = BAY_NATPOP_TAKE_AUSTRIA  }
@@ -356,7 +395,44 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_END_THE_FRENCH_MENACE"
+			if = {
+				limit = { country_exists = FRA }
+				declare_war_on = {
+    					target = FRA
+    					type = annex_everything
+				}
+			}
+			if = {
+				limit = { 
+					NOT = {
+						country_exists = FRA
+					}
+					country_exists = NFA
+					NFA = {
+						owns_state = 14
+					}
+				}
+				declare_war_on = {
+					target = NFA
+					type = annex_everything
+				}
+			}
+					
 		}
+		bypass = {
+			OR = {
+				NOT = {
+					country_exists = FRA
+				}
+				owns_state = 14
+			}
+			OR = {
+				NOT = {
+					country_exists = FRA
+					country_exists = NFA
+				}
+			}
+		}	
 		prerequisite = { focus = BAY_NATPOP_TAKE_SWITZERLAND  }
 		prerequisite = { focus = BAY_NATPOP_TAKE_AUSTRIA  }
 	}
@@ -369,11 +445,52 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_TAKE_NORTH_ITALY"
+			if = {
+				limit = {
+					country_exists = ITA
+					country_exists = SRI
+				}
+				declare_war_on = {
+    					target = ITA
+    					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					country_exists = ITA
+					NOT = {
+						country_exists = SRI
+					}
+				}
+				declare_war_on = {
+    					target = ITA
+    					type = annex_everything
+				}
+			}
+			if = {
+				limit = {
+					country_exists = SRI
+					NOT = {
+						country_exists = ITA
+					}
+					SRI = { owns_state = 2 }
+				}
+				declare_war_on = {
+					target = SRI
+					type = annex_everything
+				}
+			}		
+		}
+		bypass = {
+			NOT = {
+				country_exists = ITA
+				country_exists = SRI	
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_TAKE_SWITZERLAND  }
 		prerequisite = { focus = BAY_NATPOP_TAKE_AUSTRIA  }
 	}
-	focus = {
+	focus = { #ADD CORES and checks for if they own the land
 		id = BAY_NATPOP_FRANCONIAN_EMPIRE
 		icon = BAY
 		relative_position_id = BAY_NATPOP_FRANKISH_AMBITION
@@ -381,6 +498,7 @@ focus_tree = {
 		y = 3
 		cost = 6
 		completion_reward = {
+			set_cosmetic_tag = BAY_FRANCONIAN_EMPIRE
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_FRANCONIAN_EMPIRE"
 		}
 		prerequisite = { focus = BAY_NATPOP_RETAKE_GERMANY  }
@@ -434,8 +552,10 @@ focus_tree = {
 		x = 5
 		y = 7
 		cost = 6
+		mutually_exclusive = { focus = BAY_NATPOP_FRANKISH_AMBITION focus = BAY_NATPOP_AUSTRIAN_FUTURE }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_SOUTH_GERMAN_AMBITION"
+			custom_effect_tooltip = BAY_SOUTH_GERMANY_AMBITIONS
 		}
 		prerequisite = { focus = BAY_NATPOP_OUR_FUTURE  }
 	}
@@ -449,6 +569,10 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_TAKE_AUSTRIA"
+			declare_war_on = {
+				target = AUS
+				type = annex_everything
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_SOUTH_GERMAN_AMBITION  }
 	}
@@ -462,6 +586,10 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_TAKE_SWITZERLAND"
+			declare_war_on = {
+				target = SWI
+				type = annex_everything
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_SOUTH_GERMAN_AMBITION  }
 	}
@@ -475,6 +603,22 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_THE_SOUTH_GERMAN_KINGDOM"
+			set_cosmetic_tag = BAY_SOUTH_GERMAN_KINGDOM
+			SWI = {
+				every_owned_state = {
+					limit = {
+						is_core_of = SWI
+					}
+					add_core_of = BAY
+				}
+			}
+			AUS = {
+				every_owned_state = {
+					limit = {
+						is_core_of = AUS
+					}
+					add_core_of = BAY
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_SOUTH_TAKE_AUSTRIA  }
 		prerequisite = { focus = BAY_NATPOP_SOUTH_TAKE_SWITZERLAND  }
@@ -505,7 +649,10 @@ focus_tree = {
 				
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_AUSTRIAN_FUTURE"
+			custom_effect_tooltip = BAY_AUSTRIAN_FUTURE
+			add_opinion_modifier = { target = AUS modifier = KR_close_allies }
 		}
+		mutually_exclusive = { focus = BAY_NATPOP_FRANKISH_AMBITION focus = BAY_SOUTH_GERMAN_AMBITION }
 		prerequisite = { focus = BAY_NATPOP_OUR_FUTURE  }
 	}
 	focus = {
@@ -529,6 +676,11 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_JOIN_THE_AUSTRIAN_ALLIANCE"
+			custom_effect_tooltip = BAY_JOINING_AUSTRIAN_FACTION
+			add_ideas = BAY_AUSTRIAN_ALLIANCE
+			AUS = {
+				add_to_faction = BAY
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_AUSTRIAN_FUTURE  }
 		mutually_exclusive = { focus = BAY_NATPOP_JOIN_AUSTRIA }
@@ -554,6 +706,18 @@ focus_tree = {
 		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_JOIN_AUSTRIA"
+			custom_effect_tooltip = BAY_ANNEXED_BY_AUSTRIA
+			BAY = {
+				every_owned_state = {
+					add_core_of = AUS
+				}
+			}
+			AUS = {
+				annex_country = {
+    					target = BAY
+    					transfer_troops = yes
+				}
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_AUSTRIAN_FUTURE  }
 		mutually_exclusive = { focus = BAY_NATPOP_JOIN_THE_AUSTRIAN_ALLIANCE }
