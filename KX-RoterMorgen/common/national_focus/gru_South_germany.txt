@@ -556,6 +556,18 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_SOUTH_GERMAN_AMBITION"
 			custom_effect_tooltip = BAY_SOUTH_GERMANY_AMBITIONS
+			hidden_effect = {
+				AUS = {
+					every_owned_state = {
+						add_claim_by = BAY
+					}
+				}
+				SWI = {
+					every_owned_state = {
+						add_claim_by = BAY
+					}
+				}
+			}			
 		}
 		prerequisite = { focus = BAY_NATPOP_OUR_FUTURE  }
 	}
@@ -571,7 +583,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_TAKE_AUSTRIA"
 			declare_war_on = {
 				target = AUS
-				type = annex_everything
+				type = annex_everything 
 			}
 		}
 		prerequisite = { focus = BAY_NATPOP_SOUTH_GERMAN_AMBITION  }
