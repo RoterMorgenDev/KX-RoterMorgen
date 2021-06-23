@@ -129,6 +129,7 @@ country_event = { #
 			BAY = {
 				add_ideas = BAY_LEFT_RESISTANCE
 				add_ideas = BAY_MEMORIES_OF_GERMANY
+				load_focus_tree = BAY_TREE
 			}
 			GER = {
 				transfer_units_fraction= {
