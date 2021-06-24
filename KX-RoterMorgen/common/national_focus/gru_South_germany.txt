@@ -40,13 +40,12 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_CRACK_DOWN_ON_THE_LEFT"
-			add_ideas = BAY_CRACKDOWN_LEFT
 			add_stability = -0.1
+			swap_ideas = {
+				remove_idea = BAY_LEFT_RESISTANCE
+				add_idea = BAY_LEFT_RESISTANCE_1
+			}
 			hidden_effect = {
-				swap_ideas = {
-					remove_idea = BAY_LEFT_RESISTANCE
-					add_idea = BAY_LEFT_RESISTANCE_1
-				}
 				country_event = {
 					id = BAYCollapse.1
 					days = 4
@@ -67,7 +66,10 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_RALLY_THE_RIGHT"
 			add_war_support = 0.1
-			add_ideas = BAY_RIGHT_RALLIES
+			add_timed_idea = {
+				idea = BAY_RIGHT_RALLIES
+				days = 30
+			}
 			country_event = {
 				id = BAYCollapse.2
 				days = 1
@@ -84,15 +86,10 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_BAN_PARTIES"
+			add_ideas = BAY_BANNED_LEFT
 			swap_ideas = {
-					remove_ideas = BAY_CRACKDOWN_LEFT
-					add_ideas = BAY_BANNED_LEFT
-			}
-			hidden_effect = {
-				swap_ideas = {
 					remove_ideas = BAY_LEFT_RESISTANCE_1
 					add_ideas = BAY_LEFT_RESISTANCE_2
-				}
 			}
 		}
 		prerequisite = { focus = BAY_NATPOP_CRACK_DOWN_ON_THE_LEFT  }
@@ -123,6 +120,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_NEW_SOUTH_GERMANY"
 			custom_effect_tooltip = BAY_NEW_SOUTHERN_GERMANY
 			remove_ideas = BAY_LEFT_RESISTANCE_2
+			remove_ideas = BAY_MEMORIES_OF_GERMANY
 			add_ideas = BAY_NEW_SOUTH_GERMANY
 			set_cosmetic_tag = BAY_NEW_SOUTH_GERMANY
 		}
@@ -750,6 +748,7 @@ focus_tree = {
 			set_cosmetic_tag = BAY_FRANCONIAN_EMPIRE
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_FRANCONIAN_EMPIRE"
 			custom_effect_tooltip = BAY_CORE_FRANKISH_LANDS
+			add_ideas = BAY_HEIRS_TO_CHARLEMAGNE
 			hidden_effect = {
 				add_state_core = 151
 				add_state_core = 761
