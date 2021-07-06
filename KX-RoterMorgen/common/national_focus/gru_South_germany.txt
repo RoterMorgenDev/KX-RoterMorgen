@@ -88,8 +88,8 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_BAN_PARTIES"
 			add_ideas = BAY_BANNED_LEFT
 			swap_ideas = {
-					remove_ideas = BAY_LEFT_RESISTANCE_1
-					add_ideas = BAY_LEFT_RESISTANCE_2
+				remove_idea = BAY_LEFT_RESISTANCE_1
+				add_idea = BAY_LEFT_RESISTANCE_2
 			}
 		}
 		prerequisite = { focus = BAY_NATPOP_CRACK_DOWN_ON_THE_LEFT  }
@@ -137,8 +137,8 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_CORPORATE_MONARCHY"
 			replace_ideas = {
-					remove_idea = BAY_EMPOWERED_MONARCHY
-					add_idea = BAY_CORPORATE_MONARCHY
+				remove_idea = BAY_EMPOWERED_MONARCHY
+				add_idea = BAY_CORPORATE_MONARCHY
 			}
 		}
 		prerequisite = { focus = BAY_NATPOP_NEW_SOUTH_GERMANY  }
@@ -228,7 +228,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_RAPID_REBUILDING"
-			add_ideas = BAY_RAPID_BUILDING
+			add_ideas = BAY_RAPID_REBUILDING
 		}
 		prerequisite = { focus = BAY_NATPOP_NEW_MILITARY_INDUSTRY  }
 		prerequisite = { focus = BAY_NATPOP_BAVARIAN_RAILWAY  }
@@ -403,7 +403,7 @@ focus_tree = {
 	
 	focus = {
 		id = BAY_NATPOP_TAKE_SWITZERLAND
-		icon = BAY
+		icon = BAY_TAKE_SWISS
 		relative_position_id = BAY_NATPOP_FRANKISH_AMBITION
 		x = -1
 		y = 1
@@ -424,7 +424,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAY_NATPOP_TAKE_AUSTRIA
-		icon = BAY
+		icon = BAY_TAKE_AUSTRIA
 		relative_position_id = BAY_NATPOP_FRANKISH_AMBITION
 		x = 1
 		y = 1
@@ -450,7 +450,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAY_NATPOP_RETAKE_GERMANY
-		icon = BAY
+		icon = BAY_RETAKE_GERMANY
 		relative_position_id = BAY_NATPOP_FRANKISH_AMBITION
 		x = 0
 		y = 2
@@ -501,7 +501,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAY_NATPOP_END_THE_FRENCH_MENACE
-		icon = BAY
+		icon = BAY_FRENCH_MENACE
 		relative_position_id = BAY_NATPOP_FRANKISH_AMBITION
 		x = -2
 		y = 2
@@ -550,7 +550,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAY_NATPOP_TAKE_NORTH_ITALY
-		icon = BAY
+		icon = BAY_TAKE_NORTH_ITALY
 		relative_position_id = BAY_NATPOP_FRANKISH_AMBITION
 		x = 2
 		y = 2
@@ -604,7 +604,7 @@ focus_tree = {
 	}
 	focus = { #Attack Benelux
 		id = BAY_NATPOP_ATTACK_BENELUX
-		icon = BAY
+		icon = BAY_ATTACK_BENELUX
 		relative_position_id = BAY_NATPOP_FRANKISH_AMBITION
 		x = 0
 		y = 3
@@ -842,19 +842,50 @@ focus_tree = {
 	}
 	focus = {
 		id = BAY_NATPOP_RETAKE_EURO_COLONIES
-		icon = BAY
+		icon = BAY_EURO_COLONIES
 		relative_position_id = BAY_NATPOP_FRANKISH_AMBITION
 		x = 0
 		y = 5
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_RETAKE_EURO_COLONIES"
+			custom_effect_tooltip = BAY_EURO_COLONIES
+			hidden_effect = {
+				add_state_claim = 123
+				add_state_claim = 127
+				add_state_claim = 338
+				add_state_claim = 126
+				add_state_claim = 125
+				add_state_claim = 129
+				add_state_claim = 128
+				add_state_claim = 122
+				add_state_claim = 132
+				add_state_claim = 130
+				add_state_claim = 131
+				add_state_claim = 133
+				add_state_claim = 122
+				add_state_claim = 136
+				add_state_claim = 120
+				add_state_claim = 938
+				add_state_claim = 135
+				add_state_claim = 113
+				add_state_claim = 134
+				add_state_claim = 119
+				add_state_claim = 165
+				add_state_claim = 940
+				add_state_claim = 123
+				add_state_claim = 172
+				add_state_claim = 1105
+				add_state_claim = 103
+				add_state_claim = 163
+				add_state_claim = 1099
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_FRANCONIAN_EMPIRE  }
 	}
 	focus = {
 		id = BAY_NATPOP_RETAKE_ASIAN_COLONIES
-		icon = BAY
+		icon = BAY_ASIAN_COLONIES
 		relative_position_id = BAY_NATPOP_FRANKISH_AMBITION
 		x = 2
 		y = 5
@@ -866,13 +897,16 @@ focus_tree = {
 	}
 	focus = {
 		id = BAY_NATPOP_RETAKE_AFRICAN_COLONIES
-		icon = BAY
+		icon = BAY_AFRICAN_COLONIES
 		relative_position_id = BAY_NATPOP_FRANKISH_AMBITION
 		x = -2
 		y = 5
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_RETAKE_AFRICAN_COLONIES"
+			hidden_effect = {
+				claim_mittelafrika = yes
+			}
 		}
 		prerequisite = { focus = BAY_NATPOP_FRANCONIAN_EMPIRE  }
 	}
