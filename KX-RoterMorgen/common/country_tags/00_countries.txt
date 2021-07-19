@@ -8,13 +8,14 @@ KLY = "countries/Asian.txt" #Kalmykia
 MTR = "countries/MidEast.txt" #Mountain Republic
 TTR = "countries/Asian.txt" #Tatarstan
 DAG = "countries/MidEast.txt" #Daghestan
+YAK = "countries/Asia.txt" #Yakutia
 ###########
 ### Western Europe ###
 ALB = "countries/WestEur.txt"
 AST = "countries/WestEur.txt"
 AUS = "countries/WestEur.txt"
 BAS = "countries/WestEur.txt" #Basque County
-BAY = "countries/GermanUnion.txt"
+BAY = "countries/WestEur.txt"
 BBR = "countries/WestEur.txt"
 BEL = "countries/WestEur.txt"
 BOS = "countries/WestEur.txt"
@@ -57,7 +58,7 @@ MAF = "countries/WestEur.txt"
 MLT = "countries/WestEur.txt"
 NEE = "countries/WestEur.txt"
 NFA = "countries/WestEur.txt"
-NGF = "countries/GermanUnion.txt"
+NGF = "countries/WestEur.txt"
 NOR = "countries/WestEur.txt"
 NZL = "countries/WestEur.txt"
 OCC = "countries/WestEur.txt"
@@ -83,7 +84,7 @@ ULS = "countries/WestEur.txt" #Ulster
 USA = "countries/WestEur.txt"
 WAL = "countries/WestEur.txt"
 WCC = "countries/WestEur.txt"
-WGR = "countries/GermanUnion.txt" #Rhineland
+WGR = "countries/WestEur.txt" #Rhineland
 WLL = "countries/WestEur.txt"
 VNC = "countries/WestEur.txt" #Venice
 
