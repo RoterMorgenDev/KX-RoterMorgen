@@ -1,4 +1,16 @@
 
+GRU_ROSENBERG_IS_HUNGRY = {
+	icon = generic_political_actions
+	visible = {
+			NOT = { has_country_flag = failed_to_make_sandwhich }
+		}
+	available = {
+			NOT = { has_country_flag = failed_to_make_sandwhich }
+			}
+	allowed = { tag = GRU }
+}
+
+
 GRU_FAUD_FIGHT_REACTIONARY = {
 	icon = export_revolution
 	allowed = { tag = GRU }

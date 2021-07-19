@@ -8906,8 +8906,7 @@ GRU_FAUD_FIGHT_REACTIONARY = {
 				factor = 10000
 			}
 			remove_effect = {
-				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
-				#country_event = russia.39
+				log = "[GetDateText]: [Root.GetName]: Decision remove FAUD_FIGHT_REACTIONARY_DECISION"
 				if = {
 					limit = {
 						GRU = { has_country_flag = reactionary_fought_once }
@@ -8969,4 +8968,690 @@ GRU_FAUD_FIGHT_REACTIONARY = {
 			}
 		}
 
+}
+
+GRU_ROSENBERG_IS_HUNGRY = {
+		
+
+
+		ROSENBERG_MAKES_A_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				AND = {
+				has_country_flag = GRU_NAZI_rule_ROSE
+				NOT = { has_country_flag = is_making_a_sandwhich }
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+				}
+			}
+			available = {
+				has_country_flag = GRU_NAZI_rule_ROSE
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = is_making_a_sandwhich
+			}
+		}
+		
+		PUT_BACON_ON_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+				NOT = { has_country_flag = bacon_on_sandwhich }
+			}
+			available = {
+					has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = bacon_on_sandwhich
+			}
+		}
+		REMOVE_BACON_FROM_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = bacon_on_sandwhich 
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+			}
+			available = {
+					has_country_flag = bacon_on_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = bacon_on_sandwhich
+			}
+		}
+		
+		PUT_LETTUCE_ON_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+				NOT = { has_country_flag = LETTUCE_on_sandwhich }
+			}
+			available = {
+					has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = LETTUCE_on_sandwhich
+			}
+		}
+		REMOVE_LETTUCE_FROM_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = LETTUCE_on_sandwhich 
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+			}
+			available = {
+					has_country_flag = LETTUCE_on_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = LETTUCE_on_sandwhich
+			}
+		}
+		
+		PUT_CHICKEN_ON_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+				NOT = { has_country_flag = CHICKEN_on_sandwhich }
+			}
+			available = {
+					has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = CHICKEN_on_sandwhich
+			}
+		}
+		REMOVE_CHICKEN_FROM_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = CHICKEN_on_sandwhich 
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+			}
+			available = {
+					has_country_flag = CHICKEN_on_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = CHICKEN_on_sandwhich
+			}
+		}
+		
+		PUT_TOMATO_ON_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+				NOT = { has_country_flag = TOMATO_on_sandwhich }
+			}
+			available = {
+					has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = TOMATO_on_sandwhich
+			}
+		}
+		REMOVE_TOMATO_FROM_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = TOMATO_on_sandwhich 
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+			}
+			available = {
+					has_country_flag = TOMATO_on_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = TOMATO_on_sandwhich
+			}
+		}
+		
+		PUT_PICKLE_ON_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+				NOT = { has_country_flag = PICKLE_on_sandwhich }
+			}
+			available = {
+					has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = PICKLE_on_sandwhich
+			}
+		}
+		REMOVE_PICKLE_FROM_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = PICKLE_on_sandwhich 
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+			}
+			available = {
+					has_country_flag = PICKLE_on_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = PICKLE_on_sandwhich
+			}
+		}
+		
+		PUT_CHEESE_ON_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+				NOT = { has_country_flag = CHEESE_on_sandwhich }
+			}
+			available = {
+					has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = CHEESE_on_sandwhich
+			}
+		}
+		REMOVE_CHEESE_FROM_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = CHEESE_on_sandwhich 
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+			}
+			available = {
+					has_country_flag = CHEESE_on_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = CHEESE_on_sandwhich
+			}
+		}
+		
+		PUT_TUNA_ON_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+				NOT = { has_country_flag = TUNA_on_sandwhich }
+			}
+			available = {
+					has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = TUNA_on_sandwhich
+			}
+		}
+		REMOVE_TUNA_FROM_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = TUNA_on_sandwhich 
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+			}
+			available = {
+					has_country_flag = TUNA_on_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = TUNA_on_sandwhich
+			}
+		}
+		
+		PUT_STEAK_ON_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+				NOT = { has_country_flag = STEAK_on_sandwhich }
+			}
+			available = {
+					has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = STEAK_on_sandwhich
+			}
+		}
+		REMOVE_STEAK_FROM_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = STEAK_on_sandwhich 
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+			}
+			available = {
+					has_country_flag = STEAK_on_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = STEAK_on_sandwhich
+			}
+		}
+		
+		PUT_MAYO_ON_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+				NOT = { has_country_flag = MAYO_on_sandwhich }
+			}
+			available = {
+					has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = MAYO_on_sandwhich
+			}
+		}
+		
+		PUT_PEPPERONI_ON_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+				NOT = { has_country_flag = PEPPERONI_on_sandwhich }
+			}
+			available = {
+					has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = PEPPERONI_on_sandwhich
+			}
+		}
+		REMOVE_PEPPERONI_FROM_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = PEPPERONI_on_sandwhich 
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+			}
+			available = {
+					has_country_flag = PEPPERONI_on_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = PEPPERONI_on_sandwhich
+			}
+		}
+		
+		PUT_SALAMI_ON_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+				NOT = { has_country_flag = SALAMI_on_sandwhich }
+			}
+			available = {
+					has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = SALAMI_on_sandwhich
+			}
+		}
+		REMOVE_SALAMI_FROM_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = SALAMI_on_sandwhich 
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+			}
+			available = {
+					has_country_flag = SALAMI_on_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = SALAMI_on_sandwhich
+			}
+		}
+		
+		REMOVE_MAYO_FROM_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = MAYO_on_sandwhich 
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+			}
+			available = {
+					has_country_flag = MAYO_on_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = MAYO_on_sandwhich
+			}
+		}
+		
+		PUT_BUTTER_ON_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+				NOT = { has_country_flag = BUTTER_on_sandwhich }
+			}
+			available = {
+					has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				set_country_flag = BUTTER_on_sandwhich
+			}
+		}
+		REMOVE_BUTTER_FROM_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = BUTTER_on_sandwhich 
+				NOT = { has_country_flag = SANDWHICH_IS_DONE }
+			}
+			available = {
+					has_country_flag = BUTTER_on_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = BUTTER_on_sandwhich
+			}
+		}
+		
+		FINISH_THE_SANDWHICH = {
+			icon = generic_agreement
+			allowed = { tag = GRU }
+			visible = {
+				has_country_flag = is_making_a_sandwhich 
+			}
+			available = {
+				has_country_flag = is_making_a_sandwhich 
+			}
+			days_remove = 0
+			
+			cost = 0
+			#fire_only_once = yes
+			
+			ai_will_do =  {
+				factor = 10000
+			}
+			remove_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision remove RUS_snapel"
+				clr_country_flag = is_making_a_sandwhich
+				set_country_flag = SANDWHICH_IS_DONE
+				
+				if = {
+					limit = { 
+						AND = {
+								NOT = { has_country_flag = bacon_on_sandwhich }
+								NOT = { has_country_flag = BUTTER_on_sandwhich } 
+								NOT = { has_country_flag = MAYO_on_sandwhich } 
+								NOT = { has_country_flag = SALAMI_on_sandwhich } 
+								NOT = { has_country_flag = PEPPERONI_on_sandwhich } 
+								NOT = { has_country_flag = STEAK_on_sandwhich } 
+								NOT = { has_country_flag = TUNA_on_sandwhich } 
+								NOT = { has_country_flag = CHEESE_on_sandwhich } 
+								NOT = { has_country_flag = PICKLE_on_sandwhich } 
+								NOT = { has_country_flag = TOMATO_on_sandwhich } 
+								NOT = { has_country_flag = LETTUCE_on_sandwhich } 
+								NOT = { has_country_flag = CHICKEN_on_sandwhich } 
+						}	
+					}
+					country_event = rotf.43
+				}
+				else_if = {
+					limit = { has_country_flag = bacon_on_sandwhich }
+					country_event = rotf.42
+				}
+				else = {
+					country_event = rotf.41
+				}
+			}
+		}
+		
+		ROSENBERGS_HUNGER  {
+			icon = cat_caf_rebellion
+			allowed = { tag = GRU }
+			visible = {
+				AND = {
+					has_country_flag = GRU_NAZI_rule_ROSE
+					NOT = { has_country_flag = SANDWHICH_IS_DONE }
+				}
+			}
+			activation = {
+				has_country_flag = GRU_NAZI_rule_ROSE
+			}
+			available = {
+				hidden_trigger = {
+					always = no
+				}
+			}
+			days_remove = 0
+			days_mission_timeout = 5
+			is_good = no
+			fire_only_once = yes
+			cancel_trigger = {
+				OR = {
+					has_country_flag = SANDWHICH_IS_DONE
+					
+				}
+			}
+			timeout_effect = {
+				log = "[GetDateText]: [Root.GetName]: Decision timeout ROSENBERGS_HUNGER"
+				add_political_power = -50
+				add_stability = -0.05
+				set_country_flag = failed_to_make_sandwhich
+				country_event = rotf.40
+			}
+		}
+	
+	
 }

@@ -9239,12 +9239,83 @@ country_event = { #The fate of Turkestan
 		ai_chance = {
 			base = 20
 			modifier = {
-				factor = 0
+				add = -20
 				is_russian_tag = yes
+			}
+			modifier = {
+				add = 20
+				has_completed_focus = RUS_Realpolitik
+			}
+			modifier = {
+				factor = 0
+				tag = UZB
+			}
+			modifier = {
+				factor = 0
+				tag = KYR
+			}
+			modifier = {
+				factor = 0
+				tag = ALO
 			}
 		}
 		set_temp_variable = { tag_to_release = TRK }
 		release_targeted_tag = yes
+		set_autonomy = {
+			target = TRK
+			autonomous_state = kr_autonomous_puppet
+			freedom_level = 0.75
+		}
+		if = {
+			limit = {
+				RUS_russian_monarch = yes
+			}
+			TRK = {
+				set_politics = {
+					ruling_party = paternal_autocrat
+				}
+				set_political_party = {
+					ideology = paternal_autocrat
+					popularity = 60
+				}
+				drop_cosmetic_tag = yes
+				remove_all_ministers = yes
+				add_ideas = {
+					TRK_Ibrahim_Bek_hog_pau
+					TRK_Mukhtar_Dzhangalin_for_ade
+					TRK_Adilet_Rustamov_eco_ade
+					TRK_Kush_Beggi_sec_pau
+				}
+				if = {
+					limit = {
+						NOT = { 
+							OR = {
+								has_idea = TRK_legacy_of_emir
+								has_idea = TRK_legacy_of_emir_1
+								has_idea = TRK_legacy_of_emir_2
+							}
+						}
+					}
+					add_ideas = TRK_legacy_of_emir
+				}
+				hidden_effect = {
+					remove_ideas = {
+						TRK_central_asian_repubic 
+						TRK_central_asian_repubic_1 
+						TRK_central_asian_repubic_2
+						TRK_minorities_protected 
+						TRK_soviet_insurgency  
+						TRK_totalism   
+						TRK_totalism_1    
+						TRK_syndicalism     
+						TRK_syndicalism_1      
+						TRK_agrarian_socialism       
+						TRK_agrarian_socialism_1        
+						TRK_fraternization 
+					}
+				}
+			}
+		}
 	}
 
 	option = { #Split Turkestan
@@ -9260,6 +9331,10 @@ country_event = { #The fate of Turkestan
 		#Uzbekistan
 		hidden_effect = {
 			861 = { #Nukus
+				add_core_of = UZB
+				remove_core_of = TRK
+			}
+			584 = { #Nukus
 				add_core_of = UZB
 				remove_core_of = TRK
 			}
@@ -9279,7 +9354,11 @@ country_event = { #The fate of Turkestan
 				remove_core_of = TRK
 			}
 			407 = { #Tashkent
-				add_core_of = UZB
+				add_core_of = KYR
+				remove_core_of = TRK
+			}
+			712 = { #Tashkent
+				add_core_of = KYR
 				remove_core_of = TRK
 			}
 		}
@@ -9293,6 +9372,9 @@ country_event = { #The fate of Turkestan
 	}
 	option = { #Integrate
 		name = annex.79.c
+		ai_chance = {
+			base = 100
+		}
 		trigger = {
 			OR = {
 				tag = ALO
@@ -9352,24 +9434,6 @@ country_event = { #The fate of Turkestan
 		add_to_array = { RUS_integration_array = TRK }
 		recheck_annexations = yes
 	}
-	option = { #Integrate
-		name = annex.79.c
-		trigger = {
-			tag = ALO
-		}
-		every_state = {
-			limit = {
-				OR = {
-					is_core_of = TRK
-					is_core_of = UZB
-					is_core_of = KYR
-				}
-				is_claim_or_core_of_ROOT = no
-			}
-			add_core_of = ROOT
-		}
-	}
-	
 	option = { #give to Russian ally
 		name = annex.80.e
 		trigger = {
@@ -9497,7 +9561,11 @@ country_event = { #The fate of Central Asia
 				remove_core_of = TRK
 			}
 			407 = { #Tashkent
-				add_core_of = UZB
+				add_core_of = KYR
+				remove_core_of = TRK
+			}
+			712 = { #Tashkent
+				add_core_of = KYR
 				remove_core_of = TRK
 			}
 		}
@@ -9511,17 +9579,14 @@ country_event = { #The fate of Central Asia
 				add_core_of = UZB
 				remove_core_of = TRK
 			}
+			584 = { #Nukus
+				add_core_of = UZB
+				remove_core_of = TRK
+			}
 		}
 		set_temp_variable = { tag_to_release = UZB }
 		release_targeted_tag = yes
 
-		#Alash
-		hidden_effect = {
-			712 = { #Kyzylorda
-				add_core_of = ALO
-				remove_core_of = TRK
-			}
-		}
 		set_temp_variable = { tag_to_release = ALO }
 		release_targeted_tag = yes
 		
@@ -9615,15 +9680,113 @@ country_event = { #The fate of Uzbekistan
 		hidden_effect = {
 			UZB = {
 				add_state_core = 861 #Nukus
+				add_state_core = 584 #Nukus
 			}
 		}
 	}
 
 	option = { #Release Uzbekistan
 		name = annex.85.a
-		ai_chance = { base = 20 }
+		ai_chance = { 
+			base = 20
+			modifier = {
+				factor = 0
+				tag = ALO
+			}
+			modifier = {
+				factor = 0
+				is_russian_tag = yes
+			}
+			modifier = {
+				factor = 0
+				tag = KYR
+			}
+			modifier = {
+				factor = 0
+				tag = TRK
+			}
+		}
 		set_temp_variable = { tag_to_release = UZB }
 		release_targeted_tag = yes
+	}
+
+	option = { #Release Uzbekistan but take Transcaspia
+		name = annex.85.a
+		trigger = {
+			is_russian_tag = yes
+		}
+		ai_chance = { 
+			base = 20
+			modifier = {
+				factor = 0
+				tag = ALO
+			}
+			modifier = {
+				add = -20
+				is_russian_tag = yes
+			}
+			modifier = {
+				add = 20
+				is_russian_tag = yes
+				has_completed_focus = RUS_Realpolitik
+			}
+			modifier = {
+				factor = 0
+				tag = KYR
+			}
+			modifier = {
+				factor = 0
+				tag = TRK
+			}
+		}
+		584 = { add_claim_by = ROOT }
+		set_temp_variable = { tag_to_release = UZB }
+		release_targeted_tag = yes
+		set_autonomy = {
+			target = UZB
+			autonomous_state = kr_autonomous_puppet
+			freedom_level = 0.75
+		}
+		if = {
+			limit = {
+				RUS_russian_monarch = yes
+			}
+			UZB = {
+				set_politics = {
+					ruling_party = paternal_autocrat
+				}
+				set_political_party = {
+					ideology = paternal_autocrat
+					popularity = 60
+				}
+				drop_cosmetic_tag = yes
+				remove_all_ministers = yes
+				clr_country_flag = UZB_republic
+				add_ideas = {
+					UZB_Sayid_Abdullah_hog_pau
+					UZB_Alisher_Ivanov_for_ade
+					UZB_Bahauddin_Gorchakov_eco_ade
+					UZB_Boris_Dmitrievsky_sec_sde
+					TRK_last_of_genghis_khans 
+				}
+				hidden_effect = {
+					remove_ideas = {
+						TRK_central_asian_repubic 
+						TRK_central_asian_repubic_1 
+						TRK_central_asian_repubic_2
+						TRK_minorities_protected 
+						TRK_soviet_insurgency  
+						TRK_totalism   
+						TRK_totalism_1    
+						TRK_syndicalism     
+						TRK_syndicalism_1      
+						TRK_agrarian_socialism       
+						TRK_agrarian_socialism_1        
+						TRK_fraternization 
+					}
+				}
+			}
+		}
 	}
 
 	option = { #give to Russian ally
@@ -9648,7 +9811,10 @@ country_event = { #The fate of Uzbekistan
 		transfer_territory_from_core_regions = yes
 	}
 	option = { #Integrate
-		name = annex.79.c
+		name = annex.79.e
+		ai_chance = {
+			factor = 100
+		}
 		trigger = {
 			OR = {
 				tag = ALO
@@ -9664,6 +9830,49 @@ country_event = { #The fate of Uzbekistan
 			add_core_of = ROOT
 		}
 	}
+	option = { #Integrate
+		name = annex.79.e
+		trigger = {
+			is_russian_tag = yes
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_state = {
+			limit = {
+				is_core_of = UZB
+				NOT = {
+					is_core_of = ROOT
+					is_claimed_by = ROOT
+				}
+			}
+			add_claim_by = ROOT
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = UZB
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -10
+		add_to_array = { RUS_integration_array = UZB }
+		recheck_annexations = yes
+	}	
 	option = { #occupy
 		name = annex.occupation
 		trigger = { is_ai = no }
@@ -9683,11 +9892,30 @@ country_event = { #The fate of Kyrgyzstan
 
 	option = { #Release Kyrgyzstan
 		name = annex.87.a
-		ai_chance = { base = 20 }
+		ai_chance = { 
+			base = 20
+			modifier = {
+				factor = 0
+				tag = UZB
+			}
+			modifier = {
+				factor = 0
+				tag = ALO
+			}
+			modifier = {
+				factor = 0
+				tag = TRK
+			}
+			modifier = {
+				factor = 0
+				is_russian_tag = yes
+			}
+		}
 		KYR = {
 			add_state_core = 586 #Pishpek
 			add_state_core = 1042 #Osh
 			add_state_core = 407 #Osh
+			add_state_core = 712 #Osh
 		}
 		set_temp_variable = { tag_to_release = KYR }
 		release_targeted_tag = yes
@@ -9717,10 +9945,17 @@ country_event = { #The fate of Kyrgyzstan
 				limit = { ROOT = { owns_state = 407 } }
 				transfer_state = 407
 			}
+			if = {
+				limit = { ROOT = { owns_state = 407 } }
+				transfer_state = 712
+			}
 		}
 	}
 	option = { #Integrate
 		name = annex.79.c
+		ai_chance = {
+			factor = 100
+		}
 		trigger = {
 			OR = {
 				tag = ALO
@@ -9736,6 +9971,49 @@ country_event = { #The fate of Kyrgyzstan
 			add_core_of = ROOT
 		}
 	}
+	option = { #Integrate
+		name = annex.87.c
+		trigger = {
+			is_russian_tag = yes
+		}
+		ai_chance = {
+			base = 100
+		}
+		every_state = {
+			limit = {
+				is_core_of = KYR
+				NOT = {
+					is_core_of = ROOT
+					is_claimed_by = ROOT
+				}
+			}
+			add_claim_by = ROOT
+			hidden_effect = {
+				if = {
+					limit = { has_resistance = yes }
+					set_temp_variable = { original_compliance = THIS.compliance }
+					set_temp_variable = { original_resistance = THIS.resistance }
+					cancel_resistance = yes
+				}
+				start_resistance = KYR
+				if = {
+					limit = { has_variable = original_compliance }
+					set_compliance = original_compliance
+				}
+				if = {
+					limit = { has_variable = original_resistance }
+					set_resistance = original_resistance
+				}
+			}
+			if = {
+				limit = { is_claim_or_core_of_ROOT = no }
+				add_claim_by = ROOT
+			}
+		}
+		add_political_power = -10
+		add_to_array = { RUS_integration_array = KYR }
+		recheck_annexations = yes
+	}	
 	option = { #occupy
 		name = annex.occupation
 		trigger = { is_ai = no }
@@ -9772,6 +10050,18 @@ country_event = { #The fate of Kazakhstan
 				factor = 0
 				is_russian_tag = yes
 			}
+			modifier = {
+				factor = 0
+				tag = UZB
+			}
+			modifier = {
+				factor = 0
+				tag = KYR
+			}
+			modifier = {
+				factor = 0
+				tag = TRK
+			}
 		}
 		set_temp_variable = { tag_to_release = ALO }
 		release_targeted_tag = yes
@@ -9795,6 +10085,7 @@ country_event = { #The fate of Kazakhstan
 			add_state_core = 586 #Pishpek
 			add_state_core = 1042 #Osh
 			add_state_core = 407 #Osh
+			add_state_core = 712 #Osh
 		}
 		set_temp_variable = { tag_to_release = KYR }
 		release_targeted_tag = yes
@@ -9805,6 +10096,9 @@ country_event = { #The fate of Kazakhstan
 	}
 	option = { #Integrate
 		name = annex.88.c
+		ai_chance = {
+			factor = 100
+		}
 		trigger = {
 			OR = {
 				tag = KYR
@@ -19306,6 +19600,7 @@ country_event = { #Fate of China
 			OR = {
 				has_global_flag = Russia_Supports_QIE
 				has_global_flag = Russia_Supports_ZHI
+				tag = MON
 			}
 			NOT = { country_exists = QIE }
 		}
@@ -19416,6 +19711,10 @@ country_event = { #Fate of China
 						tag = GER
 						tag = RUS
 						tag = TRM
+						AND = {
+							has_country_flag = MON_ungern_sternberg_is_in_power
+							MON_sternberg_in_power = yes
+						}
 					}
 					has_authoritarian_government = yes
 				}
@@ -20741,14 +21040,6 @@ country_event = { #Fate of Xinjiang
 		add_political_power = -25
 		add_to_array = { RUS_integration_array = ETS }
 		recheck_annexations = yes
-	}
-	option = { #occupy
-		name = annex.occupation
-		ai_chance = {
-			factor = 0
-		}
-		occupy_medium_country = yes
-		set_country_flag = SIK_CONQ
 	}
 	option = { #occupy
 		name = annex.occupation
@@ -23437,6 +23728,90 @@ country_event = { #Fate of Transamur
 			set_country_flag = TRM_Yui
 		}
 	}
+	option = { #balkanize
+		name = annex.226.f
+		trigger = {
+			tag = JAP
+		}
+		ai_chance = {
+			factor = 100
+		}
+		576 = { add_core_of = YAK }
+		564 = { add_core_of = BRY }
+		563 = { add_core_of = BRY }
+		565 = { add_core_of = BRY }
+		set_temp_variable = { tag_to_release = TRM }
+		release_targeted_tag = yes
+		set_temp_variable = { tag_to_release = BRY }
+		release_targeted_tag = yes
+		set_temp_variable = { tag_to_release = YAK }
+		release_targeted_tag = yes
+		TRM = {
+			remove_ideas = TRM_dream
+			clr_country_flag = TRM_Mil_coup
+			clr_country_flag = TRM_Dem_coup
+			clr_country_flag = TRM_Kolchak_alive
+			clr_country_flag = TRM_Moryaki_Coup
+			clr_country_flag = TRM_Semyonov_Coup
+			drop_cosmetic_tag = yes
+			hidden_effect = {
+				remove_ideas = TRM_kolchak
+			}
+			hidden_effect = {
+				set_politics = {
+					ruling_party = authoritarian_democrat
+				}
+				set_political_party = {
+					ideology = authoritarian_democrat
+					popularity = 40
+				}
+				remove_all_ministers = yes
+				add_ideas = TRM_Grigoriy_M_Semyenov_hog_pau
+				add_ideas = TRM_Boris_Bakhmetev_for_ade
+				add_ideas = TRM_Dmitriy_Lebedev_eco_pau
+				add_ideas = TRM_Arkady_Udintsev_sec_pau
+				add_dynamic_modifier = {
+					modifier = TRM_japanese_influence_modifier 
+				}
+				TRM_recalculate_japanese_effects = yes
+			}
+			set_country_flag = TRM_Yui
+		}
+		BRY = {
+			hidden_effect = {
+				set_politics = {
+					ruling_party = paternal_autocrat
+				}
+				set_political_party = {
+					ideology = paternal_autocrat
+					popularity = 60
+				}
+			}
+		}
+	}
+	option = { #balkanize
+		name = annex.226.g
+		trigger = {
+			is_russian_tag = no
+			NOT = { tag = JAP }
+		}
+		ai_chance = {
+			factor = 100
+		}
+		576 = { add_core_of = YAK }
+		564 = { add_core_of = SIB }
+		563 = { add_core_of = BRY }
+		565 = { add_core_of = SIB }
+		561 = { add_core_of = SIB }
+		set_temp_variable = { tag_to_release = TRM }
+		release_targeted_tag = yes
+		set_temp_variable = { tag_to_release = BRY }
+		release_targeted_tag = yes
+		set_temp_variable = { tag_to_release = YAK }
+		release_targeted_tag = yes
+		set_temp_variable = { tag_to_release = SIB }
+		release_targeted_tag = yes
+	}
 
 	option = { #Give it to RUS
 		name = annex.226.b
@@ -24328,6 +24703,30 @@ country_event = { #annexation of Uruguay
 
 		set_temp_variable = { tag_to_release = URG }
 		release_targeted_tag = yes
+                if = {
+				limit = { has_socialist_government = yes }
+				URG = {
+					create_syndicalist_uruguayan_government = yes
+					remove_all_ministers = yes
+				}
+			}
+			else_if = {
+				limit = { has_elected_government = yes }
+				URG = {
+					random_list = {
+						50 = { create_rightist_democratic_uruguayan_government = yes }
+						50 = { create_leftist_democratic_uruguayan_government = yes }
+					}
+					remove_all_ministers = yes
+				}
+			}
+			else = {
+				URG = {
+					create_autocratic_uruguayan_government = yes
+					remove_all_ministers = yes
+				}
+			}
+ 
 	}
 
 	option = { #occupation
@@ -33573,6 +33972,23 @@ country_event = { #Fate of Alaska
 					}
 				}
 			}
+			if = {
+				limit = { 
+					tag = ITA
+					has_completed_focus = ITA_ani_elected
+					has_global_flag = ALA_NATIVEGANG
+				}
+				ALA = {
+					set_cosmetic_tag = ALA_REDMAN
+				create_country_leader = {
+					name = "Chief Flying Eagle"
+					picture = "Portrait_ALA_Flying_Eagle.tga"
+					expire = "1965.1.1"
+					ideology = national_populist_subtype
+					traits = {  }
+				}	
+				}
+			}
 		}
 	}
 
@@ -34647,6 +35063,31 @@ country_event = { #Fate of KUBAN
 				}
 			}
 		}
+		else_if = {
+			limit = {
+				tag = RUS
+			}
+			KUB = {
+				set_politics = {
+					ruling_party = social_conservative
+					elections_allowed = no
+				}
+				hidden_effect = {
+					set_popularities = {
+						totalist = 0
+						radical_socialist = 0
+						syndicalist = 0
+						social_democrat = 0
+						social_liberal = 0
+						market_liberal = 0
+						social_conservative = 60
+						authoritarian_democrat = 40
+						paternal_autocrat = 0
+						national_populist = 0
+					}
+				}
+			}
+		}
 	}
 	option = { #Form Don-Kuban Union
 		name = annex.168.e
@@ -34692,6 +35133,7 @@ country_event = { #Fate of KUBAN
 		name = annex.400.b
 		trigger = {
 			is_russian_tag = yes
+			NOT = { tag = DKB }
 		}
 		ai_chance = {
 			base = 100
@@ -34795,12 +35237,22 @@ country_event = { #Fate of Kalmykia
 				factor = 0
 				is_russian_tag = yes
 			}
+			modifier = {
+				factor = 0
+				tag = DKB
+			}
+			modifier = {
+				factor = 0
+				tag = KUB
+			}
 		}
 		trigger = {
 			is_russian_tag = no
 			var:234.owner = {
 				is_ally_with = ROOT
 			}
+			NOT = { tag = DKB }
+			NOT = { tag = KUB }
 		}
 		add_to_temp_array = { target_cores_to_release = KLY }
 		add_to_array = { target_cores_to_release = KLY }
@@ -34838,6 +35290,7 @@ country_event = { #Fate of Kalmykia
 		name = annex.401.b
 		trigger = {
 			is_russian_tag = yes
+			NOT = { tag = DKB }
 		}
 		ai_chance = {
 			base = 100
@@ -34958,6 +35411,7 @@ country_event = { #Fate of Mountain Republic
 		name = annex.402.b
 		trigger = {
 			is_russian_tag = yes
+			NOT = { tag = DKB }
 		}
 		ai_chance = {
 			base = 100

@@ -2,6 +2,1478 @@ spriteTypes = {
 	##Icon For: 
 	
 	SpriteType = { 
+		name = "NATSOC_ARMY_OF_CONQUEST"
+		texturefile = "gfx/interface/goals/NATSOC_ARMY_OF_CONQUEST.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_ARMY_OF_CONQUEST_shine"
+		texturefile = "gfx/interface/goals/NATSOC_ARMY_OF_CONQUEST.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_ARMY_OF_CONQUEST.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_ARMY_OF_CONQUEST.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	
+	SpriteType = { 
+		name = "NATSOC_CARRIER_DEVELOPMENT"
+		texturefile = "gfx/interface/goals/NATSOC_CARRIER_DEVELOPMENT.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_CARRIER_DEVELOPMENT_shine"
+		texturefile = "gfx/interface/goals/NATSOC_CARRIER_DEVELOPMENT.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CARRIER_DEVELOPMENT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CARRIER_DEVELOPMENT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_CAPITAL_SHIP_EFFORT"
+		texturefile = "gfx/interface/goals/NATSOC_CAPITAL_SHIP_EFFORT.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_CAPITAL_SHIP_EFFORT_shine"
+		texturefile = "gfx/interface/goals/NATSOC_CAPITAL_SHIP_EFFORT.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CAPITAL_SHIP_EFFORT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CAPITAL_SHIP_EFFORT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_SUBMARINE_DEVELOPMENT"
+		texturefile = "gfx/interface/goals/NATSOC_SUBMARINE_DEVELOPMENT.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_SUBMARINE_DEVELOPMENT_shine"
+		texturefile = "gfx/interface/goals/NATSOC_SUBMARINE_DEVELOPMENT.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_SUBMARINE_DEVELOPMENT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_SUBMARINE_DEVELOPMENT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_GERMANIA_RULE_THE_WAVES"
+		texturefile = "gfx/interface/goals/NATSOC_GERMANIA_RULE_THE_WAVES.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_GERMANIA_RULE_THE_WAVES_shine"
+		texturefile = "gfx/interface/goals/NATSOC_GERMANIA_RULE_THE_WAVES.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_GERMANIA_RULE_THE_WAVES.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_GERMANIA_RULE_THE_WAVES.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	
+	SpriteType = { 
+		name = "NATSOC_CRUISER_EFFORT"
+		texturefile = "gfx/interface/goals/NATSOC_CRUISER_EFFORT.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_CRUISER_EFFORT_shine"
+		texturefile = "gfx/interface/goals/NATSOC_CRUISER_EFFORT.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CRUISER_EFFORT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CRUISER_EFFORT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	
+	SpriteType = { 
+		name = "NATSOC_KRIEGSMARINE"
+		texturefile = "gfx/interface/goals/NATSOC_KRIEGSMARINE.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_KRIEGSMARINE_shine"
+		texturefile = "gfx/interface/goals/NATSOC_KRIEGSMARINE.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_KRIEGSMARINE.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_KRIEGSMARINE.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_FIGHTER_DEVELOPMENT"
+		texturefile = "gfx/interface/goals/NATSOC_FIGHTER_DEVELOPMENT.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_FIGHTER_DEVELOPMENT_shine"
+		texturefile = "gfx/interface/goals/NATSOC_FIGHTER_DEVELOPMENT.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_FIGHTER_DEVELOPMENT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_FIGHTER_DEVELOPMENT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_FALLSCHIRM"
+		texturefile = "gfx/interface/goals/NATSOC_FALLSCHIRM.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_FALLSCHIRM_shine"
+		texturefile = "gfx/interface/goals/NATSOC_FALLSCHIRM.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_FALLSCHIRM.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_FALLSCHIRM.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_TRANSPORT_PLANES"
+		texturefile = "gfx/interface/goals/NATSOC_TRANSPORT_PLANES.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_TRANSPORT_PLANES_shine"
+		texturefile = "gfx/interface/goals/NATSOC_TRANSPORT_PLANES.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_TRANSPORT_PLANES.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_TRANSPORT_PLANES.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	
+	SpriteType = { 
+		name = "NATSOC_GERMANY_DOMINATE_THE_SKIES"
+		texturefile = "gfx/interface/goals/NATSOC_GERMANY_DOMINATE_THE_SKIES.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_GERMANY_DOMINATE_THE_SKIES_shine"
+		texturefile = "gfx/interface/goals/NATSOC_GERMANY_DOMINATE_THE_SKIES.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_GERMANY_DOMINATE_THE_SKIES.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_GERMANY_DOMINATE_THE_SKIES.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_BOMBER_DEVELOPMENT"
+		texturefile = "gfx/interface/goals/NATSOC_BOMBER_DEVELOPMENT.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_BOMBER_DEVELOPMENT_shine"
+		texturefile = "gfx/interface/goals/NATSOC_BOMBER_DEVELOPMENT.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_BOMBER_DEVELOPMENT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_BOMBER_DEVELOPMENT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_CONQUER_THE_LAND"
+		texturefile = "gfx/interface/goals/NATSOC_CONQUER_THE_LAND.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_CONQUER_THE_LAND_shine"
+		texturefile = "gfx/interface/goals/NATSOC_CONQUER_THE_LAND.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CONQUER_THE_LAND.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CONQUER_THE_LAND.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_ARTILELRY_DEVELOPMENT"
+		texturefile = "gfx/interface/goals/NATSOC_ARTILELRY_DEVELOPMENT.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_ARTILELRY_DEVELOPMENT_shine"
+		texturefile = "gfx/interface/goals/NATSOC_ARTILELRY_DEVELOPMENT.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_ARTILELRY_DEVELOPMENT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_ARTILELRY_DEVELOPMENT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_PANZER"
+		texturefile = "gfx/interface/goals/NATSOC_PANZER.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_PANZER_shine"
+		texturefile = "gfx/interface/goals/NATSOC_PANZER.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_PANZER.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_PANZER.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_START_MECHANIZATION_EFFORT"
+		texturefile = "gfx/interface/goals/NATSOC_START_MECHANIZATION_EFFORT.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_START_MECHANIZATION_EFFORT_shine"
+		texturefile = "gfx/interface/goals/NATSOC_START_MECHANIZATION_EFFORT.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_START_MECHANIZATION_EFFORT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_START_MECHANIZATION_EFFORT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_PRUSSIAN_TRADITIONS"
+		texturefile = "gfx/interface/goals/NATSOC_PRUSSIAN_TRADITIONS.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_PRUSSIAN_TRADITIONS_shine"
+		texturefile = "gfx/interface/goals/NATSOC_PRUSSIAN_TRADITIONS.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_PRUSSIAN_TRADITIONS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_PRUSSIAN_TRADITIONS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_WEHRMACHT"
+		texturefile = "gfx/interface/goals/NATSOC_WEHRMACHT.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_WEHRMACHT_shine"
+		texturefile = "gfx/interface/goals/NATSOC_WEHRMACHT.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_WEHRMACHT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_WEHRMACHT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_LUFTWAFFE"
+		texturefile = "gfx/interface/goals/NATSOC_LUFTWAFFE.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_LUFTWAFFE_shine"
+		texturefile = "gfx/interface/goals/NATSOC_LUFTWAFFE.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_LUFTWAFFE.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_LUFTWAFFE.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_REARMAMENT"
+		texturefile = "gfx/interface/goals/NATSOC_REARMAMENT.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_REARMAMENT_shine"
+		texturefile = "gfx/interface/goals/NATSOC_REARMAMENT.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_REARMAMENT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_REARMAMENT.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_GOTHEN_REICH"
+		texturefile = "gfx/interface/goals/NATSOC_GOTHEN_REICH.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_GOTHEN_REICH_shine"
+		texturefile = "gfx/interface/goals/NATSOC_GOTHEN_REICH.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_GOTHEN_REICH.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_GOTHEN_REICH.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_CLAIM_THE_LEBENSRAUM"
+		texturefile = "gfx/interface/goals/NATSOC_CLAIM_THE_LEBENSRAUM.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_CLAIM_THE_LEBENSRAUM_shine"
+		texturefile = "gfx/interface/goals/NATSOC_CLAIM_THE_LEBENSRAUM.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CLAIM_THE_LEBENSRAUM.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CLAIM_THE_LEBENSRAUM.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_CLAIM_SCANDINAVIA"
+		texturefile = "gfx/interface/goals/NATSOC_CLAIM_SCANDINAVIA.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_CLAIM_SCANDINAVIA_shine"
+		texturefile = "gfx/interface/goals/NATSOC_CLAIM_SCANDINAVIA.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CLAIM_SCANDINAVIA.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CLAIM_SCANDINAVIA.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_CLAIM_WEST_GERMANIC_LANDS"
+		texturefile = "gfx/interface/goals/NATSOC_CLAIM_WEST_GERMANIC_LANDS.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_CLAIM_WEST_GERMANIC_LANDS_shine"
+		texturefile = "gfx/interface/goals/NATSOC_CLAIM_WEST_GERMANIC_LANDS.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CLAIM_WEST_GERMANIC_LANDS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CLAIM_WEST_GERMANIC_LANDS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_CLAIM_EAST_GERMANIC_LANDS"
+		texturefile = "gfx/interface/goals/NATSOC_CLAIM_EAST_GERMANIC_LANDS.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_CLAIM_EAST_GERMANIC_LANDS_shine"
+		texturefile = "gfx/interface/goals/NATSOC_CLAIM_EAST_GERMANIC_LANDS.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CLAIM_EAST_GERMANIC_LANDS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CLAIM_EAST_GERMANIC_LANDS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_AFRIKA"
+		texturefile = "gfx/interface/goals/NATSOC_AFRIKA.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_AFRIKA_shine"
+		texturefile = "gfx/interface/goals/NATSOC_AFRIKA.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_AFRIKA.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_AFRIKA.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_ANGEL_SAXEN"
+		texturefile = "gfx/interface/goals/NATSOC_ANGEL_SAXEN.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_ANGEL_SAXEN_shine"
+		texturefile = "gfx/interface/goals/NATSOC_ANGEL_SAXEN.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_ANGEL_SAXEN.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_ANGEL_SAXEN.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_AVENGE_804"
+		texturefile = "gfx/interface/goals/NATSOC_AVENGE_804.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_AVENGE_804_shine"
+		texturefile = "gfx/interface/goals/NATSOC_AVENGE_804.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_AVENGE_804.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_AVENGE_804.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_SACK_ROME"
+		texturefile = "gfx/interface/goals/NATSOC_SACK_ROME.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_SACK_ROME_shine"
+		texturefile = "gfx/interface/goals/NATSOC_SACK_ROME.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_SACK_ROME.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_SACK_ROME.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_FOREIGN_ACTIONS"
+		texturefile = "gfx/interface/goals/NATSOC_FOREIGN_ACTIONS.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_FOREIGN_ACTIONS_shine"
+		texturefile = "gfx/interface/goals/NATSOC_FOREIGN_ACTIONS.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_FOREIGN_ACTIONS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_FOREIGN_ACTIONS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_ANSCHLUSS"
+		texturefile = "gfx/interface/goals/NATSOC_ANSCHLUSS.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_ANSCHLUSS_shine"
+		texturefile = "gfx/interface/goals/NATSOC_ANSCHLUSS.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_ANSCHLUSS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_ANSCHLUSS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_CORPORATISM"
+		texturefile = "gfx/interface/goals/NATSOC_CORPORATISM.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_CORPORATISM_shine"
+		texturefile = "gfx/interface/goals/NATSOC_CORPORATISM.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CORPORATISM.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_CORPORATISM.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_DEUTSCHLAND_ERWACHE"
+		texturefile = "gfx/interface/goals/NATSOC_DEUTSCHLAND_ERWACHE.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_DEUTSCHLAND_ERWACHE_shine"
+		texturefile = "gfx/interface/goals/NATSOC_DEUTSCHLAND_ERWACHE.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_DEUTSCHLAND_ERWACHE.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_DEUTSCHLAND_ERWACHE.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_NATSOC_ECONOMICS"
+		texturefile = "gfx/interface/goals/NATSOC_NATSOC_ECONOMICS.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_NATSOC_ECONOMICS_shine"
+		texturefile = "gfx/interface/goals/NATSOC_NATSOC_ECONOMICS.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_NATSOC_ECONOMICS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_NATSOC_ECONOMICS.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_HAMMER_OF_THOR_NUKE"
+		texturefile = "gfx/interface/goals/NATSOC_HAMMER_OF_THOR_NUKE.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_HAMMER_OF_THOR_NUKE_shine"
+		texturefile = "gfx/interface/goals/NATSOC_HAMMER_OF_THOR_NUKE.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_HAMMER_OF_THOR_NUKE.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_HAMMER_OF_THOR_NUKE.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	
+	SpriteType = { 
+		name = "NATSOC_RESTORE_MILITARY_INDUSTRIAL_COMPLEX"
+		texturefile = "gfx/interface/goals/NATSOC_RESTORE_MILITARY_INDUSTRIAL_COMPLEX.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_RESTORE_MILITARY_INDUSTRIAL_COMPLEX_shine"
+		texturefile = "gfx/interface/goals/NATSOC_RESTORE_MILITARY_INDUSTRIAL_COMPLEX.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_RESTORE_MILITARY_INDUSTRIAL_COMPLEX.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_RESTORE_MILITARY_INDUSTRIAL_COMPLEX.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES"
+		texturefile = "gfx/interface/goals/NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES_shine"
+		texturefile = "gfx/interface/goals/NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_AGRARIAN_SUBSIDES"
+		texturefile = "gfx/interface/goals/NATSOC_AGRARIAN_SUBSIDES.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_AGRARIAN_SUBSIDES_shine"
+		texturefile = "gfx/interface/goals/NATSOC_AGRARIAN_SUBSIDES.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_AGRARIAN_SUBSIDES.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_AGRARIAN_SUBSIDES.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
+		name = "NATSOC_REBUILD_ECONOMY"
+		texturefile = "gfx/interface/goals/NATSOC_REBUILD_ECONOMY.dds"
+	}
+
+	##Icon Shine For: 
+	SpriteType = { 
+		name = "NATSOC_REBUILD_ECONOMY_shine"
+		texturefile = "gfx/interface/goals/NATSOC_REBUILD_ECONOMY.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_REBUILD_ECONOMY.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = -90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/NATSOC_REBUILD_ECONOMY.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = { 
 		name = "NATSOC_LEBENSBORN"
 		texturefile = "gfx/interface/goals/NATSOC_LEBENSBORN.dds"
 	}

@@ -20,6 +20,11 @@ LIB_DORNANLIBERIA = {
 	color_ui = rgb { 140 35 0 }
 }
 
+WCC_SOVL = {
+	color = rgb { 0 128 0 }
+	color_ui = rgb { 0 128 0 }
+}
+
 LIB_COMMONWEALTH = {
 	color = rgb { 140 35 0 }
 	color_ui = rgb { 140 35 0 }
@@ -71,6 +76,10 @@ RUS_GOR = {
 	color = rgb { 0 62 7 }
 	color_ui = rgb { 0 62 7 }
 }
+RUS_GOR_VGH = {
+	color = rgb { 0 62 7 }
+	color_ui = rgb { 0 62 7 }
+}
 RUS_EUR = {
 	color = rgb { 0 91 127 }
 	color_ui = rgb { 0 91 127 }
@@ -94,6 +103,30 @@ BRY_BUD = {
 BRY_SOV = {
 	color = rgb { 233 34 34 }
 	color_ui = rgb { 233 34 34 }
+}
+TRM_RUS = {
+	color = rgb { 95 127 98 }
+	color_ui = rgb { 95 127 98 }
+}
+UTR_autonomy = {
+	color = rgb { 98 161 105 }
+	color_ui = rgb { 98 161 105 }
+}
+YAK_RUS = {
+	color = rgb { 95 127 98 }
+	color_ui = rgb { 95 127 98 }
+}
+YAK_SOV = {
+	color = rgb { 233 34 34 }
+	color_ui = rgb { 233 34 34 }
+}
+YAK_TRM = {
+	color = rgb { 216 244 247 }
+	color_ui = rgb { 216 244 247 }
+}
+TRM_SIB = {
+	color = rgb { 182 107 88 }
+	color_ui = rgb { 182 107 88 }
 }
 TRM_TSAR = {
 	color = rgb { 140 255 140 }
@@ -772,6 +805,11 @@ FOP_AND = {
 	color_ui = rgb { 128 4 4 }
 }
 
+FOP_MONARCH = {
+	color = rgb { 12 15 132 }
+	color_ui = rgb { 12 15 132 }
+}
+
 FOP_REP = {
 	color = rgb { 180 217 214 }
 	color_ui = rgb { 180 217 214 }
@@ -1242,6 +1280,28 @@ ABP = {
 	color_ui = rgb { 29 52 119 }
 }
 
+ARG_LA_PLATA = {
+	color = rgb { 153 217 234 }
+	color_ui = rgb { 153 217 234 }
+}
+
+ARG_LA_PLATANISMUS = {
+	color = rgb { 0 57 166 }
+	color_ui = rgb { 0 57 166 }
+}
+LFF = {
+	color = rgb { 119 140 147 }
+	color_ui = rgb { 119 140 147 }
+}
+QCH = {
+	color = rgb { 4 146 32 }
+	color_ui = rgb { 4 146 32 }
+}
+ADA = {
+	color = rgb { 146 78 48 }
+	color_ui = rgb { 146 78 48 }
+}
+
 ###reddawn
 GRU_NMDVP = {
 	color = rgb { 45 45 45 }
@@ -1345,5 +1405,15 @@ GRU_REACTIONARY_COUP_GOV = {
 
 GRU_GERMANIC_REICH = {
 	color = rgb { 45 45 45 }
+	color_ui = rgb { 55 55 55 }
+}
+
+GRU_GOTHEN_REICH = {
+	color = rgb { 45 45 45 }
+	color_ui = rgb { 55 55 55 }
+}
+
+ACIDWAFFEN = {
+	color = rgb { 45 5 80 }
 	color_ui = rgb { 55 55 55 }
 }

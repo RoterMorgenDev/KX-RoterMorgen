@@ -318,6 +318,25 @@ intelligence_agency = {
 
 intelligence_agency = {
 
+	picture = GFX_intelligence_agency_logo_RM_GRU_FIVE
+	names = { "GeStPA" }
+
+	default = {
+			AND = {
+			tag = GRU
+			GRU = { has_country_flag = GRU_NAZI_rule_ROSE }
+			}
+	}
+	available = {
+			AND = {
+			original_tag = GRU
+			GRU = { has_country_flag = GRU_NAZI_rule_ROSE }
+			}
+	}
+}
+
+intelligence_agency = {
+
 	picture = GFX_intelligence_agency_logo_kr_ger 
 	names = { "Abwehrdienst" }
 
@@ -341,6 +360,7 @@ intelligence_agency = {
 	}
 }
 
+
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_gre
@@ -352,7 +372,7 @@ intelligence_agency = {
 
 intelligence_agency = {
 
-	picture = GFX_intelligence_agency_logo_ind
+	picture = GFX_intelligence_agency_logo_kr_ind
 	names = { "Intelligence Bureau" }
 
 	default = {
@@ -1319,96 +1339,6 @@ intelligence_agency = {
 	}
 }
 
-##-------------------------------
-##
-##	VANILLA GENERIC GOES HERE
-##
-##-------------------------------
-
-intelligence_agency = {
-
-	picture = GFX_intelligence_agency_logo_generic_1
-	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
-
-	available = { always = yes }
-
-	default = { always = yes }
-}
-intelligence_agency = {
-
-	picture = GFX_intelligence_agency_logo_generic_2
-	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
-
-	available = { always = yes }
-
-	default = { always = yes }
-}
-intelligence_agency = {
-
-	picture = GFX_intelligence_agency_logo_generic_3
-	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
-
-	available = { always = yes }
-
-	default = { always = yes }
-}
-intelligence_agency = {
-
-	picture = GFX_intelligence_agency_logo_generic_4
-	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
-
-	available = { always = yes }
-
-	default = { always = yes }
-}
-intelligence_agency = {
-
-	picture = GFX_intelligence_agency_logo_generic_5
-	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
-
-	available = { always = yes }
-
-	default = { always = yes }
-}
-intelligence_agency = {
-
-	picture = GFX_intelligence_agency_logo_generic_6
-	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
-
-	available = { always = yes }
-
-	default = { always = yes }
-}
-intelligence_agency = {
-
-	picture = GFX_intelligence_agency_logo_generic_7
-	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
-
-	available = { always = yes }
-
-	default = { always = yes }
-}
-intelligence_agency = {
-
-	picture = GFX_intelligence_agency_logo_generic_8
-	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
-
-	available = { always = yes }
-
-	default = { always = yes }
-}
-intelligence_agency = {
-
-	picture = GFX_intelligence_agency_logo_generic_9
-	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
-
-	available = {
-		has_socialist_government = yes
-	}
-
-	default = { always = yes }
-}
-
 ###New England###
 intelligence_agency = {
 
@@ -1623,7 +1553,10 @@ intelligence_agency = {
 	names = { "Office of Strategic Services" }
 
 	default = {
+		OR = {
+			tag = USA
 			tag = CAL
+		}
 	}
 	available = {
 		OR = {
@@ -1695,6 +1628,7 @@ intelligence_agency = {
 	names = { "Military Intelligence Service" }
 
 	default = {
+			tag = CAL
 	}
 	available = {
 			original_tag = CAL
@@ -1809,4 +1743,94 @@ intelligence_agency = {
 
 	default = { tag = ZIM }
 	available = { original_tag = ZIM }
+}
+
+##-------------------------------
+##
+##	VANILLA GENERIC GOES HERE
+##
+##-------------------------------
+
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_1
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_2
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_3
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_4
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_5
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_6
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_7
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_8
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
+
+	available = { always = yes }
+
+	default = { always = yes }
+}
+intelligence_agency = {
+
+	picture = GFX_intelligence_agency_logo_generic_9
+	names = { "Central Intelligence Service" "Special Investigation Branch" "National Intelligence Service" "Overseas Security Agency" "Foreign Security Service" "Central Security Corps" "Military Intelligence Corps" "Executive Intelligence Bureau" "National Bureau of Security" "Military Intelligence Service" "Investigation and Operations Bureau" "Foreign Affairs Office"}
+
+	available = {
+		has_socialist_government = yes
+	}
+
+	default = { always = yes }
 }

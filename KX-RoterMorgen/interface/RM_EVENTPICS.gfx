@@ -269,5 +269,31 @@ spriteTypes = {
 			texturefile = "gfx/event_pictures/germania_finished.tga"
 	}
 	
+	spriteType = {  
+
+			name = "GFX_report_event_rosehappy"  
+
+			texturefile = "gfx/event_pictures/rose_happy.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_roseunhappy"  
+
+			texturefile = "gfx/event_pictures/rose_unhappy.tga"
+	}
+	
+	spriteType = {  
+
+			name = "GFX_report_event_rosespeech"  
+
+			texturefile = "gfx/event_pictures/rose_speech.tga"
+	}
+	spriteType = {  
+
+			name = "GFX_report_event_gobbelfuneral"  
+
+			texturefile = "gfx/event_pictures/funeral.tga"
+	}
+	
 	
 }
