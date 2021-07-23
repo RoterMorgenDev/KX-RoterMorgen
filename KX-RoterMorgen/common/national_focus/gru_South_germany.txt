@@ -916,7 +916,7 @@ focus_tree = {
 	
 	focus = {
 		id = BAY_NATPOP_SOUTH_GERMAN_AMBITION
-		icon = BAY
+		icon = BAY_SOUTH_GERMAN_DREAM
 		relative_position_id = BAY_NATPOP_START
 		x = 5
 		y = 7
@@ -943,7 +943,7 @@ focus_tree = {
 	
 	focus = {
 		id = BAY_NATPOP_SOUTH_TAKE_AUSTRIA
-		icon = BAY
+		icon = BAY_SKEWER_AUSTRIA
 		relative_position_id = BAY_NATPOP_SOUTH_GERMAN_AMBITION
 		x = -1
 		y = 1
@@ -960,7 +960,7 @@ focus_tree = {
 	
 	focus = {
 		id = BAY_NATPOP_SOUTH_TAKE_SWITZERLAND
-		icon = BAY
+		icon = BAY_DESTROY_SWITZERLAND
 		relative_position_id = BAY_NATPOP_SOUTH_GERMAN_AMBITION
 		x = 1
 		y = 1
@@ -977,7 +977,7 @@ focus_tree = {
 	
 	focus = {
 		id = BAY_NATPOP_THE_SOUTH_GERMAN_KINGDOM
-		icon = BAY
+		icon = BAY_SOUTH_GERMAN_RESTORED
 		relative_position_id = BAY_NATPOP_SOUTH_GERMAN_AMBITION
 		x = 0
 		y = 2
@@ -1011,7 +1011,7 @@ focus_tree = {
 	
 	focus = {
 		id = BAY_NATPOP_AUSTRIAN_FUTURE
-		icon = BAY
+		icon = BAY_AUSTRIAN_FUTURE
 		relative_position_id = BAY_NATPOP_START
 		x = -5
 		y = 7
@@ -1038,7 +1038,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAY_NATPOP_JOIN_THE_AUSTRIAN_ALLIANCE
-		icon = BAY
+		icon = BAY_AUSTRIAN_ALLY
 		relative_position_id = BAY_NATPOP_AUSTRIAN_FUTURE
 		x = -1
 		y = 1
@@ -1068,7 +1068,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAY_NATPOP_JOIN_AUSTRIA
-		icon = BAY
+		icon = BAY_AUSTRIAN_ANNEXATION
 		relative_position_id = BAY_NATPOP_AUSTRIAN_FUTURE
 		x = 1
 		y = 1
