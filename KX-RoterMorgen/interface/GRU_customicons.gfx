@@ -1,15 +1,15 @@
 spriteTypes = {
 	##Icon For: 
 	SpriteType = {		
-		name = "GFX_goal_BAY_SOUTH_GERMAN_RESTORED	
-		texturefile = "gfx/interface/goals/BAY_SOUTH_GERMAN_RESTORED.png"	
+		name = "BAY_SOUTH_GERMANY_RESTORED"
+		texturefile = "gfx/interface/goals/BAY_SOUTH_GERMANY_RESTORED.png"	
 	}		
 	SpriteType = {		
-		name = "BAY_SOUTH_GERMAN_RESTORED_shine"	
+		name = "BAY_SOUTH_GERMANY_RESTORED_shine"	
 		texturefile = "gfx/interface/goals/BAY_SOUTH_GERMAN_RESTORED.png"	
 		effectFile = "gfx/FX/buttonstate.lua"	
 		animation = {	
-			animationmaskfile = "gfx/interface/goals/BAY_SOUTH_GERMAN_RESTORED.png"
+			animationmaskfile = "gfx/interface/goals/BAY_SOUTH_GERMANY_RESTORED.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = -90.0
 			animationlooping = no
@@ -19,10 +19,9 @@ spriteTypes = {
 			animationtype = "scrolling"
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
-		}	
-			
+		}		
 		animation = {	
-			animationmaskfile = "gfx/interface/goals/BAY_SOUTH_GERMAN_RESTORED.png"
+			animationmaskfile = "gfx/interface/goals/BAY_SOUTH_GERMANY_RESTORED.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
 			animationrotation = 90.0
 			animationlooping = no
@@ -37,7 +36,7 @@ spriteTypes = {
 			
 	}			
 	SpriteType = {		
-		name = "GFX_goal_BAY_DESTROY_SWITZERLAND	
+		name = "BAY_DESTROY_SWITZERLAND"
 		texturefile = "gfx/interface/goals/BAY_DESTROY_SWITZERLAND.png"	
 	}			
 	SpriteType = {		
@@ -72,7 +71,7 @@ spriteTypes = {
 			
 	}			
 	SpriteType = {		
-		name = "GFX_goal_BAY_SKEWER_AUSTRIA	
+		name = "BAY_SKEWER_AUSTRIA"
 		texturefile = "gfx/interface/goals/BAY_SKEWER_AUSTRIA.png"	
 	}		
 			
@@ -109,7 +108,7 @@ spriteTypes = {
 			
 	}			
 	SpriteType = {		
-		name = "GFX_goal_BAY_SOUTH_GERMAN_DREAM	
+		name = "BAY_SOUTH_GERMAN_DREAM"	
 		texturefile = "gfx/interface/goals/BAY_SOUTH_GERMAN_DREAM.png"	
 	}		
 			
@@ -143,13 +142,12 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}	
 		legacy_lazy_load = no	
-			
 	}			
 	SpriteType = {		
-		name = "GFX_goal_BAY_AUSTRIAN_ANNEXATION	
+		name = "BAY_AUSTRIAN_ANNEXATION"	
 		texturefile = "gfx/interface/goals/BAY_AUSTRIAN_ANNEXATION.png"	
 	}		
-			
+	
 	SpriteType = {		
 		name = "BAY_AUSTRIAN_ANNEXATION_shine"	
 		texturefile = "gfx/interface/goals/BAY_AUSTRIAN_ANNEXATION.png"	
@@ -166,7 +164,6 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}	
-			
 		animation = {	
 			animationmaskfile = "gfx/interface/goals/BAY_AUSTRIAN_ANNEXATION.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
@@ -180,13 +177,11 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}	
 		legacy_lazy_load = no	
-			
 	}			
 	SpriteType = {		
-		name = "GFX_goal_BAY_AUSTRIAN_ALLY	
+		name = "BAY_AUSTRIAN_ALLY"	
 		texturefile = "gfx/interface/goals/BAY_AUSTRIAN_ALLY.png"	
 	}		
-			
 	SpriteType = {		
 		name = "BAY_AUSTRIAN_ALLY_shine"	
 		texturefile = "gfx/interface/goals/BAY_AUSTRIAN_ALLY.png"	
@@ -203,7 +198,6 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}	
-			
 		animation = {	
 			animationmaskfile = "gfx/interface/goals/BAY_AUSTRIAN_ALLY.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
@@ -217,13 +211,11 @@ spriteTypes = {
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}	
 		legacy_lazy_load = no	
-			
 	}			
 	SpriteType = {		
-		name = "GFX_goal_BAY_AUSTRIAN_FUTURE	
+		name = "BAY_AUSTRIAN_FUTURE"
 		texturefile = "gfx/interface/goals/BAY_AUSTRIAN_FUTURE.png"	
 	}		
-			
 	SpriteType = {		
 		name = "BAY_AUSTRIAN_FUTURE_shine"	
 		texturefile = "gfx/interface/goals/BAY_AUSTRIAN_FUTURE.png"	
@@ -240,7 +232,6 @@ spriteTypes = {
 			animationrotationoffset = { x = 0.0 y = 0.0 }
 			animationtexturescale = { x = 1.0 y = 1.0 }
 		}	
-			
 		animation = {	
 			animationmaskfile = "gfx/interface/goals/BAY_AUSTRIAN_FUTURE.png"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"

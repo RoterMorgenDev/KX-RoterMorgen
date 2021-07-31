@@ -1,0 +1,3 @@
+BAY_GERMAN_FORIEGN_POLICY = {
+	icon = generic_foriegn_policy
+}

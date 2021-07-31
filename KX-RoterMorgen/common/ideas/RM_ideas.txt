@@ -3010,7 +3010,6 @@ ideas = {
 			picture = BAY_AUSTRIAN_ALLIANCE
 			removal_cost = -1
 			modifier = {
-				consumer_goods_factor = -0.1
 				weekly_manpower = 1000
 				surrender_limit = 0.1
 			}
