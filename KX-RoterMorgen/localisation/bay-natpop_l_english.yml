@@ -3,7 +3,11 @@
 ####Focus Loc####
 
 BAY_NATPOP_START:0 "Realm of South Germany"
+<<<<<<< Updated upstream
 BAY_NATPOP_START_desc:0 ""
+=======
+BAY_NATPOP_START_desc:0 "We have finally "
+>>>>>>> Stashed changes
 
 BAY_NATPOP_EMPOWER_MONARCHY:0 "Empower Ruprecht"
 BAY_NATPOP_EMPOWER_MONARCHY_desc:0 ""
@@ -166,4 +170,24 @@ BAY_JOINING_AUSTRIAN_FACTION:0 "We have decided to join the 'Empire', as this wi
 BAY_ANNEXED_BY_AUSTRIA:0 "§R We have decided to pursue full-on integration with Austria in order to unite our countries into something bigger. WARNING: YOU WILL BE FULLY ANNEXED BY AUSTRIA AND GET A GAME OVER!§!"
 BAY_CLAIM_FRANKISH_LANDS:0 "§BWe have decided to pursue the Frankish Dream that was broken over a millenium ago, and avenge Charlemagnes Dream of a Frankish Empire!§!"
 BAY_CORE_FRANKISH_LANDS:0 "§BWe have done it! We have gained the territory needed in order to avenge the Frankish Empire! We shall integrate these lands fully and name all citizens under our rule as Frankish to equalize them further!§!"
+<<<<<<< Updated upstream
 BAY_SOUTH_GERMANY_AMBITIONS:0 "§CWe have decided to fulfill our Dreams of a true south germany, in which all South German People are united under one banner!"
+=======
+BAY_SOUTH_GERMANY_AMBITIONS:0 "§CWe have decided to fulfill our Dreams of a true south germany, in which all South German People are united under one banner!"
+BAY_CLAIM_MITTELAFRIKA:0 "§BWill get claims on all of the former imperial territories of Mittelafrika§!"
+BAY_EURO_COLONIES:0 "§BWill claim European Territories that Ruppherect or Charlemagne had claims on!§!"
+BAY_ASIAN_COLONIES_TOOLTIP:0 "§BWill get claims on the coast of China, Indochina, and Malaysia.§!"
+
+
+
+###DECISIONS###
+BAY_GERMAN_FP:0 "Reclaim our Former Territories"
+BAY_ATTACK_FRENCH_DECISION:0 "Attack the Communards"
+BAY_ATTACK_SAND_FRENCH_DECISION:0 "Attack the French"
+BAY_ATTACK_BELGIANS:0 "Attack Flanders-Wallonia"
+BAY_ATTACK_WALLONIA:0 "Attack Wallonia"
+BAY_ATTACK_FLANDERS:0 "Attack Flanders"
+BAY_ATTACK_DUTCH:0 "Attack the Netherlands"
+BAY_UNITED_KINGDOM_OF_NETHERLANDS:0 "Form the United Kingdom of the Netherlands"
+BAY_ATTACK_POLES:0 "Add Poland to our Sphere"
+>>>>>>> Stashed changes

@@ -1,4 +1,26 @@
 BAY_GERMAN_FORIEGN_POLICY  = {
+<<<<<<< Updated upstream
+=======
+	BAY_GERMAN_FP = { #this is just a placeholder to make a decision tooltip look better
+		icon = generic_foriegn_policy
+		visible = {
+			has_completed_focus = BAY_AUSTRIAN_ANNEXATION
+			has_completed_focus = BAY_SOUTH_GERMANY_RESTORED
+		}
+		available = {
+			has_completed_focus = BAY_AUSTRIAN_ANNEXATION
+			has_completed_focus = BAY_SOUTH_GERMANY_RESTORED
+		}
+		fire_only_once = yes
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision BAY_GERMAN_FP"
+		}
+	}
+>>>>>>> Stashed changes
 	BAY_ATTACK_FRENCH_DECISION = {
 		icon = generic_foriegn_policy
 		visible = {
