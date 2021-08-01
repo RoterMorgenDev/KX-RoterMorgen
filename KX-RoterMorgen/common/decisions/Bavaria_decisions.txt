@@ -1,6 +1,4 @@
 BAY_GERMAN_FORIEGN_POLICY  = {
-<<<<<<< Updated upstream
-=======
 	BAY_GERMAN_FP = { #this is just a placeholder to make a decision tooltip look better
 		icon = generic_foriegn_policy
 		visible = {
@@ -20,7 +18,6 @@ BAY_GERMAN_FORIEGN_POLICY  = {
 			log = "[GetDateText]: [Root.GetName]: Decision BAY_GERMAN_FP"
 		}
 	}
->>>>>>> Stashed changes
 	BAY_ATTACK_FRENCH_DECISION = {
 		icon = generic_foriegn_policy
 		visible = {
