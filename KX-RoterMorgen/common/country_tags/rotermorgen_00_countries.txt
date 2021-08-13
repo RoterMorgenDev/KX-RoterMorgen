@@ -12,3 +12,5 @@ HYP = "countries/HYPOBOREA.txt"
 VSJ = "countries/VS Judea.txt"
 VST = "countries/VS Turania.txt"
 XNE = "countries/GermanUnion.txt" #Prussia
+SAX = "countries/Saxony.txt"
+POM = "countries/Pomerania.txt"

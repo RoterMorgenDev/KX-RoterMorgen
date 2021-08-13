@@ -335,7 +335,9 @@ BAY_SOUTH_GERMAN_AMBITIONS_DESCISION = {
 		}
 		complete_effect = {
 			log = "[GetDateText]: [Root.GetName]: Decision BAY_DANUBIAN_OCCUPATION"
+			custom_effect_tooltip = BAY_DANUBIAN_OCCUPATION_tt
 			hidden_effect = {
+				set_country_flag = BAY_danubian_occupation_flag
 				puppet = HUN
 				release = GAL
 				annex_country = {
@@ -369,9 +371,164 @@ BAY_SOUTH_GERMAN_AMBITIONS_DESCISION = {
 						target = GAL
 						transfer_troops = no
 					}
-					remove_all_ideas = yes
+					remove_ideas = {
+						HUN_financial_ties_broken
+						AUS_part_of_the_Empire
+					}
+					every_owned_state = {
+						add_core_of = HUN
+					}
 				}
 			}
 		}
-	}	
+	}
+	BAY_EXPAND_DANUBE_TO_ILLYRIA_decision = {
+		icon = generic_foriegn_policy
+		visible = {
+			has_country_flag = BAY_danubian_occupation_flag
+		}
+		available = {
+			has_war = no
+		}
+		fire_only_once = yes
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 10
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision BAY_EXPAND_DANUBE_TO_ILLYRIA_decision"
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BAY_EXPAND_DANUBE_TO_ILLYRIA_decision"
+			declare_war_on = {
+				target = CRO
+				type = annex_everything
+			}
+		}
+	}
+	BAY_GIVE_ILLYRIA_TO_DANUBE = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_country_flag = BAY_danubian_occupation_flag
+		}
+		available = {
+			has_war = no
+			OR = {
+				AND = {
+					CRO = {
+						is_puppet_of = BAY
+					}
+				}
+				AND = {
+					NOT = {
+						country_exists = CRO
+					}
+					owns_state = 163
+					owns_state = 1098
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision BAY_GIVE_ILLYRIA_TO_DANUBE"
+			custom_effect_tooltip = BAY_GIVE_ILLYRIA_TO_DANUBE_tt
+			hidden_effect = {
+				release = CRO
+				release = BOS
+				release = MNT
+				set_country_flag = BAY_croatia_killed_idk
+				HUN = {
+					annex_country = {
+						target = CRO
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = BOS
+						transfer_troops = yes
+					}
+					annex_country = {
+						target = MNT
+						transfer_troops = yes
+					}
+					every_owned_state = {
+						add_core_of = HUN
+					}
+				}
+			}
+		}
+	}
+	BAY_KILL_SERBIA_FOR_DANUBE = {
+		icon = generic_foriegn_policy
+		visible = {
+			has_country_flag = BAY_danubian_occupation_flag
+			has_country_flag = BAY_croatia_killed_idk
+		}
+		available = {
+			has_war = no
+		}
+		fire_only_once = yes
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		days_remove = 10
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision BAY_KILL_SERBIA_FOR_DANUBE"
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision remove BAY_KILL_SERBIA_FOR_DANUBE"
+			declare_war_on = {
+				target = SER
+				type = annex_everything
+			}
+		}
+	}
+	BAY_GIVE_SERBIA_TO_DANUBE = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_country_flag = BAY_danubian_occupation_flag
+			has_country_flag = BAY_croatia_killed_idk
+		}
+		available = {
+			OR = {
+				AND = {
+					SER = {
+						is_puppet_of = BAY
+					}
+				}
+				AND = {
+					NOT = {
+						country_exists = SER
+					}
+					owns_state = 107
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision BAY_GIVE_SERBIA_TO_DANUBE"
+			custom_effect_tooltip = BAY_GIVE_SERBIA_TO_DANUBE_tt
+			hidden_effect = {
+				release = SER
+				HUN = {
+					annex_country = {
+						target = SER
+						transfer_troops = yes
+					}
+					every_owned_state = {
+						add_core_of = HUN
+					}
+				}
+			}
+		}
+	}
 }
