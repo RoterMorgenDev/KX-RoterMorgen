@@ -3,11 +3,7 @@
 ####Focus Loc####
 
 BAY_NATPOP_START:0 "Realm of South Germany"
-<<<<<<< Updated upstream
-BAY_NATPOP_START_desc:0 ""
-=======
 BAY_NATPOP_START_desc:0 "We have finally "
->>>>>>> Stashed changes
 
 BAY_NATPOP_EMPOWER_MONARCHY:0 "Empower Ruprecht"
 BAY_NATPOP_EMPOWER_MONARCHY_desc:0 ""
@@ -161,17 +157,20 @@ BAY_SOUTH_GERMAN_KINGDOM:0 "Greater South German Empire"
 BAY_SOUTH_GERMAN_KINGDOM_def:0 "the Greater South German Empire"
 BAY_SOUTH_GERMAN_KINGDOM_ADJ:0 "South German"
 
+HUN_bay_puppet:0 "Danubian Occupation Zone"
+HUN_bay_puppet_def:0 "the Danubian Occupation Zone"
+HUN_bay_puppet_ADJ:0 "Danubian"
 ###TOOLTIPS###
 
 BAY_NEW_SOUTHERN_GERMANY:0 "§CWe have stabilized our Kingdom against the Internal Threats of the Socialists and Democrats! Long Live Bavaria! Long Live Ruppherect!§"
 BAY_OUR_FUTURE:0 "With our Nation fully stabilized, we must make a choice about what path we shall choose on the world stage."
 BAY_AUSTRIAN_FUTURE:0 "§YWith Austria bordering us under Dollfuss, whom we share ideological similarities to, it would be beneficial for both our nations to pursue closer ties§"
 BAY_JOINING_AUSTRIAN_FACTION:0 "We have decided to join the 'Empire', as this will result in close ties to Austria but will also keep our soverignity intact."
-BAY_ANNEXED_BY_AUSTRIA:0 "§R We have decided to pursue full-on integration with Austria in order to unite our countries into something bigger. WARNING: YOU WILL BE FULLY ANNEXED BY AUSTRIA AND GET A GAME OVER!§!"
+BAY_ANNEXED_BY_AUSTRIA:0 "§R We have decided to pursue full-on integration with Austria in order to unite our countries into something bigger. WARNING - YOU WILL BE FULLY ANNEXED BY AUSTRIA AND GET A GAME OVER!§!"
 BAY_CLAIM_FRANKISH_LANDS:0 "§BWe have decided to pursue the Frankish Dream that was broken over a millenium ago, and avenge Charlemagnes Dream of a Frankish Empire!§!"
 BAY_CORE_FRANKISH_LANDS:0 "§BWe have done it! We have gained the territory needed in order to avenge the Frankish Empire! We shall integrate these lands fully and name all citizens under our rule as Frankish to equalize them further!§!"
-<<<<<<< Updated upstream
 BAY_SOUTH_GERMANY_AMBITIONS:0 "§CWe have decided to fulfill our Dreams of a true south germany, in which all South German People are united under one banner!"
+BAY_owns_all_frankish_land_check_tt:0 "Owns all Frankish Land"
 =======
 BAY_SOUTH_GERMANY_AMBITIONS:0 "§CWe have decided to fulfill our Dreams of a true south germany, in which all South German People are united under one banner!"
 BAY_CLAIM_MITTELAFRIKA:0 "§BWill get claims on all of the former imperial territories of Mittelafrika§!"
@@ -190,4 +189,3 @@ BAY_ATTACK_FLANDERS:0 "Attack Flanders"
 BAY_ATTACK_DUTCH:0 "Attack the Netherlands"
 BAY_UNITED_KINGDOM_OF_NETHERLANDS:0 "Form the United Kingdom of the Netherlands"
 BAY_ATTACK_POLES:0 "Add Poland to our Sphere"
->>>>>>> Stashed changes

@@ -277,3 +277,101 @@ BAY_GERMAN_FORIEGN_POLICY  = {
 			}
 		}
 	}
+}
+BAY_SOUTH_GERMAN_AMBITIONS_DESCISION = {
+	BAY_AMBITION = { #ANOTHER PLACEHOLDER TROLL
+		icon = generic_foriegn_policy
+		visible = {
+			has_completed_focus = BAY_AUSTRIAN_ANNEXATION
+			has_completed_focus = BAY_SOUTH_GERMANY_RESTORED
+		}
+		available = {
+			has_completed_focus = BAY_AUSTRIAN_ANNEXATION
+			has_completed_focus = BAY_SOUTH_GERMANY_RESTORED
+		}
+		fire_only_once = yes
+		cost = 0
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision BAY_AMBITION"
+		}
+	}
+	BAY_DANUBIAN_OCCUPATION = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_completed_focus = BAY_SECURING_OUR_KINGDOM
+		}
+		available = {
+			OR = {
+				AND = {
+					HUN = {
+						is_puppet_of = BAY
+					}
+					CZE = {
+						is_puppet_of = BAY
+					}
+					GAL = {
+						is_puppet_of = BAY
+					}
+				}
+				AND = {
+					owns_state = 43
+					owns_state = 91
+					owns_state = 1129
+					NOT = {
+						country_exists = HUN
+						country_exists = CZE
+						country_exists = GAL
+					}
+				}
+			}
+		}
+		fire_only_once = yes
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision BAY_DANUBIAN_OCCUPATION"
+			hidden_effect = {
+				puppet = HUN
+				release = GAL
+				annex_country = {
+					target = CZE
+					transfer_troops = yes
+				}
+				CZE = {
+					every_owned_state = {
+						add_core_of = BAY
+					}
+				}
+				HUN = {
+					load_focus_tree = default
+					set_cosmetic_tag = HUN_bay_puppet
+					set_politics = {
+						ruling_party = paternal_autocrat
+						elections_allowed = no
+						last_election = 1936.1.1
+						election_frequency = 48
+					}
+					create_country_leader = {
+						name = "Franz Von Bayern"
+						desc = POLITICS
+						picture = "HUN_Franz_Von_Bayern.png"
+						expire = 1965.1.1
+						ideology = paternal_autocrat_subtype
+						traits = {
+						}
+					}
+					annex_country = {
+						target = GAL
+						transfer_troops = no
+					}
+					remove_all_ideas = yes
+				}
+			}
+		}
+	}	
+}
