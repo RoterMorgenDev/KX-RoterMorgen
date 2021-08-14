@@ -14,3 +14,5 @@ VST = "countries/VS Turania.txt"
 XNE = "countries/GermanUnion.txt" #Prussia
 SAX = "countries/Saxony.txt"
 POM = "countries/Pomerania.txt"
+SIL = "countries/Silesia.txt"
+HNZ = "countries/Hamburg.txt"

@@ -1086,3 +1086,15 @@ SAX_paternal_autocrat_DEF:0 "The Kingdom and Holy Lands of the House of Wettin"
 POM_national_populist:0 "German National State"
 POM_national_populist_ADJ:0 "German"
 POM_national_populist_DEF:0 "the German National State"
+
+###MILITARY SILESIA###
+
+SIL_paternal_autocrat:0 "Silesian Transitional Government"
+SIL_paternal_autocrat_ADJ:0 "Silesian"
+SIL_paternal_autocrat_DEF:0 "the Silesian Transitional Government"
+
+##DONITZ HAMBURG##
+
+HNZ_paternal_autocrat:0 "Hamburg Emergency Government"
+HNZ_paternal_autocrat_ADJ:0 "German"
+HNZ_paternal_autocrat_DEF:0 "The Hamburg Emergency Naval Zone"
