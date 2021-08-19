@@ -423,6 +423,7 @@ focus_tree = {
 			}
 		}
 		bypass = {
+			has_completed_focus = BAY_NATPOP_FRANKISH_AMBITION
 			NOT = {
 				country_exists = SWI
 			}
@@ -448,6 +449,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_TAKE_AUSTRIA"
 		}
 		bypass = {
+			has_completed_focus = BAY_NATPOP_FRANKISH_AMBITION
 			NOT = {
 				country_exists = AUS
 				country_exists = CZE
@@ -917,6 +919,7 @@ focus_tree = {
 			custom_effect_tooltip = BAY_CLAIM_MITTELAFRIKA
 			hidden_effect = {
 				claim_mittelafrika = yes
+				wargoals_on_mittelafrika = yes
 			}
 		}
 		prerequisite = { focus = BAY_NATPOP_FRANCONIAN_EMPIRE  }
@@ -1029,6 +1032,35 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_THE_SOUTH_GERMAN_KINGDOM"
 			unlock_decision_tooltip = BAY_AMBITION
 		}
+		prerequisite = { focus = BAY_NATPOP_THE_SOUTH_GERMAN_KINGDOM}
+	}
+	focus = {
+		id = BAY_DESTROY_NORTH_GERMAN_MENACE
+		icon = BAY_NORTH_GERMAN_MENACE
+		relative_position_id = BAY_NATPOP_SOUTH_GERMAN_AMBITION
+		x = 0
+		y = 4
+		cost = 2
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus BAY_DESTROY_NORTH_GERMAN_MENACE"
+			unlock_decision_tooltip = BAY_KILL_RHEINLAND_DECISION
+			unlock_decision_tooltip = BAY_KILL_NORTH_COMMIES_DECISION
+			unlock_decision_tooltip = BAY_KILL_PRUSSIA_DECISION
+		}
+		prerequisite = { focus = BAY_SECURING_OUR_KINGDOM }
+	}
+	focus = {
+		id = BAY_KILLING_THE_COMMUNARDS
+		icon = BAY_KILLING_COMMUNARDS
+		relative_position_id = BAY_NATPOP_SOUTH_GERMAN_AMBITION
+		x = 0
+		y = 5
+		cost = 2
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus BAY_KILLING_THE_COMMUNARDS"
+			unlock_decision_tooltip = BAY_KILLING_COMMUNARDS_DECISION
+		}
+		prerequisite = { focus = BAY_DESTROY_NORTH_GERMAN_MENACE }
 	}
 	focus = {
 		id = BAY_NATPOP_AUSTRIAN_FUTURE

@@ -1095,6 +1095,12 @@ SIL_paternal_autocrat_DEF:0 "the Silesian Transitional Government"
 
 ##DONITZ HAMBURG##
 
-HNZ_paternal_autocrat:0 "Hamburg Emergency Government"
-HNZ_paternal_autocrat_ADJ:0 "German"
-HNZ_paternal_autocrat_DEF:0 "The Hamburg Emergency Naval Zone"
+HZN_paternal_autocrat:0 "Hamburg Emergency Government"
+HZN_paternal_autocrat_ADJ:0 "German"
+HZN_paternal_autocrat_DEF:0 "The Hamburg Emergency Naval Zone"
+
+##DENMARK SCHLESWIG HOLSTIEN##
+
+SCH_authoritarian_democrat:0 "Schleswig-Holstien"
+SCH_authoritarian_democrat_ADJ:0 "Danish"
+SCH_authoritarian_democrat_DEF:0 "The Danish Occupational Authority of Schleswig-Holstien"

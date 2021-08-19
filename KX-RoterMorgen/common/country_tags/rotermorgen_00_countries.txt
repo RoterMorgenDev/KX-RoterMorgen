@@ -15,4 +15,5 @@ XNE = "countries/GermanUnion.txt" #Prussia
 SAX = "countries/Saxony.txt"
 POM = "countries/Pomerania.txt"
 SIL = "countries/Silesia.txt"
-HNZ = "countries/Hamburg.txt"
+HZN = "countries/Hamburg.txt"
+SCH = "countries/SchleswigHolstien.txt"

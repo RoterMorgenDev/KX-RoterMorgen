@@ -338,6 +338,7 @@ BAY_SOUTH_GERMAN_AMBITIONS_DESCISION = {
 			custom_effect_tooltip = BAY_DANUBIAN_OCCUPATION_tt
 			hidden_effect = {
 				set_country_flag = BAY_danubian_occupation_flag
+				release = HUN
 				puppet = HUN
 				release = GAL
 				annex_country = {
@@ -527,6 +528,113 @@ BAY_SOUTH_GERMAN_AMBITIONS_DESCISION = {
 					every_owned_state = {
 						add_core_of = HUN
 					}
+				}
+			}
+		}
+	}
+	BAY_KILL_RHEINLAND_DECISION = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_completed_focus = BAY_DESTROY_NORTH_GERMAN_MENACE
+		}
+		fire_only_once = yes
+		cost = 10
+		ai_will_do = {
+			factor = 20
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision BAY_KILL_RHEINLAND_DECISION"
+			declare_war_on = {
+				target = WGR
+				type = annex_everything
+			}
+		}
+	}
+	BAY_KILL_NORTH_COMMIES_DECISION = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_completed_focus = BAY_DESTROY_NORTH_GERMAN_MENACE
+		}
+		fire_only_once = yes
+		cost = 10
+		ai_will_do = {
+			factor = 20
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision BAY_KILL_NORTH_COMMIES_DECISION"
+			declare_war_on = {
+				target = NGF
+				type = annex_everything
+			}
+		}
+	}
+	BAY_KILL_PRUSSIA_DECISION = {
+		icon = generic_prepare_civil_war
+		visible = {
+			has_completed_focus = BAY_DESTROY_NORTH_GERMAN_MENACE
+		}
+		fire_only_once = yes
+		cost = 10
+		ai_will_do = {
+			factor = 20
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision BAY_KILL_PRUSSIA_DECISION"
+			declare_war_on = {
+				target = DDR
+				type = annex_everything
+			}
+		}
+	}
+	BAY_KILLING_COMMUNARDS_DECISION = { ##ALSO NEED TO ADD CROWNING OF RUPPHERECTS SON 
+		icon = generic_prepare_civil_war
+		visible = {
+			has_completed_focus = BAY_KILLING_THE_COMMUNARDS
+		}
+		fire_only_once = yes
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision BAY_KILLING_COMMUNARDS_DECISION"
+			declare_war_on = {
+				target = FRA
+				type = annex_everything
+			}
+		}
+	}
+	BAY_CROWN_ALBRECHT_KING_DECISION = {
+		icon = crown
+		visible = {
+			has_completed_focus = BAY_KILLING_COMMUNARDS_DECISION
+		}
+		available = {
+			FRP = {
+				is_puppet_of = BAY
+			}
+		}
+		fire_only_once = yes
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision BAY_CROWN_ALBRECHT_KING_DECISION"
+			set_cosmetic_tag = FRP_BAY_PUPPET
+			set_politics = {
+				ruling_party = paternal_autocrat
+				elections_allowed = no
+				last_election = 1936.1.1
+				election_frequency = 48
+			}
+			create_country_leader = {
+				name = "Albrecht I"
+				desc = POLITICS
+				picture = "FRP_ALBRECHT_BAVARIA"
+				expire = 1965.1.1
+				ideology = paternal_autocrat_subtype
+				traits = {
 				}
 			}
 		}

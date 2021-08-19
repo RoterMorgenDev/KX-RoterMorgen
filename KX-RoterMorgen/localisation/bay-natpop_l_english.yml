@@ -160,6 +160,14 @@ BAY_SOUTH_GERMAN_KINGDOM_ADJ:0 "South German"
 HUN_bay_puppet:0 "Danubian Occupation Zone"
 HUN_bay_puppet_def:0 "the Danubian Occupation Zone"
 HUN_bay_puppet_ADJ:0 "Danubian"
+
+WGR_KRUPP_COLLAPSE:0 "Rhenish Zone"
+WGR_KRUPP_COLLAPSE_def:0 "the Rhenish Free Economic Zone"
+WGR_KRUPP_COLLAPSE_ADJ:0 "Rhenish"
+
+NGF_STRASSER_COLLAPSE:0 "National German Union"
+NGF_STRASSER_COLLAPSE_def:0 "the National Peoples German Union State"
+NGF_STRASSER_COLLAPSE_ADJ:0 "German"
 ###TOOLTIPS###
 
 BAY_NEW_SOUTHERN_GERMANY:0 "§CWe have stabilized our Kingdom against the Internal Threats of the Socialists and Democrats! Long Live Bavaria! Long Live Ruppherect!§"
