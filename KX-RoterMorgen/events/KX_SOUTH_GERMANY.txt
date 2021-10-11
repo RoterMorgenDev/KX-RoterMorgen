@@ -17,14 +17,14 @@ country_event = { #north germann collapse
         }
     }
     mean_time_to_happen = {
-        days = 3
+        days = 1
     }
     option = {
         name = northgermanypacified.1.a
-        custom_effect_tooltip = BAY_TROLL
+        custom_effect_tooltip = BAY_collapse
         hidden_effect = {
             add_state_claim = 55
-            add_State_claim = 42
+            add_state_claim = 42
             transfer_state = 55
             transfer_state = 42
             SAX = {
