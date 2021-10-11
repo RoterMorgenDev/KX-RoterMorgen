@@ -894,7 +894,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = BAY_NATPOP_FRANCONIAN_EMPIRE  }
 	}
-	focus = {
+	focus = { #this isnt finished 
 		id = BAY_NATPOP_RETAKE_ASIAN_COLONIES
 		icon = BAY_ASIAN_COLONIES
 		relative_position_id = BAY_NATPOP_FRANKISH_AMBITION
@@ -1182,6 +1182,9 @@ focus_tree = {
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus BAY_NATPOP_RECLAIM_FORMER_IMPERIAL_LANDS"
 			unlock_decision_tooltip	= BAY_GERMAN_FP
+		}
+		prerequisite = {
+			focus = BAY_NATPOP_UNITE_GERMANY
 		}
 	}
 	focus = {
