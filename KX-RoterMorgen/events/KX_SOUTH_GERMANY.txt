@@ -7,7 +7,9 @@ country_event = { #north germann collapse
     title = northgermanypacified.1.t
     desc = northgermanypacified.1.d
     trigger = {
-        has_completed_focus = BAY_NATPOP_SOUTH_GERMAN_AMBITION
+	BAY = {
+        	has_completed_focus = BAY_NATPOP_SOUTH_GERMAN_AMBITION
+	}
         NOT = {
             country_exists = DDR
             country_exists = WGR
