@@ -12,19 +12,9 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_FUNREAL"
-			hidden_effect = {
-				set_cosmetic_tag = GRU_GERMANIC_REICH
-				set_party_name = {
-						ideology = national_populist
-						long_name = NSDAF_PARTY_LONG
-						name = NSDAF_PARTY
+			country_event = {
+				id = rotf.7
 				}
-				set_party_name = {
-						ideology = paternal_autocrat
-						long_name = NSDAF_PARTY_LONG
-						name = NSDAF_PARTY
-				}
-			}
 		}
 	}
 	#STATE
@@ -37,6 +27,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_UNIFY_MILITIAS"
+			add_ideas = GRU_SA
 		}
 		prerequisite = { focus = NATSOC_FUNREAL  }
 	}
@@ -49,6 +40,8 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ESTABLISH_GESTAPA"
+			create_intelligence_agency = yes
+			add_ideas = GRU_GESTAPA
 		}
 		prerequisite = { focus = NATSOC_UNIFY_MILITIAS  }
 	}
@@ -62,6 +55,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ESTABLISH_SS"
+			add_ideas = GRU_SS
 		}
 		prerequisite = { focus = NATSOC_UNIFY_MILITIAS  }
 	}
@@ -75,6 +69,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ESTABLISH_THE_CAMPS"
+			add_ideas = GRU_camp
 		}
 		prerequisite = { focus = NATSOC_ESTABLISH_SS  }
 	}
@@ -88,6 +83,12 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_FOUND_SD"
+			swap_ideas = {
+							remove_idea = GRU_SS
+							add_idea = GRU_SS_TWO
+						}
+			add_political_power = 25
+			add_stability = 0.05
 		}
 		prerequisite = { focus = NATSOC_ESTABLISH_GESTAPA  }
 		prerequisite = { focus = NATSOC_ESTABLISH_SS  }
@@ -102,6 +103,44 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ROOT_OUT_RESISTANCE"
+			kill_ideology_leader = social_democrat
+			kill_ideology_leader = radical_socialist
+			kill_ideology_leader = syndicalist
+			kill_ideology_leader = totalist
+			hidden_effect = {
+			kill_ideology_leader = social_democrat
+			kill_ideology_leader = radical_socialist
+			kill_ideology_leader = syndicalist
+			kill_ideology_leader = totalist
+			}
+			add_political_power = 25
+			add_stability = 0.10
+					if = {
+						limit = {
+							has_idea = WILHELM_III_GRU
+						}
+						add_popularity = {
+							ideology = national_populist
+							popularity = 0.15
+						}
+						add_popularity = {
+							ideology = paternal_autocrat
+							popularity = 0.45
+						}
+					}
+					if = {
+						limit = {
+							has_idea = GRU_AUWI_I
+						}
+						add_popularity = {
+							ideology = national_populist
+							popularity = 0.35
+						}
+						add_popularity = {
+							ideology = paternal_autocrat
+							popularity = 0.25
+						}
+					}
 		}
 		prerequisite = { focus = NATSOC_ESTABLISH_GESTAPA  }
 	}
@@ -115,6 +154,15 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_THULE_SOCIETY"
+			add_popularity = {
+							ideology = national_populist
+							popularity = 0.05
+						}
+			add_popularity = {
+							ideology = paternal_autocrat
+							popularity = 0.10
+						}
+			add_political_power = 25
 		}
 		prerequisite = { focus = NATSOC_ROOT_OUT_RESISTANCE  }
 		prerequisite = { focus = NATSOC_FOUND_SD  }
@@ -129,6 +177,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_EUGENIC_SCIENCE"
+			add_ideas = GRU_EUGENIC
 		}
 		prerequisite = { focus = NATSOC_ESTABLISH_THE_CAMPS  }
 		prerequisite = { focus = NATSOC_FOUND_SD  }
@@ -143,6 +192,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_ROSENBERG_FUHRER"
+			add_political_power = 250
 		}
 		prerequisite = { focus = NATSOC_THULE_SOCIETY  }
 		prerequisite = { focus = NATSOC_EUGENIC_SCIENCE  }
@@ -158,6 +208,9 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_REBUILD_ECONOMY"
+			remove_ideas = GRU_RUINED_ECONOMY_TOALLY_BETTER
+			add_political_power = 50
+			add_stability = 0.05
 		}
 		prerequisite = { focus = NATSOC_FUNREAL  }
 	}
@@ -165,11 +218,46 @@ focus_tree = {
 		id = NATSOC_AGRARIAN_SUBSIDES
 		icon = NATSOC_AGRARIAN_SUBSIDES
 		relative_position_id = NATSOC_REBUILD_ECONOMY
-		x = 2
+		x = 0
 		y = 1
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_AGRARIAN_SUBSIDES"
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = industry
+			}
+			random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+			random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+						}
+			random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+						}
 		}
 		prerequisite = { focus = NATSOC_REBUILD_ECONOMY  }
 	}
@@ -177,35 +265,246 @@ focus_tree = {
 		id = NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES
 		icon = NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES
 		relative_position_id = NATSOC_REBUILD_ECONOMY
-		x = -2
+		x = 2
 		y = 1
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES"
+			add_resource = {
+							type = steel
+							amount = 17
+							state = 51
+						}
+					add_resource = {
+							type = steel
+							amount = 26
+							state = 781
+						}
+					add_resource = {
+							type = oil
+							amount = 13
+							state = 59
+						}
+					add_resource = {
+							type = aluminium
+							amount = 15
+							state = 54
+						}
+					add_resource = {
+							type = tungsten
+							amount = 15
+							state = 59
+						}
+					add_resource = {
+							type = chromium
+							amount = 15
+							state = 781
+						}
 		}
 		prerequisite = { focus = NATSOC_REBUILD_ECONOMY  }
 	}
 	focus = {
 		id = NATSOC_SYNTHETIC_OIL
-		icon = NATSOC_SYNTHETIC_OIL
+		icon = GFX_goal_basic_oil
 		relative_position_id = NATSOC_REBUILD_ECONOMY
-		x = -3
+		x = 2
 		y = 2
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_SYNTHETIC_OIL"
+			add_ideas = GRU_synthetic_oil_lover
 		}
 		prerequisite = { focus = NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES  }
 	}
 	focus = {
 		id = NATSOC_INVEST_IN_KEY_INDUSTRY
-		icon = NATSOC_INVEST_IN_KEY_INDUSTRY
+		icon = GFX_SRI_economy
 		relative_position_id = NATSOC_REBUILD_ECONOMY
-		x = 0
+		x = -2
 		y = 1
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_INVEST_IN_KEY_INDUSTRY"
+			random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = industrial_complex
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
 		}
 		prerequisite = { focus = NATSOC_REBUILD_ECONOMY  }
 	}
@@ -219,6 +518,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_CORPORATISM"
+			add_ideas = GRU_National_socialism_one
 		}
 		prerequisite = { focus = NATSOC_AGRARIAN_SUBSIDES  }
 		prerequisite = { focus = NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES  }
@@ -233,18 +533,337 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_RESTORE_MILITARY_INDUSTRIAL_COMPLEX"
+			random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
 		}
 		prerequisite = { focus = NATSOC_CORPORATISM  }
 	}
 	focus = {
 		id = NATSOC_GUIDE_THE_ECONOMY
-		icon = NATSOC_GUIDE_THE_ECONOMY
+		icon = GFX_goal_state_economy
 		relative_position_id = NATSOC_REBUILD_ECONOMY
 		x = -1
 		y = 3
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_GUIDE_THE_ECONOMY"
+			swap_ideas = {
+							remove_idea = GRU_National_socialism_one
+							add_idea = GRU_National_socialism_two
+						}
 		}
 		prerequisite = { focus = NATSOC_CORPORATISM  }
 	}
@@ -257,6 +876,10 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_NATSOC_ECONOMICS"
+			swap_ideas = {
+							remove_idea = GRU_National_socialism_two
+							add_idea = GRU_National_socialism_three
+						}
 		}
 		prerequisite = { focus = NATSOC_RESTORE_MILITARY_INDUSTRIAL_COMPLEX  }
 		prerequisite = { focus = NATSOC_GUIDE_THE_ECONOMY  }
@@ -265,19 +888,19 @@ focus_tree = {
 	#SPECIAL
 	focus = {
 		id = NATSOC_SdPrjAbtl
-		icon = NATSOC_SdPrjAbtl
-		relative_position_id = NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES
+		icon = GFX_GRU_mfsp-3973
+		relative_position_id = NATSOC_INVEST_IN_KEY_INDUSTRY
 		x = -4
 		y = 1
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_SdPrjAbtl"
 		}
-		prerequisite = { focus = NATSOC_EXPAND_STATE_RESSOURCE_COMPANIES  }
+		prerequisite = { focus = NATSOC_INVEST_IN_KEY_INDUSTRY  }
 	}
 	focus = {
 		id = NATSOC_BREITSPURBAHNEN
-		icon = NATSOC_BREITSPURBAHNEN
+		icon = GFX_GRU_breitspurbahnen-3974
 		relative_position_id = NATSOC_SdPrjAbtl
 		x = -2
 		y = 1
@@ -289,7 +912,7 @@ focus_tree = {
 	}
 	focus = {
 		id = NATSOC_ROCKETS
-		icon = NATSOC_ROCKETS
+		icon = GRU_SPZ_PFEIL
 		relative_position_id = NATSOC_SdPrjAbtl
 		x = 0
 		y = 1
@@ -313,19 +936,271 @@ focus_tree = {
 	}
 	focus = {
 		id = NATSOC_AUTOBAHN
-		icon = NATSOC_AUTOBAHN
+		icon = GRU_autobahnen_focus
 		relative_position_id = NATSOC_SdPrjAbtl
 		x = -1
 		y = 2
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_AUTOBAHN"
+			random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_state = {
+							limit = {
+									free_building_slots = {
+											building = infrastructure
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_building_construction = {
+									type = infrastructure
+									level = 2
+									instant_build = yes
+								}
+						}
 		}
 		prerequisite = { focus = NATSOC_SdPrjAbtl  }
 	}
 	focus = {
 		id = NATSOC_HYDRO_ENERGY
-		icon = NATSOC_HYDRO_ENERGY
+		icon = GFX_GRU_hydroelectric_power-4048
 		relative_position_id = NATSOC_SdPrjAbtl
 		x = 2
 		y = 1
@@ -346,6 +1221,15 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_FOR_THE_GERMAN_PEOPLE"
+			add_popularity = {
+							ideology = national_populist
+							popularity = 0.07
+						}
+			add_popularity = {
+							ideology = paternal_autocrat
+							popularity = 0.07
+						}
+			add_political_power = 25
 		}
 		prerequisite = { focus = NATSOC_FUNREAL  }
 	}
@@ -358,6 +1242,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_FOUND_DRJ"
+			add_ideas = GRU_DRJ
 		}
 		prerequisite = { focus = NATSOC_FOR_THE_GERMAN_PEOPLE  }
 	}
@@ -370,6 +1255,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_TRADITIONAL_FAMILY"
+			add_ideas = GRU_TRADFAM
 		}
 		prerequisite = { focus = NATSOC_FOR_THE_GERMAN_PEOPLE  }
 	}
@@ -382,6 +1268,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_RAD"
+			add_ideas = GRU_RAD_ONE
 		}
 		prerequisite = { focus = NATSOC_FOUND_DRJ  }
 		prerequisite = { focus = NATSOC_TRADITIONAL_FAMILY  }
@@ -395,6 +1282,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_GOEBBELS_STUDIOS"
+			add_ideas = gru_nazi_cinema
 		}
 		prerequisite = { focus = NATSOC_FOUND_DRJ  }
 		prerequisite = { focus = NATSOC_TRADITIONAL_FAMILY  }
@@ -408,6 +1296,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_POSITIVE_CHRISTIANITY"
+			add_ideas = gru_pos_christ
 		}
 		prerequisite = { focus = NATSOC_FOUND_DRJ  }
 		prerequisite = { focus = NATSOC_TRADITIONAL_FAMILY  }
@@ -421,6 +1310,7 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_BLUT_UND_BODEN"
+			add_ideas = HYP_NATURE
 		}
 		prerequisite = { focus = NATSOC_POSITIVE_CHRISTIANITY  }
 		prerequisite = { focus = NATSOC_RAD  }
@@ -434,6 +1324,10 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_DAF"
+			swap_ideas = {
+							remove_idea = GRU_RAD_ONE
+							add_idea = GRU_RAD_TWO
+						}
 		}
 		prerequisite = { focus = NATSOC_GOEBBELS_STUDIOS  }
 		prerequisite = { focus = NATSOC_RAD  }
@@ -447,6 +1341,10 @@ focus_tree = {
 		cost = 6
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_LEBENSBORN"
+			swap_ideas = {
+							remove_idea = GRU_TRADFAM
+							add_idea = GRU_Lebensborn
+						}
 		}
 		prerequisite = { focus = NATSOC_BLUT_UND_BODEN  }
 		prerequisite = { focus = NATSOC_DAF  }
@@ -552,7 +1450,7 @@ focus_tree = {
 		id = NATSOC_CLAIM_EAST_GERMANIC_LANDS
 		icon = NATSOC_CLAIM_EAST_GERMANIC_LANDS
 		relative_position_id = NATSOC_FOREIGN_ACTIONS
-		x = -6
+		x = -2
 		y = 1
 		cost = 6
 		completion_reward = {
@@ -565,7 +1463,7 @@ focus_tree = {
 		id = NATSOC_CLAIM_WEST_GERMANIC_LANDS
 		icon = NATSOC_CLAIM_WEST_GERMANIC_LANDS
 		relative_position_id = NATSOC_FOREIGN_ACTIONS
-		x = -2
+		x = -6
 		y = 1
 		cost = 6
 		completion_reward = {
@@ -578,7 +1476,7 @@ focus_tree = {
 		id = NATSOC_CLAIM_SCANDINAVIA
 		icon = NATSOC_CLAIM_SCANDINAVIA
 		relative_position_id = NATSOC_FOREIGN_ACTIONS
-		x = -3
+		x = -5
 		y = 2
 		cost = 6
 		completion_reward = {
@@ -591,7 +1489,7 @@ focus_tree = {
 		id = NATSOC_CLAIM_THE_LEBENSRAUM
 		icon = NATSOC_CLAIM_THE_LEBENSRAUM
 		relative_position_id = NATSOC_FOREIGN_ACTIONS
-		x = -5
+		x = -3
 		y = 2
 		cost = 6
 		completion_reward = {
@@ -692,14 +1590,14 @@ focus_tree = {
 		prerequisite = { focus = NATSOC_START_MECHANIZATION_EFFORT  }
 	}
 	focus = {
-		id = NATSOC_SUPERIOR_FIREPOWER
-		icon = NATSOC_SUPERIOR_FIREPOWER
+		id = NATSOC_CONQUER_THE_LAND
+		icon = NATSOC_CONQUER_THE_LAND
 		relative_position_id = NATSOC_REARMAMENT
 		x = 5
 		y = 4
 		cost = 6
 		completion_reward = {
-			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_SUPERIOR_FIREPOWER"
+			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_CONQUER_THE_LAND"
 		}
 		prerequisite = { focus = NATSOC_PANZER  }
 		prerequisite = { focus = NATSOC_ARTILELRY_DEVELOPMENT  }
@@ -721,7 +1619,7 @@ focus_tree = {
 		id = NATSOC_BOMBER_DEVELOPMENT
 		icon = NATSOC_BOMBER_DEVELOPMENT
 		relative_position_id = NATSOC_REARMAMENT
-		x = -1
+		x = 1
 		y = 2
 		cost = 6
 		completion_reward = {
@@ -741,6 +1639,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_GERMANY_DOMINATE_THE_SKIES"
 		}
 		prerequisite = { focus = NATSOC_TRANSPORT_PLANES  }
+		prerequisite = { focus = NATSOC_FIGHTER_DEVELOPMENT  }
 		prerequisite = { focus = NATSOC_BOMBER_DEVELOPMENT  }
 	}
 	
@@ -755,7 +1654,6 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_TRANSPORT_PLANES"
 		}
 		prerequisite = { focus = NATSOC_BOMBER_DEVELOPMENT  }
-		prerequisite = { focus = NATSOC_FIGHTER_DEVELOPMENT  }
 	}
 	focus = {
 		id = NATSOC_FALLSCHIRM
@@ -774,7 +1672,7 @@ focus_tree = {
 		id = NATSOC_FIGHTER_DEVELOPMENT
 		icon = NATSOC_FIGHTER_DEVELOPMENT
 		relative_position_id = NATSOC_REARMAMENT
-		x = 1
+		x = -1
 		y = 2
 		cost = 6
 		completion_reward = {
@@ -861,7 +1759,7 @@ focus_tree = {
 			log = "[GetDateText]: [Root.GetName]: Focus NATSOC_CARRIER_DEVELOPMENT"
 		}
 		prerequisite = { focus = NATSOC_CAPITAL_SHIP_EFFORT  }
-		prerequisite = { focus = NATSOC_BOMBER_DEVELOPMENT  }
+		prerequisite = { focus = NATSOC_FIGHTER_DEVELOPMENT  }
 	}
 	
 	focus = {
@@ -876,7 +1774,7 @@ focus_tree = {
 		}
 		prerequisite = { focus = NATSOC_GERMANIA_RULE_THE_WAVES  }
 		prerequisite = { focus = NATSOC_GERMANY_DOMINATE_THE_SKIES  }
-		prerequisite = { focus = NATSOC_SUPERIOR_FIREPOWER  }
+		prerequisite = { focus = NATSOC_CONQUER_THE_LAND  }
 	}
 	
 	#WEHRMACHT

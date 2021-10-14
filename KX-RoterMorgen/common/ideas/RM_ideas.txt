@@ -2817,7 +2817,8 @@ ideas = {
 			}
 			removal_cost = -1
 			picture = natmarxdiplo
-		}			
+		}
+		
 		#rosenberg
 		
 		reactioanry_resistance_one = {
@@ -2839,7 +2840,201 @@ ideas = {
 			}
 		}
 		
+		WILHELM_III_GRU = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea WILHELM_III_GRU"}
+			picture = GRU_wilhelm_III
+			modifier = {
+				political_power_gain = 0.1
+				stability_weekly = 0.02
+			}
+		}
+		GRU_AUWI_I = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_AUWI_I"}
+			picture = GRU_AUWI_I
+			modifier = {
+				political_power_gain = 0.2
+				stability_weekly = 0.01
+			}
+		}
 		
+		
+		GRU_GESTAPA = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_GESTAPA"}
+			picture = GRU_GESTAPA
+			modifier = {
+				decryption_factor = 0.2
+				encryption_factor = 0.2
+				resistance_damage_to_garrison = -0.1
+				agency_upgrade_time = -0.2
+				special_forces_cap = 0.05
+				political_power_gain = 0.1
+				stability_factor = 0.1
+				operative_slot = 2
+				foreign_subversive_activites = -0.1
+			}
+		}
+		
+		GRU_DRJ = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_DRJ"}
+			picture = GRU_DRJ
+			modifier = {
+				war_support_factor = 0.1
+				training_time_factor = -0.1
+				conscription_factor = 0.06
+				army_morale_factor = 0.05
+			}
+		}
+		
+		GRU_SA = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_SA"}
+			picture = GRU_SA
+			modifier = {
+				political_power_gain = 0.1
+				conscription_factor = 0.03
+				stability_factor = 0.05
+			}
+		}
+		
+		GRU_SS = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_SS"}
+			picture = GRU_SS
+			modifier = {
+				army_morale_factor = 0.1
+				experience_gain_army_factor = 0.25
+				stability_factor = 0.10
+				political_power_gain = 0.05
+				land_reinforce_rate = 0.05
+				army_speed_factor = 0.03
+				war_support_factor = 0.2
+				encryption_factor = 0.05
+				local_intel_to_enemies = -0.1
+				army_org_Factor = 0.10
+				max_planning = 0.05
+				out_of_supply_factor = -0.2
+				army_core_attack_factor = 0.03
+				org_loss_when_moving = -0.15
+				local_manpower = 0.05
+				max_command_power = 25
+			}
+		}
+		GRU_SS_TWO = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_SS"}
+			picture = GRU_SS
+			modifier = {
+				army_morale_factor = 0.1
+				experience_gain_army_factor = 0.25
+				stability_factor = 0.10
+				political_power_gain = 0.05
+				land_reinforce_rate = 0.05
+				army_speed_factor = 0.03
+				war_support_factor = 0.2
+				encryption_factor = 0.05
+				local_intel_to_enemies = -0.1
+				army_org_Factor = 0.10
+				max_planning = 0.05
+				out_of_supply_factor = -0.2
+				army_core_attack_factor = 0.03
+				org_loss_when_moving = -0.15
+				local_manpower = 0.05
+				max_command_power = 25
+				foreign_subversive_activites = -0.1
+				resistance_damage_to_garrison = -0.1
+			}
+		}
+		GRU_camp = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_camp"}
+			picture = GRU_lager
+			modifier = {
+				industrial_capacity_factory = 0.1
+				recruitable_population_factor = -0.05
+			}
+		}
+		GRU_TRADFAM = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_TRADFAM"}
+			picture = GRU_family
+			modifier = {
+				stability_factor = 0.05
+				monthly_population = 0.025
+			}
+		}
+		GRU_Lebensborn= {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_Lebensborn"}
+			picture = GRU_Lebensborn
+			modifier = {
+				stability_factor = 0.10
+				monthly_population = 0.05
+			}
+		}
+		
+		GRU_EUGENIC= {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_EUGENIC"}
+			picture = GRU_EUGENIC
+			modifier = {
+				recruitable_population_factor = -0.02
+				monthly_population = 0.01
+				political_power_gain = 0.1
+			}
+		}
+		
+		GRU_synthetic_oil_lover = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_synthetic_oil_lover"}
+			modifier = {
+				fuel_gain_factor_from_states = 0.75
+				max_fuel_factor = 0.4
+				production_speed_synthetic_refinery_factor = 0.2
+			}
+			research_bonus = {
+				synth_resources = 0.2
+			}
+			picture = Oil
+		}	
+		gru_nazi_meth = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea gru_nazi_meth"}
+			picture = gru_meth
+			modifier = {
+				army_morale_factor = 0.1
+				experience_gain_army_factor = -0.15
+				stability_factor = 0.01
+				army_speed_factor = 0.03
+				war_support_factor = 0.2
+				out_of_supply_factor = 0.1
+			}
+		}
+		gru_pos_christ = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea gru_pos_christ"}
+			picture = gru_pos_christ
+			modifier = {
+				political_power_gain = 0.05
+			}
+		}
+		gru_nazi_cinema = {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea gru_nazi_cinema"}
+			picture = gru_nazi_cinema
+			modifier = {
+				stability_factor = 0.01
+			}
+		}
+		GRU_RAD_ONE= {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_RAD_ONE"}
+			picture = GRU_RAD_ONE
+			modifier = {
+				production_speed_industrial_complex_factor = 0.07
+				production_speed_dockyard_factor = 0.07
+				production_speed_arms_factory_factor = 0.07
+				industry_repair_factor = 0.10
+			}
+		}	
+		GRU_RAD_TWO= {
+			on_add = { log = "[GetDateText]: [Root.GetName]: add idea GRU_RAD_TWO"}
+			picture = GRU_RAD_TWO
+			modifier = {
+				production_speed_industrial_complex_factor = 0.07
+				production_speed_dockyard_factor = 0.07
+				production_speed_arms_factory_factor = 0.07
+				industry_repair_factor = 0.10
+				stability_factor = 0.04
+			}
+		}
 		
 	}
 	

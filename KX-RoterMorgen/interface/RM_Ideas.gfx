@@ -720,4 +720,49 @@ spriteTypes = {
 		name = "GFX_idea_GRU_REACTIONARY_RESISTANCE"
 		texturefile = "gfx/interface/ideas/GRU/reactionary_resistance.tga"
 	}
+	
+	
+	spriteType = {
+		name = "GFX_idea_GRU_wilhelm_III"
+		texturefile = "gfx/interface/ideas/GRU/figurehead_wilhelm_III.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_AUWI_I"
+		texturefile = "gfx/interface/ideas/GRU/figurehead_AUWI_I.tga"
+	}
+	
+	spriteType = {
+        name = "GFX_ideology_national_socialist_subtype"
+        texturefile = "gfx/interface/ideologies/natsoc_ideology.dds"
+    }
+	
+	
+	spriteType = {
+		name = "GFX_idea_GRU_EUGENIC"
+		texturefile = "gfx/interface/ideas/GRU/EUGENICS_ICON.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_SS_TWO"
+		texturefile = "gfx/interface/ideas/GRU/SS_icon.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_SS"
+		texturefile = "gfx/interface/ideas/GRU/SS_icon.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_SA"
+		texturefile = "gfx/interface/ideas/GRU/SA_icon.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_DRJ"
+		texturefile = "gfx/interface/ideas/GRU/DRJ_icon.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_GESTAPA"
+		texturefile = "gfx/interface/ideas/GRU/GESTAPA_ICON.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRU_Lebensborn"
+		texturefile = "gfx/interface/ideas/GRU/lebensborn_icon.tga"
+	}
 }

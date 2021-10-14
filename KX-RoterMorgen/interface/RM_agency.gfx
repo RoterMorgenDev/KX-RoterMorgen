@@ -21,4 +21,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/operatives/agencies/agency_logo_KX_RM_DAD.dds"
 		noOfFrames = 2
 	}	
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_RM_GRU_FIVE"
+		texturefile = "gfx/interface/operatives/agencies/agency_logo_KX_RM_GESTAPA.dds"
+		noOfFrames = 2
+	}	
 }

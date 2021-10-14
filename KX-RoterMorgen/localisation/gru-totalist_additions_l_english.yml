@@ -397,9 +397,30 @@ rotf.6.t:0 "His last will"
 rotf.6.d:0 "After three days of painful suffering with the limited medical help that could be obtained for Goebbels and endles stressfull talks he held with the leaders of all the factions that had followed him Goebbels had made a decision for whom would step int ohis footsteps, he did not take this decision lightly as he knew someoen with the iron teuton will of the old germanic tribesmen and the intelelct of an academic was needed to hold together what he would die for.\n\n He annoucned to everyone that his successor would be Alfred Rosnberg despite having palyed a rather insignificant role he was ideologically close to goebbels and had all the traits Goebbels had searched among his fellowship.\n Everyone hailed Goebbels and Rosenberg just a mere minutes before Goebbels finally was able to rest forever...."
 rotf.6.a:0 "I see you in Valhalla dear Josef"
 
+
+rotf.7.t:0 "Funeral of a Martyr"
+rotf.7.d:0 "It might not have been the best parade but it definitely has been one of the largest in recent years, several nationalistic militias, remnants of the Reichswehr and those that had already followed Goebbels during the revolution marched through Berlin; the city which had taken heavy damage during the counter revolution had been hasty cleansed for the event.\nRosenberg who had been appointed by Goebbels as his successor marched at the front of the parade until they reached plaza infront of the Reichstag were he would be laid to rest and honoured for saving Germany from the threat of anarchism and syndicalism; Even the Kaisers youngest son August Wilhelm von Hohenzollern who had been in contact with Rosenberg in the last years did hold a small speech…."
+rotf.7.a:0 "...Germany shall live on!"
+
+rotf.8.t:0 "The new Germany"
+rotf.8.d:0 "Right after Goebbels corpse had been laid in the earth, Rosenberg did hold a speech in front of the masses, speaking about the future of Germany which he would design as the leader of this still unstable government he swayed the masses quickly to his vision for a new Germany, a Germany that would stand against the world, Rosenberg had been a member of the Thule Organisation and other rather secretive pan-germanist and nationalistic groups whichs influence had shaped his current views which he describes as a form National Socialism.\nHe proclaimed that all parties would be banned and a new national movement the NSDAF would replace the concept of the party, a single party or movement would lead Germany with him as it’s Führer, a step he explained needed as jewish tools like democratization and syndicalist ideas had lead to the downfall of the Monarchy in the first place.\nHe ended his speech with shouting ‘Sieg Heil’ to the masses which replied with ‘Heil dem Führer’ again followed by Rosenberg screaming ‘Sieg’ to which the masses answered his call with.."
+rotf.8.a:0 "Heil!"
+
+
+
+rotf.500.t:0 "The Imperials"
+rotf.500.d:0 "There remains a question to be answered, the question of the Monarchy. Without the help of the Imperial remnants scattered across Germany we would never have succeeded in removing the Syndicalist and anarchist scum from Germany and they made their demands for Imperial restoration clear, of course we would never hand actual power to the crown again yet we must decide who will inherit it. Wilhelm first son of the Kaiser would be the legitimate successor yet his fame and ties to the imperial army remnants would undermine our own power and grant him actual influence, his youngest brother August Wilhelm on the other hand has already expressed great interest in our Nationalsocialist movement and joined one of our party aligned militias….\nOn the other hand we could simply decide to fully abolish the monarchy one and for all."
+rotf.500.a:0 "Heil Wilhelm III, the Legitimate"
+rotf.500.b:0 "Heil August Wilhelm, the Loyal"
+rotf.500.c:0 "Forget it! We rule alone!"
+
 GRU_REACTIONARY_COUP_GOV:0 "Notstandsregierung Deutschland"
 
 GRU_GERMANIC_REICH:0 "Germanisches Reich"
+
+ACIDWAFFEN:0 "ACIDWAFFEN Division"
+
+GRU_GOTHEN_REICH:0 "Groß Gotisches Reich"
 
 NSDAF_PARTY:0 "NSDAF"
 NSDAF_PARTY_LONG:0 "National Soziale Deutsche Arbeiter Front"
@@ -412,6 +433,105 @@ GRU_FAUD_reactionary_dead:0 "Reactionaries have been dealt with."
 
 reactionary_fought_once:0 "Is fighting the reactionaries."
 
+
+
+
+GRU_ROSENBERG_IS_HUNGRY:0 "Rosenberg Is hungry"
+GRU_ROSENBERG_IS_HUNGRY_desc:0 "Rosenberg is very hungry and should do something about it soon..."
+ROSENBERG_MAKES_A_SANDWHICH:0 "Make a Sandwhich"
+PUT_BACON_ON_THE_SANDWHICH:0 "Put bacon on the Sandwhich"
+REMOVE_BACON_FROM_THE_SANDWHICH:0 "Remove the bacon again"
+
+PUT_LETTUCE_ON_THE_SANDWHICH:0 "Put lettuce on the Sandwhich"
+REMOVE_LETTUCE_FROM_THE_SANDWHICH:0 "Remove the lettuce again"
+
+PUT_CHICKEN_ON_THE_SANDWHICH:0 "Put chicken on the Sandwhich"
+REMOVE_CHICKEN_FROM_THE_SANDWHICH:0 "Remove the chicken again"
+
+PUT_TOMATO_ON_THE_SANDWHICH:0 "Put tomato on the Sandwhich"
+REMOVE_TOMATO_FROM_THE_SANDWHICH:0 "Remove the tomato again"
+
+PUT_PICKLE_ON_THE_SANDWHICH:0 "Put pickles on the Sandwhich"
+REMOVE_PICKLE_FROM_THE_SANDWHICH:0 "Remove the pickles again"
+
+PUT_CHEESE_ON_THE_SANDWHICH:0 "Put cheese on the Sandwhich"
+REMOVE_CHEESE_FROM_THE_SANDWHICH:0 "Remove the cheese again"
+
+PUT_TUNA_ON_THE_SANDWHICH:0 "Put tuna on the Sandwhich"
+REMOVE_TUNA_FROM_THE_SANDWHICH:0 "Remove the tuna again"
+
+PUT_STEAK_ON_THE_SANDWHICH:0 "Put steak on the Sandwhich"
+REMOVE_STEAK_FROM_THE_SANDWHICH:0 "Remove the steak again"
+
+PUT_MAYO_ON_THE_SANDWHICH:0 "Put mayo on the Sandwhich"
+REMOVE_MAYO_FROM_THE_SANDWHICH:0 "Remove the mayo again"
+
+PUT_PEPPERONI_ON_THE_SANDWHICH:0 "Put pepperoni on the Sandwhich"
+REMOVE_PEPPERONI_FROM_THE_SANDWHICH:0 "Remove the pepperoni again"
+
+PUT_SALAMI_ON_THE_SANDWHICH:0 "Put salami on the Sandwhich"
+REMOVE_SALAMI_FROM_THE_SANDWHICH:0 "Remove the salami again"
+
+PUT_BUTTER_ON_THE_SANDWHICH:0 "Put butter on the Sandwhich"
+REMOVE_BUTTER_FROM_THE_SANDWHICH:0 "Remove the butter again"
+
+PUT_BUTTER_ON_THE_SANDWHICH:0 "Put butter on the Sandwhich"
+REMOVE_BUTTER_FROM_THE_SANDWHICH:0 "Remove the butter again"
+
+FINISH_THE_SANDWHICH:0 "Finish the Sandwhich"
+
+ROSENBERGS_HUNGER:0 "Rosenbergs growing Hunger"
+ROSENBERGS_HUNGER_desc:0 "If no food is supplied in time horrible things might happen."
+
+GRU_NAZI_rule_ROSE:0 "Rosenberg is in charge."
+SANDWHICH_IS_DONE:0 "The Sandwhich is done"
+is_making_a_sandwhich:0 "is making the Sandwhich"
+failed_to_make_sandwhich:0 "did fail to make a sandwhich"
+BUTTER_on_sandwhich:0 "there is butter on the Sandwhich"
+MAYO_on_sandwhich:0 "there is mayo on the Sandwhich"
+SALAMI_on_sandwhich:0 "there is salami on the Sandwhich"
+PEPPERONI_on_sandwhich:0 "there is pepeproni on the Sandwhich"
+STEAK_on_sandwhich:0 "there is steak on the Sandwhich"
+TUNA_on_sandwhich:0 "there is tuna on the Sandwhich"
+CHEESE_on_sandwhich:0 "there is cheese on the Sandwhich"
+PICKLE_on_sandwhich:0 "there is pickles on the Sandwhich"
+TOMATO_on_sandwhich:0 "there is tomato on the Sandwhich"
+bacon_on_sandwhich:0 "there is bacon on the Sandwhich"
+LETTUCE_on_sandwhich:0 "there is lettuce on the Sandwhich"
+CHICKEN_on_sandwhich:0 "there is chicken on the Sandwhich"
+
+GRU_ROSENBERG_LEADER_DESC:0 "Alfred Rosenberg is the Führer of all PLACEHOLDER LAND TEXT :D"
+GRU_WILHELM_III_DESC:0 "The Brown Kaiser"
+
+WILHELM_III_GRU:0 "Kaiser Wilhelm III"
+GRU_AUWI_I:0 "Kaiser August Wilhelm I"
+
+
+national_socialist_subtype:0 "§RNationalsocialism§!"
+national_socialist_subtype_desc:0 "§RNationalsocialism§! is a totalitarian and fouriously nationalistic ideology developed by Alfred Rosenberg.\nIt's key elements are centred around national rebirth, Germanic supremacism, imperialism as well as corporatist economics paired with a social welfare system aiming to help those in real need while applying social darwinism on those elements of society that only harm the 'Volksgesundheit'.\n\nFurther it embraces neo-pagan religious views and ecologist stances due to it's §RBlood§! and §GSoil§! doctrine."
+
+
+
+NATSOC_FUNREAL:0 "From the Ashes"
+NATSOC_FUNREAL_desc:0 "Paul Joseph Goebbels had lead us against the degenerate hordes that ahd taken hold of Germany despite his role in the prior revolution he rallied all thsoe that wanted to save Germany to remove Rocker and his despicable FAUD minions, sadly he will not witness the rebirth of Germany as he had been mortally wounded during the battles; Now we shall honour him with a funeral worthy a true Führer of the people."
+
+
+rotf.40.t:0 "Treason of the Highest Order"
+rotf.40.d:0 "Rosenberg screamed. He yelled. He shouted.\n5 days. 5 days he had waited for his sandwich to be made, yet the chef hadn't done anything. After rushing to him in a rage, he began raving and ranting at him.\n'HOW DARE YOU TAKE THAT LONG TO MAKE A GODDAMN SANDWHICH!? I GAVE YOU EXTREMELY SIMPLE INSTRUCTIONS YET YOU IGNORED ALL OF THEM! EXPLAIN YOURSELF!'\n'Sir, I-I tried doing everything that I could...', began the man, trying to come up with a reason as to why it had taken him so long, 'b-but the ingredients were not delivered on time and I-'\n'YOU WHAT!?', began Rosenberg, cutting off the man, 'Oh, I know what's going on here. You're a JEW! You were waiting for your filthy Jewish POISON to arrive so you could put it in my food and assassinate me!'\n'SIR, THAT'S NOT-', began the man before being instantly cut off.\n'That's it! I will not tolerate this any longer!' said Rosenberg, before ordering that the man be taken off and shot."
+rotf.40.a:0 "We must root out the Jewish menace out of every faucet of German society, even the kitchens!"
+
+rotf.41.t:0 "The Greatest Sandwich in the Whole World"
+rotf.41.d:0 "Rosenberg had waited and waited and waited. Minutes, hours, DAYS had gone by... but in the end, his masterpiece was finally ready.\nAfter the food was thoroughly tested to make sure that there was no poison in it and that it was safe for Rosenberg to eat it, his butler had finally delivered it to him, placing it on his plate. Little did Rosenberg know, but this sandwich would change his life forever.\nAs he slowly lifted it up to his mouth, he thought to himself "What if it's not good enough? What if it's bad?", but all of those thought instantly disappeared once he took the first bite. The sandwich was beyond amazing. Its taste was indescribable, everything about it was, to put it simply, perfect.\nAfter he finished it, making sure to take as much time as he needed and to thoroughly enjoy his meal, Rosenberg immediately went to the chef who had made it, to congratulate him and to give him a pay raise."
+rotf.41.a:0 "Truly, a marvel of German gastronomy."
+
+rotf.42.t:0 "The Greatest Sandwich in the Whole World"
+rotf.42.d:0 "Rosenberg had waited and waited and waited. Minutes, hours, DAYS had gone by... but in the end, his masterpiece was finally ready.\nAfter the food was thoroughly tested to make sure that there was no poison in it and that it was safe for Rosenberg to eat it, his butler had finally delivered it to him, placing it on his plate. Little did Rosenberg know, but this sandwich would change his life forever.\nAs he slowly lifted it up to his mouth, he thought to himself "What if it's not good enough? What if it's bad?", but all of those thought instantly disappeared once he took the first bite. The sandwich was beyond amazing. Its taste was indescribable, everything about it was, to put it simply, perfect.\nAfter he finished it, making sure to take as much time as he needed and to thoroughly enjoy his meal, Rosenberg immediately went to the chef who had made it, to congratulate him and to give him a pay raise.\n\nAnd while he was on his way, he wondered to himself why those filthy Jews didn't eat bacon, after all, it was delicious!"
+rotf.42.a:0 "Truly, a marvel of German gastronomy."
+
+
+rotf.43.t:0 "Two Pieces of Bread"
+rotf.43.d:0 "Rosenberg had been waiting so long for his master chef to deliver him the tastiest, most aryan meal ever created. A sandwhich of the highest caliber. Finally, on the fifth day the sandwhich was brought to him.\n'What the fuck is this? This isn't a sandwhich. This is two fucking pieces of bread.'\nWith fury and rage Rosenberg made his way to the fuhrerkitchen, each grumble of his stomach furthering his rage. When he found the Head Chef, he almost lept at him.\n'You lecherous jew! How dare you feed me two fucking pieces of bread after I give you FIVE WHOLE DAYS to create a perfect sandwich. I ought to have you shot!'\nThe Head Chef despite the threats remained calm, simply putting:\n'Perfection is not when one can add anything more, but rather when one cannot take anything else away. Mine Fuhrer, I beg of you, bite into the meal I have prepared for you. If you do not find it to your satisfaction, then I will take my own life'\nRosenberg reluctantly grabbed the two firm yet soft pieces of bread, white bread, as white and as soft as the skin of a noble aryan woman. He bit into it. It brough almost a tear to his eye. Something so simple, yet so flavorful, so tasty, so perfect.\nThe man was promptly thanked for his efforts, for this grand enlightenment of the noble aryan meal. He was given a Aryan Cross for his efforts, as a true hero to the nation, and to the Fuhrer."
+rotf.43.a:0 "I tasted an Angel and it was Godly"
 #################
 ########!!!!HEY CHUNGUS!!!! IF YOU READ THIS! I advise you to se tsome form of mark inside this exclamated text for yourself when you finished a block :D MAybe JUST REMOVE THIS ANNOYING TEXT THAT WILL NOW BE AT THE BOTTOM OF EACH BLOCK#########
 #################

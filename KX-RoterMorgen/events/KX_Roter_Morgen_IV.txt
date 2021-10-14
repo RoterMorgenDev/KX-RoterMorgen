@@ -126,11 +126,6 @@ country_event = { #
 		create_bavaria = yes
 		create_rhenish_state = yes
 		create_north_german_state = yes
-			BAY = {
-				add_ideas = BAY_LEFT_RESISTANCE
-				add_ideas = BAY_MEMORIES_OF_GERMANY
-				load_focus_tree = BAY_TREE
-			}
 			GER = {
 				transfer_units_fraction= {
 					target = WGR
