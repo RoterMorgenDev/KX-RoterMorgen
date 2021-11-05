@@ -203,6 +203,11 @@ country_event = { #
 				transfer_state = 281
 				transfer_state = 710
 			}
+			BAY = {
+				add_ideas = BAY_LEFT_RESISTANCE	
+				add_ideas = BAY_MEMORIES_OF_GERMANY
+				load_focus_tree = BAY_TREE
+			}
 		}
 	}
 }
