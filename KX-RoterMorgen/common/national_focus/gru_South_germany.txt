@@ -1023,7 +1023,7 @@ focus_tree = {
 	}
 	focus = {
 		id = BAY_SECURING_OUR_KINGDOM
-		icon = BAY_SECURING_OUR_KINGDOM
+		icon = BAY_SECURING_KINGDOM
 		relative_position_id = BAY_NATPOP_SOUTH_GERMAN_AMBITION
 		x = 0
 		y = 3
